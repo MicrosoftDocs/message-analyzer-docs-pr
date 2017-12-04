@@ -1,0 +1,222 @@
+---
+title: "ETW Framework Conceptual Tutorial | Microsoft Docs"
+ms.custom: ""
+ms.date: "2016-10-26"
+ms.prod: "windows-server-threshold"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "networking"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 62842c8b-633d-4c6c-8d44-dcace1b22e70
+caps.latest.revision: 43
+author: "GregGill"
+ms.author: "greggill"
+manager: "ronstarr"
+---
+# ETW Framework Conceptual Tutorial
+This tutorial provides conceptual overviews of the underlying Event Tracing for Windows (ETW) framework upon which message/event capturing is based in Message Analyzer.  
+  
+## Architectural Overview  
+ As implemented in the Windows 7 and later operating systems, ETW is a high-speed tracing facility that uses kernel buffering and logging to provide a tracing mechanism for events that are raised by both user-mode applications and kernel-mode device drivers. These events are traced and logged via an ETW Session. The topics that follow provide overviews of the ETW framework and the architecture in which its components exist.  
+  
+### Event Instrumentation  
+ To enable a software component to report critical errors and other important events, it can be instrumented for ETW. If a software component is configured with event instrumentation for key errors and execution states, it can help you do the following:  
+  
+-   Reduce debugging time.  
+  
+-   Resolve performance problems.  
+  
+-   Monitor low-resource conditions or failures in software and hardware components.  
+  
+-   Pinpoint poorly performing components and services.  
+  
+-   Identify bottlenecks.  
+  
+ For a software component to report events, it must register with ETW as an event provider. To facilitate event reporting functionality, a provider configuration must be specified to define the event descriptions, data, and format. Thereafter, when the software component encounters an error condition or other important execution state that has been instrumented for ETW, the provider raises corresponding events. These events need to be recorded somewhere for further processing. In the ETW framework, the component to which provider events are initially written is called an ETW Session. In turn, an ETW Session delivers the event data live to a consumer or logs it for later processing and analysis.  
+  
+ ETW has a unified API that combines the processes of logging and writing trace events to consumers in a single convenient mechanism that easily accommodates event providers. In ETW, event trace sessions are not statically tied to providers, but rather, exist in different spaces to enable more dynamic and flexible trace and event management.  
+  
+ An ETW Controller starts and stops ETW Sessions and dynamically enables providers. This means that the ETW Controller can enable a group of providers for a session, disable some at a certain point, and then enable others later on. Also, because providers are separate from ETW Sessions that operate in the kernel, providers typically have no knowledge of the session to which their events are being logged. An important advantage of separating trace sessions and providers is that it makes tracing immune to application crashes and hangs, such that any events logged by a provider before a crash will be in kernel memory or in a trace file already. This ensures that events are not lost, which is very useful when you are debugging crashed applications.  
+  
+ The high-level components of the ETW session architecture are illustrated in the following figure. The functions of these components, along with the role of event definitions and manifests, are described thereafter.  
+  
+ ![ETW Session Architecture](../messageanalyzer_content/media/fig17-etw-session-architecture.gif "Fig17-ETW Session Architecture")  
+  
+ **Figure 17: ETW session architecture**  
+  
+ ___________________\_  
+  
+ **More Information**   
+ **To learn more** about how to configure certain parameters of an ETW session from Message Analyzer, see [Specifying Advanced ETW Session Configuration Settings](../messageanalyzer_content/specifying-advanced-etw-session-configuration-settings.md).  
+___________________\_  
+  
+<a name="BKMK_EvtDefinition"></a>   
+### Event Definition  
+ Trace events are written to the buffer configuration of an ETW Session. The contents of a trace event includes an event header and data that is defined and written by an event provider to describe the current state of an application or process. Every trace event is stamped with a provider ID and is assigned a structure called the Event Descriptor. Both of these data elements exist in the event header. The Event Descriptor defines standard event information with members such as the event Id, Version, Channel (target audience specifier), Level string, Opcode string, Task identifier, and a Keyword assignment value. Keywords are of noteworthy importance given that  each one consists of a unique numeric value that distinguishes a different event generated by an ETW Provider, which in turn can be selectively passed to an ETW consumer, as described in [System ETW Provider Event Configuration](../messageanalyzer_content/etw-framework-conceptual-tutorial.md#BKMK_SysETWProviderEventConfig) ahead.  
+  
+ The following type definition shows the above event information as fields in an EVENT_DESCRIPTOR structure:  
+  
+```  
+typedef struct EVENT_DESCRIPTOR {  
+    USHORT Id;  
+    UCHAR Version;  
+    UCHAR Channel;  
+    UCHAR Level;  
+    UCHAR Opcode;  
+    USHORT Task;  
+    ULONGLONG Keyword;  
+} EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR;  
+```  
+  
+ The Event Descriptor entries are initially specified in an event manifest that is usually written when a software component is instrumented for ETW. The headers for the trace events of an instrumented component are generated thereafter from the event manifest.  
+  
+> [!NOTE]
+>  When a trace event is logged to an ETW Session, ETW adds other data to the event header, which includes a timestamp, process and thread ID, processor number, and CPU usage data of the logging thread. This data is passed to the ETW Consumer along with the event descriptor information given by the provider. This additional data can be invaluable in trace analysis.  
+  
+<a name="BKMK_EventManifest"></a>   
+### Event Manifest  
+ An event manifest describes the ETW Provider and the data format in which its events are written so that ETW Consumers can process such event data. An event manifest is written in XML, in which the corresponding Event Descriptor information is specified in XML tags. Event manifests are included for all ETW Providers that are registered on your system.  
+  
+ Event manifests are usually written by developers when designing instrumentation for a software component. The Event Descriptor data items are specified in the event manifest, along with other event metadata and user information. Metadata fields are combined for each event and defined in an \<Event> tag that is uniquely associated with an event ID. Event layouts are specified with a \<Template> tag which describes user-specified context data for each event. The layout can specify data fields such as strings and integers, or other more complex data structures. Template information does not have to be specified for all events; however, if unspecified for a particular event, it will have no user context data. The following is a fragment of a hypothetical XML event manifest for an ETW Provider:  
+  
+```  
+  
+<provider name="Microsoft-Windows-Kernel-SomeComponent"   
+    guid="{70eb4f03-c1de-4f73-a051-33d13d5413bd}"   
+    symbol="SomeComponentProvGuid"  
+    resourceFileName="%SystemRoot%\System32\compapi32.dll"   
+    messageFileName="%SystemRoot%\System32\compapi32.dll">  
+  
+<channels>  
+    <channel name="Microsoft-Windows-Kernel-SomeComponent/Analytic"   
+        chid="ComponentEvents" symbol="COMP_Events" type="Analytic"   
+        isolation="System">Contains events for SomeComponent.</channel>  
+</channels>  
+  
+<opcodes>  
+    <opcode value="32" name="CreateComp" symbol="" />  
+    ...  
+</opcodes>  
+  
+<keywords>  
+    <keyword name="CompCreate" symbol="" mask="0x1000" />  
+    ...  
+</keywords>  
+  
+<templates>  
+    <template tid="tid_CompCreate">  
+      <data name="BaseObject" inType="win:Pointer"   
+         outType="win:HexInt64" />  
+      <data name="KeyObject" inType="win:Pointer"   
+          outType="win:HexInt64" />  
+      <data name="Status" inType="win:UInt32"   
+          outType="win:HexInt32" />  
+      <data name="RelativeName" inType="win:UnicodeString"   
+          outType="xs:string" />  
+    </template>  
+  </templates>  
+  
+<events>  
+    <event value="1" symbol="ETW_COMPONENT_EVENT_CREATE_OBJECT"   
+        template="tid_CompCreate" opcode="CreateComp"   
+        channel="ComponentEvents" level="win:Informational"   
+        keywords="CompCreate"   
+        message="$(string.component.compcreate)"/>  
+        ...  
+      </events>  
+  
+</provider>  
+```  
+  
+### ETW Provider  
+ An ETW Provider is the logical entity that raises events and writes them to an ETW Session. When a software component is being instrumented for ETW, an ETW Provider is created to specify the events it writes, which includes the definition of associated Event Descriptors and the maximum size of each event. The ETW Provider must also contain code that registers the provider with ETW when it is enabled and code that unregisters the provider when its execution is terminated. When the ETW Provider registers, it specifies a provider ID to ETW.  
+  
+ The following code example illustrates a simple ETW provider that writes one event:  
+  
+```  
+  
+#include <myevents.h>   // The header is generated from a manifest and   
+contains the provider Id and EVENT_DESCRIPTOR structure.  
+  
+REGHANDLE MyProvRegHandle;  
+ULONG MyInteger;  
+PWCHAR MyString;               // User-provided data item  
+ULONG MyStringLength;     // User-provided data item  
+EVENT_DESCRIPTOR DataDescriptor[2];  
+  
+// Register the ETW provider:  
+Status = EventRegister(&MyProviderId,     // ProviderId (GUID)  
+                NULL,     // Optional callback   
+                NULL,    	// Optional callback context  
+             &MyProvRegHandle);     // Registration handle  
+  
+// Construct a DataDescriptor and write an event with MyInteger and MyString:  
+EventDataDescCreate(&DataDescriptor[0],     // DataDescriptor  
+                    &MyInteger,     // Pointer to the data  
+                    sizeof(ULONG));     // Size of data  
+EventDataDescCreate(&DataDescriptor[1], &MyString, MyStringLength);  
+  
+// Invoke EventWrite:   
+Status = EventWrite(MyProvRegHandle,     // Registration handle  
+                MyEventDescriptor1,     // Header EVENT_DESCRIPTOR type  
+                DataDescriptor);     // DataDescriptor array  
+  
+// Unregister the ETW provider:  
+Status = EventUnregister(MyProvRegHandle);  
+  
+```  
+  
+ After the provider registers with ETW, an ETW Controller can then enable or disable event tracing in the provider. The provider usually defines its interpretation of being enabled or disabled in code. Generally, an enabled provider generates events, while a disabled provider does not. When the provider raises events, it invokes the ETW logging API to write the events for which the associated software component has been instrumented. The logging API then sends events to a specific ETW Session that is designated by the ETW Controller.  
+  
+ The two types of providers include the classic provider and manifest-based provider. Message Analyzer makes use of both of these provider types, but mostly manifest-based providers. Manifest-based providers define events in a .man file, while classic providers, such as those based on the managed object format (MOF), use a schema to define their events. Manifest-based providers employ the EventRegister method to register the provider and the EventWrite method to write provider events. By using a manifest, an ETW provider can define its events so that an ETW Consumer knows how to process them.  
+  
+### ETW Session  
+ An ETW Session provides an environment that accepts and buffers the events that are written by an ETW Provider. ETW Sessions typically create a trace file for logging the events and can also deliver the events in real-time to consumer applications such as the PEF Runtime, the output data of which is consumed by Message Analyzer. ETW Sessions are allocated a buffer pool to collect event data written by an ETW Provider. A separate write thread is invoked in the ETW Session to flush the buffer data to the ETW log file and ETW Consumer. See [Specifying Advanced ETW Session Configuration Settings](../messageanalyzer_content/specifying-advanced-etw-session-configuration-settings.md) for information about modifying these settings.  
+  
+<a name="BKMK_ETWController"></a>   
+### ETW Controller  
+ An ETW Controller is an application that performs the following tasks:  
+  
+-   Defines the size and location of the ETW log file.  
+  
+-   Starts and stops ETW Sessions.  
+  
+-   Enables providers so they can log events to the ETW Session.  
+  
+-   Manages the size of the buffer pool.  
+  
+-   Obtains execution statistics for ETW Sessions.  
+  
+ Session statistics include the number of buffers used, the number of buffers delivered, and the number of events and buffers lost.  
+  
+### ETW Consumer  
+ An ETW Consumer receives events from ETW Sessions in real time or from a log file. The ETW Consumer can select one or more ETW Sessions as a source of events. The ETW Consumer can also request events from multiple ETW Sessions simultaneously, although they will only be delivered in chronological order. When processing events, an ETW Consumer can also specify an event time frame such that only events occurring within a specific window of time will be delivered.  
+  
+ In the case of Message Analyzer, the PEF Runtime is the initial consumer of ETW events that are retrieved by PEF message providers and other system ETW Providers. Message Analyzer then consumes the PEF Runtime data to display log or trace results.  
+  
+### Microsoft PEF Message Providers  
+ Message Analyzer can capture messages through PEF drivers that have been instrumented as event providers for ETW, which includes the **Microsoft-PEF-NDIS-PacketCapture**, **Microsoft-PEF-WFP-MessageProvider**, and **Microsoft-PEF-WebProxy** providers. This instrumentation enables Message Analyzer to take advantage of the ETW infrastructure for collecting data, controlling sessions, configuring buffers, and passing event data to consumers. As a result, PEF message providers can deliver the ETW packets they capture as events from a well-defined and proven tracing environment. Message Analyzer enables you to use these events to debug protocol communications, applications, and processes, in addition to performance analysis.  
+  
+<a name="BKMK_SysETWProviderEventConfig"></a>   
+### System ETW Provider Event Configuration  
+ Message Analyzer can also use system ETW Providers to capture specific data from various Windows components or other applications that have been instrumented for ETW. In addition, you can configure system ETW Providers to filter for specific events of these components, as long as the provider specifies a **Keyword** bitmask and/or **Level** configuration. When a developer is coding a provider, he or she has the option to enhance its ETW instrumentation by assigning **Keyword** and **Level** definitions as 8-byte bitmask and 1-byte integer values, respectively. The **Level** value enables the provider to filter events based on their severity or verbosity, such as critical or informational events, while the **Keyword** value enables the provider to filter for events from specific subcomponents that have been instrumented for ETW tracing. When an ETW Controller enables a provider, it sends the provider's **Keyword** and **Level** specifications to the ETW Session so that the provider only captures the events that correspond to user-specified **Keywords**.  
+  
+ In Message Analyzer, you have the option of setting the **Keyword** and **Level** values of system ETW Providers for events that you want to capture, that is, if they provide such configuration options. When you start a trace, this causes the ETW Controller to enable the provider to trace only the events you specified from a particular subcomponent, specific events from several subcomponents, all events from all subcomponents, and so on.  
+  
+ In Message Analyzer, you can access the **Keyword** and **Level** configurations for system ETW Providers from the **ETW Core** tab of the **Advanced Settings** dialog for any message provider that is selected in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog. The **Advanced Settings** dialog for a provider displays when you click the **Configure** link to the right of the provider in the **ETW Providers** list.  
+  
+> [!NOTE]
+>  When you install Message Analyzer, it enumerates all system ETW Providers that are registered on your computer, organizes the providers into a searchable library, and thereafter enables you to access them from the ***Add Providers*** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog during Live Trace Session configuration.  
+  
+ ___________________\_  
+  
+ **More Information**   
+ **To learn more** about ETW providers, including how to create and register ETW providers and instrumentation manifests, see [Creating an ETW Provider](http://go.microsoft.com/fwlink/?LinkId=523814) on MSDN.  
+**To learn more** about generating ETW manifests with various tools, see [Generating a Provider Manifest](../messageanalyzer_content/generating-a-provider-manifest.md).  
+**To learn more** about configuring system ETW Providers, including how to specify event **Keyword** and **Level** settings, see [System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md).   
+___________________\_  
+  
+## See Also  
+ [Specifying Advanced ETW Session Configuration Settings](../messageanalyzer_content/specifying-advanced-etw-session-configuration-settings.md)
