@@ -41,10 +41,10 @@ The **Microsoft-PEF-NDIS-PacketCapture** filter driver is primarily used by the 
 -   **Wireless Local Area Network**  
   
 ## Provider Fast Filtering Configurations  
- The **Microsoft-PEF-NDIS-PacketCapture** driver also provides a filtering mechanism known as **Fast Filters**. These filters enable you to apply frame filtering based on offset length patterns (OLPs), MAC addresses (LinkLevelAddress), and IP addresses. Because **Fast Filters** operate at the driver level, they are typically very efficient and performant. However, a disadvantage of these filters is that you cannot recover any data that was filtered out of a Live Trace Session by a **Fast Filter**. **Fast Filters** for the **Microsoft-PEF-NDIS-PacketCapture** provider are described in [PEF-NDIS Fast Filters](../messageanalyzer_content/pef-ndis-fast-filters.md).  
+ The **Microsoft-PEF-NDIS-PacketCapture** driver also provides a filtering mechanism known as **Fast Filters**. These filters enable you to apply frame filtering based on offset length patterns (OLPs), MAC addresses (LinkLevelAddress), and IP addresses. Because **Fast Filters** operate at the driver level, they are typically very efficient and performant. However, a disadvantage of these filters is that you cannot recover any data that was filtered out of a Live Trace Session by a **Fast Filter**. **Fast Filters** for the **Microsoft-PEF-NDIS-PacketCapture** provider are described in [PEF-NDIS Fast Filters](pef-ndis-fast-filters.md).  
   
 > [!TIP]
->  One exception to recovering data that was previously filtered-out is when you have a Message Analyzer Data Retrieval Session in which a **Session Filter** was applied. In this case, after you load data into Message Analyzer with a **Session Filter** applied, you can reopen the session configuration and remove the existing **Session Filter** and then reload the data with no filtering applied,  as described in [Editing Existing Sessions](../messageanalyzer_content/editing-existing-sessions.md).  
+>  One exception to recovering data that was previously filtered-out is when you have a Message Analyzer Data Retrieval Session in which a **Session Filter** was applied. In this case, after you load data into Message Analyzer with a **Session Filter** applied, you can reopen the session configuration and remove the existing **Session Filter** and then reload the data with no filtering applied,  as described in [Editing Existing Sessions](editing-existing-sessions.md).  
   
  You can specify up to three **Fast Filters** in two logically chained Groups for any Live Trace Session that uses the **Microsoft-PEF-NDIS-PacketCapture** provider. Note that you can use up to four **Fast Filters** for Live Trace Sessions that use the **Microsoft-PEF-WFP-MessageProvider**. Frames that pass the **Fast Filter** criteria are delivered to the enabling ETW Session as events.  
   
@@ -56,16 +56,16 @@ The **Microsoft-PEF-NDIS-PacketCapture** filter driver is primarily used by the 
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring system ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md).  
+ **To learn more** about configuring system ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
 **To learn more** about configuring PEF providers, including setting **Fast Filters** for the **Microsoft-PEF-NDIS-PacketCapture** provider, see the following topics:   
-[Common Provider Configuration Settings  Summary](../messageanalyzer_content/common-provider-configuration-settings-summary.md)  
-[Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
-**To learn more** about the ETW session model, see the [ETW Framework Conceptual Tutorial](../messageanalyzer_content/etw-framework-conceptual-tutorial.md).   
+[Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md)  
+[Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
+**To learn more** about the ETW session model, see the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).   
 ___________________\_  
   
  <sup>1</sup> Computers that are running the Microsoft Windows 8 and Microsoft Windows Server 2012 64-bit operating systems use the Microsoft-PEF-NDIS-PacketCapture v6.3 provider. Computers running the Microsoft Windows 7 operating system or the 32-bit version of the Microsoft Windows 8 operating system use the Microsoft-PEF-NDIS-PacketCapture v6.0 provider. Computers running the Microsoft Windows 8.1, Windows Server 2012 R2, Windows 10, and later operating systems use the Microsoft-Windows-NDIS-PacketCapture (NDISCAP) provider only, which has remote capabilities.  
   
 ## See Also  
- [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md)   
- [Microsoft-PEF-WFP-MessageProvider](../messageanalyzer_content/microsoft-pef-wfp-messageprovider.md)   
- [Microsoft-PEF-WebProxy Provider](../messageanalyzer_content/microsoft-pef-webproxy-provider.md)
+ [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+ [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)   
+ [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)

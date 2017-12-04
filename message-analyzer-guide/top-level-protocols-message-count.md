@@ -20,7 +20,7 @@ The **Top Level Protocols Message Count** viewer **Layout** for **Charts** illus
  This **Layout** can provide an immediate indication of which modules or protocols are the highest bandwidth consumers, based on the associated message count and/or the relative percent volume with respect to total volume of messages. As such, this **Layout** provides an at-a-glance view of the distribution of message volume per module in a set of trace results.  
   
 > [!NOTE]
->  By double-clicking a bar element in this **Layout**, all messages in which the module is either a top-level message or part of message origins will display in a separate **Analysis Grid** viewer tab. Because all messages are displayed in a separate viewer tab as indicated, the message count in that viewer tab will differ from the **Total** message count specified in the **Top Level Protocols Message Count** viewer **Layout**. To see only the top-level messages in the new **Analysis Grid** viewer tab, you can apply a view **Filter** that isolates top-level messages by using the backslash symbol (“\”) described in [Browsing Message Origins](../messageanalyzer_content/using-the-filtering-language.md#BKMK_BrowseMessageOrigins), as follows:  “\\<modulename\>” — where \<modulename> is a placeholder for the module or protocol of interest.  
+>  By double-clicking a bar element in this **Layout**, all messages in which the module is either a top-level message or part of message origins will display in a separate **Analysis Grid** viewer tab. Because all messages are displayed in a separate viewer tab as indicated, the message count in that viewer tab will differ from the **Total** message count specified in the **Top Level Protocols Message Count** viewer **Layout**. To see only the top-level messages in the new **Analysis Grid** viewer tab, you can apply a view **Filter** that isolates top-level messages by using the backslash symbol (“\”) described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins), as follows:  “\\<modulename\>” — where \<modulename> is a placeholder for the module or protocol of interest.  
   
  **Interactive Analysis**   
 The **Top Level Protocols Message Count Layout** for the **Chart** viewer is intended to work with the **ETW** **Layout** for the **Analysis Grid** viewer and the **ETW Guids and IDs** **Layout** for the **Grouping** viewer, to create an integrated and interactive analysis environment. You will be able to correlate the data most effectively if you have these viewers and **Layouts** displayed. Note that these viewers and **Layouts** are configured in the **ETW Analysis** **Profile** and will display after you  load data from an event trace log (\*.etl) file, provided that you previously enabled this **Profile** on the **Profiles** tab of the **Options** dialog (accessible from the global Message Analyzer **Tools** menu).  
@@ -31,10 +31,10 @@ The **Top Level Protocols Message Count Layout** for the **Chart** viewer is int
   
  **More Information**   
  **To learn more** about interactively analyzing Event log data with the indicated viewing and **Layout** configurations, see the following topics:  
-[Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md) — see the **ETW** **Layout** in this topic.  
-[Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) — see the **ETW Guids and IDs** **Layout** in this topic.  
-[Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md) — see the **ETW Analysis** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **ETW** **Layout** in this topic.  
+[Grouping Viewer](grouping-viewer.md) — see the **ETW Guids and IDs** **Layout** in this topic.  
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **ETW Analysis** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
 ___________________\_  
   
 ## See Also  
- [Top Level Protocols Message Count Over Time](../messageanalyzer_content/top-level-protocols-message-count-over-time.md)
+ [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)

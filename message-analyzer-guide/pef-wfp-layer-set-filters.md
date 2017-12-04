@@ -34,5 +34,5 @@ When configuring  settings for the **Microsoft-PEF-WFP-MessageProvider** in **Tr
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring **WFP Layer Set** filters for the **Microsoft-PEF-WFP-MessageProvider**, see the [Common Provider Configuration Settings  Summary](../messageanalyzer_content/common-provider-configuration-settings-summary.md).   
+ **To learn more** about configuring **WFP Layer Set** filters for the **Microsoft-PEF-WFP-MessageProvider**, see the [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md).   
 ___________________\_

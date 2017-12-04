@@ -18,23 +18,23 @@ manager: "ronstarr"
 # Applying and Managing Filters
 After you display message data in one or more of the Message Analyzer data viewers, you can apply a view **Filter** to reduce the scope of the data presented in a viewer according to filtering criteria that you define. This enables you to create a concise focus on the data you want to analyze. A view **Filter** enables you to target and isolate specific information for presentation and analysis, while  preserving the original contents of your session results. For example, after you **Apply** a particular  **Filter** from the Filter Expression **Library**, you can simply undo the filtering action by clicking the **Remove** command on the  **Filter** panel, which appears whenever you click the **Add Filter** button on the Message Analyzer Filtering Toolbar. By executing the **Remove** command, Message Analyzer redisplays the trace results that existed immediately prior to applying the  **Filter** you are removing.  
   
- Note that all  built-in **Filters** are available from a common  **Library** and are based on the Filtering Language that is described in [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md). This **Library** contains the same Filter Expressions that are available as **Session Filters** when configuring a Live Trace Session or a Data Retrieval Session. The built-in **Filters** are provided by the **Message Analyzer Filters** asset collection, which is included with every Message Analyzer installation.  
+ Note that all  built-in **Filters** are available from a common  **Library** and are based on the Filtering Language that is described in [Writing Filter Expressions](writing-filter-expressions.md). This **Library** contains the same Filter Expressions that are available as **Session Filters** when configuring a Live Trace Session or a Data Retrieval Session. The built-in **Filters** are provided by the **Message Analyzer Filters** asset collection, which is included with every Message Analyzer installation.  
   
  **Generating  Filters**   
-You can display the controls and features you will need to create, apply, and remove one or more  **Filters** by clicking the **Add Filter** button on the Message Analyzer Filtering Toolbar that appears above any in-focus session viewer tab. A single set of the indicated controls and features displays on a Message Analyzer **Filter** panel by default; however, you can display additional  Filter panels for enhanced filtering, as described in [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md). To generate the code for a view **Filter**, use any of the following methods:  
+You can display the controls and features you will need to create, apply, and remove one or more  **Filters** by clicking the **Add Filter** button on the Message Analyzer Filtering Toolbar that appears above any in-focus session viewer tab. A single set of the indicated controls and features displays on a Message Analyzer **Filter** panel by default; however, you can display additional  Filter panels for enhanced filtering, as described in [Using the Filtering Toolbar](using-the-filtering-toolbar.md). To generate the code for a view **Filter**, use any of the following methods:  
   
 -   Select a built-in view **Filter** from the centralized Filter Expression **Library** drop-down list that appears whenever you click the **Add Filter** button on the Message Analyzer Filtering Toolbar.  
   
 -   Utilize the IntelliSense statement completion service to write your own filters in any Filter Expression text box that appears when you click the **Add Filter** button on the Message Analyzer Filtering Toolbar.  
   
--   Automatically and quickly create view **Filter** code with the right-click context menu in the **Analysis Grid** viewer, as described in [Creating Filters from the Analysis Grid Context Menu](../messageanalyzer_content/applying-and-managing-filters.md#BKMK_CreateFilterFromAG).  
+-   Automatically and quickly create view **Filter** code with the right-click context menu in the **Analysis Grid** viewer, as described in [Creating Filters from the Analysis Grid Context Menu](applying-and-managing-filters.md#BKMK_CreateFilterFromAG).  
   
--   Automatically and quickly create view **Filter** code with the right-click context menu in the **Details** **Tool Window**, as described in [Creating Filters from the Details Tool Window Context Menu](../messageanalyzer_content/applying-and-managing-filters.md#BKMK_CreateFilterFromDetails).  
+-   Automatically and quickly create view **Filter** code with the right-click context menu in the **Details** **Tool Window**, as described in [Creating Filters from the Details Tool Window Context Menu](applying-and-managing-filters.md#BKMK_CreateFilterFromDetails).  
   
 > [!NOTE]
 >  When you use the methods  described in  the last two bullet points above  to generate  view **Filter** code, the Filter Expression code is added to the Filter Expression text box of the default **Filter** panel that appears whenever trace results are displayed in a data viewer.  
   
- After you generate the view **Filter** code, you must **Apply** the **Filter** for it to take effect, as described in [Applying a Filter](../messageanalyzer_content/applying-and-managing-filters.md#BKMK_ApplyingViewFilter). Note that an **Apply** button appears in the default **Filter** panel and in each  subsequent **Filter** panel that displays  when you click the **Add Filter** button on the Message Analyzer Filtering Toolbar. Each  **Filter** panel also contains the **Remove**, **Library**, and **History** controls.  
+ After you generate the view **Filter** code, you must **Apply** the **Filter** for it to take effect, as described in [Applying a Filter](applying-and-managing-filters.md#BKMK_ApplyingViewFilter). Note that an **Apply** button appears in the default **Filter** panel and in each  subsequent **Filter** panel that displays  when you click the **Add Filter** button on the Message Analyzer Filtering Toolbar. Each  **Filter** panel also contains the **Remove**, **Library**, and **History** controls.  
   
 <a name="BKMK_ApplyingViewFilter"></a>   
 ## Applying a Filter  
@@ -55,7 +55,7 @@ You can display the controls and features you will need to create, apply, and re
  **Sample Tiered Filtering Configuration**   
 An example of creating a tier of view **Filters** that you can apply and remove is shown in the figure that follows and is described in the procedure below.  
   
- ![Tiered Filter Configuration with AuthIP Filter applied](../messageanalyzer_content/media/fig51-tiered-filter-configuration-with-authip-filter-applied.png "Fig51-Tiered Filter Configuration with AuthIP Filter applied")  
+ ![Tiered Filter Configuration with AuthIP Filter applied](media/fig51-tiered-filter-configuration-with-authip-filter-applied.png "Fig51-Tiered Filter Configuration with AuthIP Filter applied")  
   
  **Figure 51: Tiered Filter Configuration with AuthIP Filter Applied**  
   
@@ -79,7 +79,7 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
 6.  In the first Filter Expression text box, type the code `AuthIP`, to create an atomic filter that returns messages from the AuthIP protocol while filtering out everything else, with exception of the AuthIP stacks.  
   
-     **Note** The meaning of an atomic filter is described in [Creating Filters from the Analysis Grid Context Menu](../messageanalyzer_content/applying-and-managing-filters.md#BKMK_CreateFilterFromAG).  
+     **Note** The meaning of an atomic filter is described in [Creating Filters from the Analysis Grid Context Menu](applying-and-managing-filters.md#BKMK_CreateFilterFromAG).  
   
 7.  Click the **Apply** button on the Filter panel associated with the `AuthIP` filter to provide a concise set of AuthIP messages for analysis.  
   
@@ -111,12 +111,12 @@ An example of creating a tier of view **Filters** that you can apply and remove 
  ___________________\_  
   
  **More Information**   
- **To learn more** about the Asset Manager, see the [Asset Manager](../messageanalyzer_content/asset-manager.md) topic.  
+ **To learn more** about the Asset Manager, see the [Asset Manager](asset-manager.md) topic.  
 ___________________\_  
   
  The centralized Filter Expression **Library** contains built-in **Filters** that you can apply as view **Filters** to data displaying in a chosen data viewer, simply by selecting the **Filter** in the **Library** drop-down list on a displayed  **Filter** panel. For example, you might apply the built-in Filter Expression `*SourcePort == IANA.Port.SMB` to the **Chart** viewer with a specified **Layout** to filter for messages of any protocol that have a **SourcePort** field equal to 445. You could then double-click some element in the **Chart** viewer **Layout**, for example, a bar element in the **Bar** visualizer component to which the filtering was applied, to automatically display the associated messages in a new instance of the **Analysis Grid** viewer for further examination.  
   
- You can also create your own Filter Expressions and add them to the **Library**, as described in [Adding a Custom Filter to the Library](../messageanalyzer_content/applying-and-managing-filters.md#BKMK_AddCustomFilterToLibrary). Any Filter Expressions that you create and add to the **Library** are stored under a subcategory that you specify under the top-level **My Items** category. However, note that the default set of built-in **Filters** are all contained in the top-level **Message Analyzer** category, with the exception of an **Example** filter that is placed in the **My Items** category by default, for use in Filter Expression development.  
+ You can also create your own Filter Expressions and add them to the **Library**, as described in [Adding a Custom Filter to the Library](applying-and-managing-filters.md#BKMK_AddCustomFilterToLibrary). Any Filter Expressions that you create and add to the **Library** are stored under a subcategory that you specify under the top-level **My Items** category. However, note that the default set of built-in **Filters** are all contained in the top-level **Message Analyzer** category, with the exception of an **Example** filter that is placed in the **My Items** category by default, for use in Filter Expression development.  
   
 ## Compiling and Applying a Filter  
  As previously described, you can create your own custom Filter Expression to apply to a set of trace results that are displayed in a chosen data viewer. However, if you create your own Filter Expression, it is subject to successful compilation verification; otherwise you will be unable to use it. Note that Message Analyzer automatically performs a compilation verification of any Filter Expression that you specify on a particular **Filter** panel after you click the **Apply** button on the same panel. This ensures that you have a valid Filter Expression before it is applied to your trace results. If the Filter Expression does not pass the compilation check, an error message displays. At this point, you will need to correct the expression or abandon it. If the Filter Expression does pass the compilation check, the Message Analyzer Runtime will then apply the filter to your trace results.  
@@ -153,7 +153,7 @@ ___________________\_
  Your local Filter Expression **Library** contains the default **Message Analyzer Filters** asset collection of **Filter** items plus any items that you create, and you can share all of these items with others. To do this, Message Analyzer provides a simple way to expose your Filter Expression items to others for sharing, or to retrieve Filter Expressions that others have shared. You can share your Filter Expression **Library** items directly with others by using the **Export** feature in the **Manage Filter** dialog to save one or more Filter Expression items to a designated file share. You can also use the **Import** feature in the same dialog to access Filter Expression items that have been shared by others. The **Manage Filter** dialog is accessible by selecting the **Manage Filters** item from the **Library** drop-down list on the **Filter** panel with which you are working.  
   
 ## Sharing Filters on a Feed  
- You can share your Filter Expression items through a user feed that you configure in the Message Analyzer Sharing Infrastructure. You can create your own feed from the **Settings** tab of the Message Analyzer **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu, and the feed (defined by a designated share or other location) will appear on the **Downloads** page of the same dialog. Thereafter, you can update existing Filter Expression items or add others and make them available to team members or other users through the configured feed, where they can view, synchronize, and download them from the **Downloads** or **Settings** tabs of the **Asset Manager** dialog. However, the synchronization aspect of the publishing feature on user feeds requires some manual configuration at this time to enable updates, as described in [Manual Item Update Synchronization](../messageanalyzer_content/manual-item-update-synchronization.md).  
+ You can share your Filter Expression items through a user feed that you configure in the Message Analyzer Sharing Infrastructure. You can create your own feed from the **Settings** tab of the Message Analyzer **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu, and the feed (defined by a designated share or other location) will appear on the **Downloads** page of the same dialog. Thereafter, you can update existing Filter Expression items or add others and make them available to team members or other users through the configured feed, where they can view, synchronize, and download them from the **Downloads** or **Settings** tabs of the **Asset Manager** dialog. However, the synchronization aspect of the publishing feature on user feeds requires some manual configuration at this time to enable updates, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
   
 ## Receiving Filter Asset Collection Updates  
  Message Analyzer also has a default **Message Analyzer** subscriber feed on the **Downloads** tab of the **Asset Manager** dialog that enables you to download the **Message Analyzer Filters** asset collection from a Microsoft web service and to synchronize with asset collection updates that are periodically pushed out by the service, as useful Filter Expressions are developed at Microsoft for the community of Message Analyzer users. To receive these updates that will appear in the **Message Analyzer** category of your local Filter Expression **Library**, the **Message Analyzer Filters** asset collection should be in the auto-sync state (circular icon with up and down arrows) on the **Asset Manager** dialog **Settings** tab. At any time, you can perform a download of an auto-synced collection from the **Settings** tab of the **Asset Manager**.  
@@ -166,13 +166,13 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about applying view **Filters**, see [Filtering Message Data](../messageanalyzer_content/filtering-message-data.md).  
-**To learn more** about the Filtering Language and how to write filter expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).  
-**To learn more** about sharing Message Analyzer Library items, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](../messageanalyzer_content/sharing-infrastructure.md) topic.   
-**To learn more** about auto-syncing item collections, see [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md).   
+ **To learn more** about applying view **Filters**, see [Filtering Message Data](filtering-message-data.md).  
+**To learn more** about the Filtering Language and how to write filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
+**To learn more** about sharing Message Analyzer Library items, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.   
+**To learn more** about auto-syncing item collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
 ___________________\_  
   
 ## See Also  
- [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md)   
- [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md)   
- [Applying a Time Filter to Session Results](../messageanalyzer_content/applying-a-time-filter-to-session-results.md)
+ [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
+ [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
+ [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)

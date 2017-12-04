@@ -28,4 +28,4 @@ The **Top Level Protocols Message Count Over Time** viewer **Layout** for **Char
      These preset values create time windows that are **1s**, **5s**, **30s**, and **1m** in length. After you specify one of these presets, you can return to the full trace time boundaries by clicking the **All** preset, or you can manually expand the trace boundaries with the time window slider controls.  
   
 ## See Also  
- [Top Level Protocols Message Count](../messageanalyzer_content/top-level-protocols-message-count.md)
+ [Top Level Protocols Message Count](top-level-protocols-message-count.md)

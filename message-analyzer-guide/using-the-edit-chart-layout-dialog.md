@@ -18,12 +18,12 @@ manager: "ronstarr"
 # Using the Edit Chart Layout Dialog
 To obtain access to the configuration controls and features that you will need to create a custom **Chart** viewer **Layout**, you must have a **Layout** already displaying in an Analysis Session, for example, Data Retrieval Session or Live Trace Session results. When you have a **Layout** displayed, the drop-down lists and commands required to edit and save a custom **Layout** of your own design are enabled; otherwise, such lists and commands are unavailable. The required drop-downs and commands for editing and saving a **Layout** appear in the global Message Analyzer **Session** menu, for example, the **Chart** item which displays a drop-down list that contains the **Edit** command and the **Layout** item from where you can save a modified **Layout**.  
   
- The sections that immediately follow describe how to use the configuration controls of the **Edit Chart Layout** to create your own custom **Layout** configuration. You can then learn how to save the **Layout** with a new **Name**, **Description**, and **Category** when complete, as described in [Saving a Custom Chart Viewer Layout](../messageanalyzer_content/using-the-edit-chart-layout-dialog.md#BKMK_SaveCustomChartLayout).  
+ The sections that immediately follow describe how to use the configuration controls of the **Edit Chart Layout** to create your own custom **Layout** configuration. You can then learn how to save the **Layout** with a new **Name**, **Description**, and **Category** when complete, as described in [Saving a Custom Chart Viewer Layout](using-the-edit-chart-layout-dialog.md#BKMK_SaveCustomChartLayout).  
   
 ## Editing an Existing Chart Viewer Layout  
  If you have a **Chart** viewer **Layout** already in focus and displaying data from the current set of trace results, you can edit the **Layout** and save your changes. To begin, click the **Edit** item on the toolbar that appears above the **Chart** analysis surface to display the **Edit Chart Layout** dialog, from where you can modify the currently displayed **Layout** as needed for your own custom design. Alternatively, you can click the **Edit** item in the **Chart** drop-down list on the global Message Analyzer **Session** menu to display this dialog, which is shown in the figure that follows.  
   
- ![Edit Chart Layout Dialog](../messageanalyzer_content/media/fig72-edit-chart-layout-dialog.png "Fig72-Edit Chart Layout Dialog")  
+ ![Edit Chart Layout Dialog](media/fig72-edit-chart-layout-dialog.png "Fig72-Edit Chart Layout Dialog")  
   
  **Figure 72: Message Analyzer Edit Chart Layout dialog**  
   
@@ -94,7 +94,7 @@ To obtain access to the configuration controls and features that you will need t
   
 -   **Values** pane — provides controls that enable you to create formulas that manipulate values of chosen field/s, to provide statistics that enhance the functionality of a **Layout**. For example, if you selected HTTP **ContentType** as a field in the **Series Fields** pane, you might want to also see the sum of all **PayloadLength** values from all the HTTP responses that are associated with each **ContentType**,    in order to assess the loads that a web server is delivering to an HTTP client.  
   
-     Therefore, in this case, you would specify the HTTP response **PayloadLength** field in the **Argument value** text box of the **Formula Editor** dialog and you would also select the **Cumulative addition** item in **Formula** drop-down list of this dialog. Note that the **Formula Editor** dialog displays when you click the ellipsis (**...**) button to the right of the **Value** text box in the **Values** pane. See [HTTP Content Type Volumes](../messageanalyzer_content/http-content-type-volumes.md) layout for an example of this configuration.  
+     Therefore, in this case, you would specify the HTTP response **PayloadLength** field in the **Argument value** text box of the **Formula Editor** dialog and you would also select the **Cumulative addition** item in **Formula** drop-down list of this dialog. Note that the **Formula Editor** dialog displays when you click the ellipsis (**...**) button to the right of the **Value** text box in the **Values** pane. See [HTTP Content Type Volumes](http-content-type-volumes.md) layout for an example of this configuration.  
   
      The  **Formulas** that are provided in Message Analyzer by default for operating upon field values are described in the **Formula** list below. Immediately following are descriptions of the controls in the **Values** pane of the **Edit Chart Layout** dialog:  
   
@@ -143,7 +143,7 @@ To obtain access to the configuration controls and features that you will need t
   
     -   **Add Value** — this button displays only when you select the **Table** grid visualizer component in the **Chart type** drop-down list in the **Chart Properties** pane of the **Edit Chart Layout** dialog. Enables you to display additional sets of **Value** controls when clicked. Each **Value** that you create with a formula becomes a new column in the **Table** grid component under a **Label** name that you specify.  
   
--   **Apply** button — after you complete your **Layout** configuration with the **Formula Editor** and **Edit Chart Layout** dialogs, click the **Apply** button to render the results of your configuration as a new **Chart** viewer **Layout**. If the results meet your expectations, you can save your customized **Chart** as specified in [Saving a Custom Chart Viewer Layout](../messageanalyzer_content/using-the-edit-chart-layout-dialog.md#BKMK_SaveCustomChartLayout). Otherwise, you can return to editing by again displaying **Edit Chart Layout** dialog or you can close the **Chart** viewer **Layout** without saving your changes.  
+-   **Apply** button — after you complete your **Layout** configuration with the **Formula Editor** and **Edit Chart Layout** dialogs, click the **Apply** button to render the results of your configuration as a new **Chart** viewer **Layout**. If the results meet your expectations, you can save your customized **Chart** as specified in [Saving a Custom Chart Viewer Layout](using-the-edit-chart-layout-dialog.md#BKMK_SaveCustomChartLayout). Otherwise, you can return to editing by again displaying **Edit Chart Layout** dialog or you can close the **Chart** viewer **Layout** without saving your changes.  
   
     > [!CAUTION]
     >  If you close the **Chart** viewer tab on which your modified **Layout** exists, you will lose the **Layout** configuration and you will be unable to recover it unless you reconfigure the **Layout**.  
@@ -165,4 +165,4 @@ To obtain access to the configuration controls and features that you will need t
 >  If you elect  to not save your custom **Layout** configuration and you close the **Chart** viewer,  you will lose all the configuration settings that you specified.  
   
 ## See Also  
- [Configuration Walkthrough of a Built-In Chart Viewer Layout](../messageanalyzer_content/configuration-walkthrough-of-a-built-in-chart-viewer-layout.md)
+ [Configuration Walkthrough of a Built-In Chart Viewer Layout](configuration-walkthrough-of-a-built-in-chart-viewer-layout.md)

@@ -27,7 +27,7 @@ The **Microsoft-PEF-WebProxy** provider enables you to focus on capturing traffi
  As the system proxy, all HTTPS requests from WinInet flow through the HTTP proxy before reaching target web servers. Similarly, all HTTPS responses flow through the HTTP proxy before being returned to the client application.  
   
 ## Provider Filtering Configurations  
- The settings that you can configure for the **WebProxy** provider are described in [WebProxy Filters](../messageanalyzer_content/webproxy-filters.md). This includes settings that you can specify for **Hostname Filter** and **Port Filter** in the **Advanced Settings-Microsoft-Pef-WebProxy** dialog. In addition, you have the option to specify **HTTPS Client Certificate** information in this dialog as well, which includes the capability to reuse client and server connections.  
+ The settings that you can configure for the **WebProxy** provider are described in [WebProxy Filters](webproxy-filters.md). This includes settings that you can specify for **Hostname Filter** and **Port Filter** in the **Advanced Settings-Microsoft-Pef-WebProxy** dialog. In addition, you have the option to specify **HTTPS Client Certificate** information in this dialog as well, which includes the capability to reuse client and server connections.  
   
 ## Event Keyword and Error Level Filtering  
  Similar to other system ETW providers that are registered on your system, you have the option to specify ETW event **Keyword** configurations and error **Level** filter settings for the **Microsoft-Pef-WebProxy** provider, to further refine the scope of events to be captured. The settings for these filters are available on the **ETW Core** tab of the **Advanced Settings – Microsoft-Pef-WebProxy** dialog. By default, all events are delivered by the **Microsoft-Pef-WebProxy** provider when no **Keywords** are selected. If you specify a particular **Keyword**, then the provider will deliver the events that are enabled by that **Keyword** only, if they occur in a trace. It also follows that multiple events are delivered when multiple **Keywords** are selected.  
@@ -35,13 +35,13 @@ The **Microsoft-PEF-WebProxy** provider enables you to focus on capturing traffi
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring system ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md).  
+ **To learn more** about configuring system ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
 **To learn more** about configuring PEF providers, including filters for the **Microsoft-PEF-WebProxy** provider, see the following topics:   
-[Common Provider Configuration Settings  Summary](../messageanalyzer_content/common-provider-configuration-settings-summary.md)  
-[WebProxy Filters](../messageanalyzer_content/webproxy-filters.md)  
+[Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md)  
+[WebProxy Filters](webproxy-filters.md)  
 ___________________\_  
   
 ## See Also  
- [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md)   
- [Microsoft-PEF-NDIS-PacketCapture Provider](../messageanalyzer_content/microsoft-pef-ndis-packetcapture-provider.md)   
- [Microsoft-PEF-WFP-MessageProvider](../messageanalyzer_content/microsoft-pef-wfp-messageprovider.md)
+ [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+ [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
+ [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)

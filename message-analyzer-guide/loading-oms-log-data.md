@@ -47,7 +47,7 @@ ___________________\_
 ### Using the Message Analyzer OMS User Interface  
  The interface for retrieving OMS log data is shown in the following figure.  
   
- ![OMS log data retrieval interface](../messageanalyzer_content/media/fig38-oms-log-data-retrieval-interface.png "Fig38-OMS log data retrieval interface")  
+ ![OMS log data retrieval interface](media/fig38-oms-log-data-retrieval-interface.png "Fig38-OMS log data retrieval interface")  
   
  **Figure 38: OMS log data retrieval interface**  
   

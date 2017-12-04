@@ -30,7 +30,7 @@ The **ProcessName** property is used in the following data viewer **Layouts**:
   
     -   **Process Name and Conversations** — this **Layout** (left side of the user interface) simulates the **Network Conversation** tree in Microsoft Network Monitor, as shown in the figure that follows.  
   
-         ![Grouping Viewer ProcessName node driving the Analysis Grid viewer](../messageanalyzer_content/media/fig64-grouping-viewer-processname-node-driving-the-analysis-grid-viewer.png "Fig64-Grouping Viewer ProcessName node driving the Analysis Grid viewer")  
+         ![Grouping Viewer ProcessName node driving the Analysis Grid viewer](media/fig64-grouping-viewer-processname-node-driving-the-analysis-grid-viewer.png "Fig64-Grouping Viewer ProcessName node driving the Analysis Grid viewer")  
   
          **Figure 64: Grouping Viewer ProcessName node selection driving the Analysis Grid viewer**  
   
@@ -43,6 +43,6 @@ The **ProcessName** property is used in the following data viewer **Layouts**:
     -   **Process View**  
   
 ## See Also  
- [Analysis Grid Viewer](../messageanalyzer_content/analysis-grid-viewer.md)   
- [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md)   
- [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md)
+ [Analysis Grid Viewer](analysis-grid-viewer.md)   
+ [Grouping Viewer](grouping-viewer.md)   
+ [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

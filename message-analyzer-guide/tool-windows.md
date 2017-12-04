@@ -22,7 +22,7 @@ This section describes various interactive **Tool Windows** that are provided wi
   
  The **Analysis Grid** viewer and some common **Tool Windows** are shown in the figure that follows. Note that a number of **Tool Windows** are grouped in the lower right sector of the Message Analyzer user interface, where you can display any chosen **Tool Window** by selecting its  tab.  
   
- ![Analysis Grid viewer and Common Tool Windows](../messageanalyzer_content/media/fig65-analysis-grid-viewer-and-common-tool-windows.png "Fig65-Analysis Grid viewer and Common Tool Windows")  
+ ![Analysis Grid viewer and Common Tool Windows](media/fig65-analysis-grid-viewer-and-common-tool-windows.png "Fig65-Analysis Grid viewer and Common Tool Windows")  
   
  **Figure 65: Analysis Grid viewer and Common Tool Windows**  
   
@@ -32,8 +32,8 @@ This section describes various interactive **Tool Windows** that are provided wi
   
  ___________________________\_  
   
- [Message-Specific Windows](../messageanalyzer_content/message-specific-windows.md)   
- [Session-Specific Windows](../messageanalyzer_content/session-specific-windows.md)   
- [Annotation Windows](../messageanalyzer_content/annotation-windows.md)   
- [Other Windows](../messageanalyzer_content/other-windows.md)   
+ [Message-Specific Windows](message-specific-windows.md)   
+ [Session-Specific Windows](session-specific-windows.md)   
+ [Annotation Windows](annotation-windows.md)   
+ [Other Windows](other-windows.md)   
 ___________________________\_

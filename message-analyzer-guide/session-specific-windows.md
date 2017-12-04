@@ -22,6 +22,6 @@ This section describes interactive **Tool Windows** that are *session-specific* 
   
  __________________________\_  
   
- [Diagnostics Tool Window](../messageanalyzer_content/diagnostics-tool-window.md)   
- [Decryption Tool Window](../messageanalyzer_content/decryption-tool-window.md)   
+ [Diagnostics Tool Window](diagnostics-tool-window.md)   
+ [Decryption Tool Window](decryption-tool-window.md)   
 __________________________\_

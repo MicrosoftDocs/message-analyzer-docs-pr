@@ -16,12 +16,12 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Retrieving Azure Storage Blob Data
-This topic shows you how to access and load data into Message Analyzer version 1.3 and later from log files that exist in Azure Storage binary large object (BLOB) containers. For Message Analyzer to successfully load and display this log data, you will need to provide some input connection information in order to access the BLOB repositories where the log data is saved. To access these repositories, you will use the **File Selector** dialog to select the files that contain the data you want to work with. After you specify such files and you exit the dialog, you must select a particular configuration file in your Data Retrieval Session for parsing the log data. If the **AzureStorageLog** configuration file does not exist in the **Text Log Configuration** drop-down list in your Data Retrieval Session configuration, you will need to download it through the Message Analyzer sharing infrastructure, as described in [Using the AzureStorageLog Parser](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser), and then restart Message Analyzer.  
+This topic shows you how to access and load data into Message Analyzer version 1.3 and later from log files that exist in Azure Storage binary large object (BLOB) containers. For Message Analyzer to successfully load and display this log data, you will need to provide some input connection information in order to access the BLOB repositories where the log data is saved. To access these repositories, you will use the **File Selector** dialog to select the files that contain the data you want to work with. After you specify such files and you exit the dialog, you must select a particular configuration file in your Data Retrieval Session for parsing the log data. If the **AzureStorageLog** configuration file does not exist in the **Text Log Configuration** drop-down list in your Data Retrieval Session configuration, you will need to download it through the Message Analyzer sharing infrastructure, as described in [Using the AzureStorageLog Parser](retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser), and then restart Message Analyzer.  
   
  __________________\_  
   
  **Go to Procedure**   
-To proceed directly to a detailed procedure that you can follow to retrieve log data from Azure Storage BLOB containers, see [To access, load, and view log data from Azure storage BLOB containers](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureLogData). Otherwise, you can review the [Workflow Overview](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_AzureWrkflowOverview).  
+To proceed directly to a detailed procedure that you can follow to retrieve log data from Azure Storage BLOB containers, see [To access, load, and view log data from Azure storage BLOB containers](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureLogData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-blob-data.md#BKMK_AzureWrkflowOverview).  
 __________________\_  
   
 <a name="BKMK_AccessingAzureLogs"></a>   
@@ -33,7 +33,7 @@ __________________\_
   
  The user interface for the **File Selector** dialog is shown in the figure that follows.  
   
- ![Azure  Blob File Selector dialog](../messageanalyzer_content/media/fig32-azure-blob-file-selector-dialog.png "Fig32-Azure  Blob File Selector dialog")  
+ ![Azure  Blob File Selector dialog](media/fig32-azure-blob-file-selector-dialog.png "Fig32-Azure  Blob File Selector dialog")  
   
  **Figure 32: Azure File Selector dialog**  
   
@@ -41,7 +41,7 @@ __________________\_
 ## Using the AzureStorageLog Parser  
  To load log file data into Message Analyzer from Azure Storage BLOB containers, a **Text Log Configuration** file is required for parsing the log data. After you target specific log files for input data and you click **OK** to exit the **File Selector** dialog, Message Analyzer displays the **New Session** dialog for a Data Retrieval Session, where the logs you specified are listed on the **Files** tab. In the session configuration, you will need to select the **AzureStorageLog** configuration file in the **Text Log Configuration** drop-down list to parse your Azure logs. If this file does not exist in the list, you will need to download it through the Message Analyzer sharing infrastructure.  
   
- The Azure parsers are available in the **Azure Storage Parsers Version x.x** asset collection that is accessible by clicking the Message Analyzer **Tools** menu and then selecting the **Asset Manager** command to display the **Asset Manager** dialog. To acquire the parsers in this collection, click the download icon (with the down-arrow indicator) to the right of the **Azure Storage Parsers** package on the **Downloads** tab of the **Asset Manager** dialog and then select the auto-sync option that appears in the **Item Download Options** dialog. When you click **OK** to exit this dialog, the Azure parser collection is downloaded to your Message Analyzer installation. Thereafter, you will receive automatic collection updates as they become available, as described in [Downloading Assets and Auto-Syncing Updates](../messageanalyzer_content/downloading-assets-and-auto-syncing-updates.md).  
+ The Azure parsers are available in the **Azure Storage Parsers Version x.x** asset collection that is accessible by clicking the Message Analyzer **Tools** menu and then selecting the **Asset Manager** command to display the **Asset Manager** dialog. To acquire the parsers in this collection, click the download icon (with the down-arrow indicator) to the right of the **Azure Storage Parsers** package on the **Downloads** tab of the **Asset Manager** dialog and then select the auto-sync option that appears in the **Item Download Options** dialog. When you click **OK** to exit this dialog, the Azure parser collection is downloaded to your Message Analyzer installation. Thereafter, you will receive automatic collection updates as they become available, as described in [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md).  
   
  You can now select the **AzureStorageLog** configuration file in the **Text Log Configuration** drop-down list during Data Retrieval Session configuration.  
   
@@ -52,11 +52,11 @@ __________________\_
 ## Workflow Overview  
  The following procedure outlines the general steps you can follow when configuring a Data Retrieval Session to load log data from Azure Storage BLOB containers into Message Analyzer:  
   
-1.  Ensure that you have the **AzureStorageLog** parser before you get started. If you need this parser, follow the general instructions in [Using the AzureStorageLog Parser](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser) to obtain it.  
+1.  Ensure that you have the **AzureStorageLog** parser before you get started. If you need this parser, follow the general instructions in [Using the AzureStorageLog Parser](retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser) to obtain it.  
   
 2.  Open the **File Selector** dialog from the Message Analyzer **File** menu by highlighting **Open** and then selecting the **From Other File Sources** command.  
   
-3.  In the **Add Azure Storage Connection** dialog, specify **Account name** and **Account key** information, as described in [Accessing Log Data in Azure Storage BLOB Containers](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_AccessingAzureLogs).  
+3.  In the **Add Azure Storage Connection** dialog, specify **Account name** and **Account key** information, as described in [Accessing Log Data in Azure Storage BLOB Containers](retrieving-azure-storage-blob-data.md#BKMK_AccessingAzureLogs).  
   
 4.  In the **Add Azure Storage Connection** dialog, ensure that the **Use HTTPS (Recommended)** option is selected as the **Connection** protocol.  
   
@@ -66,9 +66,9 @@ __________________\_
   
 7.  Select the **AzureStorageLog** configuration file in the **Text Log Configuration** drop-down list for each Azure log file in the files list of the **New Session** dialog.  
   
-8.  Optionally, configure a **Time Filter** in the **New Session** dialog to narrow the scope of data retrieval, as described in [Applying an Input Time Filter to a Data Retrieval Session](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+8.  Optionally, configure a **Time Filter** in the **New Session** dialog to narrow the scope of data retrieval, as described in [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
   
-9. Optionally, if you have the **Azure Storage Filter** asset package downloaded, select a predefined Azure filter from the **Azure Storage** category in the Filter Expression **Library** to create a resulting data set that focuses on specific information, as described in [Applying a Session Filter to a Data Retrieval Session](../messageanalyzer_content/applying-a-session-filter-to-a-data-retrieval-session.md).  
+9. Optionally, if you have the **Azure Storage Filter** asset package downloaded, select a predefined Azure filter from the **Azure Storage** category in the Filter Expression **Library** to create a resulting data set that focuses on specific information, as described in [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
   
 10. Ensure that the **Analysis Grid** viewer is selected in the **Start With** drop-down list and click **Start** to exit the **New Session** dialog and begin data retrieval.  
   
@@ -81,9 +81,9 @@ __________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about downloading and auto-syncing Message Analyzer assets, see [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md).   
-**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) topic.   
+ **To learn more** about downloading and auto-syncing Message Analyzer assets, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
+**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.   
 ___________________\_  
   
 ## See Also  
- [Retrieving Azure Storage Table Data](../messageanalyzer_content/retrieving-azure-storage-table-data.md)
+ [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)

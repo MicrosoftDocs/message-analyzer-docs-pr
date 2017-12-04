@@ -17,7 +17,7 @@ manager: "ronstarr"
 Beyond  live captures and saved files, Message Analyzer enables you to utilize  additional sources to acquire input data for enhanced analysis capabilities. As provided in the **New Session** dialog, you can create the configuration for a Live Trace Session by clicking the **Live Trace** button under **Add Data Source** to capture data live from the network. You can also create the configuration for a Data Retrieval Session by clicking the **Files** button under **Add Data Source** in the **New Session** dialog, which enables you to target save files (traces and logs) as input to Message Analyzer. However, there are several other input sources under **Add Data Source** from which you can load data into Message Analyzer through a Data Retrieval Session, as follows:  
   
 > [!NOTE]
->  WPP-generated events are included in the list below because they are an additional input data source for Message Analyzer. However, the **Add Data Source** feature in the **New Session** dialog does not provide access to the configuration required to set up for processing WPP events. To learn more about how to capture or retrieve WPP events, see [Loading WPP-Generated Events](../messageanalyzer_content/loading-wpp-generated-events.md).  
+>  WPP-generated events are included in the list below because they are an additional input data source for Message Analyzer. However, the **Add Data Source** feature in the **New Session** dialog does not provide access to the configuration required to set up for processing WPP events. To learn more about how to capture or retrieve WPP events, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).  
   
 -   **Azure data** — provides access to data from an Azure table. You can create the input configuration by clicking the **Azure Table** button under **Add Data Source** in the **New Session** dialog.  
   
@@ -40,12 +40,12 @@ Beyond  live captures and saved files, Message Analyzer enables you to utilize  
   
  _________________________________\_  
   
- [Handling Azure Data](../messageanalyzer_content/handling-azure-data.md)   
- [Loading System Event Log Data](../messageanalyzer_content/loading-system-event-log-data.md)   
- [Deriving Input Data with PowerShell Scripts](../messageanalyzer_content/deriving-input-data-with-powershell-scripts.md)   
- [Loading SQL Data](../messageanalyzer_content/loading-sql-data.md)   
- [Loading WPP-Generated Events](../messageanalyzer_content/loading-wpp-generated-events.md)   
- [Loading OMS Log Data](../messageanalyzer_content/loading-oms-log-data.md)   
+ [Handling Azure Data](handling-azure-data.md)   
+ [Loading System Event Log Data](loading-system-event-log-data.md)   
+ [Deriving Input Data with PowerShell Scripts](deriving-input-data-with-powershell-scripts.md)   
+ [Loading SQL Data](loading-sql-data.md)   
+ [Loading WPP-Generated Events](loading-wpp-generated-events.md)   
+ [Loading OMS Log Data](loading-oms-log-data.md)   
 _________________________________\_  
   
 ## Combining Input Data Sources  
@@ -54,5 +54,5 @@ _________________________________\_
  ______________\_  
   
 ## See Also  
- [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md)   
- [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md)
+ [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md)   
+ [Grouping Viewer](grouping-viewer.md)

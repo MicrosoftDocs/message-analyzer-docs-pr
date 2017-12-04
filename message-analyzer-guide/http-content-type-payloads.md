@@ -26,4 +26,4 @@ The **HTTP Content Type Payloads**  viewer **Layout** for **Charts** displays pa
  The tabular data of this **Chart** can help you see at a glance which payload byte values and message counts are the largest for any particular content type. In turn, this can provide an indication of the loads being carried by responding web servers. For example, you might double-click a table row with the highest payload byte value to display the associated messages in a separate instance of the **Analysis Grid** viewer. You can then right-click the **Destination** column in the **Analysis Grid** viewer and select the **Group** command to create groups of different web server names along with the number of messages associated with each one. This can tell you immediately which server/s are carrying the highest load for a particular content type, which in turn can provide an indication of web server performance.  
   
 ## See Also  
- [HTTP Content Type Volumes](../messageanalyzer_content/http-content-type-volumes.md)
+ [HTTP Content Type Volumes](http-content-type-volumes.md)

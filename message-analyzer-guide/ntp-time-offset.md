@@ -24,5 +24,5 @@ The **NTP Time Offset** view **Layout** for the  **Chart** viewer  enables you  
  ___________________\_  
   
  **More Information**   
- **To learn more** about the Message Analyzer **Profiles**, see  [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md).  
+ **To learn more** about the Message Analyzer **Profiles**, see  [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
 ___________________\_

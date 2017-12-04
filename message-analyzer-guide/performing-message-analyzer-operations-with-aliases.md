@@ -18,9 +18,9 @@ manager: "ronstarr"
 # Performing Message Analyzer Operations with Aliases
 Message Analyzer enables you to use **Aliases** in the following common operations that you can employ when analyzing session results:  
   
- [Using an Alias in a Filter Expression](../messageanalyzer_content/performing-message-analyzer-operations-with-aliases.md#BKMK_AliasFilters)   
- [Sorting Operations with Aliases](../messageanalyzer_content/performing-message-analyzer-operations-with-aliases.md#BKMK_AliasSorting)   
- [Grouping Operations with Aliases](../messageanalyzer_content/performing-message-analyzer-operations-with-aliases.md#BKMK_AliasGrouping)  
+ [Using an Alias in a Filter Expression](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasFilters)   
+ [Sorting Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasSorting)   
+ [Grouping Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasGrouping)  
   
  This section briefly describes these capabilities, in addition to the dynamic application of **Aliases** as you are acquiring input message data through a Live Trace Session or a Data Retrieval Session.  
   
@@ -40,7 +40,7 @@ Message Analyzer enables you to use **Aliases** in the following common operatio
  After you create and save a Filter Expression with the **Edit Filter** dialog — accessible by clicking the **New Filter** item in the **Library** drop-down list on the default Filter panel of the Filtering Toolbar — and that expression uses an **Alias**, as expected the Filter will  appear in the centralized Filter Expression **Library** — accessible from any Filter panel on the Filtering Toolbar and on the toolbar above the **Session Filter** text box of the **New Session** dialog. Because any Filter Expression that contains an **Alias** is saved in the centralized Filter **Library**, you can use such an expression as a **Session Filter** or view **Filter**. However, for an **Alias** to function properly in either of these Filter Expressions, the **Alias** must be enabled in the **Aliases** drop-down list, which you can access on the global Message Analyzer toolbar. Also, if you change a Filter Expression that contains an **Alias** in mid-stream during a capture, the changes will immediately take effect.  
   
 > [!NOTE]
->  If you attempt to use the [Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md) to compose a Filter Expression with an **Alias**, you will be unable to find any **Aliases** in the IntelliSense tree because this capability is not yet supported.  
+>  If you attempt to use the [Filter IntelliSense Service](filter-intellisense-service.md) to compose a Filter Expression with an **Alias**, you will be unable to find any **Aliases** in the IntelliSense tree because this capability is not yet supported.  
   
 <a name="BKMK_AliasSorting"></a>   
 ## Sorting Operations with Aliases  
@@ -71,6 +71,6 @@ FF02:0:0:0:0:0:1:3
  ___________________\_  
   
  **More Information**   
- **To learn more** about view **Filters**, see [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md).   
-**To learn more** about grouping, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
+ **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
+**To learn more** about grouping, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 ___________________\_

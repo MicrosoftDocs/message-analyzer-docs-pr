@@ -119,7 +119,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
         > [!NOTE]
         >  Observe that the KeepAlive method explicitly rules out TCP KeepAlive messages for evaluation, because they are not considered to be TCP retransmits.  
   
-    4.  ***IP addresses***  — the line of code containing the “IPv4.Datagram” statement gets values that set the “sa” and “da” variables based on the values of the IPv4 SourceAddress and DestinationAddress, respectively. Note that the expression uses the double backslash characters “\\\” to get at the IPv4 level of the TCP origins tree, as described in [Browsing Message Origins](../messageanalyzer_content/using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
+    4.  ***IP addresses***  — the line of code containing the “IPv4.Datagram” statement gets values that set the “sa” and “da” variables based on the values of the IPv4 SourceAddress and DestinationAddress, respectively. Note that the expression uses the double backslash characters “\\\” to get at the IPv4 level of the TCP origins tree, as described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
   
     5.  ***Segment evaluation***  — the line of code containing the second “Segment” statement causes the expression to continue to evaluate the input stream until a TCP message Segment is found with:  
   
@@ -364,7 +364,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
     5.  ***Segment evaluation***  — the line of code containing the third "TCP.Segment" section looks for the next TCP message that has its ACK flag set to true, its SequenceNumber equal to the value of the first message’s SequenceNumber plus 1 (“SeqNumRequest +1”), and an AcknowledgementNumber equal to the value of the second message’s SequenceNumber plus 1 (“SeqNumResponse + 1”), while also ensuring that the message is in the same IP conversation and is using the same ports. This pattern is characteristic of a successful connection that is in turn acknowledged by the sending node that made the initial connection request, which can be *accepted* by the receiving node.  
   
-    6.  ***Output***  — as these patterns are met, Message Analyzer returns the three-way handshake messages to the **Pattern Match** viewer for display. To learn more about how to display the results of executing a **Pattern** expression, see [Using the Pattern Match Viewer](../messageanalyzer_content/using-the-pattern-match-viewer.md).  
+    6.  ***Output***  — as these patterns are met, Message Analyzer returns the three-way handshake messages to the **Pattern Match** viewer for display. To learn more about how to display the results of executing a **Pattern** expression, see [Using the Pattern Match Viewer](using-the-pattern-match-viewer.md).  
   
     7.  ***Continuing evaluations***  — the **Pattern** expression then backtracks to the next TCP segment (where the SYN flag = true) following the initial evaluation point and the process is repeated until all messages in the input stream (trace results) have been evaluated.  
   
@@ -379,7 +379,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
  ___________________\_  
   
  **More Information**   
- **To learn more** about the **Pattern Editor**, see [Using the Pattern Editor](../messageanalyzer_content/using-the-pattern-editor.md).   
+ **To learn more** about the **Pattern Editor**, see [Using the Pattern Editor](using-the-pattern-editor.md).   
 **To learn more** about executing sequential **Pattern** expressions, see the TechNet Blog article [Sequence Match View: Identifying Interesting Network Patterns](http://blogs.technet.com/b/messageanalyzer/archive/2013/08/23/sequence-match-view-identifying-interesting-network-patterns.aspx).  
 **To learn more** about OPN, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).   
 ___________________\_

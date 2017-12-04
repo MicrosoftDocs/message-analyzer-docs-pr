@@ -32,11 +32,11 @@ Filtering is an important technique for isolating messages in a trace that meet 
 -   Discover interesting areas to target for troubleshooting, rather than finding the specific cause of a problem.  
   
 ## Invoking Pattern Matching  
- In Message Analyzer, you can utilize pattern matching functionality by invoking the **Pattern Match** viewer from the locations described in [Session Data Viewer Options](../messageanalyzer_content/session-data-viewer-options.md). This includes specifying the **Pattern Match** viewer when starting a Data Retrieval Session, starting a Live Trace Session, or when opening it to assess trace results in an Analysis Session.  
+ In Message Analyzer, you can utilize pattern matching functionality by invoking the **Pattern Match** viewer from the locations described in [Session Data Viewer Options](session-data-viewer-options.md). This includes specifying the **Pattern Match** viewer when starting a Data Retrieval Session, starting a Live Trace Session, or when opening it to assess trace results in an Analysis Session.  
   
  The figure that follows shows the results of executing the **TCP Three-Way Handshake** Pattern expression against a set of trace results. The **Pattern Match** viewer lists all the matches that were found in the **MATCHED INSTANCES** pane. In this pane, you will also find important statistics for TCP troubleshooting, such as TCP configuration settings that could expose potential TCP misconfiguration.  
   
- ![Pattern Match Viewer](../messageanalyzer_content/media/fig43-pattern-match-viewer.png "Fig43-Pattern Match Viewer")  
+ ![Pattern Match Viewer](media/fig43-pattern-match-viewer.png "Fig43-Pattern Match Viewer")  
   
  **Figure 43: Pattern Match Viewer**  
   
@@ -44,8 +44,8 @@ Filtering is an important technique for isolating messages in a trace that meet 
   
  **What You Will Learn**   
 In the following topics of this section, you will learn about matching message sequences by executing predefined **Pattern** expressions that are provided with the **Pattern Match** viewer. You will also learn about how to view matched instance data and how to create your own **Pattern** expressions:  
-[Using the Pattern Match Viewer](../messageanalyzer_content/using-the-pattern-match-viewer.md) — learn how to use the **Pattern Match** viewer to execute predefined **Pattern** expressions and how to assess the resulting set of matched instances.  
-[Understanding Message Pattern Matching](../messageanalyzer_content/understanding-message-pattern-matching.md) — study an OPN code walkthrough for two of the predefined TCP **Pattern** expressions. These examples are intended to help you learn about **Pattern** expression construction and functionality, so that you can create your own.  
-[Using the Pattern Editor](../messageanalyzer_content/using-the-pattern-editor.md) — learn about how to build your own **Pattern** expressions in OPN, with or without the assistance of user interface (UI) automation.  
-[Managing Pattern Expressions](../messageanalyzer_content/managing-pattern-expressions.md) — learn how to manage **Pattern** expressions, which includes importing and exporting **Pattern** expressions for mutual sharing with others on your team.  
+[Using the Pattern Match Viewer](using-the-pattern-match-viewer.md) — learn how to use the **Pattern Match** viewer to execute predefined **Pattern** expressions and how to assess the resulting set of matched instances.  
+[Understanding Message Pattern Matching](understanding-message-pattern-matching.md) — study an OPN code walkthrough for two of the predefined TCP **Pattern** expressions. These examples are intended to help you learn about **Pattern** expression construction and functionality, so that you can create your own.  
+[Using the Pattern Editor](using-the-pattern-editor.md) — learn about how to build your own **Pattern** expressions in OPN, with or without the assistance of user interface (UI) automation.  
+[Managing Pattern Expressions](managing-pattern-expressions.md) — learn how to manage **Pattern** expressions, which includes importing and exporting **Pattern** expressions for mutual sharing with others on your team.  
 ______________________\_

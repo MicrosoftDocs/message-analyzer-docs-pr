@@ -22,7 +22,7 @@ The **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** enables you 
 >  ___________________\_  
 >   
 >  **More Information**   
->  **To learn more** about working with text-based .log files, see [Opening Text Log Files](../messageanalyzer_content/opening-text-log-files.md).  
+>  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
 > ___________________\_  
   
 ## Using the IIS Log HTTP Traffic Volumes Layout  
@@ -37,7 +37,7 @@ This **Layout** for the **Chart** viewer is intended to work with the **IIS** **
   
  **More Information**   
  **To learn more** about interactively analyzing IIS log data with the indicated viewing and **Layout** configurations, see the following topics:  
-[Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md) — see the **IIS** **Layout** in this topic.  
-[Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) — see the **IIS** **Layout** in this topic.  
-[Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md) — see the **IIS Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **IIS** **Layout** in this topic.  
+[Grouping Viewer](grouping-viewer.md) — see the **IIS** **Layout** in this topic.  
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **IIS Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
 ___________________\_

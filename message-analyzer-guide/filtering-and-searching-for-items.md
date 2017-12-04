@@ -26,5 +26,5 @@ The **Downloads** tab in the **Asset Manager** dialog displays all un-synced ass
  ___________________\_  
   
  **More Information**   
- **To learn more** about auto-syncing asset collections, see [Downloading Assets and Auto-Syncing Updates](../messageanalyzer_content/downloading-assets-and-auto-syncing-updates.md).   
+ **To learn more** about auto-syncing asset collections, see [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md).   
 ___________________\_

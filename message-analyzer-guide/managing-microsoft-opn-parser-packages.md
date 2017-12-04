@@ -73,5 +73,5 @@ By default, every Message Analyzer installation is provided with a baseline set 
 |**Skype for Business Parsers Version 1.3**|Contains parsers for Microsoft Skype services.|Core Networking, Public, Infrastructure|  
   
 ## See Also  
- [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md)   
- [Asset Manager](../messageanalyzer_content/asset-manager.md)
+ [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)   
+ [Asset Manager](asset-manager.md)

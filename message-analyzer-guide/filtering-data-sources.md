@@ -25,7 +25,7 @@ This section describes how to filter a collection of messages based on the assoc
   
      The **Data Source Filter** dialog is shown in the figure that follows, where a trace file and a cluster log  are the selected data sources.  
   
-     ![Data Source Filter dialog](../messageanalyzer_content/media/fig60-data-source-filter-dialog.png "Fig60-Data Source Filter dialog")  
+     ![Data Source Filter dialog](media/fig60-data-source-filter-dialog.png "Fig60-Data Source Filter dialog")  
   
      **Figure 60:   Data Source Filter dialog**  
   
@@ -33,7 +33,7 @@ This section describes how to filter a collection of messages based on the assoc
   
      To do this, add a **DataSource** column to the **Analysis Grid** viewer by right-clicking **DataSource** under the **General** node of the **Field Chooser** **Tool Window**, and then select the **Add as Column** command in the context menu that appears. Next, right-click the newly added **DataSource** column in the **Analysis Grid** viewer and select the **Group** command in the context menu that appears. The messages from each data source are then organized and encapsulated under a separate node that you can expand for analysis, as shown in the figure that follows.  
   
-     ![Data Source Groups in the Analysis Grid](../messageanalyzer_content/media/fig61-data-source-groups-in-the-analysis-grid.png "Fig61-Data Source Groups in the Analysis Grid")  
+     ![Data Source Groups in the Analysis Grid](media/fig61-data-source-groups-in-the-analysis-grid.png "Fig61-Data Source Groups in the Analysis Grid")  
   
      **Figure 61: Data Source Groups in the Analysis Grid**  
   
@@ -66,6 +66,6 @@ After you use the **Data Source Filter** dialog to select the data source/s cont
  ___________________\_  
   
  **More Information**   
- **To learn more** about how to use the **Group** context menu command in the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
-**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.  
+ **To learn more** about how to use the **Group** context menu command in the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
+**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.  
 ___________________\_

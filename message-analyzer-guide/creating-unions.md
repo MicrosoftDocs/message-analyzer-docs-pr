@@ -16,12 +16,12 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Creating Unions
-Message Analyzer enables you to create a **Union** that correlates two or more fields, properties, or annotations, as described in [Configuring and Managing Message Analyzer Unions](../messageanalyzer_content/configuring-and-managing-message-analyzer-unions.md). Creating a **Union** can help streamline data analysis and can also simplify what might otherwise be cryptic field names that are difficult to work with. You can create a new **Union** by selecting the **New Union** item from the **Unions** drop-down list in the global Message Analyzer **Tools** menu or by clicking the **Unions** button on the global Message Analyzer toolbar. Making such a selection causes the **Edit Union** dialog to display, from where you can provide the input configuration data that is required to create a new **Union**.  
+Message Analyzer enables you to create a **Union** that correlates two or more fields, properties, or annotations, as described in [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md). Creating a **Union** can help streamline data analysis and can also simplify what might otherwise be cryptic field names that are difficult to work with. You can create a new **Union** by selecting the **New Union** item from the **Unions** drop-down list in the global Message Analyzer **Tools** menu or by clicking the **Unions** button on the global Message Analyzer toolbar. Making such a selection causes the **Edit Union** dialog to display, from where you can provide the input configuration data that is required to create a new **Union**.  
   
  __________________\_  
   
  **Go To Procedure**   
-To go directly to a procedure that creates a **Union**, see [Create a Union of Two Data Fields](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_CreateUnion). However, you are advised to review the information contained in this section before doing so.  
+To go directly to a procedure that creates a **Union**, see [Create a Union of Two Data Fields](procedures-using-the-data-viewing-features.md#BKMK_CreateUnion). However, you are advised to review the information contained in this section before doing so.  
 __________________\_  
   
 ## Configuring a Union  
@@ -33,7 +33,7 @@ __________________\_
     >  If the **Union** name that you specify already exists, Message Analyzer displays a message box with the following prompt:    
     > "**The name has been used, please use a different name**"  
   
--   **Type** — consists of a label that indicates the **Union** data type. It is likely that the fields, properties, or annotations that you combine into a **Union** will be of different data types. When this is the case, Message Analyzer performs a fundamental conversion to an appropriate type, as described in [Supporting Type Conversions for Union Fields](../messageanalyzer_content/creating-unions.md#BKMK_UnionTypeConversions), to ensure that an appropriate data type is generated for your **Union**.  
+-   **Type** — consists of a label that indicates the **Union** data type. It is likely that the fields, properties, or annotations that you combine into a **Union** will be of different data types. When this is the case, Message Analyzer performs a fundamental conversion to an appropriate type, as described in [Supporting Type Conversions for Union Fields](creating-unions.md#BKMK_UnionTypeConversions), to ensure that an appropriate data type is generated for your **Union**.  
   
     > [!NOTE]
     >  If you add or remove any field, property, or annotation in the **Edit Union** dialog, the **Type** label may update to reflect a new **Union** data type, depending on the field types you are adding to or removing from the **Union** configuration.  
@@ -46,7 +46,7 @@ __________________\_
   
     -   The added entities essentially have the same functional meaning, otherwise the resulting **Union** is likely to be irrelevant.  
   
-    -   The added entities are optionally of the same data type, to minimize memory consumption (see [Supporting Type Conversions for Union Fields](../messageanalyzer_content/creating-unions.md#BKMK_UnionTypeConversions)).  
+    -   The added entities are optionally of the same data type, to minimize memory consumption (see [Supporting Type Conversions for Union Fields](creating-unions.md#BKMK_UnionTypeConversions)).  
   
     -   The added entities come from *different* data sources rather than the *same* data source or module, as this is the intended use of a **Union**.  
   
@@ -67,7 +67,7 @@ __________________\_
   
 -   **Save** — click this button to save the **Union** configuration. At this time, a new **Union** is created and added to the **Unions** drop-down list in the **Category** that you specified.  
   
-     **Note** Your new **Union** will also be added to the root **Unions** node in the **Field Chooser** window after a Message Analyzer restart. Note that you will use the **Field Chooser** window to add your new **Union** as a column in the **Analysis Grid** viewer. In addition, the new **Union** becomes an asset that you can share with others through the Message Analyzer sharing infrastructure, as described in [Managing Unions as Shared Items](../messageanalyzer_content/managing-unions-as-shared-items.md).  
+     **Note** Your new **Union** will also be added to the root **Unions** node in the **Field Chooser** window after a Message Analyzer restart. Note that you will use the **Field Chooser** window to add your new **Union** as a column in the **Analysis Grid** viewer. In addition, the new **Union** becomes an asset that you can share with others through the Message Analyzer sharing infrastructure, as described in [Managing Unions as Shared Items](managing-unions-as-shared-items.md).  
   
 <a name="BKMK_UnionTypeConversions"></a>   
 ## Supporting Type Conversions for Union Fields  
@@ -86,7 +86,7 @@ __________________\_
 -   **Base type conversion** — incompatible field types would remain incompatible if there were no implicit conversions to a common type available. Therefore, when this is the case, Message Analyzer converts all field types to a common base type called `any`. The `any` type is sufficient to handle the value range of any other data type. The **Union** would then display the `any` type in the **Type** label of the **Edit Union** dialog.  
   
 ## Performing Other Operations on Unions  
- After you successfully create one or more **Unions**, you can perform the following operation on any **Union** that exists in the **Manage Unions** dialog, as described in [Modifying Unions](../messageanalyzer_content/modifying-unions.md):  
+ After you successfully create one or more **Unions**, you can perform the following operation on any **Union** that exists in the **Manage Unions** dialog, as described in [Modifying Unions](modifying-unions.md):  
   
 -   **Create a Copy** — this  is the only command available for  built-in **Unions**, given that built-in **Union** assets   cannot be edited.  
   

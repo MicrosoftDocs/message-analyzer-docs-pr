@@ -69,7 +69,7 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
 ## Modifying Color Rules  
  Message Analyzer enables you to modify, delete, or create a copy of any **Color Rule** under the **My Items** node only, in the **Color Rules** drop-down list. This includes the **Example Color Rule** that is provided for practice purposes. You can also **Create a Copy** of any predefined **Color Rule**, modify it, and then **Save** it, but you cannot directly modify a predefined **Color Rule** that is provided by default with Message Analyzer. The commands to perform these operations are available as the following context menu items, which display as appropriate for the category node in which you right-click a **Color Rule**:  
   
--   **Edit** — available for **Color Rules** under the **My Items** node only. Displays the **Edit Color Rule** dialog, from where you have access to the **Color Rule** configuration described in [Creating New Color Rules](../messageanalyzer_content/creating-and-modifying-color-rules.md#BKMK_CreatingNewColorRules).  
+-   **Edit** — available for **Color Rules** under the **My Items** node only. Displays the **Edit Color Rule** dialog, from where you have access to the **Color Rule** configuration described in [Creating New Color Rules](creating-and-modifying-color-rules.md#BKMK_CreatingNewColorRules).  
   
 -   **Create a Copy** — available for **Color Rules** under the **Message Analyzer** and **My Items** category nodes. Displays the **Edit Color Rule** dialog, from where you can copy an existing **Color Rule**, for example, into a different **Category**. You can also reconfigure the copy as a new rule and place it in a **Category** of choice, which is tantamount to creating a new rule.  
   
@@ -83,6 +83,6 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
  ___________________\_  
   
  **More Information**   
- **To learn more** about managing **Color Rule** items, including sharing them with others, see [Managing Color Rules](../messageanalyzer_content/managing-color-rules.md).   
-**To learn more** about Filter Expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md) and the [Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md) topic.  
+ **To learn more** about managing **Color Rule** items, including sharing them with others, see [Managing Color Rules](managing-color-rules.md).   
+**To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md) and the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
 ___________________\_

@@ -20,7 +20,7 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 -   **Message Bookmarks** — enables you to specify a bookmark for any single message or group of messages that you select in the **Analysis Grid** viewer. You typically set such bookmarks in a trace for quick location of messages that have some related importance or critical context for the data analysis process. Bookmarks make it convenient to locate these messages at any time, since you can save them with your message data in the *.matp format. It also makes it convenient to share the trace with others along with the bookmarks that you configured to highlight the important focus areas.  
   
--   **Pattern Bookmarks** — enables you to specify bookmarks for one or more matched instance messages in the **Pattern Match** viewer, after executing a Pattern expression against a set of trace results. You can set these types of bookmarks to quickly locate messages for specific matched instances of a Pattern expression, as described in [Viewing Matched Instance Message Data](../messageanalyzer_content/using-the-pattern-match-viewer.md#BKMK_ViewMatchedInstanceData), although the method to do so is different than you would do in the **Analysis Grid** viewer, as described in [Viewing Bookmarked Data](../messageanalyzer_content/bookmarks-tool-window.md#BKMK_ViewingBookmarks).  
+-   **Pattern Bookmarks** — enables you to specify bookmarks for one or more matched instance messages in the **Pattern Match** viewer, after executing a Pattern expression against a set of trace results. You can set these types of bookmarks to quickly locate messages for specific matched instances of a Pattern expression, as described in [Viewing Matched Instance Message Data](using-the-pattern-match-viewer.md#BKMK_ViewMatchedInstanceData), although the method to do so is different than you would do in the **Analysis Grid** viewer, as described in [Viewing Bookmarked Data](bookmarks-tool-window.md#BKMK_ViewingBookmarks).  
   
 ## Displaying the Bookmarks Tool Window  
  If the **Bookmarks** window is not displaying in an Analysis Session, you can open it by clicking the **Bookmarks** item in the **Windows** submenu that is accessible from the global Message Analyzer **Tools** menu. You can also undock and reposition the **Bookmarks** window in a more convenient location by taking advantage of the docking navigation control that displays after you drag the **Bookmarks** window by its tab away from the default docking location.  
@@ -45,9 +45,9 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 -   **Flag** icon — this sortable column is empty by default, but you can configure it with a chosen flag color to indicate a self-defined level of importance, interest, or critical context that a bookmarked entity represents. You can set a **Flag** color by right-clicking a bookmark row under the **Flag** column, clicking the **Flags** item in the context menu that appears, and then selecting the **Flag** color in the context submenu.  
   
--   **Link** icon — this sortable column enables you to attach one or more files to a bookmark, as described in [Adding Attachments and Comments](../messageanalyzer_content/bookmarks-tool-window.md#BKMK_AttachFile-CommentsToBkmk).  
+-   **Link** icon — this sortable column enables you to attach one or more files to a bookmark, as described in [Adding Attachments and Comments](bookmarks-tool-window.md#BKMK_AttachFile-CommentsToBkmk).  
   
--   **Comment** icon — this sortable column enables you to add one or more comments to a bookmark, as described in [Adding Attachments and Comments](../messageanalyzer_content/bookmarks-tool-window.md#BKMK_AttachFile-CommentsToBkmk).  
+-   **Comment** icon — this sortable column enables you to add one or more comments to a bookmark, as described in [Adding Attachments and Comments](bookmarks-tool-window.md#BKMK_AttachFile-CommentsToBkmk).  
   
 -   **Pattern** icon — becomes active when you are adding a bookmark to a **Pattern Group** row. This occurs after you select a pattern match in the **Matched Instances** section of the **Pattern Match** viewer and then select the **Pattern Bookmark** command from the **Add** drop-down menu on the toolbar of the **Bookmarks** window.  
   
@@ -152,7 +152,7 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
          ___________________\_  
   
          **More Information**   
-         **To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md).    
+         **To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).    
         ___________________\_  
   
 -   **Pattern Group drop down** — click the book icon to the left of the **Pattern Group** of interest in the **Bookmarks** window to display a drop-down that contains the messages associated with a particular bookmarked **MATCHED INSTANCE** in the **Pattern Match** viewer.  

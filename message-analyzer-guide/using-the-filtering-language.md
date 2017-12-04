@@ -20,13 +20,13 @@ The topics of this section as listed below describe how to use various features 
   
  ___________________________________\_  
   
- [Using Truncated Filter Expressions](../messageanalyzer_content/using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
- [Traversing the Message Hierarchy with Explicit Paths](../messageanalyzer_content/using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
- [Accessing Message Properties and Annotations](../messageanalyzer_content/using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)   
- [Referencing Enumerations](../messageanalyzer_content/using-the-filtering-language.md#BKMK_ReferenceEnums)   
- [Using Special Filtering Functions](../messageanalyzer_content/using-the-filtering-language.md#BKMK_UseSpecialFilterFunctions)   
- [Browsing Message Origins](../messageanalyzer_content/using-the-filtering-language.md#BKMK_BrowseMessageOrigins)   
- [Using Aliases](../messageanalyzer_content/using-the-filtering-language.md#BKMK_usingAliases)   
+ [Using Truncated Filter Expressions](using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
+ [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
+ [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)   
+ [Referencing Enumerations](using-the-filtering-language.md#BKMK_ReferenceEnums)   
+ [Using Special Filtering Functions](using-the-filtering-language.md#BKMK_UseSpecialFilterFunctions)   
+ [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins)   
+ [Using Aliases](using-the-filtering-language.md#BKMK_usingAliases)   
 ___________________________________\_  
   
  For each of these discussion areas, working filter examples are provided so that you can copy and paste them into a Filter Expression text box and test them. However, please observe the following advisory note.  
@@ -49,7 +49,7 @@ ___________________________________\_
 |----------------|-------------|  
 |`HTTP.Method==“GET”`|This filter returns only HTTP messages that have the value of their Method field set to “GET”. In this filter, note that the HTTP “Request” message type is not specified.|  
 |`*Method==“GET”`|This filter has a result that is identical to `HTTP.Method==”GET”`, although both the protocol name and message type are omitted from the expression. Although this filter expression looks for messages from *any* protocol with a Method field set to “GET”, it is highly unlikely that such a message would be found, thus only HTTP messages will be returned.|  
-|`*Port==443`|This filter looks at any protocol that has Port field defined. TCP defines SourcePort and DestinationPort fields, so this filter will capture HTTPS over TCP traffic because “Port” is an alias that represents both these fields, as described in [Using Aliases](../messageanalyzer_content/using-the-filtering-language.md#BKMK_usingAliases). However, messages from any other protocol that have a Port field defined might also be returned if their Port values are set to 443. **Note:**  When viewing the results of a filter such as this, consider that if the origin tree includes messages with a Port value equal to 443, you may also see other messages with Port values that are not set to 443, as indicated in the **Filter applicability** bullet item in [Other Filtering Considerations](../messageanalyzer_content/understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).|  
+|`*Port==443`|This filter looks at any protocol that has Port field defined. TCP defines SourcePort and DestinationPort fields, so this filter will capture HTTPS over TCP traffic because “Port” is an alias that represents both these fields, as described in [Using Aliases](using-the-filtering-language.md#BKMK_usingAliases). However, messages from any other protocol that have a Port field defined might also be returned if their Port values are set to 443. **Note:**  When viewing the results of a filter such as this, consider that if the origin tree includes messages with a Port value equal to 443, you may also see other messages with Port values that are not set to 443, as indicated in the **Filter applicability** bullet item in [Other Filtering Considerations](understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).|  
   
 <a name="BKMK_TraverseMessageHierarchyExpPaths"></a>   
 ## Traversing the Message Hierarchy with Explicit Paths  
@@ -88,7 +88,7 @@ ___________________________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about Filter Expressions that use enumerations, including additional examples, see the [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic in [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md).  
+ **To learn more** about Filter Expressions that use enumerations, including additional examples, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).  
 ___________________\_  
   
 <a name="BKMK_UseSpecialFilterFunctions"></a>   
@@ -139,7 +139,7 @@ ___________________\_
 > [!IMPORTANT]
 >  As related to OPN aspects, aliases are not actual message fields and therefore you cannot display an *alias* column in the **Analysis Grid** viewer column layout.  
   
- However, this should not be confused with the Message Analyzer **Aliases** feature that enables you to create and substitute a friendly name for a field value with a cryptic name that is difficult to keep track of. For more information about this feature, see [Using and Managing Message Analyzer Aliases](../messageanalyzer_content/using-and-managing-message-analyzer-aliases.md).  
+ However, this should not be confused with the Message Analyzer **Aliases** feature that enables you to create and substitute a friendly name for a field value with a cryptic name that is difficult to keep track of. For more information about this feature, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).  
   
 > [!NOTE]
 >  OPN aspects perform a similar function as attributes do in the C# programming language. For example, attributes consists of metadata that can extend the language or declarative information that a program can use at runtime.  

@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Protocol Dashboard
-The **Protocol Dashboard** is a **Chart**-style data viewer that enables you to obtain a quick assessment of trace performance from graphic visualizer components that provide top-level summary information. It exists in the **Dashboards** category of your local **Charts** asset collection Library, which is accessible from the locations described in [Chart Viewer Layouts](../messageanalyzer_content/chart-viewer-layouts.md). A description of the  visualizer components that are contained in the **Protocol Dashboard** follows.  
+The **Protocol Dashboard** is a **Chart**-style data viewer that enables you to obtain a quick assessment of trace performance from graphic visualizer components that provide top-level summary information. It exists in the **Dashboards** category of your local **Charts** asset collection Library, which is accessible from the locations described in [Chart Viewer Layouts](chart-viewer-layouts.md). A description of the  visualizer components that are contained in the **Protocol Dashboard** follows.  
   
 ## Using the Protocol Dashboard  
  The **Protocol Dashboard** contains the following visualizer components:  
@@ -24,7 +24,7 @@ The **Protocol Dashboard** is a **Chart**-style data viewer that enables you to 
 -   **Top Level Protocol Summary** grid — consists of a table that provides a summary of the top-level messages retrieved by various modules in a trace, along with the number of top-level messages received from each module.  
   
     > [!NOTE]
-    >  If you double-click a table row, all messages in which the module is either a top-level message or part of message origins will display in a separate **Analysis Grid** viewer tab. Because *all* messages are displayed in a separate viewer tab as indicated, the message count in that viewer tab will differ from the top-level message count specified in the **Top Level Protocol Summary** table. To see only the top-level messages in the new **Analysis Grid** viewer tab, you can apply a view **Filter** that isolates top-level messages by using the backslash symbol (“\”) described in [Browsing Message Origins](../messageanalyzer_content/using-the-filtering-language.md#BKMK_BrowseMessageOrigins), as follows:   
+    >  If you double-click a table row, all messages in which the module is either a top-level message or part of message origins will display in a separate **Analysis Grid** viewer tab. Because *all* messages are displayed in a separate viewer tab as indicated, the message count in that viewer tab will differ from the top-level message count specified in the **Top Level Protocol Summary** table. To see only the top-level messages in the new **Analysis Grid** viewer tab, you can apply a view **Filter** that isolates top-level messages by using the backslash symbol (“\”) described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins), as follows:   
     > `“\<modulename>”`  
     >  — where \<modulename> is a placeholder for the module or protocol of interest.  
   

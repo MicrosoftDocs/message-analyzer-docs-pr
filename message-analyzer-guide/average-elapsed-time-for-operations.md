@@ -27,4 +27,4 @@ The **Average Elapsed Times for Operations** viewer **Layout** for **Charts** pr
 >  You can double-click any bar element in either of the graphs in this viewer and display the associated messages for each method or command in a separate **Analysis Grid** viewer instance for further analysis.  
   
 ## See Also  
- [Average Response Time for Operations](../messageanalyzer_content/average-response-time-for-operations.md)
+ [Average Response Time for Operations](average-response-time-for-operations.md)

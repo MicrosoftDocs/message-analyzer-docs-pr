@@ -29,5 +29,5 @@ A **LinkLevelAddress** is a type of **Fast Filter** that enables you to filter o
  ___________________\_  
   
  **More Information**   
- **To learn more** about **Fast Filter** configuration capabilities, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
+ **To learn more** about **Fast Filter** configuration capabilities, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
 ___________________\_

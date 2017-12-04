@@ -33,10 +33,10 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
   
 <a name="BKMK_SelectingSessionFilters"></a>   
 ## Selecting Built-In Session Filters  
- To select a built-in Filter Expression for a Live Trace Session, click the **Library** drop-down list on the toolbar above the **Session Filter** text box in the **New Session** dialog and then select a filter item. After you select a filter, the filter code displays in the **Session Filter** text box. Note that you can optionally modify any built-in **Session Filter** configuration *for the session only*, by specifying your Filter Expression changes prior to starting your Live Trace Session. Note that you cannot alter the default configuration of any built-in Filter Expression item that is contained in the centralized Filter Expression **Library**. The built-in **Library** Filter Expressions that are included by default in Message Analyzer fall into the following categories of application. The functions of the filters that exist in the below categories are described in [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md), with exception of the **Azure Storage** category:  
+ To select a built-in Filter Expression for a Live Trace Session, click the **Library** drop-down list on the toolbar above the **Session Filter** text box in the **New Session** dialog and then select a filter item. After you select a filter, the filter code displays in the **Session Filter** text box. Note that you can optionally modify any built-in **Session Filter** configuration *for the session only*, by specifying your Filter Expression changes prior to starting your Live Trace Session. Note that you cannot alter the default configuration of any built-in Filter Expression item that is contained in the centralized Filter Expression **Library**. The built-in **Library** Filter Expressions that are included by default in Message Analyzer fall into the following categories of application. The functions of the filters that exist in the below categories are described in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md), with exception of the **Azure Storage** category:  
   
 > [!NOTE]
->  The **Azure Storage** category filters are not described in this Operating Guide, as Microsoft provides related information in Azure blogs and tutorials, which you can access from the topic [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md). Note that the **Azure Storage** category will only exist in your user **Library** if you download the **Azure Storage Filter** asset package with the use of  the **Asset Manager** dialog.  
+>  The **Azure Storage** category filters are not described in this Operating Guide, as Microsoft provides related information in Azure blogs and tutorials, which you can access from the topic [Filtering Live Trace Session Results](filtering-live-trace-session-results.md). Note that the **Azure Storage** category will only exist in your user **Library** if you download the **Azure Storage Filter** asset package with the use of  the **Asset Manager** dialog.  
   
 -   **Azure Storage**  
   
@@ -83,11 +83,11 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
  ___________________\_  
   
  **More Information**   
- **To learn more** about using the Filtering Language, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).   
-**To learn more** about the built-in filters in the centralized **Message Analyzer Filter** asset collection **Library** that are provided with Message Analyzer, see [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md).   
-**To learn more** about using the statement completion feature for Filter Expressions, see the [Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md) topic.  
-**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) topic.  
+ **To learn more** about using the Filtering Language, see [Writing Filter Expressions](writing-filter-expressions.md).   
+**To learn more** about the built-in filters in the centralized **Message Analyzer Filter** asset collection **Library** that are provided with Message Analyzer, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
+**To learn more** about using the statement completion feature for Filter Expressions, see the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
+**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 ___________________\_  
   
 ## See Also  
- [Filtering Message Data](../messageanalyzer_content/filtering-message-data.md)
+ [Filtering Message Data](filtering-message-data.md)

@@ -46,7 +46,7 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
 ## Selecting a Built-In Trace Scenario  
  You can locate the built-in **Trace Scenarios** in the **Select Scenario** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog, as shown in the figure that follows.  
   
- ![Message Analyzer Built&#45;In Trace Scenarios for Live Trace Session Configuration](../messageanalyzer_content/media/03bd68cc-4bec-4ece-8aae-5f40a6d1be93.png "Fig19-Message Analyzer Built-In Trace Scenarios for Live Trace Session Configuration")  
+ ![Message Analyzer Built&#45;In Trace Scenarios for Live Trace Session Configuration](media/03bd68cc-4bec-4ece-8aae-5f40a6d1be93.png "Fig19-Message Analyzer Built-In Trace Scenarios for Live Trace Session Configuration")  
   
  **Figure 19:  Message Analyzer Built-In Trace Scenarios for Live Trace Session Configuration**  
   
@@ -55,7 +55,7 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
  ___________________\_  
   
  **More Information**   
- **To learn more** about the functions of the **Trace Scenarios** provided by default in every Message Analyzer installation, see the [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md) topic.  
+ **To learn more** about the functions of the **Trace Scenarios** provided by default in every Message Analyzer installation, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.  
 ___________________\_  
   
 ## Quick Start Trace Scenarios  
@@ -71,13 +71,13 @@ ___________________\_
   
  Possible information sources that you might consult to learn more about the type of data that system ETW Providers capture consist of the following:  
   
--   **Advanced Settings** dialog — click an ellipsis (**…**) on the **ETW Core** tab of the **Advanced Settings** dialog for any message provider to view a list of **Keyword** filters that such providers make available for selection, as described in [System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md).  
+-   **Advanced Settings** dialog — click an ellipsis (**…**) on the **ETW Core** tab of the **Advanced Settings** dialog for any message provider to view a list of **Keyword** filters that such providers make available for selection, as described in [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
   
--   **Provider manifest files** — these are typically cached on your machine. The manifests typically include **Keywords** that define the events that a provider captures and can also contain event descriptions that can be useful when assessing ETW Provider functionality. To see an example of a simple manifest, see the [Event Manifest](../messageanalyzer_content/etw-framework-conceptual-tutorial.md#BKMK_EventManifest) topic in the [ETW Framework Conceptual Tutorial](../messageanalyzer_content/etw-framework-conceptual-tutorial.md).  
+-   **Provider manifest files** — these are typically cached on your machine. The manifests typically include **Keywords** that define the events that a provider captures and can also contain event descriptions that can be useful when assessing ETW Provider functionality. To see an example of a simple manifest, see the [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest) topic in the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).  
   
 -   **Windows Events Provider Explorer (WEPExplorer)** — a graphic utility that enables you to display metadata from the manifest of each system ETW Provider that is installed and registered on your system. The metadata includes event **Keywords**, error **Levels**, **Opcodes**, **Channels**, and so on. For further details, see [Windows Events Provider Explorer](http://lallouslab.net/2016/01/25/windows-events-providers-explorer/) on the web.  
   
--   **Event Trace Sessions** — view **Keyword** configurations for various ETW Providers in live sessions that you can view with Performance Monitor, as described in [Finding System ETW Provider Metadata](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md#BKMK_FindingKeywords). If you select an ETW Provider in the **Providers** list in the **Properties** dialog for a particular session and then click the **Edit** button, you can display the list of **Keywords** that were originally specified in the manifest as the selected provider was developed. This can give you an indication of the type of messages that the selected ETW Provider will capture. In most cases, you can also locate such providers in the previously mentioned **Add System Providers** dialog when you are configuring a Live Trace Session in Message Analyzer.  
+-   **Event Trace Sessions** — view **Keyword** configurations for various ETW Providers in live sessions that you can view with Performance Monitor, as described in [Finding System ETW Provider Metadata](system-etw-provider-event-keyword-level-settings.md#BKMK_FindingKeywords). If you select an ETW Provider in the **Providers** list in the **Properties** dialog for a particular session and then click the **Edit** button, you can display the list of **Keywords** that were originally specified in the manifest as the selected provider was developed. This can give you an indication of the type of messages that the selected ETW Provider will capture. In most cases, you can also locate such providers in the previously mentioned **Add System Providers** dialog when you are configuring a Live Trace Session in Message Analyzer.  
   
 -   **Community knowledge bases** — you may be able to find information on optimized ETW Provider configurations from sources such as blogs and other social media.  
   
@@ -95,17 +95,17 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about using **Session Filters**, see [Working with Session Filters in a Live Trace Session](../messageanalyzer_content/working-with-session-filters-in-a-live-trace-session.md).  
-**To learn more** about using **Keyword** filters, see [Adding a System ETW Provider](../messageanalyzer_content/adding-a-system-etw-provider.md) and [System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md).  
-**To learn more** about using **Fast Filters**, see [PEF-NDIS Fast Filters](../messageanalyzer_content/pef-ndis-fast-filters.md) and [PEF-WFP Fast Filters](../messageanalyzer_content/pef-wfp-fast-filters.md).  
-**To learn more** about using **Parsing Levels**, see [Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md).  
-**To learn more** about the capabilities of the **Microsoft-Windows-NDIS-PacketCapture** provider, see the [Microsoft-Windows-NDIS-PacketCapture Provider](../messageanalyzer_content/microsoft-windows-ndis-packetcapture-provider.md) topic.   
+ **To learn more** about using **Session Filters**, see [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md).  
+**To learn more** about using **Keyword** filters, see [Adding a System ETW Provider](adding-a-system-etw-provider.md) and [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
+**To learn more** about using **Fast Filters**, see [PEF-NDIS Fast Filters](pef-ndis-fast-filters.md) and [PEF-WFP Fast Filters](pef-wfp-fast-filters.md).  
+**To learn more** about using **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
+**To learn more** about the capabilities of the **Microsoft-Windows-NDIS-PacketCapture** provider, see the [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md) topic.   
 ___________________\_  
   
 ## Session Configuration Workflow and Features  
  The linked section immediately below provides a general workflow that you can follow when configuring a Live Trace Session. It also contains subtopics that describe the features and functions that you can use when configuring a Live Trace Session:  
-[Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md)  
+[Configuring a Live Trace Session](configuring-a-live-trace-session.md)  
   
 ## See Also  
- [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md)   
- [PEF Message Providers](../messageanalyzer_content/pef-message-providers.md)
+ [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+ [PEF Message Providers](pef-message-providers.md)

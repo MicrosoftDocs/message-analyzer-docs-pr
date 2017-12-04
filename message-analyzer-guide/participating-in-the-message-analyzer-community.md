@@ -29,10 +29,10 @@ In the topics of this section, a     brief description of the above specified re
 ______________________\_  
   
 ## In This Section  
- **[Message Analyzer Community Additions](../messageanalyzer_content/message-analyzer-community-additions.md)**  — learn how you can provide feedback or start a discussion thread on any topic in this Operating Guide, to which you can obtain feedback directly from Microsoft.  
+ **[Message Analyzer Community Additions](message-analyzer-community-additions.md)**  — learn how you can provide feedback or start a discussion thread on any topic in this Operating Guide, to which you can obtain feedback directly from Microsoft.  
   
- **[Message Analyzer Team Blog](../messageanalyzer_content/message-analyzer-team-blog.md)**  — take advantage of the Message Analyzer Blog site, where informative articles are posted by the engineers who designed Message Analyzer.  
+ **[Message Analyzer Team Blog](message-analyzer-team-blog.md)**  — take advantage of the Message Analyzer Blog site, where informative articles are posted by the engineers who designed Message Analyzer.  
   
- **[Message Analyzer Online Forum](../messageanalyzer_content/message-analyzer-online-forum.md)**  — create a discussion thread to obtain feedback from Microsoft on bug related issues and others; also enables you to facilitate problem solving by soliciting interactive participation from other users on your issue.  
+ **[Message Analyzer Online Forum](message-analyzer-online-forum.md)**  — create a discussion thread to obtain feedback from Microsoft on bug related issues and others; also enables you to facilitate problem solving by soliciting interactive participation from other users on your issue.  
   
- **[Message Analyzer Feedback](../messageanalyzer_content/message-analyzer-feedback.md)**  — review all the options that are available for providing feedback about Message Analyzer, including on features you have used and features that you want to request.
+ **[Message Analyzer Feedback](message-analyzer-feedback.md)**  — review all the options that are available for providing feedback about Message Analyzer, including on features you have used and features that you want to request.

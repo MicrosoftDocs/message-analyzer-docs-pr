@@ -16,9 +16,9 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Applying an Input Time Filter to a Data Retrieval Session
-Prior to loading data into Message Analyzer from a specified message collection that you configure in a Data Retrieval Session, you can also configure a window of time in which to view data by using a **Time Filter**. This is particularly useful if you have one or more very large data files that contain trace or log data that was collected over a significant period of time and you want to narrow the scope of the data to be viewed. The UI configuration of the **Time Filter** feature is shown in the figure of the topic [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md).  
+Prior to loading data into Message Analyzer from a specified message collection that you configure in a Data Retrieval Session, you can also configure a window of time in which to view data by using a **Time Filter**. This is particularly useful if you have one or more very large data files that contain trace or log data that was collected over a significant period of time and you want to narrow the scope of the data to be viewed. The UI configuration of the **Time Filter** feature is shown in the figure of the topic [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
   
- Most logs and file types are supported by the **Time Filter** feature; however, you may need to select the **Use Start Filter** and **Use End Filter** check boxes and specify start and end times in the corresponding text boxes for certain types of logs and traces in which the data format prevented Message Analyzer from retrieving this information. See [Manually Specifying Time Formats](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md#BKMK_ManuallySetTimeFormats) for more information.  
+ Most logs and file types are supported by the **Time Filter** feature; however, you may need to select the **Use Start Filter** and **Use End Filter** check boxes and specify start and end times in the corresponding text boxes for certain types of logs and traces in which the data format prevented Message Analyzer from retrieving this information. See [Manually Specifying Time Formats](applying-an-input-time-filter-to-a-data-retrieval-session.md#BKMK_ManuallySetTimeFormats) for more information.  
   
  For example, the following table lists the different trace or log file types for which Message Analyzer can determine the start times and end times, along with those that it cannot.  
   
@@ -50,7 +50,7 @@ Prior to loading data into Message Analyzer from a specified message collection 
 |.xml|No|No|No|  
   
 > [!CAUTION]
->  *Message Analyzer supports these input file types with separate user interface (UI) features, as described in [Retrieving Azure Storage Table Data](../messageanalyzer_content/retrieving-azure-storage-table-data.md), [Loading SQL Data](../messageanalyzer_content/loading-sql-data.md), and [Loading OMS Log Data](../messageanalyzer_content/loading-oms-log-data.md). However, the UI for these features does not provide start and end time information, as described in the previous table.  
+>  *Message Analyzer supports these input file types with separate user interface (UI) features, as described in [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md), [Loading SQL Data](loading-sql-data.md), and [Loading OMS Log Data](loading-oms-log-data.md). However, the UI for these features does not provide start and end time information, as described in the previous table.  
   
 > [!NOTE]
 >  \*\*When loading data from a .cap file that was not previously saved by Message Analyzer, the start and end time values for the message data is unknown. In cases where Message Analyzer has *some* information, any displayed values for these files are only estimates. For text logs in .log file format, the start and end time values of messages will be known only after the parsing process, or if you specified the time stamp format in an OPN configuration file for the text log.  
@@ -80,6 +80,6 @@ Prior to loading data into Message Analyzer from a specified message collection 
  ___________________\_  
   
  **More Information**   
- **To learn more** about reconfiguring a Data Retrieval Session and re-running it, see [Editing Existing Sessions](../messageanalyzer_content/editing-existing-sessions.md).   
+ **To learn more** about reconfiguring a Data Retrieval Session and re-running it, see [Editing Existing Sessions](editing-existing-sessions.md).   
 **To learn more** about creating an OPN configuration file for text logs with a proprietary format, the [OPN Configuration File for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document is available as a TechNet download.   
 ___________________\_

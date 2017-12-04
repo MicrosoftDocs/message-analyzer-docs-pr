@@ -22,9 +22,9 @@ Message Analyzer can make use of many different message providers when capturing
   
  ______________________________________________\_  
   
- [Microsoft-PEF-NDIS-PacketCapture Provider](../messageanalyzer_content/microsoft-pef-ndis-packetcapture-provider.md)   
- [Microsoft-PEF-WFP-MessageProvider](../messageanalyzer_content/microsoft-pef-wfp-messageprovider.md)   
- [Microsoft-PEF-WebProxy Provider](../messageanalyzer_content/microsoft-pef-webproxy-provider.md)   
+ [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
+ [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)   
+ [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)   
 ______________________________________________\_  
   
 > [!TIP]
@@ -49,4 +49,4 @@ ______________________________________________\_
  ______________\_  
   
 ## See Also  
- [Event Manifest](../messageanalyzer_content/etw-framework-conceptual-tutorial.md#BKMK_EventManifest)
+ [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest)

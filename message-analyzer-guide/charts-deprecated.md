@@ -18,5 +18,5 @@ The **Charts (Deprecated)** viewers consist of those **Charts** that were availa
   
  ___________________\_  
   
- [Protocol Dashboard](../messageanalyzer_content/protocol-dashboard.md)   
+ [Protocol Dashboard](protocol-dashboard.md)   
 ___________________\_

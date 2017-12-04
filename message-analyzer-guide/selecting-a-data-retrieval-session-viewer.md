@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Selecting a Data Retrieval Session Viewer
-After you configure a Data Retrieval Session with the files that contain the data you are targeting to load into Message Analyzer, you can choose a viewer in which to display the session results data. You can choose any data viewer that exists in the **Start With** drop-down in the **New Session** dialog for a Data Retrieval Session, including data viewer assets that you import through the Message Analyzer sharing infrastructure. For a list of the data viewers that Message Analyzer provides by default, see the topic [Selecting a Session Data Viewer](../messageanalyzer_content/selecting-a-session-data-viewer.md).  
+After you configure a Data Retrieval Session with the files that contain the data you are targeting to load into Message Analyzer, you can choose a viewer in which to display the session results data. You can choose any data viewer that exists in the **Start With** drop-down in the **New Session** dialog for a Data Retrieval Session, including data viewer assets that you import through the Message Analyzer sharing infrastructure. For a list of the data viewers that Message Analyzer provides by default, see the topic [Selecting a Session Data Viewer](selecting-a-session-data-viewer.md).  
   
 ## Changing Data Viewers  
  You can start loading data into Message Analyzer through a Data Retrieval Session any time after you create a selected input file configuration in the files list on the **Files** tab of the **New Session** dialog. Unless you specify otherwise, Message Analyzer will use the default data viewer to display your data, which is typically the **Analysis Grid** viewer. However, you can change the default data viewer setting that will be used by Message Analyzer for all sessions by specifying a viewer in the **Default Viewer** drop-down list on the **Default Profile** pane of the global **Options** dialog that is accessible from the Message Analyzer **Tools** menu.  
@@ -66,9 +66,9 @@ After you retrieve your data and it displays in the viewer that you initially se
  ___________________\_  
   
  **More Information**   
- **To learn more** about the data viewers and **Layouts** that are available in Message Analyzer, along with the **Tool Windows** with which they interact, see the [Data Viewers](../messageanalyzer_content/data-viewers.md) and [Tool Windows](../messageanalyzer_content/tool-windows.md) sections of this Operating Guide.  
-**To learn more** about the integrated and interactive analysis environments that Message Analyzer provides with preset configurations of data viewers, **Layouts**, and **Tool Windows**, see [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md).  
+ **To learn more** about the data viewers and **Layouts** that are available in Message Analyzer, along with the **Tool Windows** with which they interact, see the [Data Viewers](data-viewers.md) and [Tool Windows](tool-windows.md) sections of this Operating Guide.  
+**To learn more** about the integrated and interactive analysis environments that Message Analyzer provides with preset configurations of data viewers, **Layouts**, and **Tool Windows**, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
 ___________________\_  
   
 ## See Also  
- [Session Data Viewer Options](../messageanalyzer_content/session-data-viewer-options.md)
+ [Session Data Viewer Options](session-data-viewer-options.md)

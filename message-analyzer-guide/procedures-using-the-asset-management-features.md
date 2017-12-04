@@ -24,11 +24,11 @@ This section contains procedures that demonstrate how to use the Message Analyze
 A brief description of each procedure is included here for review, as follows.  
 ______________________\_  
   
- **[Download and Auto-Sync Asset Collections](../messageanalyzer_content/procedures-using-the-asset-management-features.md#BKMK_DownloadAutoSync)**  — provides an example of how to download an asset collection once without synchronizing it for updates; how to set a selected asset collection for auto-syncing updates; and how to synchronize all asset collections for updates.  
+ **[Download and Auto-Sync Asset Collections](procedures-using-the-asset-management-features.md#BKMK_DownloadAutoSync)**  — provides an example of how to download an asset collection once without synchronizing it for updates; how to set a selected asset collection for auto-syncing updates; and how to synchronize all asset collections for updates.  
   
- **[Share Local Library Items on a File Share](../messageanalyzer_content/procedures-using-the-asset-management-features.md#BKMK_ShareLibraryItems)**  — provides an example of how to export and import user asset collection Library items for mutual sharing and collaboration with others.  
+ **[Share Local Library Items on a File Share](procedures-using-the-asset-management-features.md#BKMK_ShareLibraryItems)**  — provides an example of how to export and import user asset collection Library items for mutual sharing and collaboration with others.  
   
- **[Manually Configure Asset Collection Update Synchronization on a User Feed](../messageanalyzer_content/procedures-using-the-asset-management-features.md#BKMK_ManualUpdateSyncing)**  — shows how to manually configure an asset collection for update synchronization on a user-configured feed.  
+ **[Manually Configure Asset Collection Update Synchronization on a User Feed](procedures-using-the-asset-management-features.md#BKMK_ManualUpdateSyncing)**  — shows how to manually configure an asset collection for update synchronization on a user-configured feed.  
   
 <a name="BKMK_DownloadAutoSync"></a>   
 ## Download and Auto-Sync Asset Collections  
@@ -169,4 +169,4 @@ ______________________\_
  Users should then be able to use the download or auto-sync option in the **Item Download Options** dialog to update their local Library with the latest version of your asset collection. After users update a Library, the collection items should appear in the Library under a category name that matches the feed name.  
   
 ## See Also  
- [Downloading Assets and Auto-Syncing Updates](../messageanalyzer_content/downloading-assets-and-auto-syncing-updates.md)
+ [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)

@@ -32,10 +32,10 @@ Message Analyzer traces are based on ETW Providers, which operate in an infrastr
  You might also save trace data on a source computer that will be further processed on other destination systems where the provider versions are unknown. If this is the case, Message Analyzer accommodates this situation by automatically saving trace data with the manifests of the underlying provider/s that were used in the trace. This ensures that Message Analyzer will be able to parse the ETW message data on the destination computer. Likewise, if you are loading data from an ETL file into Message Analyzer and you suspect that an unknown provider configuration was used to capture/log the data, you might need to generate a manifest for the log to ensure that Message Analyzer can parse its messages.  
   
 ## Obtaining a Provider Manifest  
- If you need to obtain a provider manifest for parsing ETW messages, see [Generating a Provider Manifest](../messageanalyzer_content/generating-a-provider-manifest.md).  
+ If you need to obtain a provider manifest for parsing ETW messages, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
   
  ______________\_  
   
 ## See Also  
- [Integrating Event Tracing](../messageanalyzer_content/message-analyzer-tutorial.md#BKMK_EventTraces)   
- [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md)
+ [Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)   
+ [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)

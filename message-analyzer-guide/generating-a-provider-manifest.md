@@ -55,4 +55,4 @@ You might need to generate a provider manifest to ensure that Message Analyzer c
 >  In a future release, Message Analyzer may have the capability to import provider manifests directly through an OPN adapter, depending on demand.  
   
 ## See Also  
- [Understanding Event Parsing with a Provider Manifest](../messageanalyzer_content/understanding-event-parsing-with-a-provider-manifest.md)
+ [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md)

@@ -18,11 +18,11 @@ manager: "ronstarr"
 # Chart Viewer Layouts
 By default, Message Analyzer provides several built-in data viewers such as the **Analysis Grid**, **Grouping**,  **Pattern Match**, and **Gantt** viewers, as described in earlier sections. However, Microsoft also provides numerous view **Layouts** for the **Chart** viewer  that each have a predefined configuration designed to display specific types of data in various presentation formats for the enhancement of data analysis perspectives. The built-in **Layouts** for the **Chart** viewer consist of various graphic visualizer components that provide top-level data summaries and statistics based on message types, fields, properties, and preconfigured formulas. The visualizer component types include **Table** grid, **Bar** element, **Pie** chart, **Timeline** graph, and other graphs that plot message data in the x-y coordinate domain; the **Timeline** graphs also include time window slider controls for zooming on data. A **Chart** viewer **Layout** called the **Top Level Protocols Message Count** contains a **Bar** element visualizer component, as shown in the figure that follows. The data exposed in this **Layout** shows the relative distribution of message volume for all protocols or modules for which messages were captured in a set of trace results.  
   
- ![Top Level Protocols Message Count Chart Layout](../messageanalyzer_content/media/fig46-top-level-protocols-message-count-chart-layout.png "Fig46-Top Level Protocols Message Count Chart Layout")  
+ ![Top Level Protocols Message Count Chart Layout](media/fig46-top-level-protocols-message-count-chart-layout.png "Fig46-Top Level Protocols Message Count Chart Layout")  
   
  **Figure 46: Top Level Protocols Message Count Chart Layout**  
   
- The **Layouts** feature for **Charts** enables you to select from a wide assortment of built-in view **Layouts** that are custom designed by Microsoft to provide focused analysis environments for quick exposure of  information that is critical to troubleshooting. Many of the **Layouts** provide high-level overviews of data in unique formats that can immediately point to specific issues and potentially indicate the direction in which further analysis  might proceed. The categories in which built-in **Chart** viewer **Layouts** exist are described in the [Chart Layout Categories](../messageanalyzer_content/chart-viewer-layouts.md#BKMK_ChartCategories) section ahead, where you can link to topics that describe the **Chart** viewer **Layouts** in each category.  
+ The **Layouts** feature for **Charts** enables you to select from a wide assortment of built-in view **Layouts** that are custom designed by Microsoft to provide focused analysis environments for quick exposure of  information that is critical to troubleshooting. Many of the **Layouts** provide high-level overviews of data in unique formats that can immediately point to specific issues and potentially indicate the direction in which further analysis  might proceed. The categories in which built-in **Chart** viewer **Layouts** exist are described in the [Chart Layout Categories](chart-viewer-layouts.md#BKMK_ChartCategories) section ahead, where you can link to topics that describe the **Chart** viewer **Layouts** in each category.  
   
  A single type of graphic visualizer  now exists in each built-in **Layout**, such as  a grid, bar element, pie-chart, or timeline component. The data points that you will find in many of these components are dynamically integrated with other viewers such as the **Analysis Grid**, so that you can interactively drive the display of messages in the latter by double-clicking data points in the former. You can  also click a group node in the **Grouping** viewer to simultaneously drive the display of messages in the **Analysis Grid** viewer, a **Chart**, and in a **Tool Window** such as the **Message Stack**. In any individual view of data, you  can achieve a unique analysis context; however, you will find that a combination of **Chart Layouts**, viewers, and **Tool Windows** that expose the same session data or details in different ways will contribute significantly to problem identification and resolution.  
   
@@ -32,7 +32,7 @@ In the case of **Profiles**, the **Chart** viewer **Layouts** are preselected to
  ___________________\_  
   
  **More Information**   
- **To learn more** about **Profiles** and how you can use some of the viewer **Layouts** that they employ  for analysis and troubleshooting purposes, see  [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md).  
+ **To learn more** about **Profiles** and how you can use some of the viewer **Layouts** that they employ  for analysis and troubleshooting purposes, see  [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
 ___________________\_  
   
 ## Creating Custom Chart Viewer Layouts  
@@ -41,7 +41,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring and saving a custom **Chart** viewer **Layout**, see [Configuring Chart Viewer Layouts](../messageanalyzer_content/configuring-chart-viewer-layouts.md).  
+ **To learn more** about configuring and saving a custom **Chart** viewer **Layout**, see [Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md).  
 ___________________\_  
   
 <a name="BKMK_LocatePredefinedCharts"></a>   
@@ -50,7 +50,7 @@ ___________________\_
   
 -   **Start With** drop-down list — in the **New Session** dialog, you can select a default **Chart** item  from the **Start With** drop-down list that displays a top-level protocols message count **Layout**, which uses a bar element configuration.  
   
--   **Layout** drop-down list — from the **Chart** drop-down list in the Message Analyzer global **Session** menu, you  can access the **Layout** drop-down list from where you can select a chosen **Layout**. However, you must have a **Chart** viewer **Layout** already displayed and in-focus to access the **Layout** drop-down list. Note that this list contains different categories in which the **Layouts** are specified, as described in the [Chart Layout Categories](../messageanalyzer_content/chart-viewer-layouts.md#BKMK_ChartCategories) section.  
+-   **Layout** drop-down list — from the **Chart** drop-down list in the Message Analyzer global **Session** menu, you  can access the **Layout** drop-down list from where you can select a chosen **Layout**. However, you must have a **Chart** viewer **Layout** already displayed and in-focus to access the **Layout** drop-down list. Note that this list contains different categories in which the **Layouts** are specified, as described in the [Chart Layout Categories](chart-viewer-layouts.md#BKMK_ChartCategories) section.  
   
 -   **New Viewer** drop-down list — from the **New Viewer** drop-down list on the global Message Analyzer toolbar, you can access the **Chart** drop-down list that contains all the **Layouts** that are available to choose.  
   
@@ -63,20 +63,20 @@ ___________________\_
 ## Chart Layout Categories  
  The built-in **Chart** viewer **Layouts** are described in the following sections. These section titles also reflect the actual category names in which the layouts exist in the **Layouts** drop-down  that is accessible from the global  Message Analyzer **Session** menu.  
   
- [HTTP Category](../messageanalyzer_content/http-category.md)   
- [General Category](../messageanalyzer_content/general-category.md)   
- [Network Category](../messageanalyzer_content/network-category.md)   
- [Netlogon Category](../messageanalyzer_content/netlogon-category.md)   
- [Networking Category](../messageanalyzer_content/networking-category.md)   
- [Common Category](../messageanalyzer_content/common-category.md)   
- [File Sharing Category](../messageanalyzer_content/file-sharing-category.md)  
+ [HTTP Category](http-category.md)   
+ [General Category](general-category.md)   
+ [Network Category](network-category.md)   
+ [Netlogon Category](netlogon-category.md)   
+ [Networking Category](networking-category.md)   
+ [Common Category](common-category.md)   
+ [File Sharing Category](file-sharing-category.md)  
   
  ___________________\_  
   
  **More Information**   
- **To learn more** about editing, creating, and managing **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](../messageanalyzer_content/extending-message-analyzer-data-viewing-capabilities.md).   
-**To learn more** about how to receive downloads and updates for asset collections, see [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md).  
+ **To learn more** about editing, creating, and managing **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).   
+**To learn more** about how to receive downloads and updates for asset collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
 ___________________\_  
   
 ## See Also  
- [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md)
+ [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

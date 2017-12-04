@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Analysis Grid Viewer
 The details of raw message data are presented in the Message Analyzer **Analysis Grid** viewer. This is the viewer that displays by default for all Data Retrieval Sessions and Live Trace Sessions, unless you either change the default **Default Viewer** on the **Profiles** tab of the global **Options** dialog that is accessible from the global Message Analyzer **Tools** menu, or if you simply select a different viewer from the **Start With** drop-down list in the **New Session** dialog prior to starting a session. The **Analysis Grid** viewer consists of a default tree grid display that groups related messages together in expandable, stacked configurations of parent and child message nodes that show Operations and other top-level messages above the underlying capture modules (message stack, also called the "origins" in this Operating Guide) and message fragments that supported such transactions across the time boundaries of a trace. In addition, the message **Details**, **Message Data**, **Message Stack**, and **Field Data** **Tool Windows** display by default when you specify the **Analysis Grid** as a data viewer. Note that message selection in the **Analysis Grid** drives interaction with these **Tool Windows**. The default configuration of the Analysis Grid  viewer is shown in the figure that follows.  
   
- ![Analysis Grid viewer default configuration](../messageanalyzer_content/media/fig41-analysis-grid-viewer-default-configuration.png "Fig41-Analysis Grid viewer default configuration")  
+ ![Analysis Grid viewer default configuration](media/fig41-analysis-grid-viewer-default-configuration.png "Fig41-Analysis Grid viewer default configuration")  
   
  **Figure 41:  Analysis Grid viewer default configuration**  
   
@@ -78,11 +78,11 @@ The details of raw message data are presented in the Message Analyzer **Analysis
   
     -   **Filter data in a separate Analysis Grid viewer tab** — select the **Filter ‘columnEntity’ in New Tab** command to display filtered data in a new instance of the **Analysis Grid** viewer.  
   
-    -   **Create a Pattern Expression** — select the **Create Pattern** command to open the **Pattern Editor** dialog, from where you can create a pattern expression by configuring a behavior scenario that detects a specified message pattern, as described in [Understanding Message Pattern Matching](../messageanalyzer_content/understanding-message-pattern-matching.md). When you open the **Pattern Editor** from the **Analysis Grid** viewer context menu, the **Quick** tab of the editor is prepopulated with initial information based on the message/s you selected in the **Analysis Grid** viewer prior to opening the editor.  
+    -   **Create a Pattern Expression** — select the **Create Pattern** command to open the **Pattern Editor** dialog, from where you can create a pattern expression by configuring a behavior scenario that detects a specified message pattern, as described in [Understanding Message Pattern Matching](understanding-message-pattern-matching.md). When you open the **Pattern Editor** from the **Analysis Grid** viewer context menu, the **Quick** tab of the editor is prepopulated with initial information based on the message/s you selected in the **Analysis Grid** viewer prior to opening the editor.  
   
     -   **Include hex values** — select the **Include Hex for Numeric Values** command to include a hexadecimal value in parentheses for numeric values that appear in the **Analysis Grid** viewer.  
   
-    -   **Specify binary value formats** — select the **Display Binary Values As** command to override the corresponding default setting in the **Options** dialog. Selectable values consist of the following, as described in [Setting Message Analyzer Global Options](../messageanalyzer_content/setting-message-analyzer-global-options.md):  
+    -   **Specify binary value formats** — select the **Display Binary Values As** command to override the corresponding default setting in the **Options** dialog. Selectable values consist of the following, as described in [Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md):  
   
         -   **ASCII**  
   
@@ -90,7 +90,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
   
         -   **Decimal**  
   
-    -   **Locate messages in the Grouping viewer** — select the **Find in Grouping Viewer** command to locate a corresponding message that appears in the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md), provided that it is open. This enables you to quickly assess such a message in the context of the Group hierarchy that is created by the currently applied **Grouping** viewer **Layout**. For example, the message you select might appear in a **Network** or **Transport** group in the **Grouping** viewer, enabling you to obtain a deep analysis perspective of the IP conversation or ports that carried the conversation in which the selected message appears.  
+    -   **Locate messages in the Grouping viewer** — select the **Find in Grouping Viewer** command to locate a corresponding message that appears in the [Grouping Viewer](grouping-viewer.md), provided that it is open. This enables you to quickly assess such a message in the context of the Group hierarchy that is created by the currently applied **Grouping** viewer **Layout**. For example, the message you select might appear in a **Network** or **Transport** group in the **Grouping** viewer, enabling you to obtain a deep analysis perspective of the IP conversation or ports that carried the conversation in which the selected message appears.  
   
     -   **Display OPN definitions** — select the **Go To ‘entityName’ Definition** command to display the OPN definition for a module or field that is associated with a selected message.  
   
@@ -132,7 +132,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
+     **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
     ___________________\_  
   
 -   **Group by Multiple Values** — creates groups based on varying values in a particular field that might be different at various stack levels, for example, IP addresses and Ethernet addresses hidden in the stack. Note that the **Group by Multiple Values** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.  
@@ -140,7 +140,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
+     **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
     ___________________\_  
   
 -   **Remove** — enables you to remove any column from the current column **Layout** that is displayed in the **Analysis Grid** viewer. Note that you can restore the default **Layout** for the **Analysis Grid** viewer at any time by selecting the **Restore Application Default Layout** command that displays when you click the **Manage Layouts** menu in the **Layouts** drop-down list on the **Analysis Grid** viewer toolbar.  
@@ -194,19 +194,19 @@ The details of raw message data are presented in the Message Analyzer **Analysis
   
  **More Information**   
  **To learn more** about the data manipulation features that you can use when working with the **Analysis Grid** viewer, see the following topics:   
-[Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md)  
-[Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md)  
-[Using the Find Message Feature](../messageanalyzer_content/using-the-find-message-feature.md)  
-[Using the Go To Message Feature](../messageanalyzer_content/using-the-go-to-message-feature.md)  
-[Filtering Column Data](../messageanalyzer_content/filtering-column-data.md)  
-[Using and Managing Color Rules](../messageanalyzer_content/using-and-managing-color-rules.md)  
-[Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md)  
-[Applying a Time Filter to Session Results](../messageanalyzer_content/applying-a-time-filter-to-session-results.md)  
-[Using the Field Chooser](../messageanalyzer_content/using-the-field-chooser.md)  
-[Setting Time Shifts](../messageanalyzer_content/setting-time-shifts.md)  
-[Annotation Windows](../messageanalyzer_content/annotation-windows.md)  
+[Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)  
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)  
+[Using the Find Message Feature](using-the-find-message-feature.md)  
+[Using the Go To Message Feature](using-the-go-to-message-feature.md)  
+[Filtering Column Data](filtering-column-data.md)  
+[Using and Managing Color Rules](using-and-managing-color-rules.md)  
+[Applying and Managing Filters](applying-and-managing-filters.md)  
+[Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)  
+[Using the Field Chooser](using-the-field-chooser.md)  
+[Setting Time Shifts](setting-time-shifts.md)  
+[Annotation Windows](annotation-windows.md)  
 ___________________\_  
   
 ## See Also  
- [Pattern Match Viewer](../messageanalyzer_content/pattern-match-viewer.md)   
- [Viewing OPN Source Code](../messageanalyzer_content/viewing-opn-source-code.md)
+ [Pattern Match Viewer](pattern-match-viewer.md)   
+ [Viewing OPN Source Code](viewing-opn-source-code.md)

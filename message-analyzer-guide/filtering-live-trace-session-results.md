@@ -28,10 +28,10 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **Manual configuration** — manually configure a Filter Expression in the *filter expression* text box on the Filtering toolbar.  
   
-     To learn more about manually configuring Filter Expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).  
+     To learn more about manually configuring Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
   
 ## Using the Filtering Toolbar to Apply and Remove a View Filter  
- After you specify a Filter Expression on the Filtering toolbar for the data in a particular session viewer tab and you click the **Apply** button on the toolbar, the filter isolates the message data that meets the filtering criteria that you specified, such that only those messages are visible. However, a view **Filter** does not modify the original data set, as Message Analyzer persists the full data set such that you can redisplay it whenever you remove the specified view **Filter**. In addition, when you click the **Remove** button on the Filtering toolbar to undo the results of a view **Filter** that you applied to a set of messages, the Filter Expression text in the  text box on the Filtering toolbar remains unchanged. This enables you to retain the Filter Expression text should you decide to reapply it, as described in [Working with Tiered Filtering Configurations](../messageanalyzer_content/applying-and-managing-filters.md#BKMK_WorkWithTieredFiltering). For example, if you have a tiered configuration of two or more Filter Expressions, you can alternately select or unselect each filter to enable or disable it, respectively, and obtain different results based on different combinations of filtering criteria, for enhanced analysis.  
+ After you specify a Filter Expression on the Filtering toolbar for the data in a particular session viewer tab and you click the **Apply** button on the toolbar, the filter isolates the message data that meets the filtering criteria that you specified, such that only those messages are visible. However, a view **Filter** does not modify the original data set, as Message Analyzer persists the full data set such that you can redisplay it whenever you remove the specified view **Filter**. In addition, when you click the **Remove** button on the Filtering toolbar to undo the results of a view **Filter** that you applied to a set of messages, the Filter Expression text in the  text box on the Filtering toolbar remains unchanged. This enables you to retain the Filter Expression text should you decide to reapply it, as described in [Working with Tiered Filtering Configurations](applying-and-managing-filters.md#BKMK_WorkWithTieredFiltering). For example, if you have a tiered configuration of two or more Filter Expressions, you can alternately select or unselect each filter to enable or disable it, respectively, and obtain different results based on different combinations of filtering criteria, for enhanced analysis.  
   
 > [!NOTE]
 >  After you apply a view **Filter**, Message Analyzer indicates the number of messages that passed the filtering criteria by providing an indication next to the **Available** label in the lower-left sector of the Message Analyzer user interface.  
@@ -40,35 +40,35 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 <a name="BKMK_AssesBuiltInFilters"></a>   
 ## Assessing the Built-In Filter Expressions  
- Every Message Analyzer installation provides built-in Filter Expressions in a centralized **Library** that contains the **Message Analyzer Filters** asset collection, which is updateable from the [Asset Manager](../messageanalyzer_content/asset-manager.md) dialog. In the **Library**, these Filter Expressions are contained in 12 different categories, in addition to an **Examples** category that contains an example filter that you can modify as required, so you can get started with developing Filter Expressions of your own. These categories and the filters they contain are described in the sections that follow. You are advised to assess these filters prior to applying them so that you will be able to more clearly recognize their effects upon trace results.  
+ Every Message Analyzer installation provides built-in Filter Expressions in a centralized **Library** that contains the **Message Analyzer Filters** asset collection, which is updateable from the [Asset Manager](asset-manager.md) dialog. In the **Library**, these Filter Expressions are contained in 12 different categories, in addition to an **Examples** category that contains an example filter that you can modify as required, so you can get started with developing Filter Expressions of your own. These categories and the filters they contain are described in the sections that follow. You are advised to assess these filters prior to applying them so that you will be able to more clearly recognize their effects upon trace results.  
   
  The categories in which the built-in Message Analyzer Filter Expressions are contained are described in the following sections:  
   
--   [Azure Storage Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_AzureFilterNote)  
+-   [Azure Storage Category](filtering-live-trace-session-results.md#BKMK_AzureFilterNote)  
   
--   [Address Filtering Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_AddressFilteringCat)  
+-   [Address Filtering Category](filtering-live-trace-session-results.md#BKMK_AddressFilteringCat)  
   
--   [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums)  
+-   [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums)  
   
--   [General Examples Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_GeneralExamples)  
+-   [General Examples Category](filtering-live-trace-session-results.md#BKMK_GeneralExamples)  
   
--   [RegEx Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_RegEx)  
+-   [RegEx Category](filtering-live-trace-session-results.md#BKMK_RegEx)  
   
--   [Contains Filters Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_ContainsFilters)  
+-   [Contains Filters Category](filtering-live-trace-session-results.md#BKMK_ContainsFilters)  
   
--   [HTTP Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_HTTPFilters)  
+-   [HTTP Category](filtering-live-trace-session-results.md#BKMK_HTTPFilters)  
   
--   [TCP Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_TransportExamples)  
+-   [TCP Category](filtering-live-trace-session-results.md#BKMK_TransportExamples)  
   
--   [LDAP Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_LDAPFilters)  
+-   [LDAP Category](filtering-live-trace-session-results.md#BKMK_LDAPFilters)  
   
--   [Remove Noise Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_RemoveNoiseFilters)  
+-   [Remove Noise Category](filtering-live-trace-session-results.md#BKMK_RemoveNoiseFilters)  
   
--   [File Sharing Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_FileSharingCategory)  
+-   [File Sharing Category](filtering-live-trace-session-results.md#BKMK_FileSharingCategory)  
   
--   [USB Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_USBFilters)  
+-   [USB Category](filtering-live-trace-session-results.md#BKMK_USBFilters)  
   
--   [Examples Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_ExamplesFilter)  
+-   [Examples Category](filtering-live-trace-session-results.md#BKMK_ExamplesFilter)  
   
 > [!IMPORTANT]
 >  The **Azure Storage** category filters are not described in this section, as Microsoft provides related information in Azure blogs that you can access, as indicated immediately below.  
@@ -99,7 +99,7 @@ ___________________\_
      For example, if you specified the Filter Expression as `IPv4.Address != 192.168.1.1` or `!(IPv4.Address == 192.168.1.1)`, all protocol messages that do not meet this criteria are returned, which means you would get all messages that are not IPv4 messages in addition to the target IPv4 traffic. However, as an alternative, you could add “`&& IPv4`” to either  expression if you want to pass only IPv4 messages.  
   
     > [!NOTE]
-    >  The Filter Expression `!(IPv4.Address == 192.168.1.1)` is semantically equivalent to `IPv4.Address != 192.168.1.1`. For more details about the use of the “!” operator, see [Other Filtering Considerations](../messageanalyzer_content/understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).  
+    >  The Filter Expression `!(IPv4.Address == 192.168.1.1)` is semantically equivalent to `IPv4.Address != 192.168.1.1`. For more details about the use of the “!” operator, see [Other Filtering Considerations](understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).  
   
 -   **IPv6.Address ==**  ***2001:4898:0:FFF:200:5EFE:4135:4A7***  — filters out all messages except those that contain a **Source** or **Destination** address that matches the specified IPv6 address value.  
   
@@ -227,7 +227,7 @@ ___________________\_
   
 -   **\*SMB.FileName ~= "" OR SMB2.FileName ~= ""** — this filter passes only SMB and SMB2 messages that have a FileName field defined, in which the field value is not equal to an empty string. This Filter Expression is not the same as `SMB.FileName != "" OR SMB2.FileName != ""`, which returns non-SMB traffic as well. By using the tilde (~) character in this filter, you ensure that only SMB traffic is returned.  
   
--   **SMB#DiagnosisLevels** — this filter passes all SMB messages that have parsing errors. This filter is equivalent to the expression `SMB && #DiagnosisLevels`. You can also apply any of the enumeration values specified by the table in [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) to this Filter Expression. For example, you could specify `SMB#DiagnosisLevels== Standard.DiagnosisLevel.Warning` to return all SMB messages that contain a Warning diagnosis level.  
+-   **SMB#DiagnosisLevels** — this filter passes all SMB messages that have parsing errors. This filter is equivalent to the expression `SMB && #DiagnosisLevels`. You can also apply any of the enumeration values specified by the table in [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) to this Filter Expression. For example, you could specify `SMB#DiagnosisLevels== Standard.DiagnosisLevel.Warning` to return all SMB messages that contain a Warning diagnosis level.  
   
 -   **\*Port == IANA.Port.SMB** — this filter passes messages from any protocol that has a top-level source or destination Port field equal to 445, including TCP and UDP. It also returns any top-level protocol that has a field or property named “Port”.  
   
@@ -251,15 +251,15 @@ ___________________\_
      You are encouraged to browse through the HTTP message hierarchy with the **Field Chooser** window to review the types of fields that you can specify in an HTTP filter. You can also make use of the Filtering IntelliSense feature that kicks in and exposes the message hierarchy when you type a dot (.) after “HTTP” in the Filter Expression text box of the **Edit Filter** dialog (or in the Filter Expression text box on any Filter panel). You can open the **Edit Filter** dialog by right-clicking the HTTP example and selecting the **Edit** item in the context menu that appears.  
   
 ## Sharing Filter Items  
- You can share  items from your centralized filter **Library** with other users, including any that you create, by exporting them as a **Filter** asset collection (\*.asset file) through the Message Analyzer Sharing Infrastructure. The features of the Sharing Infrastructure enable you to export and import **Filter** items to and from a designated user file share or other location, respectively, or to a user feed that you create from the **Settings** tab of the Message Analyzer **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu. To learn how to manage view **Filters** from the **Manage Filters** dialog, see [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md).  
+ You can share  items from your centralized filter **Library** with other users, including any that you create, by exporting them as a **Filter** asset collection (\*.asset file) through the Message Analyzer Sharing Infrastructure. The features of the Sharing Infrastructure enable you to export and import **Filter** items to and from a designated user file share or other location, respectively, or to a user feed that you create from the **Settings** tab of the Message Analyzer **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu. To learn how to manage view **Filters** from the **Manage Filters** dialog, see [Applying and Managing Filters](applying-and-managing-filters.md).  
   
  ___________________\_  
   
  **More Information**   
- **To learn more** about using **Aliases** in Filter Expressions, see [Performing Message Analyzer Operations with Aliases](../messageanalyzer_content/performing-message-analyzer-operations-with-aliases.md).   
-**To learn more** about using **Unions** in Filter Expressions, see [Performing Message Analyzer Operations with Unions](../messageanalyzer_content/performing-message-analyzer-operations-with-unions.md).   
+ **To learn more** about using **Aliases** in Filter Expressions, see [Performing Message Analyzer Operations with Aliases](performing-message-analyzer-operations-with-aliases.md).   
+**To learn more** about using **Unions** in Filter Expressions, see [Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md).   
 ___________________\_  
   
 ## See Also  
- [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md)   
- [Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md)
+ [Writing Filter Expressions](writing-filter-expressions.md)   
+ [Filter IntelliSense Service](filter-intellisense-service.md)

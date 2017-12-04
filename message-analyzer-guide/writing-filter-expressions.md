@@ -26,10 +26,10 @@ This section provides you with practical knowledge that you can utilize to creat
   
  **What You Will Learn**   
 In this section, you will learn about the Filtering Language and how to create some simple Filter Expressions, in addition to others that are more complex. The material begins with an introductory overview to help you get started with custom Filter Expressions and includes a few simple examples followed by a description of the Filter IntelliSense Service. The discussions then move into understanding the basics about the Filtering Language, which includes the use of logical operators, arithmetic operators, and literals; how to traverse message hierarchies; and applying other filtering considerations. A walkthrough of filter features, special functions, and other capabilities concludes this section. In addition, examples are provided that combine different language features, including various applications of Filter Expression syntax, semantics, statements, truncation, traversers, aliases, and so on. This content is covered in the  topics below:  
-[Introduction to Creating and Applying Filters](../messageanalyzer_content/introduction-to-creating-and-applying-filters.md)  
-[Understanding the Filtering Language Basics](../messageanalyzer_content/understanding-the-filtering-language-basics.md)  
-[Using the Filtering Language](../messageanalyzer_content/using-the-filtering-language.md)  
+[Introduction to Creating and Applying Filters](introduction-to-creating-and-applying-filters.md)  
+[Understanding the Filtering Language Basics](understanding-the-filtering-language-basics.md)  
+[Using the Filtering Language](using-the-filtering-language.md)  
 ______________________\_  
   
 ## See Also  
- [Procedures: Using the Data Filtering Features](../messageanalyzer_content/procedures-using-the-data-filtering-features.md)
+ [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)

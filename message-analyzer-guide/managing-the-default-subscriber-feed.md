@@ -44,7 +44,7 @@ Message Analyzer has a default **Message Analyzer** subscriber feed that connect
   
 -   Disable feed connections by toggling the **Online/Offline** button to the **Offline** mode. This action will block any update processes occurring in the background. This could be useful if you want to freeze your asset collection and/or **OPN Parser** package version configurations for consistency during protracted tracing and data analysis operations.  
   
--   Use the search box and/or filtering drop-down to locate specific items in the feed list on the **Downloads** tab, as described in [Filtering and Searching For Items](../messageanalyzer_content/filtering-and-searching-for-items.md).  
+-   Use the search box and/or filtering drop-down to locate specific items in the feed list on the **Downloads** tab, as described in [Filtering and Searching For Items](filtering-and-searching-for-items.md).  
   
 ## See Also  
- [Asset Manager](../messageanalyzer_content/asset-manager.md)
+ [Asset Manager](asset-manager.md)

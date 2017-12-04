@@ -14,7 +14,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Configuration Walkthrough of a Built-In Chart Viewer Layout
-This section provides a walkthrough of the configuration process for the built-in **Chart** viewer **Layout** known as the [TCP/UDP Conversations by Message Count](../messageanalyzer_content/tcp-udp-conversations-by-message-count.md)**Layout**. You might click the specified link and review the indicated topic in order to understand the functionality of this **Layout** before proceeding with the walkthrough.  
+This section provides a walkthrough of the configuration process for the built-in **Chart** viewer **Layout** known as the [TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)**Layout**. You might click the specified link and review the indicated topic in order to understand the functionality of this **Layout** before proceeding with the walkthrough.  
   
 ## Built-In Chart Viewer Layout Configuration Walkthrough  
  The **TCP/UDP Conversations by Message Count** **Layout** is accessible from the **Chart** drop-down list in the **New Viewer** menu on the global Message Analyzer toolbar. This **Layout** enables you to view the network conversations and the transports that carried them, along with the following data that can point you to specific areas that may require further investigation:  
@@ -48,7 +48,7 @@ This section provides a walkthrough of the configuration process for the built-i
   
 1.  Start Message Analyzer and open a saved \*.matp file that contains data that you recently captured, preferably with a **Trace Scenario** that uses the **Microsoft-PEF-WFP-MessageProvider** to minimize lower layer noise, given that the main analysis will be at the Transport Layer with this **Layout**.  
   
-     You can load the data from a \*.matp file into Message Analyzer through a [Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md) or with the **Open** command on the global Message Analyzer toolbar.  
+     You can load the data from a \*.matp file into Message Analyzer through a [Data Retrieval Session](configuring-a-data-retrieval-session.md) or with the **Open** command on the global Message Analyzer toolbar.  
   
 2.  After the data is loaded, click the **New Viewer** drop-down list on the global Message Analyzer toolbar, highlight **Chart**, and then click **TCP/UDP Conversations by Message Count**.  
   
@@ -146,7 +146,7 @@ For this **Layout** to display data in the **KBs** column, the third **Value** f
   
 1.  In the **Values** pane of the **Edit Chart Layout** dialog, click the ellipsis button next to the third **Value** text box to open the **Formula Editor** dialog, as shown in the figure that follows.  
   
-     ![Formula&#95;Editor&#95;Dialog](../messageanalyzer_content/media/fig73-formula-editor-dialog.png "Fig73-Formula_Editor_Dialog")  
+     ![Formula&#95;Editor&#95;Dialog](media/fig73-formula-editor-dialog.png "Fig73-Formula_Editor_Dialog")  
   
      **Figure 73: Formula Editor dialog**  
   
@@ -207,4 +207,4 @@ For this **Layout** to display data in the **Duration** column, the fourth **Val
 >  There are other **Formulas** that you can review for data that displays in the **StartTime**, **EndTime**, **BPS**, and **K** columns of this **Layout**. However, an explanation of the **Formulas** for this data has already  been provided in other parts of this walkthrough.  
   
 ## See Also  
- [Using the Edit Chart Layout Dialog](../messageanalyzer_content/using-the-edit-chart-layout-dialog.md)
+ [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)

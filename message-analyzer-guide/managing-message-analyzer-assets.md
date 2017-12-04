@@ -25,20 +25,20 @@ In the topics of this section, you will learn how to use and manage Message Anal
 ______________________\_  
   
 ## In This Section  
- **[Sharing Infrastructure](../messageanalyzer_content/sharing-infrastructure.md)**  — learn about the Sharing Infrastructure capabilities, Message Analyzer user Library features, and the asset management features that are available for your use, which includes the Message Analyzer **Asset Manager**.  
+ **[Sharing Infrastructure](sharing-infrastructure.md)**  — learn about the Sharing Infrastructure capabilities, Message Analyzer user Library features, and the asset management features that are available for your use, which includes the Message Analyzer **Asset Manager**.  
   
- **[Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md)**  — learn how to opt-in or opt-out of automatic updates for asset collections at first Message Analyzer startup, filter and search for asset collections, and how to download asset collections or auto-sync those collections that are not already set for automatic updates.  
+ **[Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)**  — learn how to opt-in or opt-out of automatic updates for asset collections at first Message Analyzer startup, filter and search for asset collections, and how to download asset collections or auto-sync those collections that are not already set for automatic updates.  
   
- **[Managing Microsoft OPN Parser Packages](../messageanalyzer_content/managing-microsoft-opn-parser-packages.md)**  — learn how to download and update various **OPN Parser** packages that Message Analyzer requires for normal operation. Note that you can manage **OPN Parser** downloads and updates with the previously mentioned status icons and synchronization options.  
+ **[Managing Microsoft OPN Parser Packages](managing-microsoft-opn-parser-packages.md)**  — learn how to download and update various **OPN Parser** packages that Message Analyzer requires for normal operation. Note that you can manage **OPN Parser** downloads and updates with the previously mentioned status icons and synchronization options.  
   
- **[Managing the Default Subscriber Feed](../messageanalyzer_content/managing-the-default-subscriber-feed.md)**  — learn about download and update processes through the default **Message Analyzer** subscriber feed, along with feed management options that include how to delete and restore this feed.  
+ **[Managing the Default Subscriber Feed](managing-the-default-subscriber-feed.md)**  — learn about download and update processes through the default **Message Analyzer** subscriber feed, along with feed management options that include how to delete and restore this feed.  
   
- **[Creating Custom User Feeds](../messageanalyzer_content/creating-custom-user-feeds.md)**  — learn about the data feed configuration capabilities of the Sharing Infrastructure that enable you to configure and remove your own user data feeds.  
+ **[Creating Custom User Feeds](creating-custom-user-feeds.md)**  — learn about the data feed configuration capabilities of the Sharing Infrastructure that enable you to configure and remove your own user data feeds.  
   
- **[Sharing Asset Collections on a User File Share](../messageanalyzer_content/sharing-asset-collections-on-a-user-file-share.md)**  — learn about how Message Analyzer enables you to share asset collections or any portion thereof with other users, for mutual collaboration and benefit.  
+ **[Sharing Asset Collections on a User File Share](sharing-asset-collections-on-a-user-file-share.md)**  — learn about how Message Analyzer enables you to share asset collections or any portion thereof with other users, for mutual collaboration and benefit.  
   
  ___________________\_  
   
  **Go To Procedures**   
-To proceed directly to procedures that provide examples of managing Message Analyzer assets, see **[Procedures: Using the Asset Management Features](../messageanalyzer_content/procedures-using-the-asset-management-features.md)**.  
+To proceed directly to procedures that provide examples of managing Message Analyzer assets, see **[Procedures: Using the Asset Management Features](procedures-using-the-asset-management-features.md)**.  
 ___________________\_

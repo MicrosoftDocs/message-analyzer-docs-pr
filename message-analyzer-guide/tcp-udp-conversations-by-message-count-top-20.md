@@ -33,4 +33,4 @@ The **TCP/UDP Conversations by Message Count Top 20** viewer **Layout** for **Ch
 >  You can double-click any bar chart element to display the messages for the associated Transport Layer conversation in the **Analysis Grid** viewer for further analysis.  
   
 ## See Also  
- [TCP/UDP Conversations by Message Count](../messageanalyzer_content/tcp-udp-conversations-by-message-count.md)
+ [TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)

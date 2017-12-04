@@ -31,4 +31,4 @@ The built-in **Top Talkers Top 20** view **Layout** for **Charts** provides a su
 >  You can double-click any IP address pair set and display all the messages for that set in the **Analysis Grid** viewer for further analysis.  
   
 ## See Also  
- [Top Talkers](../messageanalyzer_content/top-talkers.md)
+ [Top Talkers](top-talkers.md)

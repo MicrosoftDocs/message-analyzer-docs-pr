@@ -22,6 +22,6 @@ The **IIS Log Top URIs by Time** view **Layout** for **Charts** enables you to o
  Along with the **IIS Log Top URIs by Time** view **Layout** for **Charts**, you might also consider using the **Grouping** viewer with the **IIS** **Layout** and the **Analysis Grid** viewer with the **IIS** **Layout** to achieve an integrated and interactive analysis context that can significantly enhance your analysis process.  
   
 ## See Also  
- [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md)   
- [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md)   
- [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md)
+ [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
+ [Grouping Viewer](grouping-viewer.md)   
+ [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

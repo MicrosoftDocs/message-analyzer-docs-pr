@@ -53,7 +53,7 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
 -   **Select All** — click this command to highlight all the data displayed in the **Message Data** window. This feature is designed to work with the **Save Selected Bytes As...** command to save all selected data in binary format.  
   
 > [!NOTE]
->  The **Field Data** window also has several right-click menu commands that are described in the [Field Data Tool Window](../messageanalyzer_content/field-data-tool-window.md) topic.  
+>  The **Field Data** window also has several right-click menu commands that are described in the [Field Data Tool Window](field-data-tool-window.md) topic.  
   
  The **Message Data** window has several labels in the tray area of the window that display the following information:  
   
@@ -94,7 +94,7 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
   
      Only the TCP header data (the IPv4 payload) remains, with no hexadecimal data highlighted, while the **Payload** field is selected. To see this more clearly, go back and select the **Etw** message in the **Analysis Grid** viewer, and then in succession, select the **NdisProvider**, **Ethernet**, **IPv4**, and **TCP** messages. As you do, you can observe the header data being stripped out at each layer, which reflects the PEF Runtime decoding process that de-encapsulates captured messages, as illustrated in the figure that follows.  
   
- ![Message Analyzer Layer De&#45;encapsulation example](../messageanalyzer_content/media/fig66-message-analyzer-layer-de-encapsulation-example.gif "Fig66-Message Analyzer Layer De-encapsulation example")  
+ ![Message Analyzer Layer De&#45;encapsulation example](media/fig66-message-analyzer-layer-de-encapsulation-example.gif "Fig66-Message Analyzer Layer De-encapsulation example")  
   
  **Figure 66:  Message Analyzer Layer De-encapsulation example**  
   
@@ -107,4 +107,4 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
  For example, selecting a message in the **Message Stack 1** window, **Analysis Grid** viewer, **Grouping** viewer, or other data viewer, can drive the display of hexadecimal values in the **Message Data 1** window, if it is currently open. Before selecting another related message of interest in a particular viewer, you can pin or *freeze* the data in the **Message Data 1** window by clicking the pinning icon on its toolbar and then open the **Message Data 2** window from the **Windows** submenu that is accessible from the global **Tools** menu. You can then select another related message in a particular viewer. Thereafter, the hexadecimal values of any message that is automatically selected in the **Message Stack** window or of any field that is automatically selected in the **Details** window are displayed in the **Message Data 2** window. You can now easily compare data between the two **Message Data** window instances. You can display up to four **Message Data** windows to compare the values of four messages that you select in a particular viewer.  
   
 ## See Also  
- [Message Details Tool Window](../messageanalyzer_content/message-details-tool-window.md)
+ [Message Details Tool Window](message-details-tool-window.md)

@@ -28,4 +28,4 @@ The **SMB Top Commands** view **Layout** for **Charts** enables you to obtain a 
 -   Message field names and values in the **Details** **Tool Window**.  
   
 ## See Also  
- [SMB Top Talkers](../messageanalyzer_content/smb-top-talkers.md)
+ [SMB Top Talkers](smb-top-talkers.md)

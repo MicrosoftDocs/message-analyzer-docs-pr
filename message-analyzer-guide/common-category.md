@@ -16,9 +16,9 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Common Category
-The built-in viewer **Layouts** for **Charts** that are provided with Message Analyzer are accessible from the locations specified in the [Chart Viewer Layouts](../messageanalyzer_content/chart-viewer-layouts.md) topic. The viewer **Layouts** for **Charts** that are included in the **Common** category of the **Message Analyzer Chart View Layouts** asset collection Library consist of the following, as described in this section:  
+The built-in viewer **Layouts** for **Charts** that are provided with Message Analyzer are accessible from the locations specified in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. The viewer **Layouts** for **Charts** that are included in the **Common** category of the **Message Analyzer Chart View Layouts** asset collection Library consist of the following, as described in this section:  
   
  _________________\_  
   
- [Perfmon Log (.blg)](../messageanalyzer_content/perfmon-log-blg.md)   
+ [Perfmon Log (.blg)](perfmon-log-blg.md)   
 _________________\_

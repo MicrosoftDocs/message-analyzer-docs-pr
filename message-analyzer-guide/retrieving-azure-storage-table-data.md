@@ -21,7 +21,7 @@ Message Analyzer versions 1.2 and later provide a data input preview feature kno
  __________________\_  
   
  **Go To Procedure**   
-To proceed directly to a detailed procedure that you can follow to retrieve Azure Storage table data, see [To access, load, and view data stored in an Azure table](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureTableData). Otherwise, you can review the [Workflow Overview](../messageanalyzer_content/retrieving-azure-storage-table-data.md#BKMK_AzureWrkflowOverview).   
+To proceed directly to a detailed procedure that you can follow to retrieve Azure Storage table data, see [To access, load, and view data stored in an Azure table](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureTableData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-table-data.md#BKMK_AzureWrkflowOverview).   
 __________________\_  
   
 ## Specifying Connection Information  
@@ -35,7 +35,7 @@ __________________\_
   
  The figure that follows shows the **Azure Table** interface from where you provide the specified input information.  
   
- ![Azure Table input configuration](../messageanalyzer_content/media/fig33-azure-table-input-configuration.png "Fig33-Azure Table input configuration")  
+ ![Azure Table input configuration](media/fig33-azure-table-input-configuration.png "Fig33-Azure Table input configuration")  
   
  **Figure 33: Azure Table input configuration**  
   
@@ -68,11 +68,11 @@ __________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about Message Analyzer session configuration, see [Starting a Message Analyzer Session](../messageanalyzer_content/starting-a-message-analyzer-session.md).   
-**To learn more** about **Session Filters**, see [Applying a Session Filter to a Data Retrieval Session](../messageanalyzer_content/applying-a-session-filter-to-a-data-retrieval-session.md).  
-**To learn more** about creating filter expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).  
-**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) topic.  
+ **To learn more** about Message Analyzer session configuration, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).   
+**To learn more** about **Session Filters**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
+**To learn more** about creating filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
+**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 ___________________\_  
   
 ## See Also  
- [Retrieving Azure Storage Blob Data](../messageanalyzer_content/retrieving-azure-storage-blob-data.md)
+ [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)

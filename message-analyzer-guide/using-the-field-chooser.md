@@ -19,7 +19,7 @@ manager: "ronstarr"
 The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that contains several columns in which basic message data is displayed; however, the default layout displays only a limited cross-section of the available data. Additional information is also available for many other message fields that you can access by using the **Field Chooser** **Tool Window**. By adding specific columns, you can expose hidden but important field information that you can examine for greater troubleshooting capabilities with Message Analyzer.  
   
 > [!NOTE]
->  The column configuration for the default **Analysis Grid**  view **Layout** is described in the [Analysis Grid Viewer](../messageanalyzer_content/analysis-grid-viewer.md) topic. Also, you can find all the individual columns that are contained in the default layout of the **Analysis Grid** viewer in the **Field Chooser** by using its search facility.  
+>  The column configuration for the default **Analysis Grid**  view **Layout** is described in the [Analysis Grid Viewer](analysis-grid-viewer.md) topic. Also, you can find all the individual columns that are contained in the default layout of the **Analysis Grid** viewer in the **Field Chooser** by using its search facility.  
   
 ## Accessing the Field Chooser  
  Although the column configuration of the default **Analysis Grid** view **Layout** provides some basic information for any message that you view, there are many more data columns that you can add to the **Analysis Grid** viewer that enable you to focus on specific data fields that contain values for the message types, properties, structures, methods, flags, events, metadata, and so on, of your captured messages. Each of the nodes in the message hierarchies of the **Field Chooser** window use common icons to represent fields, methods, properties, and so on. You can access the **Field Chooser** from the **Analysis Grid** viewer in any of the following ways:  
@@ -63,8 +63,8 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
  ___________________\_  
   
  **More Information**   
- **To learn more** about adding new Groups to the **Grouping** viewer, see the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.  
-**To learn more** about creating groups to enhance your analysis perspectives with the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).   
+ **To learn more** about adding new Groups to the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.  
+**To learn more** about creating groups to enhance your analysis perspectives with the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).   
 ___________________\_  
   
 ## Searching for Fields  
@@ -84,11 +84,11 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) topic.  
-**To learn more** about Filter IntelliSense, see the [Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md).  
-**To learn more** about Filter Expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).  
-**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.   
+ **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
+**To learn more** about Filter IntelliSense, see the [Filter IntelliSense Service](filter-intellisense-service.md).  
+**To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
+**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
 ___________________\_  
   
 ## See Also  
- [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md)
+ [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)

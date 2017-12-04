@@ -28,17 +28,17 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
   
  The following steps are an overview of the workflow that you will typically follow when working with the **Decryption** feature:  
   
-1.  Import and store server certificates and add passwords as required on the **Decryption** tab of the **Options** dialog that is accessible from the Message Analyzer global **Tools** menu, as described in [Adding Certificates and Passwords](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md#BKMK_AddCertsPwds).  
+1.  Import and store server certificates and add passwords as required on the **Decryption** tab of the **Options** dialog that is accessible from the Message Analyzer global **Tools** menu, as described in [Adding Certificates and Passwords](decrypting-tls-and-ssl-encrypted-data.md#BKMK_AddCertsPwds).  
   
-2.  Start a Live Trace Session or load a saved file through a Data Retrieval Session that contains target messages to enable Message Analyzer to decrypt as many conversations as possible, as described in [Decrypting Trace Data](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md#BKMK_DecryptTraceData).  
+2.  Start a Live Trace Session or load a saved file through a Data Retrieval Session that contains target messages to enable Message Analyzer to decrypt as many conversations as possible, as described in [Decrypting Trace Data](decrypting-tls-and-ssl-encrypted-data.md#BKMK_DecryptTraceData).  
   
-3.  View decryption status information and analyze results in the **Decryption** window grid, as described in [Analyzing Decryption Session Data](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md#BKMK_AnalyzeDecryptData).  
+3.  View decryption status information and analyze results in the **Decryption** window grid, as described in [Analyzing Decryption Session Data](decrypting-tls-and-ssl-encrypted-data.md#BKMK_AnalyzeDecryptData).  
   
-4.  Select message rows in the **Decryption** window and observe corresponding selection of decrypted messages in the **Analysis Grid**, as described in [Viewing Decrypted Messages](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md#BKMK_ViewDecryptedMsgs).  
+4.  Select message rows in the **Decryption** window and observe corresponding selection of decrypted messages in the **Analysis Grid**, as described in [Viewing Decrypted Messages](decrypting-tls-and-ssl-encrypted-data.md#BKMK_ViewDecryptedMsgs).  
   
-5.  Use the **Analysis Grid** viewer along with the **Details**, **Message Data**, and **Message Stack** windows to analyze the decrypted data, as described in [Viewing Decrypted Messages](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md#BKMK_ViewDecryptedMsgs).  
+5.  Use the **Analysis Grid** viewer along with the **Details**, **Message Data**, and **Message Stack** windows to analyze the decrypted data, as described in [Viewing Decrypted Messages](decrypting-tls-and-ssl-encrypted-data.md#BKMK_ViewDecryptedMsgs).  
   
-6.  Save a decrypted trace in .matp format for sharing with others or for use in other applications, as described in [Saving Decryption Session Data](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md#BKMK_SaveDecryptedData).  
+6.  Save a decrypted trace in .matp format for sharing with others or for use in other applications, as described in [Saving Decryption Session Data](decrypting-tls-and-ssl-encrypted-data.md#BKMK_SaveDecryptedData).  
   
 <a name="BKMK_AddCertsPwds"></a>   
 ## Adding Certificates and Passwords  
@@ -92,7 +92,7 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
 ## Viewing Decrypted Messages  
  To view the decrypted data itself, select a message row in the **Decryption** window and observe that it drives message selection in the **Analysis Grid** viewer. For example, if Message Analyzer decrypted HTTPS data, a top-level HTTP message might now be selected in the **Analysis Grid** viewer, as shown in the figure that follows, depending on the message row you selected in the **Decryption** window. Application Layer HTTPS messages are normally encrypted when the Microsoft Windows Internet (WinInet) Service passes them to cryptographic components such as the TLS security protocol, which in turn passes encrypted/secure data to the Transport Layer. As a result of TLS encryption, Message Analyzer does not normally process and display such messages unless you use the **Decryption** feature. When you do, you can see the encrypted message layer as part of the origins stack beneath the decrypted message at top-level in the **Analysis Grid** viewer. In the example of the following figure, the node of the decrypted HTTP message is expanded so that you can see the encrypted message layer (TLS) and the original protocol stack in the origins tree.  
   
- ![Decrypted data and message stack](../messageanalyzer_content/media/fig29-decrypted-data-and-message-stack.PNG "Fig29-Decrypted data and message stack")  
+ ![Decrypted data and message stack](media/fig29-decrypted-data-and-message-stack.PNG "Fig29-Decrypted data and message stack")  
   
  **Figure 29: Decrypted data and message stack**  
   
@@ -117,9 +117,9 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
  ___________________\_  
   
  **More Information**   
- **To learn more** about starting and configuring a new Data Retrieval Session or a Live Trace Session, see [Starting a Message Analyzer Session](../messageanalyzer_content/starting-a-message-analyzer-session.md).  
-**To learn more** about saving trace data, see the [Saving Message Data](../messageanalyzer_content/saving-message-data.md) section.   
+ **To learn more** about starting and configuring a new Data Retrieval Session or a Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
+**To learn more** about saving trace data, see the [Saving Message Data](saving-message-data.md) section.   
 ___________________\_  
   
 ## See Also  
- [Decryption Tool Window](../messageanalyzer_content/decryption-tool-window.md)
+ [Decryption Tool Window](decryption-tool-window.md)

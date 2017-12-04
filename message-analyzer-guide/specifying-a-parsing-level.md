@@ -21,5 +21,5 @@ If you are loading large traces into Message Analyzer, you might consider settin
  ___________________\_  
   
  **More Information**   
- **To learn more** about **Parsing Levels** and the built-in scenarios that you can employ, see [Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md).  
+ **To learn more** about **Parsing Levels** and the built-in scenarios that you can employ, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
 ___________________\_

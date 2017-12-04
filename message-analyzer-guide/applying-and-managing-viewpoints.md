@@ -31,17 +31,17 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
  The **Viewpoint** that displays by default in the **Analysis Grid** viewer is a summary view of top-level messages that have no other message layers above them. After applying a **Viewpoint** to a set of messages and changing the data to the perspective of a particular protocol, you can return to the default **Viewpoint** by clicking the **No Viewpoint** item in the **Viewpoint** drop-down list on the Filtering Toolbar. You can also remove the current **Viewpoint** by selecting another one from the **Viewpoint** drop-down list.  
   
 ## Accessing the Built-In Viewpoints  
- To assist your troubleshooting efforts, Message Analyzer provides a robust set of built-in **Viewpoints** that you can access and apply from the Filtering Toolbar that appears whenever Message Analyzer displays a set of trace results, as described in [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md). These **Viewpoints** are contained in the **Message Analyzer Viewpoints** asset collection Library that is accessible from the **Viewpoints** drop-down list on the Filtering Toolbar. They enable you to filter and reorganize your data view to display messages from the perspective of different protocols, modules, or message layers, in accordance with the functionality of the applied **Viewpoint** . The application of a **Viewpoint** enables you to achieve a unique analytical perspective on data that might normally be hidden from view or difficult to expose.  
+ To assist your troubleshooting efforts, Message Analyzer provides a robust set of built-in **Viewpoints** that you can access and apply from the Filtering Toolbar that appears whenever Message Analyzer displays a set of trace results, as described in [Using the Filtering Toolbar](using-the-filtering-toolbar.md). These **Viewpoints** are contained in the **Message Analyzer Viewpoints** asset collection Library that is accessible from the **Viewpoints** drop-down list on the Filtering Toolbar. They enable you to filter and reorganize your data view to display messages from the perspective of different protocols, modules, or message layers, in accordance with the functionality of the applied **Viewpoint** . The application of a **Viewpoint** enables you to achieve a unique analytical perspective on data that might normally be hidden from view or difficult to expose.  
   
 ## Using the Viewpoint Features  
  The remaining topics in this section describe the built-in **Viewpoints** that ship with Message Analyzer, applying a **Viewpoint**, how to work with **Viewpoint Filters**, and using the features for managing **Viewpoints**:  
   
  ______________________________\_  
   
- [Applying a Built-In Viewpoint](../messageanalyzer_content/applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
-[Applying Viewpoint Filters](../messageanalyzer_content/applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
-[Managing Viewpoints as Shared Items](../messageanalyzer_content/applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
-[Receiving Viewpoint Asset Collection Updates from Microsoft](../messageanalyzer_content/applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
+ [Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
+[Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
+[Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
+[Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
 ______________________________\_  
   
 <a name="BKMK_ApplyingPredefinedViewpoints"></a>   
@@ -64,7 +64,7 @@ ______________________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about Operations, see [Working With Operations](../messageanalyzer_content/working-with-operations.md).  
+     **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
     ____________________  
   
 -   **Transport Layers UDP/TCP** — enables you to display messages at top-level from the TCP and UDP protocols only, including their origin stacks.  
@@ -82,14 +82,14 @@ ______________________________\_
   
 -   **ETW** — enables you to remove all messages above the ETW layer to expose and simplify event diagnostics. This **Viewpoint** can also make event analysis easier when you are developing message providers or other components that write ETW events.  
   
--   **HTTP** — an application-layer **Viewpoint** that places HTTP messages at top-level in the **Analysis Grid** viewer. Provides a convenient way to analyze the request/response pairs of HTTP Operations without having to search for the response messages. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](../messageanalyzer_content/working-with-operations.md#BKMK_TogglingOperations).  
+-   **HTTP** — an application-layer **Viewpoint** that places HTTP messages at top-level in the **Analysis Grid** viewer. Provides a convenient way to analyze the request/response pairs of HTTP Operations without having to search for the response messages. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
   
     > [!NOTE]
     >  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
   
 -   **SMB/SMB2** — an application-layer **Viewpoint** that places SMB and SMB2 messages at top-level in the **Analysis Grid** viewer by removing RPC and any other message layers on top, for example, GSSAPI and Kerberos messages.  
   
--   **SMB/SMB2 No Operations** — an application-layer **Viewpoint** that is identical to the **SMB/SMB2** **Viewpoint**,  except that Message Analyzer does not  display any SMB/SMB2 Operation nodes in this context. Enables you to view SMB/SMB2 request and response messages in their original chronological order. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](../messageanalyzer_content/working-with-operations.md#BKMK_TogglingOperations).  
+-   **SMB/SMB2 No Operations** — an application-layer **Viewpoint** that is identical to the **SMB/SMB2** **Viewpoint**,  except that Message Analyzer does not  display any SMB/SMB2 Operation nodes in this context. Enables you to view SMB/SMB2 request and response messages in their original chronological order. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
   
 -   **WinInet (HTTP/s)** event layer — enables you to display and diagnose HTTP and unencrypted HTTPS events.  
   
@@ -97,10 +97,10 @@ ______________________________\_
   
 <a name="BKMK_ApplyingViewpointFilter"></a>   
 ### Applying Viewpoint Filters  
- Message Analyzer provides a Filter Expression **Library** on the **Viewpoint Filter** panel that appears when you click the **Add Viewpoint Filter** item in the **Add Filter** drop-down list on the Filtering Toolbar. This **Library** is the same centralized **Library** that is located on the Filter panel that appears when you click the **Add Filter** drop-down on the Filtering Toolbar. Because it is the same **Library**,  the same Filter Expressions from the **Message Analyzer Filters** asset collection are available for selection as **Viewpoint Filters**. You also have the option to create and apply custom Filter Expressions of your own design, as described in [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md).  
+ Message Analyzer provides a Filter Expression **Library** on the **Viewpoint Filter** panel that appears when you click the **Add Viewpoint Filter** item in the **Add Filter** drop-down list on the Filtering Toolbar. This **Library** is the same centralized **Library** that is located on the Filter panel that appears when you click the **Add Filter** drop-down on the Filtering Toolbar. Because it is the same **Library**,  the same Filter Expressions from the **Message Analyzer Filters** asset collection are available for selection as **Viewpoint Filters**. You also have the option to create and apply custom Filter Expressions of your own design, as described in [Applying and Managing Filters](applying-and-managing-filters.md).  
   
 > [!NOTE]
->  The  controls on the **Viewpoint Filter** panel are described in [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md).  
+>  The  controls on the **Viewpoint Filter** panel are described in [Using the Filtering Toolbar](using-the-filtering-toolbar.md).  
   
  **Drilling Down to Expose Target Messages**   
 From the **Viewpoint Filter** panel, you can **Apply** such filters to a set of messages that is already filtered by the criteria of an applied **Viewpoint**. The advantage of using a **Viewpoint Filter** is that it enables you to drill down further to expose messages of interest based on the additionally applied filtering. Obviously, the filtering you apply should be relevant to the **Viewpoint** context in which you are working. In a typical usage scenario, you might have already applied a view **Filter** to a set of trace results when you realize that you should set the **Viewpoint** to a particular layer so you can focus on a condensed and more relevant message set for your current analysis.  After you select a chosen  **Viewpoint**, all messages above the **Viewpoint** level disappear. Once the **Viewpoint** is set, you can drill down even further to isolate a message or messages that meet the criteria of a **Viewpoint Filter** that you specify. Whether you select a built-in or custom-designed **Viewpoint Filter**, you must click the **Apply** button on the **Viewpoint Filter** panel to initiate the filtering action. To undo such filtering action, click the **Remove** button on the same panel.  
@@ -113,19 +113,19 @@ If any top-level message or one of its origins messages in a set of trace result
   
  **Example**:            If you apply the view **Filter**`TCP.SequenceNumber == 1648745597` to an original set of trace results, and a top-level message or one of its origin messages has a field value that matches that TCP sequence number, then that top-level operation (SMB2 message #19 and its origins in the figure immediately below) is isolated in the **Analysis Grid** viewer with all other messages removed from display. Note that the message stack has been expanded in this figure to show  SMB2 request and response messages #19 and #27 that comprise the Operation.  
   
- ![Message Analyzer TCP Filter Applied Only.png](../messageanalyzer_content/media/fig52-message-analyzer-tcp-filter-applied-only-png.png "Fig52-Message Analyzer TCP Filter Applied Only.png")  
+ ![Message Analyzer TCP Filter Applied Only.png](media/fig52-message-analyzer-tcp-filter-applied-only-png.png "Fig52-Message Analyzer TCP Filter Applied Only.png")  
   
  **Figure 52:  Message Analyzer TCP Filter Applied Only**  
   
  The above result is expected behavior, as all view **Filters** work in this manner. If you now apply a **TCP** **Viewpoint** to this display configuration, all TCP fragments that are contained in the stack of the former top-level SMB2 message #19 are now pushed to top-level,  so that only TCP messages display with nothing above that layer, which also includes the TCP fragment (#19) that met the filtering criteria of the applied view **Filter**, as shown in the figure below.  
   
- ![Message Analyzer TCP Filter and TCP Viewpoint Applied&#95;Resize.png](../messageanalyzer_content/media/fig53-message-analyzer-tcp-filter-and-tcp-viewpoint-applied-png.png "Fig53-Message Analyzer TCP Filter and TCP Viewpoint Applied.png")  
+ ![Message Analyzer TCP Filter and TCP Viewpoint Applied&#95;Resize.png](media/fig53-message-analyzer-tcp-filter-and-tcp-viewpoint-applied-png.png "Fig53-Message Analyzer TCP Filter and TCP Viewpoint Applied.png")  
   
  **Figure 53:  Message Analyzer TCP Filter and TCP Viewpoint Applied**  
   
  The following figure shows the results after applying a **Viewpoint Filter** that is the same as the originally applied view **Filter**`TCP.SequenceNumber == 1648745597`. When you apply this same filter as a **Viewpoint Filter**, it results in displaying only the TCP fragment (#19) that meets that filtering criteria along with its underlying stack messages, as shown in the figure below. Optionally, you can remove the original view **Filter** before applying the indicated **Viewpoint Filter** to achieve the same result.  
   
- ![Message Analyzer TCP Filter, TCP Viewpoint, and Viewpoint Filter Applied.png](../messageanalyzer_content/media/ff1f4f33-f020-4172-9d61-7f8dc04e6c50.png "Fig54-Message Analyzer TCP Filter, TCP Viewpoint, and Viewpoint Filter Applied.png")  
+ ![Message Analyzer TCP Filter, TCP Viewpoint, and Viewpoint Filter Applied.png](media/ff1f4f33-f020-4172-9d61-7f8dc04e6c50.png "Fig54-Message Analyzer TCP Filter, TCP Viewpoint, and Viewpoint Filter Applied.png")  
   
  **Figure 54:  Message Analyzer TCP Filter, TCP Viewpoint, and Viewpoint Filter  Applied**  
   
@@ -145,7 +145,7 @@ You can create and share a **Viewpoint** asset collection with others that consi
 If you want to retrieve items from a collection that someone else has shared in the previously specified manner, click the **Import** button on the toolbar of the **Manage Viewpoints** dialog to open the **Select Library to Open** dialog. After you navigate to the location where the asset collection has been shared, click the **Open** button in the dialog. At this point, the **Select Items to Import** dialog displays, from where you can select the items in the collection that you want to import. You can also specify a category in which the collection items will appear. When complete, click the **OK** button, at which time the selected items are imported into your **Viewpoints** asset collection.  
   
  **Sharing a Viewpoint Collection on a User Feed**   
-In addition, you can share a **Viewpoints** asset collection through a user feed that you configure in the Message Analyzer Sharing Infrastructure, which you can accomplish from the **Settings** tab of the **Asset Manager** dialog. This dialog is accessible from the global Message Analyzer **Tools** menu. Thereafter, you can use the **Export** feature of the **Manage Viewpoint** dialog to post your **Viewpoints** asset collection to the feed so that others can access them. Whenever you update the contents of this **Viewpoints** asset collection, you can make the changes available to team members or other users through the configured feed, where they can view, synchronize with, and download your asset collection items. However, to enable users to download asset collection updates, there is some manual configuration required at this time, as described in [Manual Item Update Synchronization](../messageanalyzer_content/manual-item-update-synchronization.md).  
+In addition, you can share a **Viewpoints** asset collection through a user feed that you configure in the Message Analyzer Sharing Infrastructure, which you can accomplish from the **Settings** tab of the **Asset Manager** dialog. This dialog is accessible from the global Message Analyzer **Tools** menu. Thereafter, you can use the **Export** feature of the **Manage Viewpoint** dialog to post your **Viewpoints** asset collection to the feed so that others can access them. Whenever you update the contents of this **Viewpoints** asset collection, you can make the changes available to team members or other users through the configured feed, where they can view, synchronize with, and download your asset collection items. However, to enable users to download asset collection updates, there is some manual configuration required at this time, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
   
 <a name="BKMK_ReceivingViewpointCollectionUpdates"></a>   
 ## Receiving Viewpoint Asset Collection Updates from Microsoft  
@@ -158,9 +158,9 @@ In addition, you can share a **Viewpoints** asset collection through a user feed
  ___________________\_  
   
  **More Information**   
- **To learn more** about the functions of the Filter Expressions in the **Message Analyzer Filters** asset collection, see [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md).   
-**To learn more** about the Sharing Infrastructure and managing user Library items, downloading asset collections, and auto-syncing asset collection updates, see the [Sharing Infrastructure](../messageanalyzer_content/sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md) topics.   
+ **To learn more** about the functions of the Filter Expressions in the **Message Analyzer Filters** asset collection, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
+**To learn more** about the Sharing Infrastructure and managing user Library items, downloading asset collections, and auto-syncing asset collection updates, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.   
 ___________________\_  
   
 ## See Also  
- [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md)
+ [Using the Filtering Toolbar](using-the-filtering-toolbar.md)

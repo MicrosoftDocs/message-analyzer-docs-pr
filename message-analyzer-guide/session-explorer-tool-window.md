@@ -27,7 +27,7 @@ The **Session Explorer** **Tool Window** is a single-instance, interactive, and 
   
 -   **Select new session data viewers** — **Session Explorer** has a context menu that displays when you right-click any session node, viewer subnode, or anywhere in the white space of the **Session Explorer** window. The **New Viewers** command in the context menu opens a submenu that provides a selection of numerous  data viewers that you can choose to enhance your data analysis perspectives. For some viewers, such as the **Analysis Grid**, **Grouping**, and **Chart** viewers, you can specify a **Layout** from a drop-down list that displays when you highlight one of these viewers in the indicated submenu.  
   
-     From the **New Viewers** submenu, you can select any of the data viewers that are described in the [Data Viewers](../messageanalyzer_content/data-viewers.md) section of this documentation. After you select one or more viewers, Message Analyzer displays data from the current session in a separate viewer tab for each different type of viewer.  
+     From the **New Viewers** submenu, you can select any of the data viewers that are described in the [Data Viewers](data-viewers.md) section of this documentation. After you select one or more viewers, Message Analyzer displays data from the current session in a separate viewer tab for each different type of viewer.  
   
      The **Session Explorer** context menu also has a **Close** command that closes the session represented by a selected top-level session node, along with all open viewers in such a session. Note that if you have more than one data viewer open in a particular session, you can close a single data viewer only, without closing the session, by right-clicking its node and selecting the **Close** command.  
   
@@ -61,7 +61,7 @@ The **Session Explorer** **Tool Window** is a single-instance, interactive, and 
  ___________________\_  
   
  **More Information**   
- **To learn more** about selecting data viewers, see [Session Data Viewer Options](../messageanalyzer_content/session-data-viewer-options.md).  
-**To learn more** about progress monitoring and session statistics, see [Viewing Session Statistics and Progress](../messageanalyzer_content/viewing-session-statistics-and-progress.md).  
-**To learn more** about docking and redocking tool windows, see [Working with Message Analyzer Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md).  
+ **To learn more** about selecting data viewers, see [Session Data Viewer Options](session-data-viewer-options.md).  
+**To learn more** about progress monitoring and session statistics, see [Viewing Session Statistics and Progress](viewing-session-statistics-and-progress.md).  
+**To learn more** about docking and redocking tool windows, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).  
 ___________________\_

@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Using the Analysis Grid Group Feature
-Because there are many different message conversations that can take place at different network layers, obtaining a view of your trace data that is relevant to resolving a particular diagnostic issue can be challenging at times. Also, since protocol analyzers often handle large amounts of data where messages of interest can be scattered, it can be difficult and time-consuming to find specific data that you want to examine. To accommodate these challenges, Message Analyzer provides a data **Group** function in the **Analysis Grid** viewer that enables you to bubble up and organize relevant and important data into a grouped display. You can access and apply the data **Group** function as described in [Grouping Operations](../messageanalyzer_content/using-the-analysis-grid-group-feature.md#BKMK_performingGroupOp) later in this section.  
+Because there are many different message conversations that can take place at different network layers, obtaining a view of your trace data that is relevant to resolving a particular diagnostic issue can be challenging at times. Also, since protocol analyzers often handle large amounts of data where messages of interest can be scattered, it can be difficult and time-consuming to find specific data that you want to examine. To accommodate these challenges, Message Analyzer provides a data **Group** function in the **Analysis Grid** viewer that enables you to bubble up and organize relevant and important data into a grouped display. You can access and apply the data **Group** function as described in [Grouping Operations](using-the-analysis-grid-group-feature.md#BKMK_performingGroupOp) later in this section.  
   
 ## Reorganizing Data with the Group Function  
  The **Group** function enables you to create a high-level view of your data that is arranged by groups, to provide an efficient way of presenting specific information from high-volume traces. This can include grouping the data values of a particular entity such as a property, field, or annotation displaying as an **Analysis Grid** column or in the **Details** **Tool Window**. You can also create nested groups of multiple data values. In Message Analyzer, a group is an expandable and collapsible node that is labeled and contains the count of either child nodes or a set of child messages that are grouped by a data field or property value that is defined in OPN. Message Analyzer enables you to customize and accelerate your data analysis process by the strategic application of multiple grouping operations that display in a hierarchical manner. By carefully selecting which data is to be grouped in a set of groups, and by considering the data on which to pivot (the order in which you apply grouping operations), you can quickly isolate specific traffic and simplify the analysis process.  
@@ -31,7 +31,7 @@ Because there are many different message conversations that can take place at di
   
  After you complete the **Group** commands on these columns, you should see a display similar to the following when various Group nodes are expanded:  
   
- ![Old Fig10&#45;Message&#95;Analyzer&#95;Analysis&#95;Grid&#95;grouping&#95;operation](../messageanalyzer_content/media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png "Old Fig10-Message_Analyzer_Analysis_Grid_grouping_operation")  
+ ![Old Fig10&#45;Message&#95;Analyzer&#95;Analysis&#95;Grid&#95;grouping&#95;operation](media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png "Old Fig10-Message_Analyzer_Analysis_Grid_grouping_operation")  
   
  **Figure 42: Message Analyzer Analysis Grid grouping operation**  
   
@@ -64,4 +64,4 @@ If you create more than one data Group in the **Analysis Grid** viewer, you have
 To undo a Grouped display configuration, click the **x** mark in the Group label that identifies the grouped column data you want to remove. As you remove groups in the indicated manner, data for the selected Group is removed from the display and any remaining Groups are filtered and reorganized according to the hierarchy established by the original grouping operation.  
   
 ## See Also  
- [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md)
+ [Grouping Viewer](grouping-viewer.md)

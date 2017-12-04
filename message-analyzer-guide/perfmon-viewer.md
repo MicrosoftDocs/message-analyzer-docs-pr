@@ -27,7 +27,7 @@ Message Analyzer provides the **Perfmon Viewer**, which is currently a preview f
  ___________________\_  
   
  **More Information**   
- **To learn more** about using multiple data sources in a Data Retrieval Session, see [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md).  
+ **To learn more** about using multiple data sources in a Data Retrieval Session, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
 ___________________\_  
   
 ## Using the Perfmon Viewer Controls for Analysis  

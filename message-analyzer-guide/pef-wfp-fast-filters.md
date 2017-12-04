@@ -23,9 +23,9 @@ The **Microsoft-PEF-WFP-MessageProvider** configuration on the **Provider** tab 
   
  **WFP Fast Filters** consist of the following types:  
   
--   **IPv4** — enables you to filter live traffic based on a specified IPv4 address, as described in [IPv4Address Filters](../messageanalyzer_content/ipv4address-filters.md).  
+-   **IPv4** — enables you to filter live traffic based on a specified IPv4 address, as described in [IPv4Address Filters](ipv4address-filters.md).  
   
--   **IPv6** — enables you to filter live traffic based on a specified IPv6 address, as described in [IPv6Address Filters](../messageanalyzer_content/ipv6address-filters.md).  
+-   **IPv6** — enables you to filter live traffic based on a specified IPv6 address, as described in [IPv6Address Filters](ipv6address-filters.md).  
   
 -   **TCP port** — enables you to filter live traffic based on a specified TCP port.  
   
@@ -51,6 +51,6 @@ The **Microsoft-PEF-WFP-MessageProvider** configuration on the **Provider** tab 
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring **Fast Filters** for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
+ **To learn more** about configuring **Fast Filters** for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
 **To learn more** about the Windows Filtering Platform (WFP), see [Windows Filtering Platform](http://go.microsoft.com/fwlink/?LinkId=523807).   
 ___________________\_

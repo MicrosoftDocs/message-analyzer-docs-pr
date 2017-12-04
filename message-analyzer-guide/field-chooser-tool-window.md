@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Field Chooser Tool Window
-The **Field Chooser** **Tool Window** is a single-instance and dockable window that enables you to specify message types, field types, methods, properties, annotations, and other general fields to enhance the functionality of various Message Analyzer data viewers, for example, as described in [Expanding the Analysis Grid Viewer Column Layout](../messageanalyzer_content/field-chooser-tool-window.md#BKMK_ExpandAGLayout). The **Field Chooser** is a common dialog that presents expandable hierarchical nodes that contain the properties, fields, methods, and other entities, for the protocol/module messages that Message Analyzer parses. Note that **Field Chooser** is not an interactive window since it does not drive message or data selection, nor is it driven by such selections.  
+The **Field Chooser** **Tool Window** is a single-instance and dockable window that enables you to specify message types, field types, methods, properties, annotations, and other general fields to enhance the functionality of various Message Analyzer data viewers, for example, as described in [Expanding the Analysis Grid Viewer Column Layout](field-chooser-tool-window.md#BKMK_ExpandAGLayout). The **Field Chooser** is a common dialog that presents expandable hierarchical nodes that contain the properties, fields, methods, and other entities, for the protocol/module messages that Message Analyzer parses. Note that **Field Chooser** is not an interactive window since it does not drive message or data selection, nor is it driven by such selections.  
   
  **Displaying the Field Chooser**   
 You can access the **Field Chooser** window from any of the following locations in Message Analyzer to open and dock the window in its default location, if it is not already displayed. If the **Field Chooser** window is already displayed, the following actions  will simply place focus on it:  
@@ -35,11 +35,11 @@ After you display the **Field Chooser** window, you can undock and reposition it
  **Performing Tasks with the Field Chooser**   
 You can use **Field Chooser** to locate message fields when performing the following tasks:  
   
--   Expanding the default column **Layout** of the **Analysis Grid** viewer by adding fields as new data columns, as described in [Expanding the Analysis Grid Viewer Column Layout](../messageanalyzer_content/field-chooser-tool-window.md#BKMK_ExpandAGLayout).  
+-   Expanding the default column **Layout** of the **Analysis Grid** viewer by adding fields as new data columns, as described in [Expanding the Analysis Grid Viewer Column Layout](field-chooser-tool-window.md#BKMK_ExpandAGLayout).  
   
--   Adding new groups to the **Grouping** viewer by specifying the fields that you want to become the new Groups, as described in [Expanding the Grouping Viewer Configuration](../messageanalyzer_content/field-chooser-tool-window.md#BKMK_ExpandGroupConfig).  
+-   Adding new groups to the **Grouping** viewer by specifying the fields that you want to become the new Groups, as described in [Expanding the Grouping Viewer Configuration](field-chooser-tool-window.md#BKMK_ExpandGroupConfig).  
   
--   Adding configuration settings to various data viewers and tools by specifying fields for **Chart** viewer **Layouts**, **Pattern** expressions,  **Unions**, and so on, as described in [Locating Message Fields for Configuring Settings](../messageanalyzer_content/field-chooser-tool-window.md#BKMK_LocateMessageFields).  
+-   Adding configuration settings to various data viewers and tools by specifying fields for **Chart** viewer **Layouts**, **Pattern** expressions,  **Unions**, and so on, as described in [Locating Message Fields for Configuring Settings](field-chooser-tool-window.md#BKMK_LocateMessageFields).  
   
 <a name="BKMK_ExpandAGLayout"></a>   
 ## Expanding the Analysis Grid Viewer Column Layout  
@@ -67,12 +67,12 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
  ___________________\_  
   
  **More Information**   
- **To learn more** about these commands in addition to saving, sharing, and updating view **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md).   
+ **To learn more** about these commands in addition to saving, sharing, and updating view **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).   
 ___________________\_  
   
 <a name="BKMK_ExpandGroupConfig"></a>   
 ## Expanding the Grouping Viewer Configuration  
- While the **Grouping** viewer has focus, you can expand the Group configuration by adding one or more fields to the current **Grouping** viewer **Layout**.  To do this, click the **Add Groupings** button on the **Grouping** viewer toolbar to cause the **Field Chooser** window to open in focus or to set the focus if it is already open, enabling you to locate fields of choice to add to the nested Group configuration of the **Grouping** viewer for an enhanced analytical perspective. For example, after you navigate to a protocol node of interest in **Field Chooser**, you can add a new Group to the **Grouping** viewer by selecting the **Add as Grouping** context menu item that displays when you right-click a particular field that you select under the current message hierarchy. With this capability, you can extract additional information into the Group configuration to expose data that might be difficult to locate in a large data set, while also enhancing the interactive analysis context with other data viewers, as described in the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.  
+ While the **Grouping** viewer has focus, you can expand the Group configuration by adding one or more fields to the current **Grouping** viewer **Layout**.  To do this, click the **Add Groupings** button on the **Grouping** viewer toolbar to cause the **Field Chooser** window to open in focus or to set the focus if it is already open, enabling you to locate fields of choice to add to the nested Group configuration of the **Grouping** viewer for an enhanced analytical perspective. For example, after you navigate to a protocol node of interest in **Field Chooser**, you can add a new Group to the **Grouping** viewer by selecting the **Add as Grouping** context menu item that displays when you right-click a particular field that you select under the current message hierarchy. With this capability, you can extract additional information into the Group configuration to expose data that might be difficult to locate in a large data set, while also enhancing the interactive analysis context with other data viewers, as described in the [Grouping Viewer](grouping-viewer.md) topic.  
   
 <a name="BKMK_LocateMessageFields"></a>   
 ## Locating Message Fields for Configuring Settings  
@@ -86,9 +86,9 @@ ___________________\_
   
 -   **Chart** viewer **Layout** configuration — after you have the **Chart** viewer with a particular **Layout** displayed, you can then create a new **Chart** or customize the current one. To begin, click the **Edit** item in the **Chart** menu that displays when you select **Chart** in the global Message Analyzer **Session** menu. The **Edit Chart Layout** dialog then displays from where you can specify a **Chart** visualizer component that you want to use, for example, a **Bar** chart or a **Table** grid that you select in the **Chart type** drop-down. Thereafter, you can specify data fields and create formulas for the rows and/or columns of the **Chart** visualizer component.  
   
-     You can display the **Field Chooser** to specify the data fields by clicking the ellipsis (...) in the **Series** pane of the **Edit Chart Layout** dialog. You will also need to display **Field Chooser** when configuring a data formula by clicking the ellipsis in the **Values** pane of the **Edit Chart** dialog, and once again in the **Formula Editor** that displays immediately thereafter. See  [Extending Message Analyzer Data Viewing Capabilities](../messageanalyzer_content/extending-message-analyzer-data-viewing-capabilities.md) for further details.  
+     You can display the **Field Chooser** to specify the data fields by clicking the ellipsis (...) in the **Series** pane of the **Edit Chart Layout** dialog. You will also need to display **Field Chooser** when configuring a data formula by clicking the ellipsis in the **Values** pane of the **Edit Chart** dialog, and once again in the **Formula Editor** that displays immediately thereafter. See  [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md) for further details.  
   
--   **Grouping** viewer **Layout** configuration — while the **Grouping** viewer has focus, click the **Add Groupings** button on the **Grouping** viewer toolbar to display the **Field Chooser** window,  as described earlier in [Expanding the Grouping Viewer Configuration](../messageanalyzer_content/field-chooser-tool-window.md#BKMK_ExpandGroupConfig).  
+-   **Grouping** viewer **Layout** configuration — while the **Grouping** viewer has focus, click the **Add Groupings** button on the **Grouping** viewer toolbar to display the **Field Chooser** window,  as described earlier in [Expanding the Grouping Viewer Configuration](field-chooser-tool-window.md#BKMK_ExpandGroupConfig).  
   
 -   **Union** configuration — after you click the **New Union** button on the global Message Analyzer toolbar, the **Edit Union** dialog displays. When you click the **Add** button in this dialog for fields to include in the **Union**, the **Field Chooser** window displays to enable you to locate and select the fields you want in the **Union** configuration.  
   
@@ -111,10 +111,10 @@ ___________________\_
   
  **More Information**   
  **To learn more** about using the **Field Chooser** with various Message Analyzer features, see the following topics:   
-[Using the Field Chooser](../messageanalyzer_content/using-the-field-chooser.md)  
-[Accessing Message Properties and Annotations](../messageanalyzer_content/using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)  
-[Using the Pattern Editor](../messageanalyzer_content/using-the-pattern-editor.md)  
-[Extending Message Analyzer Data Viewing Capabilities](../messageanalyzer_content/extending-message-analyzer-data-viewing-capabilities.md)  
-[Grouping Viewer](../messageanalyzer_content/grouping-viewer.md)  
-[Creating Unions](../messageanalyzer_content/creating-unions.md)  
+[Using the Field Chooser](using-the-field-chooser.md)  
+[Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)  
+[Using the Pattern Editor](using-the-pattern-editor.md)  
+[Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
+[Grouping Viewer](grouping-viewer.md)  
+[Creating Unions](creating-unions.md)  
 ___________________\_

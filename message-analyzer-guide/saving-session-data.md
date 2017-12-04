@@ -16,9 +16,9 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Saving Session Data
-Message Analyzer enables you to save message data that is loaded from any Data Retrieval Session or captured in any Live Trace Session. If you start a new Data Retrieval Session and load data from one or more saved message files, or you capture messages in a Live Trace Session, you can save certain modifications that you made to the data set if you save in the Message Analyzer native parsed (.matp) file or .cap file formats only. The modifications to a set of trace *results* that can be saved are described in [Saving Message Data](../messageanalyzer_content/saving-message-data.md). Note that the capture file (.cap) format can be viewed in other applications such as Microsoft Network Monitor.  
+Message Analyzer enables you to save message data that is loaded from any Data Retrieval Session or captured in any Live Trace Session. If you start a new Data Retrieval Session and load data from one or more saved message files, or you capture messages in a Live Trace Session, you can save certain modifications that you made to the data set if you save in the Message Analyzer native parsed (.matp) file or .cap file formats only. The modifications to a set of trace *results* that can be saved are described in [Saving Message Data](saving-message-data.md). Note that the capture file (.cap) format can be viewed in other applications such as Microsoft Network Monitor.  
   
- If you open a supported message file (see [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md)) of non-native format, for example with the **Open** feature, and you manipulate the data, you can save the resulting data set in one of the previously indicated file formats only. Also, if you load data from a saved file in parsed .matp format or any other supported format, and you need to resave it after manipulating the data, you can only save it again in the same .matp format, or you can export it as a .cap file. If you start a new Live Trace Session, you can save the session data that you capture in either of the indicated file formats.  
+ If you open a supported message file (see [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)) of non-native format, for example with the **Open** feature, and you manipulate the data, you can save the resulting data set in one of the previously indicated file formats only. Also, if you load data from a saved file in parsed .matp format or any other supported format, and you need to resave it after manipulating the data, you can only save it again in the same .matp format, or you can export it as a .cap file. If you start a new Live Trace Session, you can save the session data that you capture in either of the indicated file formats.  
   
 ## Using the Save As/Export Session Dialog  
  When you are ready to save your data, click the **Save As** item in the Message Analyzer **File** menu to display the **Save/Export Session** dialog that is shown in the figure that follows. This dialog provides you with the option to save all messages, a message set that resulted from applying one or more filters or other operations, or a selected set of messages from the Data Retrieval Session or Live Trace Session results.  
@@ -26,7 +26,7 @@ Message Analyzer enables you to save message data that is loaded from any Data R
 > [!NOTE]
 >  Message Analyzer also opens the **Save/Export Session** dialog when you click the **Save Trace (Ctrl+S)** icon in the upper left corner of the Message Analyzer user interface.  
   
- ![Save As&#47;Export Session dialog](../messageanalyzer_content/media/fig68-save-as-or-export-session-dialog.png "Fig68-Save As/Export Session dialog")  
+ ![Save As&#47;Export Session dialog](media/fig68-save-as-or-export-session-dialog.png "Fig68-Save As/Export Session dialog")  
   
  **Figure 68:  Save/Export Session dialog**  
   
@@ -74,5 +74,5 @@ Message Analyzer enables you to save message data that is loaded from any Data R
  ___________________\_  
   
  **More Information**   
- **To learn more** about saving message data that was loaded with a **Time Filter** applied, see the procedure [Apply a Time Filter to Data Loading and Save the Message Collection](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_importSaveMsgCollection).  
+ **To learn more** about saving message data that was loaded with a **Time Filter** applied, see the procedure [Apply a Time Filter to Data Loading and Save the Message Collection](procedures-using-the-data-retrieval-features.md#BKMK_importSaveMsgCollection).  
 ___________________\_

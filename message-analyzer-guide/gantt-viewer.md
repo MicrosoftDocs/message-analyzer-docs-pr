@@ -21,7 +21,7 @@ Message Analyzer provides the **Gantt** viewer, which is currently a preview fea
 ## Understanding the Gantt Viewer  
  The **Gantt** viewer is an alternate graphic data visualizer that you can select when analyzing your message data. The **Gantt** viewer provides an at-a-glance view of message dispersion across a trace timeline that is presented as color-coded protocol module identifiers, with source/destination address message pairs in the y-axis orientation and timestamps in the x-axis orientation. The **Gantt** viewer also provides axis expansion and contraction controls to facilitate zooming into and out of data points. The **Gantt** viewer enables you to determine how long any operation takes to complete with respect to **Timestamp** axis values in the display and provides this data in the context of the completion times of other operations. The figure that follows shows an example of the **Gantt** viewer.  
   
- ![Gantt Viewer](../messageanalyzer_content/media/fig45-gantt-viewer.png "Fig45-Gantt Viewer")  
+ ![Gantt Viewer](media/fig45-gantt-viewer.png "Fig45-Gantt Viewer")  
   
  **Figure 45: Gantt Viewer**  
   
@@ -34,13 +34,13 @@ Message Analyzer provides the **Gantt** viewer, which is currently a preview fea
   
 -   **Save** — enables you to save data from the current **Gantt** viewer display to a .gantt file.  
   
--   **Select** mode — click this button to select single messages in the Gantt analysis surface, for example, to display message field information in the **Details** **Tool Window**. The **Select** mode works together with the **Box**, **Row**, and **Column** toolbar items, which you can click individually to alter the highlighting orientation of the selection feature, as described in [Using the Context Menu Commands](../messageanalyzer_content/gantt-viewer.md#BKMK_ContextCommands).  
+-   **Select** mode — click this button to select single messages in the Gantt analysis surface, for example, to display message field information in the **Details** **Tool Window**. The **Select** mode works together with the **Box**, **Row**, and **Column** toolbar items, which you can click individually to alter the highlighting orientation of the selection feature, as described in [Using the Context Menu Commands](gantt-viewer.md#BKMK_ContextCommands).  
   
 -   **Pan** — not used.  
   
 -   **Zoom** mode — after clicking this button, you can zoom into one or more displayed messages by dragging a selection box around them, for example, to select a message and view **Details** and other data.  
   
--   **Box**, **Row**, and **Column** options — see the descriptions under **Selection Mode** in [Using the Context Menu Commands](../messageanalyzer_content/gantt-viewer.md#BKMK_ContextCommands).  
+-   **Box**, **Row**, and **Column** options — see the descriptions under **Selection Mode** in [Using the Context Menu Commands](gantt-viewer.md#BKMK_ContextCommands).  
   
 -   **Heat** — click this button to display the **Heatmap Configuration** dialog, from where you can specify the following settings:  
   

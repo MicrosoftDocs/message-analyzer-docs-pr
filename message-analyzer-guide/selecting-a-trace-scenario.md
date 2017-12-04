@@ -28,7 +28,7 @@ Message Analyzer provides the **Message Analyzer Trace Scenarios** asset collect
  You can set any **Trace Scenario** as a **Favorite Scenario** by clicking the **Edit Favorites** label on the Message Analyzer **Start Page**. When the **Trace Scenario** library displays, you can set a scenario as a Favorite by clicking the white star to the left of the scenario name, at which point, the star color changes to amber and the scenario is then added to the **Favorite Scenarios** list. You can undo the favorite status of any **Trace Scenario** by clicking the amber colored star, at which time the star color changes to white and the scenario is removed from the **Favorite Scenarios** list. You can also perform similar actions from the **Select Scenario** drop-down list in the **New Session** dialog.  
   
 ## Selecting a Built-In Trace Scenario  
- The built-in **Trace Scenarios** provide you with various predefined provider configurations in the following categories, as described in [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md):  
+ The built-in **Trace Scenarios** provide you with various predefined provider configurations in the following categories, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md):  
   
 -   **Network**  
   
@@ -52,9 +52,9 @@ Message Analyzer provides the **Message Analyzer Trace Scenarios** asset collect
     >  While the **Advanced Settings** dialog for **Microsoft-PEF** providers and the **Microsoft-Windows-NDIS-PacketCapture** provider will display both a **Provider** and **ETW Core** tab, most system ETW Providers that you add to Live Trace Session configuration from the **Add System Providers** dialog display an **ETW Core** tab only in the **Advanced Settings** dialog.  
   
 ## Selecting a Custom Configured Trace Scenario  
- If you select a custom created **Trace Scenario** template from the **My Items** category of the **Trace Scenarios** Library, all of the settings that you previously specified for the template are contained in your Live Trace Session configuration. This can include any combination of **Microsoft-PEF** providers, the **Microsoft-Windows-NDIS-PacketCapture** provider, system ETW Providers, event **Keyword** and error **Level** filter settings, **Fast Filters**, a **Session Filter**, a **Parsing Level**, advanced NDIS stack and Hyper-V-Switch extension layer filters, and so on. Note that you have the option to reconfigure and save any of these settings as required, before you run your custom **Trace Scenario** template again, as described in [Using a Custom Trace Scenario Template](../messageanalyzer_content/using-a-custom-trace-scenario-template.md).  
+ If you select a custom created **Trace Scenario** template from the **My Items** category of the **Trace Scenarios** Library, all of the settings that you previously specified for the template are contained in your Live Trace Session configuration. This can include any combination of **Microsoft-PEF** providers, the **Microsoft-Windows-NDIS-PacketCapture** provider, system ETW Providers, event **Keyword** and error **Level** filter settings, **Fast Filters**, a **Session Filter**, a **Parsing Level**, advanced NDIS stack and Hyper-V-Switch extension layer filters, and so on. Note that you have the option to reconfigure and save any of these settings as required, before you run your custom **Trace Scenario** template again, as described in [Using a Custom Trace Scenario Template](using-a-custom-trace-scenario-template.md).  
   
  After selecting a custom **Trace Scenario**, you have the option to either start capturing data immediately or to modify various provider settings and then start your Live Trace Session.  
   
 ## See Also  
- [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md)
+ [Built-In Trace Scenarios](built-in-trace-scenarios.md)

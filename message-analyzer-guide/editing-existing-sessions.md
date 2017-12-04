@@ -25,12 +25,12 @@ After loading data into Message Analyzer or capturing it live, you have the opti
   
  The figure that follows shows the **Edit Session** dialog as it first appears in **Restricted Edit** mode.  
   
- ![Edit Session dialog in Restricted Edit mode](../messageanalyzer_content/media/fig40-edit-session-dialog-in-restricted-edit-mode.png "Fig40-Edit Session dialog in Restricted Edit mode")  
+ ![Edit Session dialog in Restricted Edit mode](media/fig40-edit-session-dialog-in-restricted-edit-mode.png "Fig40-Edit Session dialog in Restricted Edit mode")  
   
  **Figure 40: Edit Session dialog in Restricted Edit mode**  
   
 ## Editing Modes for Data Retrieval Sessions  
- If you open the **Edit Session** dialog for a session in which data was loaded into Message Analyzer from a saved trace or log file, the **Edit Session** dialog opens in the **Restricted Edit** mode, which limits the session changes that you can make to simply adding new files that contain data to be added to the existing displayed message collection. In this mode, Message Analyzer can load the data from new files without having to reload the data from existing files in the files list. To obtain access to all the configuration features for such a session, as described in the [Configuring Session Changes](../messageanalyzer_content/editing-existing-sessions.md#BKMK_ConfigSessionChanges), click the **Full Edit** button. However, any configuration changes that you make in this mode will require that Message Analyzer reload all the data, including data from existing files and any new files that you specify. In this case, you might notice that Message Analyzer has a slower loading performance, depending on the size of the new input files.  
+ If you open the **Edit Session** dialog for a session in which data was loaded into Message Analyzer from a saved trace or log file, the **Edit Session** dialog opens in the **Restricted Edit** mode, which limits the session changes that you can make to simply adding new files that contain data to be added to the existing displayed message collection. In this mode, Message Analyzer can load the data from new files without having to reload the data from existing files in the files list. To obtain access to all the configuration features for such a session, as described in the [Configuring Session Changes](editing-existing-sessions.md#BKMK_ConfigSessionChanges), click the **Full Edit** button. However, any configuration changes that you make in this mode will require that Message Analyzer reload all the data, including data from existing files and any new files that you specify. In this case, you might notice that Message Analyzer has a slower loading performance, depending on the size of the new input files.  
   
 > [!TIP]
 >  Even if you used the **Open** or **Recent Files** feature to load and display trace or log file data in a Message Analyzer viewer, you still have the option to return to session configuration to make changes.  For example, after opening a large trace file through either of these features, you might realize that you need to narrow down the scope of messages to retrieve and then reload the data. You could then define the messages you want to retrieve by applying a **Session Filter** or a **Time Filter** to the data contained in the target input files.  
@@ -38,7 +38,7 @@ After loading data into Message Analyzer or capturing it live, you have the opti
 ## Editing a Live Trace Session  
  If you recently ran a Live Trace Session but have not yet saved the data, you can return to the initial session configuration by clicking the **Edit Session** button on the global Message Analyzer toolbar, or by clicking the **Edit Session** item in the global Message Analyzer **Session** menu. You might do this if you want to apply various tools and techniques that will refocus the displayed results and create a unique perspective on the existing message collection for analysis purposes, prior to saving the data.  
   
- There are no editing restrictions in this scenario, so you have access to all the configuration features described in [Configuring Session Changes](../messageanalyzer_content/editing-existing-sessions.md#BKMK_ConfigSessionChanges). After you make changes to the Live Trace Session configuration, simply click the **Apply** button You will then need to restart your session   by clicking the **Restart** arrow/button on the global Message Analyzer toolbar to apply the changes you specified. For example, you might have specified other hosts on which to capture message data, chosen a different **Trace Scenario**, added or removed a system ETW provider, added a new filter or modified an existing one, and so on.  
+ There are no editing restrictions in this scenario, so you have access to all the configuration features described in [Configuring Session Changes](editing-existing-sessions.md#BKMK_ConfigSessionChanges). After you make changes to the Live Trace Session configuration, simply click the **Apply** button You will then need to restart your session   by clicking the **Restart** arrow/button on the global Message Analyzer toolbar to apply the changes you specified. For example, you might have specified other hosts on which to capture message data, chosen a different **Trace Scenario**, added or removed a system ETW provider, added a new filter or modified an existing one, and so on.  
   
 > [!NOTE]
 >  If you would rather create and configure an entirely new session, you can do so by clicking either the **Files**, **Live Trace**, **Azure Table**, or other button under **Add Data Source** in the **New Session** dialog, to display the configuration features for a new Data Retrieval Session or Live Trace Session, as appropriate, from where you can name, configure, and start a new session.  
@@ -54,11 +54,11 @@ After loading data into Message Analyzer or capturing it live, you have the opti
   
     -   Add more saved input files to the original files list, to target additional data to analyze.  
   
-    -   Add more **Files** tabs by using the **New Data Source** tab to target different tabbed sets of input files from which to load data, as described in [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md).  
+    -   Add more **Files** tabs by using the **New Data Source** tab to target different tabbed sets of input files from which to load data, as described in [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
   
     -   Specify an input **Time Filter** or reconfigure one that you specified in the initial session configuration.  
   
-    -   Specify a different **Time Filter** for input files on another **Files** tab, if you added one, as described in [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md).  
+    -   Specify a different **Time Filter** for input files on another **Files** tab, if you added one, as described in [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
   
     -   Remove the **Session Filter** that you specified in the initial session configuration, reconfigure it, or select a new built-in **Session Filter**. The goal is to apply filtering criteria that is specifically tailored for the data that is being loaded in the updated session.  
   
@@ -72,7 +72,7 @@ After loading data into Message Analyzer or capturing it live, you have the opti
   
     -   Specify a different **Trace Scenario** from the **Select Scenario** drop-down list on the **ETW Providers** toolbar of the **Live Trace** tab.  
   
-    -   Specify a different **Trace Scenario** on a newly added  **Live Trace** tab, as a **New Data Source**, as described in [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md).  
+    -   Specify a different **Trace Scenario** on a newly added  **Live Trace** tab, as a **New Data Source**, as described in [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
   
     -   Add one or more system ETW providers to the **ETW Providers** list by specifying them in the **Add System Providers** dialog, which is accessible by clicking the **Add Providers** drop-down list on the **ETW Providers** toolbar.  
   
@@ -93,10 +93,10 @@ After loading data into Message Analyzer or capturing it live, you have the opti
  ___________________\_  
   
  **More Information**   
- **To learn more** about selecting a **Trace Scenario**, see [Selecting a Trace Scenario](../messageanalyzer_content/selecting-a-trace-scenario.md).   
-**To learn more** about adding and modifying providers, see [Adding a System ETW Provider](../messageanalyzer_content/adding-a-system-etw-provider.md) and [Modifying Default Provider Settings](../messageanalyzer_content/modifying-default-provider-settings.md).   
-**To learn more** about how to use a **Session Filter**, see [Working with Session Filters in a Live Trace Session](../messageanalyzer_content/working-with-session-filters-in-a-live-trace-session.md) and [Applying a Session Filter to a Data Retrieval Session](../messageanalyzer_content/applying-a-session-filter-to-a-data-retrieval-session.md).   
-**To learn more** about optimizing your ETW session configuration, see [Specifying Advanced ETW Session Configuration Settings](../messageanalyzer_content/specifying-advanced-etw-session-configuration-settings.md).   
-**To learn more** about **Parsing Levels**, see [Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md).  
-**To learn more** about how to configure **Advanced Settings** for the **PEF-NDIS** and **Windows-NDIS** providers, see the topics [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) and [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
+ **To learn more** about selecting a **Trace Scenario**, see [Selecting a Trace Scenario](selecting-a-trace-scenario.md).   
+**To learn more** about adding and modifying providers, see [Adding a System ETW Provider](adding-a-system-etw-provider.md) and [Modifying Default Provider Settings](modifying-default-provider-settings.md).   
+**To learn more** about how to use a **Session Filter**, see [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md) and [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).   
+**To learn more** about optimizing your ETW session configuration, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).   
+**To learn more** about **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
+**To learn more** about how to configure **Advanced Settings** for the **PEF-NDIS** and **Windows-NDIS** providers, see the topics [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) and [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
 ___________________\_

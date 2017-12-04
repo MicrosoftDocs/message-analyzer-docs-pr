@@ -30,7 +30,7 @@ The built-in   **Chart** viewer **Layouts** that are provided with Message Analy
   
 <a name="BKMK_Charts"></a>   
 ## Built-In Chart Viewer Layouts  
- Message Analyzer provides numerous **Layouts** for the **Chart** viewer that are accessible from the  locations that follow. Note that each **Layout** in the drop-down lists that are described immediately below has an icon to the left of the **Layout** name that identifies the type of [graphic visualizer component](../messageanalyzer_content/configuring-chart-viewer-layouts.md#BKMK_VisualizerComponents) that it uses to display data.  
+ Message Analyzer provides numerous **Layouts** for the **Chart** viewer that are accessible from the  locations that follow. Note that each **Layout** in the drop-down lists that are described immediately below has an icon to the left of the **Layout** name that identifies the type of [graphic visualizer component](configuring-chart-viewer-layouts.md#BKMK_VisualizerComponents) that it uses to display data.  
   
 -   The **New Viewer** drop-down list on the global Message Analyzer toolbar. You can display an uncategorized  list of **Layouts** by clicking the **Chart** item in this drop-down list.  
   
@@ -39,90 +39,90 @@ The built-in   **Chart** viewer **Layouts** that are provided with Message Analy
 -   In the  **Layout** drop-down list that is accessible from the global Message Analyzer **Session** menu. You can display the fully categorized list of **Layouts** by clicking the **Chart** item in the global Message Analyzer **Session** menu and then selecting **Layout**.  
   
 > [!NOTE]
->  The  **Start With** drop-down list in the **New Session** dialog enables you to select a default **Chart** item for session startup that utilizes a **Bar** element visualizer component. See [Selecting a Session Data Viewer](../messageanalyzer_content/selecting-a-session-data-viewer.md) for further details.  
+>  The  **Start With** drop-down list in the **New Session** dialog enables you to select a default **Chart** item for session startup that utilizes a **Bar** element visualizer component. See [Selecting a Session Data Viewer](selecting-a-session-data-viewer.md) for further details.  
   
  **Subcategories for the Built-In Chart Viewer Layouts**   
 The **Layout** list that you can access from the **Session** menu, as previously described, is organized into a top-level **Message Analyzer** category with various subcategories in which the **Chart** viewer **Layouts** appear. The subcategories in the following list contain the **Layout** names, which are each linked to the corresponding topic so that you review their functionality and analysis capabilities:  
   
 -   **HTTP** subcategory **Layouts**:  
   
-    -   [HTTP Content Type Payloads](../messageanalyzer_content/http-content-type-payloads.md)  
+    -   [HTTP Content Type Payloads](http-content-type-payloads.md)  
   
-    -   [HTTP Content Type Volumes](../messageanalyzer_content/http-content-type-volumes.md)  
+    -   [HTTP Content Type Volumes](http-content-type-volumes.md)  
   
 -   **General** subcategory **Layouts**  
   
-    -   [Average Elapsed Time for Operations](../messageanalyzer_content/average-elapsed-time-for-operations.md)  
+    -   [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)  
   
-    -   [Average Response Time for Operations](../messageanalyzer_content/average-response-time-for-operations.md)  
+    -   [Average Response Time for Operations](average-response-time-for-operations.md)  
   
-    -   [Cluster Levels](../messageanalyzer_content/cluster-levels.md)  
+    -   [Cluster Levels](cluster-levels.md)  
   
-    -   [Event Log IDs](../messageanalyzer_content/event-log-ids.md)  
+    -   [Event Log IDs](event-log-ids.md)  
   
-    -   [IP/Ethernet Conversations by Message Count](../messageanalyzer_content/ip-ethernet-conversations-by-message-count.md)  
+    -   [IP/Ethernet Conversations by Message Count](ip-ethernet-conversations-by-message-count.md)  
   
-    -   [IP Ethernet Conversations by Message Count Top 20](../messageanalyzer_content/ip-ethernet-conversations-by-message-count-top-20.md)  
+    -   [IP Ethernet Conversations by Message Count Top 20](ip-ethernet-conversations-by-message-count-top-20.md)  
   
-    -   [TCP/UDP Conversations by Message Count](../messageanalyzer_content/tcp-udp-conversations-by-message-count.md)  
+    -   [TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)  
   
-    -   [TCP/UDP Conversations by Message Count Top 20](../messageanalyzer_content/tcp-udp-conversations-by-message-count-top-20.md)  
+    -   [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)  
   
-    -   [Top Level Protocols Message Count](../messageanalyzer_content/top-level-protocols-message-count.md)  
+    -   [Top Level Protocols Message Count](top-level-protocols-message-count.md)  
   
-    -   [Top Level Protocols Message Count Over Time](../messageanalyzer_content/top-level-protocols-message-count-over-time.md)  
+    -   [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)  
   
 -   **Network** subcategory **Layouts**  
   
-    -   [IIS Log HTTP Traffic  Volumes](../messageanalyzer_content/iis-log-http-traffic-volumes.md)  
+    -   [IIS Log HTTP Traffic  Volumes](iis-log-http-traffic-volumes.md)  
   
-    -   [IIS Log Server Bytes by Host over Time](../messageanalyzer_content/iis-log-server-bytes-by-host-over-time.md)  
+    -   [IIS Log Server Bytes by Host over Time](iis-log-server-bytes-by-host-over-time.md)  
   
-    -   [IIS Log Top URI Bytes](../messageanalyzer_content/iis-log-top-uri-bytes.md)  
+    -   [IIS Log Top URI Bytes](iis-log-top-uri-bytes.md)  
   
-    -   [IIS Log Top URIs by Time](../messageanalyzer_content/iis-log-top-uris-by-time.md)  
+    -   [IIS Log Top URIs by Time](iis-log-top-uris-by-time.md)  
   
-    -   [TCP Rate and Diagnosis](../messageanalyzer_content/tcp-rate-and-diagnosis.md)  
+    -   [TCP Rate and Diagnosis](tcp-rate-and-diagnosis.md)  
   
-    -   [TCP Stevens Graph](../messageanalyzer_content/tcp-stevens-graph.md)  
+    -   [TCP Stevens Graph](tcp-stevens-graph.md)  
   
-    -   [Top Talkers](../messageanalyzer_content/top-talkers.md)  
+    -   [Top Talkers](top-talkers.md)  
   
-    -   [Top Talkers Top 20](../messageanalyzer_content/top-talkers-top-20.md)  
+    -   [Top Talkers Top 20](top-talkers-top-20.md)  
   
 -   **NetLogon** subcategory **Layouts**  
   
-    -   [Netlogon Message Types](../messageanalyzer_content/netlogon-message-types.md)  
+    -   [Netlogon Message Types](netlogon-message-types.md)  
   
 -   **Networking** subcategory **Layouts**  
   
-    -   [NTP Time Offset](../messageanalyzer_content/ntp-time-offset.md)  
+    -   [NTP Time Offset](ntp-time-offset.md)  
   
 -   **Common** subcategory **Layouts**  
   
-    -   [Perfmon Log (.blg)](../messageanalyzer_content/perfmon-log-blg.md)  
+    -   [Perfmon Log (.blg)](perfmon-log-blg.md)  
   
 -   **File Sharing** subcategory **Layouts**:  
   
-    -   [SMB File Stats](../messageanalyzer_content/smb-file-stats.md)  
+    -   [SMB File Stats](smb-file-stats.md)  
   
-    -   [SMB Reads and Writes Bytes Sent](../messageanalyzer_content/smb-reads-and-writes-bytes-sent.md)  
+    -   [SMB Reads and Writes Bytes Sent](smb-reads-and-writes-bytes-sent.md)  
   
-    -   [SMB Reads and Writes Bytes/Second](../messageanalyzer_content/smb-reads-and-writes-bytes-second.md)  
+    -   [SMB Reads and Writes Bytes/Second](smb-reads-and-writes-bytes-second.md)  
   
-    -   [SMB/SMB2 Service Performance](../messageanalyzer_content/smb-smb2-service-performance.md)  
+    -   [SMB/SMB2 Service Performance](smb-smb2-service-performance.md)  
   
-    -   [SMB Top Commands](../messageanalyzer_content/smb-top-commands.md)  
+    -   [SMB Top Commands](smb-top-commands.md)  
   
-    -   [SMB Top Talkers](../messageanalyzer_content/smb-top-talkers.md)  
+    -   [SMB Top Talkers](smb-top-talkers.md)  
   
-    -   [SysLog Levels](../messageanalyzer_content/syslog-levels.md)  
+    -   [SysLog Levels](syslog-levels.md)  
   
 <a name="BKMK_VisualizerComponents"></a>   
 ## Graphic Visualizer Components  
- Each of the built-in **Layouts** in the previous list use only one of the four different types of graphic data visualizer components that are available. You can also make use of any one of  these components when you are configuring a new **Layout** that organizes and presents data in a unique  format, which can include rendering top-level data summaries in **Bar** element, **Pie** slice, event **Timeline** graph, and **Table** format, as described in [Data Viewer Concepts](../messageanalyzer_content/data-viewer-concepts.md). Note that you can see all four of the available  visualizer components in use if you display the [Protocol Dashboard](../messageanalyzer_content/protocol-dashboard.md) viewer from the **Charts (Deprecated)** drop-down list, which is accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
+ Each of the built-in **Layouts** in the previous list use only one of the four different types of graphic data visualizer components that are available. You can also make use of any one of  these components when you are configuring a new **Layout** that organizes and presents data in a unique  format, which can include rendering top-level data summaries in **Bar** element, **Pie** slice, event **Timeline** graph, and **Table** format, as described in [Data Viewer Concepts](data-viewer-concepts.md). Note that you can see all four of the available  visualizer components in use if you display the [Protocol Dashboard](protocol-dashboard.md) viewer from the **Charts (Deprecated)** drop-down list, which is accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
   
- Many of  the **Chart** viewer **Layouts** are intended to work together with other data viewers to create an integrated and interactive analysis environment, as described in [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md). The interactive features of a **Layout** are initiated when you double-click the elements of a visualizer component that represents some message quantity or other value, for example, message volume, payload length, or some  other field value. This action results in interactively driving the display of the element messages into another viewer such as the **Analysis Grid** to create an analysis context that focuses on the element messages only. Note that all of the built-in **Chart** viewer **Layouts** are capable of interactively driving the display of messages in other viewers, whether or not they are configured in a Message Analyzer **Profile** which can be enabled or disabled.  
+ Many of  the **Chart** viewer **Layouts** are intended to work together with other data viewers to create an integrated and interactive analysis environment, as described in [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md). The interactive features of a **Layout** are initiated when you double-click the elements of a visualizer component that represents some message quantity or other value, for example, message volume, payload length, or some  other field value. This action results in interactively driving the display of the element messages into another viewer such as the **Analysis Grid** to create an analysis context that focuses on the element messages only. Note that all of the built-in **Chart** viewer **Layouts** are capable of interactively driving the display of messages in other viewers, whether or not they are configured in a Message Analyzer **Profile** which can be enabled or disabled.  
   
  The list that follows provides a brief description of the four types of visualizer components and the elements they contain that can interact with the **Analysis Grid** viewer and other viewers by double-clicking them, or in some instances by using a single-click.  
   
@@ -150,7 +150,7 @@ The **Layout** list that you can access from the **Session** menu, as previously
   
 -   **Information to expose** — consists of the aspects of message data that you want to expose to optimize the analysis perspective that you can obtain from the displayed results in your **Layout**.  
   
-     For example, if you are interested in working with IPv4 messages, you might want to expose network conversations with the **IPv4.Datagram.Network** field in your **Layout** along with their associated message volumes across a set of trace results. If you are interested in working with SMB2 messages, you might want to expose the average response time for all messages associated with the SMB2 queries that occurred in a set of trace results. The average response time would be calculated by a **Layout** formula that is based on the **ResponseTime** Global Annotation; see  [SMB/SMB2 Service Performance](../messageanalyzer_content/smb-smb2-service-performance.md) for further information.  
+     For example, if you are interested in working with IPv4 messages, you might want to expose network conversations with the **IPv4.Datagram.Network** field in your **Layout** along with their associated message volumes across a set of trace results. If you are interested in working with SMB2 messages, you might want to expose the average response time for all messages associated with the SMB2 queries that occurred in a set of trace results. The average response time would be calculated by a **Layout** formula that is based on the **ResponseTime** Global Annotation; see  [SMB/SMB2 Service Performance](smb-smb2-service-performance.md) for further information.  
   
     > [!TIP]
     >  You have the option to employ **Unions** in any **Layout** that you modify, which includes **Union** sets.  
@@ -163,14 +163,14 @@ The **Layout** list that you can access from the **Session** menu, as previously
   
     -   **Event data** — enables you to assess events that occur in time. A **Timeline** visualizer component would be a good choice for this type of data presentation, given that you can visually identify the points in time where any particular message occurred in a set of trace results. The **Timeline** component also enables you to use presets or configured windows of time to drill down into any chosen time slot for detailed analysis.  
   
-     Note that you can link to some of the built-in **Chart** viewer **Layout** descriptions in the above section "Subcategories for the Built-In Chart Viewer Layouts" to understand chosen **Layouts**, and then display them  in an Analysis Session  to see the various types of graphic visualizer components in action. To locate the **Chart** viewer **Layouts** in Message Analyzer, see the previous [Built-In Chart Viewer Layouts](../messageanalyzer_content/configuring-chart-viewer-layouts.md#BKMK_Charts) topic.  
+     Note that you can link to some of the built-in **Chart** viewer **Layout** descriptions in the above section "Subcategories for the Built-In Chart Viewer Layouts" to understand chosen **Layouts**, and then display them  in an Analysis Session  to see the various types of graphic visualizer components in action. To locate the **Chart** viewer **Layouts** in Message Analyzer, see the previous [Built-In Chart Viewer Layouts](configuring-chart-viewer-layouts.md#BKMK_Charts) topic.  
   
 <a name="BKMK_ChartConfigOverview"></a>   
 ## Overview of Configuring a Custom Chart Viewer Layout  
  Message Analyzer enables you to create your own custom **Layouts** containing one of the four types of data visualizer components. The protocol/module types, fields, properties, and the formulas that you can apply to these entities can provide a quick overview of trace activity at-a-glance or a detailed analysis of statistical data, to enhance your data analysis perspectives. You can use formulas to manipulate the values of fields, properties, and other entities in the messages that you capture to create unique data representations. An example of this is the **Bar** element visualizer component that is used in the **SMB Top Commands** **Layout**. This data visualizer depicts the relative distribution of traffic volume, from the highest to the lowest volume, for SMB commands in a set of trace results. This in turn can help you to quickly evaluate the SMB commands that are consuming the most bandwidth, which may point to other issues.  
   
  **Editing a Built-In Chart Viewer Layout**   
-If you want to create a custom **Layout**, you will need to edit an existing **Layout** first  and  then save your changes under a specified **Layout** name. To do so, you must first display the **Layout** you want to edit by selecting it in any of the locations specified in the [Built-In Chart Viewer Layouts](../messageanalyzer_content/configuring-chart-viewer-layouts.md#BKMK_Charts) section. Thereafter, to begin editing, you will need to select the **Chart** item in the global Message Analyzer **Session** menu and then select the **Edit** item in the **Chart** drop-down list to display the **Edit Chart Layout** dialog. You can then make use of the controls in the **Edit Chart Layout** and **Formula Editor** dialogs to modify the current **Layout**.  
+If you want to create a custom **Layout**, you will need to edit an existing **Layout** first  and  then save your changes under a specified **Layout** name. To do so, you must first display the **Layout** you want to edit by selecting it in any of the locations specified in the [Built-In Chart Viewer Layouts](configuring-chart-viewer-layouts.md#BKMK_Charts) section. Thereafter, to begin editing, you will need to select the **Chart** item in the global Message Analyzer **Session** menu and then select the **Edit** item in the **Chart** drop-down list to display the **Edit Chart Layout** dialog. You can then make use of the controls in the **Edit Chart Layout** and **Formula Editor** dialogs to modify the current **Layout**.  
   
 > [!IMPORTANT]
 >  Editing an existing **Layout** and saving it under a different name is the only way you can now create your own **Layouts**, as the former **New Chart** command and others are no longer available. This change is advantageous given that it streamlines the UI and results in fewer clicks and selections to create a custom **Layout**.  
@@ -179,5 +179,5 @@ If you want to create a custom **Layout**, you will need to edit an existing **L
   
  ___________________________________\_  
   
- [Using the Edit Chart Layout Dialog](../messageanalyzer_content/using-the-edit-chart-layout-dialog.md)   
+ [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)   
  ___________________________________\_

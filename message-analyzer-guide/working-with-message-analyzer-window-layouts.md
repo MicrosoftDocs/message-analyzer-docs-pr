@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Working with Message Analyzer Window Layouts
 By default, Message Analyzer provides several built-in **Window Layouts** that organize the **Analysis Grid** viewer with different **Tool Windows** as preset configurations that enable you to customize your working environment for the type of troubleshooting and analysis in which you are engaged. The window layouts that you can choose range from simple to increasingly more complex selections in the **Window Layout** drop-down list, and are intended to accommodate a cross-section of typical Message Analyzer users. You can access this drop-down list from the global Message Analyzer toolbar. The typical layout configuration consists of a single/default data viewer and an arrangement of one or more **Tool Windows**. By default, Message Analyzer uses the **Analysis Grid** viewer in all the built-in **Window Layouts**; however, you can set a different **Default Viewer** from the **Profiles** tab of the **Options** dialog that is accessible from the global Message Analyzer **Tools** menu. You can also add other **Tool Windows** to any of the built-in **Windows Layouts**, as needed.  
   
- You also have the option to further customize your analysis environment by redocking any data viewer or **Tool Window** in use to a location that facilitates easier viewing and analysis, or better correlation of related message data that is held in different views, as described in [Using the Redocking Features](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures). If you do not select one of the built-in **Window Layouts**, Message Analyzer still provides a default window layout that contains the **Analysis Grid** viewer and several **Tool Windows** that provide a basic configuration for analysis, as described in [Using the Message Analyzer Default Window Layout](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout). You will see this default layout configuration at first Message Analyzer startup and upon all subsequent startups unless you change the layout by any of the following actions:  
+ You also have the option to further customize your analysis environment by redocking any data viewer or **Tool Window** in use to a location that facilitates easier viewing and analysis, or better correlation of related message data that is held in different views, as described in [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures). If you do not select one of the built-in **Window Layouts**, Message Analyzer still provides a default window layout that contains the **Analysis Grid** viewer and several **Tool Windows** that provide a basic configuration for analysis, as described in [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout). You will see this default layout configuration at first Message Analyzer startup and upon all subsequent startups unless you change the layout by any of the following actions:  
   
 -   Manually open other **Tool Windows** from the **Windows** submenu in the global Message Analyzer **Tools** menu.  
   
@@ -30,18 +30,18 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
 -   Manually change the **Default Viewer** on the **Profiles** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu.  
   
--   Load data from a file type for which a viewer configuration is defined by a default or custom **Profile**, as described in topic [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md).  
+-   Load data from a file type for which a viewer configuration is defined by a default or custom **Profile**, as described in topic [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
   
  The following topics in this section describe how to work with **Window Layouts**.  
   
  ______________________________________________________\_  
   
- [Using the Message Analyzer Default Window Layout](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
- [Using the Built-In Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
- [Redocking Data Viewers and Tool Windows](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows)   
- [Performing Docking Operations](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
- [Using the Redocking Features](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
- [Saving Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
+ [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
+ [Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
+ [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows)   
+ [Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
+ [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
+ [Saving Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
 ______________________________________________________\_  
   
 <a name="BKMK_UsingDefaultLayout"></a>   
@@ -50,31 +50,31 @@ ______________________________________________________\_
   
 -   **Analysis Grid** — a redockable and interactive tree grid configuration display with expandable message nodes that is the default  Message Analyzer viewer for data analysis. It includes  inline stack,  details, and diagnosis information that is   accessible from each top-level message; encapsulation of network stack messages; related Operation messages condensed into a common node; along with sorting, grouping, filtering, and so on. Includes a  default column **Layout** for common  analysis  of trace results.  
   
-     See the [Analysis Grid Viewer](../messageanalyzer_content/analysis-grid-viewer.md) topic for further details on analyzing data with this viewer.  
+     See the [Analysis Grid Viewer](analysis-grid-viewer.md) topic for further details on analyzing data with this viewer.  
   
 -   **Message Stack 1** — a redockable and interactive **Tool Window** that enables you to view the network stack layers (origins tree) for any selected message that contains a message stack configuration in a Data Retrieval Session or Live Trace Session.  
   
-     See the [Message Stack Tool Window](../messageanalyzer_content/message-stack-tool-window.md) topic for further details on how to use this feature.  
+     See the [Message Stack Tool Window](message-stack-tool-window.md) topic for further details on how to use this feature.  
   
 -   **Details 1** — a redockable **Tool Window** containing message field names, values, types, bit offset, and bit length specifications, that is interactively driven by message selection in the **Analysis Grid** viewer and other viewers.  
   
-     See the [Message Details Tool Window](../messageanalyzer_content/message-details-tool-window.md) topic for further details on how to use this feature.  
+     See the [Message Details Tool Window](message-details-tool-window.md) topic for further details on how to use this feature.  
   
 -   **Message Data 1** — a redockable **Tool Window** that contains hexadecimal values by default for fields that you select in the **Details** **Tool Window**.  
   
-     See the [Message Data Tool Window](../messageanalyzer_content/message-data-tool-window.md) topic for further details on how to use this feature.  
+     See the [Message Data Tool Window](message-data-tool-window.md) topic for further details on how to use this feature.  
   
 -   **Field Data** — a redockable **Tool Window** that displays a string or other value for fields that you select in the **Details** **Tool Window**.  
   
-     See the [Field Data Tool Window](../messageanalyzer_content/field-data-tool-window.md) topic for further details on how to use this feature.  
+     See the [Field Data Tool Window](field-data-tool-window.md) topic for further details on how to use this feature.  
   
 -   **Session Explorer** — a redockable and interactive **Tool Window** that enables you to open new data viewers or explore and select open sessions and the viewers in each session for data captured or loaded into Message Analyzer.  
   
-     See the [Session Explorer Tool Window](../messageanalyzer_content/session-explorer-tool-window.md) topic for further details on how to use this feature.  
+     See the [Session Explorer Tool Window](session-explorer-tool-window.md) topic for further details on how to use this feature.  
   
 -   **Field Chooser** — a redockable **Tool Window** that enables you to view all of the fields that Message Analyzer can parse. From the **Field Chooser**, you can use the **Add as Column** and **Add as Grouping** context menu commands to add new columns of data or groups to either the **Analysis Grid** viewer or **Grouping** viewer, depending on which viewer has focus when the chosen command is executed. You can also display the OPN definition for a field by executing the **Go To Definition** context menu command from the **Field Chooser**.  
   
-     See the [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) topic for further details on how to use this feature.  
+     See the [Field Chooser Tool Window](field-chooser-tool-window.md) topic for further details on how to use this feature.  
   
  Other redockable **Tool Windows** that you can manually select for display in any Message Analyzer session are available as items in the **Windows** submenu which is accessible from the global Message Analyzer **Tools** menu. This includes the **Bookmarks**, **Comments**, **Diagnostics**, **Decryption**, **Selection**, and **Output** **Tool Windows**.  
   
@@ -111,7 +111,7 @@ ______________________________________________________\_
   
 <a name="BKMK_RedockViewersToolWindows"></a>   
 ## Redocking Data Viewers and Tool Windows  
- Message Analyzer provides you with the flexibility to reposition the different data viewers and **Tool Windows** that contain your trace results information, by undocking them from their default locations and redocking them in another sector of the UI. After you undock a data viewer or **Tool Window**, you have the option to float, resize, redock, or remove it, as described in [Performing Docking Operations](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps). You can also restore any **Tool Window** that you previously removed (closed). Message Analyzer provides the capability to reposition any data viewer or **Tool Window** mainly for the enhancement of your analysis perspective, as described in [Using the Redocking Features](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures).  
+ Message Analyzer provides you with the flexibility to reposition the different data viewers and **Tool Windows** that contain your trace results information, by undocking them from their default locations and redocking them in another sector of the UI. After you undock a data viewer or **Tool Window**, you have the option to float, resize, redock, or remove it, as described in [Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps). You can also restore any **Tool Window** that you previously removed (closed). Message Analyzer provides the capability to reposition any data viewer or **Tool Window** mainly for the enhancement of your analysis perspective, as described in [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures).  
   
  **Utilizing the Docking Navigation Controls**   
 To facilitate window relocation, Message Analyzer provides the Docking Navigation Control, which is a simple mechanism that enables you to redock any data viewer or **Tool Window** in a new location after you have initially undocked it. This control is built into the UI as part of the window docking infrastructure and  displays immediately after you drag any data viewer tab or **Tool Window** tab away from its current docking location. The Docking Navigation Control displays in various UI locations to facilitate the window relocation capabilities; however, the size of the control varies depending on the section of the UI where you drag a window. The  Docking Navigation Control contains a central tab and four directional arrow tabs that enable you to preview a drop location whenever you hover over one of these elements while dragging an undocked window with your mouse. As previously indicated, you can use the Docking Navigation Control to configure a new location for a data viewer or **Tool Window** that is more convenient or better suited to your analysis environment.  
@@ -147,7 +147,7 @@ Taking the previous scenario as an example, you might want to interactively driv
 At other times, you might need to compare different traces and related log file data, perhaps from different time zones, or you might want to review historical versus current trace results. When this is the case, you can follow the processes outlined earlier in this section to relocate your data viewers in appropriate positions.  
   
 > [!TIP]
->  When you are comparing trace results, you can take advantage of the **Compare Fields Tool Window**. This feature enables a quick comparison of the field values of any two messages, as described in the [Compare Fields Tool Window](../messageanalyzer_content/compare-fields-tool-window.md) topic.  
+>  When you are comparing trace results, you can take advantage of the **Compare Fields Tool Window**. This feature enables a quick comparison of the field values of any two messages, as described in the [Compare Fields Tool Window](compare-fields-tool-window.md) topic.  
   
 > [!NOTE]
 >  If you have many data viewers displaying in multiple sessions, the session tabs that contain viewer data can exceed the width of the available space in the Message Analyzer UI. When this is the case, you can scroll to the hidden session tabs by clicking the direction arrows (**\< >**) in the upper-right corner of the session tab row. In addition, if the position of a viewer appears to be locked in place when you try to drag an edge to reposition it, you can use the direction arrows to move the viewer window position while the particular viewer is in focus.  
@@ -161,4 +161,4 @@ At other times, you might need to compare different traces and related log file 
 When you close the Message Analyzer application, the configuration file is updated so that you can resume your latest window layout on the next Message Analyzer restart. Note that this file as well as other configuration files in this location are now versioned in newer Message Analyzer releases.  
   
 ## See Also  
- [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md)
+ [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

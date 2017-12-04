@@ -31,7 +31,7 @@ Message Analyzer provides the **Interaction** diagram, which is currently a prev
   
  The figure that follows shows the **Interaction** viewer in the **Swimlane** configuration.  
   
- ![Interaction viewer with Swimlane diagram](../messageanalyzer_content/media/fig47-interaction-viewer-with-swimlane-diagram.png "Fig47-Interaction viewer with Swimlane diagram")  
+ ![Interaction viewer with Swimlane diagram](media/fig47-interaction-viewer-with-swimlane-diagram.png "Fig47-Interaction viewer with Swimlane diagram")  
   
  **Figure 47: Interaction viewer with Swimlane diagram**  
   
@@ -56,7 +56,7 @@ Message Analyzer provides the **Interaction** diagram, which is currently a prev
   
 -   **Zoom** mode — not used.  
   
- The **Mapping**, **Diagram**, and **Chord** viewer formats provide the following additional toolbar items, which are further described in the [Gantt Viewer](../messageanalyzer_content/gantt-viewer.md) topic:  
+ The **Mapping**, **Diagram**, and **Chord** viewer formats provide the following additional toolbar items, which are further described in the [Gantt Viewer](gantt-viewer.md) topic:  
   
 ## Using the Context Menu Commands  
  The **Interaction** diagram provides two different right-click context menus that display, depending on the **Interaction** viewer format that you select. The context menus appear when you right-click anywhere on a diagram surface. The context menu contains the following commands that perform the indicated operations:  

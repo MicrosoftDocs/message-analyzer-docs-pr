@@ -25,11 +25,11 @@ The basic unit of workflow and starting point of all Message Analyzer operations
  _______________________________\_  
   
  **Go To Quick Session Startup**   
-To learn how to immediately start a Message Analyzer session that captures live data at the Link Layer with a single click, see the [Quick Session Startup](../messageanalyzer_content/quick-session-startup.md) topic.  
+To learn how to immediately start a Message Analyzer session that captures live data at the Link Layer with a single click, see the [Quick Session Startup](quick-session-startup.md) topic.  
 _______________________________\_  
   
  **Streamlining Session Input Workflow**   
-The Message Analyzer UI provides a streamlined input workflow architecture that is designed to support expansive data collection capabilities, which includes the future addition of new data sources. Currently, Message Analyzer data collection capabilities include the simultaneous capture of live data from a local host and/or multiple remote target computers, as described in [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md), [Configuring a Remote Capture](../messageanalyzer_content/configuring-a-remote-capture.md),  and [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md); in addition to retrieval of data from multiple saved data sources, as described in [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md) and [Acquiring Data From Other Input Sources](../messageanalyzer_content/acquiring-data-from-other-input-sources.md).  
+The Message Analyzer UI provides a streamlined input workflow architecture that is designed to support expansive data collection capabilities, which includes the future addition of new data sources. Currently, Message Analyzer data collection capabilities include the simultaneous capture of live data from a local host and/or multiple remote target computers, as described in [Configuring a Live Trace Session](configuring-a-live-trace-session.md), [Configuring a Remote Capture](configuring-a-remote-capture.md),  and [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md); in addition to retrieval of data from multiple saved data sources, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md) and [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md).  
   
  Message Analyzer also provides an integrated session configuration workflow that minimizes the number of clicks and dialogs you need to get a Live Trace Session or a Data Retrieval Session running, while making configuration features that are common to both session types readily accessible and easy to configure.  
   
@@ -38,45 +38,45 @@ All of the foregoing capabilities are unified through the use of a common interf
   
 -   **Live Trace Session** — you can begin the configuration of a Live Trace Session by clicking the **Live Trace** button under **Add Data Source** in the **New Session** dialog. The configuration features that are unique to this type of session enable you to do the following:  
   
-    -   Target local and/or remote computers from which to capture live data with the use of the **Edit Target Computers** dialog, which is accessible by clicking the **Edit** button next to the **Target Computers** text box, as described in [Configuring a Remote Capture](../messageanalyzer_content/configuring-a-remote-capture.md).  
+    -   Target local and/or remote computers from which to capture live data with the use of the **Edit Target Computers** dialog, which is accessible by clicking the **Edit** button next to the **Target Computers** text box, as described in [Configuring a Remote Capture](configuring-a-remote-capture.md).  
   
-    -   Choose a built-in **Trace Scenario** from the **Select Scenario** drop-down list that includes one or more message providers that capture network messages through different stack layers, or from system components and other devices, as described in [Selecting a Trace Scenario](../messageanalyzer_content/selecting-a-trace-scenario.md).  
+    -   Choose a built-in **Trace Scenario** from the **Select Scenario** drop-down list that includes one or more message providers that capture network messages through different stack layers, or from system components and other devices, as described in [Selecting a Trace Scenario](selecting-a-trace-scenario.md).  
   
-    -   Add one or more system ETW Providers to any **Trace Scenario** to enhance the scope of data retrieval, by selecting them from the **Add Providers** drop-down list, as described in [Adding a System ETW Provider](../messageanalyzer_content/adding-a-system-etw-provider.md).  
+    -   Add one or more system ETW Providers to any **Trace Scenario** to enhance the scope of data retrieval, by selecting them from the **Add Providers** drop-down list, as described in [Adding a System ETW Provider](adding-a-system-etw-provider.md).  
   
-    -   Specify various filtering configurations for message providers, including **Fast Filters**, **WFP Layer Set** filters in **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider**; event **Keyword** and error **Level** filters; adapter filters and logically chained **Fast Filter** groups in **Local Network Interfaces** traces; NDIS stack, Hyper-V-Switch extension layer, and other special filters in traces that use the **Microsoft-Windows-NDIS-PacketCapture** provider, for example **Remote Network Interfaces** traces that have remote capture capability; and so on, as described in [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md).  
+    -   Specify various filtering configurations for message providers, including **Fast Filters**, **WFP Layer Set** filters in **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider**; event **Keyword** and error **Level** filters; adapter filters and logically chained **Fast Filter** groups in **Local Network Interfaces** traces; NDIS stack, Hyper-V-Switch extension layer, and other special filters in traces that use the **Microsoft-Windows-NDIS-PacketCapture** provider, for example **Remote Network Interfaces** traces that have remote capture capability; and so on, as described in [Configuring a Live Trace Session](configuring-a-live-trace-session.md).  
   
-    -   Specify **ETW Session Configuration** parameters to control performance of the underlying ETW sessions in all traces, as described in [Specifying Advanced ETW Session Configuration Settings](../messageanalyzer_content/specifying-advanced-etw-session-configuration-settings.md).  
+    -   Specify **ETW Session Configuration** parameters to control performance of the underlying ETW sessions in all traces, as described in [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).  
   
 -   **Data Retrieval Session** — you can begin the configuration of a Data Retrieval Session by clicking the **Files** button under **Add Data Source** in the **New Session** dialog. The configuration features that are unique to this type of session enable you to do the following:  
   
-    -   Locate saved files and logs from which to retrieve message data, as described in [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md).  
+    -   Locate saved files and logs from which to retrieve message data, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).  
   
-    -   Enable the **Truncated Parsing** mode to initiate a smaller Message Analyzer parsing set that improves performance when loading saved files that contain truncated messages, for example a .cap file, as described in [Detecting and Supporting Message Truncation](../messageanalyzer_content/detecting-and-supporting-message-truncation.md).  
+    -   Enable the **Truncated Parsing** mode to initiate a smaller Message Analyzer parsing set that improves performance when loading saved files that contain truncated messages, for example a .cap file, as described in [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md).  
   
-    -   Decrypt the data in saved files, as described in [Decrypting Input Data](../messageanalyzer_content/decrypting-input-data.md).  
+    -   Decrypt the data in saved files, as described in [Decrypting Input Data](decrypting-input-data.md).  
   
-    -   Configure a **Time Filter** that specifies a window of time in which to view data, to focus results and improve performance, as described in [Applying an Input Time Filter to a Data Retrieval Session](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+    -   Configure a **Time Filter** that specifies a window of time in which to view data, to focus results and improve performance, as described in [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
   
-    -   Configure and apply a **Session Filter** to focus results on specific data and improve performance, as described in [Applying a Session Filter to a Data Retrieval Session](../messageanalyzer_content/applying-a-session-filter-to-a-data-retrieval-session.md).  
+    -   Configure and apply a **Session Filter** to focus results on specific data and improve performance, as described in [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
   
-    -   Select a **Text Log Configuration** file for parsing a custom textual log file, as described in [Opening Text Log Files](../messageanalyzer_content/opening-text-log-files.md).  
+    -   Select a **Text Log Configuration** file for parsing a custom textual log file, as described in [Opening Text Log Files](opening-text-log-files.md).  
   
-    -   Load data that is derived from execution of PowerShell scripts, as described in [Deriving Input Data with PowerShell Scripts](../messageanalyzer_content/deriving-input-data-with-powershell-scripts.md).  
+    -   Load data that is derived from execution of PowerShell scripts, as described in [Deriving Input Data with PowerShell Scripts](deriving-input-data-with-powershell-scripts.md).  
   
-    -   Load data from Azure storage tables and from text log files that are stored in binary large object (BLOB) containers, as described in [Handling Azure Data](../messageanalyzer_content/handling-azure-data.md).  
+    -   Load data from Azure storage tables and from text log files that are stored in binary large object (BLOB) containers, as described in [Handling Azure Data](handling-azure-data.md).  
   
-    -   Load data from various other input sources such as system Event Logs, SQL databases, WPP-generated events, and OMS log data, as described in [Acquiring Data From Other Input Sources](../messageanalyzer_content/acquiring-data-from-other-input-sources.md).  
+    -   Load data from various other input sources such as system Event Logs, SQL databases, WPP-generated events, and OMS log data, as described in [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md).  
   
  The configuration features of the **New Session** dialog that are common to both session types enable you to do the following:  
   
 -   Specify a **Session Filter** that limits the data you capture or retrieve based on specific filtering criteria.  
   
--   Select a **Parsing Level** to limit how far up the stack Message Analyzer will parse, for better performance and focused message sets, as described in [Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md).  
+-   Select a **Parsing Level** to limit how far up the stack Message Analyzer will parse, for better performance and focused message sets, as described in [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
   
--   Choose a data viewer in which to display your trace results by selecting one in the **Start With** drop-down list, or use the default viewer setting, as described in [Selecting a Session Data Viewer](../messageanalyzer_content/selecting-a-session-data-viewer.md).  
+-   Choose a data viewer in which to display your trace results by selecting one in the **Start With** drop-down list, or use the default viewer setting, as described in [Selecting a Session Data Viewer](selecting-a-session-data-viewer.md).  
   
--   Provide a **Name** for the new session, as described in [Naming a Session](../messageanalyzer_content/naming-a-session.md).  
+-   Provide a **Name** for the new session, as described in [Naming a Session](naming-a-session.md).  
   
  **Using Session Options**   
 The **New Session** item in the Message Analyzer **File** menu provides the following submenu items as options for creating a session:  
@@ -112,7 +112,7 @@ To familiarize yourself with the workflow you will generally follow when creatin
   
     -   Choose a data viewer in which to display the results of your Live Trace Session by selecting it in the **Start With** drop-down list of the **New Session** dialog; or accept the default setting.  
   
-    -   To review additional configuration options for a Live Trace Session, see [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md).  
+    -   To review additional configuration options for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).  
   
 5.  If you chose to configure a Data Retrieval Session, do the following to create a basic configuration:  
   
@@ -128,7 +128,7 @@ To familiarize yourself with the workflow you will generally follow when creatin
   
     -   Optionally, select a built-in Filter Expression from the **Library** drop-down list on the toolbar above the **Session Filter** text box to create a **Session Filter** that narrows the scope of data retrieval, so you can focus on a specific type of data in your retrieved results.  
   
-    -   To review additional configuration options for a Data Retrieval Session, see [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md).  
+    -   To review additional configuration options for a Data Retrieval Session, see [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
   
  ______________________\_  
   
@@ -137,17 +137,17 @@ In the topics of this section, you will learn in detail how to  perform the task
 ______________________\_  
   
 ## In This Section  
- **[Capturing Message Data](../messageanalyzer_content/capturing-message-data.md)**  — learn how to use Message Analyzer assets to target live data as an input source in a local or remote capture; configure, run, and edit a Live Trace Session; create your own custom **Trace Scenarios**; and use various methods to perform a live capture.  
+ **[Capturing Message Data](capturing-message-data.md)**  — learn how to use Message Analyzer assets to target live data as an input source in a local or remote capture; configure, run, and edit a Live Trace Session; create your own custom **Trace Scenarios**; and use various methods to perform a live capture.  
   
- **[Retrieving Message Data](../messageanalyzer_content/retrieving-message-data.md)**  — learn how to use Message Analyzer to target saved data and other repositories as an input source; configure, run, and edit a Data Retrieval Session; and use various methods to perform data retrieval.  
+ **[Retrieving Message Data](retrieving-message-data.md)**  — learn how to use Message Analyzer to target saved data and other repositories as an input source; configure, run, and edit a Data Retrieval Session; and use various methods to perform data retrieval.  
   
- **[Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md)**  — learn how to use Message Analyzer's flexible session framework to create session configurations based on single or multiple data sources. Also review some example scenarios and guidelines for Data Retrieval Sessions and Live Trace Sessions.  
+ **[Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md)**  — learn how to use Message Analyzer's flexible session framework to create session configurations based on single or multiple data sources. Also review some example scenarios and guidelines for Data Retrieval Sessions and Live Trace Sessions.  
   
- **[Editing Existing Sessions](../messageanalyzer_content/editing-existing-sessions.md)**  — learn how to reconfigure an existing session to obtain different results.  
+ **[Editing Existing Sessions](editing-existing-sessions.md)**  — learn how to reconfigure an existing session to obtain different results.  
   
  ___________________\_  
   
  **Go To Procedures**   
-To proceed directly to procedures that demonstrate how to use the network tracing features, see **[Procedures: Using the Network Tracing Features](../messageanalyzer_content/procedures-using-the-network-tracing-features.md)**.  
-To proceed directly to procedures that demonstrate how to browse for saved messages, retrieve selected data from saved files, and view the resulting message set, see **[Procedures: Using the Data Retrieval Features](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md)**.   
+To proceed directly to procedures that demonstrate how to use the network tracing features, see **[Procedures: Using the Network Tracing Features](procedures-using-the-network-tracing-features.md)**.  
+To proceed directly to procedures that demonstrate how to browse for saved messages, retrieve selected data from saved files, and view the resulting message set, see **[Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)**.   
 ___________________\_

@@ -28,7 +28,7 @@ This section describes the types of filters that you can configure for the **Mic
   
  The **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider** is shown in the figure that follows:  
   
- ![Advanced Settings for the Microsoft&#45;PEF&#45;WFP&#45;MessageProvider](../messageanalyzer_content/media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG "Fig23-Advanced Settings for the Microsoft-PEF-WFP-MessageProvider")  
+ ![Advanced Settings for the Microsoft&#45;PEF&#45;WFP&#45;MessageProvider](media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG "Fig23-Advanced Settings for the Microsoft-PEF-WFP-MessageProvider")  
   
  **Figure 23: Advanced Settings for the Microsoft-PEF-WFP-MessageProvider**  
   
@@ -52,9 +52,9 @@ This section describes the types of filters that you can configure for the **Mic
   
  **WFP Fast Filters** consist of the following types:  
   
--   **IPv4** — enables you to filter live traffic based on a specified IPv4 address, as described in [IPv4Address Filters](../messageanalyzer_content/ipv4address-filters.md).  
+-   **IPv4** — enables you to filter live traffic based on a specified IPv4 address, as described in [IPv4Address Filters](ipv4address-filters.md).  
   
--   **IPv6** — enables you to filter live traffic based on a specified IPv6 address, as described in [IPv6Address Filters](../messageanalyzer_content/ipv6address-filters.md).  
+-   **IPv6** — enables you to filter live traffic based on a specified IPv6 address, as described in [IPv6Address Filters](ipv6address-filters.md).  
   
 -   **TCP port** — enables you to filter live traffic based on a specified TCP port.  
   
@@ -87,8 +87,8 @@ When you configure **Fast Filters** in the **Advanced Settings - Microsoft-PEF-W
  ___________________\_  
   
  **More Information**   
- **To learn more** about using **Column Filters**, see [Filtering Column Data](../messageanalyzer_content/filtering-column-data.md).   
+ **To learn more** about using **Column Filters**, see [Filtering Column Data](filtering-column-data.md).   
 ___________________\_  
   
 ## See Also  
- [Microsoft-PEF-WFP-MessageProvider](../messageanalyzer_content/microsoft-pef-wfp-messageprovider.md)
+ [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)

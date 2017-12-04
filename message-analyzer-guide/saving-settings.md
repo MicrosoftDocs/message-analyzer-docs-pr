@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Saving Settings
 When assessing data in an Analysis Session, you will invariably use the many features that Message Analyzer provides for data manipulation, including the default asset collection Library items, such as view  **Filters**, **Aliases**, **Viewpoints**, **Charts**, **Color Rules**, viewer **Layouts**, **Pattern Expressions**, and so on, that ship with Message Analyzer. However, it is likely that you will want to create your own customized versions of these Library items or create completely new items of your own to facilitate data analysis. If you create new Library items in the previously described categories for data analysis purposes, Message Analyzer enables you to save your settings for future use and for sharing with others through the Message Analyzer Sharing Infrastructure. When you save an item, it becomes part of the particular asset collection Library with which you are working and such items are available to you from the UI whenever you run Message Analyzer. It is these local Library items that you can share with others by making use of the Message Analyzer Sharing Infrastructure.  
   
- There are also additional settings that you can save with session data that include default settings that will apply to all live sessions, and other settings that are the result of manipulating trace data following an Analysis Session, as described in [Saving Other Settings](../messageanalyzer_content/saving-settings.md#BKMK_SavingOtherSettings).  
+ There are also additional settings that you can save with session data that include default settings that will apply to all live sessions, and other settings that are the result of manipulating trace data following an Analysis Session, as described in [Saving Other Settings](saving-settings.md#BKMK_SavingOtherSettings).  
   
 ## Saving Settings of Library Items  
  Message Analyzer provides the facilities for saving the settings of your asset collection Library items from the same location where you apply them for data analysis purposes. You can save the settings of the following asset Library item types in the indicated manner:  
@@ -90,19 +90,19 @@ When assessing data in an Analysis Session, you will invariably use the many fea
 -   **Parsing Levels** — if you set a **Parsing Level** when configuring a **New Session** that you run, thereafter when you save the message set that displays in a data viewer such as the **Analysis Grid**, the applied **Parsing Level** and its effects will be reflected in the saved file. Note that you must use the **Open File** feature on the **Start Page** or the **Open** and **From File Explorer** commands on the **File** menu, rather than loading one or more files through a **New Session**, to retrieve the data with the original **Parsing Level** applied.  
   
 ## See Also  
- [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md)   
- [Using and Managing Message Analyzer Aliases](../messageanalyzer_content/using-and-managing-message-analyzer-aliases.md)   
- [Configuring and Managing Message Analyzer Unions](../messageanalyzer_content/configuring-and-managing-message-analyzer-unions.md)   
- [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md)   
- [Using and Managing Color Rules](../messageanalyzer_content/using-and-managing-color-rules.md)   
- [Managing Chart Viewer Layouts](../messageanalyzer_content/managing-chart-viewer-layouts.md)   
- [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md)   
- [Using the Pattern Editor](../messageanalyzer_content/using-the-pattern-editor.md)   
- [Creating and Managing Custom Trace Scenarios](../messageanalyzer_content/creating-and-managing-custom-trace-scenarios.md)   
- [Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md)   
- [Parsing Input Text Log Files](../messageanalyzer_content/message-analyzer-tutorial.md#BKMK_ParsingLogFiles)   
- [Using the Field Chooser](../messageanalyzer_content/using-the-field-chooser.md)   
- [Saving Message Data](../messageanalyzer_content/saving-message-data.md)   
- [Annotation Windows](../messageanalyzer_content/annotation-windows.md)   
- [Setting Time Shifts](../messageanalyzer_content/setting-time-shifts.md)   
- [Applying a Time Filter to Session Results](../messageanalyzer_content/applying-a-time-filter-to-session-results.md)
+ [Applying and Managing Filters](applying-and-managing-filters.md)   
+ [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)   
+ [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)   
+ [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
+ [Using and Managing Color Rules](using-and-managing-color-rules.md)   
+ [Managing Chart Viewer Layouts](managing-chart-viewer-layouts.md)   
+ [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
+ [Using the Pattern Editor](using-the-pattern-editor.md)   
+ [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md)   
+ [Setting the Session Parsing Level](setting-the-session-parsing-level.md)   
+ [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles)   
+ [Using the Field Chooser](using-the-field-chooser.md)   
+ [Saving Message Data](saving-message-data.md)   
+ [Annotation Windows](annotation-windows.md)   
+ [Setting Time Shifts](setting-time-shifts.md)   
+ [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)

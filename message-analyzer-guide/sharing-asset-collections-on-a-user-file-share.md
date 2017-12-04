@@ -22,5 +22,5 @@ You and other team members can directly share the items that are contained in yo
 >  It is advisable to only import asset collections to your local Libraries through the Message Analyzer downloads and auto-sync features, because any duplicate items in a direct import will not overwrite existing items in your Libraries, which can result in duplicate Library items.  
   
 ## See Also  
- [Creating Custom User Feeds](../messageanalyzer_content/creating-custom-user-feeds.md)   
- [Managing User Libraries](../messageanalyzer_content/managing-user-libraries.md)
+ [Creating Custom User Feeds](creating-custom-user-feeds.md)   
+ [Managing User Libraries](managing-user-libraries.md)

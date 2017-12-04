@@ -29,7 +29,7 @@ Prior to loading data into Message Analyzer through a Data Retrieval Session, th
 ## Selecting Data with a Session Filter  
  You can specify a **Session Filter** for your Data Retrieval Session by either writing your own Filter Expression or choosing a built-in Filter Expression from the centralized filter  **Library**. This **Library** is accessible in the **New Session** dialog on the toolbar just above the **Session Filter** text box.  This **Library** contains the same built-in Filter Expressions that you will find in the **Message Analyzer Filters** asset collection **Library** on the Filtering toolbar that appears just above the main analysis surface in the Message Analyzer user interface (UI).  
   
- If you want to specify a built-in Filter Expression from the centralized filter **Library** when loading data into Message Analyzer, you should first review the filter functions that are described in [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md) and then select an appropriate **Session Filter**. If you intend to create your own Filter Expression, see the appropriate topic below in the **See Also** section for more information about how to write one.  
+ If you want to specify a built-in Filter Expression from the centralized filter **Library** when loading data into Message Analyzer, you should first review the filter functions that are described in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md) and then select an appropriate **Session Filter**. If you intend to create your own Filter Expression, see the appropriate topic below in the **See Also** section for more information about how to write one.  
   
 > [!TIP]
 >  After you write a Filter Expression or modify a built-in expression that you want to use as a **Session Filter**, you have the option to save the new Filter Expression to the centralized filter **Library** from the **New Session** dialog. For example, if you want to save the Filter Expression code that you specified in the **Session Filter** text box, click the **Library** drop-down list and then select the **New Filter** command to display the **Edit Filter** dialog. The text of the target Filter Expression is transferred to the **Edit Filter** dialog, where you can specify **Name**, **Description**, and **Category** information before you save it to the **Library** (by clicking the **Save** button in the dialog).  
@@ -44,7 +44,7 @@ Prior to loading data into Message Analyzer through a Data Retrieval Session, th
  ___________________\_  
   
  **More Information**   
- **To learn more** about using a **Session Filter**, see [Applying a Session Filter to a Data Retrieval Session](../messageanalyzer_content/applying-a-session-filter-to-a-data-retrieval-session.md).  
+ **To learn more** about using a **Session Filter**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
 ___________________\_  
   
 ## Selecting Data by Choosing Files  
@@ -56,8 +56,8 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about creating a **Time Filter** window, see [Applying an Input Time Filter to a Data Retrieval Session](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md).  
-**To learn more** about creating a **Time Shift**, see [Setting Time Shifts](../messageanalyzer_content/setting-time-shifts.md).  
+ **To learn more** about creating a **Time Filter** window, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+**To learn more** about creating a **Time Shift**, see [Setting Time Shifts](setting-time-shifts.md).  
 ___________________\_  
   
 ## Selecting Data by Choosing a Parsing Level  
@@ -66,7 +66,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about **Parsing Levels**, see [Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md).  
+ **To learn more** about **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
 ___________________\_  
   
 ## Changing the Applied Filtering by Editing a Session  
@@ -75,10 +75,10 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about editing a Data Retrieval Session, see [Editing Existing Sessions](../messageanalyzer_content/editing-existing-sessions.md).  
+ **To learn more** about editing a Data Retrieval Session, see [Editing Existing Sessions](editing-existing-sessions.md).  
 ___________________\_  
   
 ## See Also  
- [Selecting Data to Retrieve](../messageanalyzer_content/selecting-data-to-retrieve.md)   
- [Selecting Data to Capture](../messageanalyzer_content/selecting-data-to-capture.md)   
- [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md)
+ [Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
+ [Selecting Data to Capture](selecting-data-to-capture.md)   
+ [Writing Filter Expressions](writing-filter-expressions.md)

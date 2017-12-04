@@ -26,5 +26,5 @@ The **Microsoft-PEF-WFP-MessageProvider** enables you to log dropped packet info
  ___________________\_  
   
  **More Information**   
- **To learn more** about using **Column Filters**, see [Filtering Column Data](../messageanalyzer_content/filtering-column-data.md).   
+ **To learn more** about using **Column Filters**, see [Filtering Column Data](filtering-column-data.md).   
 ___________________\_

@@ -38,7 +38,7 @@ Message Analyzer provides some special features for working with protocols that 
  ___________________\_  
   
  **More Information**   
- **To learn more** about the Response Time, as used in the **Average Response Times for Operations** view **Layout**, see the [Average Response Time for Operations](../messageanalyzer_content/average-response-time-for-operations.md) topic.  
+ **To learn more** about the Response Time, as used in the **Average Response Times for Operations** view **Layout**, see the [Average Response Time for Operations](average-response-time-for-operations.md) topic.  
 ___________________\_  
   
 <a name="BKMK_TogglingOperations"></a>   
@@ -47,13 +47,13 @@ ___________________\_
   
  The default configuration for message lines in the **Analysis Grid** viewer is to show  all top-level message nodes in a set of trace results, which includes Operation nodes that encapsulate request/response pairs for protocols with this type of architecture, along with all other  top-level message nodes that are not Operations, both of which have nested expansion controls to expose the underlying encapsulated message stacks. This display  configuration is shown in the following figure.  
   
- ![Operations enabled and showing expanded node exposing DNS request&#47;response messages](../messageanalyzer_content/media/1838047e-7fed-4b12-a078-ad80b0835a5b.png "Fig55-Operations enabled and showing expanded node exposing DNS request and response messages.png")  
+ ![Operations enabled and showing expanded node exposing DNS request&#47;response messages](media/1838047e-7fed-4b12-a078-ad80b0835a5b.png "Fig55-Operations enabled and showing expanded node exposing DNS request and response messages.png")  
   
  **Figure 55:  Operations enabled and showing expanded node exposing DNS request/response messages**  
   
  The figure shows the default view whenever you have **Disable Operations** *unselected* in the **Viewpoints** drop-down list. For example, the **DNS** request and response messages #1 and #46, respectively, are encapsulated in an Operation node that is denoted by a blue-cubed icon, and is currently shown in the expanded state. When you *select* **Disable Operations** in this list, Operation messages are released from their default encapsulated configuration and the constituent request and response messages are broken out and reorganized into top-level messages in their original chronological capture sequence along with all other top-level, non-operation messages in your trace results, as shown in the figure that follows. Note that all top-level messages of the non-operation type are designated by a green-cubed icon.  
   
- ![Operations disabled and showing original message sequence](../messageanalyzer_content/media/fig56-operations-disabled-and-showing-original-message-sequence-png.png "Fig56-Operations disabled and showing original message sequence.png")  
+ ![Operations disabled and showing original message sequence](media/fig56-operations-disabled-and-showing-original-message-sequence-png.png "Fig56-Operations disabled and showing original message sequence.png")  
   
  **Figure 56:  Operations disabled and showing original message sequence**  
   
@@ -78,7 +78,7 @@ ___________________\_
   
 4.  Click the **Apply** button on the Filtering Toolbar and note that the results display SMB2 Operation nodes rather than separate request messages, as shown in the figure that follows.  
   
-     ![View Filter fails to isolate SMB2 request messages](../messageanalyzer_content/media/fig57-view-filter-fails-to-isolate-smb2-request-messages.png "Fig57-View Filter fails to isolate SMB2 request messages")  
+     ![View Filter fails to isolate SMB2 request messages](media/fig57-view-filter-fails-to-isolate-smb2-request-messages.png "Fig57-View Filter fails to isolate SMB2 request messages")  
   
      **Figure 57: View Filter fails to isolate SMB2 request messages**  
   
@@ -86,7 +86,7 @@ ___________________\_
   
      Note that both SMB2 request *and* response messages continue to display, given that the effect of the view **Filter** is still in play here, as shown in the figure that follows.  
   
-     ![Disable Operations fails to isolate SMB2 request messages](../messageanalyzer_content/media/fig58-disable-operations-fails-to-isolate-smb2-request-messages.png "Fig58-Disable Operations fails to isolate SMB2 request messages")  
+     ![Disable Operations fails to isolate SMB2 request messages](media/fig58-disable-operations-fails-to-isolate-smb2-request-messages.png "Fig58-Disable Operations fails to isolate SMB2 request messages")  
   
      **Figure 58:  Disable Operations fails to isolate SMB2 request messages**  
   
@@ -96,7 +96,7 @@ ___________________\_
   
      Message Analyzer now shows only the SMB2 *request* messages  in the **Analysis Grid** viewer, as shown in the following figure.  
   
-     ![Viewpoint filter succeeds in isolating SMB2 request messages](../messageanalyzer_content/media/fig59-viewpoint-filter-succeeds-in-isolating-smb2-request-messages.png "Fig59-Viewpoint filter succeeds in isolating SMB2 request messages")  
+     ![Viewpoint filter succeeds in isolating SMB2 request messages](media/fig59-viewpoint-filter-succeeds-in-isolating-smb2-request-messages.png "Fig59-Viewpoint filter succeeds in isolating SMB2 request messages")  
   
      **Figure 59:  Viewpoint filter succeeds in isolating SMB2 request messages**  
   
@@ -114,5 +114,5 @@ ___________________\_
 >  After you select the **Disable Operations** **Viewpoint** to disassociate the request/response pairs in the Operation nodes for a set of trace results, you can continue to view the request and response message stacks side-by-side in the **Message Stack** **Tool Window**.  
   
 ## See Also  
- [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md)   
- [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md)
+ [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
+ [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)

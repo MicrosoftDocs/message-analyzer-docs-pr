@@ -20,6 +20,6 @@ This section provides the details for using the **Bookmarks** and **Comments** *
   
  _________________________\_  
   
- [Bookmarks Tool Window](../messageanalyzer_content/bookmarks-tool-window.md)   
- [Comments Tool Window](../messageanalyzer_content/comments-tool-window.md)   
+ [Bookmarks Tool Window](bookmarks-tool-window.md)   
+ [Comments Tool Window](comments-tool-window.md)   
 _________________________\_

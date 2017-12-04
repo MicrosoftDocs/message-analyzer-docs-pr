@@ -129,5 +129,5 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
  Also note that the drop-down list on the **MESSAGES** pane contains all the commands specified in the previous two lists.  
   
 ## See Also  
- [Understanding Message Pattern Matching](../messageanalyzer_content/understanding-message-pattern-matching.md)   
- [Using the Pattern Editor](../messageanalyzer_content/using-the-pattern-editor.md)
+ [Understanding Message Pattern Matching](understanding-message-pattern-matching.md)   
+ [Using the Pattern Editor](using-the-pattern-editor.md)

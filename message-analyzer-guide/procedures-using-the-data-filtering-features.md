@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Procedures: Using the Data Filtering Features
-The procedures in this section encapsulate many of the filtering functions described in the [Filtering Message Data](../messageanalyzer_content/filtering-message-data.md) section. For each procedure, background scenario information is provided to set the context for the problem that each procedure will help to resolve. The background information describes at a high-level some common issues that you might encounter, while the procedures demonstrate how you can use Message Analyzer to isolate relevant data with the use of filters and simplify your data assessment and problem resolving process.  
+The procedures in this section encapsulate many of the filtering functions described in the [Filtering Message Data](filtering-message-data.md) section. For each procedure, background scenario information is provided to set the context for the problem that each procedure will help to resolve. The background information describes at a high-level some common issues that you might encounter, while the procedures demonstrate how you can use Message Analyzer to isolate relevant data with the use of filters and simplify your data assessment and problem resolving process.  
   
 > [!IMPORTANT]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities with respect to issues specific to the HTTP, TCP, and SMB protocols, these are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the same methodologies described here to troubleshoot a wide range of other types of network traffic and events.  
@@ -30,7 +30,7 @@ The procedures in this section encapsulate many of the filtering functions descr
 A brief description of each procedure is included here for review, as follows.  
 ______________________\_  
   
- **[Filtering a Data Retrieval Session](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_FilterImportedData)**  — provides examples of the following:  
+ **[Filtering a Data Retrieval Session](procedures-using-the-data-filtering-features.md#BKMK_FilterImportedData)**  — provides examples of the following:  
   
 -   How to apply a **Session Filter** to data that is loaded into Message Analyzer through a Data Retrieval Session that targets a saved trace file as input, so you can isolate and analyze HTTP request messages sent from a specified client IP address to a poorly performing web server along with the response messages that were issued back to the client. Some HTTP analysis techniques are also provided in the procedure to help you discover possible reasons for the poor performance of a hypothetical web server.  
   
@@ -39,10 +39,10 @@ ______________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md).   
+     **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
     ____________________  
   
- **[Filtering Live Trace Session Data](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
+ **[Filtering Live Trace Session Data](procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
   
 -   How to collect data from a specific network interface in a Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**, by selecting an **Adapter** from which to capture data. This can be useful to isolate data on a specific adapter when network adapters are on different networks or load balanced on the same subnet where traffic spans multiple adapters.  
   
@@ -54,7 +54,7 @@ ______________________\_
   
 -   How to specify a **Hostname** and/or **Port** filter in a Live Trace Session that uses the **Pre-Encryption for HTTPS** **Trace Scenario** to reduce captured traffic volume and isolate client messages sent to a specified web server that is very busy and is causing users to experience connection issues. Applies the specified filters to gather sufficient data for the assessment of possible connection problems, without imposing a high-volume data capture on a client computer that is overwhelmed with traffic. Assesses possible causes by examining HTTP **StatusCode** indicators for connection issues and errors.  
   
- **[Filtering Live Trace Session Results](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_FilterTraceResults)**  — provides examples of the following:  
+ **[Filtering Live Trace Session Results](procedures-using-the-data-filtering-features.md#BKMK_FilterTraceResults)**  — provides examples of the following:  
   
 -   How to apply an Address and Port view **Filter** to the results of a Live Trace Session that used the **Local Network Interfaces** **Trace Scenario**, and to thereby remove unwanted lower-layer traffic and streamline the detection of virus signatures.  
   
@@ -64,7 +64,7 @@ ______________________\_
   
 -   How to apply an HTTP filter to the results of a Live Trace Session that used the **Pre-Encryption for HTTPS** **Trace Scenario**, so you can isolate specific HTTP request/response messages and analyze HTTP **StatusCodes** and **Reason** phrases for evidence of a poorly performing web server.  
   
- **[Filtering with Color Rules and Exposing Diagnostics for TCP and SMB](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_FilterWithColorRules)**  — how to apply **Color Rules** to the results of a Live Trace Session that used the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario** with a **Session Filter** to expose TCP and SMB diagnostic messages, in order to prompt further analysis of faulty or erratic file share access.  
+ **[Filtering with Color Rules and Exposing Diagnostics for TCP and SMB](procedures-using-the-data-filtering-features.md#BKMK_FilterWithColorRules)**  — how to apply **Color Rules** to the results of a Live Trace Session that used the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario** with a **Session Filter** to expose TCP and SMB diagnostic messages, in order to prompt further analysis of faulty or erratic file share access.  
   
 > [!NOTE]
 >  In the procedures of this section, placeholders within angle brackets (<>) refer to values that you enter that are specific to your system/s. However, do not include the angle brackets in your entries when testing these procedures.  
@@ -86,7 +86,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 > [!NOTE]
 >  A **Session Filter** enables you to isolate specific messages and limit the amount of data stored in memory, which provides a performance advantage, but can be more expensive in terms of processing time. A view **Filter** is somewhat more efficient and makes it easier to work with your data after it displays in Message Analyzer.  
   
- For example, a view **Filter** can be applied and then removed because all of your original data is preserved in the Message Store, whereas with a **Session Filter**, all messages that are not targeted to pass the filter are removed before any data is displayed and can only be retrieved by re-running the Data Retrieval Session with the **Session Filter** removed. If you want to re-run a session, click the **Edit Session** button on the global Message Analyzer toolbar to display the **Edit Session** dialog, from where you can reconfigure the session and run it again, as described in [Editing Existing Sessions](../messageanalyzer_content/editing-existing-sessions.md).  
+ For example, a view **Filter** can be applied and then removed because all of your original data is preserved in the Message Store, whereas with a **Session Filter**, all messages that are not targeted to pass the filter are removed before any data is displayed and can only be retrieved by re-running the Data Retrieval Session with the **Session Filter** removed. If you want to re-run a session, click the **Edit Session** button on the global Message Analyzer toolbar to display the **Edit Session** dialog, from where you can reconfigure the session and run it again, as described in [Editing Existing Sessions](editing-existing-sessions.md).  
   
 #### To apply a Session Filter to loaded data for HTTP message analysis  
   
@@ -123,7 +123,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
     > [!TIP]
     >  You can right-click the **StatusCode** label and select the **Expand All Groups** menu item to expand all the nodes of grouped data.  
   
-13. In the **Analysis Grid** viewer, examine the **StatusCode** and **Reason Phrase** values to determine any problem areas that might indicate a poorly performing web server, as described in the status code table in the [Addendum 2: HTTP Status Codes](../messageanalyzer_content/addendum-2-http-status-codes.md) section of this documentation.  
+13. In the **Analysis Grid** viewer, examine the **StatusCode** and **Reason Phrase** values to determine any problem areas that might indicate a poorly performing web server, as described in the status code table in the [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) section of this documentation.  
   
     > [!NOTE]
     >  You can also review the default **TimeElapsed** column in the **Analysis Grid** viewer to verify the elapsed time for HTTP “GET” methods, or for entire HTTP operations to complete. High values for elapsed time in the latter “operations” case may be an indication of network latency or TCP retransmit issues due to dropped packets.  
@@ -148,7 +148,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 The hypothetical high-level issue in this example is that a Network Administrator has a large volume of data that was collected in one or more log files and he or she wants to view the data in a specific window of time where failures are suspected to have occurred. In this scenario, the administrator will consolidate one or more related log files as input to a Data Retrieval Session and will apply a **Time Filter** that defines a time window in which to view messages. By using the Message Analyzer **Time Filter**, the administrator will limit the amount of data being loaded, reduce the loading time, and as a result, realize better performance. Optionally, the administrator can apply a **Session Filter** to the input data to isolate messages to a specific client IP address, if the log file format supports IP addresses, thereby reducing message count and helping to streamline the message analysis process.  
   
 > [!NOTE]
->  Some log files, such as text-based log files in proprietary format, may require you to create an OPN configuration file so that the log messages can be fully parsed by Message Analyzer, as described in [Working With Special Input Requirements](../messageanalyzer_content/working-with-special-input-requirements.md). However, note that you can select from a number of built-in **Text Log Configuration** files on the toolbar of the **Files** tab in the **New Session** dialog, during Data Retrieval Session configuration. If your log file cannot be parsed by one of the built-in configuration files, you will need to create one, as described in [Opening Text Log Files](../messageanalyzer_content/opening-text-log-files.md).  
+>  Some log files, such as text-based log files in proprietary format, may require you to create an OPN configuration file so that the log messages can be fully parsed by Message Analyzer, as described in [Working With Special Input Requirements](working-with-special-input-requirements.md). However, note that you can select from a number of built-in **Text Log Configuration** files on the toolbar of the **Files** tab in the **New Session** dialog, during Data Retrieval Session configuration. If your log file cannot be parsed by one of the built-in configuration files, you will need to create one, as described in [Opening Text Log Files](opening-text-log-files.md).  
   
 #### To apply a Time Filter to input file data and view results in a selected time window  
   
@@ -195,7 +195,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 > [!NOTE]
 >  After you apply a **Time Filter** to an input data files configuration, all messages that are outside the time window you specified are removed from displayed results. If you want to restore all messages from your log files, you will need to reload all data with the **Time Filter** removed.  
   
- However, as an alternative to applying an input **Time Filter** prior to loading data from saved files, you can simply load all input log data as is and then apply a **Time Filter** to session results from the Filtering toolbar to isolate data to a specified time window. The action of the latter **Time Filter** can be quickly undone by simply  clicking the **Remove** button on the Time Filter panel of the Filtering toolbar, so you can conveniently return to the original data set to review all messages or apply different time window filtering as required, without having to reload any data. However, there are some factors to consider when choosing to use an input **Time Filter** versus a session results **Time Filter**, as described in [Applying a Time Filter to Session Results](../messageanalyzer_content/applying-a-time-filter-to-session-results.md). For example, when loading data from large log files without an input **Time Filter**, Message Analyzer performance may diminish.  
+ However, as an alternative to applying an input **Time Filter** prior to loading data from saved files, you can simply load all input log data as is and then apply a **Time Filter** to session results from the Filtering toolbar to isolate data to a specified time window. The action of the latter **Time Filter** can be quickly undone by simply  clicking the **Remove** button on the Time Filter panel of the Filtering toolbar, so you can conveniently return to the original data set to review all messages or apply different time window filtering as required, without having to reload any data. However, there are some factors to consider when choosing to use an input **Time Filter** versus a session results **Time Filter**, as described in [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md). For example, when loading data from large log files without an input **Time Filter**, Message Analyzer performance may diminish.  
   
 <a name="BKMK_FilterLiveData"></a>   
 ## Filtering Live Trace Session Data  
@@ -217,7 +217,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 > [!IMPORTANT]
 >  If you are running the **Local Network Interfaces** scenario on a computer with the Windows 7, Windows 8, or Windows Server 2012 operating system, you will be working with the **Microsoft-PEF-NDIS-PacketCapture** provider. However, if you are running this scenario on a computer with the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, you will be working with the **Microsoft-Windows-NDIS-PacketCapture** provider.  
 >   
->  Please note that the **Advanced Settings** dialogs for these two providers are very different and contain unique filtering configuration capabilities. The procedure that follows focuses on the **Microsoft-PEF-NDIS-PacketCapture** provider and its configuration capabilities. However, to configure adapter selection in any **Trace Scenario** that uses the **Microsoft-Windows-NDIS-PacketCapture** provider, refer to the [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topic for further details.  
+>  Please note that the **Advanced Settings** dialogs for these two providers are very different and contain unique filtering configuration capabilities. The procedure that follows focuses on the **Microsoft-PEF-NDIS-PacketCapture** provider and its configuration capabilities. However, to configure adapter selection in any **Trace Scenario** that uses the **Microsoft-Windows-NDIS-PacketCapture** provider, refer to the [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topic for further details.  
   
 <a name="BKMK_AdapterFilteringLocNetworkIFaces"></a>   
 #### To filter data on a specific network interface in a Local Network Interfaces trace  
@@ -232,7 +232,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      The **ETW Providers** list is populated with the **Name** and **Id** (GUID) of the **Microsoft-PEF-NDIS-PacketCapture** (or **Microsoft-Windows-NDIS-PacketCapture**) provider, along with the **Configure** link, which provides access to the provider **Advanced Settings** dialog.  
   
-5.  In the **ETW Providers** list on the **Live Trace** tab, click the **Configure** link next to the **Microsoft-PEF-NDIS-PacketCapture** provider **Id** to display the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, as shown in [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
+5.  In the **ETW Providers** list on the **Live Trace** tab, click the **Configure** link next to the **Microsoft-PEF-NDIS-PacketCapture** provider **Id** to display the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, as shown in [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
   
 6.  In the **Advanced Settings** dialog, click the **Provider** tab and then deselect the **In** and **Out** check boxes for the **Machine** node in the **System Network** tree grid to deselect the **In** and **Out** check boxes for all adapters.  
   
@@ -258,13 +258,13 @@ The hypothetical high-level issue in this example is that a Network Administrato
 > [!TIP]
 >  When using the **Microsoft-Windows-NDIS-PacketCapture** provider in the **Local Network Interfaces** scenario, you can configure filtering that can help determine whether an NDIS layer is dropping packets.  
 >   
->  For example, by selecting the **All Layers** check box in the **Advanced Settings – Microsoft-Windows-NDIS-PacketCapture** dialog, you can specify that packets are intercepted on all layers of the NDIS stack. In addition, by selecting both the **Ingress** and **Egress** check boxes in the dialog, you can specify the traversal path (direction up and down the stack) in which packets are intercepted. By specifying all layers and both traversal paths for an adapter that is dropping packets, you make certain that dropped packet events will be generated for any layer. If packets are being dropped, you should be able to expose them in Message Analyzer as ETW events that have certain characteristics, as described in step 24 of the procedure [Capture Traffic on a Remote Host](../messageanalyzer_content/procedures-using-the-network-tracing-features.md#BKMK_CaptureRemoteHost).  
+>  For example, by selecting the **All Layers** check box in the **Advanced Settings – Microsoft-Windows-NDIS-PacketCapture** dialog, you can specify that packets are intercepted on all layers of the NDIS stack. In addition, by selecting both the **Ingress** and **Egress** check boxes in the dialog, you can specify the traversal path (direction up and down the stack) in which packets are intercepted. By specifying all layers and both traversal paths for an adapter that is dropping packets, you make certain that dropped packet events will be generated for any layer. If packets are being dropped, you should be able to expose them in Message Analyzer as ETW events that have certain characteristics, as described in step 24 of the procedure [Capture Traffic on a Remote Host](procedures-using-the-network-tracing-features.md#BKMK_CaptureRemoteHost).  
   
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring the **Microsoft-PEF-NDIS-PacketCapture** provider from the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, including how to assign **Fast Filter** **Groups** to selected adapters, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
-**To learn more** about the unique filtering configurations and other advanced capabilities that are available for the **Microsoft-Windows-NDIS-PacketCapture** provider, including remote tracing, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
+ **To learn more** about configuring the **Microsoft-PEF-NDIS-PacketCapture** provider from the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, including how to assign **Fast Filter** **Groups** to selected adapters, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
+**To learn more** about the unique filtering configurations and other advanced capabilities that are available for the **Microsoft-Windows-NDIS-PacketCapture** provider, including remote tracing, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
 ___________________\_  
   
  **Applying a WFP Layer Set Filter to a Network Tunnel Traffic and Unencrypted IPSEC Trace**   
@@ -272,7 +272,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 #### To apply WFP Layer Set filtering to a Network Tunnel Traffic and Unencrypted IPSEC trace and isolate TCP diagnosis traffic  
   
-1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario**.  
   
@@ -312,7 +312,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
      In any case, you can also look at diagnosis error messages in the default **DiagnosisTypes** column of the **Analysis Grid** viewer to see what TCP issues you might have. The goal in creating these **WFP Layer Set** filtering configurations is to capture the least amount of traffic to resolve TCP connectivity and/or transmission problems.  
   
  **More Information**   
- **To learn more** about Advanced Settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
+ **To learn more** about Advanced Settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
 ___________________\_  
   
  **Applying a Session Filter to a Loopback and Unencrypted IPSEC Trace**   
@@ -340,7 +340,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 <a name="BKMK_ApplySessionFilterToLoopbackIPSECTrace"></a>   
 #### To apply a Session Filter to a Loopback and Unencrypted IPSEC trace and evaluate TCP diagnostics  
   
-1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Loopback and Unencrypted IPSEC** **Trace Scenario**.  
   
@@ -384,9 +384,9 @@ The hypothetical high-level issue in this example is that a Network Administrato
      `TCP.Options ~= nothing`  
   
     > [!NOTE]
-    >  The above filter will return only TCP messages that contain TCP Options and all other messages will be filtered out of the display. Alternatively, if you want to view all TCP messages in relation to IP conversations, including those that have TCP **Options**, you can use the **Field Chooser** window to add a **Network** column (message hierarchy path is IPv4.Datagram.Network) and a **Transport** column (message hierarchy path is TCP.Segment.Transport) to the **Analysis Grid** viewer. You can then use the **Group** command on each of these columns to pivot the data into differently organized data displays that provide alternate contexts for viewing TCP **Options**, as further described by the procedure in [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).  
+    >  The above filter will return only TCP messages that contain TCP Options and all other messages will be filtered out of the display. Alternatively, if you want to view all TCP messages in relation to IP conversations, including those that have TCP **Options**, you can use the **Field Chooser** window to add a **Network** column (message hierarchy path is IPv4.Datagram.Network) and a **Transport** column (message hierarchy path is TCP.Segment.Transport) to the **Analysis Grid** viewer. You can then use the **Group** command on each of these columns to pivot the data into differently organized data displays that provide alternate contexts for viewing TCP **Options**, as further described by the procedure in [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).  
   
-14. Highlight TCP messages containing TCP **Options** as necessary and review the **WindowsScaleFactor** option settings, especially for messages that have a low **Window** size value, to determine that they are set to reasonable values. The TCP messages of interest should be those that comprised the SYN request and SYN/ACK response messages of three-way handshakes, as this is where the Option settings are negotiated. You might also consider executing the **TCP Three-Way Handshake** **Pattern Expression** to see the context in which these messages occur. This will also enable you to obtain further information that assists in TCP troubleshooting. See the [Pattern Match Viewer](../messageanalyzer_content/pattern-match-viewer.md) section for more details  
+14. Highlight TCP messages containing TCP **Options** as necessary and review the **WindowsScaleFactor** option settings, especially for messages that have a low **Window** size value, to determine that they are set to reasonable values. The TCP messages of interest should be those that comprised the SYN request and SYN/ACK response messages of three-way handshakes, as this is where the Option settings are negotiated. You might also consider executing the **TCP Three-Way Handshake** **Pattern Expression** to see the context in which these messages occur. This will also enable you to obtain further information that assists in TCP troubleshooting. See the [Pattern Match Viewer](pattern-match-viewer.md) section for more details  
   
  **Checking for Dropped Packets**   
 If you want to perform additional checks to determine whether dropped packets are causing TCP retransmits, perform the following steps:  
@@ -418,7 +418,7 @@ If you want to perform additional checks to determine whether dropped packets ar
  ___________________\_  
   
  **More Information**   
- **To learn more** about filtering for TCP diagnostic messages, see the procedure [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).   
+ **To learn more** about filtering for TCP diagnostic messages, see the procedure [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).   
 ___________________\_  
   
  **Applying Fast Filters to a Loopback and Unencrypted IPSEC Trace**   
@@ -426,7 +426,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 #### To apply Fast Filters to a Loopback and Unencrypted IPSEC trace and isolate specific messages to reduce data volume  
   
-1.  On the server computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the server computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Loopback and Unencrypted IPSEC** **Trace Scenario**.  
   
@@ -465,7 +465,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](../messageanalyzer_content/average-elapsed-time-for-operations.md).   
+     **To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md).   
     ____________________  
   
  **Applying Hostname and Port Filters to a Pre-Encryption for HTTPS Trace**   
@@ -478,7 +478,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 #### To apply HTTP filters to a Pre-Encryption for HTTPS trace and expose status indications  
   
-1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Pre-Encryption for HTTPS** **Trace Scenario**.  
   
@@ -521,7 +521,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
  ___________________\_  
   
  **More Information**   
- **To learn more** about common HTTP **StatusCode** and **ReasonPhrase** definitions, see the status code table in the [Addendum 2: HTTP Status Codes](../messageanalyzer_content/addendum-2-http-status-codes.md) section of this documentation.   
+ **To learn more** about common HTTP **StatusCode** and **ReasonPhrase** definitions, see the status code table in the [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) section of this documentation.   
 ___________________\_  
   
 <a name="BKMK_FilterTraceResults"></a>   
@@ -533,7 +533,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 #### To apply a view Filter to Local Network Interfaces trace results that removes unwanted traffic  
   
-1.  On the client computer, perform steps 1 through 4 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the client computer, perform steps 1 through 4 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
      Depending on your operating system, either the **Microsoft-PEF-NDIS-PacketCapture** provider or the **Microsoft-Windows-NDIS-PacketCapture** provider and its **Id** are displayed in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog.  
   
@@ -561,7 +561,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 <a name="BKMK_ApplyHttpViewFilter"></a>   
 #### To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages  
   
-1.  On the server computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the server computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Loopback and Unencrypted IPSEC** **Trace Scenario**.  
   
@@ -590,7 +590,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      Alternatively, add **StatusCode** and **ReasonPhrase** columns to the **Analysis Grid** viewer from the **Field Chooser** **Tool Window** and execute the **Group** command on the **StatusCode** and **ReasonPhrase** columns to create groups of identical HTTP status codes, for ease of analysis.  
   
-10. Examine the filtered data to determine possible causes of any issues experienced by the client or web server, as appropriate. See [Addendum 2: HTTP Status Codes](../messageanalyzer_content/addendum-2-http-status-codes.md) for HTTP status code information.  
+10. Examine the filtered data to determine possible causes of any issues experienced by the client or web server, as appropriate. See [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) for HTTP status code information.  
   
  **Applying TCP view Filters to Loopback and Unencrypted IPSEC Trace Results**   
 The hypothetical high-level issue in this example is that a Network Administrator has one or more client computers that are believed to be experiencing TCP connection and/or data transmission problems such as the following:  
@@ -609,7 +609,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 <a name="BKMK_ApplyTCPViewFiltersProc"></a>   
 #### To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics  
   
-1.  On the server computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the server computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Loopback and Unencrypted IPSEC** **Trace Scenario**.  
   
@@ -650,7 +650,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      `\TCP::TCPDiagnosis contains "Segment-Lost"`  
   
-14. To focus on TCP message **Window** size, which can reduce the data transmission rate when too small (see [TCP Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_TransportExamples)), apply the following filter to the trace, while adjusting the italic **Window** size value in the filter as appropriate:  
+14. To focus on TCP message **Window** size, which can reduce the data transmission rate when too small (see [TCP Category](filtering-live-trace-session-results.md#BKMK_TransportExamples)), apply the following filter to the trace, while adjusting the italic **Window** size value in the filter as appropriate:  
   
      `TCP::WindowScaled < 1000`  
   
@@ -674,7 +674,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the **TCP Three-Way Handshake** and other pattern expressions, see [Understanding Message Pattern Matching](../messageanalyzer_content/understanding-message-pattern-matching.md).  
+     **To learn more** about the **TCP Three-Way Handshake** and other pattern expressions, see [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).  
     ___________________\_  
   
      Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along with surrounding messages potentially related to a failure:  
@@ -712,7 +712,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 #### To apply an HTTP view Filter to Pre-Encryption for HTTPS trace results and expose HTTP status codes  
   
-1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Pre-Encryption for HTTPS** **Trace Scenario**.  
   
@@ -756,7 +756,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      The column is filtered according to the value you specified.  
   
-16. Examine the different **StatusCodes** and **ReasonPhrases** to determine any problem areas that might provide some additional indications as to why the web server is performing poorly. To review the definitions of key **StatusCodes** and **ReasonPhrases**, refer to the [Addendum 2: HTTP Status Codes](../messageanalyzer_content/addendum-2-http-status-codes.md) section of this documentation.  
+16. Examine the different **StatusCodes** and **ReasonPhrases** to determine any problem areas that might provide some additional indications as to why the web server is performing poorly. To review the definitions of key **StatusCodes** and **ReasonPhrases**, refer to the [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) section of this documentation.  
   
 17. Analyze the **TimeElapsed** column values in the **Analysis Grid** viewer to verify whether overall HTTP operations are taking a long time.  
   
@@ -778,7 +778,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 #### Applying Color Rules to Network Tunnel Traffic and Unencrypted IPSEC Trace Results and Exposing Diagnostics  
   
-1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
+1.  On the client computer, perform steps 1 through 3 of the previous procedure: [To filter data on a specific network interface in a Local Network Interfaces trace](procedures-using-the-data-filtering-features.md#BKMK_AdapterFilteringLocNetworkIFaces).  
   
 2.  From the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, select the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario**.  
   
@@ -804,7 +804,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      If TCP diagnosis errors occurred in your trace, they are immediately flagged in the **Analysis Grid** viewer by the **Color Rule** configuration that you created. If you leave this **Color Rule** applied, these errors will continue to be flagged in the **Analysis Grid** viewer until you specifically disable the rule.  
   
-     For more information about creating and saving **Color Rules**, see [Using and Managing Color Rules](../messageanalyzer_content/using-and-managing-color-rules.md).  
+     For more information about creating and saving **Color Rules**, see [Using and Managing Color Rules](using-and-managing-color-rules.md).  
   
 9. In the **Field Chooser** **Tool Window**, navigate the TCP message hierarchy to the **TCP.Segment** level and add the **TCPDiagnosis** field as a new column in the **Analysis Grid** viewer by using the right-click **Add as Column** command in the **Field Chooser** context menu, so the you can easily view TCP error descriptions.  
   

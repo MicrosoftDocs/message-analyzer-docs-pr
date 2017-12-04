@@ -25,6 +25,6 @@ You might need to have quick access to common trace configurations that you can 
  ___________________\_  
   
  **More Information**   
- **To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](../messageanalyzer_content/sharing-infrastructure.md) topic.   
-**To learn more** about the common **Manage \<AssetType>** dialog, see [Managing User Libraries](../messageanalyzer_content/managing-user-libraries.md).   
+ **To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.   
+**To learn more** about the common **Manage \<AssetType>** dialog, see [Managing User Libraries](managing-user-libraries.md).   
 ___________________\_

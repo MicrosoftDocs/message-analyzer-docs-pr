@@ -72,7 +72,7 @@ The **Selection** **Tool Window** is an interactive and dockable window that ena
 -   **Summary**  
   
 > [!TIP]
->  If you want to create your own view **Layouts** that you can select from the **Selection** window **Column Layout** menu, you will need to create a new **Layout** in the **Analysis Grid** viewer and save it from the **Layout** drop-down list on the **Analysis Grid** toolbar. For more information, see [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md).  
+>  If you want to create your own view **Layouts** that you can select from the **Selection** window **Column Layout** menu, you will need to create a new **Layout** in the **Analysis Grid** viewer and save it from the **Layout** drop-down list on the **Analysis Grid** toolbar. For more information, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).  
   
 ## Displaying and Re-docking the Selection Tool Window  
  If the **Selection** window is not already displayed, you can display it by clicking the **Selection** item in the **Windows** submenu, which is accessible from the global Message Analyzer **Tools** menu. Note that you can redock the **Selection** window by using the docking navigator control that displays after you undock the window from its default location. Undock the **Selection** window by dragging it by its tab away from the default location.  

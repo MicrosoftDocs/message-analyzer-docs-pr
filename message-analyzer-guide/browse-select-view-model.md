@@ -31,11 +31,11 @@ Microsoft Message Analyzer utilizes a unique set of Browse-Select-View (BSV) fea
   
  The Message Analyzer BSV model supports the following operations when acquiring input data:  
   
--   **Browse for data sources** — you can browse for and load data from one or more data sources, such as saved trace and log files.  See [Targeting Saved Data as an Input Source](../messageanalyzer_content/targeting-saved-data-as-an-input-source.md) for more information.  
+-   **Browse for data sources** — you can browse for and load data from one or more data sources, such as saved trace and log files.  See [Targeting Saved Data as an Input Source](targeting-saved-data-as-an-input-source.md) for more information.  
   
      The features of the BSV model not only facilitate loading data into Message Analyzer, but also enable you to select specific data that you want to load by using a **Session Filter** and/or a **Time Filter**, and also enable you to display data in several different viewer formats. You can also select an option that applies a pared-down parser set to input files that have truncated messages to improve performance and limit the types of messages retrieved. In addition, you can select configuration files that enable Message Analyzer to parse messages in text logs.  
   
--   **Capture message data** — you can capture new message data live by selecting one of the Message Analyzer default **Trace Scenarios**, as described in [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md). You can also select one or more system ETW Providers to create a unique provider configuration and resulting captured message set for a Live Trace Session; or you can select ETW Providers to add to the predefined configuration of a default **Trace Scenario** to enhance the scope of data capture. See [Capturing Message Data](../messageanalyzer_content/capturing-message-data.md) for more information.  
+-   **Capture message data** — you can capture new message data live by selecting one of the Message Analyzer default **Trace Scenarios**, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md). You can also select one or more system ETW Providers to create a unique provider configuration and resulting captured message set for a Live Trace Session; or you can select ETW Providers to add to the predefined configuration of a default **Trace Scenario** to enhance the scope of data capture. See [Capturing Message Data](capturing-message-data.md) for more information.  
   
      Moreover, the data selection aspect of the BSV model that extends to capturing data live enables you to choose specific data that you want your Live Trace Session to capture, for example, with the use of any of the following:  
   
@@ -55,16 +55,16 @@ Microsoft Message Analyzer utilizes a unique set of Browse-Select-View (BSV) fea
   
  **More Information**   
  **To learn more** about applying filters to a Data Retrieval Session, see the following topic:  
-[Selecting Data to Retrieve](../messageanalyzer_content/selecting-data-to-retrieve.md)  
+[Selecting Data to Retrieve](selecting-data-to-retrieve.md)  
 **To learn more** about applying filters that are common to either session type, see the following topics:   
-[Filtering Message Data](../messageanalyzer_content/filtering-message-data.md)  
-[Setting the Session Parsing Level](../messageanalyzer_content/setting-the-session-parsing-level.md)  
+[Filtering Message Data](filtering-message-data.md)  
+[Setting the Session Parsing Level](setting-the-session-parsing-level.md)  
 **To learn more** about applying filters in a Live Trace Session, see the following topics:  
-[PEF-NDIS Fast Filters](../messageanalyzer_content/pef-ndis-fast-filters.md)  
-[PEF-WFP Layer Set Filters](../messageanalyzer_content/pef-wfp-layer-set-filters.md)  
-[WebProxy Filters](../messageanalyzer_content/webproxy-filters.md)  
-[Working with Session Filters in a Live Trace Session](../messageanalyzer_content/working-with-session-filters-in-a-live-trace-session.md)  
-[Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
-[Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
-[System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md)  
+[PEF-NDIS Fast Filters](pef-ndis-fast-filters.md)  
+[PEF-WFP Layer Set Filters](pef-wfp-layer-set-filters.md)  
+[WebProxy Filters](webproxy-filters.md)  
+[Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)  
+[Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
+[Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
+[System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md)  
 ___________________\_

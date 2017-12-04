@@ -20,9 +20,9 @@ This section describes how to set up a **Trace Scenario** that will capture data
   
  The content is covered in the following topics, which includes detailed descriptions of how to use the **Advanced Settings** dialog for the **Microsoft-Windows-NDIS-PacketCapture** provider:  
   
- [Configuring a Remote Capture](../messageanalyzer_content/configuring-a-remote-capture.md)   
- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
+ [Configuring a Remote Capture](configuring-a-remote-capture.md)   
+ [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
   
 ## See Also  
- [Microsoft-Windows-NDIS-PacketCapture Provider](../messageanalyzer_content/microsoft-windows-ndis-packetcapture-provider.md)   
- [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md)
+ [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md)   
+ [Configuring a Live Trace Session](configuring-a-live-trace-session.md)

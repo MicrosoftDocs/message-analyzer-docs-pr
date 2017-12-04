@@ -14,9 +14,9 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Networking Category
-The built-in **Layouts** for the **Chart** viewer that are provided with Message Analyzer are accessible from the locations specified in the [Chart Viewer Layouts](../messageanalyzer_content/chart-viewer-layouts.md) topic. The **Layout** for the **Chart** viewer that is included in the **Networking** category of the **Message Analyzer Chart View Layouts** asset collection Library is described in the following section:  
+The built-in **Layouts** for the **Chart** viewer that are provided with Message Analyzer are accessible from the locations specified in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. The **Layout** for the **Chart** viewer that is included in the **Networking** category of the **Message Analyzer Chart View Layouts** asset collection Library is described in the following section:  
   
  _________________\_  
   
- [NTP Time Offset](../messageanalyzer_content/ntp-time-offset.md)   
+ [NTP Time Offset](ntp-time-offset.md)   
 _________________\_

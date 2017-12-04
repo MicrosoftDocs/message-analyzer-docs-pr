@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Understanding the Filtering Language Basics
-To assist you in understanding the Filtering Language, you should experiment with some of the built-in Filter Expressions that Message Analyzer provides in the centralized filter **Library**. You should also review the descriptions of these filters in the [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md) topic of this documentation and then apply them to a trace, to get a sense of how real-world filter expressions work when analyzing trace results.  
+To assist you in understanding the Filtering Language, you should experiment with some of the built-in Filter Expressions that Message Analyzer provides in the centralized filter **Library**. You should also review the descriptions of these filters in the [Filtering Live Trace Session Results](filtering-live-trace-session-results.md) topic of this documentation and then apply them to a trace, to get a sense of how real-world filter expressions work when analyzing trace results.  
   
  This section provides concepts and constructs that you will need to understand to create your own Filter Expressions. In this section, you will learn how to use the basics of the Filtering Language to construct Filter Expressions. This includes the use of operators and literals, traversing the protocol message hierarchy, and other considerations such as case sensitivity, filter applicability, semantic equivalence, and the meaning of negation.  
   
@@ -53,7 +53,7 @@ To assist you in understanding the Filtering Language, you should experiment wit
  ___________________\_  
   
  **More Information**   
- **To learn more** about how to apply relational operators, see the built-in Filter Expressions described in [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md).   
+ **To learn more** about how to apply relational operators, see the built-in Filter Expressions described in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
 ___________________\_  
   
  The Filtering Language also supports the following bitwise and arithmetic operators that you can apply to field expressions:  
@@ -94,7 +94,7 @@ ___________________\_
   
  For example, in the following figure you see the hierarchy for TCP, which you can view in an Analysis Session when you display the **Field Chooser** **Tool Window**:  
   
- ![Field Chooser Tool Window message hierarchy](../messageanalyzer_content/media/fig67-field-chooser-tool-window-message-hierarchy.png "Fig67-Field Chooser Tool Window message hierarchy")  
+ ![Field Chooser Tool Window message hierarchy](media/fig67-field-chooser-tool-window-message-hierarchy.png "Fig67-Field Chooser Tool Window message hierarchy")  
   
  **Figure 67: Field Chooser Tool Window – TCP message hierarchy display**  
   
@@ -110,7 +110,7 @@ ___________________\_
 -   **`TCP.Segment.Flags.Syn==True`**  — filters out all TCP messages except those that have their **SYN** flag bit set to True (indicating that a TCP message is part of a TCP three-way handshake for connection setup).  
   
 > [!NOTE]
->  When you enter text in a Filter Expression text box to configure a Filter Expression, the Filter IntelliSense Service is activated. This service enables you to navigate message hierarchies on-the-fly, to locate specific message elements that you can integrate into your Filter Expression, as described in [Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md).  
+>  When you enter text in a Filter Expression text box to configure a Filter Expression, the Filter IntelliSense Service is activated. This service enables you to navigate message hierarchies on-the-fly, to locate specific message elements that you can integrate into your Filter Expression, as described in [Filter IntelliSense Service](filter-intellisense-service.md).  
   
 > [!TIP]
 >  Based on the highlighted field in the TCP message hierarchy shown in the previous figure, you can add the **DestinationPort** field as a new column to the **Analysis Grid** viewer (**Add as Column** command in the context menu), and as a new **Group** to the **Grouping** viewer (**Add as Grouping** command). To do this, the respective viewer will need to be in focus. You can also display the **DestinationPort** definition from the TCP.opn file in a separate viewing tab by choosing the **Go To Definition** command in the right-click **Analysis Grid** viewer context menu.  
@@ -121,7 +121,7 @@ ___________________\_
   
 -   **Case sensitivity** — in general, filters are case-insensitive, unless case-sensitivity options are accepted for a particular expression type. For example, “UDP” and “udp” are functionally equivalent.  
   
--   **Filter applicability** — in the **Analysis Grid** viewer, messages are grouped as expandable, top-level parent nodes containing expandable, lower-level child-node messages that comprise the origin tree, as described in [Viewing Message Data](../messageanalyzer_content/viewing-message-data.md). These expansion nodes are each labeled by a **Message Number**. The child messages usually consist of the message protocol stack, the base ETW module, and can also include reassemblies such as you have with TCP virtual messages. When you apply a Filter Expression to a message collection, all messages that match the filtering criteria are returned, including all top-level messages that contain one or more origins tree messages where a match is found, regardless of whether the top-level messages specifically met the filtering criteria.  
+-   **Filter applicability** — in the **Analysis Grid** viewer, messages are grouped as expandable, top-level parent nodes containing expandable, lower-level child-node messages that comprise the origin tree, as described in [Viewing Message Data](viewing-message-data.md). These expansion nodes are each labeled by a **Message Number**. The child messages usually consist of the message protocol stack, the base ETW module, and can also include reassemblies such as you have with TCP virtual messages. When you apply a Filter Expression to a message collection, all messages that match the filtering criteria are returned, including all top-level messages that contain one or more origins tree messages where a match is found, regardless of whether the top-level messages specifically met the filtering criteria.  
   
      For example, if you apply a filter expression such as “Ethernet”, the filter will return all Ethernet messages in addition to upper-layer protocol messages such as IP, TCP or UDP, and so on, because these messages form part of the origins tree.  
   

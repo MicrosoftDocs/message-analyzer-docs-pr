@@ -22,12 +22,12 @@ The Message Analyzer **Unions** feature provides a service that can help you ove
  To facilitate this field correlation capability, Message Analyzer provides the **Unions** feature that enables you to combine one or more message fields, properties, or annotations from different data sources into a single entity that is defined by a **Union** name that you specify. You can then display the named **Union**, which correlates and represents its constituent message field components, as a new data column in the **Analysis Grid** viewer. By configuring a **Union** that maps similar data fields with different names to a single user-defined **Union** name, you can easily correlate equivalent trace data in a message set that combines multiple traces.  
   
 > [!NOTE]
->  Message Analyzer also enables **Unions** to support multiple values as “sets” of values for a particular field in the correlation, as described in [Creating Unions](../messageanalyzer_content/creating-unions.md). In addition, you can use a  **Union** that configures  a set of values in a **Chart** viewer **Layout**, for example, a set of IP addresses, as in the default **AddressPair** **Union** that you will find in the **Field Chooser**.  
+>  Message Analyzer also enables **Unions** to support multiple values as “sets” of values for a particular field in the correlation, as described in [Creating Unions](creating-unions.md). In addition, you can use a  **Union** that configures  a set of values in a **Chart** viewer **Layout**, for example, a set of IP addresses, as in the default **AddressPair** **Union** that you will find in the **Field Chooser**.  
   
 ## Simplifying Data Analysis with Unions  
  In the figure that follows, you will see messages that were captured at two different interfaces by two different data sources, a SambaSysLog and a live Wireshark trace. The scenario represented by this illustration involves troubleshooting SMB file access issues. To facilitate analysis, data from both sources is loaded together into Message Analyzer through a Data Retrieval Session and interlaced as if they were one trace, so that the log messages and associated SMB live capture messages can be assessed together.  
   
- ![SMB Fields Union Example](../messageanalyzer_content/media/fig63-smb-fields-union-example.png "Fig63-SMB Fields Union Example")  
+ ![SMB Fields Union Example](media/fig63-smb-fields-union-example.png "Fig63-SMB Fields Union Example")  
   
  **Figure 63: SMB fields Union example**  
   
@@ -105,15 +105,15 @@ The Message Analyzer **Unions** feature provides a service that can help you ove
   
 -   Using **Tool Windows**, such as the **Field Chooser**  
   
- For further details about using **Unions** in the manner described in the preceding list, see [Performing Message Analyzer Operations with Unions](../messageanalyzer_content/performing-message-analyzer-operations-with-unions.md).  
+ For further details about using **Unions** in the manner described in the preceding list, see [Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md).  
   
  ______________________\_  
   
  **What You Will Learn**   
 In the following topics of this section, you will learn how to create, modify, manage, and share **Unions**, in addition to performing Message Analyzer operations with them:  
-[Creating Unions](../messageanalyzer_content/creating-unions.md)  
-[Modifying Unions](../messageanalyzer_content/modifying-unions.md)  
-[Refreshing Data Views Containing Unions](../messageanalyzer_content/refreshing-data-views-containing-unions.md)  
-[Performing Message Analyzer Operations with Unions](../messageanalyzer_content/performing-message-analyzer-operations-with-unions.md)  
-[Managing Unions as Shared Items](../messageanalyzer_content/managing-unions-as-shared-items.md)  
+[Creating Unions](creating-unions.md)  
+[Modifying Unions](modifying-unions.md)  
+[Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)  
+[Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md)  
+[Managing Unions as Shared Items](managing-unions-as-shared-items.md)  
 ______________________\_

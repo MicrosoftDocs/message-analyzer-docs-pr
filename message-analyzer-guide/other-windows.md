@@ -32,8 +32,8 @@ This section describes several other **Tool Windows** that you will make regular
   
  _____________________________\_  
   
- [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md)   
- [Output Tool Window](../messageanalyzer_content/output-tool-window.md)   
- [Session Explorer Tool Window](../messageanalyzer_content/session-explorer-tool-window.md)   
- [Map Tool Window](../messageanalyzer_content/map-tool-window.md)   
+ [Field Chooser Tool Window](field-chooser-tool-window.md)   
+ [Output Tool Window](output-tool-window.md)   
+ [Session Explorer Tool Window](session-explorer-tool-window.md)   
+ [Map Tool Window](map-tool-window.md)   
 _____________________________\_

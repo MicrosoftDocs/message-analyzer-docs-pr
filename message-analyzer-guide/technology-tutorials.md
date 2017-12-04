@@ -20,7 +20,7 @@ This section contains several tutorials to help you better understand Message An
   
  ___________________________\_  
   
- [Message Analyzer Tutorial](../messageanalyzer_content/message-analyzer-tutorial.md)   
- [PEF Architecture Tutorial](../messageanalyzer_content/pef-architecture-tutorial.md)   
- [ETW Framework Conceptual Tutorial](../messageanalyzer_content/etw-framework-conceptual-tutorial.md)   
+ [Message Analyzer Tutorial](message-analyzer-tutorial.md)   
+ [PEF Architecture Tutorial](pef-architecture-tutorial.md)   
+ [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)   
 ___________________________\_

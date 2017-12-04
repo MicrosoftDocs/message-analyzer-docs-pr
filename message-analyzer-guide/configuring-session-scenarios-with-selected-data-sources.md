@@ -20,7 +20,7 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
  This section provides guidelines on how to use Message Analyzer to acquire data from one or more supported input data sources in any combination that you wish. You can take advantage of this capability when you need to correlate and analyze related data from different sources, given the enhanced analysis perspective that you can obtain in this context. This section describes input data source configurations, the data sources that are supported by Message Analyzer, an overview of creating input loading and capture configurations, along with a summary of guidelines that you can follow when configuring Live Trace Sessions or Data Retrieval Sessions with single or multiple input data sources.  
   
- As indicated in [Starting a Message Analyzer Session](../messageanalyzer_content/starting-a-message-analyzer-session.md), all session configuration begins with the **New Session** dialog.  
+ As indicated in [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md), all session configuration begins with the **New Session** dialog.  
   
 > [!IMPORTANT]
 >  Message Analyzer does not support running a Live Trace Session and a Data Retrieval Session at the same time. Moreover, if you choose to run a Live Trace Session, all other supported input data sources are unavailable to add to the session.  
@@ -29,11 +29,11 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
  __________________________________\_  
   
- [Input Data Source Configurations](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
- [Supported Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
- [Live Trace Scenario Configuration](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
- [Data Retrieval Scenario Configuration](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
- [Correlating Data from Multiple Input Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
+ [Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
+ [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
+ [Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
+ [Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
+ [Correlating Data from Multiple Input Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
 __________________________________\_  
   
 <a name="BKMK_InputDataSourceConfigs"></a>   
@@ -50,7 +50,7 @@ __________________________________\_
   
  The figure that follows is a Data Retrieval Session that is configured to retrieve data from two file sources and a PowerShell query. It also shows the other data source types that Message Analyzer supports on the **New Data Source** tab. Any of these sources could be added to this data loading configuration if correlation of data from such sources made sense.  
   
- ![Session configuration options](../messageanalyzer_content/media/fig39-session-configuration-options.png "Fig39-Session configuration options")  
+ ![Session configuration options](media/fig39-session-configuration-options.png "Fig39-Session configuration options")  
   
  **Figure 39:  Session data source configuration options**  
   
@@ -60,7 +60,7 @@ For Live Trace Sessions, this means that you can create one or more unique captu
  ___________________\_  
   
  **More Information**   
- **To learn more** about creating capture configurations for Message Analyzer, see [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md).  
+ **To learn more** about creating capture configurations for Message Analyzer, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).  
 ___________________\_  
   
  **Data Loading Configurations**   
@@ -69,7 +69,7 @@ For Data Retrieval Sessions, this means that you can create a unique data loadin
  ___________________\_  
   
  **More Information**   
- **To learn more** about creating data loading configurations for Message Analyzer, see [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md).  
+ **To learn more** about creating data loading configurations for Message Analyzer, see [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
 ___________________\_  
   
 <a name="BKMK_SupportedDataSources"></a>   
@@ -79,27 +79,27 @@ ___________________\_
 > [!IMPORTANT]
 >  Some of the following are preview features. To use a preview feature, ensure that it is selected in the **Preview Features** list on the **Features** tab of the **Options** dialog, which you can access from the global Message Analyzer **Tools** menu. If you enable a previously disabled feature, you will need to restart Message Analyzer in order to use the feature.  
   
--   **Live Trace** — enables you to capture live data from the network. You can create the input configuration for a Live Trace Session by clicking the **Live Trace** button under **Add Data Source** in the **New Session** dialog. A summary of the configuration features for a Live Trace Session is indicated  below in [Live Trace Scenario Configuration](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig).  
+-   **Live Trace** — enables you to capture live data from the network. You can create the input configuration for a Live Trace Session by clicking the **Live Trace** button under **Add Data Source** in the **New Session** dialog. A summary of the configuration features for a Live Trace Session is indicated  below in [Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig).  
   
--   **Files** — enables you to retrieve data from saved trace and log files. You can create the input configuration for a Data Retrieval Session by clicking the **Files** button under **Add Data Source** in the **New Session** dialog. A summary of the configuration features for a Live Trace Session is indicated  below in [Data Retrieval Scenario Configuration](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig).  
+-   **Files** — enables you to retrieve data from saved trace and log files. You can create the input configuration for a Data Retrieval Session by clicking the **Files** button under **Add Data Source** in the **New Session** dialog. A summary of the configuration features for a Live Trace Session is indicated  below in [Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig).  
   
 -   **Azure Table** — enables you to access data from an Azure table. You can create the input configuration by clicking the **Azure Table** button under **Add Data Source** in the **New Session** dialog.  
   
      You can also acquire input data from Azure storage binary large object (BLOB) logs with the use of the **File Selector**, which is accessible from the global Message Analyzer **File** menu, by selecting **Open** and then clicking the **From Other File Sources** command.  
   
-     The configuration features that you can utilize when targeting Azure data is described in [Handling Azure Data](../messageanalyzer_content/handling-azure-data.md).  
+     The configuration features that you can utilize when targeting Azure data is described in [Handling Azure Data](handling-azure-data.md).  
   
 -   **Event logs** — a preview feature that enables you to access data from **Microsoft Event Viewer** logs, such as **Applications and Services**, **Windows**, and others. You can create the input configuration by clicking the **Event Logs** button under **Add Data Source** in the **New Session** dialog.  
   
-     The configuration features that you can utilize when targeting Event Log data is described in [Loading System Event Log Data](../messageanalyzer_content/loading-system-event-log-data.md).  
+     The configuration features that you can utilize when targeting Event Log data is described in [Loading System Event Log Data](loading-system-event-log-data.md).  
   
 -   **PowerShell** query — a preview feature that enables you to access data that is output by a PowerShell query, which you create with one or more PowerShell cmdlets. You can create the input configuration by clicking the **PowerShell** button under **Add Data Source** in the **New Session** dialog.  
   
-     The configuration features that you can utilize when targeting PowerShell query output data is described in [Deriving Input Data with PowerShell Scripts](../messageanalyzer_content/deriving-input-data-with-powershell-scripts.md).  
+     The configuration features that you can utilize when targeting PowerShell query output data is described in [Deriving Input Data with PowerShell Scripts](deriving-input-data-with-powershell-scripts.md).  
   
 -   **SQL** query — a preview feature that enables you to access data from a SQL database table. You can create the input configuration by clicking the **Sql** button under **Add Data Source** in the **New Session** dialog.  
   
-     The configuration features that you can utilize when targeting SQL table data is described in [Loading SQL Data](../messageanalyzer_content/loading-sql-data.md).  
+     The configuration features that you can utilize when targeting SQL table data is described in [Loading SQL Data](loading-sql-data.md).  
   
 -   **WPP-Generated Events** — Message Analyzer can process Windows software trace preprocessor (WPP)-generated events. Because WPP events make use of the ETW framework, Message Analyzer can capture them live or load them from a saved event trace log (ETL) file.  
   
@@ -146,7 +146,7 @@ ___________________\_
 ## Data Retrieval Scenario Configuration  
  To start the configuration for a Data Retrieval Session, open the **New Session** dialog from the **Start Page** and click any button under **Add Data Sources** to display the configuration features for loading the particular type of data into Message Analyzer that you are targeting. For example, if you clicked the **Files** button, then you can use the **Add Files** feature in the **New Session** dialog to locate and target input files that contain the message data you want to load. After you specify an initial data source by clicking an appropriate button under **Add Data Source**, you can click the **New Data Source** tab in the **New Session** dialog to specify another data source type or another of the same source type to add to your initial input data source configuration.  
   
- For example, if you initially clicked the **Files** tab, you can specify a set of target input files from which to retrieve data by using the **Add Files** feature. At this point you can add a different data source as described in [Supported Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources), or you can create another set of input files by clicking the **New Data Source** tab, clicking the **Files** button, and then locating new files with the **Add Files** feature. In this example session scenario, you can optionally apply a differently configured input **Time Filter** to each target set of input files. After you start the Data Retrieval Session, Message Analyzer filters, loads, and chronologically merges all the data into a single viewer, which by default is the **Analysis Grid** viewer.  
+ For example, if you initially clicked the **Files** tab, you can specify a set of target input files from which to retrieve data by using the **Add Files** feature. At this point you can add a different data source as described in [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources), or you can create another set of input files by clicking the **New Data Source** tab, clicking the **Files** button, and then locating new files with the **Add Files** feature. In this example session scenario, you can optionally apply a differently configured input **Time Filter** to each target set of input files. After you start the Data Retrieval Session, Message Analyzer filters, loads, and chronologically merges all the data into a single viewer, which by default is the **Analysis Grid** viewer.  
   
  In any Data Retrieval Session, you can specify settings for the features that follow, although some of these might not have an effect on all the supported input data source types from which you can select. For example, in a  Data Retrieval Session that uses the **Files** button to import data from saved trace and log files, you can specify an input **Time Filter** to limit the data you retrieve to a specified window of time. Note that a **Time Filter** is available for use only with a target set of input files on the **Files** tab of a Data Retrieval Session, and not for any other data source:  
   
@@ -182,17 +182,17 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](../messageanalyzer_content/configuring-and-managing-message-analyzer-unions.md).  
-**To learn more** about the **Group** feature in the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
-**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.  
-**To learn more** about the **Selection** **Tool Window**, see the [Selection Tool Window](../messageanalyzer_content/selection-tool-window.md) topic.  
-**To learn more** about **Filters**, see [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md).  
-**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md).  
-**To learn more** about setting time shifts, see [Setting Time Shifts](../messageanalyzer_content/setting-time-shifts.md).  
+ **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).  
+**To learn more** about the **Group** feature in the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
+**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.  
+**To learn more** about the **Selection** **Tool Window**, see the [Selection Tool Window](selection-tool-window.md) topic.  
+**To learn more** about **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).  
+**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
+**To learn more** about setting time shifts, see [Setting Time Shifts](setting-time-shifts.md).  
 ___________________\_  
   
 ## See Also  
- [Acquiring Data From Other Input Sources](../messageanalyzer_content/acquiring-data-from-other-input-sources.md)   
- [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md)   
- [Configuring a Remote Capture](../messageanalyzer_content/configuring-a-remote-capture.md)   
- [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md)
+ [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
+ [Configuring a Live Trace Session](configuring-a-live-trace-session.md)   
+ [Configuring a Remote Capture](configuring-a-remote-capture.md)   
+ [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)

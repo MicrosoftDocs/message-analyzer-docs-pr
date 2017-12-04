@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Procedures: Using the Data Viewing Features
-The procedures in this section demonstrate the use of numerous Message Analyzer features that are described in the [Viewing Message Data](../messageanalyzer_content/viewing-message-data.md) section. They are intended to serve as a cross section of the many ways in which you can use Message Analyzer viewer features and other integrated functions. As viewing message data and analyzing it are closely related, these procedures demonstrate the use of various viewers and tools that manipulate trace results data for analysis purposes. For additional information on the analysis tools that Message Analyzer provides, see [Analyzing Message Data](../messageanalyzer_content/analyzing-message-data.md).  
+The procedures in this section demonstrate the use of numerous Message Analyzer features that are described in the [Viewing Message Data](viewing-message-data.md) section. They are intended to serve as a cross section of the many ways in which you can use Message Analyzer viewer features and other integrated functions. As viewing message data and analyzing it are closely related, these procedures demonstrate the use of various viewers and tools that manipulate trace results data for analysis purposes. For additional information on the analysis tools that Message Analyzer provides, see [Analyzing Message Data](analyzing-message-data.md).  
   
 > [!IMPORTANT]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic analysis scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
@@ -27,27 +27,27 @@ The procedures in this section demonstrate the use of numerous Message Analyzer 
 A brief description of each procedure is included here for review, as follows.  
 ______________________\_  
   
- **[Apply Gradient Style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_ApplyGradientColorRules)**  — provides an example of how to utilize gradient style **Color Rules** to quickly flag messages that meet the filtering criteria of multiple **Color Rules**.  
+ **[Apply Gradient Style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_ApplyGradientColorRules)**  — provides an example of how to utilize gradient style **Color Rules** to quickly flag messages that meet the filtering criteria of multiple **Color Rules**.  
   
- **[Apply a Built-In View Layout](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_ApplyViewLayout)**  — provides an example of a built-in view **Layout** that presents a data column configuration that is useful for diagnosing TCP messages when applied, while also automatically grouping messages by IP conversations and ports (**Group** operations on the **Network** and **Transport** columns, respectively) to enhance diagnostic capabilities and perspectives.  
+ **[Apply a Built-In View Layout](procedures-using-the-data-viewing-features.md#BKMK_ApplyViewLayout)**  — provides an example of a built-in view **Layout** that presents a data column configuration that is useful for diagnosing TCP messages when applied, while also automatically grouping messages by IP conversations and ports (**Group** operations on the **Network** and **Transport** columns, respectively) to enhance diagnostic capabilities and perspectives.  
   
- **[Perform Data Grouping Operations](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_PerformGroupingOps)**  — provides several examples of data grouping operations that demonstrate how you can filter and consolidate data from designated **Analysis Grid** viewer columns and reorganize them into separate groups of common properties that greatly enhance your ability to analyze data and resolve issues.  
+ **[Perform Data Grouping Operations](procedures-using-the-data-viewing-features.md#BKMK_PerformGroupingOps)**  — provides several examples of data grouping operations that demonstrate how you can filter and consolidate data from designated **Analysis Grid** viewer columns and reorganize them into separate groups of common properties that greatly enhance your ability to analyze data and resolve issues.  
   
- **[Perform Top-Level Summary Analysis](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_toplevelsummaryAnalysis)**  — provides an example of how to use the **Protocol Dashboard** viewer to obtain top-level summaries at a glance for a set of trace results.  
+ **[Perform Top-Level Summary Analysis](procedures-using-the-data-viewing-features.md#BKMK_toplevelsummaryAnalysis)**  — provides an example of how to use the **Protocol Dashboard** viewer to obtain top-level summaries at a glance for a set of trace results.  
   
- **[Perform Interactive Analysis with Data Viewers](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_performInteractiveAnalysis)**  — illustrates a simple method for using the **Protocol Dashboard** and **Analysis Grid** viewers together in an interactive manner to enhance data analysis perspectives.  
+ **[Perform Interactive Analysis with Data Viewers](procedures-using-the-data-viewing-features.md#BKMK_performInteractiveAnalysis)**  — illustrates a simple method for using the **Protocol Dashboard** and **Analysis Grid** viewers together in an interactive manner to enhance data analysis perspectives.  
   
- **[Apply Viewpoints to Trace Data](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_applyViewpoints)**  — provides an example that shows you how to use the Message Analyzer **Viewpoints** feature, which enables you to examine data from the viewpoint of a protocol, where the messages of a specific viewpoint protocol are displayed at top-level in the **Analysis Grid** viewer with no message layers above them.  
+ **[Apply Viewpoints to Trace Data](procedures-using-the-data-viewing-features.md#BKMK_applyViewpoints)**  — provides an example that shows you how to use the Message Analyzer **Viewpoints** feature, which enables you to examine data from the viewpoint of a protocol, where the messages of a specific viewpoint protocol are displayed at top-level in the **Analysis Grid** viewer with no message layers above them.  
   
- **[Apply a Time Filter to Trace Results](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_ApplyQuickFilter)**  — provides an example that shows you how to apply a **Time Filter** to a set of trace results, so that you can view data in a selected window of time.  
+ **[Apply a Time Filter to Trace Results](procedures-using-the-data-viewing-features.md#BKMK_ApplyQuickFilter)**  — provides an example that shows you how to apply a **Time Filter** to a set of trace results, so that you can view data in a selected window of time.  
   
- **[Drive Analysis Grid Viewer and Tool Window Interactions](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_DriveInteractions)**  — provides an example that demonstrates interaction between the **Analysis Grid** viewer and various tool windows, such as the **Message Data**, **Field Data**, **Message Stack**, **Details**, and **Diagnostics** **Tool Windows**.  
+ **[Drive Analysis Grid Viewer and Tool Window Interactions](procedures-using-the-data-viewing-features.md#BKMK_DriveInteractions)**  — provides an example that demonstrates interaction between the **Analysis Grid** viewer and various tool windows, such as the **Message Data**, **Field Data**, **Message Stack**, **Details**, and **Diagnostics** **Tool Windows**.  
   
- **[Create an Alias for a Data Field Value](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_CreateAlias)**  — provides an example that demonstrates how to simplify data analysis by creating an **Alias** that  substitutes for a cryptic field value.  
+ **[Create an Alias for a Data Field Value](procedures-using-the-data-viewing-features.md#BKMK_CreateAlias)**  — provides an example that demonstrates how to simplify data analysis by creating an **Alias** that  substitutes for a cryptic field value.  
   
- **[Create a Union of Two Data Fields](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_CreateUnion)**  — provides an example that demonstrates how to create a **Union** that correlates/combines two data fields with similar values but different names into a single new field that is specified by the **Union** configuration.  
+ **[Create a Union of Two Data Fields](procedures-using-the-data-viewing-features.md#BKMK_CreateUnion)**  — provides an example that demonstrates how to create a **Union** that correlates/combines two data fields with similar values but different names into a single new field that is specified by the **Union** configuration.  
   
- **[Procedures: Using the Data Filtering Features](../messageanalyzer_content/procedures-using-the-data-filtering-features.md)**  — see this procedural topic for extensive coverage of different ways to apply a view **Filter**.  
+ **[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)**  — see this procedural topic for extensive coverage of different ways to apply a view **Filter**.  
   
 > [!IMPORTANT]
 >  If you have not logged off Windows after the first installation of Message Analyzer, please log off and then log back on before performing these procedures. This action ensures that in all subsequent logons following installation, your security token will be updated with the required security credentials from the Message Capture Users Group (MCUG). Otherwise, you will be unable to capture network traffic in **Trace Scenarios** that use the **Microsoft-PEF-NDIS-PacketCapture** provider, **Microsoft-Windows-NDIS-PacketCapture** provider, or the **Microsoft-PEF-WFP-MessageProvider**, unless you start Message Analyzer with the right-click **Run as administrator** option.  
@@ -64,7 +64,7 @@ ______________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, see [Using and Managing Color Rules](../messageanalyzer_content/using-and-managing-color-rules.md).  
+ **To learn more** about the concepts upon which this example procedure is based, see [Using and Managing Color Rules](using-and-managing-color-rules.md).  
 ___________________\_  
   
 <a name="BKMK_Transport-Network-ColorRulesProcedure"></a>   
@@ -107,12 +107,12 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, see [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md).  
+ **To learn more** about the concepts upon which this example procedure is based, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).  
 ___________________\_  
   
 #### To apply a built-in View Layout for TCP diagnosis  
   
-1.  Perform steps 1 through 7 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start and stop a Message Analyzer Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**.  
+1.  Perform steps 1 through 7 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start and stop a Message Analyzer Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**.  
   
 2.  Click the **Layout** drop-down list on the **Analysis Grid** toolbar and then click the **TCP Deep Packet Analysis with Absolute Sequence Number Grouping** item in the drop-down list that appears.  
   
@@ -147,12 +147,12 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
+ **To learn more** about the concepts upon which this example procedure is based, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 ___________________\_  
   
 #### To perform multiple data grouping operations for analysis  
   
-1.  Perform steps 1 through 3 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure), to start Message Analyzer and open the **New Session** dialog for Live Trace Session configuration.  
+1.  Perform steps 1 through 3 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure), to start Message Analyzer and open the **New Session** dialog for Live Trace Session configuration.  
   
 2.  In the **Network** category of the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, click the **Loopback and Unencrypted IPSEC** **Trace Scenario**. Alternatively, click the **Loopback and Unencrypted IPSEC** **Trace Scenario** in the **Favorite Scenarios** list that is accessible from the Message Analyzer **File** menu.  
   
@@ -205,7 +205,7 @@ ___________________\_
   
 16. Remove all **Group** configurations to return to the original **Analysis Grid** viewer display and then execute the **Group** command on the **DiagnosisTypes** column in the **Analysis Grid** viewer.  
   
-     The trace data is grouped according to the different types of diagnosis messages, which includes **Application**, **InsufficientData**, **Parsing**, and **Validation** message types, so that you can immediately assess the types of errors that occurred in your trace. For more information about the meaning of these diagnosis message types, see the “Enum Values for DiagnosisType filters” table in the [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.  
+     The trace data is grouped according to the different types of diagnosis messages, which includes **Application**, **InsufficientData**, **Parsing**, and **Validation** message types, so that you can immediately assess the types of errors that occurred in your trace. For more information about the meaning of these diagnosis message types, see the “Enum Values for DiagnosisType filters” table in the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.  
   
 <a name="BKMK_toplevelsummaryAnalysis"></a>   
 ## Perform Top-Level Summary Analysis  
@@ -216,13 +216,13 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the **Protocol Dashboard** viewer, see the [Protocol Dashboard](../messageanalyzer_content/protocol-dashboard.md) topic.  
-**To learn more** about the SMB **Layouts** for the **Chart** viewer, see the subtopics in the [File Sharing Category](../messageanalyzer_content/file-sharing-category.md) section.   
+ **To learn more** about the **Protocol Dashboard** viewer, see the [Protocol Dashboard](protocol-dashboard.md) topic.  
+**To learn more** about the SMB **Layouts** for the **Chart** viewer, see the subtopics in the [File Sharing Category](file-sharing-category.md) section.   
 ___________________\_  
   
 #### To analyze top level summary data  
   
-1.  Perform steps 1 through 5 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start a Message Analyzer Live Trace Session with the **Local Network Interfaces** **Trace Scenario**.  
+1.  Perform steps 1 through 5 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start a Message Analyzer Live Trace Session with the **Local Network Interfaces** **Trace Scenario**.  
   
 2.  While Message Analyzer is capturing data, attempt to reproduce conditions that are related to any particular issue you might be trying to resolve, for example, a high volume of TCP traffic to a target computer.  
   
@@ -240,7 +240,7 @@ ___________________\_
   
 7.  Stop the trace at a suitable point by clicking the **Stop** button on the global Message Analyzer toolbar and then launch the **SMB Reads and Writes Bytes/Second** view **Layout** from the **Chart** drop-down in the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
   
-     From this view **Layout**, you can obtain statistics that reflect the network bandwidth being consumed by the file access/sharing activities of the Server Message Block (SMB) protocols. See [SMB Reads and Writes Bytes/Second](../messageanalyzer_content/smb-reads-and-writes-bytes-second.md) for further details.  
+     From this view **Layout**, you can obtain statistics that reflect the network bandwidth being consumed by the file access/sharing activities of the Server Message Block (SMB) protocols. See [SMB Reads and Writes Bytes/Second](smb-reads-and-writes-bytes-second.md) for further details.  
   
 8.  Adjust the time window slider controls in the **SMB Reads and Writes Bytes/Second** viewer to zoom into specific messages in a particular time slot.  
   
@@ -249,9 +249,9 @@ ___________________\_
     > [!TIP]
     >  You can also use the **Field Chooser** **Tool Window** to add an SMB **FileName** or SMB2 **FileName** column to the **Analysis Grid** viewer and then execute a **Group** command on the new column so that you can examine the SMB traffic that is associated with access to specific files.  
   
-10. Optionally, select the **SMB File Stats** view **Layout** from the **Chart** drop-down in the **New Viewer** drop-down list. With this **Layout**, you can examine a summary of SMB file statistics in a **Table** visualizer component that includes the file name, access duration, total number of bytes for each file or folder access operation, and the data transmission rates, as described in [SMB File Stats](../messageanalyzer_content/smb-file-stats.md).  
+10. Optionally, select the **SMB File Stats** view **Layout** from the **Chart** drop-down in the **New Viewer** drop-down list. With this **Layout**, you can examine a summary of SMB file statistics in a **Table** visualizer component that includes the file name, access duration, total number of bytes for each file or folder access operation, and the data transmission rates, as described in [SMB File Stats](smb-file-stats.md).  
   
-     You might also consider selecting the **SMB/SMB2 Service Performance** viewer **Layout**, also in the **Chart** drop-down, to examine statistics that expose how long first responses to SMB operations are taking (**ResponseTime**), possibly to expose slow server response issues; and how long it is taking for operations to complete (**ElapsedTime**), as a possible indication of network issues; as described in [SMB/SMB2 Service Performance](../messageanalyzer_content/smb-smb2-service-performance.md).  
+     You might also consider selecting the **SMB/SMB2 Service Performance** viewer **Layout**, also in the **Chart** drop-down, to examine statistics that expose how long first responses to SMB operations are taking (**ResponseTime**), possibly to expose slow server response issues; and how long it is taking for operations to complete (**ElapsedTime**), as a possible indication of network issues; as described in [SMB/SMB2 Service Performance](smb-smb2-service-performance.md).  
   
 <a name="BKMK_performInteractiveAnalysis"></a>   
 ## Perform Interactive Analysis with Data Viewers  
@@ -260,12 +260,12 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about data viewers and how they interact, see [Data Viewer Concepts](../messageanalyzer_content/data-viewer-concepts.md).   
+ **To learn more** about data viewers and how they interact, see [Data Viewer Concepts](data-viewer-concepts.md).   
 ___________________\_  
   
 #### To analyze data through data viewer interaction  
   
-1.  Perform steps 1 through 4 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure), to start Message Analyzer, open the **New Session** dialog for Live Trace Session configuration, and select the **Local Network Interfaces** **Trace Scenario**.  
+1.  Perform steps 1 through 4 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure), to start Message Analyzer, open the **New Session** dialog for Live Trace Session configuration, and select the **Local Network Interfaces** **Trace Scenario**.  
   
 2.  Click the **Start** button in the **New Session** dialog to begin capturing data in a Live Trace Session.  
   
@@ -292,7 +292,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the meaning of diagnosis message types, see the “Enum Values for DiagnosisType filters” table in the [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
+ **To learn more** about the meaning of diagnosis message types, see the “Enum Values for DiagnosisType filters” table in the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
 ___________________\_  
   
 <a name="BKMK_applyViewpoints"></a>   
@@ -302,7 +302,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, see [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md).  
+ **To learn more** about the concepts upon which this example procedure is based, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
 ___________________\_  
   
 #### To analyze data with applied Viewpoints  
@@ -361,8 +361,8 @@ ___________________\_
 >  ___________________\_  
 >   
 >  **More Information**   
->  **To learn more** about average response time for Operations, see [Average Response Time for Operations](../messageanalyzer_content/average-response-time-for-operations.md).  
-> **To learn more** about average elapsed time for Operations, see [Average Elapsed Time for Operations](../messageanalyzer_content/average-elapsed-time-for-operations.md).  
+>  **To learn more** about average response time for Operations, see [Average Response Time for Operations](average-response-time-for-operations.md).  
+> **To learn more** about average elapsed time for Operations, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md).  
 > ___________________\_  
   
 <a name="BKMK_ApplyQuickFilter"></a>   
@@ -372,7 +372,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, including the benefits of using a **Time Filter**, see [Applying a Time Filter to Session Results](../messageanalyzer_content/applying-a-time-filter-to-session-results.md).   
+ **To learn more** about the concepts upon which this example procedure is based, including the benefits of using a **Time Filter**, see [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md).   
 ___________________\_  
   
 #### To apply a Time Filter to a set of trace results  
@@ -392,12 +392,12 @@ ___________________\_
 5.  If you loaded a \*.log file, you should choose an applicable configuration file from the **Text Log Configuration** drop-down list just below the toolbar of the **Files** tab for your log, to enable full parsing of messages.  
   
     > [!IMPORTANT]
-    >  A built-in OPN configuration file is required to parse a text log. Message Analyzer provides several configuration files by default, including Cluster, IIS, SambaSys, and Netlogon .log files, among many others. If the type of text log you want to parse is not included in the previously specified list, you will need to create your own custom OPN configuration file to parse your log, as described in [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](../messageanalyzer_content/addendum-1-configuration-requirements-for-parsing-customtext-logs.md).  
+    >  A built-in OPN configuration file is required to parse a text log. Message Analyzer provides several configuration files by default, including Cluster, IIS, SambaSys, and Netlogon .log files, among many others. If the type of text log you want to parse is not included in the previously specified list, you will need to create your own custom OPN configuration file to parse your log, as described in [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md).  
   
 6.  Confirm that the **Analysis Grid** viewer is selected in the **Start With** drop-down list and then click the **Start** button in the **New Session** dialog to start loading the message data.  
   
     > [!IMPORTANT]
-    >  Do *not* configure a **Time Filter** in the Data Retrieval Session configuration, given that you will be doing this only *after* the data is loaded into Message Analyzer.   You might do this in a different scenario where you want to improve performance by limiting the amount of input messages from a high volume data file, as described in [Considering Performance vs. Usability Factors for Time Filter Application](../messageanalyzer_content/applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability), but not in this particular example.  
+    >  Do *not* configure a **Time Filter** in the Data Retrieval Session configuration, given that you will be doing this only *after* the data is loaded into Message Analyzer.   You might do this in a different scenario where you want to improve performance by limiting the amount of input messages from a high volume data file, as described in [Considering Performance vs. Usability Factors for Time Filter Application](applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability), but not in this particular example.  
   
 7.  After the message data is loaded and displayed in the **Analysis Grid** viewer, click the **Add Time Filter** item from the **Add Filter** drop-down list on the Filtering toolbar to open the **Time Filter** panel.  
   
@@ -425,12 +425,12 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about how to position Message Analyzer data viewers and **Tool Windows** for enhanced data analysis, see [Working with Message Analyzer Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md).   
+ **To learn more** about how to position Message Analyzer data viewers and **Tool Windows** for enhanced data analysis, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).   
 ___________________\_  
   
 #### To drive interaction between the Analysis Grid viewer and tool windows  
   
-1.  Perform steps 1 through 7 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start and stop a new Message Analyzer Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**.  
+1.  Perform steps 1 through 7 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start and stop a new Message Analyzer Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**.  
   
 2.  Click the global Message Analyzer **Tools** menu, click the **Windows** item, and then select **Diagnostics** in the submenu that appears, to display the **Diagnostics** **Tool Window** in its default docking location.  
   
@@ -468,12 +468,12 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, see [Using and Managing Message Analyzer Aliases](../messageanalyzer_content/using-and-managing-message-analyzer-aliases.md).  
+ **To learn more** about the concepts upon which this example procedure is based, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).  
 ___________________\_  
   
 #### To create a field value Alias  
   
-1.  Perform steps 1 through 7 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](../messageanalyzer_content/procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start and stop a new Message Analyzer Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**.  
+1.  Perform steps 1 through 7 of the procedure [To identify Transport and Network Layer messages with gradient-style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_Transport-Network-ColorRulesProcedure) to start and stop a new Message Analyzer Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**.  
   
 2.  In the **Destination** column of the **Analysis Grid** viewer, right-click an IPv6 address for the local computer and select the **Create Alias for ‘Destination’…** item in the context menu that displays. The **Alias Editor** dialog displays, in which you can specify an **Alias** name, **Description**, and **Category**.  
   
@@ -519,7 +519,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the concepts upon which this example procedure is based, see [Configuring and Managing Message Analyzer Unions](../messageanalyzer_content/configuring-and-managing-message-analyzer-unions.md).   
+ **To learn more** about the concepts upon which this example procedure is based, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).   
 ___________________\_  
   
 #### To create a Union of two related data fields  
@@ -559,7 +559,7 @@ ___________________\_
   
     -   To add the fields you want to combine in the **Union**, click the **Add** button to display the **Field Chooser** **Tool Window**, in which you can locate the field names. Note that you can add only one field at a time with the **Field Chooser**. In this example, the hypothetical field names are `Command.smb_cmd` and `Command`.  
   
-         As you add fields, you should notice the **Type** label displaying the most appropriate data type for the combined fields, as calculated by Message Analyzer; see [Creating Unions](../messageanalyzer_content/creating-unions.md) for more information.  
+         As you add fields, you should notice the **Type** label displaying the most appropriate data type for the combined fields, as calculated by Message Analyzer; see [Creating Unions](creating-unions.md) for more information.  
   
     -   When you are finished configuring the **Union**, click the **Save** button in the **Edit Union** dialog.  
   
@@ -572,4 +572,4 @@ ___________________\_
      Observe that the new \<*unionName*> column in the **Analysis Grid** viewer correlates the data field values for the disparate field names that you specified in the **Union** you created. Note that you can remove the disparate field columns from the **Analysis Grid** viewer by selecting the **Remove** command that displays as a context menu item when you right-click the corresponding column header for each field. When the original field columns are removed from the **Analysis Grid** viewer, the **Union** name column will continue to correlate the values for the underlying data fields contained in the **Union**.  
   
 ## See Also  
- [Configuring and Managing Message Analyzer Unions](../messageanalyzer_content/configuring-and-managing-message-analyzer-unions.md)
+ [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)

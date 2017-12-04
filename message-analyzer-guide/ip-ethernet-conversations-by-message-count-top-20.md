@@ -31,4 +31,4 @@ The **IP/Ethernet Conversations by Message Count Top 20** viewer **Layout** for 
 >  You can double-click any bar element in the **Layout** to display the messages for the associated conversation in the **Analysis Grid** viewer for further analysis.  
   
 ## See Also  
- [IP/Ethernet Conversations by Message Count](../messageanalyzer_content/ip-ethernet-conversations-by-message-count.md)
+ [IP/Ethernet Conversations by Message Count](ip-ethernet-conversations-by-message-count.md)

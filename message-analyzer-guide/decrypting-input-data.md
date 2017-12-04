@@ -18,4 +18,4 @@ manager: "ronstarr"
 # Decrypting Input Data
 Message Analyzer enables you to decrypt the messages in saved trace files from protocols that use the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) encryption protocols, which includes HTTP and the Remote Desktop Protocol (RDP). However, to enable the Message Analyzer **Decryption** feature to decrypt messages in any particular saved trace, you will need to import an applicable server certificate into the Message Analyzer certificate store and specify a required password.  
   
- For further information about Message Analyzer decryption capabilities, which includes decrypting live traces, see [Decrypting TLS and SSL Encrypted Data](../messageanalyzer_content/decrypting-tls-and-ssl-encrypted-data.md).
+ For further information about Message Analyzer decryption capabilities, which includes decrypting live traces, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).

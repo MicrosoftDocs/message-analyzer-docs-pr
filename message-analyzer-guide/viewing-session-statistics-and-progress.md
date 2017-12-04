@@ -92,4 +92,4 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
  You can also apply simultaneous data manipulation operations across multiple sessions and observe progress indications that apply to each session. However, if you apply multiple operations in the same session viewer, the order in which operation indicators display is determined by a preset order of precedence that Message Analyzer applies, regardless of the sequence in which you start data manipulation operations.  
   
 ## See Also  
- [Session Explorer Tool Window](../messageanalyzer_content/session-explorer-tool-window.md)
+ [Session Explorer Tool Window](session-explorer-tool-window.md)

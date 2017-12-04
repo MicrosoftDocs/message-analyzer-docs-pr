@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Message Analyzer Startup Options
-This section describes several different ways in which you can start Message Analyzer. Note that the first time you start Message Analyzer after installation, you are prompted by the **Welcome to Message Analyzer** dialog to opt-in or opt-out of automatic updates to Message Analyzer user Library asset collections. To understand what these options mean, refer to [Syncing Items on First Startup](../messageanalyzer_content/syncing-items-on-first-startup.md).  
+This section describes several different ways in which you can start Message Analyzer. Note that the first time you start Message Analyzer after installation, you are prompted by the **Welcome to Message Analyzer** dialog to opt-in or opt-out of automatic updates to Message Analyzer user Library asset collections. To understand what these options mean, refer to [Syncing Items on First Startup](syncing-items-on-first-startup.md).  
   
  The topics ahead describe various ways of starting Message Analyzer along with the startup options that are available. Also, the option for changing the location of Message Analyzer temporary files to a non-system drive is included.  
   
@@ -35,7 +35,7 @@ This section describes several different ways in which you can start Message Ana
 -   Specify a startup command string at the command line prompt, as described ahead.  
   
 > [!NOTE]
->  For more information about supported Message Analyzer files, see [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md).  
+>  For more information about supported Message Analyzer files, see [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).  
   
 ## Starting Message Analyzer From the Command Line  
  When you start Message Analyzer from the command line, you can do the following:  
@@ -50,7 +50,7 @@ This section describes several different ways in which you can start Message Ana
   
  For example, you can open Message Analyzer from the command line without specifying a trace file, log file, or any options, as follows:  `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe”`  
   
- You can also specify a trace or log to open, as indicated in the following example, but it must be in one of the supported file formats, as described in [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md):   `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe” <TraceFile.matp>`  
+ You can also specify a trace or log to open, as indicated in the following example, but it must be in one of the supported file formats, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md):   `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe” <TraceFile.matp>`  
   
 ## Using the Startup Switches  
  The command line switches that are available for starting Message Analyzer at a command prompt are described below. To view these options at the command line, specify the following help switch:  `"C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe" /?`  
@@ -116,4 +116,4 @@ This section describes several different ways in which you can start Message Ana
 ```  
   
 ## See Also  
- [Starting Message Analyzer for the First Time](../messageanalyzer_content/installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)
+ [Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)

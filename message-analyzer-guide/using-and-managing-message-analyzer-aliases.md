@@ -34,9 +34,9 @@ Message Analyzer provides an **Aliases** function that enables you to substitute
   
  **What You Will Learn**   
 In the following topics of this section, you will learn how to create, manage, share, and perform Message Analyzer operations with aliases:  
-[Creating Message Analyzer Aliases](../messageanalyzer_content/creating-message-analyzer-aliases.md)  
-[Modifying Message Analyzer Aliases](../messageanalyzer_content/modifying-message-analyzer-aliases.md)  
-[Enabling and Disabling Message Analyzer Aliases](../messageanalyzer_content/enabling-and-disabling-message-analyzer-aliases.md)  
-[Performing Message Analyzer Operations with Aliases](../messageanalyzer_content/performing-message-analyzer-operations-with-aliases.md)  
-[Managing Message Analyzer Aliases as Shared Items](../messageanalyzer_content/managing-message-analyzer-aliases-as-shared-items.md)  
+[Creating Message Analyzer Aliases](creating-message-analyzer-aliases.md)  
+[Modifying Message Analyzer Aliases](modifying-message-analyzer-aliases.md)  
+[Enabling and Disabling Message Analyzer Aliases](enabling-and-disabling-message-analyzer-aliases.md)  
+[Performing Message Analyzer Operations with Aliases](performing-message-analyzer-operations-with-aliases.md)  
+[Managing Message Analyzer Aliases as Shared Items](managing-message-analyzer-aliases-as-shared-items.md)  
 ______________________\_

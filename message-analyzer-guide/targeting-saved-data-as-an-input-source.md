@@ -21,7 +21,7 @@ From a Data Retrieval Session, you can locate saved data files and build a messa
  ___________________\_  
   
  **More Information**   
- **To learn more** about the input file types that Message Analyzer supports, see [Locating Supported Input Data File Types](../messageanalyzer_content/locating-supported-input-data-file-types.md).   
+ **To learn more** about the input file types that Message Analyzer supports, see [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).   
 ___________________\_  
   
 ## Optimizing Data Retrieval  
@@ -38,4 +38,4 @@ ___________________\_
  You can also optimize performance and target specific data to be retrieved by using the **Truncated Parsing** feature to detect input files that contain truncated messages and cause Message Analyzer to apply a pared-down parser set that reduces data loading time. Another feature that you can use to significantly improve performance is to set a **Parsing Level** to limit how far up the message stack Message Analyzer will parse.  
   
 ## Creating a Data Retrieval Session  
- For a general workflow that you can follow to create a Data Retrieval Session, see  [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md). This section also contains subtopics that describe the various features and functions that you can use to create and start a Data Retrieval Session.
+ For a general workflow that you can follow to create a Data Retrieval Session, see  [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md). This section also contains subtopics that describe the various features and functions that you can use to create and start a Data Retrieval Session.

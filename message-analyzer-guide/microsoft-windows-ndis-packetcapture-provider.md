@@ -22,16 +22,16 @@ The **Microsoft-Windows-NDIS-PacketCapture** provider works with several **Trace
 >  Message Analyzer uses Windows Management Instrumentation (WMI) remoting facilities for capturing data on remote computers.  
   
 ## Provider Functions  
- Message Analyzer provides several built-in **Trace Scenarios** that use the **Microsoft-Windows-NDIS-PacketCapture** provider, in which there are special features that enable you to create unique capture configurations. For example, in the **Microsoft-Windows-NDIS-PacketCapture** provider configuration, you can specify **ETW Core** provider settings, interface selection, and advanced filtering configurations when capturing traffic on local or remote hosts, virtual machine (VM) adapters, and Hyper-V-Switches, as described in [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
+ Message Analyzer provides several built-in **Trace Scenarios** that use the **Microsoft-Windows-NDIS-PacketCapture** provider, in which there are special features that enable you to create unique capture configurations. For example, in the **Microsoft-Windows-NDIS-PacketCapture** provider configuration, you can specify **ETW Core** provider settings, interface selection, and advanced filtering configurations when capturing traffic on local or remote hosts, virtual machine (VM) adapters, and Hyper-V-Switches, as described in [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
   
  You can use the previously indicated configuration features when capturing messages with this provider in scenarios that are optimized for capture on local computers. However, note that because the **Microsoft-Windows-NDIS-PacketCapture** provider supports remote capture on computers running the Windows 8.1, Windows Server 2012 R2, Windows 10, and later operating systems, you can target hosts that are running any of these operating systems for remote capture with *any* **Trace Scenario** that uses the **Microsoft-Windows-NDIS-PacketCapture** provider, for example, even the **Local Network Interfaces** scenario.  
   
 ## Associated Trace Scenarios  
  The scenarios that use the **Microsoft-Windows-NDIS-PacketCapture** provider are described as follows. With these scenarios, you can capture message data at and above the Data Link Layer on computers that are running the Windows 8.1, Windows Server 2012 R2, Windows 10, or later operating system:  
   
--   **Local Network Interfaces** scenario — as previously indicated, you can apply the advanced provider settings and filtering configurations described in [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) to local traffic captures; however, some settings will have a different meaning, such as the **All Layers** setting, depending on whether you are capturing from the local host versus a VM that is serviced by a local Hyper-V-Switch. For more information about advanced filtering, see [Configuring Host Adapter and Hyper-V-Switch Filters](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md#BKMK_HostSwitchFilterConfig).  
+-   **Local Network Interfaces** scenario — as previously indicated, you can apply the advanced provider settings and filtering configurations described in [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) to local traffic captures; however, some settings will have a different meaning, such as the **All Layers** setting, depending on whether you are capturing from the local host versus a VM that is serviced by a local Hyper-V-Switch. For more information about advanced filtering, see [Configuring Host Adapter and Hyper-V-Switch Filters](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md#BKMK_HostSwitchFilterConfig).  
   
--   **Remote Network Interfaces** scenario — for more information about the requirements for capturing remote traffic, see [Configuring a Remote Capture](../messageanalyzer_content/configuring-a-remote-capture.md). Use this scenario to capture traffic from a remote host or virtual machine that is serviced by a Hyper-V-Switch.  
+-   **Remote Network Interfaces** scenario — for more information about the requirements for capturing remote traffic, see [Configuring a Remote Capture](configuring-a-remote-capture.md). Use this scenario to capture traffic from a remote host or virtual machine that is serviced by a Hyper-V-Switch.  
   
 -   **Remote Network Interfaces with Drop Information** scenario — also includes several other ETW Providers that are configured with **Keyword** filters to provide event information that identifies dropped packets. Use this scenario to capture traffic from a remote host or virtual machine (VM) that is serviced by a Hyper-V-Switch, when you are interested in determining whether packets are being dropped, possibly by the NDIS stack of a host adapter or the extension layers of a Hyper-V-Switch that is servicing one or more VMs.  
   
@@ -64,7 +64,7 @@ The **Microsoft-Windows-NDIS-PacketCapture** provider works with several **Trace
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring these special filters, see the [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topic, which also includes a figure that shows the **Advanced Settings** dialog for this provider.  
+ **To learn more** about configuring these special filters, see the [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topic, which also includes a figure that shows the **Advanced Settings** dialog for this provider.  
 ___________________\_  
   
 <a name="BKMK_NDISKeywordErrorLevelFilters"></a>   
@@ -74,7 +74,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about configuring ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](../messageanalyzer_content/system-etw-provider-event-keyword-level-settings.md).  
+ **To learn more** about configuring ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
 ___________________\_  
   
 <a name="BKMK_CaptureInPMode"></a>   
@@ -84,8 +84,8 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about capturing data in P-Mode, see [Capturing Remotely in Promiscuous Mode](../messageanalyzer_content/configuring-a-remote-capture.md#BKMK_PromiscuousMode).  
+ **To learn more** about capturing data in P-Mode, see [Capturing Remotely in Promiscuous Mode](configuring-a-remote-capture.md#BKMK_PromiscuousMode).  
 ___________________\_  
   
 ## See Also  
- [Built-In Trace Scenarios](../messageanalyzer_content/built-in-trace-scenarios.md)
+ [Built-In Trace Scenarios](built-in-trace-scenarios.md)

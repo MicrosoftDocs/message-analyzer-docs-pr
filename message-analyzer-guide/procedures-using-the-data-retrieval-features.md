@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Procedures: Using the Data Retrieval Features
-The procedures in this section encapsulate some of the main functionalities described in [Retrieving Message Data](../messageanalyzer_content/retrieving-message-data.md). They serve as simple examples that demonstrate how to use Message Analyzer features to retrieve saved logs and files in the most efficient manner. These procedures, rather than serving as troubleshooting scenarios, also demonstrate the use of some data analysis tools that manipulate loaded data.  
+The procedures in this section encapsulate some of the main functionalities described in [Retrieving Message Data](retrieving-message-data.md). They serve as simple examples that demonstrate how to use Message Analyzer features to retrieve saved logs and files in the most efficient manner. These procedures, rather than serving as troubleshooting scenarios, also demonstrate the use of some data analysis tools that manipulate loaded data.  
   
 > [!NOTE]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
@@ -27,21 +27,21 @@ The procedures in this section encapsulate some of the main functionalities desc
 A brief description of each procedure is included here for review, as follows.  
 ______________________\_  
   
- **[Load and Display Saved Data](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_load-displayTraceData)**  — shows how to browse for saved files that contain a message collection you want to load into Message Analyzer through a Data Retrieval Session and display it in a selected data viewer.  
+ **[Load and Display Saved Data](procedures-using-the-data-retrieval-features.md#BKMK_load-displayTraceData)**  — shows how to browse for saved files that contain a message collection you want to load into Message Analyzer through a Data Retrieval Session and display it in a selected data viewer.  
   
- **[Select Specific Data from a Saved Trace File](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_selectTraceDataFromSource)**  — shows how to select specific data from a saved file by applying a **Session Filter** to the data loading process via a Data Retrieval Session.  
+ **[Select Specific Data from a Saved Trace File](procedures-using-the-data-retrieval-features.md#BKMK_selectTraceDataFromSource)**  — shows how to select specific data from a saved file by applying a **Session Filter** to the data loading process via a Data Retrieval Session.  
   
- **[Display Different Data Viewers for Session Results](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_displayDifferentViews)**  — shows how to view results in selected data viewers that provide different presentation formats to enhance your data analysis perspectives.  
+ **[Display Different Data Viewers for Session Results](procedures-using-the-data-retrieval-features.md#BKMK_displayDifferentViews)**  — shows how to view results in selected data viewers that provide different presentation formats to enhance your data analysis perspectives.  
   
- **[Load Saved Data with the Open Feature](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_loadDataQuikOpen)**  — shows how to quickly load and display data from a saved file by using the **Open** feature.  
+ **[Load Saved Data with the Open Feature](procedures-using-the-data-retrieval-features.md#BKMK_loadDataQuikOpen)**  — shows how to quickly load and display data from a saved file by using the **Open** feature.  
   
- **[Load Saved Data From Recent Files or Drag-and-Drop](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_loadDataRecentFiles)**  — shows how to quickly load and display data from a saved file by using the **Recent Files** list. Also describes the use of drag-and-drop as an alternate method for opening files.  
+ **[Load Saved Data From Recent Files or Drag-and-Drop](procedures-using-the-data-retrieval-features.md#BKMK_loadDataRecentFiles)**  — shows how to quickly load and display data from a saved file by using the **Recent Files** list. Also describes the use of drag-and-drop as an alternate method for opening files.  
   
- **[Apply a Time Filter to Data Loading and Save the Message Collection](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_importSaveMsgCollection)**  — shows how to load a message collection from multiple input files with a **Time Filter** applied; and how to save it to a single file in the default Message Analyzer .matp format.  
+ **[Apply a Time Filter to Data Loading and Save the Message Collection](procedures-using-the-data-retrieval-features.md#BKMK_importSaveMsgCollection)**  — shows how to load a message collection from multiple input files with a **Time Filter** applied; and how to save it to a single file in the default Message Analyzer .matp format.  
   
- **[Load Saved Data from a Text Log](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_LoadTextLogFileData)**  — demonstrates how to load data from a textual .log file into Message Analyzer with the use of a built-in **Text Log Configuration** file.  
+ **[Load Saved Data from a Text Log](procedures-using-the-data-retrieval-features.md#BKMK_LoadTextLogFileData)**  — demonstrates how to load data from a textual .log file into Message Analyzer with the use of a built-in **Text Log Configuration** file.  
   
- **[Retrieve Data from Log Files in Azure Storage BLOB Containers or from an Azure Table](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_RetrieveAzureData)**  — demonstrates how to access, load, and view log data that is stored in Azure Storage binary large object (BLOB) containers or data that exists in an Azure table.  
+ **[Retrieve Data from Log Files in Azure Storage BLOB Containers or from an Azure Table](procedures-using-the-data-retrieval-features.md#BKMK_RetrieveAzureData)**  — demonstrates how to access, load, and view log data that is stored in Azure Storage binary large object (BLOB) containers or data that exists in an Azure table.  
   
 > [!IMPORTANT]
 >  At least one procedure in this section makes use of the drag-and-drop feature. If you have not logged off Windows after the first installation of Message Analyzer, please log off and then log back on if you wish to use drag-and-drop. This action ensures that the subsequent logon that follows installation has the appropriate privileges from the Message Capture User Group, which in turn enables Message Analyzer to have the same security context as Windows Explorer; otherwise, drag-and-drop will not work.  
@@ -67,7 +67,7 @@ ______________________\_
   
 5.  In the files list that displays, ensure that there is a check mark in the check box next to the file/s that contain the data you want to load, or alternatively, remove the check mark from files that contain data which, for the moment, you do not want to load.  
   
-     If you have a large number of files in the list and you need to search for suitably named files that contain specific data, as described in [Naming Saved Files](../messageanalyzer_content/naming-saved-files.md), enter the appropriate file name characters in the search box on the **Files** tab toolbar to highlight them in the list.  
+     If you have a large number of files in the list and you need to search for suitably named files that contain specific data, as described in [Naming Saved Files](naming-saved-files.md), enter the appropriate file name characters in the search box on the **Files** tab toolbar to highlight them in the list.  
   
 6.  Ensure that the **Start With** drop-down list in the **New Session** dialog specifies the default **Analysis Grid** viewer, or alternatively, select a different viewer.  
   
@@ -87,7 +87,7 @@ ______________________\_
      If your data viewer is the **Analysis Grid**, note that the new data you are adding is appended to the existing set of messages in the tree grid of this viewer.  
   
 > [!TIP]
->  When analyzing data that you loaded from multiple input data sources, as described in [Configuring Session Scenarios with Selected Data Sources](../messageanalyzer_content/configuring-session-scenarios-with-selected-data-sources.md), you have the option to organize and summarize the loaded data into Groups that are labeled by data source name. To do this, locate the **DataSource** field in the **General** category of the **Field Chooser**  **Tool Window** and then execute the **Add as Grouping** command by selecting it from the context menu that displays after you right-click the **DataSource** field.  
+>  When analyzing data that you loaded from multiple input data sources, as described in [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md), you have the option to organize and summarize the loaded data into Groups that are labeled by data source name. To do this, locate the **DataSource** field in the **General** category of the **Field Chooser**  **Tool Window** and then execute the **Add as Grouping** command by selecting it from the context menu that displays after you right-click the **DataSource** field.  
   
 <a name="BKMK_selectTraceDataFromSource"></a>   
 ## Select Specific Data from a Saved Trace File  
@@ -95,7 +95,7 @@ ______________________\_
   
 #### To select specific data in a Data Retrieval Session  
   
-1.  Perform steps 1 and 2 of the procedure in [Load and Display Saved Data](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_load-displayTraceData).  
+1.  Perform steps 1 and 2 of the procedure in [Load and Display Saved Data](procedures-using-the-data-retrieval-features.md#BKMK_load-displayTraceData).  
   
 2.  On the **Files** tab toolbar, ensure that there is a check mark in the **Select Added Files** check box, so that all files that you add to the files list with the **Add Files** feature are automatically included in your data loading configuration.  
   
@@ -122,7 +122,7 @@ ______________________\_
   
 9. In the **Edit Session** dialog, click the **Full Edit** button to enable all configuration features for your Data Retrieval Session.  
   
-10. In the **Edit Session** dialog, select a different **Session Filter** from the centralized Filter Expression **Library**, for example, `#DiagnosisTypes==2`. If you select this filter, you will load and view only the messages that contain validation errors, for analysis purposes. A validation error is an indication that a message does not align with its protocol definition, as described in the [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.  
+10. In the **Edit Session** dialog, select a different **Session Filter** from the centralized Filter Expression **Library**, for example, `#DiagnosisTypes==2`. If you select this filter, you will load and view only the messages that contain validation errors, for analysis purposes. A validation error is an indication that a message does not align with its protocol definition, as described in the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.  
   
 11. After you have modified the Data Retrieval Session by selecting a different **Session Filter** from the centralized **Library**, click the **Apply** button to view the results of the new Data Retrieval Session configuration in the data viewer that you initially selected.  
   
@@ -131,7 +131,7 @@ ______________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](../messageanalyzer_content/editing-existing-sessions.md).  
+     **To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
     ___________________\_  
   
 <a name="BKMK_displayDifferentViews"></a>   
@@ -166,7 +166,7 @@ ______________________\_
      For example, you could select the **TCP Three-Way Handshake** check box to view and analyze the messages — respectively sent from and received by source and destination nodes — that successfully participated in TCP connection handshake communications across the trace timeline.  
   
     > [!TIP]
-    >  Because the **Pattern Match** viewer can interact with the **Analysis Grid** viewer, it may be useful to redock these viewers so that you can more effectively see the results of **Pattern Match** viewer message selection as it displays in the **Analysis Grid** viewer. See [Working with Message Analyzer Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md) for more information.  
+    >  Because the **Pattern Match** viewer can interact with the **Analysis Grid** viewer, it may be useful to redock these viewers so that you can more effectively see the results of **Pattern Match** viewer message selection as it displays in the **Analysis Grid** viewer. See [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md) for more information.  
   
 9. To create a another view of your data, right-click anywhere in the **Session Explorer** window and highlight **New Viewer** in the context menu, and then select the **Gantt** viewer.  
   
@@ -179,10 +179,10 @@ ______________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about the **Protocol Dashboard** viewer,  see the [Protocol Dashboard](../messageanalyzer_content/protocol-dashboard.md) topic.    
-**To learn more** about the many **Layouts** that you can display for the **Chart** viewer,  see the [Chart Viewer Layouts](../messageanalyzer_content/chart-viewer-layouts.md) topic.  
-**To learn more** about Pattern Expressions, including the built-in Pattern Expressions, see the [Pattern Match Viewer](../messageanalyzer_content/pattern-match-viewer.md) section.    
-**To learn more** about the  **Gantt** viewer,  see the [Gantt Viewer](../messageanalyzer_content/gantt-viewer.md) topic.  
+ **To learn more** about the **Protocol Dashboard** viewer,  see the [Protocol Dashboard](protocol-dashboard.md) topic.    
+**To learn more** about the many **Layouts** that you can display for the **Chart** viewer,  see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
+**To learn more** about Pattern Expressions, including the built-in Pattern Expressions, see the [Pattern Match Viewer](pattern-match-viewer.md) section.    
+**To learn more** about the  **Gantt** viewer,  see the [Gantt Viewer](gantt-viewer.md) topic.  
 ___________________\_  
   
 <a name="BKMK_loadDataQuikOpen"></a>   
@@ -202,7 +202,7 @@ ___________________\_
 > [!CAUTION]
 >  If you load a custom \*.log file through the **Open** feature, Message Analyzer will open the **New Session** dialog first to display the configuration for a Data Retrieval Session. This action enables you to select a **Text Log Configuration** file that will fully parse the log data after you **Start** the session, otherwise, it is likely that Message Analyzer will be unable to  parse the data in your custom log data.  
 >   
->  The exception to this is when you have a default configuration file already specified in the **Text Log Files** pane on the **General** tab of the  **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. When this is the case, Message Analyzer does not display the **New Session** dialog, but rather, automatically begins parsing and loading the data from the \*.log file into the default data viewer. Note that Message Analyzer will *fully* parse the .log file data only if the right configuration file is specified, which might be either a custom configuration file that you created, or one of the default configuration files that is provided with every Message Analyzer installation. For more information, see [Opening Text Log Files](../messageanalyzer_content/opening-text-log-files.md).  
+>  The exception to this is when you have a default configuration file already specified in the **Text Log Files** pane on the **General** tab of the  **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. When this is the case, Message Analyzer does not display the **New Session** dialog, but rather, automatically begins parsing and loading the data from the \*.log file into the default data viewer. Note that Message Analyzer will *fully* parse the .log file data only if the right configuration file is specified, which might be either a custom configuration file that you created, or one of the default configuration files that is provided with every Message Analyzer installation. For more information, see [Opening Text Log Files](opening-text-log-files.md).  
   
 > [!NOTE]
 >  If you load a trace file that was saved with one or more out-of-date parsers, Message Analyzer prompts you to reparse the trace.  
@@ -269,21 +269,21 @@ ___________________\_
   
     -   Sorting columns.  
   
-    -   Adding new columns with the **Field Chooser** to display other field data of a protocol or module that exists in your trace results. See [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) for further details.  
+    -   Adding new columns with the **Field Chooser** to display other field data of a protocol or module that exists in your trace results. See [Field Chooser Tool Window](field-chooser-tool-window.md) for further details.  
   
-    -   Executing a right-click **Group** command on one or more **Analysis Grid** viewer columns to group data, for example, the **DiagnosisTypes** column. See [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md) for further details.  
+    -   Executing a right-click **Group** command on one or more **Analysis Grid** viewer columns to group data, for example, the **DiagnosisTypes** column. See [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md) for further details.  
   
-    -   Specifying **Column Filters** in the column search boxes that appear when you click the **Show Column Filter Row** icon next to the **MessageNumber** column of the **Analysis Grid** viewer. See [Filtering Column Data](../messageanalyzer_content/filtering-column-data.md) for further details.  
+    -   Specifying **Column Filters** in the column search boxes that appear when you click the **Show Column Filter Row** icon next to the **MessageNumber** column of the **Analysis Grid** viewer. See [Filtering Column Data](filtering-column-data.md) for further details.  
   
-    -   Specifying a **Viewpoint** from the Filtering toolbar above the main analysis surface where viewer data displays. See [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md) for further details.  
+    -   Specifying a **Viewpoint** from the Filtering toolbar above the main analysis surface where viewer data displays. See [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md) for further details.  
   
-    -   Specifying a  view **Filters** from the Filtering toolbar. See [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md) for further details.  
+    -   Specifying a  view **Filters** from the Filtering toolbar. See [Applying and Managing Filters](applying-and-managing-filters.md) for further details.  
   
-    -   Choosing different viewer **Layouts** that focus on the data of different fields, which includes  **Chart** viewer **Layouts** that contain different types of visualizer components, in **Bar** element, **Pie** slice, **Timeline**, or **Table** grid formats. See [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md), [Grouping Viewer Layouts](../messageanalyzer_content/grouping-viewer.md#BKMK_GroupViewLayouts), and  [Chart Viewer Layouts](../messageanalyzer_content/chart-viewer-layouts.md) for further details.  
+    -   Choosing different viewer **Layouts** that focus on the data of different fields, which includes  **Chart** viewer **Layouts** that contain different types of visualizer components, in **Bar** element, **Pie** slice, **Timeline**, or **Table** grid formats. See [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md), [Grouping Viewer Layouts](grouping-viewer.md#BKMK_GroupViewLayouts), and  [Chart Viewer Layouts](chart-viewer-layouts.md) for further details.  
   
-    -   Selecting different data viewers that enhance your analytical perspectives. See [Data Viewers](../messageanalyzer_content/data-viewers.md) for further details.  
+    -   Selecting different data viewers that enhance your analytical perspectives. See [Data Viewers](data-viewers.md) for further details.  
   
-    -   Applying a removable **Time  Filter** from the Message Analyzer Filtering toolbar to further define the window of time in which to view data. See [Applying a Time Filter to Session Results](../messageanalyzer_content/applying-a-time-filter-to-session-results.md) for further details.  
+    -   Applying a removable **Time  Filter** from the Message Analyzer Filtering toolbar to further define the window of time in which to view data. See [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md) for further details.  
   
 10. Save your data by using the **Save/Export Session** dialog, as follows.  
   
@@ -295,7 +295,7 @@ ___________________\_
   
     -   Choose the **Selected Messages** option after selecting/highlighting one or more messages with your mouse.  
   
-     Note that you have the option to save a message collection in the Message Analyzer native .matp file format, or you can export to a .cap file for use in other applications. See [Compatibility with Exported CAP Files](../messageanalyzer_content/compatibility-with-exported-cap-files.md) for more information about .cap file interoperability with other network troubleshooting tools.  
+     Note that you have the option to save a message collection in the Message Analyzer native .matp file format, or you can export to a .cap file for use in other applications. See [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md) for more information about .cap file interoperability with other network troubleshooting tools.  
   
 11. From the **Save As** dialog, navigate to the directory location where you want to save the selected message data.  
   
@@ -306,18 +306,18 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about manipulating message data for analysis purposes, see the [Analysis Grid Viewer](../messageanalyzer_content/analysis-grid-viewer.md), [Common Data Viewer Features](../messageanalyzer_content/common-data-viewer-features.md), and [Procedures: Using the Data Filtering Features](../messageanalyzer_content/procedures-using-the-data-filtering-features.md) topics.  
-**To learn more** about how to create an input window of time configuration in which to view retrieved data, see [Applying an Input Time Filter to a Data Retrieval Session](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+ **To learn more** about manipulating message data for analysis purposes, see the [Analysis Grid Viewer](analysis-grid-viewer.md), [Common Data Viewer Features](common-data-viewer-features.md), and [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md) topics.  
+**To learn more** about how to create an input window of time configuration in which to view retrieved data, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
 ___________________\_  
   
 <a name="BKMK_LoadTextLogFileData"></a>   
 ## Load Saved Data from a Text Log  
- This procedure shows you how to load data from a text-based .log file. To successfully parse a text log, Message Analyzer requires an OPN configuration file to parse the fields of data in the log. After you load a \*.log file into the **New Session** dialog for a Data Retrieval Session, you will find a **Text Log Configuration** drop-down list that enables you to select from a collection of built-in text log parsers that have common configurations, as described in the “Built-In OPN Configuration Files” section of [Parsing Input Text Log Files](../messageanalyzer_content/message-analyzer-tutorial.md#BKMK_ParsingLogFiles). However, if there is no configuration file in this list that can adequately parse your text log, you will need to create an OPN configuration file to extend Message Analyzer’s parsing capabilities.  
+ This procedure shows you how to load data from a text-based .log file. To successfully parse a text log, Message Analyzer requires an OPN configuration file to parse the fields of data in the log. After you load a \*.log file into the **New Session** dialog for a Data Retrieval Session, you will find a **Text Log Configuration** drop-down list that enables you to select from a collection of built-in text log parsers that have common configurations, as described in the “Built-In OPN Configuration Files” section of [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles). However, if there is no configuration file in this list that can adequately parse your text log, you will need to create an OPN configuration file to extend Message Analyzer’s parsing capabilities.  
   
  ___________________\_  
   
  **More Information**   
- **To learn more** about OPN configuration files, see the latter sections of [Parsing Input Text Log Files](../messageanalyzer_content/message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
+ **To learn more** about OPN configuration files, see the latter sections of [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
 **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) and use it as a development reference to walk through the process of creating a configuration file for your log.  
 ___________________\_  
   
@@ -338,7 +338,7 @@ ___________________\_
     > [!NOTE]
     >  As described earlier, if there is no configuration file that can parse your log/s, you will need to create a custom OPN configuration file for each log file that has a custom format.  
   
-7.  Optionally, configure a **Time Filter** if you want to narrow the focus of the data retrieval process to a specific window of time, as described in [Applying an Input Time Filter to a Data Retrieval Session](../messageanalyzer_content/applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+7.  Optionally, configure a **Time Filter** if you want to narrow the focus of the data retrieval process to a specific window of time, as described in [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
   
 8.  Optionally, select a built-in Filter Expression from the centralized **Library** or configure your own, to create a set of results that focuses on a specific type of data.  
   
@@ -350,18 +350,18 @@ ___________________\_
   
 <a name="BKMK_RetrieveAzureData"></a>   
 ## Retrieve Data from Log Files in Azure Storage BLOB Containers or from an Azure Table  
- The procedures in this section show how to retrieve data from one or more logs that are saved in Azure Storage binary large object (BLOB) containers and from an Azure table. Note that when you retrieve data from an Azure log, a **Text Log Configuration** file is required for parsing the log data. However, this is not the case for Azure tables because Message Analyzer automatically parses each property in an Azure table as a field. For more background information about retrieving Azure data, see [Handling Azure Data](../messageanalyzer_content/handling-azure-data.md).  
+ The procedures in this section show how to retrieve data from one or more logs that are saved in Azure Storage binary large object (BLOB) containers and from an Azure table. Note that when you retrieve data from an Azure log, a **Text Log Configuration** file is required for parsing the log data. However, this is not the case for Azure tables because Message Analyzer automatically parses each property in an Azure table as a field. For more background information about retrieving Azure data, see [Handling Azure Data](handling-azure-data.md).  
   
 <a name="BKMK_LoadAzureLogData"></a>   
 #### To access, load, and view log data from Azure storage BLOB containers  
   
 1.  From the **Start** menu, **Start** page, or task bar of your computer, click the **Microsoft Message Analyzer** icon to launch Message Analyzer.  
   
-2.  Ensure that you have the **AzureStorageLog** parser. You will have it if you have auto-synced the **Azure Storage Parsers Version 1.0** asset collection from the **Asset Manager** dialog and restarted Message Analyzer. If not, follow the general instructions in [Using the AzureStorageLog Parser](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser) to obtain the parser. The Message Analyzer restart is required after you auto-sync to download the **Azure Storage Parsers** package.  
+2.  Ensure that you have the **AzureStorageLog** parser. You will have it if you have auto-synced the **Azure Storage Parsers Version 1.0** asset collection from the **Asset Manager** dialog and restarted Message Analyzer. If not, follow the general instructions in [Using the AzureStorageLog Parser](retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser) to obtain the parser. The Message Analyzer restart is required after you auto-sync to download the **Azure Storage Parsers** package.  
   
 3.  Click the global Message Analyzer **File** menu, highlight **Open**, and then select **From Other File Sources** to open the **File Selector** dialog.  
   
-4.  In the **File Selector** dialog, click the **Add Azure Connection** button to display the **Add Azure Storage Connection** dialog and  then specify an **Account name** and **Account key** in the appropriate text boxes — see [Accessing Log Data in Azure Storage BLOB Containers](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_AccessingAzureLogs).  
+4.  In the **File Selector** dialog, click the **Add Azure Connection** button to display the **Add Azure Storage Connection** dialog and  then specify an **Account name** and **Account key** in the appropriate text boxes — see [Accessing Log Data in Azure Storage BLOB Containers](retrieving-azure-storage-blob-data.md#BKMK_AccessingAzureLogs).  
   
 5.  In the Add Azure Storage Connection dialog, ensure that the **Use HTTPS (Recommended)** option is selected as the **Connection** protocol, then click **OK** to exit the dialog.  
   
@@ -405,12 +405,12 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about working with Azure logs, see [Retrieving Azure Storage Blob Data](../messageanalyzer_content/retrieving-azure-storage-blob-data.md).  
-**To learn more** about the **Asset Manager**, see [Managing Message Analyzer Assets](../messageanalyzer_content/managing-message-analyzer-assets.md).   
-**To learn more** about using the **Field Chooser**, see the [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md) topic.   
-**To learn more** about view **Filters**, see [Applying and Managing Filters](../messageanalyzer_content/applying-and-managing-filters.md).   
-**To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md).  
-**To learn more** about creating grouped data views, see the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.   
+ **To learn more** about working with Azure logs, see [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md).  
+**To learn more** about the **Asset Manager**, see [Managing Message Analyzer Assets](managing-message-analyzer-assets.md).   
+**To learn more** about using the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.   
+**To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
+**To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
+**To learn more** about creating grouped data views, see the [Grouping Viewer](grouping-viewer.md) topic.   
 ___________________\_  
   
 <a name="BKMK_LoadAzureTableData"></a>   
@@ -422,7 +422,7 @@ ___________________\_
   
 3.  In the **New Session** dialog, click **Azure** under **Add Data Source** to open a Data Retrieval Session from where you can target Azure Storage table data.  
   
-4.  On the **Azure** tab of the **New Session** dialog, enter the **Account Name**, **Account Key**, and **Table Name** connection information in the appropriate text boxes. See [Retrieving Azure Storage Table Data](../messageanalyzer_content/retrieving-azure-storage-table-data.md) to locate this information.  
+4.  On the **Azure** tab of the **New Session** dialog, enter the **Account Name**, **Account Key**, and **Table Name** connection information in the appropriate text boxes. See [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md) to locate this information.  
   
 5.  Under the text boxes, select the appropriate connection **Protocol** option to use, which will be either **HTTP** or **HTTPS**.  
   
@@ -435,5 +435,5 @@ ___________________\_
 9. Optionally, display selected Azure table fields in separate columns in the **Analysis Grid** viewer, by utilizing the **Field Chooser** **Tool Window** to expose other data fields of interest. You will need to look for a module in **Field Chooser** that is associated with the Azure table you specified to find the fields you can add for enhanced data analysis.  
   
 ## See Also  
- [Retrieving Azure Storage Blob Data](../messageanalyzer_content/retrieving-azure-storage-blob-data.md)   
- [Retrieving Azure Storage Table Data](../messageanalyzer_content/retrieving-azure-storage-table-data.md)
+ [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)   
+ [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)

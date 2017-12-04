@@ -35,10 +35,10 @@ Designing a trace template consists of adding providers, filters, and other sett
  ___________________\_  
   
  **More Information**   
- **To learn more** about modifying provider configurations, see [Modifying Default Provider Settings](../messageanalyzer_content/modifying-default-provider-settings.md).  
-**To learn more** about saving a trace template as a **Trace Scenario**, see [Saving Trace Scenarios](../messageanalyzer_content/saving-trace-scenarios.md).   
-**To learn more** about creating **Fast Filters** for the **Local Network Interfaces (Win 8 or earlier)** scenario, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
-**To learn more** about how to configure advanced filters for **Remote Network Interfaces** scenarios, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
-**To learn more** about creating filter expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).   
-**To learn more** about how to configure advanced settings for ETW sessions, see [Specifying Advanced ETW Session Configuration Settings](../messageanalyzer_content/specifying-advanced-etw-session-configuration-settings.md).   
+ **To learn more** about modifying provider configurations, see [Modifying Default Provider Settings](modifying-default-provider-settings.md).  
+**To learn more** about saving a trace template as a **Trace Scenario**, see [Saving Trace Scenarios](saving-trace-scenarios.md).   
+**To learn more** about creating **Fast Filters** for the **Local Network Interfaces (Win 8 or earlier)** scenario, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
+**To learn more** about how to configure advanced filters for **Remote Network Interfaces** scenarios, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
+**To learn more** about creating filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).   
+**To learn more** about how to configure advanced settings for ETW sessions, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).   
 ___________________\_

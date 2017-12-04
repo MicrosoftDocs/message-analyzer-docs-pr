@@ -31,16 +31,16 @@ The features that are available to manage asset collection downloads and updates
 -   Searching and filtering asset collections.  
   
  These capabilities are described in the following topics:  
-[Syncing Items on First Startup](../messageanalyzer_content/syncing-items-on-first-startup.md)  
-[Filtering and Searching For Items](../messageanalyzer_content/filtering-and-searching-for-items.md)  
-[Downloading Assets and Auto-Syncing Updates](../messageanalyzer_content/downloading-assets-and-auto-syncing-updates.md)  
+[Syncing Items on First Startup](syncing-items-on-first-startup.md)  
+[Filtering and Searching For Items](filtering-and-searching-for-items.md)  
+[Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)  
   
  ___________________\_  
   
  **More Information**   
- **To learn more** about managing OPN Parser packages, see [Managing Microsoft OPN Parser Packages](../messageanalyzer_content/managing-microsoft-opn-parser-packages.md).   
-**To learn more** about managing the Microsoft subscriber feed, see [Managing the Default Subscriber Feed](../messageanalyzer_content/managing-the-default-subscriber-feed.md).  
+ **To learn more** about managing OPN Parser packages, see [Managing Microsoft OPN Parser Packages](managing-microsoft-opn-parser-packages.md).   
+**To learn more** about managing the Microsoft subscriber feed, see [Managing the Default Subscriber Feed](managing-the-default-subscriber-feed.md).  
 ___________________\_  
   
 ## See Also  
- [Asset Manager](../messageanalyzer_content/asset-manager.md)
+ [Asset Manager](asset-manager.md)

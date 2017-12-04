@@ -24,12 +24,12 @@ This section contains simple procedures that you can run to start coming up to s
  Proceed to the procedures listed immediately below to learn how to use Message Analyzer features and functions to accomplish basic tasks such as the following:  
 ___________________\_  
   
- [Displaying Data Quickly From a Saved Trace File](../messageanalyzer_content/procedures-quick-start.md#BKMK_quickdisplaytracedata)   
- [Starting a Live Trace Session with a Built-In Trace Scenario](../messageanalyzer_content/procedures-quick-start.md#BKMK_startlivecapture)   
- [Starting a Data Retrieval Session](../messageanalyzer_content/procedures-quick-start.md#BKMK_browseSessionLoadData)   
- [Modifying an Existing Data Retrieval Session](../messageanalyzer_content/procedures-quick-start.md#BKMK_ModifyDRSession)   
- [Displaying Different Data Viewers to Change Analysis Perspectives](../messageanalyzer_content/procedures-quick-start.md#BKMK_displaySummaryViews)   
- [Creating and Saving a Customized Trace Scenario](../messageanalyzer_content/procedures-quick-start.md#BKMK_createSaveScenarioTemplate)  
+ [Displaying Data Quickly From a Saved Trace File](procedures-quick-start.md#BKMK_quickdisplaytracedata)   
+ [Starting a Live Trace Session with a Built-In Trace Scenario](procedures-quick-start.md#BKMK_startlivecapture)   
+ [Starting a Data Retrieval Session](procedures-quick-start.md#BKMK_browseSessionLoadData)   
+ [Modifying an Existing Data Retrieval Session](procedures-quick-start.md#BKMK_ModifyDRSession)   
+ [Displaying Different Data Viewers to Change Analysis Perspectives](procedures-quick-start.md#BKMK_displaySummaryViews)   
+ [Creating and Saving a Customized Trace Scenario](procedures-quick-start.md#BKMK_createSaveScenarioTemplate)  
   
 > [!NOTE]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios. This is also true of other procedural content in this Operating Guide.  
@@ -64,7 +64,7 @@ ___________________\_
  ___________________\_  
   
  **More Information**   
- **To learn more** about additional configuration capabilities for a Data Retrieval Session, see [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md).   
+ **To learn more** about additional configuration capabilities for a Data Retrieval Session, see [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).   
 ___________________\_  
   
 <a name="BKMK_startlivecapture"></a>   
@@ -107,9 +107,9 @@ ___________________\_
   
      **More Information**   
      **To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
-    [To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
-    [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](../messageanalyzer_content/procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
-    **To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md).  
+    [To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
+    [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
+    **To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).  
     ___________________\_  
   
 > [!CAUTION]
@@ -148,7 +148,7 @@ ___________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about applying a **Session Filter** and/or a **Time Filter**, see [Selecting Data to Retrieve](../messageanalyzer_content/selecting-data-to-retrieve.md).   
+     **To learn more** about applying a **Session Filter** and/or a **Time Filter**, see [Selecting Data to Retrieve](selecting-data-to-retrieve.md).   
     ___________________\_  
   
 9. Click the **Start** button in the **New Session** dialog to begin loading the data into Message Analyzer.  
@@ -159,10 +159,10 @@ ___________________\_
   
      **More Information**   
      **To learn more** about how to manipulate and analyze saved trace data that you have loaded into the Message Analyzer **Analysis Grid** viewer, see the following sections:  
-    [Analysis Grid Viewer](../messageanalyzer_content/analysis-grid-viewer.md)  
-    [Common Data Viewer Features](../messageanalyzer_content/common-data-viewer-features.md)  
-    [Tool Windows](../messageanalyzer_content/tool-windows.md)  
-    [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md)  
+    [Analysis Grid Viewer](analysis-grid-viewer.md)  
+    [Common Data Viewer Features](common-data-viewer-features.md)  
+    [Tool Windows](tool-windows.md)  
+    [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)  
     ____________________  
   
 <a name="BKMK_ModifyDRSession"></a>   
@@ -198,7 +198,7 @@ When loading data from saved files into Message Analyzer, you can select a built
  ___________________\_  
   
  **More Information**   
- **To learn more** about how to manually configure your own Filter Expressions, see [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md).   
+ **To learn more** about how to manually configure your own Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).   
 ___________________\_  
   
 <a name="BKMK_displaySummaryViews"></a>   
@@ -233,7 +233,7 @@ ___________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the **Layouts** that are available for the **Chart** viewer, see the [Chart Viewer Layouts](../messageanalyzer_content/chart-viewer-layouts.md) topic.  
+     **To learn more** about the **Layouts** that are available for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
     ___________________\_  
   
 7.  Double-click any bar element in the **SMB Top Commands** **Bar** graph visualizer component **Layout** to display the corresponding SMB messages in a separate **Analysis Grid** session viewer tab for further analysis.  
@@ -254,7 +254,7 @@ ___________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the **Grouping** viewer, including the **Filtering Mode** and **Selection Mode** of operation, refer to the [Grouping Viewer](../messageanalyzer_content/grouping-viewer.md) topic.   
+     **To learn more** about the **Grouping** viewer, including the **Filtering Mode** and **Selection Mode** of operation, refer to the [Grouping Viewer](grouping-viewer.md) topic.   
     ___________________\_  
   
 11. Next, right-click the node for the Data Retrieval Session in **Session Explorer**, highlight **New Viewer**, and then select **Pattern Match** to display the **Pattern Match** viewer.  
@@ -264,7 +264,7 @@ ___________________\_
      ____________________  
   
      **More Information**   
-     **To learn more** about **Pattern** matching, refer to the [Pattern Match Viewer](../messageanalyzer_content/pattern-match-viewer.md) topic.   
+     **To learn more** about **Pattern** matching, refer to the [Pattern Match Viewer](pattern-match-viewer.md) topic.   
     ____________________  
   
 12. To quickly vary your analysis perspectives, poll through the various views of data by clicking the viewer nodes under each session name in **Session Explorer**, or select different viewer tabs in the Message Analyzer main analysis surface.  
@@ -277,7 +277,7 @@ ___________________\_
     >  The **Diagnostics** window is currently a preview feature. To use this tool, you must enable it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu, and you must then restart Message Analyzer.  
   
 > [!TIP]
->  You can compare Live Trace Session results with related data that is loaded into Message Analyzer from a Data Retrieval Session. This provides a convenient method for analyzing current and historical data side-by-side. To learn how to display data viewer tabs side by side, see [Redocking Data Viewers and Tool Windows](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows).  
+>  You can compare Live Trace Session results with related data that is loaded into Message Analyzer from a Data Retrieval Session. This provides a convenient method for analyzing current and historical data side-by-side. To learn how to display data viewer tabs side by side, see [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows).  
   
 <a name="BKMK_createSaveScenarioTemplate"></a>   
 ## Creating and Saving a Customized Trace Scenario  
@@ -317,7 +317,7 @@ ___________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the filtering configurations that you can specify for the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
+     **To learn more** about the filtering configurations that you can specify for the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
     ___________________\_  
   
 6.  In later operating system scenarios, click the **Configure** link to the right of the **Microsoft-Windows-NDIS-PacketCapture** provider in the **ETW Providers** list to display the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog. Select the **Provider** tab in the dialog and then specify an IP Address filtering configuration.  
@@ -327,7 +327,7 @@ ___________________\_
      ___________________\_  
   
      **More Information**   
-     **To learn more** about special filtering configurations that you can specify for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](../messageanalyzer_content/using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
+     **To learn more** about special filtering configurations that you can specify for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
     ___________________\_  
   
 7.  Click the **Save Scenario** button on the **ETW Providers** toolbar to display the **Edit Trace Scenario** dialog and then specify values for the **Name**, **Description**, and **Category** fields.  
@@ -346,11 +346,11 @@ When you save a customized **Trace Scenario**, it becomes a new item in the **Tr
  ___________________\_  
   
  **More Information**   
- **To learn more** about creating **Trace Scenario** templates, see [Creating and Managing Custom Trace Scenarios](../messageanalyzer_content/creating-and-managing-custom-trace-scenarios.md).   
-**To learn more** about managing the **Trace Scenarios** Library as part of the Message Analyzer Sharing Infrastructure, see [Managing Trace Scenarios](../messageanalyzer_content/managing-trace-scenarios.md).   
+ **To learn more** about creating **Trace Scenario** templates, see [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md).   
+**To learn more** about managing the **Trace Scenarios** Library as part of the Message Analyzer Sharing Infrastructure, see [Managing Trace Scenarios](managing-trace-scenarios.md).   
 ___________________\_  
   
 ## See Also  
- [Capturing Message Data](../messageanalyzer_content/capturing-message-data.md)   
- [Retrieving Message Data](../messageanalyzer_content/retrieving-message-data.md)   
- [Data Viewers](../messageanalyzer_content/data-viewers.md)
+ [Capturing Message Data](capturing-message-data.md)   
+ [Retrieving Message Data](retrieving-message-data.md)   
+ [Data Viewers](data-viewers.md)

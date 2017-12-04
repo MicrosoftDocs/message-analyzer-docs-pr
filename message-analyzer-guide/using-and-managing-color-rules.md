@@ -77,7 +77,7 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
   
 -   **Develop** — create, configure, and save your own **Color Rules** in your local **Color Rule** Library.  
   
- Note that you can also **Export** your **Color Rule** items through the Message Analyzer Sharing Infrastructure to a file share that you can configure as a feed to which others may subscribe. In a future Message Analyzer release, the Sharing Infrastructure publishing features will automatically enable others to synchronize to any updates that you make to your **Color Rule** items on the feed. However, you can currently perform a manual configuration process that enables users to synchronize to your item updates, as described in [Manual Item Update Synchronization](../messageanalyzer_content/manual-item-update-synchronization.md).  
+ Note that you can also **Export** your **Color Rule** items through the Message Analyzer Sharing Infrastructure to a file share that you can configure as a feed to which others may subscribe. In a future Message Analyzer release, the Sharing Infrastructure publishing features will automatically enable others to synchronize to any updates that you make to your **Color Rule** items on the feed. However, you can currently perform a manual configuration process that enables users to synchronize to your item updates, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
   
 > [!TIP]
 >  Because it can be time consuming to create your own **Color Rules**, you should take advantage of **Message Analyzer Color Rule** asset collection updates that are periodically available from Microsoft through the **Message Analyzer** feed in the **Asset Manager** dialog, or from other users that have created and shared their **Color Rules**. To do this, you will make use of the auto-sync and download features for user Library asset collections and the Message Analyzer Sharing Infrastructure, which are available from the **Asset Manager**. Since these features provide a convenient and consistent method for managing and sharing these items, you can quickly learn from others how to apply different methods and approaches to problem diagnosis, and thereby realize improvements in your effectiveness and efficiency as a message analysis specialist.  
@@ -85,10 +85,10 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
  ___________________\_  
   
  **More Information**   
- **To learn more** about **Color Rule** management features, see [Managing Color Rules](../messageanalyzer_content/managing-color-rules.md).  
-**To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](../messageanalyzer_content/sharing-infrastructure.md) topic.  
-**To learn more** about auto-syncing and downloading user Library asset collection updates, see [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md).  
+ **To learn more** about **Color Rule** management features, see [Managing Color Rules](managing-color-rules.md).  
+**To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
+**To learn more** about auto-syncing and downloading user Library asset collection updates, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
 ___________________\_  
   
 ## See Also  
- [Applying Color Rules](../messageanalyzer_content/applying-color-rules.md)
+ [Applying Color Rules](applying-color-rules.md)

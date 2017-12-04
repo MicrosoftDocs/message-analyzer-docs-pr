@@ -63,8 +63,8 @@ The **TCP/UDP Conversations by Message Count** view **Layout** for **Charts** is
  ___________________\_  
   
  **More Information**   
- **To learn more** about the integrated analysis environments that are created by the **Profiles** that use the  **TCP/UDP Conversations by Message Count** view **Layout** for **Charts**, see the **Performance Top Down** and **Network Monitor** **Profiles** in the [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md) topic. Note that you can also review related usage scenarios and analysis examples for the **Profiles** in this topic.  
+ **To learn more** about the integrated analysis environments that are created by the **Profiles** that use the  **TCP/UDP Conversations by Message Count** view **Layout** for **Charts**, see the **Performance Top Down** and **Network Monitor** **Profiles** in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic. Note that you can also review related usage scenarios and analysis examples for the **Profiles** in this topic.  
 ___________________\_  
   
 ## See Also  
- [TCP/UDP Conversations by Message Count Top 20](../messageanalyzer_content/tcp-udp-conversations-by-message-count-top-20.md)
+ [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)

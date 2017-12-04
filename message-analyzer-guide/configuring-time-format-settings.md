@@ -28,4 +28,4 @@ For the data viewers that display date-time values, Message Analyzer utilizes th
 >  Although you might set the time display configuration to **Show Time Only**, you will still need to specify a full date and time value when you configure a `#Timestamp` filter, for example, when specifying a **Session Filter** or view **Filter**.  
   
 ## See Also  
- [Setting Message Analyzer Global Options](../messageanalyzer_content/setting-message-analyzer-global-options.md)
+ [Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md)

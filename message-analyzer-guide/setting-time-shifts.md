@@ -35,7 +35,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
   
  After you open the **Shift Time** dialog shown in the figure below, you can apply a time shift that changes the **Time Stamp** values for a set of messages by configuring a time shift with the **Shift Time** dialog controls and then clicking the **Apply** button. In the figure below, a 3-hour time shift is being added to a data source to account for a time zone difference.  
   
- ![Message Analyzer Shift Time dialog](../messageanalyzer_content/media/fig62-message-analyzer-shift-time-dialog.png "Fig62-Message Analyzer Shift Time dialog")  
+ ![Message Analyzer Shift Time dialog](media/fig62-message-analyzer-shift-time-dialog.png "Fig62-Message Analyzer Shift Time dialog")  
   
  **Figure 62: Message Analyzer Shift Time dialog**  
   

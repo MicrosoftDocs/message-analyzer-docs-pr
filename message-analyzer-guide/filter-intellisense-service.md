@@ -53,7 +53,7 @@ manager: "ronstarr"
   
 -   Query Name Reference Resolver  
   
- The presentation of statement completion text in Message Analyzer Filter Expression text boxes occurs in response to the initiation actions specified in [Starting the Filter IntelliSense Service](../messageanalyzer_content/filter-intellisense-service.md#BKMK_StartIntellisenseService). Note that the Filter IntelliSense service is available for view **Filter** configuration on the Filtering toolbar, even while Message Analyzer is still parsing messages.  
+ The presentation of statement completion text in Message Analyzer Filter Expression text boxes occurs in response to the initiation actions specified in [Starting the Filter IntelliSense Service](filter-intellisense-service.md#BKMK_StartIntellisenseService). Note that the Filter IntelliSense service is available for view **Filter** configuration on the Filtering toolbar, even while Message Analyzer is still parsing messages.  
   
  **Interactive Intelligence**   
 The Filter IntelliSense service contains the interpretive intelligence to anticipate the elements for which you might be searching based on the characters you enter. For example, if you enter the text "Port" in a Filter Expression text box, the service matches the prefix and entities such as "PortName" display in the results list; however, element names such as "DestinationPort" do not display. In addition, the portion of the prefix text that matches the entered text is displayed in bold.  
@@ -92,10 +92,10 @@ The Filter IntelliSense service contains the interpretive intelligence to antici
  ___________________\_  
   
  **More Information**   
- **To learn more** about explicit paths, see [Traversing the Message Hierarchy with Explicit Paths](../messageanalyzer_content/using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths).  
-**To learn more** about special methods for traversing a protocol stack, see [Browsing Message Origins](../messageanalyzer_content/using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
-**To learn more** about annotations, see [Accessing Message Properties and Annotations](../messageanalyzer_content/using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations).   
+ **To learn more** about explicit paths, see [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths).  
+**To learn more** about special methods for traversing a protocol stack, see [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
+**To learn more** about annotations, see [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations).   
 ___________________\_  
   
 ## See Also  
- [Using the Filtering Language](../messageanalyzer_content/using-the-filtering-language.md)
+ [Using the Filtering Language](using-the-filtering-language.md)

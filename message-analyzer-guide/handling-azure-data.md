@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Handling Azure Data
-To enhance your troubleshooting experience in the Cloud environment, Message Analyzer provides a simple way for you to browse for, select, and view data from log files that are stored in Azure binary large object (BLOB) containers. To access Azure logs in these containers, Message Analyzer provides a special dialog called the **File Selector**, which enables you to specify Azure connection information, navigate through folders and files in the BLOB containers, and then select the Azure log files you want to open. Message Analyzer also enables you to load input data from Azure tables by creating an **Azure** input configuration from the **New Session** dialog that specifies Azure connection information. The primary difference between Azure table data and the data obtained from an Azure log that is stored in a BLOB container is the format. Azure tables store messages in each row, whereas each column contains a corresponding message property that Message Analyzer parses as a field. Azure log data is typically stored in .log file format, which requires an OPN configuration file for Message Analyzer to parse it, as described in [Using the AzureStorageLog Parser](../messageanalyzer_content/retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser).  
+To enhance your troubleshooting experience in the Cloud environment, Message Analyzer provides a simple way for you to browse for, select, and view data from log files that are stored in Azure binary large object (BLOB) containers. To access Azure logs in these containers, Message Analyzer provides a special dialog called the **File Selector**, which enables you to specify Azure connection information, navigate through folders and files in the BLOB containers, and then select the Azure log files you want to open. Message Analyzer also enables you to load input data from Azure tables by creating an **Azure** input configuration from the **New Session** dialog that specifies Azure connection information. The primary difference between Azure table data and the data obtained from an Azure log that is stored in a BLOB container is the format. Azure tables store messages in each row, whereas each column contains a corresponding message property that Message Analyzer parses as a field. Azure log data is typically stored in .log file format, which requires an OPN configuration file for Message Analyzer to parse it, as described in [Using the AzureStorageLog Parser](retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser).  
   
 > [!NOTE]
 >  The **File Selector** was created to access stored files that Windows **File Explorer** does not support.  
@@ -32,11 +32,11 @@ To enhance your troubleshooting experience in the Cloud environment, Message Ana
   
 ## Loading Azure Data  
  The following subtopics of this section describe how to get started with loading Azure data into Message Analyzer.  
-[Retrieving Azure Storage Blob Data](../messageanalyzer_content/retrieving-azure-storage-blob-data.md)  
-[Retrieving Azure Storage Table Data](../messageanalyzer_content/retrieving-azure-storage-table-data.md)  
+[Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)  
+[Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)  
   
  __________________\_  
   
  **Go To Procedure**   
-For an example of how to retrieve Azure data, see the procedural topic [Retrieve Data from Log Files in Azure Storage BLOB Containers or from an Azure Table](../messageanalyzer_content/procedures-using-the-data-retrieval-features.md#BKMK_RetrieveAzureData).   
+For an example of how to retrieve Azure data, see the procedural topic [Retrieve Data from Log Files in Azure Storage BLOB Containers or from an Azure Table](procedures-using-the-data-retrieval-features.md#BKMK_RetrieveAzureData).   
 __________________\_

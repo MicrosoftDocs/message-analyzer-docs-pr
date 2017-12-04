@@ -30,4 +30,4 @@ As previously stated, Message Analyzer enables you to export trace data in the  
 |ETW provider message (NetEvent)|0xFFE0|  
   
 ## See Also  
- [Saving Files in Native Format](../messageanalyzer_content/saving-files-in-native-format.md)
+ [Saving Files in Native Format](saving-files-in-native-format.md)

@@ -28,4 +28,4 @@ The **HTTP Content Type Volumes** viewer **Layout** for **Charts** displays **HT
  The bar element visualizer component of this **Chart** can help you see at a glance which byte volumes are the largest for any particular content type. In turn, this can provide an indication of the loads being carried by responding web servers. For example, you might double-click the bar element with the highest byte volume to display the associated messages in a separate instance of the **Analysis Grid** viewer. You can then right-click the **Destination** column in the **Analysis Grid** viewer and select the **Group** command to create groups of different web server names along with the number of messages associated with each one. This can tell you immediately which server/s are carrying the highest load for a particular content type, which in turn can provide an indication of web server performance.  
   
 ## See Also  
- [HTTP Content Type Payloads](../messageanalyzer_content/http-content-type-payloads.md)
+ [HTTP Content Type Payloads](http-content-type-payloads.md)

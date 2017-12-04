@@ -30,27 +30,27 @@ The Message Analyzer user audience primarily consists of network administrators,
   
 -   **Basic User Role** — if you are a **Tracer** and you intend to use Message Analyzer only to take traces, save them to file, and then pass them along to colleagues, administrators, or support personnel for analysis, proceed to the following topics to get started quickly with these tasks.  
   
-    -   [Quick Session Startup](../messageanalyzer_content/quick-session-startup.md) — describes all the options for starting a trace session. For example, you can start a Live Trace Session immediately with no session configuration required, by clicking the **Start Local Trace** button on the Message Analyzer **Start Page** to capture messages on the local computer at the Link Layer.  
+    -   [Quick Session Startup](quick-session-startup.md) — describes all the options for starting a trace session. For example, you can start a Live Trace Session immediately with no session configuration required, by clicking the **Start Local Trace** button on the Message Analyzer **Start Page** to capture messages on the local computer at the Link Layer.  
   
          You can also start a Data Retrieval Session to import saved data into Message Analyzer, with no session configuration required, by clicking the **Open** button on the Message Analyzer **Start Page** and then navigating to saved files for selection.  
   
-    -   [Working with Message Analyzer Window Layouts](../messageanalyzer_content/working-with-message-analyzer-window-layouts.md) — optionally, create a basic data display environment by choosing one of the simple built-in **Window Layouts** that organizes data viewers and **Tool Windows** into a preset configuration.  
+    -   [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md) — optionally, create a basic data display environment by choosing one of the simple built-in **Window Layouts** that organizes data viewers and **Tool Windows** into a preset configuration.  
   
-    -   [Performing a Live Capture](../messageanalyzer_content/performing-a-live-capture.md) — provides a summary of two methods that you can use to start  a Live Trace Session quickly, which includes using the **Start Local Trace** and **Favorites** features.  
+    -   [Performing a Live Capture](performing-a-live-capture.md) — provides a summary of two methods that you can use to start  a Live Trace Session quickly, which includes using the **Start Local Trace** and **Favorites** features.  
   
-    -   [Performing Data Retrieval](../messageanalyzer_content/performing-data-retrieval.md) — describes additional options for retrieving input data for Message Analyzer, including loading data from text logs.  
+    -   [Performing Data Retrieval](performing-data-retrieval.md) — describes additional options for retrieving input data for Message Analyzer, including loading data from text logs.  
   
-    -   [Procedures: Quick Start](../messageanalyzer_content/procedures-quick-start.md) — provides several examples of simple procedures that you can perform to see Message Analyzer in action, although some minor configuration is required in these scenarios.  
+    -   [Procedures: Quick Start](procedures-quick-start.md) — provides several examples of simple procedures that you can perform to see Message Analyzer in action, although some minor configuration is required in these scenarios.  
   
-    -   [Saving Session Data](../messageanalyzer_content/saving-session-data.md) — describes how to save Message Analyzer trace data, how session results are saved, and also specifies the default save location.  
+    -   [Saving Session Data](saving-session-data.md) — describes how to save Message Analyzer trace data, how session results are saved, and also specifies the default save location.  
   
 -   **Advanced User Role** — if you are a **Network Administrator**, **Network Support Analyst**, or a **Developer**, and you intend to use Message Analyzer to create custom trace configurations, run live  traces, retrieve saved logs and trace file data, and perform analysis, review the following topics to get started quickly with these tasks.  
   
-    -   [Quick Session Startup](../messageanalyzer_content/quick-session-startup.md) — review this topic to familiarize yourself with various methods for starting a Message Analyzer session quickly.  
+    -   [Quick Session Startup](quick-session-startup.md) — review this topic to familiarize yourself with various methods for starting a Message Analyzer session quickly.  
   
-    -   [New Features and Updates](../messageanalyzer_content/new-features-and-updates.md) — review this topic to obtain an overview of the new and updated features that exist in the current release of Message Analyzer, so that you can leverage them in your work.  
+    -   [New Features and Updates](new-features-and-updates.md) — review this topic to obtain an overview of the new and updated features that exist in the current release of Message Analyzer, so that you can leverage them in your work.  
   
-    -   [Starting a Message Analyzer Session](../messageanalyzer_content/starting-a-message-analyzer-session.md) — review this topic to obtain the following:  
+    -   [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md) — review this topic to obtain the following:  
   
         -   An overview of the configuration options that are available when you are creating a Live Trace Session or Data Retrieval Session.  
   
@@ -58,31 +58,31 @@ The Message Analyzer user audience primarily consists of network administrators,
   
         -   Links to topics that provide in-depth details about capturing and retrieving message data, configuring session scenarios, editing existing sessions, and running procedures that provide examples of how to use the network tracing and data retrieval features. Topics of particular interest might be the following:  
   
-            -   [Targeting Live Data as an Input Source](../messageanalyzer_content/targeting-live-data-as-an-input-source.md)  
+            -   [Targeting Live Data as an Input Source](targeting-live-data-as-an-input-source.md)  
   
-            -   [Configuring a Live Trace Session](../messageanalyzer_content/configuring-a-live-trace-session.md)  
+            -   [Configuring a Live Trace Session](configuring-a-live-trace-session.md)  
   
-            -   [Performing a Live Capture](../messageanalyzer_content/performing-a-live-capture.md)  
+            -   [Performing a Live Capture](performing-a-live-capture.md)  
   
-            -   [Targeting Saved Data as an Input Source](../messageanalyzer_content/targeting-saved-data-as-an-input-source.md)  
+            -   [Targeting Saved Data as an Input Source](targeting-saved-data-as-an-input-source.md)  
   
-            -   [Configuring a Data Retrieval Session](../messageanalyzer_content/configuring-a-data-retrieval-session.md)  
+            -   [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)  
   
-            -   [Performing Data Retrieval](../messageanalyzer_content/performing-data-retrieval.md)  
+            -   [Performing Data Retrieval](performing-data-retrieval.md)  
   
-    -   [Viewing Message Data](../messageanalyzer_content/viewing-message-data.md) — review this topic to learn about a wide assortment of data viewing options that are available for live or saved data, including built-in data viewers, **Chart** viewer **Layouts**, **Tool Windows**, **Window Layouts**, **Profiles**, and other data manipulation tools. Also run procedures that provide examples of how to use data viewers and **Tool Windows**, and how to apply **Filters**, **Viewpoints**, and data **Grouping**. Topics of particular interest might be the following:  
+    -   [Viewing Message Data](viewing-message-data.md) — review this topic to learn about a wide assortment of data viewing options that are available for live or saved data, including built-in data viewers, **Chart** viewer **Layouts**, **Tool Windows**, **Window Layouts**, **Profiles**, and other data manipulation tools. Also run procedures that provide examples of how to use data viewers and **Tool Windows**, and how to apply **Filters**, **Viewpoints**, and data **Grouping**. Topics of particular interest might be the following:  
   
-        -   [Data Viewers](../messageanalyzer_content/data-viewers.md)  
+        -   [Data Viewers](data-viewers.md)  
   
-        -   [Using the Filtering Toolbar](../messageanalyzer_content/using-the-filtering-toolbar.md)  
+        -   [Using the Filtering Toolbar](using-the-filtering-toolbar.md)  
   
-        -   [Tool Windows](../messageanalyzer_content/tool-windows.md)  
+        -   [Tool Windows](tool-windows.md)  
   
-        -   [Working With Message Analyzer Profiles](../messageanalyzer_content/working-with-message-analyzer-profiles.md)  
+        -   [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)  
   
-    -   [Analyzing Message Data](../messageanalyzer_content/analyzing-message-data.md) — review this topic for an overview of Message Analyzer analysis capabilities. Given that viewing message data and analyzing message data are closely related, this topic will give you a better idea of how to use the Message Analyzer viewing features as analysis tools.  
+    -   [Analyzing Message Data](analyzing-message-data.md) — review this topic for an overview of Message Analyzer analysis capabilities. Given that viewing message data and analyzing message data are closely related, this topic will give you a better idea of how to use the Message Analyzer viewing features as analysis tools.  
   
-    -   [Saving Session Data](../messageanalyzer_content/saving-session-data.md) — as described earlier.  
+    -   [Saving Session Data](saving-session-data.md) — as described earlier.  
   
 > [!NOTE]
->  If your tasks fall into the **Advanced User Role** category, you are also encouraged to review the [Message Analyzer Tutorial](../messageanalyzer_content/message-analyzer-tutorial.md) to obtain a broad understanding of Message Analyzer features and functions.
+>  If your tasks fall into the **Advanced User Role** category, you are also encouraged to review the [Message Analyzer Tutorial](message-analyzer-tutorial.md) to obtain a broad understanding of Message Analyzer features and functions.

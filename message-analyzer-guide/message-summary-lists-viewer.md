@@ -19,7 +19,7 @@ Message Analyzer provides the **Message Summary Lists** viewer, which is current
 ## Understanding the Message Summary Lists Viewer  
  Message Analyzer enables you to use the **Message Summary Lists** viewer to obtain statistics that reflect key data points across the time line of a set of trace results. These data points provide basic summary information about a trace at-a-glance, as shown in the figure that follows:  
   
- ![Message Summary Lists viewer](../messageanalyzer_content/media/fig49-message-summary-lists-viewer.png "Fig49-Message Summary Lists viewer")  
+ ![Message Summary Lists viewer](media/fig49-message-summary-lists-viewer.png "Fig49-Message Summary Lists viewer")  
   
  **Figure 49:  Message Summary Lists viewer**  
   
@@ -38,7 +38,7 @@ The statistics data that you can view is organized into three different categori
      ___________________\_  
   
      **More Information**   
-     **To learn more** about **Diagnosis** message types, see the [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
+     **To learn more** about **Diagnosis** message types, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
     ___________________\_  
   
  You can sort each column in any of the indicated categories to organize the data display differently, which includes sorting the heatmap column. The heatmap column in each category provides a color-coded visual representation of the message volume in each category, as indicated by the **Count** column. Higher volumes correspond with the red shades and lower volumes correspond with the blue shades.  
@@ -47,4 +47,4 @@ The statistics data that you can view is organized into three different categori
 >  To isolate the data that is associated with any selected row of data in the **Modules**, **Endpoints**, or **Diagnostics** categories of the **Message Summary Lists** viewer, right-click a data row and select the **Open Selected Items** command in the context menu that appears. Message Analyzer will then open a new **Analysis Grid** viewer session tab to display the data associated with the row you selected, for further examination.  
   
 ## See Also  
- [Message Summary Tiles Viewer](../messageanalyzer_content/message-summary-tiles-viewer.md)
+ [Message Summary Tiles Viewer](message-summary-tiles-viewer.md)

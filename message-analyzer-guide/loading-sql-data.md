@@ -18,7 +18,7 @@ Message Analyzer enables you to retrieve data from a SQL database table by using
   
  The figure that follows shows the interface from which you will work when loading SQL table data into Message Analyzer.  
   
- ![SQL table data retrieval interface](../messageanalyzer_content/media/fig36-sql-table-data-retrieval-interface.png "Fig36-SQL table data retrieval interface")  
+ ![SQL table data retrieval interface](media/fig36-sql-table-data-retrieval-interface.png "Fig36-SQL table data retrieval interface")  
   
  **Figure 36: SQL table data retrieval interface**  
   

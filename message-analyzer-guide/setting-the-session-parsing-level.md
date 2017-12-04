@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Setting the Session Parsing Level
-Message Analyzer provides a collection of built-in **Parsing Level** scenarios that are available for selection in the **New Session** or **Edit Session** dialog. You can specify a single **Parsing Level** for any one particular session only. By carefully choosing a **Parsing Level** that is appropriate for the **Trace Scenario** you are using, as described in [Choosing Parsing Levels](../messageanalyzer_content/setting-the-session-parsing-level.md#BKMK_ChooseParsLevel), you can dramatically improve your Message Analyzer experience because you will be able to do the following:  
+Message Analyzer provides a collection of built-in **Parsing Level** scenarios that are available for selection in the **New Session** or **Edit Session** dialog. You can specify a single **Parsing Level** for any one particular session only. By carefully choosing a **Parsing Level** that is appropriate for the **Trace Scenario** you are using, as described in [Choosing Parsing Levels](setting-the-session-parsing-level.md#BKMK_ChooseParsLevel), you can dramatically improve your Message Analyzer experience because you will be able to do the following:  
   
 -   **Realize performance improvements when loading large traces** — by limiting the level to which Message Analyzer parses, you can quicken processing time, consume less memory, and reduce the overall costs of problem solving.  
   
@@ -76,10 +76,10 @@ Message Analyzer provides a collection of built-in **Parsing Level** scenarios t
  ___________________\_  
   
  **More Information**   
- **To learn more** about the Truncated Parsing mode, see [Detecting and Supporting Message Truncation](../messageanalyzer_content/detecting-and-supporting-message-truncation.md).   
-**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](../messageanalyzer_content/applying-and-managing-viewpoints.md).   
-**To learn more** about downloading **Parsing Level** asset collections or auto-syncing to periodic collection updates as part of the Message Analyzer Sharing Infrastructure, see [Downloading Assets and Auto-Syncing Updates](../messageanalyzer_content/downloading-assets-and-auto-syncing-updates.md).   
+ **To learn more** about the Truncated Parsing mode, see [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md).   
+**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
+**To learn more** about downloading **Parsing Level** asset collections or auto-syncing to periodic collection updates as part of the Message Analyzer Sharing Infrastructure, see [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md).   
 ___________________\_  
   
 ## See Also  
- [Specifying a Parsing Level](../messageanalyzer_content/specifying-a-parsing-level.md)
+ [Specifying a Parsing Level](specifying-a-parsing-level.md)

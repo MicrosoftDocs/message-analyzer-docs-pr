@@ -48,10 +48,10 @@ In this section, you will learn about saving session data to the default locatio
 ______________________\_  
   
 ## In This Section  
- **[Saving Session Data](../messageanalyzer_content/saving-session-data.md)**  — learn how to use the **Save As/Export Session** dialog to save trace results data in the *.matp file format, or to export trace results to a \*.cap file for compatibility with other applications, such as Network Monitor.  
+ **[Saving Session Data](saving-session-data.md)**  — learn how to use the **Save As/Export Session** dialog to save trace results data in the *.matp file format, or to export trace results to a \*.cap file for compatibility with other applications, such as Network Monitor.  
   
- **[Selecting Messages to Save](../messageanalyzer_content/selecting-messages-to-save.md)**  — review the save options that are available, which includes saving **All Messages**, **Filtered Messages**, and **Selected Messages**.  
+ **[Selecting Messages to Save](selecting-messages-to-save.md)**  — review the save options that are available, which includes saving **All Messages**, **Filtered Messages**, and **Selected Messages**.  
   
- **[Saving Files in Native Format](../messageanalyzer_content/saving-files-in-native-format.md)**  — learn about saving data in the default native file formats, saving settings such as comments and bookmarks, and the advantages of reloading data from trace files that you save in the default *.matp format. Also learn about external compatibility with other applications, such as Wireshark.  
+ **[Saving Files in Native Format](saving-files-in-native-format.md)**  — learn about saving data in the default native file formats, saving settings such as comments and bookmarks, and the advantages of reloading data from trace files that you save in the default *.matp format. Also learn about external compatibility with other applications, such as Wireshark.  
   
- **[Naming Saved Files](../messageanalyzer_content/naming-saved-files.md)**  — review some tips and suggestion on naming the trace and log files that you save.
+ **[Naming Saved Files](naming-saved-files.md)**  — review some tips and suggestion on naming the trace and log files that you save.

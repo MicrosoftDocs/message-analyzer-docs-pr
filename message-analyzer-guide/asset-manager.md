@@ -26,7 +26,7 @@ Message Analyzer provides an **Asset Manager** dialog that enables you to manage
   
  **Downloads** tab — displays a page that enables you to view, auto-sync updates, and download **OPN Parser Packages** or user **Library** asset collections, such as **Message Analyzer Chart View Layouts**, **Message Analyzer Charts**, **Message Analyzer Color Rules**, **Message Analyzer Correlations**, **Message Analyzer Grouping Viewer Layouts**, and so on, from the default **Message Analyzer** subscriber feed. The **Downloads** tab of the **Asset Manager** dialog is shown in the figure that follows.  
   
- ![Asset Manager dialog Downloads tab](../messageanalyzer_content/media/fig69-asset-manager-dialog-downloads-tab.png "Fig69-Asset Manager dialog Downloads tab")  
+ ![Asset Manager dialog Downloads tab](media/fig69-asset-manager-dialog-downloads-tab.png "Fig69-Asset Manager dialog Downloads tab")  
   
  **Figure 69: Asset Manager dialog Downloads tab**  
   
@@ -45,7 +45,7 @@ Message Analyzer provides an **Asset Manager** dialog that enables you to manage
   
  **Settings** tab — enables you to view a list of feeds to which you are subscribed, create new feeds for sharing item collections directly with other users, and view which asset collections and **OPN Parser** packages are set to the auto-sync state. You can also manage downloads and auto-syncing from this location. The **Settings** tab of the **Asset Manager** dialog is shown in the figure that follows.  
   
- ![Asset Manager dialog Settings tab](../messageanalyzer_content/media/fig70-asset-manager-dialog-settings-tab.png "Fig70-Asset Manager dialog Settings tab")  
+ ![Asset Manager dialog Settings tab](media/fig70-asset-manager-dialog-settings-tab.png "Fig70-Asset Manager dialog Settings tab")  
   
  **Figure 70: Asset Manager dialog Settings tab**  
   
@@ -61,4 +61,4 @@ Message Analyzer provides an **Asset Manager** dialog that enables you to manage
 -   **Online/Offline** button — when this button is set to **Online**, you automatically receive updates to **Message Analyzer** subscriber feed **Synced Collections** that are set to auto-sync status. When this button is set to **Offline**, you do not receive updates.  
   
 ## See Also  
- [Managing Asset Collection Downloads and Updates](../messageanalyzer_content/managing-asset-collection-downloads-and-updates.md)
+ [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)

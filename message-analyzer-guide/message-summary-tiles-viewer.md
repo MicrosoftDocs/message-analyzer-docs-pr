@@ -21,7 +21,7 @@ Message Analyzer provides the **Message Summary Tiles** viewer, which is current
 ## Message Summary Tiles Viewer Overview  
  The **Message Summary Tiles** data viewer summarizes important data for any set of trace results. It provides a high-level overview of major trace statistics and important values that you can examine at-a-glance to obtain a quick top-level analysis of results. The default configuration of this viewer contains six tiles of summary information, however, you can configure your own summary tiles by selecting from the preset tile types. Some of the preset tile types require custom configuration; for example, the **Field** type, for which you specify fields, properties, annotations, or other values that you select from the **Field Chooser** **Tool Window**. Other preset tile types that you must custom configure are the **Filter** and **Sequence** types, which require you to select a predefined asset type or create your own to add them to the tile configuration. The default configuration of the **Message Summary Tiles** viewer is shown in the figure that follows.  
   
- ![Message Summary Tiles viewer](../messageanalyzer_content/media/fig48-message-summary-tiles-viewer.png "Fig48-Message Summary Tiles viewer")  
+ ![Message Summary Tiles viewer](media/fig48-message-summary-tiles-viewer.png "Fig48-Message Summary Tiles viewer")  
   
  **Figure 48:  Message Summary Tiles viewer**  
   
@@ -61,7 +61,7 @@ Each of the default tiles contain lines of data that are labeled according to pr
      ___________________\_  
   
      **More Information**   
-     **To learn more** about the meaning of diagnostic messages, see the [Diagnosis Category](../messageanalyzer_content/filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
+     **To learn more** about the meaning of diagnostic messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
     ___________________\_  
   
 -   **Source** — provides an indication below the tile name, of the total number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count of the specific sender IP addresses with the top 5 highest message volumes for the current set of trace results.  
@@ -109,4 +109,4 @@ The **Tile Config** editor provides a number of preset tile types, which include
  ______________\_  
   
 ## See Also  
- [Field Chooser Tool Window](../messageanalyzer_content/field-chooser-tool-window.md)
+ [Field Chooser Tool Window](field-chooser-tool-window.md)

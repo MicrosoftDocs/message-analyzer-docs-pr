@@ -25,26 +25,26 @@ In the topics of this section, you will learn how to  install and upgrade Messag
 ______________________\_  
   
 ## In This Section  
- **[New Features and Updates](../messageanalyzer_content/new-features-and-updates.md)**  — learn about the new features that are added to Message Analyzer since the last release, in addition to the latest updates to other product features.  
+ **[New Features and Updates](new-features-and-updates.md)**  — learn about the new features that are added to Message Analyzer since the last release, in addition to the latest updates to other product features.  
   
- **[Installing and Upgrading Message Analyzer](../messageanalyzer_content/installing-and-upgrading-message-analyzer.md)**  — learn how to install and upgrade Message Analyzer, in addition to preserving user-created assets from an existing Message Analyzer installation.  
+ **[Installing and Upgrading Message Analyzer](installing-and-upgrading-message-analyzer.md)**  — learn how to install and upgrade Message Analyzer, in addition to preserving user-created assets from an existing Message Analyzer installation.  
   
- **[Message Analyzer User Roles](../messageanalyzer_content/message-analyzer-user-roles.md)**  — define your user role based on the types of tasks you intend to perform with Message Analyzer and then navigate to topics that support your role.  
+ **[Message Analyzer User Roles](message-analyzer-user-roles.md)**  — define your user role based on the types of tasks you intend to perform with Message Analyzer and then navigate to topics that support your role.  
   
- **[Message Analyzer Feature Summary](../messageanalyzer_content/message-analyzer-feature-summary.md)**  — review a feature summary and get an overview of Message Analyzer capabilities and functions.  
+ **[Message Analyzer Feature Summary](message-analyzer-feature-summary.md)**  — review a feature summary and get an overview of Message Analyzer capabilities and functions.  
   
- **[Quick Session Startup](../messageanalyzer_content/quick-session-startup.md)**  — discover how you can very quickly acquire input data for Message Analyzer with as little as a single click.  
+ **[Quick Session Startup](quick-session-startup.md)**  — discover how you can very quickly acquire input data for Message Analyzer with as little as a single click.  
   
- **[Technology Tutorials](../messageanalyzer_content/technology-tutorials.md)**  — learn about Message Analyzer concepts, usage features, and the technologies on which they are built, for example, the underlying PEF architecture and ETW framework that support Message Analyzer operations.  
+ **[Technology Tutorials](technology-tutorials.md)**  — learn about Message Analyzer concepts, usage features, and the technologies on which they are built, for example, the underlying PEF architecture and ETW framework that support Message Analyzer operations.  
   
- **[Message Analyzer Startup Options](../messageanalyzer_content/message-analyzer-startup-options.md)**  — review various methods for launching Message Analyzer.  
+ **[Message Analyzer Startup Options](message-analyzer-startup-options.md)**  — review various methods for launching Message Analyzer.  
   
- **[Setting Message Analyzer Global Options](../messageanalyzer_content/setting-message-analyzer-global-options.md)**  — learn about the global options that can affect Message Analyzer performance, display configurations, or feature activation.  
+ **[Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md)**  — learn about the global options that can affect Message Analyzer performance, display configurations, or feature activation.  
   
- **[Accessibility](../messageanalyzer_content/accessibility.md)**  — review the accessibility shortcuts that are available with Message Analyzer.  
+ **[Accessibility](accessibility.md)**  — review the accessibility shortcuts that are available with Message Analyzer.  
   
  ___________________\_  
   
  **Go To Procedures**   
-To proceed directly to procedures that demonstrate some simple Message Analyzer tasks, see the **[Procedures: Quick Start](../messageanalyzer_content/procedures-quick-start.md)**.   
+To proceed directly to procedures that demonstrate some simple Message Analyzer tasks, see the **[Procedures: Quick Start](procedures-quick-start.md)**.   
 ___________________\_

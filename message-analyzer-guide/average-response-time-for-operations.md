@@ -23,4 +23,4 @@ The **Average Response Times for Operations** viewer **Layout** for **Charts** p
  To determine which server may be having performance problems, you might be able to isolate that information through filtering. For example, for  HTTP GET methods that are reporting a long average response time, you might apply a view  **Filter** to the **Analysis Grid** viewer such as `HTTP.Method == "GET"` to isolate the Operations that contain the HTTP requests. You can then add  the **ResponseTime** annotation from the **GlobalAnnotations** node in **Field Chooser**  as a new column in the **Analysis Grid** viewer, from where you can correlate the high response time values with the IP address of the web server in the **Destination** column. You might perform a similar filtering operation for an `SMB2.ComNegotiate` request message to a file server.  
   
 ## See Also  
- [Average Elapsed Time for Operations](../messageanalyzer_content/average-elapsed-time-for-operations.md)
+ [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)

@@ -16,7 +16,7 @@ ms.author: "greggill"
 manager: "ronstarr"
 ---
 # Performing Message Analyzer Operations with Unions
-After you create a **Union**, as described in [Creating Unions](../messageanalyzer_content/creating-unions.md), it is a new entity that can function normally in various Message Analyzer operations. However, to facilitate the use of a **Union** in most of the operations described in this section, you will first need to add a column to the **Analysis Grid** viewer based on the **Union** name. To do this, open the **Field Chooser** **Tool Window** by clicking the **Add Columns** button on the **Analysis Grid** viewer toolbar. You can navigate to the **Union** of interest by clicking the root **Unions** node in the **Field Chooser** window to expose the **Unions** that it contains. You can then double-click the **Union** name to add it as an **Analysis Grid** viewer column. Thereafter, you can observe that such a **Union** functions as expected in the following Message Analyzer operations:  
+After you create a **Union**, as described in [Creating Unions](creating-unions.md), it is a new entity that can function normally in various Message Analyzer operations. However, to facilitate the use of a **Union** in most of the operations described in this section, you will first need to add a column to the **Analysis Grid** viewer based on the **Union** name. To do this, open the **Field Chooser** **Tool Window** by clicking the **Add Columns** button on the **Analysis Grid** viewer toolbar. You can navigate to the **Union** of interest by clicking the root **Unions** node in the **Field Chooser** window to expose the **Unions** that it contains. You can then double-click the **Union** name to add it as an **Analysis Grid** viewer column. Thereafter, you can observe that such a **Union** functions as expected in the following Message Analyzer operations:  
   
 -   **Sorting** — to sort a **Union** column in the orders indicated below, click the column header as follows:  
   
@@ -45,8 +45,8 @@ After you create a **Union**, as described in [Creating Unions](../messageanalyz
 -   **Layouts** — after you create a **Union**, you can use the **Field Chooser** window to add it to the **Analysis Grid** viewer as a new column. Thereafter, you can save the current **Analysis Grid** column configuration as a new **Layout** that contains the **Union** column, which you can apply any time you want to recover that particular column configuration.  
   
 ## See Also  
- [Using the Analysis Grid Group Feature](../messageanalyzer_content/using-the-analysis-grid-group-feature.md)   
- [Filtering Live Trace Session Results](../messageanalyzer_content/filtering-live-trace-session-results.md)   
- [Pattern Match Viewer](../messageanalyzer_content/pattern-match-viewer.md)   
- [Creating and Modifying Color Rules](../messageanalyzer_content/creating-and-modifying-color-rules.md)   
- [Applying and Managing Analysis Grid Viewer Layouts](../messageanalyzer_content/applying-and-managing-analysis-grid-viewer-layouts.md)
+ [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
+ [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
+ [Pattern Match Viewer](pattern-match-viewer.md)   
+ [Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)   
+ [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)

@@ -32,11 +32,11 @@ At times, it may be advantageous for you to automate certain Message Analyzer fu
 In the topics of this section that are listed below, you will learn about the PowerShell automation features that are available for Message Analyzer.  
 ______________________\_  
   
- **[Encapsulating Tracing Functionality](../messageanalyzer_content/automating-tracing-functions-with-powershell.md#BKMK_EncapsulatedFunctionality)**  — learn what types of tracing functions you  an automate with PowerShell.  
+ **[Encapsulating Tracing Functionality](automating-tracing-functions-with-powershell.md#BKMK_EncapsulatedFunctionality)**  — learn what types of tracing functions you  an automate with PowerShell.  
   
- **[Using PowerShell Cmdlets](../messageanalyzer_content/automating-tracing-functions-with-powershell.md#BKMK_pshellcmdlets)**  — review the functions of the PowerShell cmdlets that can work with Message Analyzer.  
+ **[Using PowerShell Cmdlets](automating-tracing-functions-with-powershell.md#BKMK_pshellcmdlets)**  — review the functions of the PowerShell cmdlets that can work with Message Analyzer.  
   
- **[Examining a PowerShell Script Example](../messageanalyzer_content/automating-tracing-functions-with-powershell.md#BKMK_PSScriptExample)**  — look over the code for a PowerShell script example that does the following:  
+ **[Examining a PowerShell Script Example](automating-tracing-functions-with-powershell.md#BKMK_PSScriptExample)**  — look over the code for a PowerShell script example that does the following:  
   
 -   Creates a trace session object that is configured for circular capture mode.  
   
@@ -48,10 +48,10 @@ ______________________\_
   
 -   Specifies a file name and path where trace data is stored when the session is stopped.  
   
- **[Accessing PowerShell Cmdlets and Help](../messageanalyzer_content/automating-tracing-functions-with-powershell.md#BKMK_AccessingPSFunctionality)**  — learn how to obtain the latest version of PEF cmdlet Help.  
+ **[Accessing PowerShell Cmdlets and Help](automating-tracing-functions-with-powershell.md#BKMK_AccessingPSFunctionality)**  — learn how to obtain the latest version of PEF cmdlet Help.  
   
 > [!IMPORTANT]
->  Before you run any PEF PowerShell cmdlets, ensure that you update the PEF PowerShell cmdlet help for Message Analyzer, as described in [Accessing PowerShell Cmdlets and Help](../messageanalyzer_content/automating-tracing-functions-with-powershell.md#BKMK_AccessingPSFunctionality).  
+>  Before you run any PEF PowerShell cmdlets, ensure that you update the PEF PowerShell cmdlet help for Message Analyzer, as described in [Accessing PowerShell Cmdlets and Help](automating-tracing-functions-with-powershell.md#BKMK_AccessingPSFunctionality).  
   
 <a name="BKMK_EncapsulatedFunctionality"></a>   
 ## Encapsulating Tracing Functionality  
@@ -182,12 +182,12 @@ Start-PefTraceSession -PEFSession $TraceSession01 –Trigger $Trigger02
  ___________________\_  
   
  **More Information**   
- **To learn more** about writing **Trace Filters** and other Filter Expressions, see the [Writing Filter Expressions](../messageanalyzer_content/writing-filter-expressions.md) topic in this Operating Guide. Note that a **Trace Filter** in a PowerShell script performs a function that is identical to a **Session Filter** in the Message Analyzer user interface.  
+ **To learn more** about writing **Trace Filters** and other Filter Expressions, see the [Writing Filter Expressions](writing-filter-expressions.md) topic in this Operating Guide. Note that a **Trace Filter** in a PowerShell script performs a function that is identical to a **Session Filter** in the Message Analyzer user interface.  
 ___________________\_  
   
 <a name="BKMK_AccessingPSFunctionality"></a>   
 ## Accessing PowerShell Cmdlets and Help  
- To take advantage of the functionality provided in the previously described [Using PowerShell Cmdlets](../messageanalyzer_content/automating-tracing-functions-with-powershell.md#BKMK_pshellcmdlets) for Message Analyzer, you must have PowerShell v3.0 installed. PowerShell v3.0 installs automatically with Windows 8 and later operating systems; however, if you are running Windows 7, you will need to install the [Windows Management Framework 3.0](http://go.microsoft.com/fwlink/?LinkId=523822) to obtain a PowerShell v3.0 installation. After you have a PowerShell v3.0 installation in place on your Windows 7 machine, you will need to run the following command to import the PEF PowerShell module into your PowerShell session:   
+ To take advantage of the functionality provided in the previously described [Using PowerShell Cmdlets](automating-tracing-functions-with-powershell.md#BKMK_pshellcmdlets) for Message Analyzer, you must have PowerShell v3.0 installed. PowerShell v3.0 installs automatically with Windows 8 and later operating systems; however, if you are running Windows 7, you will need to install the [Windows Management Framework 3.0](http://go.microsoft.com/fwlink/?LinkId=523822) to obtain a PowerShell v3.0 installation. After you have a PowerShell v3.0 installation in place on your Windows 7 machine, you will need to run the following command to import the PEF PowerShell module into your PowerShell session:   
 `Import-Module PEF`  
 Then, to update the help, run the following command to download the latest cmdlet Help content from TechNet:   
 `Update-Help -Module PEF -Force –Verbose`  
