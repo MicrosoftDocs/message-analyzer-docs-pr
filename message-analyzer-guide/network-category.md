@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6beacbb1-e40f-45d1-8bbf-339ecb1ef373
 caps.latest.revision: 20
-author: "GregGill"
+author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---

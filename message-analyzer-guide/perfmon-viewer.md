@@ -9,7 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c0534605-5c62-41af-8c14-23c9f1ae1a11
 caps.latest.revision: 17
-author: "GregGill"
+author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
