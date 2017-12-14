@@ -5,10 +5,10 @@ ms.date: "10/26/2016"
 ms.prod: "windows-server-threshold"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "networking"
+ms.technology: "networking"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.locale: "en-us"
 ms.assetid: a75d28ec-d646-4274-87c4-a46e6ee33291
 caps.latest.revision: 22
 author: "greggigwg"

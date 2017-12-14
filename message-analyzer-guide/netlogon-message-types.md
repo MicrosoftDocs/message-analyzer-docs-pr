@@ -7,6 +7,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.locale: "en-us"
 ms.assetid: d3bfc501-c144-4c65-a532-9f2be4bf2154
 caps.latest.revision: 16
 author: "greggigwg"
