@@ -1,7 +1,7 @@
 ---
 title: "Installing and Upgrading Message Analyzer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-26"
+ms.date: "10/26/2016"
 ms.prod: "windows-server-threshold"
 ms.reviewer: ""
 ms.suite: ""

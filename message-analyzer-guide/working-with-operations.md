@@ -1,7 +1,7 @@
 ---
 title: "Working With Operations | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-10-27"
+ms.date: "10/27/2016"
 ms.prod: "windows-server-threshold"
 ms.reviewer: ""
 ms.suite: ""
