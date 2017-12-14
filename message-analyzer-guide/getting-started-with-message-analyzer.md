@@ -14,16 +14,20 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Getting Started with Message Analyzer
+
 Message Analyzer takes new approaches to capturing, displaying, and analyzing message traffic, making it vastly different than other tools you may have used. Before you begin using Message Analyzer to capture live messages or retrieve data from saved message files and logs, you should familiarize yourself with its technologies and features. To advance your understanding of Message Analyzer and to get started quickly with its features, you are strongly advised to at least examine the feature summary and review the Message Analyzer Tutorial that are each described in this section. After doing so, you should give Message Analyzer a try by performing the *Quick Start Procedures* indicated below.
 
 ---
 
- **What You Will Learn**
+ **What You Will Learn**  
 In the topics of this section, you will learn how to  install and upgrade Message Analyzer, review a summary of the  major features of Message Analyzer, review technology tutorials, learn about various options for starting Message Analyzer, and configure global Message Analyzer options, as indicated below.
+
 ---
 
 ## In This Section
+
  **[New Features and Updates](new-features-and-updates.md)**  — learn about the new features that are added to Message Analyzer since the last release, in addition to the latest updates to other product features.
 
  **[Installing and Upgrading Message Analyzer](installing-and-upgrading-message-analyzer.md)**  — learn how to install and upgrade Message Analyzer, in addition to preserving user-created assets from an existing Message Analyzer installation.
@@ -44,6 +48,7 @@ In the topics of this section, you will learn how to  install and upgrade Messag
 
 ---
 
- **Go To Procedures**
+ **Go To Procedures**  
 To proceed directly to procedures that demonstrate some simple Message Analyzer tasks, see the **[Procedures: Quick Start](procedures-quick-start.md)**.
+
 ---
