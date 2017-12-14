@@ -22,7 +22,7 @@ The basic unit of workflow and starting point of all Message Analyzer operations
   
 -   **Data Retrieval Session** — enables you to specify a session configuration that acquires input message data from multiple disparate data sources, such as saved files, logs, and others.  
   
- ---  
+---  
   
  **Go To Quick Session Startup**   
 To learn how to immediately start a Message Analyzer session that captures live data at the Link Layer with a single click, see the [Quick Session Startup](quick-session-startup.md) topic.  
@@ -130,7 +130,7 @@ To familiarize yourself with the workflow you will generally follow when creatin
   
     -   To review additional configuration options for a Data Retrieval Session, see [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the topics of this section, you will learn in detail how to  perform the tasks that are described below, which includes how to: capture data live, retrieve saved data, configure different session scenarios, and edit an existing Data Retrieval Session or Live Trace Session.   

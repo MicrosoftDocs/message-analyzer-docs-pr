@@ -39,7 +39,7 @@ Although all Microsoft-defined **Profiles** are ReadOnly, you can still explore 
  **What You Will Learn**   
 In the remaining topics of this section, you will learn more about understanding and working with **Profiles**:  
   
- ---  
+---  
   
  [Understanding the Built-In Profiles](working-with-message-analyzer-profiles.md#BKMK_UnderstandingBIProfiles)   
  [Applying and Managing Profiles](working-with-message-analyzer-profiles.md#BKMK_Applying-ManagingProfiles)   

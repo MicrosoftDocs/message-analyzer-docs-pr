@@ -27,7 +27,7 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
  The material of this section is covered in the following topics:  
   
- ---  
+---  
   
  [Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
  [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   

@@ -20,7 +20,7 @@ This section describes **Tool Windows** that are *message-specific* and *redocka
   
  The following message-specific **Tool Windows** are described in this section:  
   
- ---  
+---  
   
  [Message Details Tool Window](message-details-tool-window.md)   
  [Message Data Tool Window](message-data-tool-window.md)   

@@ -39,28 +39,28 @@ Message Analyzer now conveniently integrates several high-profile filtering func
         > [!NOTE]
         >  The built-in view **Filters** of the centralized Filter Expression **Library** are available from the **Message Analyzer Filters** asset collection, which installs by default with Message Analyzer. You can **Manage** items in this collection from the **Library** drop-down list while other management features are available from the **Asset Manager** dialog that you can open from the global Message Analyzer **Tools** menu.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about working with view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).  
-       ---  
+      ---  
   
     -   **Add Time Filter** — click this list item to display the **Time Filter** panel that contains the time window slider controls along with an **Apply** and **Remove** button. After you configure a window of time in which you want to view data, click the **Apply** button to start the filtering action. Thereafter, you can click the **Remove** button to disable the **Time Filter** effects and return to the original set of trace results, or you can configure and apply another window of time in which to view data.  
   
         > [!TIP]
         >  You have the option to manually specify time stamp values in the **Time Filter** panel **Start Time** and **End Time** text boxes.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about working with **Time Filters**, see [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md).  
-       ---  
+      ---  
   
     -   **Add Viewpoint Filter** — this drop-down item is enabled only after you have applied a **Viewpoint**, as described below, otherwise it is disabled. After you apply a **Viewpoint**, which removes all messages above the selected **Viewpoint** for focused analysis, you might want to drill down further into the data that is displayed at the chosen **Viewpoint**. To achieve this, click the enabled **Add Viewpoint Filter** list item to display the **Viewpoint Filter** panel, from where you can configure and apply a **Viewpoint Filter**.  
   
          Note that this panel has the same controls that exist on the **Filter** panel. The only difference between applying a **Viewpoint Filter** and a view **Filter** is that the action of the former works within the context of the current message set resulting from **Viewpoint** application, while the latter applies to all messages in the current set of overall trace results.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about **Viewpoint Filters**, see [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter).  
@@ -70,24 +70,24 @@ Message Analyzer now conveniently integrates several high-profile filtering func
   
      A special **Viewpoint** that you can apply is **Disable Operations**, which  changes the way top-level message nodes are organized and displayed in the **Analysis Grid**. When you apply this  **Viewpoint**,  Operations are broken apart and their constituent messages are placed in their original chronological sequence, to provide an alternate perspective for data analysis.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
     **To learn more** about **Operations**, see [Working With Operations](working-with-operations.md).   
-   ---  
+  ---  
   
 -   **Flat Message List** — click this button on the Filtering Toolbar to create a message display that is similar to the Network Monitor view, where Operations are removed and messages, including fragments, are reorganized into their original chronological sequence.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about flattening the message display, see [Creating a Flat Message List](creating-a-flat-message-list.md).   
-   ---  
+  ---  
   
  The following topics in this section provide further details on how to use the different components of the Filtering Toolbar:  
   
- ---  
+---  
   
  [Applying and Managing Filters](applying-and-managing-filters.md)   
  [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)   

@@ -30,7 +30,7 @@ This section describes several other **Tool Windows** that you will make regular
   
  The indicated **Tool Windows** are described in the following topics of this section:  
   
- ---  
+---  
   
  [Field Chooser Tool Window](field-chooser-tool-window.md)   
  [Output Tool Window](output-tool-window.md)   

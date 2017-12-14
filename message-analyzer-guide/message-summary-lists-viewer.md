@@ -35,11 +35,11 @@ The statistics data that you can view is organized into three different categori
   
 -   **Diagnostics** — the total **Count** of **DiagnosisType** messages detected in a set of trace results, which includes **Application**, **Validation**, **Insufficient Data**, and **Parsing** message types.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about **Diagnosis** message types, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
-   ---  
+  ---  
   
  You can sort each column in any of the indicated categories to organize the data display differently, which includes sorting the heatmap column. The heatmap column in each category provides a color-coded visual representation of the message volume in each category, as indicated by the **Count** column. Higher volumes correspond with the red shades and lower volumes correspond with the blue shades.  
   

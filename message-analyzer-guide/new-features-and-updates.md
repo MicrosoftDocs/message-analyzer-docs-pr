@@ -112,7 +112,7 @@ This section provides a brief description of the ongoing new and updated feature
 -   **Assets** — provides additional assets that includes more **Layouts** for the **Analysis Grid** viewer, **Grouping** viewer, and **Chart** viewer. Also includes a simplified process for  **Chart** viewer **Layout** configuration.  
   
      For more details about these features, see the following topics:  
-    ---  
+   ---  
   
      [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
      [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts)   

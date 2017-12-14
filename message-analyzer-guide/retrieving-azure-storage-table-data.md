@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Retrieving Azure Storage Table Data
 Message Analyzer versions 1.2 and later provide a data input preview feature known as the **Azure Table Import**, which enables you to retrieve data stored in an Azure Storage table. To enable this feature, you will need to select it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. After you click **OK** to exit the **Options** dialog, you must restart Message Analyzer so that the **Azure Table** button appears in the **New Session** dialog, from where you can select it.  
   
- ---  
+---  
   
  **Go To Procedure**   
 To proceed directly to a detailed procedure that you can follow to retrieve Azure Storage table data, see [To access, load, and view data stored in an Azure table](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureTableData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-table-data.md#BKMK_AzureWrkflowOverview).   

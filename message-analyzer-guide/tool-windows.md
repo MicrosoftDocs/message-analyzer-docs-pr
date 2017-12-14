@@ -30,7 +30,7 @@ This section describes various interactive **Tool Windows** that are provided wi
   
  Some **Tool Windows** are *message-specific* while others are *session-specific*, meaning that they respond to message or session selection, respectively, and display data that is associated with the in-focus message or session. An example of a message-specific **Tool Window** is the **Message Stack** window and an example of a session-specific **Tool Window** is the **Diagnostics** window, which are both described within the topics of this section along with other **Tool Window** types:  
   
- ---  
+---  
   
  [Message-Specific Windows](message-specific-windows.md)   
  [Session-Specific Windows](session-specific-windows.md)   

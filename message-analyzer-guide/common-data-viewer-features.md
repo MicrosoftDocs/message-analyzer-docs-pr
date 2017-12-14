@@ -20,7 +20,7 @@ This section describes message processing features that enable you to manipulate
   
  The common data viewer features are described in the following topics:  
   
- ---  
+---  
   
  [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
  [Filtering Data Sources](filtering-data-sources.md)   

@@ -66,7 +66,7 @@ Message Analyzer supports parsing and display of Windows software trace preproce
   
     -   **Tracepdb path** — in this text box, specify the path to the command-line tool *Tracepdb* to convert an existing PDB file to TMF. If you have a 64-bit installation of Windows Driver Kit 8.1 or Visual Studio, the path to Tracepbd is as follows: `C:\Program Files (x86)\Windows Kits\8.1\bin\x64\tracepdb.exe`  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about *Tracepdb*, the commands that it provides, and download information, see [Tracepdb](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553034(v=vs.85).aspx).  

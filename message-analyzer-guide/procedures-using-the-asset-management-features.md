@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Procedures: Using the Asset Management Features
 This section contains procedures that demonstrate how to use the Message Analyzer asset collection download, auto-syncing, and sharing features for tasks that you are likely to perform on a consistent basis. Also included is a procedure that shows how to manually configure an asset collection for update synchronization.  
   
- ---  
+---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  

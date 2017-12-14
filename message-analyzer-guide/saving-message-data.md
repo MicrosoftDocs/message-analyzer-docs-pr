@@ -41,7 +41,7 @@ After you have loaded data through a Data Retrieval Session or captured data in 
 > [!NOTE]
 >  In a future release of Message Analyzer, you may be able to save more settings.  
   
- ---  
+---  
   
  **What You Will Learn**   
 In this section, you will learn about saving session data to the default location, the selection options for saving messages, specifying file formats, and naming files, as indicated by the topics below.   

@@ -23,7 +23,7 @@ The procedures in this section encapsulate some of the main functionalities desc
 > [!NOTE]
 >  The procedures serve as simple examples that are intended to demonstrate how to utilize Message Analyzer tracing configurations and other facilities, rather than providing a comprehensive treatment of network troubleshooting. Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
   
- ---  
+---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  

@@ -26,7 +26,7 @@ At times, it may be advantageous for you to automate certain Message Analyzer fu
   
  To enable these scenarios, Message Analyzer provides you with the capability to automate the capture of network messages through PowerShell scripting. Message Analyzer makes this feature available by providing PowerShell commandlets (cmdlets) that programmatically expose PEF message tracing functionality in the PowerShell scripting environment. Other supporting configuration capabilities are also provided in the PowerShell environment to facilitate some basic Trace Session configuration, including automation triggers that define how and when Trace Sessions are started and stopped.  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the topics of this section that are listed below, you will learn about the PowerShell automation features that are available for Message Analyzer.  

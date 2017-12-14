@@ -23,7 +23,7 @@ The **Microsoft-PEF-NDIS-PacketCapture** filter driver enables you to select mes
   
  The different types of **Fast Filters** for the **Microsoft-PEF-NDIS-PacketCapture** provider are described in the following topics:  
   
- ---  
+---  
   
  [OLP Filters](olp-filters.md)   
  [LinkLevelAddress Filters](linkleveladdress-filters.md)   

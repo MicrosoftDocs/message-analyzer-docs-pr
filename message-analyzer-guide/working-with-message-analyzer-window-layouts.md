@@ -34,7 +34,7 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
  The following topics in this section describe how to work with **Window Layouts**.  
   
- ---  
+---  
   
  [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
  [Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   

@@ -20,7 +20,7 @@ This section describes various ways to filter message data in Message Analyzer s
   
  You can even create a Filter Expression that uses an **Alias** (typically a friendly name that replaces some cryptic field value; see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)), and you can save such a filter in the centralized Filter Expression **Library**. This enables you to use the Filter Expression that incorporates an **Alias** as a **Session Filter** or a view **Filter**. Note that you can also create Filter Expressions that include **Unions**.  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the topics of this section, you will specifically learn about Message Analyzer filtering capabilities, which includes filtering imported data in a Data Retrieval Session, filtering data while it is captured in a Live Trace Session, filtering trace results, and learning how to create your own Filter Expressions, as described below.  

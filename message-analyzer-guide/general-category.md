@@ -18,7 +18,7 @@ manager: "ronstarr"
 # General Category
 The built-in viewer **Layouts** for **Charts** that are provided with Message Analyzer are accessible from the locations specified in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. The viewer **Layouts** for **Charts** that are included in the **General** category of the **Message Analyzer Chart View Layouts** asset collection Library consist of the following, as described in this section:  
   
- ---  
+---  
   
  [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)   
  [Average Response Time for Operations](average-response-time-for-operations.md)   

@@ -113,7 +113,7 @@ In a Data Retrieval Session, Message Analyzer enables you to retrieve and aggreg
 ## Getting Started Primers  
  The sections that follow provide brief conceptual tutorials that serve as getting started primers for Message Analyzer functionality. These tutorials correspond to the major tasks that you perform from the Message Analyzer user interface, where you can:  
   
- ---  
+---  
   
  [Capture Message Data](message-analyzer-tutorial.md#BKMK_CapturingMessageData)   
  [Retrieve Message Data](message-analyzer-tutorial.md#BKMK_LoadingMessageData)   
@@ -128,7 +128,7 @@ In a Data Retrieval Session, Message Analyzer enables you to retrieve and aggreg
 ## Capture Message Data  
  When capturing data live, Message Analyzer makes use of various message providers that focus on different layers or types of data. These providers are included in every Message Analyzer installation and consist of common Microsoft-PEF providers, the Microsoft-Windows-NDIS-PacketCapture provider, and various ETW Providers that are registered on the Windows system by default. These providers are briefly described in "Common Message Providers Used by Message Analyzer", which follows. Thereafter, this section describes how to configure and start  a Live Trace Session; provides examples of the Message Analyzer global options you can set;  describes how Message Analyzer integrates event tracing into the capture process; how to optimize ETW sessions; and how Message Analyzer parses  messages from MOF-based system ETW providers. The subject matter is discussed in the following topics.  
   
- ---  
+---  
   
  [Configuring a Live Trace Session](message-analyzer-tutorial.md#BKMK_ConfigLiveTraceSession)   
  [Starting a Live Trace Session](message-analyzer-tutorial.md#BKMK_StartLiveTraceSession)   
@@ -149,27 +149,27 @@ The following message providers are included in Message Analyzer **Trace Scenari
   
     -   **Microsoft-PEF-NDIS-PacketCapture** provider — an ETW-instrumented, Network Data Interface Specification (NDIS) light weight filter (LWF) driver that captures Ethernet frames at the Link Layer and delivers them to Message Analyzer through the ETW infrastructure. Also includes the capability to configure **Fast Filters** that operate efficiently at the driver-level to isolate specific message types, thereby passing less data and reducing system loads and resource consumption.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md).   
-       ---  
+      ---  
   
     -   **Microsoft-PEF-WFP-MessageProvider** — an ETW-instrumented driver that is based on the Windows Filtering Platform (WFP). It captures message traffic above the IP/Network Layer and delivers that traffic to Message Analyzer through the ETW infrastructure. This provider also enables you to configure **Fast Filters** to isolate specific messages of interest and improve trace performance. This provider is now enabled for remote capabilities when capturing data on remote Windows 10 computers only. In addition, you can set the **Select Discarded Packet Events** option when configuring this provider to log discarded packets.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about the **Microsoft-PEF-WFP-MessageProvider**, see [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md).   
-       ---  
+      ---  
   
     -   **Microsoft-PEF-WebProxy** — an ETW-instrumented provider that uses the Fiddler API and acts as an HTTP proxy to intercept and capture all HTTP traffic to and from a client web browser in unencrypted format. Also provides the capability to configure driver-level **Hostname** and **Port** filters to isolate specific messages and improve performance.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about the **Microsoft-PEF-WebProxy** provider, see [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md).   
-       ---  
+      ---  
   
 -   **Microsoft-Windows-NDIS-PacketCapture** provider — an ETW-instrumented provider that has remote capabilities along with special NDIS stack and Hyper-V-Switch extension layer filtering, adapter configurations, packet traversal path directivity, and other filters and specifiers that you can configure.  
   
@@ -350,7 +350,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 ## Retrieve Message Data  
  This section briefly describes  how to create a Data Retrieval Session, how to create a message collection from a set of specified input files (or by selecting a subset of specified  input files),  the  features you can use to *select* specific data from a collection of messages in one or more input files, in addition to how to parse text-based log files (with a .log extension). The subject matter is discussed in the following topics.  
   
- ---  
+---  
   
  [Loading Data into Message Analyzer](message-analyzer-tutorial.md#BKMK_LoadingDataIntoMA)   
  [Acquiring Input From Other Data Sources](message-analyzer-tutorial.md#BKMK_AcquireInputData)   
@@ -382,7 +382,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   
      **Azure Storage Blobs** — Message Analyzer enables you  to browse for, select, and view data from log files that are stored in Azure binary large object (BLOB) containers. You can do this my making use of the **File Selector** dialog, which is accessible by clicking the **From Other File Sources** item in the **Open** drop-down list that appears on the global Message Analyzer **File** menu.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about working with Azure data as an input source to Message Analyzer, see [Handling Azure Data](handling-azure-data.md).  
@@ -390,23 +390,23 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   
 -   **Event Logs** — Message Analyzer enables you to load system event data that is typically displayed in the Microsoft Event Viewer.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about working with system event data in Message Analyzer, see [Loading System Event Log Data](loading-system-event-log-data.md).  
-   ---  
+  ---  
   
 -   **PowerShell** — enables Message Analyzer to acquire input data through PowerShell. For example, you can import data with a saved PowerShell script file that you target as a supported input file type (\*.ps1) through a Data Retrieval Session. The script contained in such a file may invoke specific processes or functions which return data that you can view in Message Analyzer. You also have the option to use a PowerShell interface that is built into Message Analyzer to create a PowerShell query that returns its data to a viewer such as the **Analysis Grid**.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about working with PowerShell as an input source to Message Analyzer, see [Deriving Input Data with PowerShell Scripts](deriving-input-data-with-powershell-scripts.md).  
-   ---  
+  ---  
   
 -   **SQL** — enables you to retrieve data from a SQL database table by using a built-in interface to provide connection information, SQL query code, and a reference timestamp.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about working with SQL data as an input source to Message Analyzer, see [Loading SQL Data](loading-sql-data.md).  
@@ -414,19 +414,19 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   
 -   **OMS** — enables you to load data from Operations Management Suite (OMS) logs through a search interface to OMS Log Analytics that Message Analyzer provides.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about working with OMS data as an input source to Message Analyzer, see [Loading OMS Log Data](loading-oms-log-data.md).  
-   ---  
+  ---  
   
 -   **WPP-generated events** — enables you to parse and display Windows software trace preprocessor (WPP)-generated events in Message Analyzer, which can capture these events live or load them from a saved event trace log (ETL) file. However, you will need to provide a program data base (PDB) or trace message format (TMF) file  that defines the event structure and format so that Message Analyzer can parse the WPP-generated events.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about the configuration required for Message Analyzer to parse  WPP-generated events, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).  
-   ---  
+  ---  
   
 <a name="BKMK_SelectDataToRetrieve"></a>   
 ### Selecting Data to Retrieve  
@@ -493,7 +493,7 @@ The built-in OPN configuration file types that are currently available for selec
 > [!NOTE]
 >  With exception of the configuration files for Azure storage logs, the listed  text log configuration files are contained in  the Message Analyzer **Device and Log File Version 1.4** asset collection that you can configure for automatic downloads and updates from a Microsoft web service through the [Sharing Infrastructure](sharing-infrastructure.md). The configuration files for Azuze storage logs are contained in the **Azure Storage Parsers Version 1.0** asset collection. The management features for the Azure storage parsers and all other Message Analyzer asset collections are available from the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu.  
 >   
-> ---  
+>---  
 >   
 >  **More Information**   
 >  **To learn more** about managing Message Analyzer asset collections, including downloading and auto-syncing any collection for automatic updates, see [Managing Message Analyzer Assets](managing-message-analyzer-assets.md).   
@@ -586,7 +586,7 @@ When you open the **Edit Session** dialog for a running, paused, or stopped Live
   
  The material of this section is covered in the following topics.  
   
- ---  
+---  
   
  [Organizing Messages in the Analysis Grid Viewer](message-analyzer-tutorial.md#BKMK_OrgMessagesInAG)   
  [Grouping Messages in the Analysis Grid Viewer](message-analyzer-tutorial.md#BKMK_GroupingInAG)   
@@ -842,7 +842,7 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
   
  The material that describes these capabilities is included in the sections that follow.  
   
- ---  
+---  
   
  [Using a Session Filter](message-analyzer-tutorial.md#BKMK_UsingSessionFilter)   
  [Using Special Filters for a Live Trace](message-analyzer-tutorial.md#BKMK_UseSpecialFilters)   
@@ -899,7 +899,7 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
   
     -   IP address filters  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about the filtering capabilities of the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
@@ -908,7 +908,7 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
     **To learn more** about **HostName** and **Port** filters, see the [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md) topic.  
     **To learn more** about **Keyword** event and error **Level** filters, see the [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md) topic.  
     **To learn more** about NDIS stack, Hyper-V-Switch extension layer, host adapter, and other special filters, see the [Configuring a Remote Capture](configuring-a-remote-capture.md) and [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topics.  
-   ---  
+  ---  
   
 -   **Time Filter** — you can utilize a **Time Filter** to configure a window of time in which to view the results of a Message Analyzer session. This is particularly useful if you can approximate a time frame in which you suspect a particular issue occurred that you need to detect. It is also useful in situations where you are working with data from multiple input files in different time zones to which you have applied a **Time Shift** and you want to view all the data that exists in a particular time slot, for which you can create a **Time Filter** window.  
   
@@ -925,7 +925,7 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
     > [!IMPORTANT]
     >  Message Analyzer provides you with the versatility to apply a **Time Filter** to the results of a Live Trace Session, the results of a Data Retrieval Session, or to the data loading process.  In the latter case, you can achieve performance enhancements due to the effects of a **Time Filter** on reducing the input message volume that is loaded into Message Analyzer. But this can have an effect on usability when the filtered-out messages have a bearing on the analysis in which you are engaged. When this is the case and you want to recover messages that the input **Time Filter** dropped, you will need to edit the session as described earlier, to create a different **Time Filter** configuration; this also has an impact on usability. Therefore, you might want to further consider the tradeoffs between performance and usability, especially when loading data from very large files.  
     >   
-    > ---  
+    >---  
     >   
     >  **More Information**   
     >  **To learn more** about the impacts on performance and usability with the **Time Filter** feature, see [Considering Performance vs. Usability Factors for Time Filter Application](applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability).  

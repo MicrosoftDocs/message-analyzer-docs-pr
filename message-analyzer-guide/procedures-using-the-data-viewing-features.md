@@ -21,7 +21,7 @@ The procedures in this section demonstrate the use of numerous Message Analyzer 
 > [!IMPORTANT]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic analysis scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
   
- ---  
+---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
@@ -358,7 +358,7 @@ A brief description of each procedure is included here for review, as follows.
 > [!IMPORTANT]
 >  Pairing up request and response messages in Operation nodes for protocols that typically use request/response pairs such as HTTP, DNS, and SMB2, provides immediate access to response messages rather than having to search through potentially hundreds or even thousands of messages to find them. Another advantage of this configuration is that you can readily measure and correlate important values such as **ResponseTime** and **ElapsedTime**, which specify how long it took for the first server response and how long it took to receive all message fragments and complete the Operation, respectively. High values for these times can provide an indication of a poorly responding server in the first case and network latency issues in the second. The **ElapsedTime** is displayed by default in the **Analysis Grid** viewer column layout; however, you must add the **ResponseTime** column by right-clicking it under **Global Annotations** in the **Field Chooser** **Tool Window** and then selecting the **Add as Column** command.  
 >   
-> ---  
+>---  
 >   
 >  **More Information**   
 >  **To learn more** about average response time for Operations, see [Average Response Time for Operations](average-response-time-for-operations.md).  

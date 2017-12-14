@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Message Analyzer Team Blog
 Periodically, members of the Microsoft PEF engineering team post interesting articles on the Message Analyzer Team Blog on TechNet. From the blog site, you can learn about Message Analyzer features from the perspective of those who designed it, which can be invaluable to your Message Analyzer expertise. You will also have the opportunity to ask questions and leave comments about blog posts and you can interact with other Message Analyzer users who may have already solved an issue that you are dealing with. Also, the site is monitored by the PEF engineering team, so you can be assured that your questions and concerns will be addressed.  
   
- ---  
+---  
   
  **[Go To the Message Analyzer Team Blog](http://go.microsoft.com/fwlink/?LinkId=523825)**    
 ---  

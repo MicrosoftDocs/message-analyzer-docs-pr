@@ -35,11 +35,11 @@ The global Message Analyzer **File** menu provides access to the features descri
   
          You also have the capability to run multiple concurrent Live Trace Sessions with different message providers on different target computers by adding one or more **Live Trace** input sources by clicking the **New Data Source** tab and specifying the hosts from which to capture the data. You can also use a single session with a specified message provider to collect data from multiple specified host machines.  
   
-        ---  
+       ---  
   
          **More Information**   
          **To learn more** about starting a new Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
-       ---  
+      ---  
   
         > [!NOTE]
         >  If you intend to *capture* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable any Live Trace Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).  

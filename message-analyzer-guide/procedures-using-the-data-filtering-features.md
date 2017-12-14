@@ -24,7 +24,7 @@ The procedures in this section encapsulate many of the filtering functions descr
 > [!NOTE]
 >  As the person running the procedures in the examples of this section, it is assumed that you are a Network Administrator, or that you are at least familiar with networking concepts.  
   
- ---  
+---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
@@ -36,7 +36,7 @@ A brief description of each procedure is included here for review, as follows.
   
 -   How to apply a **Time Filter** to data that is loaded into Message Analyzer through a Data Retrieval Session that targets input files that consolidate several message sources, so that you can view data in specific windows of time in which problems are suspected to have occurred.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
@@ -462,7 +462,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      For example, if you are working with message data from a protocol that uses request/response pairs (viewed as Operation nodes in the **Analysis Grid** viewer) such as HTTP, SMB, or DNS; ports 80, 445, and 53, respectively; you can add a **ResponseTime** column to the **Analysis Grid** viewer and then sort that column to view the messages that have the highest server response times. Note that high server response times can typically rule out network issues as the cause of delays, providing that operation **TimeElapsed** values are reasonable.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md).   
@@ -671,11 +671,11 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 16. To display statistics associated with all the TCP three-way handshakes in a set of trace results, execute the **TCP Three-Way Handshake** pattern expression in the **Pattern Match** viewer, which is accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar. When the **Pattern Match** viewer is open, click the  **TCP Three-Way Handshake** pattern expression in the **AVAILABLE PATTERNS** list. If any matches are found, they appear in the Matched pattern selector in the **MATCHES** pane of the viewer. To review the discovered data, click the Matched pattern selector to display all instances of TCP three-way handshake patterns and the associated TCP data.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about the **TCP Three-Way Handshake** and other pattern expressions, see [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).  
-   ---  
+  ---  
   
      Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along with surrounding messages potentially related to a failure:  
   

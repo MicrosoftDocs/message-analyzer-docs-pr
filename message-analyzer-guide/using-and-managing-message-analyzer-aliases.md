@@ -30,7 +30,7 @@ Message Analyzer provides an **Aliases** function that enables you to substitute
 ## Alias Example  
  As an example, the IPv6 address of a server, such as `FE80:0:0:0:4D45:3FCD:BDE0:69BE`, can be very difficult to read and keep track of when performing data analysis, as it is difficult to distinguish from other IPv6 addresses. Users often have to create an alternate method of externally mapping these addresses to a more friendly name, for example in a Notepad listing, which can be time-consuming and cumbersome during data analysis. With the Message Analyzer **Aliases** feature, you can simply replace such an IPv6 value with a friendly name such as “WebServer” or “DatabaseServer” to make traffic from the associated **Alias** address immediately obvious.  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the following topics of this section, you will learn how to create, manage, share, and perform Message Analyzer operations with aliases:  

@@ -18,14 +18,14 @@ manager: "ronstarr"
 # Capturing Message Data
 This section describes how to create and configure a new Live Trace Session with Message Analyzer, so that you can quickly begin capturing data from your system. This section also discusses how to focus your Live Trace Session on capturing messages that contain specific types of data, through the selection or modification of various settings, for example selecting one or more message providers, adding built-in or custom filters, and/or specifying a **Parsing Level** to the capture configuration. Other capabilities enable you to focus on capturing remote traffic on specified hosts and virtual machines (VMs), in addition to decrypting certain types of data.  
   
- ---  
+---  
   
  **Go To Session Configuration**   
 Go directly to an overview of Live Trace Session configuration workflow, filtering options, and the features that are available for configuring and starting a new Live Trace Session:  
 [Configuring a Live Trace Session](configuring-a-live-trace-session.md)  
 ---  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the topics of this section, you will learn how to accomplish the tasks indicated below.  

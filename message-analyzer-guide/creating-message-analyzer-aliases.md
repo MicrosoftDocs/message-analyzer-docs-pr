@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Creating Message Analyzer Aliases
 Message Analyzer enables you to create an alphanumeric string value **Alias** for any data field value in the **Analysis Grid** viewer that is of a type that supports aliasing, as described in [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md). You can create an **Alias** for only one data field value at a time; however, you can only create an **Alias** from the **Analysis Grid** viewer, as there are no other facilities to create one. Note that you can apply any alias while Message Analyzer is capturing data in a Live Trace Session or loading messages through a Data Retrieval Session.  
   
- ---  
+---  
   
  **Go To Procedure**   
 To go directly to a procedure that creates an **Alias**, see [Create an Alias for a Data Field Value](procedures-using-the-data-viewing-features.md#BKMK_CreateAlias). However, you are advised to examine the information contained in this section before doing so.  

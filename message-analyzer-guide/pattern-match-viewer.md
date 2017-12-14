@@ -40,7 +40,7 @@ Filtering is an important technique for isolating messages in a trace that meet 
   
  **Figure 43: Pattern Match Viewer**  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the following topics of this section, you will learn about matching message sequences by executing predefined **Pattern** expressions that are provided with the **Pattern Match** viewer. You will also learn about how to view matched instance data and how to create your own **Pattern** expressions:  

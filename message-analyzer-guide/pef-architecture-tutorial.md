@@ -67,11 +67,11 @@ This tutorial briefly describes the main features of the Microsoft Protocol Engi
     > [!NOTE]
     >  The PEF Runtime can also parse messages from system ETW providers that exist on your computer, as long as Message Analyzer was able to retrieve a manifest for them during installation. After Message Analyzer successfully finds and stores the manifest for a system ETW provider, you can capture the  provider's events during a Live Trace Session. However, you must first select the ETW provider you want to use  in the ***Add Providers*** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog during Live Trace Session configuration, as described in [Adding a System ETW Provider](adding-a-system-etw-provider.md).  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about PEF providers and their features, see [PEF Message Providers](pef-message-providers.md).   
-   ---  
+  ---  
   
 -   **Input Adapters** — provide the interfaces that define entry points or “chokepoints” into the PEF Runtime for various Import Entities, in message file formats such as .etl, .cap, .log, .matu, and .matp.  
   

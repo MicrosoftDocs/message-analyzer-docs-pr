@@ -18,14 +18,14 @@ manager: "ronstarr"
 # Retrieving Message Data
 This section provides conceptual details about the Message Analyzer Browse-Select-View (BSV) model and how you can employ its features for rapid and convenient management and processing of the target data that you will load into Message Analyzer through a Data Retrieval Session. It also describes the features that you can use to configure and run a Data Retrieval Session, along with various methods you can use to load saved data directly into Message Analyzer without additional configuration.  
   
- ---  
+---  
   
  **Go To Session Configuration**   
 Go directly to an overview of Data Retrieval Session configuration workflow, filtering options, and other features that are available for configuring and starting a new Data Retrieval Session:   
 [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)  
 ---  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the topics of this section, you will learn how to accomplish the tasks indicated below.  

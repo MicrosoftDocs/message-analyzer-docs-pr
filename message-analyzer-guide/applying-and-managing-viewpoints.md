@@ -36,7 +36,7 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
 ## Using the Viewpoint Features  
  The remaining topics in this section describe the built-in **Viewpoints** that ship with Message Analyzer, applying a **Viewpoint**, how to work with **Viewpoint Filters**, and using the features for managing **Viewpoints**:  
   
- ---  
+---  
   
  [Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
 [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
@@ -61,7 +61,7 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
      This command  can be useful for filtering under an applied **Viewpoint**, when you can only use a **Viewpoint Filter** to isolate particular types of messages, for example,  an HTTP Request or Response message. Otherwise, without Operations disabled, you would be unable to isolate such messages from the default Operation node encapsulation.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  

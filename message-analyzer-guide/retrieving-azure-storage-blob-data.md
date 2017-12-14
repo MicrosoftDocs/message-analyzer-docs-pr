@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Retrieving Azure Storage Blob Data
 This topic shows you how to access and load data into Message Analyzer version 1.3 and later from log files that exist in Azure Storage binary large object (BLOB) containers. For Message Analyzer to successfully load and display this log data, you will need to provide some input connection information in order to access the BLOB repositories where the log data is saved. To access these repositories, you will use the **File Selector** dialog to select the files that contain the data you want to work with. After you specify such files and you exit the dialog, you must select a particular configuration file in your Data Retrieval Session for parsing the log data. If the **AzureStorageLog** configuration file does not exist in the **Text Log Configuration** drop-down list in your Data Retrieval Session configuration, you will need to download it through the Message Analyzer sharing infrastructure, as described in [Using the AzureStorageLog Parser](retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser), and then restart Message Analyzer.  
   
- ---  
+---  
   
  **Go to Procedure**   
 To proceed directly to a detailed procedure that you can follow to retrieve log data from Azure Storage BLOB containers, see [To access, load, and view log data from Azure storage BLOB containers](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureLogData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-blob-data.md#BKMK_AzureWrkflowOverview).  

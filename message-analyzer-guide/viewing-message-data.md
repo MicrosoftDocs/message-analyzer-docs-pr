@@ -20,13 +20,13 @@ This section describes various aspects of viewing and analyzing data with Messag
   
  Message Analyzer enables you to evaluate your message data with the primary analysis surface known as the **Analysis Grid** viewer, which provides a rich set of analysis features. Other common data viewers include the **Grouping**, **Pattern Match**,  **Gantt**, and other viewers that are described in the [Data Viewers](data-viewers.md) section. Message Analyzer also provides a **Chart** viewer for which you can select a host of built-in view **Layouts**. These layouts use graphic visualizer components to provide a high-level overview of message data  in various  formats or to  present focused details and statistical summaries of the data. The built-in **Layouts** for **Charts** are provided by default in every Message Analyzer installation and enable you to uniquely enhance your analysis perspectives for problem solving. Note that you can specify these view **Layouts** for data that you either captured with a Live Trace Session or loaded through a Data Retrieval Session.  
   
- ---  
+---  
   
  **Go To Session Analysis Tools**   
 Given that viewing message data and analyzing message data are closely related, you can proceed directly to a brief summary of the analysis tools that are available in Message Analyzer. By reviewing the topic immediately below, you will have a better idea of how to use the Message Analyzer  features that are described in this section as analysis tools, which includes data viewers, tool windows, and other features that interact with message data during the analysis process:   
 [Analyzing Message Data](analyzing-message-data.md)  
   
- ---  
+---  
   
  **What You Will Learn**   
 In the topics of this section indicated below, you can first review some background information about the Message Analyzer viewing infrastructure and then learn how to use it to present data in various viewer formats, select **Chart** viewer **Layouts** for high-level overviews of data, manipulate the data presented in those viewers, and work with the interactive **Tool Windows**.   

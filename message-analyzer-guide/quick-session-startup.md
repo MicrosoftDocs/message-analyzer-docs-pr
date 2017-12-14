@@ -53,8 +53,8 @@ If you have not yet started Message Analyzer, see [Starting Message Analyzer for
     > [!NOTE]
     >  The **Message Analyzer Trace Scenarios** asset collection also appears in the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog. You can also set Favorites from this location.  
   
-    ---  
+   ---  
   
      **More Information**   
      **To learn more** about the built-in **Trace Scenarios** provided with Message Analyzer, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.  
-   ---
+  ---
