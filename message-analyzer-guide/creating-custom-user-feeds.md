@@ -27,7 +27,7 @@ Although Message Analyzer enables you to stay current with the latest asset coll
   
  However, for users to synchronize with asset collection *updates*, some manual configuration is necessary in the current Message Analyzer release, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md). In future Message Analyzer releases, the Sharing Infrastructure publishing features will automatically enable others to synchronize to updates that you make to your asset collections on any user feed that you create.  
   
- _____________\_  
+---  
   
 ## See Also  
  [Manual Item Update Synchronization](manual-item-update-synchronization.md)

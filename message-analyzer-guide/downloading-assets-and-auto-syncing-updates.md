@@ -56,7 +56,7 @@ If an asset collection is already synced and you click the auto-sync status icon
  **Working with Auto-Synced OPN Parser Packages**   
 In the case of a parser package that is already synced, if you click the auto-sync status icon for the package on the **Settings** tab, the **OPN package update** dialog displays and indicates that the package and its dependencies will no longer be downloaded and automatically installed. If you click **OK** to proceed, the package reverts to the un-synced state, as indicated by the download status icon for the package on both the **Settings** and **Downloads** tab. Thereafter, you still have the option to reinstate the auto-synced state.  
   
- _____________\_  
+---  
   
 ## See Also  
  [User Libraries](user-libraries.md)   

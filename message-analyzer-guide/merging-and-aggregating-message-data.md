@@ -32,7 +32,7 @@ A key feature of the Message Analyzer Browse-Select-View (BSV) model is that it 
 > [!NOTE]
 >  If you initially loaded data from one or more target input files and you then reconfigure the session by specifying one or more additional input files in the **Edit Session** dialog, the message data from the additional files will be *appended* to the existing message data in the **Analysis Grid** viewer after you load the data. If you also change to the **Full Edit** mode in the **Edit Session** dialog and make other configuration changes, Message Analyzer will reload all the data and then display it in chronological order in the **Analysis Grid** viewer, providing that you are using this viewer.  
   
- _____________\_  
+---  
   
 ## See Also  
  [Browse-Select-View Model](browse-select-view-model.md)   

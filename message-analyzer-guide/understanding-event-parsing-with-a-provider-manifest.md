@@ -33,7 +33,7 @@ Message Analyzer traces are based on ETW Providers, which operate in an infrastr
 ## Obtaining a Provider Manifest  
  If you need to obtain a provider manifest for parsing ETW messages, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
   
- ______________\_  
+---  
   
 ## See Also  
  [Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)   

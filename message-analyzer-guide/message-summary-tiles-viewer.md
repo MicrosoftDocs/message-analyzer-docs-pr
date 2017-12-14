@@ -105,7 +105,7 @@ The **Tile Config** editor provides a number of preset tile types, which include
 > [!NOTE]
 >  If you want to add other information based on a specific message field, click the **+** button to display a **(Field)** placeholder item in the **Field Tiles** list, the name for which will change when you select a particular field that you want from the **Field Chooser** **Tool Window**. You can open **Field Chooser** by first selecting the **(Field)** item and then clicking the **Click to Set** button.  
   
- ______________\_  
+---  
   
 ## See Also  
  [Field Chooser Tool Window](field-chooser-tool-window.md)

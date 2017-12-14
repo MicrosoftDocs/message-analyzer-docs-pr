@@ -52,7 +52,7 @@ The Message Analyzer Sharing Infrastructure is a centralized framework that inte
   
  The topics below provide further details about the **Asset Manager** functions, user asset collection Libraries,  and how to manage these Libraries.  
   
- _____________\_  
+---  
   
 ## See Also  
  [Asset Manager](asset-manager.md)   

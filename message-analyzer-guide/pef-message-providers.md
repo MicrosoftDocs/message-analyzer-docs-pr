@@ -45,7 +45,7 @@ Message Analyzer can make use of many different message providers when capturing
   
  `c:\Windows\System32\`  
   
- ______________\_  
+---  
   
 ## See Also  
  [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest)
