@@ -177,7 +177,7 @@ If you want to create a custom **Layout**, you will need to edit an existing **L
   
  In the topic that follows, a link to which is given  immediately below, you will learn how to use  the controls of the **Edit Chart Layout** dialog to edit an existing **Layout**. After you complete your modifications, you will then learn how to save your changes as a custom **Layout** of your own design.  
   
- ___________________________________\_  
+---
   
  [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)   
- ___________________________________\_
+---

@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Using the Filtering Language
 The topics of this section as listed below describe how to use various features of the Filtering Language.  
   
- ___________________________________\_  
+---  
   
  [Using Truncated Filter Expressions](using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
  [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
