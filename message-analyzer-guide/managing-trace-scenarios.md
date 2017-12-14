@@ -47,8 +47,8 @@ The **Manage Trace Scenario** dialog also enables you to open the **Edit Trace S
   
  You can also create a copy of any **Trace Scenario** in any category, for example to move a copy to the **My Items** **Category**, by right-clicking any **Trace Scenario** in the **Manage Trace Scenario** dialog and selecting the **Create a Copy** item in the context menu that displays. When you do this, the **Edit Trace Scenario** dialog displays, from where you can modify any of the previously indicated parameters associated with the scenario and then **Save** it. Lastly, if you want to remove a **Trace Scenario** from the **My Items** category of the Library, you can right-click the scenario and select the **Delete** item in the same context menu. Note that the **Delete** command in the right-click context menu is disabled for all of the predefined **Trace Scenarios**, which prevents the removal of any of the predefined scenarios in your Message Analyzer installation.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Message Analyzer Sharing Infrastructure and the common **Manage \<AssetType>** dialog format that is used to manage various Message Analyzer Library asset collections, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.   
-___________________\_
+---

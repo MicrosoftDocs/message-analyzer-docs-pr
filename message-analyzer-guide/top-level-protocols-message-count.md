@@ -27,14 +27,14 @@ The **Top Level Protocols Message Count Layout** for the **Chart** viewer is int
   
  As an example of interactively driving the display of messages, you can double-click any bar element in the **Top Level Protocols Message Count** **Layout** to display the messages in a new instance of the **Analysis Grid** viewer for focused analysis of the messages associated with a particular protocol or module. The **ETW Guids and IDs** **Layout** for the **Grouping** viewer also enables a greater interactive context with additional enhancements to the analysis process.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about interactively analyzing Event log data with the indicated viewing and **Layout** configurations, see the following topics:  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **ETW** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **ETW Guids and IDs** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **ETW Analysis** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
-___________________\_  
+---  
   
 ## See Also  
  [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)

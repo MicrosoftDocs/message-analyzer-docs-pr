@@ -35,12 +35,12 @@ The features that are available to manage asset collection downloads and updates
 [Filtering and Searching For Items](filtering-and-searching-for-items.md)  
 [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about managing OPN Parser packages, see [Managing Microsoft OPN Parser Packages](managing-microsoft-opn-parser-packages.md).   
 **To learn more** about managing the Microsoft subscriber feed, see [Managing the Default Subscriber Feed](managing-the-default-subscriber-feed.md).  
-___________________\_  
+---  
   
 ## See Also  
  [Asset Manager](asset-manager.md)

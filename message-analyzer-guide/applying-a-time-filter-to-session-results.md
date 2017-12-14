@@ -29,11 +29,11 @@ When you apply a **Time Filter** to a Data Retrieval Session, the amount of data
   
  Also note that for some input file types, Message Analyzer may not be able to determine the start and end times, in which case the **Time Filter** controls in the **New Session** dialog for a Data Retrieval Session will be disabled. However, you can always utilize the **Time Filter** feature after the data displays in your Analysis Session, as needed, regardless of the input file type.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about applying a **Time Filter** when loading data from logs and trace files into Message Analyzer, including the file types for which Message Analyzer can determine start and end times, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
-___________________\_  
+---  
   
  **Applying a Time Filter to Live Trace Session Results**   
 On the other hand, if you wait to apply a **Time Filter** to a set of messages that are already displayed in a data viewer such as the **Analysis Grid**, an applied **Time Filter** must check the time stamps on each message in the entire collection against the filtering criteria, which can impact performance if there is a very high message volume. However, usability is improved since you can easily restore the entire message set, including conversation contexts, with a single click of the **Apply** button in the **Time Filter** panel on the Filtering toolbar after altering the time window as needed, for ease of analysis.  

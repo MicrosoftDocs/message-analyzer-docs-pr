@@ -31,11 +31,11 @@ Although Message Analyzer provides many built-in data viewers that attempt to ad
   
 -   **Table** grid  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In the topics of this section, you will learn about the functions of **Chart** **Layout** configuration features, how to use them to create new **Layouts** that you can display whenever you require them for analysis, and how to manage and share your custom **Layout** assets with others, through the Message Analyzer Sharing Infrastructure. A walkthrough of a built-in **Chart** viewer **Layout** that Message Analyzer provides by default is included for the benefit of exposing the behind-the-scenes configuration of a working **Layout** so that you can come up to speed on the process of creating a new **Chart** viewer **Layout**.  
-______________________\_  
+---  
   
 ## In This Section  
  **[Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md)**  — learn about the constraints  with which you must work when creating a **Chart** viewer **Layout** of your own design,  the built-in **Chart** viewer **Layouts** that are provided with Message Analyzer by default, the visualizer components that Message Analyzer uses in the built-in **Chart** viewer **Layouts** and that you can likewise use in your own **Layouts**, along with the criteria for choosing a visualizer component type for a custom **Layout** of your own. You can also read an overview about configuring a custom **Chart** viewer **Layout**.  

@@ -77,9 +77,9 @@ Prior to loading data into Message Analyzer from a specified message collection 
   
  The **Time Filter** configuration that you specify is then applied by Message Analyzer when you start the Data Retrieval Session with a click the **Start** button of the **New Session** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about reconfiguring a Data Retrieval Session and re-running it, see [Editing Existing Sessions](editing-existing-sessions.md).   
 **To learn more** about creating an OPN configuration file for text logs with a proprietary format, the [OPN Configuration File for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document is available as a TechNet download.   
-___________________\_
+---

@@ -47,11 +47,11 @@ This topic describes several methods that you can use to perform a live capture 
     > [!NOTE]
     >  After you create a custom capture configuration for a Live Trace Session, you can save the configuration as a new user **Trace Scenario**. It will then appear in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog, as described in [Saving Trace Scenarios](saving-trace-scenarios.md). You can then run the scenario on demand. Note that you can fully edit or delete any **Trace Scenarios** that you created, whereas, this is not possible for any of the built-in **Trace Scenarios** that install with Message Analyzer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to create a unique capture configuration for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).   
-___________________\_  
+---  
   
 <a name="BKMK_StopPauseRestartSession"></a>   
 ## Managing Session Stop, Pause, Resume, and Restart  

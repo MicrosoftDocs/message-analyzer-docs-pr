@@ -18,11 +18,11 @@ manager: "ronstarr"
 # Retrieving Azure Storage Table Data
 Message Analyzer versions 1.2 and later provide a data input preview feature known as the **Azure Table Import**, which enables you to retrieve data stored in an Azure Storage table. To enable this feature, you will need to select it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. After you click **OK** to exit the **Options** dialog, you must restart Message Analyzer so that the **Azure Table** button appears in the **New Session** dialog, from where you can select it.  
   
- __________________\_  
+ ---  
   
  **Go To Procedure**   
 To proceed directly to a detailed procedure that you can follow to retrieve Azure Storage table data, see [To access, load, and view data stored in an Azure table](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureTableData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-table-data.md#BKMK_AzureWrkflowOverview).   
-__________________\_  
+---  
   
 ## Specifying Connection Information  
  After you start a **New Session** from the Message Analyzer **File** menu and you click the **Azure Table** button, an input configuration appears on the **Azure Table** tab from where you can provide connection information. To enable Message Analyzer to read Azure Storage table data, you will need to obtain and enter the following required information:  
@@ -65,14 +65,14 @@ __________________\_
 > [!TIP]
 >  For analysis purposes, you can quickly create a view **Filter** based on the values of any field with the use of the **Add '\<fieldName>' to Filter** item in the context menu that displays when you right-click a field in the **Details** **Tool Window**, just as you can for any Live Trace Session that has completed. You can also do this for the  column entities in the **Analysis Grid** viewer. Filtering can isolate specific data that you might be looking for, which could be particularly useful when an Azure Storage table contains a high volume of data.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about Message Analyzer session configuration, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).   
 **To learn more** about **Session Filters**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
 **To learn more** about creating filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
-___________________\_  
+---  
   
 ## See Also  
  [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)

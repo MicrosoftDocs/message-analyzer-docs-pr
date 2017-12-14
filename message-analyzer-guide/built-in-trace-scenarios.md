@@ -91,14 +91,14 @@ All Message Analyzer installations include a built-in set of predefined **Trace 
 |**SMB2 Server Full Payloads** <br />Capture SMB2 server provider traffic with the payload; exposes data being transferred in Reads and Writes.  Also capture encrypted and DMA-transferred SMB traffic. OS: Windows 8, Windows Server 2012, or later.|Microsoft-Windows-SMBServer|Contains a single Windows provider that is extended for SMB server events.|You might use the **SMB2 Server Full Payloads** scenario to support tracing with SMB filtering so that you can see encrypted data from the SMB server. Provides better performance by filtering out data at the lower levels, such that only SMB packets are passed by the provider.|  
 |**SMB2 Server Header Only** <br /> Capture SMB2 server provider traffic without the payload; increases performance by capturing less data.  Also capture encrypted and DMA-transferred SMB traffic. OS:  Windows 8, Windows Server 2012, or later.|Microsoft-Windows-SMBServer|Contains a single Windows provider that is extended for SMB server events.|You might use the **SMB2 Server Header Only** scenario to support tracing with SMB filtering so that you can retrieve only the headers from packets sent by the SMB server. By capturing only the SMB headers, that is, without the data payload, this provider delivers significant performance improvements.|  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about PEF provider capabilities, including capturing data with the network driver interface specification (NDIS) driver, see the [PEF Message Providers](pef-message-providers.md) topic.  
 **To learn more** about configuring provider settings, see [Modifying Default Provider Settings](modifying-default-provider-settings.md).  
 **To learn more** about provider manifests, see [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md).  
 **To learn more** about managing the **Message Analyzer Trace Scenarios** asset collection, see [Managing Trace Scenarios](managing-trace-scenarios.md).  
-___________________\_  
+---  
   
 ## See Also  
  [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md)

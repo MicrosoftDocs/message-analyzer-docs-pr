@@ -31,9 +31,9 @@ Thereafter, whenever you add a log file of this particular type to the files lis
 > [!NOTE]
 >  Message Analyzer saves the OPN parser configuration with all files that you save in .matp format, to make the data portable from one Message Analyzer installation to another should any differences exist in the parser packages.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about working with text-based log files, see [Opening Text Log Files](opening-text-log-files.md).  
 **To learn more** about creating an OPN configuration file for text-based logs, download the [OPN Configuration File for Text Log Adapter v2](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.  
-___________________\_
+---

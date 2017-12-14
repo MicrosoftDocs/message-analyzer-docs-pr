@@ -18,11 +18,11 @@ manager: "ronstarr"
 # Targeting Saved Data as an Input Source
 From a Data Retrieval Session, you can locate saved data files and build a message collection that contains the data you want to target for input to Message Analyzer. The fastest way to access the configuration for a Data Retrieval Session is to click the **New Session** button on the Message Analyzer **Start** page to display the **New Session** dialog. To begin configuration for a Data Retrieval Session, click the **Files** button under **Add Data Source** in the **New Session** dialog. From the **Files** tab of the **New Session** dialog, you can target the files that contain the saved data you want to load into Message Analyzer. You can then customize your session configuration with the use of various features to optimize Message Analyzer performance in the data retrieval process.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the input file types that Message Analyzer supports, see [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).   
-___________________\_  
+---  
   
 ## Optimizing Data Retrieval  
  By selecting specific input files, specifying a **Session Filter**, and/or configuring a **Time Filter**, you can limit the data that is retrieved, so that smaller, more targeted message sets can be extracted from sources containing high volumes of data. This optimizes the data retrieval process because it results in the following:  

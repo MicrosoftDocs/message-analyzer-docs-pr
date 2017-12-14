@@ -23,11 +23,11 @@ The procedures in this section encapsulate some of the main functionalities desc
 > [!NOTE]
 >  The procedures serve as simple examples that are intended to demonstrate how to utilize Message Analyzer tracing configurations and other facilities, rather than providing a comprehensive treatment of network troubleshooting. Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
   
- ______________________\_  
+ ---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
-______________________\_  
+---  
   
  **[Configure and Run a Local Network Interfaces Trace](procedures-using-the-network-tracing-features.md#BKMK_configStartLinkLayerTrace)**  — provides an example of how to modify the default **Local Network Interfaces** **Trace Scenario**; by specifying an adapter on which to capture messages and by adding a combination of filters to the **Microsoft-PEF-NDIS-PacketCapture** provider configuration on computers running the Windows 7, Windows 8, or Windows Server 2012 operating system; or to the **Microsoft-Windows-NDIS-PacketCapture** provider configuration on computers running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system; that restrict the scope of data retrieval to only messages that pass the defined filtering criteria.  
   
@@ -331,13 +331,13 @@ ______________________\_
 > [!TIP]
 >  When analyzing data that you have captured from multiple remote computers, you have the option to organize and summarize the captured data into groups that are labeled by host (data source) name. You can do this by adding the  **DataSource** field from the **General** category of the **Field Chooser** to the default **Analysis Grid** viewer column **Layout**, and then applying the **Group** command by selecting it from the context menu that displays after you right-click the newly added **DataSource** column.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the extension filtering stack on a Hyper-V-Switch, see [Overview of the Hyper-V Extensible Switch](http://msdn.microsoft.com/en-us/library/windows/hardware/hh582268\(v=vs.85\).aspx) on MSDN.  
 **To learn more** about capturing traffic on a remote host and specifying adapter and filter configurations for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).   
 **To learn more** about the **Field Chooser**, see [Using the Field Chooser](using-the-field-chooser.md).   
-___________________\_  
+---  
   
 <a name="BKMK_designRunTraceScenario"></a>   
 ## Design and Run a Custom Trace Scenario  

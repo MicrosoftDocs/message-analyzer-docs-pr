@@ -18,11 +18,11 @@ manager: "ronstarr"
 # Procedures: Using the Asset Management Features
 This section contains procedures that demonstrate how to use the Message Analyzer asset collection download, auto-syncing, and sharing features for tasks that you are likely to perform on a consistent basis. Also included is a procedure that shows how to manually configure an asset collection for update synchronization.  
   
- ______________________\_  
+ ---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
-______________________\_  
+---  
   
  **[Download and Auto-Sync Asset Collections](procedures-using-the-asset-management-features.md#BKMK_DownloadAutoSync)**  — provides an example of how to download an asset collection once without synchronizing it for updates; how to set a selected asset collection for auto-syncing updates; and how to synchronize all asset collections for updates.  
   

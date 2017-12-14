@@ -28,7 +28,7 @@ To augment your analysis capabilities, the **Grouping** viewer enables you to or
   
  The **Layout** that displays in the **Grouping** viewer by default has a grouped  configuration that consists of  **Network** and **Transport** groups, although many other layouts are available such as the **File Sharing SMB/SMB2**, **TCP Deep Packet Analysis**, and **Process Name and Conversations** **Layouts**, the latter of which organizes data in a way that is similar to the Network Monitor **Conversation Tree**.  Note that many **Grouping** viewer **Layouts** are designed to work with specific **Analysis Grid** viewer **Layouts** to create an interactive analysis environment through  Message Analyzer **Profile** configurations that apply such **Layouts** to these viewers, as described in [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In this section, you will learn about the functions and features of the **Grouping** viewer, as described in the following topics:  
@@ -44,7 +44,7 @@ In this section, you will learn about the functions and features of the **Groupi
 [Editing a Built-In Layout](grouping-viewer.md#BKMK_EditGroupingLayouts)  
 [Creating a Grouping Viewer Layout Template](grouping-viewer.md#BKMK_CreatingViewLayouts)  
 [Managing Grouping View Layouts](grouping-viewer.md#BKMK_ManageGroupViewLayouts)  
-______________________\_  
+---  
   
 <a name="BKMK_UtilizeGroupingCapabiities"></a>   
 ## Utilizing the Grouping Viewer Capabilities  
@@ -74,12 +74,12 @@ ______________________\_
   
  **Figure 42:  Message Analyzer Grouping Viewer with Process Name, ProcessId, and Conversations Layout**  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the **Process Name and Conversations** layout for the **Grouping** viewer, see [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts).    
 **To learn more** about reorganizing Grouped information, see [Manipulating Group Displays](grouping-viewer.md#BKMK_ManipulateGroups).  
-___________________\_  
+---  
   
 <a name="BKMK_GroupViewLayouts"></a>   
 ## Grouping Viewer Layouts  
@@ -252,11 +252,11 @@ ___________________\_
     >   
     >  This improvement to analysis capabilities allows you to backtrack to a previous message selection you may have forgotten or navigate to a previous selection if you lose focus to another viewer. The selection feature maintains context while providing quick and convenient access to messages of interest that you selected for analysis purposes.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about how to use the **Selection** window, see the [Selection Tool Window](selection-tool-window.md) topic.   
-    ___________________\_  
+   ---  
   
 <a name="BKMK_LocatingAGMessages"></a>   
 ## Locating Analysis Grid Messages in the Grouping Viewer  

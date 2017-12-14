@@ -36,13 +36,13 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
 ## Using the Viewpoint Features  
  The remaining topics in this section describe the built-in **Viewpoints** that ship with Message Analyzer, applying a **Viewpoint**, how to work with **Viewpoint Filters**, and using the features for managing **Viewpoints**:  
   
- ______________________________\_  
+ ---  
   
  [Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
 [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
 [Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
 [Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
-______________________________\_  
+---  
   
 <a name="BKMK_ApplyingPredefinedViewpoints"></a>   
 ### Applying a Built-In Viewpoint  
@@ -61,7 +61,7 @@ ______________________________\_
   
      This command  can be useful for filtering under an applied **Viewpoint**, when you can only use a **Viewpoint Filter** to isolate particular types of messages, for example,  an HTTP Request or Response message. Otherwise, without Operations disabled, you would be unable to isolate such messages from the default Operation node encapsulation.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
@@ -155,12 +155,12 @@ In addition, you can share a **Viewpoints** asset collection through a user feed
   
  However, if you opted out, you still have the option to automatically receive periodic collection updates later by setting the **Offline** mode to **Online** on the **Downloads** tab of the **Asset Manager** dialog and then clicking the **Sync All Displayed Items** button to auto-sync all asset collections; or you can set individual collections to the auto-sync state on the **Downloads** tab as you require them. To do this, click the download icon to the right of the collection on the **Downloads** tab and select the **Automatically sync item collection updates when available** option in the **Item Download Options** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the functions of the Filter Expressions in the **Message Analyzer Filters** asset collection, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
 **To learn more** about the Sharing Infrastructure and managing user Library items, downloading asset collections, and auto-syncing asset collection updates, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.   
-___________________\_  
+---  
   
 ## See Also  
  [Using the Filtering Toolbar](using-the-filtering-toolbar.md)

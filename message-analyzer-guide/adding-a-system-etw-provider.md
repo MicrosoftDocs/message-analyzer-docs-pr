@@ -61,11 +61,11 @@ Message Analyzer enables you to expand or narrow the scope of the data that a Li
   
  To enable a **Keyword** filter from the **Advanced Settings** dialog, click the ellipsis (**…**) to the right of the **Keywords (Any)** or **Keywords (All)** text boxes to display the **ETW Keyword Filter Property** dialog. From there, you can place a check mark in one or more of the **Keyword** check boxes for the selected ETW Provider, to cause the provider to return only the events that the **Keyword** enables. Whenever you enable a **Keyword**, you will see that the hexadecimal value in the text box at the bottom of the **ETW Keyword Filter Property** dialog changes to a new value. The default value is the 16-digit hexadecimal number: 0x0000000000000000, which typically signifies that all events for which the provider is configured will be delivered to Message Analyzer, that is, if the events are triggered and written to the ETW Session under which your provider is running during a trace.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the differences between the **Keywords (Any)** and **Keywords (All)** settings, see [Filtering with System ETW Provider Event Keywords and Levels](system-etw-provider-event-keyword-level-settings.md#BKMK_KeywordFiltering).  
-___________________\_  
+---  
   
 ## Correlating Events Defined by Keywords  
  The **Keywords** that you enable will cause the ETW Provider to return only the events that the **Keywords** define. **Keyword** definitions and descriptions are usually specified in the manifest of the ETW Provider with which you are working. To be successful at specifying event **Keyword** configurations, you will need to understand the correlation between **Keywords** and the types of events that will be returned. You may be able to discover this correlative information by employing some of the methods described in [Finding System ETW Provider Metadata](system-etw-provider-event-keyword-level-settings.md#BKMK_FindingKeywords). If you do not specify any **Keywords** for an ETW Provider, the provider will deliver all events that it is configured to provide, just as some ETW Providers that have no **Keyword** configurations do.  
@@ -81,11 +81,11 @@ In scenarios where you want to view WPP events immediately after they are genera
   
  To specify the GUID of the software component that is generating the events, you can enter it in the **Add Custom Provider** dialog, which is accessible from the **Add Providers** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog during Live Trace Session configuration.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the configuration settings for system ETW Providers, including event **Keyword** and error **Level** filter configuration, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).   
 **To learn more** about the ETW framework and system ETW Provider functionality, see the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).  
 **To learn more** about how Message Analyzer supports WPP trace providers, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).   
 **To learn more** about Message Analyzer support for MOF-based providers, including how to register and deploy one, see [Using MOF-Based ETW Providers](message-analyzer-tutorial.md#BKMK_MOFProviders).  
-___________________\_
+---

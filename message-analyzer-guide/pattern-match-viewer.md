@@ -40,7 +40,7 @@ Filtering is an important technique for isolating messages in a trace that meet 
   
  **Figure 43: Pattern Match Viewer**  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In the following topics of this section, you will learn about matching message sequences by executing predefined **Pattern** expressions that are provided with the **Pattern Match** viewer. You will also learn about how to view matched instance data and how to create your own **Pattern** expressions:  
@@ -48,4 +48,4 @@ In the following topics of this section, you will learn about matching message s
 [Understanding Message Pattern Matching](understanding-message-pattern-matching.md) — study an OPN code walkthrough for two of the predefined TCP **Pattern** expressions. These examples are intended to help you learn about **Pattern** expression construction and functionality, so that you can create your own.  
 [Using the Pattern Editor](using-the-pattern-editor.md) — learn about how to build your own **Pattern** expressions in OPN, with or without the assistance of user interface (UI) automation.  
 [Managing Pattern Expressions](managing-pattern-expressions.md) — learn how to manage **Pattern** expressions, which includes importing and exporting **Pattern** expressions for mutual sharing with others on your team.  
-______________________\_
+---

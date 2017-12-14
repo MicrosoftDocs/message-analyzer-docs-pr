@@ -25,11 +25,11 @@ This section describes how to manage the items of your **Message Analyzer Chart 
   
  All the Library collection items in both of these categories are shareable **Layout** items. Message Analyzer provides a simple way to expose your **Layouts** asset collection items to others for sharing or to retrieve **Layouts** that others have shared. You can share **Layout** collection items directly with others by using the **Export** feature in the **Manage Chart Layout** dialog to save one or more **Layout** collection items to a designated file share. You can also use the **Import** feature in the same dialog to access **Layout** collection items that have been shared by others.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about managing Message Analyzer asset collections, including the **Message Analyzer Chart View Layouts** collection, see [Managing User Libraries](managing-user-libraries.md).   
-___________________\_  
+---  
   
 ## Using the Layout Commands  
  This section briefly describes the Layout commands that you can use to manage any of the built-in **Chart** viewer **Layouts** or any new **Layout** that you have created. These commands are accessible from the **Layouts** drop-down list that appears on the Charts toolbar whenever a **Chart** viewer **Layout** is displayed. A descriptions of each command is specified in the list that follows:  
@@ -69,10 +69,10 @@ ___________________\_
   
 -   **Export** — enables you to open the **Save Library** dialog, from where you can specify a library **Title** along with optional **Description**, **Author**, and **Organization** information. When you exit this dialog by clicking the **Save** button, the **Select Library Location** dialog opens, from where you can navigate to a user-designated file share or other location to post your **Layout** asset collection files.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about sharing Message Analyzer asset collection Library items, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
 **To learn more** about the manual synchronization process for a user-configured feed, see [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
 **To learn more** about auto-syncing and downloading item collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
-___________________\_
+---

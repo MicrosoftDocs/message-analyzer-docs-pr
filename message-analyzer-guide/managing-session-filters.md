@@ -58,9 +58,9 @@ manager: "ronstarr"
 > [!NOTE]
 >  If an automatic update to an auto-synced asset collection is pushed out by the web service to your Message Analyzer installation, the updates are automatically populated to your user **Library**, with no further action required.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Message Analyzer Sharing Infrastructure, including how to share asset collections with others and to auto-sync asset collections for updates, see the [Managing Message Analyzer Assets](managing-message-analyzer-assets.md) section.   
 **To learn more** about the common **Manage \<AssetType>** dialog, see [Managing User Libraries](managing-user-libraries.md).   
-___________________\_
+---

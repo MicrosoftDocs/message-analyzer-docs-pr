@@ -58,10 +58,10 @@ The **Session Explorer** **Tool Window** is a single-instance, interactive, and 
 ## Displaying Session Explorer  
  If the **Session Explorer** window is not displayed, click the global Message Analyzer **Tools** menu, click the **Windows** item, and then select the **Session Explorer** item to restore it. Note that you can also undock and reposition the **Session Explorer** window by taking advantage of the docking navigation control that displays after you drag the **Session Explorer** window away from its default docking location. You might do this to configure a location for the window that is more convenient for the analysis environment in which you are working.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about selecting data viewers, see [Session Data Viewer Options](session-data-viewer-options.md).  
 **To learn more** about progress monitoring and session statistics, see [Viewing Session Statistics and Progress](viewing-session-statistics-and-progress.md).  
 **To learn more** about docking and redocking tool windows, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).  
-___________________\_
+---

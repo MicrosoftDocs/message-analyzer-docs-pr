@@ -20,8 +20,8 @@ This section describes interactive **Tool Windows** that are *session-specific* 
   
  The following session-specific **Tool Windows** are described in this section:  
   
- __________________________\_  
+ ---  
   
  [Diagnostics Tool Window](diagnostics-tool-window.md)   
  [Decryption Tool Window](decryption-tool-window.md)   
-__________________________\_
+---

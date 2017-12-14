@@ -23,8 +23,8 @@ The **Microsoft-PEF-WFP-MessageProvider** enables you to log dropped packet info
 > [!NOTE]
 >  When you select the **Select Discarded Packet Events** check box on the **Provider** tab of the **Advanced Settings** dialog, any **Fast Filters** or **WFP Layer Set** filters that you have specified will not be applied to the discarded packet events.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using **Column Filters**, see [Filtering Column Data](filtering-column-data.md).   
-___________________\_
+---

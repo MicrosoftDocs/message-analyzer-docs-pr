@@ -60,12 +60,12 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
 ## Adding Groups to the Grouping Viewer with Field Chooser  
  You can also use the **Field Chooser** window to add one or more new Groups to one of the default Grouping **Layouts**, or you can do this when you are creating your own Grouping **Layout**. To add a new Group, you will need to locate one or more fields for a particular message type that you want to add to your **Layout** as a Group. When you locate a field, right-click it and then select the **Add as Grouping** command from the context menu that appears. Note that to add the selected field as a Group, the **Grouping** viewer must be in focus. Otherwise, if the **Analysis Grid** viewer is in focus, selecting the **Add as Grouping** command reorganizes the **Analysis Grid** message display into groups that each contain a set of identical values, where such values are aggregated from all messages that contain those particular values for the field that you added with the **Add as Grouping** command.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about adding new Groups to the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.  
 **To learn more** about creating groups to enhance your analysis perspectives with the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).   
-___________________\_  
+---  
   
 ## Searching for Fields  
  If you want to search for a particular field by name, you can type the name, or a portion thereof, in the search text box at the top of the **Field Chooser** window and search results will display with yellow highlighting, similar to the way Windows Explorer displays search results. After you locate the correct field, you can then add it as a data column to the **Analysis Grid** viewer or as a Group in the **Grouping** viewer, in the previously specified manner. If there is data associated with any field you chose, it will automatically display after you add the field as a new column in the **Analysis Grid** viewer, or as a Group in the **Grouping** viewer.  
@@ -81,14 +81,14 @@ ___________________\_
 ## Adding Analysis Grid Columns from the Details Tool Window  
  In addition to using the **Field Chooser** window to add more data columns to the current column configuration of the **Analysis Grid** viewer, you can also quickly add a new data column to the **Analysis Grid** viewer based on field names in the **Details** **Tool Window**, which displays beneath the **Analysis Grid** viewer by default. To do this, right-click any row of field data in the **Details** window and select the **Add 'fieldName' as Column** menu item, where *fieldName* is a placeholder for the actual field, property, or other name in the **Name** column of the **Details** window. Message Analyzer then automatically populates the new named column with values based on parsed data from the currently displayed message collection.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 **To learn more** about Filter IntelliSense, see the [Filter IntelliSense Service](filter-intellisense-service.md).  
 **To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
 **To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
-___________________\_  
+---  
   
 ## See Also  
  [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)

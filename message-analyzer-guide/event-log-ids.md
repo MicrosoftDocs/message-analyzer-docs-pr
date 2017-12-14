@@ -24,11 +24,11 @@ The **Event Log IDs** **Layout** for the **Chart** viewer is intended to work wi
   
  As an example of interactively driving the display of messages associated with a particular **EventID**, you can double-click any bar element in the **Event Log IDs** **Layout** to display the messages associated with that element in a new instance of the **Analysis Grid** viewer for focused analysis of the messages associated with a particular **EventID**. The  **Event Viewer** **Layout** for the **Grouping** viewer also enables a greater interactive context with additional enhancements to the analysis process.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about interactively analyzing Event log data with the indicated viewing and **Layout** configurations, see the following topics:  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **Event Log** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **Event Viewer** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **Event Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
-___________________\_
+---

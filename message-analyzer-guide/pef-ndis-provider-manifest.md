@@ -25,10 +25,10 @@ The manifest for the **Microsoft-PEF-NDIS-PacketCapture** provider defines its c
 > [!NOTE]
 >  You will find the Microsoft-Pef-NDIS-PacketCapture.man file in the specified location only after installing Message Analyzer on computers that are running the Windows 7, Windows 8, or Windows Server 2012 operating system.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the contents of provider manifests, see [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest).   
 **To learn more** about how Message Analyzer uses provider manifests, see [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md).  
 **To learn more** about obtaining a provider manifest if you are missing one, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
-___________________\_
+---

@@ -77,14 +77,14 @@ The **Trace Scenario** that you select for your Live Trace Session can have an i
   
  For further details about selecting a **Trace Scenario** to return specific types of data, see the [Selecting a Trace Scenario](selecting-a-trace-scenario.md) section.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the configuration features of the **Advanced Settings** dialogs for the **Microsoft-PEF-WFP-MessageProvider**, **Microsoft-PEF-NDIS-PacketCapture** provider, and the **Microsoft-Windows-NDIS-PacketCapture** provider, see the following topics:  
 [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md) — describes how to configure **Fast Filters**, **Discarded Packet Events**, and **WFP Layer Set** filters (packet direction at the Transport Layer).  
 [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) — describes how to select adapters, configure **Fast Filters**, and create **Fast Filter** groups to apply to local host adapters.  
 [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) — describes how to configure advanced packet direction and layer filtering configurations for the NDIS stack and Hyper-V-Switch extension layers on remote (or local) hosts, in addition to packet **Truncation** filters and special message payload filtering such as **EtherType** and **IP Protocol Numbers**.  
- ___________________\_  
+---  
   
 ## See Also  
  [Editing Existing Sessions](editing-existing-sessions.md)

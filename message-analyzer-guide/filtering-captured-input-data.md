@@ -47,7 +47,7 @@ Prior to starting a Live Trace Session with Message Analyzer, there are numerous
     > [!NOTE]
     >  The default **Microsoft-PEF-NDIS-PacketCapture** provider and **Microsoft-PEF-WFP-MessageProvider** both enable you to specify event **Keyword** bitmask and **Level** filter configurations. However, you should note that not all system **ETW Providers** are enabled for event **Keyword** and **Level** configuration, as some **ETW Providers** do not define them.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the functions of built-in Filter Expressions that you can apply as a **Session Filter** or view **Filter**, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).  
@@ -59,7 +59,7 @@ Prior to starting a Live Trace Session with Message Analyzer, there are numerous
 **To learn more** about **WFP Layer Set** filtering, see [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md).  
 **To learn more** about **Hostname** and **PortFilter** filtering, see [WebProxy Filters](webproxy-filters.md).   
 **To learn more** about event **Keyword** bitmask and **Level** filtering, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).   
-___________________\_  
+---  
   
 ## See Also  
  [Configuring a Live Trace Session](configuring-a-live-trace-session.md)

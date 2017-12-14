@@ -169,11 +169,11 @@ Other commands that are available for managing view **Layouts** display in a sub
 > [!NOTE]
 >  **Message Analyzer View Layouts** that apply to the **Analysis Grid** viewer and **Message Analyzer Grouping View Layouts** that apply to the **Grouping** viewer are separate and function independently of each other. You can view these asset collections in the **Asset Manager** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about sharing asset collections in Message Analyzer, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 **To learn more** about the **Analysis Grid** viewer **Group** function, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 **To review** some simple examples of TCP troubleshooting with Message Analyzer, see [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md).  
-___________________\_
+---

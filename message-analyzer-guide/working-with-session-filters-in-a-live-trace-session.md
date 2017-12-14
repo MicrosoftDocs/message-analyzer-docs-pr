@@ -80,14 +80,14 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
 > [!NOTE]
 >  When you apply a **Session Filter** to a Live Trace Session, a funnel icon displays to the right of the corresponding top-level session node in the **Session Explorer** **Tool Window**, to indicate that the session has had a **Session Filter** applied to it. This icon provides a quick reminder of the initial configuration status of the session.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using the Filtering Language, see [Writing Filter Expressions](writing-filter-expressions.md).   
 **To learn more** about the built-in filters in the centralized **Message Analyzer Filter** asset collection **Library** that are provided with Message Analyzer, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
 **To learn more** about using the statement completion feature for Filter Expressions, see the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
-___________________\_  
+---  
   
 ## See Also  
  [Filtering Message Data](filtering-message-data.md)

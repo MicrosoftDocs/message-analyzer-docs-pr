@@ -23,19 +23,19 @@ The **Microsoft-PEF-NDIS-PacketCapture** filter driver enables you to select mes
   
  The different types of **Fast Filters** for the **Microsoft-PEF-NDIS-PacketCapture** provider are described in the following topics:  
   
- ________________________\_  
+ ---  
   
  [OLP Filters](olp-filters.md)   
  [LinkLevelAddress Filters](linkleveladdress-filters.md)   
  [IPv4Address Filters](ipv4address-filters.md)   
  [IPv6Address Filters](ipv6address-filters.md)   
-________________________\_  
+---  
   
  By using these filters, you can direct the **Microsoft-PEF-NDIS-PacketCapture** provider to isolate message traffic based on values of specific types of addresses or offset length patterns (OLPs).  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the settings for **Microsoft-PEF-NDIS-PacketCapture** **Fast Filters**, see the [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md).  
 **To learn more** about **Fast Filter** configuration capabilities, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
-___________________\_
+---

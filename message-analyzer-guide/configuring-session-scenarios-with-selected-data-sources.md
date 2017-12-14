@@ -27,14 +27,14 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
  The material of this section is covered in the following topics:  
   
- __________________________________\_  
+ ---  
   
  [Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
  [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
  [Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
  [Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
  [Correlating Data from Multiple Input Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
-__________________________________\_  
+---  
   
 <a name="BKMK_InputDataSourceConfigs"></a>   
 ## Input Data Source Configurations  
@@ -57,20 +57,20 @@ __________________________________\_
  **Live Capture Configurations**   
 For Live Trace Sessions, this means that you can create one or more unique capture configurations to acquire live data from  the local computer and/or from one or more remote computers. To create this type of session scenario, you would click the **Live Trace** button under **Add Data Source** in the **New Session** dialog. In the **New Session** dialog, you can accept the default and  collect live data from the local computer, or you can specify one or more remote computers on which to capture live data. If you want to create another capture configuration to acquire live data, for example from a different set of computers, simply click the **New Data Source** tab and then click the **Live Trace** button again to display the Live Trace Session configuration controls on another **Live Trace** tab. On each tab, the inherent controls enable you to create unique capture configurations that use different built-in **Trace Scenarios**, different ETW providers and provider configurations, and different types of filtering that together can create a capture focus that will return specific data from specified computers for analysis. You can then run all capture configurations simultaneously on the computers that you specified.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about creating capture configurations for Message Analyzer, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).  
-___________________\_  
+---  
   
  **Data Loading Configurations**   
 For Data Retrieval Sessions, this means that you can create a unique data loading configuration that specifies a single data source consisting of a set of saved files that contain the data you want to examine with Message Analyzer. To create this type of session scenario, you  would click the **Files** button under **Add Data Source** in the **New Session** dialog. The controls for configuring a Data Retrieval Session then appear on a new **Files** tab, which can include various types of filtering features, truncation, and text log parsers. However, as previously indicated, you have the option to create multiple *sets* of input files, each with different loading configurations, by simply clicking the **New Data Source** tab and then clicking the **Files** button again. You could also create unique loading configurations that specify different target data sources. For example,  you could combine **Files**, **Event Log**, **PowerShell** query results, and data from other sources that you can load into Message Analyzer all at the same time for correlation and analysis. In addition, you have the option to specify multiple inputs for any of these sources, for example, multiple PowerShell queries that you specify on different **PowerShell** data source tabs.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about creating data loading configurations for Message Analyzer, see [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
-___________________\_  
+---  
   
 <a name="BKMK_SupportedDataSources"></a>   
 ## Supported Data Sources  
@@ -179,7 +179,7 @@ ___________________\_
   
  Other Message Analyzer tools that support data correlation include **Filters**, **Viewpoints**, and sorting. For example, you can use a view **Filter** to isolate specific data that you want to examine, by filtering for only the types of messages you want to analyze. You could also use a **Viewpoint** to remove messages above a selected **Viewpoint** module that are irrelevant to your analysis goals. Sorting can be particularly useful when you have acquired data from multiple sources that have time stamp differences. In many cases, you will want to correlate your input data sources by time so that you can more easily correlate data that is identical or  closely related, but with different time stamps. For example, you could sort the **Timestamp** column in the **Analysis Grid** viewer, and when necessary, add a **Time Shift** to messages from a log that gathered data in a different time zone or where message data is offset because of other factors such as skewed system times.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).  
@@ -189,7 +189,7 @@ ___________________\_
 **To learn more** about **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).  
 **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
 **To learn more** about setting time shifts, see [Setting Time Shifts](setting-time-shifts.md).  
-___________________\_  
+---  
   
 ## See Also  
  [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   

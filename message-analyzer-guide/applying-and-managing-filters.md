@@ -108,11 +108,11 @@ An example of creating a tier of view **Filters** that you can apply and remove 
 ## Using the Filter Expression Library  
  Message Analyzer provides a default set of built-in Filter Expression items that are accessible from the **Library** drop-down list that appears whenever you click the **Add Filter** button on the Filtering Toolbar. These **Filters** are sourced from the **Message Analyzer Filters** asset collection that you can manage from the **Manage Filter** dialog, which displays when you click the **Manage** item in the indicated **Library** drop-down list. You can also share this collection or any part of it (including any **Filters** that you have created) with others, by using the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Asset Manager, see the [Asset Manager](asset-manager.md) topic.  
-___________________\_  
+---  
   
  The centralized Filter Expression **Library** contains built-in **Filters** that you can apply as view **Filters** to data displaying in a chosen data viewer, simply by selecting the **Filter** in the **Library** drop-down list on a displayed  **Filter** panel. For example, you might apply the built-in Filter Expression `*SourcePort == IANA.Port.SMB` to the **Chart** viewer with a specified **Layout** to filter for messages of any protocol that have a **SourcePort** field equal to 445. You could then double-click some element in the **Chart** viewer **Layout**, for example, a bar element in the **Bar** visualizer component to which the filtering was applied, to automatically display the associated messages in a new instance of the **Analysis Grid** viewer for further examination.  
   
@@ -163,14 +163,14 @@ ___________________\_
   
  However, if you opted out, you still have the option to automatically receive periodic collection updates later by setting the **Offline** mode to **Online** on the **Downloads** tab of the **Asset Manager** dialog and clicking the **Sync All Displayed Items** button. This action auto-syncs all asset collections; however, you can set individual collections to the auto-sync state on the **Downloads** tab as you require them. To do this, click the download icon to the right of the collection on the **Downloads** tab and select the **Automatically sync item collection updates when available** option in the **Item Download Options** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about applying view **Filters**, see [Filtering Message Data](filtering-message-data.md).  
 **To learn more** about the Filtering Language and how to write filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
 **To learn more** about sharing Message Analyzer Library items, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.   
 **To learn more** about auto-syncing item collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
-___________________\_  
+---  
   
 ## See Also  
  [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   

@@ -80,9 +80,9 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
 > [!TIP]
 >  It is advisable to create a backup of your local **Color Rule** Library asset collection, so that you can always restore any custom rules you may have deleted under the **My Items** category of your **Message Analyzer Color Rules** asset collection Library.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about managing **Color Rule** items, including sharing them with others, see [Managing Color Rules](managing-color-rules.md).   
 **To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md) and the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
-___________________\_
+---

@@ -63,8 +63,8 @@ This section describes the methods that you can use to retrieve input data to  l
 ## Starting a Configured Data Retrieval Session  
  When you are ready to load the data into Message Analyzer from a *configured* Data Retrieval Session and to display it in the default data viewer, click the **Start** button in the **New Session** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using the **File Selector** and loading data from Azure logs, see [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md).  
-___________________\_
+---

@@ -32,9 +32,9 @@ The **Aliases** drop-down list in the global Message Analyzer **Tools** menu or 
 ## Downloading Alias Asset Collections from Microsoft  
  Microsoft also provides a default **Message Analyzer** feed on the **Downloads** tab of the **Asset Manager** dialog that will enable you to download **Alias** asset collections from a Microsoft web service in a future Message Analyzer release. When available, you will be able to synchronize with asset collection updates that are periodically pushed out by the service.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using the common **Manage** ***\<AssetType>*** dialog to share and manage your **Aliases**, see the [Managing User Libraries](managing-user-libraries.md) topic.  
 **To learn more** about the Sharing Infrastructure, downloading asset collections, and auto-syncing asset collection updates, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.  
-___________________\_
+---

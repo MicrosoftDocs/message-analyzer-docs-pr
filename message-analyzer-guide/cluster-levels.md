@@ -21,11 +21,11 @@ The **Cluster Levels** viewer **Layout** for **Charts** provides a horizontal **
 > [!NOTE]
 >  A Cluster.log file will be parsed only if you select the **Cluster** configuration file in **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **Cluster Levels** view **Layout**.  
 >   
->  ___________________\_  
+> ---  
 >   
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
-> ___________________\_  
+>---  
   
 ## Using the Cluster Levels Layout  
  When you review the data presented in the **Cluster Levels** viewer **Layout**, you might notice a significant volume of log entries with **ERR** levels being reported. To assess these entries, you might proceed by double-clicking the **ERR** bar element to isolate all the log entries that contain the **ERR** **InfoLevel** type in a new instance of the **Analysis Grid** viewer. Then you can sort the **SubComponent** column of the **Analysis Grid** viewer in ascending order to consolidate all the subcomponents of the same type together for easier viewing. Thereafter, you can review the **RemainingText** column for descriptions of the errors and failures that occurred for each subcomponent of the Cluster Service. Note that you might also execute the **Group** context menu command on the **Subcomponent** column of the **Analysis Grid** viewer to create a grouped view of the subcomponents and the associated log entry counts for an enhanced perspective of the data. Moreover, you can use the **Cluster Logs** **Layout** for the **Grouping** viewer to create a hierarchical grouped configuration of nested **InfoLevel**, **Subcomponent**, and **ProcessId** groups, so that you can quickly isolate the data according to **InfoLevel** values and view the underlying **Subcomponents** that logged the debugging information.  
@@ -35,11 +35,11 @@ This **Layout** for the **Chart** viewer is intended to work with the **Cluster 
   
  As an example of interactively driving the display of messages, if you select an **InfoLevel** group in the **Grouping** viewer, you can display all the messages associated with that particular error level in the **Analysis Grid** viewer for further analysis of details.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about interactively analyzing Cluster log data with the indicated viewing and **Layout** configurations, see the following topics:  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **Cluster Log** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **Cluster Logs** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **Cluster Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
-___________________\_
+---

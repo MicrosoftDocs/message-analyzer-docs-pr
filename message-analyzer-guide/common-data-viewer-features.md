@@ -20,7 +20,7 @@ This section describes message processing features that enable you to manipulate
   
  The common data viewer features are described in the following topics:  
   
- ___________________________\_  
+ ---  
   
  [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
  [Filtering Data Sources](filtering-data-sources.md)   
@@ -28,4 +28,4 @@ This section describes message processing features that enable you to manipulate
  [Configuring Time Format Settings](configuring-time-format-settings.md)   
  [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)   
  [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)   
-___________________________\_
+---

@@ -21,8 +21,8 @@ The **NTP Time Offset** view **Layout** for the  **Chart** viewer  enables you  
 > [!NOTE]
 >  To obtain meaningful results with the **NTP Time Offset** view **Layout**, the above supported  file types must contain time offset data that is captured by the **NTP** module.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Message Analyzer **Profiles**, see  [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
-___________________\_
+---

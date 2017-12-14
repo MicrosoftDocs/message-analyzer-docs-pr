@@ -22,10 +22,10 @@ The manifest for the **Microsoft-Pef-WebProxy** provider defines its contract wi
   
  In this file you can view the event definitions, tasks, opcodes, keyword bitmask and level specifiers, a channel definition, and template information.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the contents of provider manifests, see [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest).  
 **To learn more** about how Message Analyzer uses provider manifests, see [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md).  
 **To learn more** about obtaining a provider manifest if you are missing one, see [Generating a Provider Manifest](generating-a-provider-manifest.md).   
-___________________\_
+---

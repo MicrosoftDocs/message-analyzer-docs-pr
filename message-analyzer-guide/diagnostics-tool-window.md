@@ -55,11 +55,11 @@ In troubleshooting scenarios, quick access to diagnostic message information can
   
 -   **Count** — specifies the number of parent messages in the **Analysis Grid** viewer that contain the selected diagnosis message.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the meaning of diagnosis messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.  
-___________________\_  
+---  
   
 ## Using the Context Menu Commands  
  The **Diagnostics** window also contains a context menu that enables you to execute the following commands to accomplish the indicated tasks:  

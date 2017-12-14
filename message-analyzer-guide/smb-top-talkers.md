@@ -52,14 +52,14 @@ This **Layout** is intended to work with the **SMB Flat** view **Layout** of the
   
  For example, to interactively analyze SMB and SMB2 messages, you can  drive the display of these messages into the **Analysis Grid** viewer by double-clicking any row of data for a particular conversation in the **SMB Top Talkers** view **Layout**. Thereafter, you can review SMB status information for any message in the **Summary** column of the **Analysis Grid** viewer along with message fields and values in the **Details** **Tool Window**. The **File Sharing SMB/SMB2** **Layout** for the **Grouping** viewer also enables a greater interactive context with additional enhancements to the analysis process.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about interactively analyzing SMB/SMB2 data with the indicated viewing and **Layout** configurations, see the following topics:  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **SMB Flat** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **File Sharing SMB/SMB2** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **File Sharing SMB** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
-___________________\_  
+---  
   
 ## See Also  
  [SMB Top Commands](smb-top-commands.md)

@@ -25,9 +25,9 @@ Message Analyzer enables you to save OPN behavior scenarios as **Pattern** expre
   
  In addition, Microsoft provides a default **Message Analyzer** feed on the **Downloads** tab of the **Asset Manager** dialog that enables you to download the **Message Analyzer Sequence Expression** asset collection from a Microsoft web service and to synchronize with collection updates that are periodically pushed out by the service. At any time, you can perform a download of an auto-synced collection from the **Settings** tab on the **Asset Manager** dialog. Thereafter, you can access and apply the downloaded or synchronized items from the local **Pattern** expression Library in the **AVAILABLE PATTERNS** list of the **Pattern Match** viewer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the common **Manage** ***\<AssetType>*** dialog and the management capabilities it provides for Message Analyzer Library asset collections, see [Managing User Libraries](managing-user-libraries.md).  
 **To learn more** about the Message Analyzer Sharing Infrastructure, see [Sharing Infrastructure](sharing-infrastructure.md), [Creating Custom User Feeds](creating-custom-user-feeds.md), and [Sharing Asset Collections on a User File Share](sharing-asset-collections-on-a-user-file-share.md).   
-___________________\_
+---

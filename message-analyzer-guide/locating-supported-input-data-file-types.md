@@ -53,11 +53,11 @@ To locate saved data that you want to load into Message Analyzer from supported 
 |.tsv|Tab Separated Value file|Non-native|Standard input file support.|  
 |.xml|XML file|Non-native|Standard input file support.|  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to use Message Analyzer **Profiles** to automatically display a predefined viewer and layout configuration for  a targeted analysis context when loading data from  applicable file types, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
 **To learn more** about different methods that you can use to quickly load data into Message Analyzer, see [Performing Data Retrieval](performing-data-retrieval.md).  
 **To learn more** about saving your message data in the native .matp file format, see [Saving Files in Native Format](saving-files-in-native-format.md).  
 **To learn more** about how to create an OPN Configuration file for a text log, see the [OPN Configuration File for Textlog Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document download.   
-___________________\_
+---

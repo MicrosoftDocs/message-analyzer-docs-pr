@@ -50,11 +50,11 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
 -   **in** — Membership in an array, set, or map. This operator is used in a filter expression to determine whether a particular left-side field or literal value exists in a user-specified right-side collection of values, such as an array. For example: `IPv4.Address in [192.0.1.1, 192.0.0.0, 192.0.0.2]` or `TCP.SourcePort in [6608, 6609, 6610]`.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to apply relational operators, see the built-in Filter Expressions described in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
-___________________\_  
+---  
   
  The Filtering Language also supports the following bitwise and arithmetic operators that you can apply to field expressions:  
   
@@ -131,8 +131,8 @@ ___________________\_
   
 -   **Precedence** — most operators that you use in a Filter Expression are designated with a predefined evaluation order of precedence. Generally, the use of parentheses in a Filter Expression helps to define how the expression is evaluated. However, without the use of parentheses, some ambiguity can be introduced in the interpretation of your Filter Expressions. Therefore, when you use the ! (NOT) and == (EQUALITY) operators in a Filter Expression, the compiler gives precedence to the == operator when evaluating the expression. For example, this would make the expression `!F==true` semantically equivalent to `!(F==true)`.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about OPN concepts that may help you write Filter Expressions, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) document.   
-___________________\_
+---

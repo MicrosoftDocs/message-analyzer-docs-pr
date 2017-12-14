@@ -63,12 +63,12 @@ After you retrieve your data and it displays in the viewer that you initially se
   
 -   IP conversation bandwidth consumption  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the data viewers and **Layouts** that are available in Message Analyzer, along with the **Tool Windows** with which they interact, see the [Data Viewers](data-viewers.md) and [Tool Windows](tool-windows.md) sections of this Operating Guide.  
 **To learn more** about the integrated and interactive analysis environments that Message Analyzer provides with preset configurations of data viewers, **Layouts**, and **Tool Windows**, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
-___________________\_  
+---  
   
 ## See Also  
  [Session Data Viewer Options](session-data-viewer-options.md)

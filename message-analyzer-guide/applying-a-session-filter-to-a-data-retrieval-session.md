@@ -30,11 +30,11 @@ After specifying one or more data sources in a Data Retrieval Session, you can a
 > [!NOTE]
 >  When you apply a **Session Filter** to a Data Retrieval Session, a funnel icon displays to the right of the corresponding top-level session node in the **Session Explorer** **Tool Window**, to indicate that the session has had a **Session Filter** applied to it. This icon provides a quick reminder of the analysis status of the session.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about **Session Filters**, see relevant information in the topic [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md).  
 **To learn more** about creating Filter Expressions and using the Message Analyzer Filtering Language, see [Writing Filter Expressions](writing-filter-expressions.md).   
 **To learn more** about **Aliases**, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).   
 **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).  
-___________________\_
+---

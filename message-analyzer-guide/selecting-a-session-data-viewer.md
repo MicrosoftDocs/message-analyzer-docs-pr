@@ -72,12 +72,12 @@ When you select data viewers from these alternate locations, the viewers listed 
 ## Identifying Session Viewer Data  
  Whenever you select a data viewer for a *new* session, it displays in a new and separate session viewer tab with a unique name just below the global Message Analyzer toolbar. If you select a new data viewer for an *existing* session, it displays in a new session viewer tab with the same name as the existing session, also just below the global Message Analyzer toolbar. To maintain correlation between data viewers of the same session, Message Analyzer provides an identical colored dot on the session tab of each data viewer in the same session, for ease of identification.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the different types of data viewers that are available, along with the **Tool Windows** with which they interact, see the [Data Viewers](data-viewers.md) and [Tool Windows](tool-windows.md) topics of this Operating Guide.  
 **To learn more** about creating custom **Layouts** for the **Chart** viewer, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
-___________________\_  
+---  
   
 ## See Also  
  [Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   

@@ -114,12 +114,12 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
   
 -   **Export** — click this button to save your data in the .cap trace file format. If you select this option, your decrypted data will not be saved; however, you can reapply **Decryption** to this file when you reload it so that you can view the decrypted data again.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about starting and configuring a new Data Retrieval Session or a Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
 **To learn more** about saving trace data, see the [Saving Message Data](saving-message-data.md) section.   
-___________________\_  
+---  
   
 ## See Also  
  [Decryption Tool Window](decryption-tool-window.md)

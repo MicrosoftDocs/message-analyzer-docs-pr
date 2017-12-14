@@ -34,7 +34,7 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
  The following topics in this section describe how to work with **Window Layouts**.  
   
- ______________________________________________________\_  
+ ---  
   
  [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
  [Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
@@ -42,7 +42,7 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
  [Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
  [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
  [Saving Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
-______________________________________________________\_  
+---  
   
 <a name="BKMK_UsingDefaultLayout"></a>   
 ## Using the Message Analyzer Default Window Layout  

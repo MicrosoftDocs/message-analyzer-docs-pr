@@ -43,9 +43,9 @@ Instead of using a built-in **Trace Scenario** to start a Live Trace Session, yo
 > [!NOTE]
 >  You can run a custom **Trace Scenario** and save session results as many times as you want. If you maintain a common capture configuration in a particular **Trace Scenario**, you can create a baseline for comparing similar trace results from day to day.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about **Trace Scenario** templates, see [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md).   
 **To learn more** about exporting and importing **Trace Scenarios**, including **Trace Scenario** templates, see [Managing Trace Scenarios](managing-trace-scenarios.md).   
-___________________\_
+---

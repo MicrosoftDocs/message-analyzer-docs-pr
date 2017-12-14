@@ -24,11 +24,11 @@ Message Analyzer provides the **Perfmon Viewer**, which is currently a preview f
 > [!TIP]
 >  You might consider correlating the performance counter data that you collect with that of another related data source, such as an ETL file, live trace,  or Event Log, for an enhanced analysis perspective.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using multiple data sources in a Data Retrieval Session, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
-___________________\_  
+---  
   
 ## Using the Perfmon Viewer Controls for Analysis  
  Several controls are available in the **Perfmon Viewer** to facilitate analysis of collected data. To analyze counter data with the **Perfmon Viewer**, you can use the controls and indicators that exist in the lower and upper sectors of the viewer interface, which are referred to as the Counter Table and the Data Grid, respectively. The controls can change the way you display the data to facilitate analysis. For example, you can select which counters will display data,  set the ranges of the X and Y axis in the data grid to facilitate focused analysis, and select individual data points in the data grid to analyze the counter statistics associated with a selected data point. The controls and indicators in each sector of the viewer interface consist of the following:  

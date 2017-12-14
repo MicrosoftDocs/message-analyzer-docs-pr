@@ -73,13 +73,13 @@ Message Analyzer provides a collection of built-in **Parsing Level** scenarios t
 ## Obtaining Parser Level Updates  
  The **Parsing Level** scenarios that you select from the **Parsing Level** drop-down list in the **New Session** or **Edit Session** dialog are Message Analyzer assets. Similar to **Viewpoints** and other asset libraries, you can either download the **Message Analyzer Parsing Level** asset collection once, or auto-sync the collection to receive periodic collection updates that Microsoft provides through a web service. This service integrates with Message Analyzer through the Sharing Infrastructure. You can interact with this infrastructure from the **Asset Manager** dialog, which is accessible from the Message Analyzer **Tools** menu.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Truncated Parsing mode, see [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md).   
 **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
 **To learn more** about downloading **Parsing Level** asset collections or auto-syncing to periodic collection updates as part of the Message Analyzer Sharing Infrastructure, see [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md).   
-___________________\_  
+---  
   
 ## See Also  
  [Specifying a Parsing Level](specifying-a-parsing-level.md)

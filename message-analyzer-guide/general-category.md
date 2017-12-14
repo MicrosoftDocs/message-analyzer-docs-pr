@@ -18,7 +18,7 @@ manager: "ronstarr"
 # General Category
 The built-in viewer **Layouts** for **Charts** that are provided with Message Analyzer are accessible from the locations specified in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. The viewer **Layouts** for **Charts** that are included in the **General** category of the **Message Analyzer Chart View Layouts** asset collection Library consist of the following, as described in this section:  
   
- ____________________________________\_  
+ ---  
   
  [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)   
  [Average Response Time for Operations](average-response-time-for-operations.md)   
@@ -30,4 +30,4 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
  [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)   
  [Top Level Protocols Message Count](top-level-protocols-message-count.md)   
  [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)   
-____________________________________\_
+---

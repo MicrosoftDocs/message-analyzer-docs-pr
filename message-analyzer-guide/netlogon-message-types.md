@@ -19,11 +19,11 @@ The **Netlogon Message Types** view **Layout** for **Charts** enables you to obt
 > [!NOTE]
 >  A Netlogon.log file will be parsed only if you select the **Netlogon** configuration file in the **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **Netlogon Message Types** view **Layout**.  
 >   
->  ___________________\_  
+> ---  
 >   
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
-> ___________________\_  
+>---  
   
 ## Using the Netlogon Message Types Layout  
  This **Layout** enables you to assess at-a-glance the distribution of message type volumes in a Netlogon.log file so that you can  quickly focus on message types of interest. For example, you will likely want to review any log entries that contain error or diagnostic information first and this would mean looking at the messages of type CRITICAL and DIAGNOSIS. You might also review MAILSLOT messages for records of client and server communications and PERF messages that can include performance counter information related to setting up client-server sessions and the number of authentication timeouts that have occurred.  
@@ -37,11 +37,11 @@ This **Layout** for the **Chart** viewer is intended to work with the **Netlogon
   
  As an additional example of interactively driving the display of messages, if you select any **msgtype** group  in the **Grouping** viewer, you can display all the messages associated with a particular message type in the **Analysis Grid** viewer for further analysis, which includes reviewing **Summary** information and message **Details**.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about interactively analyzing Netlogon log data with the indicated viewing and **Layout** configurations, see the following topics:  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **Netlogon** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **Netlogon Group by Message Type** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **Netlogon Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
-___________________\_
+---

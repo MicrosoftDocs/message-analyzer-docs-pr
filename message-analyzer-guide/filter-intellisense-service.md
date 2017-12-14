@@ -89,13 +89,13 @@ The Filter IntelliSense service contains the interpretive intelligence to antici
 > [!NOTE]
 >  The Filter IntelliSense service does not respond to colon (:) characters that you might normally enter to create explicit paths in Filter Expressions. It also does not respond to other characters such as operators and backslashes, the latter of which you can use to traverse a protocol stack.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about explicit paths, see [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths).  
 **To learn more** about special methods for traversing a protocol stack, see [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
 **To learn more** about annotations, see [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations).   
-___________________\_  
+---  
   
 ## See Also  
  [Using the Filtering Language](using-the-filtering-language.md)

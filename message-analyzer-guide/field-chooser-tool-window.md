@@ -64,11 +64,11 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
   
  A simpler method for doing this would be to locate the array value for which you want to display data in the **Details** **Tool Window**, right-click it, and select the **Add as Column** command. However, note that the formerly specified method is most useful when **Details** for a particular field are unavailable for a particular message. An example might be that you want to look at SACK options for TCP messages, but it is difficult to find any TCP messages that expose them such that you could right-click a field in **Details** and add a new column in the **Analysis Grid** viewer. When this is the case, you would need to be very familiar with TCP **Options** and values so that you could specify the required **Key** value/s in order to view the data.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about these commands in addition to saving, sharing, and updating view **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).   
-___________________\_  
+---  
   
 <a name="BKMK_ExpandGroupConfig"></a>   
 ## Expanding the Grouping Viewer Configuration  
@@ -107,7 +107,7 @@ ___________________\_
   
  Note that the **Global Annotations** and **Global Properties** entities appear in the **Details** **Tool Window** when you click the **Show all properties for the selected message** button on the **Details** window toolbar. However, these entities will display a value in **Details**, only if such values can be read or otherwise derived from the currently selected message.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using the **Field Chooser** with various Message Analyzer features, see the following topics:   
@@ -117,4 +117,4 @@ ___________________\_
 [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
 [Grouping Viewer](grouping-viewer.md)  
 [Creating Unions](creating-unions.md)  
-___________________\_
+---

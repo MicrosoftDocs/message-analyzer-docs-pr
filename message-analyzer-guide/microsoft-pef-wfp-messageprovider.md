@@ -65,7 +65,7 @@ Similar to the **Microsoft-PEF-NDIS-PacketCapture** provider, the **Microsoft-PE
 ## Event Keyword and Error Level Filtering  
  Similar to other system ETW providers that are registered on your system, you have the option to specify ETW event **Keyword** configurations and **Level** filter settings for the **Microsoft-PEF-WFP-MessageProvider**, to further refine the scope of events to be captured. The settings for these filters are available on the **ETW Core** tab of the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog. By default, as with the **Microsoft-PEF-NDIS-PacketCapture** provider, all events are delivered by the **Microsoft-PEF-WFP-MessageProvider** provider when no **Keywords** are selected. If you specify any particular **Keyword**, then the provider will deliver the events that are enabled by that **Keyword** only, if they occur in a trace. It also follows that multiple events are delivered when multiple **Keywords** are selected.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring system ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md)  
@@ -73,7 +73,7 @@ Similar to the **Microsoft-PEF-NDIS-PacketCapture** provider, the **Microsoft-PE
 [PEF-WFP Fast Filters](pef-wfp-fast-filters.md)  
 [PEF-WFP Layer Set Filters](pef-wfp-layer-set-filters.md)  
 [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md)  
-___________________\_  
+---  
   
 ## See Also  
  [Built-In Trace Scenarios](built-in-trace-scenarios.md)   

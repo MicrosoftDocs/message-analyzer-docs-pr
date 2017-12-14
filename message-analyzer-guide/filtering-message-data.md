@@ -20,11 +20,11 @@ This section describes various ways to filter message data in Message Analyzer s
   
  You can even create a Filter Expression that uses an **Alias** (typically a friendly name that replaces some cryptic field value; see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)), and you can save such a filter in the centralized Filter Expression **Library**. This enables you to use the Filter Expression that incorporates an **Alias** as a **Session Filter** or a view **Filter**. Note that you can also create Filter Expressions that include **Unions**.  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In the topics of this section, you will specifically learn about Message Analyzer filtering capabilities, which includes filtering imported data in a Data Retrieval Session, filtering data while it is captured in a Live Trace Session, filtering trace results, and learning how to create your own Filter Expressions, as described below.  
-______________________\_  
+---  
   
 ## In This Section  
  **[Filtering Loaded Input Data](filtering-loaded-input-data.md)**  — apply a built-in or user-developed **Session Filter** or a **Time Filter** to a Data Retrieval Session to constrain input message volume; also use input file selection as a method of limiting input data.  
@@ -37,11 +37,11 @@ ______________________\_
   
  **[Writing Filter Expressions](writing-filter-expressions.md)**  — write your own Filter Expressions with the Message Analyzer Filtering Language, which is based upon the Open Protocol Notation (OPN) language.  
   
- ___________________\_  
+---  
   
  **Go To Procedures**   
 To proceed directly to procedures that demonstrate the filtering features described in this task area, see **[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)**.  
-___________________\_  
+---  
   
 ## See Also  
  [Applying and Managing Filters](applying-and-managing-filters.md)

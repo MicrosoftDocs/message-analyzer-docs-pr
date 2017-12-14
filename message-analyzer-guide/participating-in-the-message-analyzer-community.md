@@ -22,11 +22,11 @@ As a Message Analyzer user, you can take advantage of community resources to enh
   
 -   Use the **Was this page helpful?** feature at the end of each topic in the Operating Guide to provide your comments, although Microsoft cannot directly respond to comments when you use  this option.  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In the topics of this section, a     brief description of the above specified resources is included. Enhancements to the way you can provide **Feedback** directly from the Message Analyzer user interface are also described.   
-______________________\_  
+---  
   
 ## In This Section  
  **[Message Analyzer Community Additions](message-analyzer-community-additions.md)**  — learn how you can provide feedback or start a discussion thread on any topic in this Operating Guide, to which you can obtain feedback directly from Microsoft.  

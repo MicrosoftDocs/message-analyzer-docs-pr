@@ -24,11 +24,11 @@ The Message Analyzer **Decryption** feature enables you to view messages that ar
 ## Assessing Decryption Session Results  
  In the **Decryption** window, a separate row displays for each message that Message Analyzer attempted to decrypt and status information for each message is also provided to enable you to quickly assess the results of a decryption session. Selection of a message row in the **Decryption** window automatically selects that message in the **Analysis Grid** viewer. This also causes field data in the **Details** **Tool Window**, hexadecimal data in the **Message Data** **Tool Window**, and message layer data in the **Message Stack** **Tool Window** to snap-to the selection, provided that such **Tool Windows** are displayed. This interactive display of associated data immediately provides you with the diagnostic and analysis perspectives by which you can accurately assess your decrypted messages and the supporting origins stack.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the decryption session status information that is provided in the **Decryption** window, see [Analyzing Decryption Session Data](decrypting-tls-and-ssl-encrypted-data.md#BKMK_AnalyzeDecryptData).   
-___________________\_  
+---  
   
 ## See Also  
  [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)

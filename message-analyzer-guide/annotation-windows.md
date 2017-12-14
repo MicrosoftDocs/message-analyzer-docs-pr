@@ -18,8 +18,8 @@ manager: "ronstarr"
 # Annotation Windows
 This section provides the details for using the **Bookmarks** and **Comments** **Tool Windows** to add annotations to one or more messages that you select in the **Analysis Grid** viewer. These windows are described in the following topics of this section:  
   
- _________________________\_  
+ ---  
   
  [Bookmarks Tool Window](bookmarks-tool-window.md)   
  [Comments Tool Window](comments-tool-window.md)   
-_________________________\_
+---

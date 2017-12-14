@@ -21,11 +21,11 @@ Message Analyzer now enables you to load data from Operations Management Suite (
   
  For a single query, a user might access several log entries of different types in a single workspace, while the number of log entries actually returned by OMS depends on the query itself. For example, if you write an ARM query such as "events &#124; top 100", you will return the first 100 events. If you specify a query such as "error", you will return all the log entries in your Workspace that contain errors.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about Log Analytics search syntax, see the [Log Analytics Documentation](https://technet.microsoft.com/en-us/library/mt484087.aspx) topic on  TechNet.  
-___________________\_  
+---  
   
 ## OMS Import Feature Process Flow  
  The processes that must occur in sequence to enable you to access data from OMS and display it in Message Analyzer consist of the following:  
@@ -77,8 +77,8 @@ ___________________\_
   
 11. Observe that Message Analyzer displays the data requested by your query in the **Analysis Grid** viewer as individual messages.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about JSON, see the [JSON Official Site](http://json.org/).  
-___________________\_
+---

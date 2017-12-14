@@ -67,11 +67,11 @@ This tutorial briefly describes the main features of the Microsoft Protocol Engi
     > [!NOTE]
     >  The PEF Runtime can also parse messages from system ETW providers that exist on your computer, as long as Message Analyzer was able to retrieve a manifest for them during installation. After Message Analyzer successfully finds and stores the manifest for a system ETW provider, you can capture the  provider's events during a Live Trace Session. However, you must first select the ETW provider you want to use  in the ***Add Providers*** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog during Live Trace Session configuration, as described in [Adding a System ETW Provider](adding-a-system-etw-provider.md).  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about PEF providers and their features, see [PEF Message Providers](pef-message-providers.md).   
-    ___________________\_  
+   ---  
   
 -   **Input Adapters** — provide the interfaces that define entry points or “chokepoints” into the PEF Runtime for various Import Entities, in message file formats such as .etl, .cap, .log, .matu, and .matp.  
   
@@ -84,11 +84,11 @@ This tutorial briefly describes the main features of the Microsoft Protocol Engi
   
  **Figure 16: PEF component architecture**  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about OPN programming, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx), which is currently available from the Microsoft download site. In the future, an *OPN SDK* may be available on MSDN to include tutorials, walkthroughs, standard library, language, and other managed reference documentation, depending on demand.  
 **To learn more** about viewing the OPN definition for any protocol or module that Message Analyzer parses, see [Viewing OPN Source Code](viewing-opn-source-code.md).  
 **To review** an OPN walkthrough for two TCP Pattern Expressions that are provided by default with Message Analyzer, see [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).  
 **To learn more** about how to create an OPN configuration file that parses a custom text *.log file, see [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
-___________________\_
+---

@@ -39,7 +39,7 @@ Although all Microsoft-defined **Profiles** are ReadOnly, you can still explore 
  **What You Will Learn**   
 In the remaining topics of this section, you will learn more about understanding and working with **Profiles**:  
   
- ____________________________________\_  
+ ---  
   
  [Understanding the Built-In Profiles](working-with-message-analyzer-profiles.md#BKMK_UnderstandingBIProfiles)   
  [Applying and Managing Profiles](working-with-message-analyzer-profiles.md#BKMK_Applying-ManagingProfiles)   
@@ -47,7 +47,7 @@ In the remaining topics of this section, you will learn more about understanding
  [Configuring a New Profile](working-with-message-analyzer-profiles.md#BKMK_ConfigureNewProfile)   
  [Example of Configuring a Profile to Create a Targeted Analysis Environment](working-with-message-analyzer-profiles.md#BKMK_ProfileForTargetAnalysis)   
  [Editing and Removing Profiles](working-with-message-analyzer-profiles.md#BKMK_Edit-RemoveProfiles)   
-____________________________________\_  
+---  
   
 <a name="BKMK_UnderstandingBIProfiles"></a>   
 ## Understanding the Built-In Profiles  
@@ -77,14 +77,14 @@ ____________________________________\_
 |**PerfMon Logs**|.blg|Enable this **Profile** to display data from a Performance Monitor log and utilize some of Message Analyzer capabilities to manipulate and analyze the data whenever you load data from a \*.blg log file. Provides a main display with a graphic representation of performance counter data along with a legend of counters and an adjustable time window for zooming into data points. Displays a related set of messages after you double-click a line of performance counter data for further details.<br /><br /> The **Grouping** viewer contains the following groups to organize the data:<br /><br /> -   Machine<br />-   Instance<br />-   Counter<br /><br /> For any instance, you can click a **Counter** and display that result in the main graphic display. Note that you can double-click a counter data line and display the data that was logged in an associated set of messages in a separate instance of the **Analysis Grid** viewer.|  
 |**NTP Time Offset**|.cap|Enable this **Profile** to understand time offset from the network perspective and to troubleshoot time-related issues. The viewer and layout configuration for this **Profile** includes the **NTP Flat** view **Layout** for the **Analysis Grid**; the **NTP Time Offset** view **Layout** for the  **Chart** viewer, which shows time offset over time; and the **NTP Source** view **Layout** for the **Grouping** viewer, which organizes the NTP conversations.<br /><br /> **Usage Overview** — the main advantage of the viewer and layout configuration of this **Profile** is that you  can observe Time Offset data over the timeline of a set of trace results per network conversation, which you can select in a legend to the right of the **Timeline** visualizer component. **Note:**  The **Chart** viewer with the **NTP Time Offset** view **Layout** for the **Chart** viewer displays by default for all file types that are associated with this **Profile**. This includes the .cap, .pcap, .etl, and .pcapng file types. Note that the viewer and layout configuration for  all these file types is identical in the **Profiles** that apply to them.|  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the above file types, along with other file types that Message Analyzer supports, see [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).  
 **To learn more** about the view **Layouts** that you can select for the **Analysis Grid** viewer in a **Profile**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).   
 **To learn more** about the view **Layouts** that you can select for the **Grouping** viewer in a **Profile**, see [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts).   
 **To learn more** about the **Layouts** that you can select for **Chart** viewers in a **Profile**, see [Chart Viewer Layouts](chart-viewer-layouts.md).   
-___________________\_  
+---  
   
 <a name="BKMK_Applying-ManagingProfiles"></a>   
 ## Applying and Managing Profiles  

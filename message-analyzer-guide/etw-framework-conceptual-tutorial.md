@@ -46,11 +46,11 @@ This tutorial provides conceptual overviews of the underlying Event Tracing for 
   
  **Figure 17: ETW session architecture**  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to configure certain parameters of an ETW session from Message Analyzer, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).  
-___________________\_  
+---  
   
 <a name="BKMK_EvtDefinition"></a>   
 ### Event Definition  
@@ -210,13 +210,13 @@ Status = EventUnregister(MyProvRegHandle);
 > [!NOTE]
 >  When you install Message Analyzer, it enumerates all system ETW Providers that are registered on your computer, organizes the providers into a searchable library, and thereafter enables you to access them from the ***Add Providers*** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog during Live Trace Session configuration.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about ETW providers, including how to create and register ETW providers and instrumentation manifests, see [Creating an ETW Provider](http://go.microsoft.com/fwlink/?LinkId=523814) on MSDN.  
 **To learn more** about generating ETW manifests with various tools, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
 **To learn more** about configuring system ETW Providers, including how to specify event **Keyword** and **Level** settings, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).   
-___________________\_  
+---  
   
 ## See Also  
  [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)

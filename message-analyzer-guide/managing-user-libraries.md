@@ -115,11 +115,11 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
  See the **Available Context Menu Commands** column in the previous table to review the commands that are available in the Library categories for each asset collection.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to manage downloads and updates for asset collection Libraries, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
-___________________\_  
+---  
   
 ## See Also  
  [User Libraries](user-libraries.md)

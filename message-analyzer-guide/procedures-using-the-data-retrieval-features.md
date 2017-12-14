@@ -21,11 +21,11 @@ The procedures in this section encapsulate some of the main functionalities desc
 > [!NOTE]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
   
- ______________________\_  
+ ---  
   
   **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
-______________________\_  
+---  
   
  **[Load and Display Saved Data](procedures-using-the-data-retrieval-features.md#BKMK_load-displayTraceData)**  — shows how to browse for saved files that contain a message collection you want to load into Message Analyzer through a Data Retrieval Session and display it in a selected data viewer.  
   
@@ -128,11 +128,11 @@ ______________________\_
   
      **Note** When modifying an existing Data Retrieval Session, you cannot change the data viewer in which to display your data, as this capability is disabled in the **Edit Session** dialog. As a result, the messages that load from your modified Data Retrieval Session after you click the **Apply** button will continue to display in the data viewer that you initially specified. If you want to see the loaded data in a different data viewer, you can select one from the **New Viewer** drop-down list on the global Message Analyzer toolbar, as described in the procedure that follows.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
-    ___________________\_  
+   ---  
   
 <a name="BKMK_displayDifferentViews"></a>   
 ## Display Different Data Viewers for Session Results  
@@ -176,14 +176,14 @@ ______________________\_
   
 11. To enhance your analysis perspectives, poll through the various data viewers by clicking the session nodes for each viewer type in the **Session Explorer** window, for the current Data Retrieval Session. Note that you can also manually select the corresponding session tabs to look at the data format of each viewer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the **Protocol Dashboard** viewer,  see the [Protocol Dashboard](protocol-dashboard.md) topic.    
 **To learn more** about the many **Layouts** that you can display for the **Chart** viewer,  see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
 **To learn more** about Pattern Expressions, including the built-in Pattern Expressions, see the [Pattern Match Viewer](pattern-match-viewer.md) section.    
 **To learn more** about the  **Gantt** viewer,  see the [Gantt Viewer](gantt-viewer.md) topic.  
-___________________\_  
+---  
   
 <a name="BKMK_loadDataQuikOpen"></a>   
 ## Load Saved Data with the Open Feature  
@@ -303,23 +303,23 @@ ___________________\_
   
 13. Click **Save** when finished.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about manipulating message data for analysis purposes, see the [Analysis Grid Viewer](analysis-grid-viewer.md), [Common Data Viewer Features](common-data-viewer-features.md), and [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md) topics.  
 **To learn more** about how to create an input window of time configuration in which to view retrieved data, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
-___________________\_  
+---  
   
 <a name="BKMK_LoadTextLogFileData"></a>   
 ## Load Saved Data from a Text Log  
  This procedure shows you how to load data from a text-based .log file. To successfully parse a text log, Message Analyzer requires an OPN configuration file to parse the fields of data in the log. After you load a \*.log file into the **New Session** dialog for a Data Retrieval Session, you will find a **Text Log Configuration** drop-down list that enables you to select from a collection of built-in text log parsers that have common configurations, as described in the “Built-In OPN Configuration Files” section of [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles). However, if there is no configuration file in this list that can adequately parse your text log, you will need to create an OPN configuration file to extend Message Analyzer’s parsing capabilities.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about OPN configuration files, see the latter sections of [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
 **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) and use it as a development reference to walk through the process of creating a configuration file for your log.  
-___________________\_  
+---  
   
 #### To load saved data from a text log  
   
@@ -402,7 +402,7 @@ ___________________\_
   
      In addition, if you have downloaded the **Azure Storage Charts** asset collection through use of the **Asset Manager** dialog, you can view latency statistics for your Azure storage log data by displaying the **Azure Storage End2End Latency** and **Azure Storage Server Latency** **Layouts** for the **Chart** viewer, which are accessible from the **Charts** drop-down of the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about working with Azure logs, see [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md).  
@@ -411,7 +411,7 @@ ___________________\_
 **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
 **To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 **To learn more** about creating grouped data views, see the [Grouping Viewer](grouping-viewer.md) topic.   
-___________________\_  
+---  
   
 <a name="BKMK_LoadAzureTableData"></a>   
 #### To access, load, and view data stored in an Azure table  

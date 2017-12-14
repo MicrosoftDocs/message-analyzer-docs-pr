@@ -48,9 +48,9 @@ The **Microsoft-PEF-WFP-MessageProvider** configuration on the **Provider** tab 
   
  If the related applications are using other IP addresses, filter those out as well with more **Fast Filters**. You can specify up to four filters in the **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider**.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring **Fast Filters** for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
 **To learn more** about the Windows Filtering Platform (WFP), see [Windows Filtering Platform](http://go.microsoft.com/fwlink/?LinkId=523807).   
-___________________\_
+---

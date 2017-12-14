@@ -27,10 +27,10 @@ When you are analyzing message data that is displayed in an **Analysis Grid** vi
 > [!NOTE]
 >  You can use the **Find** function to locate messages in the **Grouping** viewer that meet specified filtering criteria, providing that the **Grouping** viewer is in focus when you click the **Find** binoculars icon.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).  
 **To learn more** about **Session Filters**, see [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md).  
 **To learn more** about sharing Filter Expression Library items with others, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
-___________________\_
+---

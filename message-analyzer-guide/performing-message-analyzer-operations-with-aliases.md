@@ -68,9 +68,9 @@ FF02:0:0:0:0:0:1:3
 ## Dynamically Applying Aliases  
  If you have a Live Trace Session in progress or if you are in the process of loading static data into Message Analyzer through a Data Retrieval Session, you can create a new **Alias** or enable/disable an existing **Alias** and the results will immediately take effect.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
 **To learn more** about grouping, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
-___________________\_
+---

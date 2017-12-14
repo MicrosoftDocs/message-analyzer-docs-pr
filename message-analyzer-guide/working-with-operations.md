@@ -35,11 +35,11 @@ Message Analyzer provides some special features for working with protocols that 
 > [!TIP]
 >  If you are working with HTTP Operations, you can open a **Chart** with the **Average Response Times for Operations** view **Layout** against a set of  trace results to review a summary of average **Response Time** values for HTTP methods. To open a **Chart** with the specified **Layout**, click the **New Viewer** drop-down list on the global Message Analyzer toolbar, highlight **Chart**, and then select the **Average Response Times for Operations** layout.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Response Time, as used in the **Average Response Times for Operations** view **Layout**, see the [Average Response Time for Operations](average-response-time-for-operations.md) topic.  
-___________________\_  
+---  
   
 <a name="BKMK_TogglingOperations"></a>   
 ## Disabling Operations  

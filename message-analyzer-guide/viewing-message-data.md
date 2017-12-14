@@ -20,17 +20,17 @@ This section describes various aspects of viewing and analyzing data with Messag
   
  Message Analyzer enables you to evaluate your message data with the primary analysis surface known as the **Analysis Grid** viewer, which provides a rich set of analysis features. Other common data viewers include the **Grouping**, **Pattern Match**,  **Gantt**, and other viewers that are described in the [Data Viewers](data-viewers.md) section. Message Analyzer also provides a **Chart** viewer for which you can select a host of built-in view **Layouts**. These layouts use graphic visualizer components to provide a high-level overview of message data  in various  formats or to  present focused details and statistical summaries of the data. The built-in **Layouts** for **Charts** are provided by default in every Message Analyzer installation and enable you to uniquely enhance your analysis perspectives for problem solving. Note that you can specify these view **Layouts** for data that you either captured with a Live Trace Session or loaded through a Data Retrieval Session.  
   
- _______________________________\_  
+ ---  
   
  **Go To Session Analysis Tools**   
 Given that viewing message data and analyzing message data are closely related, you can proceed directly to a brief summary of the analysis tools that are available in Message Analyzer. By reviewing the topic immediately below, you will have a better idea of how to use the Message Analyzer  features that are described in this section as analysis tools, which includes data viewers, tool windows, and other features that interact with message data during the analysis process:   
 [Analyzing Message Data](analyzing-message-data.md)  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In the topics of this section indicated below, you can first review some background information about the Message Analyzer viewing infrastructure and then learn how to use it to present data in various viewer formats, select **Chart** viewer **Layouts** for high-level overviews of data, manipulate the data presented in those viewers, and work with the interactive **Tool Windows**.   
-______________________\_  
+---  
   
 ## In This Section  
  **[Data Viewer Concepts](data-viewer-concepts.md)**  — learn about various aspects of the viewing infrastructure, which includes single- and multi-instance data viewers, message- and session-specific **Tool Windows**, data presentation configurations, and the types of data displayed in the Message Analyzer viewing infrastructure.  
@@ -47,8 +47,8 @@ ______________________\_
   
  **[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)**  — learn how to  create  a focused analysis environment by enabling a  built-in or custom-designed **Profile** configured with a data viewer and layout preset that automatically displays whenever you are loading data from a specific type of input file for which  the enabled **Profile** is designed, for example a *.cap, \*.etl, or \*.log file, and so on.  
   
- ___________________\_  
+---  
   
  **Go To Procedures**   
 To proceed directly to procedures that demonstrate the viewer features described in this section, see **[Procedures: Using the Data Viewing Features](procedures-using-the-data-viewing-features.md)**.   
-___________________\_
+---

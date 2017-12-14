@@ -22,9 +22,9 @@ You might need to have quick access to common trace configurations that you can 
   
  You can run any **Trace Scenario** that you wish on demand, including any custom trace template that you saved as a **Trace Scenario** in the **Trace Scenarios** Library. In addition, all **Trace Scenario** Library items are part of the Message Analyzer Sharing Infrastructure. As a result, you and other team members have mutual shared access to custom **Trace Scenarios** that you create. To export or import one or more **Trace Scenarios** to or from a designated file share or other location, you can use the **Manage Trace Scenario** dialog, which is accessible by clicking the **Manage Trace Scenarios** button from the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.   
 **To learn more** about the common **Manage \<AssetType>** dialog, see [Managing User Libraries](managing-user-libraries.md).   
-___________________\_
+---

@@ -32,7 +32,7 @@ Designing a trace template consists of adding providers, filters, and other sett
   
 -   Use the **ETW Session – Advanced Configuration** dialog to specify advanced buffer configuration settings that are passed to the ETW Session Controller that will manage your Live Trace Session.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about modifying provider configurations, see [Modifying Default Provider Settings](modifying-default-provider-settings.md).  
@@ -41,4 +41,4 @@ Designing a trace template consists of adding providers, filters, and other sett
 **To learn more** about how to configure advanced filters for **Remote Network Interfaces** scenarios, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
 **To learn more** about creating filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).   
 **To learn more** about how to configure advanced settings for ETW sessions, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).   
-___________________\_
+---

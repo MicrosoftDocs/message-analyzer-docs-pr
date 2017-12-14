@@ -71,8 +71,8 @@ Message Analyzer enables you to save message data that is loaded from any Data R
 > [!TIP]
 >  If for some reason you need to use this location for storing Message Analyzer data, you should back up any session data or assets that you have stored there, as they will be deleted during Message Analyzer installation.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about saving message data that was loaded with a **Time Filter** applied, see the procedure [Apply a Time Filter to Data Loading and Save the Message Collection](procedures-using-the-data-retrieval-features.md#BKMK_importSaveMsgCollection).  
-___________________\_
+---

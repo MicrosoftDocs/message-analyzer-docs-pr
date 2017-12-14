@@ -39,9 +39,9 @@ The **Manage Unions** dialog contains **Union** items that you can share with ot
   
  However, if you opted out, you still have the option to automatically receive periodic collection updates later by setting the **Offline** mode to **Online** on the **Downloads** tab of the **Asset Manager** and clicking the **Sync All Displayed Items** button, which auto-syncs all asset collections, or you can set individual collections to the auto-sync state on the **Downloads** tab as you require them. To do this, click the download icon to the right of the collection on the **Downloads** tab and select the **Automatically sync item collection updates when available** option in the **Item Download Options** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using the common **Manage** ***\<AssetType>*** dialog to share and manage your **Unions**, see the [Managing User Libraries](managing-user-libraries.md) topic.  
 **To learn more** about the Sharing Infrastructure, downloading asset collections, and auto-syncing asset collection updates, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.  
-___________________\_
+---

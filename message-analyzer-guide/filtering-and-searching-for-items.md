@@ -23,8 +23,8 @@ The **Downloads** tab in the **Asset Manager** dialog displays all un-synced ass
 > [!NOTE]
 >  When you auto-sync an asset collection Library, it is removed from the **Downloads** tab and appears on the **Settings** tab in the **Asset Manager** with the auto-sync status icon displaying to the right of that particular collection.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about auto-syncing asset collections, see [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md).   
-___________________\_
+---

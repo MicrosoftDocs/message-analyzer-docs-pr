@@ -73,10 +73,10 @@ Message Analyzer provides a  set of default and preview data viewers that enable
 > [!NOTE]
 >  Message Analyzer data viewers are available from the locations described in [Session Data Viewer Options](session-data-viewer-options.md).  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the multi-instance data viewers, see the [Data Viewers](data-viewers.md) topic.  
 **To learn more** about the message-specific and session-specific **Tool Windows**, see the [Tool Windows](tool-windows.md) topic.  
 **To learn more** about creating and managing your own **Layouts** that contain data visualizer components for the **Chart** viewer, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
-___________________\_
+---

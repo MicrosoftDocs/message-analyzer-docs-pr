@@ -112,11 +112,11 @@ You can specify filtering configuration settings in the **Advanced Settings** di
   
  For further details on applying event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about capturing data from a remote host, see the [Configuring a Remote Capture](configuring-a-remote-capture.md) section. However, some of the configuration settings for remote tracing are briefly described in the configuration settings table that is included in this section.   
-___________________\_  
+---  
   
 <a name="BKMK_CommonProvSettings"></a>   
 ## Common Provider Configuration Settings  
@@ -156,13 +156,13 @@ ___________________\_
   
  <sup>2</sup> When capturing data in **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider**, setting a **Fast Filter** such as **IPAddress** == *192.168.1.1* does not prevent IPv6 traffic from being captured because IPv4 and IPv6 messages are retrieved from separate layers in these scenarios and the **Fast Filter** applies only to the IPv4 layer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about creating **Fast Filter** and adapter filter configurations for a Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
 **To learn more** about how to select adapters and specify filters for a Live Trace Session that uses the **Remote Network Interfaces** **Trace Scenario**, see [Configuring a Remote Capture](configuring-a-remote-capture.md) and [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
 **To learn more** about configuring system ETW Providers with event **Keyword** and **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).   
-___________________\_  
+---  
   
 ## See Also  
  [PEF Message Providers](pef-message-providers.md)

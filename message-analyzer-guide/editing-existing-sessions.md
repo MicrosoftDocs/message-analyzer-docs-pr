@@ -90,7 +90,7 @@ After loading data into Message Analyzer or capturing it live, you have the opti
   
     -   Modify and optimize the **ETW Session Configuration**, for example, if you think you are dropping packets because of inadequate ETW buffer configuration settings.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about selecting a **Trace Scenario**, see [Selecting a Trace Scenario](selecting-a-trace-scenario.md).   
@@ -99,4 +99,4 @@ After loading data into Message Analyzer or capturing it live, you have the opti
 **To learn more** about optimizing your ETW session configuration, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).   
 **To learn more** about **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
 **To learn more** about how to configure **Advanced Settings** for the **PEF-NDIS** and **Windows-NDIS** providers, see the topics [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) and [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
-___________________\_
+---

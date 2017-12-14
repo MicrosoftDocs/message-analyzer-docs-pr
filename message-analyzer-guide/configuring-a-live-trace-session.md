@@ -82,11 +82,11 @@ To capture data live with Message Analyzer, you can either start a basic Live Tr
   
 -   A combination of Microsoft-PEF and Windows system ETW Providers.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about creating your own **Trace Scenarios**, see [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md).   
-___________________\_  
+---  
   
 ## Live Trace Session Configuration Features  
  The following subtopics provide further details about Message Analyzer's Live Trace Session configuration features along with various operations that Message Analyzer supports for live captures:  
@@ -102,11 +102,11 @@ ___________________\_
  [Selecting a Session Data Viewer](selecting-a-session-data-viewer.md)   
  [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)  
   
- _____________________\_  
+ ---  
   
  **Capturing the Data**   
 When you are ready to capture data with Message Analyzer, see [Performing a Live Capture](performing-a-live-capture.md) to review several methods for starting a live capture.   
-_____________________\_  
+---  
   
 ## See Also  
  [Message Analyzer User Roles](message-analyzer-user-roles.md)

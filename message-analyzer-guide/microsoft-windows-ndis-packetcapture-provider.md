@@ -61,31 +61,31 @@ The **Microsoft-Windows-NDIS-PacketCapture** provider works with several **Trace
   
 -   IP Address filters  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring these special filters, see the [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topic, which also includes a figure that shows the **Advanced Settings** dialog for this provider.  
-___________________\_  
+---  
   
 <a name="BKMK_NDISKeywordErrorLevelFilters"></a>   
 ## Event Keyword and Error Level Filtering  
  Similar to other system ETW providers that are registered on your system, you have the option to specify ETW event **Keyword** configurations and error **Level** filter settings for the **Microsoft-Windows-NDIS-PacketCapture** provider, to further refine the scope of events to be captured. The settings for these filters are available on the **ETW Core** tab of the **Advanced Settings – Microsoft-Windows-NDIS-PacketCapture** dialog. By default, all events are delivered by the **Microsoft-Windows-NDIS-PacketCapture** provider when no **Keywords** are selected. If you specify any particular **Keyword**, then the provider will deliver the events that are enabled by that **Keyword** only, if they occur in a trace. It also follows that the provider will deliver multiple events when you select multiple **Keywords**, if they occur in a trace.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
-___________________\_  
+---  
   
 <a name="BKMK_CaptureInPMode"></a>   
 ## Capturing Data in P-Mode  
  To enable capturing messages in Promiscuous Mode with the **Microsoft-Windows-NDIS-PacketCapture** provider, you can select any adapter that supports P-Mode captures in the Interface Selection section of the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog. You can perform such captures in P-Mode with the use of this provider on the local computer or on a specified remote computer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about capturing data in P-Mode, see [Capturing Remotely in Promiscuous Mode](configuring-a-remote-capture.md#BKMK_PromiscuousMode).  
-___________________\_  
+---  
   
 ## See Also  
  [Built-In Trace Scenarios](built-in-trace-scenarios.md)

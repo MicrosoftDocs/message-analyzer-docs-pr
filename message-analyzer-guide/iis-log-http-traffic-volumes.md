@@ -19,11 +19,11 @@ The **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** enables you 
 > [!NOTE]
 >  An IIS.log file will be parsed only if you select the **IIS** configuration file in the **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **IIS Log HTTP Traffic Volumes** view **Layout**.  
 >   
->  ___________________\_  
+> ---  
 >   
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
-> ___________________\_  
+>---  
   
 ## Using the IIS Log HTTP Traffic Volumes Layout  
  This **Layout** provides a quick summary of the total server response volumes in bytes that are associated with client queries requesting access to IIS server resources and services. It enables you to see at-a-glance which client queries are driving high byte volume responses from an IIS server, which may point to areas that need further investigation. For example, very high byte volume server responses could be an indication of the potential overload of an IIS server, especially if a higher than expected number of server responses are needed to service client queries.  
@@ -33,11 +33,11 @@ This **Layout** for the **Chart** viewer is intended to work with the **IIS** **
   
  As an example of interactively driving the display of messages, if you select any **c_ip** group  in the **Grouping** viewer, you can display all the messages associated with a particular client IP address in the **Analysis Grid** viewer for further analysis and message **Details**. In addition, each Group selection that you make in the **Grouping** viewer filters the display of messages in the **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** to create a focused context for analysis.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about interactively analyzing IIS log data with the indicated viewing and **Layout** configurations, see the following topics:  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **IIS** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **IIS** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **IIS Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
-___________________\_
+---

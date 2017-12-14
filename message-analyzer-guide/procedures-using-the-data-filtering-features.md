@@ -24,11 +24,11 @@ The procedures in this section encapsulate many of the filtering functions descr
 > [!NOTE]
 >  As the person running the procedures in the examples of this section, it is assumed that you are a Network Administrator, or that you are at least familiar with networking concepts.  
   
- ______________________\_  
+ ---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
-______________________\_  
+---  
   
  **[Filtering a Data Retrieval Session](procedures-using-the-data-filtering-features.md#BKMK_FilterImportedData)**  — provides examples of the following:  
   
@@ -36,7 +36,7 @@ ______________________\_
   
 -   How to apply a **Time Filter** to data that is loaded into Message Analyzer through a Data Retrieval Session that targets input files that consolidate several message sources, so that you can view data in specific windows of time in which problems are suspected to have occurred.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
@@ -260,12 +260,12 @@ The hypothetical high-level issue in this example is that a Network Administrato
 >   
 >  For example, by selecting the **All Layers** check box in the **Advanced Settings – Microsoft-Windows-NDIS-PacketCapture** dialog, you can specify that packets are intercepted on all layers of the NDIS stack. In addition, by selecting both the **Ingress** and **Egress** check boxes in the dialog, you can specify the traversal path (direction up and down the stack) in which packets are intercepted. By specifying all layers and both traversal paths for an adapter that is dropping packets, you make certain that dropped packet events will be generated for any layer. If packets are being dropped, you should be able to expose them in Message Analyzer as ETW events that have certain characteristics, as described in step 24 of the procedure [Capture Traffic on a Remote Host](procedures-using-the-network-tracing-features.md#BKMK_CaptureRemoteHost).  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring the **Microsoft-PEF-NDIS-PacketCapture** provider from the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, including how to assign **Fast Filter** **Groups** to selected adapters, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
 **To learn more** about the unique filtering configurations and other advanced capabilities that are available for the **Microsoft-Windows-NDIS-PacketCapture** provider, including remote tracing, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).   
-___________________\_  
+---  
   
  **Applying a WFP Layer Set Filter to a Network Tunnel Traffic and Unencrypted IPSEC Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator wants to run a Live Trace Session that directionally isolates TCP traffic on a client computer to detect connectivity issues while at the same time reduce the amount of TCP traffic that is captured to streamline performance. Message Analyzer enables the administrator to use the **WFP Layer Set** filter configuration of the **Microsoft-PEF-WFP-MessageProvider** in the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario** to isolate inbound V4 traffic at the Transport Layer as a possible starting point for detecting network connectivity issues. Note that the **WFP Layer Set** filter configuration also enables capture of outbound V4 traffic at the Transport Layer in addition to inbound and outbound V6 traffic, in any combination.  
@@ -313,7 +313,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
  **More Information**   
  **To learn more** about Advanced Settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
-___________________\_  
+---  
   
  **Applying a Session Filter to a Loopback and Unencrypted IPSEC Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator has a client computer that is experiencing slow file transfer activity or slowly loading web pages. A high number of TCP retransmits could be responsible for the delays. This could be symptomatic of inappropriate TCP **Window** size and **WindowsScaleFactor** settings, or possibly packets are being dropped by the network or client firewall.  
@@ -415,11 +415,11 @@ If you want to perform additional checks to determine whether dropped packets ar
         `ETW.EtwProviderMsg.EventRecord.Header.Descriptor.Keywords==0x0000010000000000`  
         You can also look for the KW_DROPPED flag value in the **Details** **Tool Window** after selecting any ETW message.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about filtering for TCP diagnostic messages, see the procedure [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).   
-___________________\_  
+---  
   
  **Applying Fast Filters to a Loopback and Unencrypted IPSEC Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator has a busy server where the responses are slow, but he or she does not want to impact the server with a high-volume trace when troubleshooting issues. Message Analyzer enables the administrator to accommodate this situation and determine why the server is behaving this way, by using a **Fast Filter** based on a **Port** to narrow down the traffic captured on the server. If the problem seems to be related to a particular user, the administrator can use a **Fast Filter** based on a specified client IP address. The intent of this scenario is to demonstrate the efficiency and performance advantages that can be achieved when applying **Fast Filters**, which enable the administrator to capture the least amount of data possible to resolve a problem.  
@@ -462,7 +462,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      For example, if you are working with message data from a protocol that uses request/response pairs (viewed as Operation nodes in the **Analysis Grid** viewer) such as HTTP, SMB, or DNS; ports 80, 445, and 53, respectively; you can add a **ResponseTime** column to the **Analysis Grid** viewer and then sort that column to view the messages that have the highest server response times. Note that high server response times can typically rule out network issues as the cause of delays, providing that operation **TimeElapsed** values are reasonable.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md).   
@@ -518,11 +518,11 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 15. Examine the **StatusCode** and **ReasonPhrase** values of the captured data to determine possible causes of connection issues.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about common HTTP **StatusCode** and **ReasonPhrase** definitions, see the status code table in the [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) section of this documentation.   
-___________________\_  
+---  
   
 <a name="BKMK_FilterTraceResults"></a>   
 ## Filtering Live Trace Session Results  
@@ -671,11 +671,11 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 16. To display statistics associated with all the TCP three-way handshakes in a set of trace results, execute the **TCP Three-Way Handshake** pattern expression in the **Pattern Match** viewer, which is accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar. When the **Pattern Match** viewer is open, click the  **TCP Three-Way Handshake** pattern expression in the **AVAILABLE PATTERNS** list. If any matches are found, they appear in the Matched pattern selector in the **MATCHES** pane of the viewer. To review the discovered data, click the Matched pattern selector to display all instances of TCP three-way handshake patterns and the associated TCP data.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about the **TCP Three-Way Handshake** and other pattern expressions, see [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).  
-    ___________________\_  
+   ---  
   
      Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along with surrounding messages potentially related to a failure:  
   

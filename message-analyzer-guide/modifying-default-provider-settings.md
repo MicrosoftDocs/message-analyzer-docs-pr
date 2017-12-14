@@ -45,7 +45,7 @@ To enhance the capture configuration of a Live Trace Session, you can modify the
 > [!NOTE]
 >  For *system* ETW Providers (Windows components that have been instrumented as ETW event providers), the only additional configuration  that you can specify are  modifications to the event **Keyword** and error **Level** filtering settings; however, not all system ETW Providers make **Keyword** settings available for filtering. System ETW Providers, such as the **Microsoft-Windows-LDAP-Client**, are listed in the **Add System Providers** dialog, which is accessible from the **Add Providers** drop-down list on the **ETW Providers** toolbar on the **Live Trace** tab of the **New Session** dialog, as described in [Adding a System ETW Provider](adding-a-system-etw-provider.md).  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to configure common provider settings, see the [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md).  
@@ -53,4 +53,4 @@ To enhance the capture configuration of a Live Trace Session, you can modify the
 **To learn more** about how to configure settings for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
 **To learn more** about how to configure settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
 **To learn more** about configuring ETW event **Keyword** and error **Level** settings, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
-___________________\_
+---

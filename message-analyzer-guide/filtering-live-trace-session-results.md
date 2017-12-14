@@ -73,13 +73,13 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
 > [!IMPORTANT]
 >  The **Azure Storage** category filters are not described in this section, as Microsoft provides related information in Azure blogs that you can access, as indicated immediately below.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about troubleshooting Azure storage logs, see the following documentation:   
 [End-to-End Troubleshooting Using Azure Storage Metrics and Logging, AzCopy, and Message Analyzer](https://azure.microsoft.com/en-us/documentation/articles/storage-e2e-troubleshooting/)  
 [Monitor, Diagnose, and Troubleshoot Microsoft Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)  
-___________________\_  
+---  
   
 <a name="BKMK_AddressFilteringCat"></a>   
 ## Address Filtering Category  
@@ -253,12 +253,12 @@ ___________________\_
 ## Sharing Filter Items  
  You can share  items from your centralized filter **Library** with other users, including any that you create, by exporting them as a **Filter** asset collection (\*.asset file) through the Message Analyzer Sharing Infrastructure. The features of the Sharing Infrastructure enable you to export and import **Filter** items to and from a designated user file share or other location, respectively, or to a user feed that you create from the **Settings** tab of the Message Analyzer **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu. To learn how to manage view **Filters** from the **Manage Filters** dialog, see [Applying and Managing Filters](applying-and-managing-filters.md).  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using **Aliases** in Filter Expressions, see [Performing Message Analyzer Operations with Aliases](performing-message-analyzer-operations-with-aliases.md).   
 **To learn more** about using **Unions** in Filter Expressions, see [Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md).   
-___________________\_  
+---  
   
 ## See Also  
  [Writing Filter Expressions](writing-filter-expressions.md)   

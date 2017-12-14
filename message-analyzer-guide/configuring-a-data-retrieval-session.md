@@ -82,8 +82,8 @@ If the input files for your Data Retrieval Session are large, you can limit the 
  [Merging and Aggregating Message Data](merging-and-aggregating-message-data.md)   
  [Naming a Session](naming-a-session.md)  
   
- _____________________\_  
+ ---  
   
  **Retrieving the Data**   
 When you are ready to load data into Message Analyzer, see  [Performing Data Retrieval](performing-data-retrieval.md) to review various methods for retrieving saved data with Message Analyzer.   
-_____________________\_
+---

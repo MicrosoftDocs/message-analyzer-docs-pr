@@ -21,11 +21,11 @@ The procedures in this section demonstrate the use of numerous Message Analyzer 
 > [!IMPORTANT]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic analysis scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios.  
   
- ______________________\_  
+ ---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
-______________________\_  
+---  
   
  **[Apply Gradient Style Color Rules](procedures-using-the-data-viewing-features.md#BKMK_ApplyGradientColorRules)**  — provides an example of how to utilize gradient style **Color Rules** to quickly flag messages that meet the filtering criteria of multiple **Color Rules**.  
   
@@ -61,11 +61,11 @@ ______________________\_
   
  This procedure demonstrates a simple way to expose TCP messages that have an IPv4 Network Layer in the message stack. The **Color Rule** that is used in the procedure also serves as an example of how you might design multiple gradient-style **Color Rules** with visually-coordinated opposite facing gradients, which you can then use as a troubleshooting mechanism to quickly identify message stack components at a glance.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, see [Using and Managing Color Rules](using-and-managing-color-rules.md).  
-___________________\_  
+---  
   
 <a name="BKMK_Transport-Network-ColorRulesProcedure"></a>   
 #### To identify Transport and Network Layer messages with gradient-style Color Rules  
@@ -104,11 +104,11 @@ ___________________\_
 ## Apply a Built-In View Layout  
  In the procedure that follows, you will apply the built-in **TCP Deep Packet Analysis with Absolute Sequence Number Grouping** view **Layout** to trace data that is displayed in the **Analysis Grid** viewer. This view **Layout** has a column layout configuration that contains various TCP fields, the values of which can be important when diagnosing TCP issues. The columns that hold TCP field data include **DestinationPort**, **SourcePort**, **PayloadLength**, **SequenceNumber**, **AcknowledgementNumber**, and **WindowScaled** columns. In addition, a **TimeDelta** field is also included to display the running time for captured messages. The predefined **Layout** also includes groupings of **Network** and **Transport** columns that present the details of the IP conversations that took place on corresponding TCP ports within a trace. Note that the **Network** and **Transport** columns were removed after the **Grouping** operation, but before this **Layout** was saved in the default **Layout** Library item collection.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).  
-___________________\_  
+---  
   
 #### To apply a built-in View Layout for TCP diagnosis  
   
@@ -144,11 +144,11 @@ ___________________\_
 ## Perform Data Grouping Operations  
  In the procedure that follows, you will execute the **Group** command on various **Analysis Grid** viewer data columns, including the **ContentType**, **Transport**, **Source** or **Destination**, and **Diagnosis** data columns. The grouping operations will enable you to quickly determine the object types being requested by your web browser, assess the heaviest port traffic, determine the IP addresses carrying the most traffic, and examine grouped diagnosis messages types, respectively. In this procedure, the **Analysis Grid** viewer will be populated with message data that you capture with the **Microsoft-PEF-WFP-MessageProvider** in the **Loopback and Unencrypted IPSEC**  **Trace Scenario** and the focus will be on Application Layer (HTTP) and Transport Layer messages.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
-___________________\_  
+---  
   
 #### To perform multiple data grouping operations for analysis  
   
@@ -213,12 +213,12 @@ ___________________\_
   
  This example also shows how to use the **SMB Reads and Writes Bytes/Second**, **SMB File Stats**, and **SMB/SMB2 Service Performance** view **Layouts** for **Charts** to expose file access activities and statistics. In this part of the procedure, you will start a new session with the **Loopback and Unencrypted IPSEC** **Trace Scenario**, in which you will use the **Microsoft-PEF-WFP-MessageProvider** to focus on statistical summaries of SMB/SMB2 file access operations messages above the IP/Network Layer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the **Protocol Dashboard** viewer, see the [Protocol Dashboard](protocol-dashboard.md) topic.  
 **To learn more** about the SMB **Layouts** for the **Chart** viewer, see the subtopics in the [File Sharing Category](file-sharing-category.md) section.   
-___________________\_  
+---  
   
 #### To analyze top level summary data  
   
@@ -257,11 +257,11 @@ ___________________\_
 ## Perform Interactive Analysis with Data Viewers  
  The procedure that follows provides a simple example of how you might utilize the **Analysis Grid** and **Protocol Dashboard** viewers interactively to analyze captured message data. The example also indicates how you might user other data viewers interactively with the **Analysis Grid** viewer:  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about data viewers and how they interact, see [Data Viewer Concepts](data-viewer-concepts.md).   
-___________________\_  
+---  
   
 #### To analyze data through data viewer interaction  
   
@@ -289,21 +289,21 @@ ___________________\_
   
 10. Click the diagnosis error icons in the **DiagnosisTypes** column under the expanded group nodes to review the error message text. You might also examine the **Summary** column descriptions for these messages in the **Analysis Grid** viewer to discover any evidence of the underlying failures that are associated with the diagnosis errors that occurred. You can also review the values of the fields for selected messages in the **Details** **Tool Window**.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the meaning of diagnosis message types, see the “Enum Values for DiagnosisType filters” table in the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
-___________________\_  
+---  
   
 <a name="BKMK_applyViewpoints"></a>   
 ## Apply Viewpoints to Trace Data  
  In the procedure that follows, you will apply HTTP and TCP **Viewpoints** so that you can view HTTP- or TCP-related traffic at top-level, without having to drill down into each message stack to expose these messages. In addition, you will alternately disable or enable Operations so that you can expose HTTP request and response messages — either in their original chronological order (by executing the **Disable Operations** **Viewpoint**), or encapsulated by Message Analyzer in top-level Operation rows (by executing the **No Viewpoint** command) respectively, in the **Analysis Grid** viewer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
-___________________\_  
+---  
   
 #### To analyze data with applied Viewpoints  
   
@@ -358,22 +358,22 @@ ___________________\_
 > [!IMPORTANT]
 >  Pairing up request and response messages in Operation nodes for protocols that typically use request/response pairs such as HTTP, DNS, and SMB2, provides immediate access to response messages rather than having to search through potentially hundreds or even thousands of messages to find them. Another advantage of this configuration is that you can readily measure and correlate important values such as **ResponseTime** and **ElapsedTime**, which specify how long it took for the first server response and how long it took to receive all message fragments and complete the Operation, respectively. High values for these times can provide an indication of a poorly responding server in the first case and network latency issues in the second. The **ElapsedTime** is displayed by default in the **Analysis Grid** viewer column layout; however, you must add the **ResponseTime** column by right-clicking it under **Global Annotations** in the **Field Chooser** **Tool Window** and then selecting the **Add as Column** command.  
 >   
->  ___________________\_  
+> ---  
 >   
 >  **More Information**   
 >  **To learn more** about average response time for Operations, see [Average Response Time for Operations](average-response-time-for-operations.md).  
 > **To learn more** about average elapsed time for Operations, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md).  
-> ___________________\_  
+>---  
   
 <a name="BKMK_ApplyQuickFilter"></a>   
 ## Apply a Time Filter to Trace Results  
  In the procedure that follows, you will start a Data Retrieval Session and load data from a saved trace or log file. You will then apply a **Time Filter** to the loaded message collection so that you can temporarily focus on analyzing messages in a specified window of time. You will also verify that you can toggle back and forth between the time-filtered data and your original data, as your analysis might require.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, including the benefits of using a **Time Filter**, see [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md).   
-___________________\_  
+---  
   
 #### To apply a Time Filter to a set of trace results  
   
@@ -422,11 +422,11 @@ ___________________\_
 ## Drive Analysis Grid Viewer and Tool Window Interactions  
  In the procedure that follows, you will run a trace and display data in the **Analysis Grid** viewer. Thereafter, through message selection in the **Analysis Grid** viewer, or message and field selection in various **Tool Windows**, the procedure will demonstrate how to interactively drive the display of data in these viewing components to facilitate rapid assessment of message details, which include field values and types, hexadecimal or binary data, diagnosis message types and details, message stack configurations, and so on. This procedure assumes that certain tool windows you will be working with are not currently displayed in the Message Analyzer analysis surface. If they are already displayed, please ignore the steps that specifically require you to display them.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to position Message Analyzer data viewers and **Tool Windows** for enhanced data analysis, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).   
-___________________\_  
+---  
   
 #### To drive interaction between the Analysis Grid viewer and tool windows  
   
@@ -465,11 +465,11 @@ ___________________\_
 ## Create an Alias for a Data Field Value  
  In the procedure that follows, you will perform a live trace and display the results data in the **Analysis Grid** viewer. You will then create an **Alias** for an IPv6 address and name it with a string value of “MyComputer”. You will then use the new **Alias** in a Filter Expression that you apply to the trace.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).  
-___________________\_  
+---  
   
 #### To create a field value Alias  
   
@@ -516,11 +516,11 @@ ___________________\_
 > [!IMPORTANT]
 >  Because creating a working **Union** in your Message Analyzer installation depends on combining fields that are specific to your environment, the procedure that follows uses hypothetical field names, such as `Command.smb_cmd` and `Command`. Therefore, when using this procedure to create a *working* **Union**, you should substitute actual field names that are contained in actual data files that are specific to your environment. In addition, you have the option to specify any **Union** name that is appropriate for your needs.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the concepts upon which this example procedure is based, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).   
-___________________\_  
+---  
   
 #### To create a Union of two related data fields  
   

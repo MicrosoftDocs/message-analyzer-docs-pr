@@ -38,7 +38,7 @@ Beyond  live captures and saved files, Message Analyzer enables you to utilize  
   
  The above input data sources are described in the following topics of this section:  
   
- _________________________________\_  
+---  
   
  [Handling Azure Data](handling-azure-data.md)   
  [Loading System Event Log Data](loading-system-event-log-data.md)   
@@ -46,7 +46,7 @@ Beyond  live captures and saved files, Message Analyzer enables you to utilize  
  [Loading SQL Data](loading-sql-data.md)   
  [Loading WPP-Generated Events](loading-wpp-generated-events.md)   
  [Loading OMS Log Data](loading-oms-log-data.md)   
-_________________________________\_  
+---  
   
 ## Combining Input Data Sources  
  You can use any of the previously specified input data sources alone, or you can combine two or more input sources so that you can correlate and analyze related data from different sources. For example, you might combine a saved trace file with a particular Event Log to correlate data from captured messages versus event log entries, for enhanced analysis. Given that some of the input data sources  are preview features, you might also come up with some inventive ways to combine data sources in other ways. For example,  you might combine a PowerShell query or a SQL database table with another input source. In the case of a PowerShell query, you could acquire process IDs on a specified remote computer and correlate that data with a network trace saved in an ETL file. For this particular scenario, Message Analyzer has some assets that are specifically designed to process this type of data, for example, the **Grouping** viewer which can correlate process names and IDs.  

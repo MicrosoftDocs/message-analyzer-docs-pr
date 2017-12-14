@@ -20,12 +20,12 @@ Message Analyzer can make use of many different message providers when capturing
   
  This section briefly describes the functions of Microsoft Protocol Engineering Framework (PEF) providers that are native to Message Analyzer and which enable you to partition the capture of network traffic in the indicated manner. The filters that you can configure for these providers are also described in the sections below:  
   
- ______________________________________________\_  
+ ---  
   
  [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
  [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)   
  [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)   
-______________________________________________\_  
+---  
   
 > [!TIP]
 >  Note that you can also use the **Microsoft-Windows-NDIS-PacketCapture** provider to capture messages locally or remotely at Link Layer.  

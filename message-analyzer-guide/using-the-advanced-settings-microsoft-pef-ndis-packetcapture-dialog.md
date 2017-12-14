@@ -87,11 +87,11 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
   
 -   **Group1** is assigned to **Machine**; **Group2** is assigned to a VM — in this case, if a packet arrives that belongs to the VM, then in effect it belongs to both **Groups** (all packets belong to **Machine**), and therefore the filtering rules for both **Groups** kick in with the defined operators. If a packet arrives that does not belong to the VM, then only the filtering rules for **Group 1** fire.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about how to create a **Fast Filter Group** and assign it to an adapter, see the procedure [Configure and Run a Local Network Interfaces Trace](procedures-using-the-network-tracing-features.md#BKMK_configStartLinkLayerTrace).  
-___________________\_  
+---  
   
 ## See Also  
  [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)

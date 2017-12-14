@@ -20,10 +20,10 @@ If you have comments or questions about Message Analyzer issues that you encount
   
  The advantage of bringing your issue to the community of Message Analyzer users is that you can solicit interactive participation in your discussion thread to obtain feedback that may resolve a problem you are experiencing. By engaging with other users in this manner, a tribal knowledge is developed in the community that not only helps users, but enables Microsoft to make improvements to Message Analyzer based on feedback.  
   
- _______________________________________________\_  
+ ---  
   
  **[Go To the Message Analyzer Online Forum](http://go.microsoft.com/fwlink/?LinkId=523826)**    
-_______________________________________________\_  
+---  
   
 ## Forum Feature Summary  
  The following Message Analyzer Forum features summary describes some of the specific things you can do at the site:  

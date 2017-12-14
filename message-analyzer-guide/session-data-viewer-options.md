@@ -58,9 +58,9 @@ After you use the **New Session** dialog to configure either a Data Retrieval Se
 > [!TIP]
 >  When you have session results data for which you have specified multiple data viewers, for example, the **Grouping** and the **Analysis Grid** viewers, you can bring the message data contained in a particular viewer into focus by clicking its associated node in the **Session Explorer** window, or by selecting its associated viewer tab.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about Message Analyzer data windows that interact with data viewers, see the [Tool Windows](tool-windows.md) topic.  
 **To learn more** about how to configure and save custom  **Chart** viewer **Layouts**, see [Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md).   
-___________________\_
+---

@@ -18,11 +18,11 @@ manager: "ronstarr"
 # Creating Message Analyzer Aliases
 Message Analyzer enables you to create an alphanumeric string value **Alias** for any data field value in the **Analysis Grid** viewer that is of a type that supports aliasing, as described in [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md). You can create an **Alias** for only one data field value at a time; however, you can only create an **Alias** from the **Analysis Grid** viewer, as there are no other facilities to create one. Note that you can apply any alias while Message Analyzer is capturing data in a Live Trace Session or loading messages through a Data Retrieval Session.  
   
- __________________\_  
+ ---  
   
  **Go To Procedure**   
 To go directly to a procedure that creates an **Alias**, see [Create an Alias for a Data Field Value](procedures-using-the-data-viewing-features.md#BKMK_CreateAlias). However, you are advised to examine the information contained in this section before doing so.  
-__________________\_  
+---  
   
 ## Enforcing Unique Alias Values  
  Message Analyzer enforces the restriction that the **Value** of each *applied* **Alias** must be unique. However, if you create an **Alias** and its **Value** matches that of another **Alias**, and you **Save** it, Message Analyzer simply adds that **Alias** to the **Aliases** drop-down list on the global Message Analyzer toolbar and to the **Aliases** submenu that is accessible from the global Message Analyzer **Tools** menu, and then sets it to the disabled state, while preventing it from being applied to the current message set. If you attempt to enable this **Alias**, Message Analyzer blocks application of the **Alias** and displays a **Duplicated value** message to indicate the inherent restriction. Even though this is a restriction, it does give you the flexibility to create multiple **Aliases** with different names for the same **Value**; however, you can only enable and apply them one at a time.  

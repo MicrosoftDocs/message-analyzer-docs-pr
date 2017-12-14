@@ -61,11 +61,11 @@ Message Analyzer enables you to share your local **Message Analyzer Color Rules*
 ## Updating the Color Rules Asset Collection  
  Microsoft provides a default **Message Analyzer** feed on the **Downloads** tab of the **Asset Manager** dialog that enables you to download **Message Analyzer Color Rules** or **Azure Storage Color Rules** asset collections from a Microsoft web service and to synchronize with asset collection updates that are periodically pushed out by the service. At any time, you can perform a download of an auto-synced collection from the **Settings** tab of the **Asset Manager** dialog.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the common **Manage** ***\<AssetType>*** dialog, see [Managing User Libraries](managing-user-libraries.md).   
-___________________\_  
+---  
   
 ## See Also  
  [Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)   

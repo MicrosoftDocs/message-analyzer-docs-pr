@@ -52,11 +52,11 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
   
  These **Trace Scenarios** encapsulate built-in message provider configurations that are optimized to capture specific types of data in a Live Trace Session. To add a basic **Trace Scenario** with no additional configuration required for a Live Trace Session, you can select a scenario in the **Select Scenario** drop-down list in the **New Session** dialog. The scenario that you choose should contain the provider/s that capture data at a particular stack layer, or should focus on capturing messages from some device, application, or system component in which you are interested. Note that a description is provided with each **Trace Scenario** in the **Select Scenario** drop-down list so that you can get a sense of its functionality. After you select a scenario, you can begin capturing data immediately with a single click on the **Start** button of the **New Session** dialog. Thereafter, the message data displays in the data viewer that is set as the default, for example, the **Analysis Grid** viewer.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the functions of the **Trace Scenarios** provided by default in every Message Analyzer installation, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.  
-___________________\_  
+---  
   
 ## Quick Start Trace Scenarios  
  Message Analyzer also enables you to use a few different methods to start a live trace immediately, with no initial configuration required. These methods also make use of built-in **Trace Scenarios**, which contain message providers that are tailored to capture specific types of data, as follows:  
@@ -92,7 +92,7 @@ ___________________\_
   
 -   A focused set of messages that expedites the analysis process for others with whom you are sharing your results.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about using **Session Filters**, see [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md).  
@@ -100,7 +100,7 @@ ___________________\_
 **To learn more** about using **Fast Filters**, see [PEF-NDIS Fast Filters](pef-ndis-fast-filters.md) and [PEF-WFP Fast Filters](pef-wfp-fast-filters.md).  
 **To learn more** about using **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
 **To learn more** about the capabilities of the **Microsoft-Windows-NDIS-PacketCapture** provider, see the [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md) topic.   
-___________________\_  
+---  
   
 ## Session Configuration Workflow and Features  
  The linked section immediately below provides a general workflow that you can follow when configuring a Live Trace Session. It also contains subtopics that describe the features and functions that you can use when configuring a Live Trace Session:  

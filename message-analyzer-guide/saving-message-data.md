@@ -41,11 +41,11 @@ After you have loaded data through a Data Retrieval Session or captured data in 
 > [!NOTE]
 >  In a future release of Message Analyzer, you may be able to save more settings.  
   
- ______________________\_  
+ ---  
   
  **What You Will Learn**   
 In this section, you will learn about saving session data to the default location, the selection options for saving messages, specifying file formats, and naming files, as indicated by the topics below.   
-______________________\_  
+---  
   
 ## In This Section  
  **[Saving Session Data](saving-session-data.md)**  — learn how to use the **Save As/Export Session** dialog to save trace results data in the *.matp file format, or to export trace results to a \*.cap file for compatibility with other applications, such as Network Monitor.  

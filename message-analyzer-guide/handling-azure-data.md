@@ -35,8 +35,8 @@ To enhance your troubleshooting experience in the Cloud environment, Message Ana
 [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)  
 [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)  
   
- __________________\_  
+ ---  
   
  **Go To Procedure**   
 For an example of how to retrieve Azure data, see the procedural topic [Retrieve Data from Log Files in Azure Storage BLOB Containers or from an Azure Table](procedures-using-the-data-retrieval-features.md#BKMK_RetrieveAzureData).   
-__________________\_
+---

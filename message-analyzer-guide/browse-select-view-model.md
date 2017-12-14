@@ -51,7 +51,7 @@ Microsoft Message Analyzer utilizes a unique set of Browse-Select-View (BSV) fea
   
  You can also view data from a Live Trace Session in the exact same presentation formats that you can apply to data that you load into Message Analyzer through a Data Retrieval Session.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about applying filters to a Data Retrieval Session, see the following topic:  
@@ -67,4 +67,4 @@ Microsoft Message Analyzer utilizes a unique set of Browse-Select-View (BSV) fea
 [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
 [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
 [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md)  
-___________________\_
+---

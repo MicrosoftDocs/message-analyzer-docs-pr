@@ -29,20 +29,20 @@ By default, Message Analyzer provides several built-in data viewers such as the 
  **Chart Viewer Layouts in Message Analyzer Profiles**   
 In the case of **Profiles**, the **Chart** viewer **Layouts** are preselected to coordinate with the **Layouts** of other viewers, such as the **Analysis Grid** and **Grouping** viewers. These preset viewer and layout configurations are carefully chosen by Microsoft for each **Profile**,  so that you can achieve a unified analytical environment after you load data into Message Analyzer while a particular **Profile** is enabled. Applied **Profiles** create these environments with   the use of view **Layouts** that are data complementary  and interactive data viewers that  enable you to correlate data across different presentation contexts. With  the preset data viewer and layout configurations of a **Profile**, you can obtain  a multi-faceted   analysis perspective based on data displays that are    rich with information, that is, after you load data into Message Analyzer from the file type with which the **Profile** is associated.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about **Profiles** and how you can use some of the viewer **Layouts** that they employ  for analysis and troubleshooting purposes, see  [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
-___________________\_  
+---  
   
 ## Creating Custom Chart Viewer Layouts  
  Message Analyzer also enables you to create custom **Layout** configurations by editing any built-in **Chart** viewer **Layout** and saving it under a different name. When creating a new **Layout**, you can choose which visualizer component you want to use by selecting a **Bar**, **Pie**, **Timeline**, or **Grid** style visualizer component. You can also choose the fields and formulas that provide the **Layout** configuration and functions that you want. However, to configure settings, you must have an in-focus **Chart** viewer **Layout** already displayed in order to get access to the **Edit** command that appears in the **Chart** drop-down on the global Message Analyzer **Session** menu.  After you  click the **Edit** command, the **Edit Chart Layout** dialog displays from where you can create and **Apply** your custom configuration. Thereafter, you can save the **Layout** with the use of the **Save Current Layout As** command.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring and saving a custom **Chart** viewer **Layout**, see [Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md).  
-___________________\_  
+---  
   
 <a name="BKMK_LocatePredefinedCharts"></a>   
 ## Locating the Built-In Chart Viewer Layouts  
@@ -71,12 +71,12 @@ ___________________\_
  [Common Category](common-category.md)   
  [File Sharing Category](file-sharing-category.md)  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about editing, creating, and managing **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).   
 **To learn more** about how to receive downloads and updates for asset collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
-___________________\_  
+---  
   
 ## See Also  
  [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

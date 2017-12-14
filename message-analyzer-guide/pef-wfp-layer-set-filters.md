@@ -31,8 +31,8 @@ When configuring  settings for the **Microsoft-PEF-WFP-MessageProvider** in **Tr
 ## Capturing Loopback Traffic  
  If you are capturing loopback (local application) traffic, you should disable either inbound or outbound traffic with **WFP Layer Set** filters in the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog, as the default configuration of the **Local Loopback Network** **Trace Scenario** does; otherwise, you will get duplicate messages. However, for regular network traffic, you should always enable both inbound and outbound packet directions.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about configuring **WFP Layer Set** filters for the **Microsoft-PEF-WFP-MessageProvider**, see the [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md).   
-___________________\_
+---

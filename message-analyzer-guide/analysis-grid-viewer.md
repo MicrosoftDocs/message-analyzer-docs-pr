@@ -129,19 +129,19 @@ The details of raw message data are presented in the Message Analyzer **Analysis
   
      Note that the **Group** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
-    ___________________\_  
+   ---  
   
 -   **Group by Multiple Values** — creates groups based on varying values in a particular field that might be different at various stack levels, for example, IP addresses and Ethernet addresses hidden in the stack. Note that the **Group by Multiple Values** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.  
   
-     ___________________\_  
+    ---  
   
      **More Information**   
      **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
-    ___________________\_  
+   ---  
   
 -   **Remove** — enables you to remove any column from the current column **Layout** that is displayed in the **Analysis Grid** viewer. Note that you can restore the default **Layout** for the **Analysis Grid** viewer at any time by selecting the **Restore Application Default Layout** command that displays when you click the **Manage Layouts** menu in the **Layouts** drop-down list on the **Analysis Grid** viewer toolbar.  
   
@@ -190,7 +190,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
   
     -   **Options** — enables you to specify several global options that include default values and selections that can affect Message Analyzer performance, display configurations, and feature activation, as well as the application of **Profiles**, WPP settings, and parsing functionality.  
   
- ___________________\_  
+---  
   
  **More Information**   
  **To learn more** about the data manipulation features that you can use when working with the **Analysis Grid** viewer, see the following topics:   
@@ -205,7 +205,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 [Using the Field Chooser](using-the-field-chooser.md)  
 [Setting Time Shifts](setting-time-shifts.md)  
 [Annotation Windows](annotation-windows.md)  
-___________________\_  
+---  
   
 ## See Also  
  [Pattern Match Viewer](pattern-match-viewer.md)   
