@@ -26,4 +26,5 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
  [SMB Top Commands](smb-top-commands.md)   
  [SMB Top Talkers](smb-top-talkers.md)   
  [SysLog Levels](syslog-levels.md)   
-_____________\_
+
+---

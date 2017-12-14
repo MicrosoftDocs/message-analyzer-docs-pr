@@ -14,6 +14,7 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Message Summary Tiles Viewer
 Message Analyzer provides the **Message Summary Tiles** viewer, which is currently a preview feature. If you wish to use the **Message Summary Tiles** viewer, you will need to select its check box on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu, and then restart Message Analyzer. It will then be available for selection in the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
   

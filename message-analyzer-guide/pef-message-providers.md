@@ -14,6 +14,7 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # PEF Message Providers
 Message Analyzer can make use of many different message providers when capturing data. Certain providers are specifically designed by Microsoft to create inspection points into the network protocol stack so that you can focus on retrieving and analyzing messages at predefined levels. For example, you can use the **Microsoft-PEF-WFP-MessageProvider** to retrieve network traffic above the IP/Network layer while minimizing lower level network noise, so that you can focus on troubleshooting TCP and application messages. You can also use the **Microsoft-PEF-NDIS-PacketCapture** provider to retrieve network traffic on the wire at the Data Link layer to obtain a full representation of all messages captured in a trace. In addition, you can use the **Microsoft-PEF-WebProxy** provider to capture HTTP client browser traffic at the Application Layer, prior to encryption.  
   
@@ -24,6 +25,7 @@ Message Analyzer can make use of many different message providers when capturing
  [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
  [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)   
  [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)   
+
 ---  
   
 > [!TIP]

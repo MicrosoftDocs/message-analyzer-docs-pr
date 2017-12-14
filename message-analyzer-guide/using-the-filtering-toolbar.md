@@ -64,7 +64,7 @@ Message Analyzer now conveniently integrates several high-profile filtering func
   
          **More Information**   
          **To learn more** about **Viewpoint Filters**, see [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter).  
-        ____________________  
+    ---  
   
 -   **Viewpoints** — click this drop-down list to display the available **Viewpoints** that you can select and apply to a set of trace results. A **Viewpoint** enables you to look at your trace data temporarily from the perspective of the protocol, module, or layer represented by the selected **Viewpoint**,  with no messages above it. Moreover, a **Viewpoint** drives the messages of a particular protocol, module, or layer to top-level to create a focused view of the types of messages you want to analyze, for example, SMB, TCP,  Ethernet, and so on.  
   

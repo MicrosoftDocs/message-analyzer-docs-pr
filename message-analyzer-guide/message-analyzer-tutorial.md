@@ -175,12 +175,12 @@ The following message providers are included in Message Analyzer **Trace Scenari
     > [!NOTE]
     >  The **Microsoft-Windows-NDIS-PacketCapture** provider with remote capabilities is used on the Windows 8.1, Windows Server 2012 R2, and Windows 10 operating system only, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md).  
   
-     ____________________  
+ ---  
   
      **More Information**   
      **To learn more** about the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md).  
     **To learn more** about capturing messages from one or more remote hosts and configuring the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).   
-    ____________________  
+---  
   
 -   **System ETW providers** — write events for various components on your system that have been instrumented as ETW event providers. This includes ETW providers that define their events with the use of the following:  
   
@@ -385,7 +385,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   
      **More Information**   
      **To learn more** about working with Azure data as an input source to Message Analyzer, see [Handling Azure Data](handling-azure-data.md).  
-    ____________________  
+---  
   
 -   **Event Logs** — Message Analyzer enables you to load system event data that is typically displayed in the Microsoft Event Viewer.  
   
@@ -409,7 +409,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   
      **More Information**   
      **To learn more** about working with SQL data as an input source to Message Analyzer, see [Loading SQL Data](loading-sql-data.md).  
-    ____________________  
+---  
   
 -   **OMS** — enables you to load data from Operations Management Suite (OMS) logs through a search interface to OMS Log Analytics that Message Analyzer provides.  
   

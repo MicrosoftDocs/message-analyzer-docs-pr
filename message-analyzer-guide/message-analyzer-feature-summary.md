@@ -47,11 +47,12 @@ The global Message Analyzer **File** menu provides access to the features descri
   
          A **Truncated Parsing** check box is also included in the **Files** tab configuration to indicate when truncated messages exist in files from which you are retrieving data, at which time Message Analyzer switches to a pared-down truncation parser set. You have the option to unselect this check box or to select it manually if Message Analyzer did not automatically detect truncated messages.  
   
-         ____________________  
+---  
   
          **More Information**   
          **To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
-        ____________________  
+
+---  
   
         > [!NOTE]
         >  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).  

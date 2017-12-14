@@ -39,7 +39,7 @@ A brief description of each procedure is included here for review, as follows.
   
      **More Information**   
      **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
-    ____________________  
+---  
   
  **[Filtering Live Trace Session Data](procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
   
@@ -465,7 +465,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      **More Information**   
      **To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md).   
-    ____________________  
+---  
   
  **Applying Hostname and Port Filters to a Pre-Encryption for HTTPS Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator is dealing with a client browser that has difficulty connecting with one or more web sites. The client is already overwhelmed with network traffic, so the administrator wants to determine what might be causing the connection problems without imposing a high-volume data capture on the overwhelmed client computer.  

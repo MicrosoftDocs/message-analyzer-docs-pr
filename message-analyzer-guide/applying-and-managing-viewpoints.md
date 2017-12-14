@@ -41,6 +41,7 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
 [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
 [Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
 [Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
+
 ---  
   
 <a name="BKMK_ApplyingPredefinedViewpoints"></a>   
@@ -60,11 +61,12 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
      This command  can be useful for filtering under an applied **Viewpoint**, when you can only use a **Viewpoint Filter** to isolate particular types of messages, for example,  an HTTP Request or Response message. Otherwise, without Operations disabled, you would be unable to isolate such messages from the default Operation node encapsulation.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
-    ____________________  
+
+---  
   
 -   **Transport Layers UDP/TCP** — enables you to display messages at top-level from the TCP and UDP protocols only, including their origin stacks.  
   
@@ -159,6 +161,7 @@ In addition, you can share a **Viewpoints** asset collection through a user feed
  **More Information**   
  **To learn more** about the functions of the Filter Expressions in the **Message Analyzer Filters** asset collection, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
 **To learn more** about the Sharing Infrastructure and managing user Library items, downloading asset collections, and auto-syncing asset collection updates, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.   
+
 ---  
   
 ## See Also  

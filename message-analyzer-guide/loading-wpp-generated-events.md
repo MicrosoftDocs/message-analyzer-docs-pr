@@ -69,7 +69,7 @@ Message Analyzer supports parsing and display of Windows software trace preproce
   
          **More Information**   
          **To learn more** about *Tracepdb*, the commands that it provides, and download information, see [Tracepdb](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553034(v=vs.85).aspx).  
-        ____________________  
+    ---  
   
     -   **PDB path** — in this text box, specify the path to the PDB file that contains the event structure you want to convert to TMF for parsing a WPP-generated ETL file. Note that you can add multiple PDB paths in this text box if you have multiple ETL files to parse, but you must separate each path with a colon.  
   

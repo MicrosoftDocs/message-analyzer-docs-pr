@@ -162,7 +162,7 @@ This section contains simple procedures that you can run to start coming up to s
     [Common Data Viewer Features](common-data-viewer-features.md)  
     [Tool Windows](tool-windows.md)  
     [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)  
-    ____________________  
+---  
   
 <a name="BKMK_ModifyDRSession"></a>   
 ## Modifying an Existing Data Retrieval Session  
@@ -260,11 +260,11 @@ When loading data from saved files into Message Analyzer, you can select a built
   
      To start the **Pattern** matching process, specify a built-in **Pattern** expression in the **AVAILABLE PATTERNS** list of the **Pattern Match** viewer, by selecting the check box of a chosen **Pattern** expression. For example, you might select the **TCP Retransmit Pairs** or **TCP Three-Way Handshake** **Pattern** expression to identify these types of sequential pattern matches across the retrieved message set, possibly to expose network or connectivity issues, respectively.  
   
-     ____________________  
+ ---  
   
      **More Information**   
      **To learn more** about **Pattern** matching, refer to the [Pattern Match Viewer](pattern-match-viewer.md) topic.   
-    ____________________  
+---  
   
 12. To quickly vary your analysis perspectives, poll through the various views of data by clicking the viewer nodes under each session name in **Session Explorer**, or select different viewer tabs in the Message Analyzer main analysis surface.  
   
