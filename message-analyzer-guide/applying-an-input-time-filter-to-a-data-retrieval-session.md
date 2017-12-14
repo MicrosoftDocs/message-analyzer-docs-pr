@@ -8,7 +8,6 @@ ms.suite: ""
 ms.technology: "networking"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.locale: "en-us"
 ms.assetid: 4ac8a4e9-bc8f-4db1-aba2-9d80b9f7f316
 caps.latest.revision: 51
 author: "greggigwg"
