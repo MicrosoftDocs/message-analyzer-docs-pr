@@ -27,7 +27,7 @@ To go directly to procedures that provide examples of using Message Analyzer, se
 [Procedures: Using the Data Viewing Features](procedures-using-the-data-viewing-features.md)  
 [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)  
 [Procedures: Using the Asset Management Features](procedures-using-the-asset-management-features.md)  
-[Procedures: Using the Chart Viewer Layout Configuration Features](Topic/Procedures:%20Using%20the%20Chart%20Viewer%20Layout%20Configuration%20Features.md)  
+[Procedures: Using the Chart Viewer Layout Configuration Features](procedures-using-the-chart-viewer-layout-configuration-features.md)  
 ---  
   
  **Introduction**   
