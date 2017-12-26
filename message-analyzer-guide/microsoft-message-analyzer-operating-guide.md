@@ -56,6 +56,7 @@ manager: "ronstarr"
 
  If you want to expand your knowledge of the technologies upon which Message Analyzer is built, click the links below:
 
-| |
-|-|
-|**[Technology Tutorials](technology-tutorials.md)**  — get an overview of Message Analyzer functions and technology concepts, and learn about the PEF architecture and ETW framework components that support them:<br /><br /> [Message Analyzer Tutorial](message-analyzer-tutorial.md) <br /> [PEF Architecture Tutorial](pef-architecture-tutorial.md) <br /> [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)|
+- **[Technology Tutorials](technology-tutorials.md)**  — get an overview of Message Analyzer functions and technology concepts, and learn about the PEF architecture and ETW framework components that support them:
+  - [Message Analyzer Tutorial](message-analyzer-tutorial.md)
+  - [PEF Architecture Tutorial](pef-architecture-tutorial.md)
+  - [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)|

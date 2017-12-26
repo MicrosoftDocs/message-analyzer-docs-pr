@@ -29,8 +29,8 @@ This section describes several different ways in which you can start Message Ana
 
 - Double-click a supported Message Analyzer file, such as a .matp, .matu, or .cap file.
 
-    > [!NOTE]
-    > When you double-click a supported trace or log file to start Message Analyzer, or if you use the right-click method indicated next, the file’s message data is automatically loaded into the **Analysis Grid** viewer by default.
+> [!NOTE]
+> When you double-click a supported trace or log file to start Message Analyzer, or if you use the right-click method indicated next, the file’s message data is automatically loaded into the **Analysis Grid** viewer by default.
 
 - Right-click a supported Message Analyzer file and select the **Open** item from the context menu. Note that in some cases, you might need to select the **Open with Message Analyzer** item in the context menu, for example, with a .cap or .etl file.
 
@@ -70,8 +70,8 @@ This section describes several different ways in which you can start Message Ana
 
 - **/OPNLoadPathMerge=\<path>** — adds the specified path to the list of paths from which you will load custom OPN parsers. Note that this switch cannot be used with the `/OPNLoadPathOnly` option.
 
-    > [!IMPORTANT]
-    > If you create a new path from which to load custom OPN parsers and you place a native Message Analyzer parser in this path, for example, a user-extended native parser with the same name, Message Analyzer will start improperly.
+> [!IMPORTANT]
+> If you create a new path from which to load custom OPN parsers and you place a native Message Analyzer parser in this path, for example, a user-extended native parser with the same name, Message Analyzer will start improperly.
 
 - **/EnableTracing \<flag>** — specifies whether tracing is enabled. When set to True, tracing is enabled; when set to False, tracing is disabled (the default value if this switch is not specified).
 
@@ -122,4 +122,4 @@ This section describes several different ways in which you can start Message Ana
 
 ## See Also
 
- [Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)
+- [Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)

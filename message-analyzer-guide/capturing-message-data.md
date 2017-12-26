@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Capturing Message Data
+
 This section describes how to create and configure a new Live Trace Session with Message Analyzer, so that you can quickly begin capturing data from your system. This section also discusses how to focus your Live Trace Session on capturing messages that contain specific types of data, through the selection or modification of various settings, for example selecting one or more message providers, adding built-in or custom filters, and/or specifying a **Parsing Level** to the capture configuration. Other capabilities enable you to focus on capturing remote traffic on specified hosts and virtual machines (VMs), in addition to decrypting certain types of data.  
   
 ---  
@@ -22,12 +24,14 @@ This section describes how to create and configure a new Live Trace Session with
  **Go To Session Configuration**   
 Go directly to an overview of Live Trace Session configuration workflow, filtering options, and the features that are available for configuring and starting a new Live Trace Session:  
 [Configuring a Live Trace Session](configuring-a-live-trace-session.md)  
+
 ---  
   
 ---  
   
  **What You Will Learn**   
 In the topics of this section, you will learn how to accomplish the tasks indicated below.  
+
 ---  
   
  **[Targeting Live Data as an Input Source](targeting-live-data-as-an-input-source.md)**  — learn how to target specific types of message data to capture, with the use of built-in (default) **Trace Scenarios** and the message providers they contain. Also learn about accessing the built-in **Trace Scenarios** that Message Analyzer provides, review options for instantly starting a Live Trace Session with a single click where no further configuration is needed, and read an overview about optimizing capture configurations. In the subtopics of this section, you can also review detailed information about the following:  
@@ -77,11 +81,14 @@ In the topics of this section, you will learn how to accomplish the tasks indica
  **To learn more** about how to specify one or more system ETW Providers for a Live Trace Session configuration, see [Adding a System ETW Provider](adding-a-system-etw-provider.md).  
 **To learn more** about specifying **Keyword** and **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
 **To learn more** about other filtering configurations that you can apply to a built-in **Trace Scenario**, see the following topics:  
-[Selecting Data to Capture](selecting-data-to-capture.md)  
-[Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
-[Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
+
+- [Selecting Data to Capture](selecting-data-to-capture.md)  
+- [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
+- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
+
 ---  
   
 ## See Also  
- [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md)   
- [Editing Existing Sessions](editing-existing-sessions.md)
+
+- [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md)   
+- [Editing Existing Sessions](editing-existing-sessions.md)

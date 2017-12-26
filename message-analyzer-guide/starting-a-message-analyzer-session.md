@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Starting a Message Analyzer Session
+
 The basic unit of workflow and starting point of all Message Analyzer operations is a session. A *session* is the instrument that you will configure and then use to collect data that you want to analyze, whether you capture it live on a network or load it into Message Analyzer from saved message files, logs, or other sources. The user interface (UI) for configuring a new session is designed to provide an optimal workflow experience and enables you to utilize essentially two types of Message Analyzer sessions to acquire input data, as follows:  
   
 -   **Live Trace Session** — enables you to specify a session configuration that captures message data live from network traffic, system components, or devices.  
@@ -133,6 +135,7 @@ To familiarize yourself with the workflow you will generally follow when creatin
   
  **What You Will Learn**   
 In the topics of this section, you will learn in detail how to  perform the tasks that are described below, which includes how to: capture data live, retrieve saved data, configure different session scenarios, and edit an existing Data Retrieval Session or Live Trace Session.   
+
 ---  
   
 ## In This Section  
@@ -149,4 +152,5 @@ In the topics of this section, you will learn in detail how to  perform the task
  **Go To Procedures**   
 To proceed directly to procedures that demonstrate how to use the network tracing features, see **[Procedures: Using the Network Tracing Features](procedures-using-the-network-tracing-features.md)**.  
 To proceed directly to procedures that demonstrate how to browse for saved messages, retrieve selected data from saved files, and view the resulting message set, see **[Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)**.   
+
 ---

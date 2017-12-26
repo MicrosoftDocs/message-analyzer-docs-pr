@@ -50,7 +50,7 @@ This tutorial provides conceptual overviews of the underlying Event Tracing for 
 
 ---
 
- **More Information**
+ **More Information**  
  **To learn more** about how to configure certain parameters of an ETW session from Message Analyzer, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).
 
 ---
@@ -134,12 +134,12 @@ typedef struct EVENT_DESCRIPTOR {
 ```
 
 ### ETW Provider
+
  An ETW Provider is the logical entity that raises events and writes them to an ETW Session. When a software component is being instrumented for ETW, an ETW Provider is created to specify the events it writes, which includes the definition of associated Event Descriptors and the maximum size of each event. The ETW Provider must also contain code that registers the provider with ETW when it is enabled and code that unregisters the provider when its execution is terminated. When the ETW Provider registers, it specifies a provider ID to ETW.
 
  The following code example illustrates a simple ETW provider that writes one event:
 
-```
-
+```C++
 #include <myevents.h>   // The header is generated from a manifest and
 contains the provider Id and EVENT_DESCRIPTOR structure.
 
@@ -176,6 +176,7 @@ Status = EventUnregister(MyProvRegHandle);
  The two types of providers include the classic provider and manifest-based provider. Message Analyzer makes use of both of these provider types, but mostly manifest-based providers. Manifest-based providers define events in a .man file, while classic providers, such as those based on the managed object format (MOF), use a schema to define their events. Manifest-based providers employ the EventRegister method to register the provider and the EventWrite method to write provider events. By using a manifest, an ETW provider can define its events so that an ETW Consumer knows how to process them.
 
 ### ETW Session
+
  An ETW Session provides an environment that accepts and buffers the events that are written by an ETW Provider. ETW Sessions typically create a trace file for logging the events and can also deliver the events in real-time to consumer applications such as the PEF Runtime, the output data of which is consumed by Message Analyzer. ETW Sessions are allocated a buffer pool to collect event data written by an ETW Provider. A separate write thread is invoked in the ETW Session to flush the buffer data to the ETW log file and ETW Consumer. See [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md) for information about modifying these settings.
 
 <a name="BKMK_ETWController"></a>
@@ -195,11 +196,13 @@ Status = EventUnregister(MyProvRegHandle);
  Session statistics include the number of buffers used, the number of buffers delivered, and the number of events and buffers lost.
 
 ### ETW Consumer
+
  An ETW Consumer receives events from ETW Sessions in real time or from a log file. The ETW Consumer can select one or more ETW Sessions as a source of events. The ETW Consumer can also request events from multiple ETW Sessions simultaneously, although they will only be delivered in chronological order. When processing events, an ETW Consumer can also specify an event time frame such that only events occurring within a specific window of time will be delivered.
 
  In the case of Message Analyzer, the PEF Runtime is the initial consumer of ETW events that are retrieved by PEF message providers and other system ETW Providers. Message Analyzer then consumes the PEF Runtime data to display log or trace results.
 
 ### Microsoft PEF Message Providers
+
  Message Analyzer can capture messages through PEF drivers that have been instrumented as event providers for ETW, which includes the **Microsoft-PEF-NDIS-PacketCapture**, **Microsoft-PEF-WFP-MessageProvider**, and **Microsoft-PEF-WebProxy** providers. This instrumentation enables Message Analyzer to take advantage of the ETW infrastructure for collecting data, controlling sessions, configuring buffers, and passing event data to consumers. As a result, PEF message providers can deliver the ETW packets they capture as events from a well-defined and proven tracing environment. Message Analyzer enables you to use these events to debug protocol communications, applications, and processes, in addition to performance analysis.
 
 <a name="BKMK_SysETWProviderEventConfig"></a>
@@ -215,13 +218,13 @@ Status = EventUnregister(MyProvRegHandle);
 
 ---
 
- **More Information**
- **To learn more** about ETW providers, including how to create and register ETW providers and instrumentation manifests, see [Creating an ETW Provider](http://go.microsoft.com/fwlink/?LinkId=523814) on MSDN.
-**To learn more** about generating ETW manifests with various tools, see [Generating a Provider Manifest](generating-a-provider-manifest.md).
+ **More Information**  
+ **To learn more** about ETW providers, including how to create and register ETW providers and instrumentation manifests, see [Creating an ETW Provider](http://go.microsoft.com/fwlink/?LinkId=523814) on MSDN.  
+**To learn more** about generating ETW manifests with various tools, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
 **To learn more** about configuring system ETW Providers, including how to specify event **Keyword** and **Level** settings, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).
 
 ---
 
 ## See Also
 
- [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)
+- [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)

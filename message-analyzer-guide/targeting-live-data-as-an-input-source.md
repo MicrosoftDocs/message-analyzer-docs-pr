@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Targeting Live Data as an Input Source
+
 Message Analyzer enables you to capture live traffic from network protocols, ETW-instrumented Windows system components, certain devices, and application communications. To capture this traffic, Message Analyzer makes use of several Microsoft Protocol Engineering Framework (PEF) providers that are designed to capture messages at different stack entry points (layers), which includes the capture of events at the ETW layer, along with a host of other Windows ETW-instrumented message providers that capture events from various Windows components at the ETW layer, for example, DNS, DHCP, Active Directory, and many other providers that are available from the **Add System Providers** dialog.  As such, these message providers and various combinations thereof are the means of targeting live data of different types as input to Message Analyzer. Moreover, certain message providers are combined and included in built-in **Trace Scenarios** to optimize each scenario for capturing specific data. These scenarios are available for selection when you are configuring a Live Trace Session.  
   
 ## Using Trace Scenarios as an Input Source  
@@ -22,18 +24,18 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
   
 -   **Local Network Interfaces** scenario — uses the **Microsoft-PEF-NDIS-PacketCapture** provider on computers running the Windows 7, Windows 8, or Windows Server 2012 operating systems, or uses the **Microsoft-Windows-NDIS-PacketCapture** provider on computers running Windows 8.1, Windows Server 2012 R2, Windows 10, or later. Captures traffic at and above the Link Layer. Note that the **Microsoft-PEF-NDIS-PacketCapture** provider has an **Advanced Settings** dialog that enables you to configure **Fast Filter** groups. The **Microsoft-Windows-NDIS-PacketCapture** provider also has an **Advanced Settings** dialog that provides special features and capabilities, for example, specifying advanced filtering configurations when capturing traffic from remote hosts and virtual machines (VMs) that are serviced by a Hyper-V-Switch.  
   
-    > [!IMPORTANT]
-    >  The **Microsoft-Windows-NDIS-PacketCapture** provider uses Windows Management Instrumentation (WMI) to capture remote traffic from any target host that is running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, from any computer that is also running one of these operating systems.  
+> [!IMPORTANT]
+>  The **Microsoft-Windows-NDIS-PacketCapture** provider uses Windows Management Instrumentation (WMI) to capture remote traffic from any target host that is running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, from any computer that is also running one of these operating systems.  
   
 -   **Loopback and Unencrypted IPSEC** scenario — uses the **Microsoft-Pef-WFP-MessageProvider** to capture local traffic above the IP/Network layer, which includes transport messages such as TCP, UDP, and anything above these; this includes other messages above the IP layer, for example, those that are issued by the DNS protocol, SOAP, and RPC. Note that the **Microsoft-Pef-WFP-MessageProvider** has an **Advanced Settings** dialog that enables you to configure **Fast Filters** and **WFP Layer Set** filters.  
   
-    > [!IMPORTANT]
-    >  The **Microsoft-Pef-WFP-MessageProvider** uses WMI to facilitate remote capabilities on Windows 10 (and later) computers only. In practice, this means that you can target a Windows 10 computer from which to capture remote traffic and return it to a computer that is running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, where you started a **Trace Scenario** that contains the **Microsoft-Pef-WFP-MessageProvider**.  
+> [!IMPORTANT]
+>  The **Microsoft-Pef-WFP-MessageProvider** uses WMI to facilitate remote capabilities on Windows 10 (and later) computers only. In practice, this means that you can target a Windows 10 computer from which to capture remote traffic and return it to a computer that is running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, where you started a **Trace Scenario** that contains the **Microsoft-Pef-WFP-MessageProvider**.  
   
 -   **Pre-Encryption for HTTPS** scenario — uses the **Microsoft-Pef-WebProxy** provider, which is based on Fiddler, to capture local HTTP client browser traffic at the Application Layer prior to HTTPS encryption. Note that the **Microsoft-Pef-WebProxy** provider has an **Advanced Settings** dialog that enables you to configure **Hostname** and **Port** filters.  
   
-    > [!NOTE]
-    >  To enable this scenario, you must have Fiddler installed on your computer. If you do not, then go  [here](http://fiddler2.com/fiddlercore) to download and install the Fiddler Library from Telerik.  
+> [!NOTE]
+>  To enable this scenario, you must have Fiddler installed on your computer. If you do not, then go  [here](http://fiddler2.com/fiddlercore) to download and install the Fiddler Library from Telerik.  
   
 -   **USB2** scenario — uses the **Microsoft-Windows-USB-USBPORT** and **Microsoft-Windows-USB-USBHUB** providers to capture events related to USB2 devices plugged into a USB port, for troubleshooting such devices.  
   
@@ -55,6 +57,7 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
   
  **More Information**   
  **To learn more** about the functions of the **Trace Scenarios** provided by default in every Message Analyzer installation, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.  
+
 ---  
   
 ## Quick Start Trace Scenarios  
@@ -99,6 +102,7 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
 **To learn more** about using **Fast Filters**, see [PEF-NDIS Fast Filters](pef-ndis-fast-filters.md) and [PEF-WFP Fast Filters](pef-wfp-fast-filters.md).  
 **To learn more** about using **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
 **To learn more** about the capabilities of the **Microsoft-Windows-NDIS-PacketCapture** provider, see the [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md) topic.   
+
 ---  
   
 ## Session Configuration Workflow and Features  
@@ -106,5 +110,5 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
 [Configuring a Live Trace Session](configuring-a-live-trace-session.md)  
   
 ## See Also  
- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
- [PEF Message Providers](pef-message-providers.md)
+- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+- [PEF Message Providers](pef-message-providers.md)

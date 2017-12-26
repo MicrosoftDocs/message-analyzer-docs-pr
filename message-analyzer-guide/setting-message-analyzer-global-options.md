@@ -64,15 +64,15 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 
 -   **Features** tab — provides for selection of preview features that you can enable in Message Analyzer. After you select a preview feature, you must restart Message Analyzer for the change to take effect, at which time the feature/s will be available in your asset libraries. A check mark in a preview feature check box will make it available on the next Message Analyzer restart.
 
-    > [!NOTE]
-    >  Preview features are experimental and may not always work as expected. They are made available so that you can try out new Message Analyzer functionality and provide [Feedback](message-analyzer-feedback.md) on suggested features. Your feedback will help Microsoft make fixes and improvements to Message Analyzer. Note that you can also use the Message Analyzer feedback mechanism that is located in the upper right section of the user interface.
+> [!NOTE]
+>  Preview features are experimental and may not always work as expected. They are made available so that you can try out new Message Analyzer functionality and provide [Feedback](message-analyzer-feedback.md) on suggested features. Your feedback will help Microsoft make fixes and improvements to Message Analyzer. Note that you can also use the Message Analyzer feedback mechanism that is located in the upper right section of the user interface.
 
 -   **Memory** tab — specifies the current memory statistics for Message Analyzer, such as values for **Working Set** and **.NET Current Memory Allocation**, along with the current state (enabled/disabled) of **Server Garbage Collection**. Also contains instructions for how to disable the **Server Garbage Collection** mode to reduce memory consumption, although this could result in lower throughput. The default value for **Server Garbage Collection** is enabled.
 
 -   **Parsing** tab — enables you to reparse a set of trace results based on alternate ports that you specify for specific protocols, to accommodate for network traffic that used alternate ports for security purposes. Protocols that are available for alternate port settings are included in the list that follows:
 
-    > [!NOTE]
-    >  In addition, the **TCP** protocol is included so you can reparse with TCP auto-reassembly disabled to reduce virtual segment message count; you can also reparse with verbose TCP diagnosis messages enabled. The default values for these two features are enabled and disabled, respectively.
+> [!NOTE]
+>  In addition, the **TCP** protocol is included so you can reparse with TCP auto-reassembly disabled to reduce virtual segment message count; you can also reparse with verbose TCP diagnosis messages enabled. The default values for these two features are enabled and disabled, respectively.
 
     -   **AllJoyn**
 

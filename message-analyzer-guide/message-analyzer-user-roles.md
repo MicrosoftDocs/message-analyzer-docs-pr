@@ -32,9 +32,7 @@ The Message Analyzer user audience primarily consists of network administrators,
 
 - **Basic User Role** — if you are a **Tracer** and you intend to use Message Analyzer only to take traces, save them to file, and then pass them along to colleagues, administrators, or support personnel for analysis, proceed to the following topics to get started quickly with these tasks.
 
-  - [Quick Session Startup](quick-session-startup.md) — describes all the options for starting a trace session. For example, you can start a Live Trace Session immediately with no session configuration required, by clicking the **Start Local Trace** button on the Message Analyzer **Start Page** to capture messages on the local computer at the Link Layer.
-
-         You can also start a Data Retrieval Session to import saved data into Message Analyzer, with no session configuration required, by clicking the **Open** button on the Message Analyzer **Start Page** and then navigating to saved files for selection.
+  - [Quick Session Startup](quick-session-startup.md) — describes all the options for starting a trace session. For example, you can start a Live Trace Session immediately with no session configuration required, by clicking the **Start Local Trace** button on the Message Analyzer **Start Page** to capture messages on the local computer at the Link Layer.<br />You can also start a Data Retrieval Session to import saved data into Message Analyzer, with no session configuration required, by clicking the **Open** button on the Message Analyzer **Start Page** and then navigating to saved files for selection.
 
   - [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md) — optionally, create a basic data display environment by choosing one of the simple built-in **Window Layouts** that organizes data viewers and **Tool Windows** into a preset configuration.
 
