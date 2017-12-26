@@ -57,11 +57,11 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
 -   **Set backtracking** — select the **Backtrack to find each match** check box if you want the **Pattern** expression to backtrack to the next evaluation point following the previous one in a set of trace results, to continue applying the filtering criteria of your pattern definition to the remaining messages.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about backtracking, see the predefined **TCP Three-Way Handshake** expression walkthrough in [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).   
-  ---  
+---  
   
 -   **Insert a message criteria clause** — click the **Insert Criteria** link to display a set of clause configuration controls that enable you to perform the following basic operations:  
   
@@ -102,11 +102,11 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
 -   **Specify a Viewpoint** — on the **ADVANCED** subtab of the **Quick** tab, click the **Viewpoint** drop-down list to select a **Viewpoint** that will enable your **Pattern** expression to evaluate messages from the perspective of a particular protocol or other module, while filtering out all messages above the **Viewpoint**. This can ensure that your **Pattern** expression processes all the message types on which your pattern is focused.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
-  ---  
+---  
   
  **Populated Configuration Mode**   
 If you launched the **Pattern Editor** by right-clicking two or more messages in the **Analysis Grid** viewer and then selecting the **Create Pattern** command from the context menu that appears, the editor opens to the **Quick** tab in the populated configuration mode with message types for each selected input message already inserted. Thereafter, the configuration options that you can use to create pattern definition components consist of all those specified immediately above. An example of creating a **Pattern** expression in this mode is described in [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  

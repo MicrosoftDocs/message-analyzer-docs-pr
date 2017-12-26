@@ -127,11 +127,11 @@ A brief description of each procedure is included here for review, as follows.
   
      **Note** When modifying an existing Data Retrieval Session, you cannot change the data viewer in which to display your data, as this capability is disabled in the **Edit Session** dialog. As a result, the messages that load from your modified Data Retrieval Session after you click the **Apply** button will continue to display in the data viewer that you initially specified. If you want to see the loaded data in a different data viewer, you can select one from the **New Viewer** drop-down list on the global Message Analyzer toolbar, as described in the procedure that follows.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
-  ---  
+---  
   
 <a name="BKMK_displayDifferentViews"></a>   
 ## Display Different Data Viewers for Session Results  

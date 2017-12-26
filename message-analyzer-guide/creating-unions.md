@@ -76,11 +76,11 @@ To go directly to a procedure that creates a **Union**, see [Create a Union of T
   
 -   **Implicit type conversion** — Message Analyzer can accommodate for incompatible field types through the use of a transitive implicit type conversion, if an appropriate implicit conversion path exists for one or more of the correlated fields. Basically, a transitive conversion says that if type A can be converted to type B and type B can be converted to type C, then type A can be converted to type C as well. Message Analyzer performs such a transitive type conversion in order to detect the appropriate data type of minimum sufficient value range that can represent all the types in the **Union**. This minimalistic approach ensures that the **Union** consumes the least amount of memory possible. In the case of a **Union** with fields of type `byte` and `int`, the `int` is the minimum type that has a suitable value range to handle the range of values that can occur in fields of these types in the **Union**. Therefore, the **Union** takes `int` as its type, which then displays in the **Type** label in the **Edit Union** dialog.  
   
-   ---  
+---  
   
      **More Information**   
     The [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) contains a type conversion table in section 2.1.7 that enables you to map the conversion path taken by Message Analyzer in the previously mentioned type conversion. For example, the type `byte` can implicitly convert to type `short`, and a `short` can implicitly convert to an `int`, therefore, type `byte` can convert directly to type `int`.   
-  ---  
+---  
   
 -   **Base type conversion** — incompatible field types would remain incompatible if there were no implicit conversions to a common type available. Therefore, when this is the case, Message Analyzer converts all field types to a common base type called `any`. The `any` type is sufficient to handle the value range of any other data type. The **Union** would then display the `any` type in the **Type** label of the **Edit Union** dialog.  
   

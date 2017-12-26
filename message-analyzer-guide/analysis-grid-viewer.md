@@ -128,19 +128,19 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
      Note that the **Group** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
 
-   ---
+---
 
      **More Information**
      **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
-  ---
+---
 
 -   **Group by Multiple Values** — creates groups based on varying values in a particular field that might be different at various stack levels, for example, IP addresses and Ethernet addresses hidden in the stack. Note that the **Group by Multiple Values** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
 
-   ---
+---
 
      **More Information**
      **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
-  ---
+---
 
 -   **Remove** — enables you to remove any column from the current column **Layout** that is displayed in the **Analysis Grid** viewer. Note that you can restore the default **Layout** for the **Analysis Grid** viewer at any time by selecting the **Restore Application Default Layout** command that displays when you click the **Manage Layouts** menu in the **Layouts** drop-down list on the **Analysis Grid** viewer toolbar.
 

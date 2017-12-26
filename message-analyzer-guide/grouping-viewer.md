@@ -251,11 +251,11 @@ In this section, you will learn about the functions and features of the **Groupi
     >   
     >  This improvement to analysis capabilities allows you to backtrack to a previous message selection you may have forgotten or navigate to a previous selection if you lose focus to another viewer. The selection feature maintains context while providing quick and convenient access to messages of interest that you selected for analysis purposes.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about how to use the **Selection** window, see the [Selection Tool Window](selection-tool-window.md) topic.   
-  ---  
+---  
   
 <a name="BKMK_LocatingAGMessages"></a>   
 ## Locating Analysis Grid Messages in the Grouping Viewer  

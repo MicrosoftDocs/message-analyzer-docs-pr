@@ -148,11 +148,11 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
         > [!NOTE]
         >  To provide a more convenient view of message selection correlation, undock the **Pattern Match** viewer by dragging it by its tab away from the default location, and then use the docking navigation controls to reposition it directly adjacent to the **Analysis Grid** viewer.  
   
-       ---  
+---  
   
          **More Information**   
          **To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).    
-      ---  
+---  
   
 -   **Pattern Group drop down** — click the book icon to the left of the **Pattern Group** of interest in the **Bookmarks** window to display a drop-down that contains the messages associated with a particular bookmarked **MATCHED INSTANCE** in the **Pattern Match** viewer.  
   

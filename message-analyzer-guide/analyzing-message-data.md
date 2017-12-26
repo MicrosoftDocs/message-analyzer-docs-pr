@@ -33,7 +33,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Chart** viewer **Layouts** — enable you to display data in different graphical formats, such as **Bar** element, **Pie** chart, **Table** grid, or **Timeline** graph, to create unique analysis perspectives. The **Layouts** for the **Chart** viewer include graphic visualizer components that can provide high-level data summaries or low-level data that is focused on specific message types and values. These include **Layouts** such as the **IP/Ethernet Conversations by Message Count**, **Average Response Times for Operations**, **SMB Top Commands**, and so on, in addition to any custom **Layouts** that you create. All of the built-in **Layouts** for the **Chart** viewer are designed to provide a unique focus on your data in order to expose different values and details through graphic visualizer components, which can be critical when you need to expedite the data analysis process.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the built-in **Layouts** for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.   
@@ -54,11 +54,11 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
     -   Correlate messages across different data sources, such as a log and a saved trace file.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
-  ---  
+---  
   
 -   **Pattern Match** viewer — enables you to select a **Pattern** expression from a Library of predefined **Patterns** from Microsoft, that can aggregate a collection of messages from a set of trace results that all contain a common pattern or sequence that matches the criteria of the applied **Pattern** expression. A pattern might consist of a sequence of fields, properties, values, annotations, or other relationships. This feature can help you expose the context or sequence in which certain events occurred across the timeline of a trace session, as opposed to filtering, where the impact is typically limited to the boundary of individual messages rather than to groups of messages. The **Pattern Match** viewer contains an **AVAILABLE PATTERNS** Library from where you can select predefined **Pattern** expressions that provide pattern locating functions that can be useful in most environments. The **Pattern Match** viewer also provides a **Create Pattern** button that opens the **Pattern Editor** dialog from where you can create your own **Pattern** expressions.  
   
@@ -75,7 +75,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   View **Filters** — enable you to apply a built-in or custom Filter Expression to a set of trace results to isolate specific messages that can expose errors, values, or other details, in order to pinpoint the cause of a particular problem that is occurring. Only the messages that pass the criteria of the applied filter are returned, while all others are temporarily removed from the results, so you can create a focused set of messages for analysis. A view **Filter** is a handy analysis tool because you can apply and remove them without impacting the original set of trace results, or you can specify a different view **Filter** to create a new set of results that present a different analysis perspective. You can select built-in view **Filters** from a centralized **Library** or configure custom Filter Expressions of your own on any Filter panel text box on the Filtering toolbar just above the data viewing surface.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
@@ -106,7 +106,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Shift Time** dialog — enables you to change the **Timestamp** of captured messages that are displayed in an Analysis Session. The time shift capability enables you to compensate for skewed system clock values or time zone differences across different computers, so that you can chronologically align the messages from those computers and ensure accurate troubleshooting.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Shift Time** feature, see [Setting Time Shifts](setting-time-shifts.md).   
@@ -115,7 +115,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Aliases** — enables you to substitute more friendly names for several types of data field values in the **Analysis Grid** viewer, to facilitate easier recognition of values that can otherwise be cryptic and difficult to work with, for example IPv4 and particularly IPv6 addresses. This feature can improve your ability to discover and analyze specific message traffic through the use of simplified names that have meaning in your troubleshooting environment. By customizing your data analysis environment with **Aliases**, keeping track of traffic to and from host IP addresses, physical addresses, and ports becomes easier. By default, Message Analyzer provides two **Loopback** **Aliases** that you can select from the **Aliases** drop-down list on the Message Analyzer global toolbar.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Aliases** feature, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).   
@@ -124,7 +124,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Color Rules** — an important analysis feature for the **Analysis Grid** viewer that enables you to use color, text, and font styles to decorate and highlight messages that contain specific types of information that you can identify at-a-glance, which can preclude the need for additional analysis and diagnostics. **Color Rules** can provide an instant visual cue of messages that meet predefined criteria, to alert you that closer scrutiny and further investigation may be needed. By default, Message Analyzer provides a **Color Rule** Library that contains a host of built-in **Color Rules** that you can use immediately. You can also create your own **Color Rules** to meet the needs of your particular environment.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about **Color Rules**, see [Using and Managing Color Rules](using-and-managing-color-rules.md).   
@@ -133,7 +133,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Go To Message** — an important analysis feature for the **Analysis Grid** viewer that enables you to quickly locate any message by number in a large collection of messages. If you are working with multiple data sources, the **Go To Message** dialog provides options to search across all data sources for a particular message number that you specify, or you can select a specific data source to search. By using this feature, you can accelerate your analysis process, especially in support scenarios where you are being directed to find particular messages very quickly.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Go To Message** features, see [Using the Go To Message Feature](using-the-go-to-message-feature.md).   
@@ -149,7 +149,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
     >   
     >  For further details about Message Analyzer **Profiles**, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about **Analysis Grid** viewer **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).   
@@ -164,7 +164,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
      You can assess the data fields that are merged with any of the built-in **Unions** by opening the **Manage Unions** dialog that is accessible from the **Unions** drop-down list in the global Message Analyzer **Tools** menu. In the **Manage Unions** dialog, right-click a **Union** in the list and select the **Create a Copy** command in the context menu that appears, which in turn displays the **Edit Union** dialog. The fields that are merged by the selected **Union** appear in the **Select fields to include** list box of the **Edit Union** dialog. Note that you can also manually configure your own **Unions** by creating a single field entity that correlates multiple disparate field names from different data sources with the use of the **Edit Union** dialog, which is accessible as specified immediately above, or by clicking the **Unions** button on the global Message Analyzer toolbar.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).   
@@ -175,7 +175,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
      One technique you can use to gather the messages that have diagnostic information is to sort the **DiagnosisTypes** column. But this does not necessarily expose the actual messages that contain a diagnosis condition, since Message Analyzer bubbles up the icons to top-level as a cue that you have an embedded diagnosis message. In addition, by simply sorting, it might not be readily apparent as to what the diagnostic message descriptions indicate nor does it expose how many contain the same message description, without performing a laborious manual process of repetitive node expansions in the **Analysis Grid** viewer. To alleviate this problem, Message Analyzer provides a **Diagnostics** **Tool Window**, which contains tabular data that summarizes the diagnosis type, the module in which diagnosis messages occurred, the message descriptions, and the number of identical messages for each diagnosis type. In addition, selection of a diagnosis row in the **Diagnostics** **Tool Window** table interactively drives message selection in the **Analysis Grid** viewer for immediate data correlation. At a single glance, these summaries can provide an instant assessment of where problems exist in the context of an entire trace.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about Message Analyzer diagnostics, see the [Diagnostics Tool Window](diagnostics-tool-window.md) and [Diagnosis Types](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topics.   
@@ -186,7 +186,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
      You can also turn message **Selection** tracking on and off, at your discretion. Also note that message selection is interactive with other viewers and some **Tool Windows** for enhanced correlation capabilities. You can even navigate message selections that you made across different Message Analyzer sessions.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about message selection capabilities, see the [Selection Tool Window](selection-tool-window.md) topic.   
@@ -195,7 +195,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Tool Windows** — the Message Analyzer **Tool Windows** provide a vast amount of functionality that enhances the data analysis process. Some **Tool Windows** interact with data viewers, for example, message selection in a **Tool Window** may drive message highlighting in a data viewer such as the **Analysis Grid**, and vice versa. Moreover, message selection in the **Analysis Grid** can also drive the display of various message details in **Tool Windows** such as the **Message Stack**, **Details**, and **Field** windows, which provide a core set of analysis tools that you will no doubt use on a consistent basis. Some **Tool Windows** are session-specific, for example the **Diagnostics** window, which means that they respond to session selection and are not driven by message selection in other tools or viewers. Some **Tool Windows** are message-specific, for example the **Details** window, which means that they do respond to message selection in other tools or viewers.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Tool Windows** that Message Analyzer provides, see the [Tool Windows](tool-windows.md) section.   
@@ -214,7 +214,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
     -   Review message hierarchies to discover field and property names of various protocols, to use when you are creating Filter Expressions.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Field Chooser**, see the [Using the Field Chooser](using-the-field-chooser.md) and [Field Chooser Tool Window](field-chooser-tool-window.md) topics.   
@@ -223,7 +223,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 -   **Analysis Grid** **Group** command — a handy feature that enables you to organize trace data into groups based on the varying values of an **Analysis Grid** viewer data column, which is named by and displays the values of a field, property, annotation, or method across a set of trace results or log content. By organizing values into groups, you can quickly isolate messages of interest and make it easier to discover data for which you are searching. For example, if you right-click the **DiagnosisType** column in the **Analysis Grid** viewer and select the **Group** command, you can isolate your data into groups with expandable nodes where each group contains the same type of diagnosis message. In addition, you can perform subsequent **Group** commands in like manner to create a *nested* group configuration that enables you to correlate data among the groups. Lastly, you have the option to reorder the nesting configuration by dragging and dropping group labels into different positions of the initial group order. Reorganizing your trace data into groups or nested group configurations with the **Group** command enables you to create unique analysis perspectives that facilitate rapid identification of issues.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).   
@@ -234,7 +234,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
      For example, if you typed the name of a protocol in the amber text box below the **Module** column label, such as HTTP, then Message Analyzer will temporarily remove all other messages in the trace results except HTTP. When you remove the search string, Message Analyzer reinstates the original message set. You also have the option to specify another search string as a column filter to further narrow down your results. For instance, after specifying a column filter such as HTTP in the previous example, you might also specify a search string for the **Summary** column with the text “GET”, to filter out all messages from the display, except HTTP requests that use the GET method. This feature can help you quickly locate specific messages with specific field values in a large data set and reduce your analysis time.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about the column filtering feature, see the [Filtering Column Data](filtering-column-data.md) topic.  
@@ -244,7 +244,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
 -   **View**  
      **Field and Property values** — a core analysis feature that enables you to view the values of any field or property in messages that were parsed by Message Analyzer. These values will display in the **Details** **Tool Window**, which appear when you select a message in the **Analysis Grid** viewer. The **Details** window typically shows the field or property **Name**, **Value**, **Bit Offset**, **Bit Length**, and **Type**. It is likely that you will use this **Tool Window** extensively in analysis, because it immediately exposes the values of any message field.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about viewing message field and property values, see the [Message Details Tool Window](message-details-tool-window.md) topic.   
@@ -261,7 +261,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
      You can set a field or property for tracking by right-clicking it in the **Details** window and then selecting the **Track ‘field/propertyName’** command, where  'field/propertyName' is a placeholder for an actual field or property name. Thereafter, you can display the tracking list and then either scroll through or arbitrarily select **Analysis Grid** messages to view tracked values. You might also select messages in the **Grouping** viewer and monitor tracked fields or properties in **Details**. Moreover, if the **Selection** **Tool Window** is enabled for selection tracking, you can forward- and back-navigate through your selections to assist your analysis process.  
   
-   ---  
+---  
   
      **More Information**   
      **To learn more** about tracking message field and property values in the **Details** window, see the [Using the Details Tool Window Features](message-details-tool-window.md#BKMK_UsingDetailsTracking) topic.   
