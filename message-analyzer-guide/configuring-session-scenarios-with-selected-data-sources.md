@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuring Session Scenarios with Selected Data Sources
+
 When you are creating a Live Trace Session or  a Data Retrieval Session with Message Analyzer, you can make use of a flexible session framework that enables you to create session scenarios based on single or multiple data sources. For example, you might want to load data into Message Analyzer from a single set of related files, or you might be interested in correlating data from a particular system Event Log with a related set of trace results.  
   
  This section provides guidelines on how to use Message Analyzer to acquire data from one or more supported input data sources in any combination that you wish. You can take advantage of this capability when you need to correlate and analyze related data from different sources, given the enhanced analysis perspective that you can obtain in this context. This section describes input data source configurations, the data sources that are supported by Message Analyzer, an overview of creating input loading and capture configurations, along with a summary of guidelines that you can follow when configuring Live Trace Sessions or Data Retrieval Sessions with single or multiple input data sources.  
@@ -28,11 +30,12 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
 ---  
   
- [Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
- [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
- [Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
- [Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
- [Correlating Data from Multiple Input Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
+- [Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
+- [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
+- [Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
+- [Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
+- [Correlating Data from Multiple Input Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
+
 ---  
   
 <a name="BKMK_InputDataSourceConfigs"></a>   
@@ -60,6 +63,7 @@ For Live Trace Sessions, this means that you can create one or more unique captu
   
  **More Information**   
  **To learn more** about creating capture configurations for Message Analyzer, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).  
+
 ---  
   
  **Data Loading Configurations**   
@@ -69,6 +73,7 @@ For Data Retrieval Sessions, this means that you can create a unique data loadin
   
  **More Information**   
  **To learn more** about creating data loading configurations for Message Analyzer, see [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
+
 ---  
   
 <a name="BKMK_SupportedDataSources"></a>   
@@ -159,6 +164,7 @@ For Data Retrieval Sessions, this means that you can create a unique data loadin
 >  After you have loaded data from multiple data sources, in many cases you can organize them into separate data source groups in the **Analysis Grid** viewer by right-clicking the **DataSource** field in the **General** category of **Field Chooser** and then selecting the **Add as Grouping** command in the context menu that appears.  
   
 ### Data Retrieval Scenario Guidelines  
+
  The following scenarios provide guidelines that summarize the approaches you can take to session configuration when you are preparing to load messages from one or more input sources into Message Analyzer:  
   
 -   **Single data source and configuration tab** — enables you to retrieve messages from a single input data source that is specified on a single configuration tab in the **New Session** dialog. If you are retrieving data from one or more saved files or logs in this scenario, filtering configurations such as an input **Time Filter** or **Session Filter** apply equally to all specified input files. The Data Retrieval Session begins as soon as you click the **Start** button in the **New Session** dialog. The data that you load into Message Analyzer will appear in the viewer that you choose from the **Start With** drop-down list in the **New Session** dialog.  
@@ -188,10 +194,12 @@ For Data Retrieval Sessions, this means that you can create a unique data loadin
 **To learn more** about **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).  
 **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
 **To learn more** about setting time shifts, see [Setting Time Shifts](setting-time-shifts.md).  
+
 ---  
   
 ## See Also  
- [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)   
- [Configuring a Remote Capture](configuring-a-remote-capture.md)   
- [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)
+
+- [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
+- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)   
+- [Configuring a Remote Capture](configuring-a-remote-capture.md)   
+- [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)

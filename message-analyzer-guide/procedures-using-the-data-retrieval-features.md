@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Procedures: Using the Data Retrieval Features
+
 The procedures in this section encapsulate some of the main functionalities described in [Retrieving Message Data](retrieving-message-data.md). They serve as simple examples that demonstrate how to use Message Analyzer features to retrieve saved logs and files in the most efficient manner. These procedures, rather than serving as troubleshooting scenarios, also demonstrate the use of some data analysis tools that manipulate loaded data.  
   
 > [!NOTE]
@@ -24,6 +26,7 @@ The procedures in this section encapsulate some of the main functionalities desc
   
   **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
+
 ---  
   
  **[Load and Display Saved Data](procedures-using-the-data-retrieval-features.md#BKMK_load-displayTraceData)**  — shows how to browse for saved files that contain a message collection you want to load into Message Analyzer through a Data Retrieval Session and display it in a selected data viewer.  
@@ -182,6 +185,7 @@ A brief description of each procedure is included here for review, as follows.
 **To learn more** about the many **Layouts** that you can display for the **Chart** viewer,  see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
 **To learn more** about Pattern Expressions, including the built-in Pattern Expressions, see the [Pattern Match Viewer](pattern-match-viewer.md) section.    
 **To learn more** about the  **Gantt** viewer,  see the [Gantt Viewer](gantt-viewer.md) topic.  
+
 ---  
   
 <a name="BKMK_loadDataQuikOpen"></a>   
@@ -249,8 +253,8 @@ A brief description of each procedure is included here for review, as follows.
   
      For example, if you have one or more large input files with target data, you might want to focus on a particular time slot in which you suspect that a particular issue has occurred to minimize consumption of system resources, rather than load all the message data contained in the input files. You can do this with a **Time Filter**, which loads only the messages with timestamp values that fall within a specified window of time.  
   
-    > [!NOTE]
-    >  If you have a collection of target input files, the **Start Time** and **End Time** values that display in the **Time Filter** configuration are inclusive of the earliest and latest chronological time value, respectively, that is detected in any input file in the files list.  
+> [!NOTE]
+>  If you have a collection of target input files, the **Start Time** and **End Time** values that display in the **Time Filter** configuration are inclusive of the earliest and latest chronological time value, respectively, that is detected in any input file in the files list.  
   
 7.  Optionally, select or configure a **Session Filter** for your Data Retrieval Session to isolate specific information that you want to focus on, as follows.  
   
@@ -307,6 +311,7 @@ A brief description of each procedure is included here for review, as follows.
  **More Information**   
  **To learn more** about manipulating message data for analysis purposes, see the [Analysis Grid Viewer](analysis-grid-viewer.md), [Common Data Viewer Features](common-data-viewer-features.md), and [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md) topics.  
 **To learn more** about how to create an input window of time configuration in which to view retrieved data, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+
 ---  
   
 <a name="BKMK_LoadTextLogFileData"></a>   
@@ -318,6 +323,7 @@ A brief description of each procedure is included here for review, as follows.
  **More Information**   
  **To learn more** about OPN configuration files, see the latter sections of [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
 **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) and use it as a development reference to walk through the process of creating a configuration file for your log.  
+
 ---  
   
 #### To load saved data from a text log  
@@ -410,6 +416,7 @@ A brief description of each procedure is included here for review, as follows.
 **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
 **To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 **To learn more** about creating grouped data views, see the [Grouping Viewer](grouping-viewer.md) topic.   
+
 ---  
   
 <a name="BKMK_LoadAzureTableData"></a>   
@@ -434,5 +441,6 @@ A brief description of each procedure is included here for review, as follows.
 9. Optionally, display selected Azure table fields in separate columns in the **Analysis Grid** viewer, by utilizing the **Field Chooser** **Tool Window** to expose other data fields of interest. You will need to look for a module in **Field Chooser** that is associated with the Azure table you specified to find the fields you can add for enhanced data analysis.  
   
 ## See Also  
- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)   
- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)
+
+- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)   
+- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)

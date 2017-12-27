@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Procedures: Using the Network Tracing Features
+
 The procedures in this section encapsulate some of the main functionalities described in the [Capturing Message Data](capturing-message-data.md) section, which includes defining the scope of data capture in a Live Trace Session. Although you can quickly start a Live Trace Session with a single click of the **Start Local Trace** button or of a specific **Favorite Scenario** on the Message Analyzer **Start Page**, you might want to specify your own Live Trace Session configuration settings before starting a trace. You can do this by clicking the **New Session** button on the **Start Page** to open the **New Session** dialog, from where you can specify a **Live Trace** as a data source and then customize the capture configuration of your Live Trace Session. You can also access the same configuration settings for a Live Trace Session by clicking the **New Session** button in the upper left corner of the Message Analyzer UI, or by selecting the **New Session** item from the Message Analyzer **File** menu.  
   
  You will use the **New Session** dialog to create capture configurations in all of the procedures in this section. Each of the procedures specified in this section are preceded by conceptual information that describes the purpose, configuration features, and/or expected results of the procedure.  
@@ -26,6 +28,7 @@ The procedures in this section encapsulate some of the main functionalities desc
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
+
 ---  
   
  **[Configure and Run a Local Network Interfaces Trace](procedures-using-the-network-tracing-features.md#BKMK_configStartLinkLayerTrace)**  — provides an example of how to modify the default **Local Network Interfaces** **Trace Scenario**; by specifying an adapter on which to capture messages and by adding a combination of filters to the **Microsoft-PEF-NDIS-PacketCapture** provider configuration on computers running the Windows 7, Windows 8, or Windows Server 2012 operating system; or to the **Microsoft-Windows-NDIS-PacketCapture** provider configuration on computers running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system; that restrict the scope of data retrieval to only messages that pass the defined filtering criteria.  
@@ -87,8 +90,8 @@ A brief description of each procedure is included here for review, as follows.
   
 12. In the **Advanced Settings** dialog, highlight the **System Network** tree grid row that contains the adapter device you initially specified and then click the **Apply To Highlighted** button in **Group 1** of the **Fast Filters** pane to assign the filter **Group** to the adapter.  
   
-    > [!NOTE]
-    >  When you click the **Apply To Highlighted** button, the name of the adapter device to which the **Fast Filter Group** is applied appears next to the **Target** label for the corresponding **Group**.  
+> [!NOTE]
+>  When you click the **Apply To Highlighted** button, the name of the adapter device to which the **Fast Filter Group** is applied appears next to the **Target** label for the corresponding **Group**.  
   
 13. In the **Advanced Settings** dialog, highlight the **System Network** tree grid row that contains the adapter device for which you specified a negated **LinkLevelAddress** filter and then click the **Apply To Highlighted** button in **Group 2** of the **Fast Filters** pane to assign the filter **Group** to the adapter.  
   
@@ -187,8 +190,8 @@ A brief description of each procedure is included here for review, as follows.
   
 15. Review HTTP **StatusCodes** for evidence of connection or performance issues on the server, as described in [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) of this documentation.  
   
-    > [!NOTE]
-    >  To create a prominent view of HTTP status data, add the **HTTP.Response.StatusCode** field to the default **Analysis Grid** viewer column **Layout** with the **Field Chooser** **Tool Window**, by right-clicking the **StatusCode** field name and selecting the **Add As Column** command from the context menu that appears, as described in [Using the Field Chooser](using-the-field-chooser.md).  
+> [!NOTE]
+>  To create a prominent view of HTTP status data, add the **HTTP.Response.StatusCode** field to the default **Analysis Grid** viewer column **Layout** with the **Field Chooser** **Tool Window**, by right-clicking the **StatusCode** field name and selecting the **Add As Column** command from the context menu that appears, as described in [Using the Field Chooser](using-the-field-chooser.md).  
   
 <a name="BKMK_configStartWebProxylTrace"></a>   
 ## Configure and Run a Pre-Encryption for HTTPS trace  
@@ -236,8 +239,8 @@ A brief description of each procedure is included here for review, as follows.
   
      To create a prominent view of HTTP status data, add the **HTTP.Response.StatusCode** field to the default **Analysis Grid** viewer column **Layout** with the **Field Chooser** dialog, by right-clicking the **StatusCode** field name and selecting the **Add As Column** command from the context menu that appears, as described in [Using the Field Chooser](using-the-field-chooser.md).  
   
-    > [!TIP]
-    >  You can also **Group** the **StatusCode** column in the **Analysis Grid** viewer to organize status codes into groups, for ease of analysis. To do so, right-click on the **StatusCode** column and select the **Group** command from the context menu that appears.  
+> [!TIP]
+>  You can also **Group** the **StatusCode** column in the **Analysis Grid** viewer to organize status codes into groups, for ease of analysis. To do so, right-click on the **StatusCode** column and select the **Group** command from the context menu that appears.  
   
 <a name="BKMK_CaptureRemoteHost"></a>   
 ## Capture Traffic on a Remote Host  
@@ -269,8 +272,8 @@ A brief description of each procedure is included here for review, as follows.
   
 7.  Specify the name or IP address of the remote host on which you intend to capture message traffic, by entering it in the new row under the **Computer Name/IP Address** column of the **Edit Target Computers** dialog. You can specify the remote host name by simply entering the host name without including the forward backslashes that are customarily used in the Universal Naming Convention (UNC) standard.  
   
-    > [!TIP]
-    >  You have the option to capture traffic on multiple remote hosts, as long as each one is running a supported operating system. For each remote host, you will need to create a new row in the **Edit Target Computers** dialog and specify the host name and connection credentials. When your trace results are complete, all the captured message data will be returned to Message Analyzer and aggregated into a single **Analysis Grid** session viewer tab.  
+> [!TIP]
+>  You have the option to capture traffic on multiple remote hosts, as long as each one is running a supported operating system. For each remote host, you will need to create a new row in the **Edit Target Computers** dialog and specify the host name and connection credentials. When your trace results are complete, all the captured message data will be returned to Message Analyzer and aggregated into a single **Analysis Grid** session viewer tab.  
   
 8.  If you cannot use your current logon credentials to connect with the remote host, then specify an appropriate **User Name** and **Password** in the indicated columns of the new row you added. When specifying other logon credentials, use the Domain\Username format. Otherwise, you can leave these grid fields blank to connect to the remote host with your current logon credentials.  
   
@@ -324,8 +327,8 @@ A brief description of each procedure is included here for review, as follows.
   
      You can also check to see if the KW_DROPPED flag is set in the **Flags** field of any ETW message in the **Details** **Tool Window**.  
   
-    > [!NOTE]
-    >  To make it easier to analyze ETW messages, select the **ETW Layer** **Viewpoint** from the **Viewpoints** drop-down list on the Filtering toolbar to display all ETW messages with no layers above them.  
+> [!NOTE]
+>  To make it easier to analyze ETW messages, select the **ETW Layer** **Viewpoint** from the **Viewpoints** drop-down list on the Filtering toolbar to display all ETW messages with no layers above them.  
   
 > [!TIP]
 >  When analyzing data that you have captured from multiple remote computers, you have the option to organize and summarize the captured data into groups that are labeled by host (data source) name. You can do this by adding the  **DataSource** field from the **General** category of the **Field Chooser** to the default **Analysis Grid** viewer column **Layout**, and then applying the **Group** command by selecting it from the context menu that displays after you right-click the newly added **DataSource** column.  
@@ -336,6 +339,7 @@ A brief description of each procedure is included here for review, as follows.
  **To learn more** about the extension filtering stack on a Hyper-V-Switch, see [Overview of the Hyper-V Extensible Switch](http://msdn.microsoft.com/en-us/library/windows/hardware/hh582268\(v=vs.85\).aspx) on MSDN.  
 **To learn more** about capturing traffic on a remote host and specifying adapter and filter configurations for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).   
 **To learn more** about the **Field Chooser**, see [Using the Field Chooser](using-the-field-chooser.md).   
+
 ---  
   
 <a name="BKMK_designRunTraceScenario"></a>   
@@ -354,12 +358,12 @@ A brief description of each procedure is included here for review, as follows.
   
 4.  In the **Network** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar, click the **Loopback and Unencrypted IPSEC** **Trace Scenario**.  
   
-    > [!TIP]
-    >  If you want your custom scenario to capture LDAP traffic unencrypted, you might try using the **SASL LDAP Pre-encryption with WFP** **Trace Scenario**, which includes both the **Microsoft-Windows-LDAP-Client** and **Microsoft-PEF-WFP-MessageProvider** as part of the scenario configuration.  
-    >   
-    >  Note that you can optionally add other system ETW Providers to your **Trace Scenario** configuration from the **Add System Providers** dialog, which is accessible by clicking the **Add Providers** drop-down list on the **ETW Providers** toolbar. You might do this to return specific events that such a provider's **Keyword** configuration enables.  
+> [!TIP]
+>  If you want your custom scenario to capture LDAP traffic unencrypted, you might try using the **SASL LDAP Pre-encryption with WFP** **Trace Scenario**, which includes both the **Microsoft-Windows-LDAP-Client** and **Microsoft-PEF-WFP-MessageProvider** as part of the scenario configuration.  
+>   
+>  Note that you can optionally add other system ETW Providers to your **Trace Scenario** configuration from the **Add System Providers** dialog, which is accessible by clicking the **Add Providers** drop-down list on the **ETW Providers** toolbar. You might do this to return specific events that such a provider's **Keyword** configuration enables.  
   
-     The **ETW Providers** list on the **Live Trace** tab is populated with the **Name** and **Id** (GUID) of the **Microsoft-PEF-WFP-MessageProvider** (and the **Microsoft-Windows-LDAP-Client** if you selected the **SASL LDAP Pre-encryption with WFP** **Trace Scenario**).  
+    The **ETW Providers** list on the **Live Trace** tab is populated with the **Name** and **Id** (GUID) of the **Microsoft-PEF-WFP-MessageProvider** (and the **Microsoft-Windows-LDAP-Client** if you selected the **SASL LDAP Pre-encryption with WFP** **Trace Scenario**).  
   
 5.  In the **ETW Providers** list, click the **Configure** link to the right of the **Id** for the **Microsoft-PEF-WFP-MessageProvider** to open the **Advanced Settings - Microsoft-PEF-WFP-MessageProvider** dialog, as shown in [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
   
@@ -377,8 +381,8 @@ A brief description of each procedure is included here for review, as follows.
   
      Your Live Trace Session template is now complete and configured to only capture LDAP traffic and other events related to the LDAP client, for the specified local IP address. In addition, the **Loopback and Unencrypted IPSEC** **Trace Scenario** and the **Session Filter** in use will remove a significant portion of lower-layer noise and improve performance.  
   
-    > [!TIP]
-    >  To view the events that you can capture with the **Microsoft-Windows-LDAP-Client** ETW Provider, click the **Configure** link to the right of the **Id** for this provider to open the **Advanced Settings - Microsoft-Windows-LDAP-Client** dialog and then click the ellipsis (**...**) to the right of the **Keywords(Any)** or **Keywords(All)** text box. This action will display the **ETW Keyword Filter Property** dialog, from where you can view and select specific events to capture, that is, if they are triggered during a trace. For further information about setting **Keyword** bitmask filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
+> [!TIP]
+>  To view the events that you can capture with the **Microsoft-Windows-LDAP-Client** ETW Provider, click the **Configure** link to the right of the **Id** for this provider to open the **Advanced Settings - Microsoft-Windows-LDAP-Client** dialog and then click the ellipsis (**...**) to the right of the **Keywords(Any)** or **Keywords(All)** text box. This action will display the **ETW Keyword Filter Property** dialog, from where you can view and select specific events to capture, that is, if they are triggered during a trace. For further information about setting **Keyword** bitmask filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
   
 10. In the **New Session** dialog, optionally specify a name for your custom **Trace Scenario** in the **Name** text box.  
   
@@ -394,8 +398,8 @@ A brief description of each procedure is included here for review, as follows.
   
      When you do this, the **New Session** dialog will be populated with the custom settings that you specified when you created the **Trace Scenario** template. Note that you still have the option at this point to reconfigure your **Trace Scenario** prior to running a Live Trace Session; for example, you could specify a different **Session Filter**, provider line up, or **Keyword** bitmask configuration.  
   
-    > [!TIP]
-    >  If you make further modifications to your **Trace Scenario** template, you can resave it with the new configuration settings without ever running it.  
+> [!TIP]
+>  If you make further modifications to your **Trace Scenario** template, you can resave it with the new configuration settings without ever running it.  
   
 15. Start a Live Trace Session based on your custom **Trace Scenario** template by clicking the **Start** button in the **New Session** dialog.  
   

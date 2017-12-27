@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Loading System Event Log Data
+
 Message Analyzer enables you to load system event data that is typically displayed in the  **Microsoft Event Viewer**. The types of logs for which you can load data into Message Analyzer consist of **Applications and Services**, **Windows**, and others. To load data from a particular log, you simply select the log name on the **Event Logs** tab of the **New Session** dialog in the **Sources** list and then click the **Start** button to load the data into Message Analyzer. The interface from which you will work   to load Event Log data into Message Analyzer is shown in the figure that follows.  
   
  ![Event Logs data retrieval interface](media/fig34-event-logs-data-retrieval-interface.png "Fig34-Event Logs data retrieval interface")  

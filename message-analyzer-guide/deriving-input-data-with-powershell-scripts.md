@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Deriving Input Data with PowerShell Scripts
+
 This section describes two different methods that you can use to acquire data for input to  Message Analyzer through PowerShell. The first shows you how to import data with a saved PowerShell script file that you target as a supported input file type (\*.ps1) through a Data Retrieval Session. The script contained in such a file may invoke specific processes or functions that return data which you can view in Message Analyzer. The second method is similar, but instead enables you to use a PowerShell interface that is built into Message Analyzer to create a PowerShell query that returns its data  to a viewer such as the **Analysis Grid**.  
   
 ## Importing Data Through a PowerShell Script File  
+
  As specified in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md), Message Analyzer enables you to target PowerShell (.ps1) scripts as an input file type for a Data Retrieval Session. After you target one or more .ps1 files by adding them to the input files list on the **Files** tab of the **New Session** dialog, you can execute the scripts by clicking the **Start** button in the **New Session** dialog. The scripts might invoke other systems or functions to generate data, which will then be loaded through a Data Retrieval Session into Message Analyzer. Such PowerShell scripts can run on the local host or on remote target computers, as follows:  
   
 -   **Local hosts** — you might have a PowerShell script that runs a cmdlet that returns data from the local Event Viewer, for example, `Get-EventLog -LogName Application -Newest 10`. This script gets the latest 10 messages in the Application log. If you use the **Add Files** feature of the **New Session** dialog to import a .ps1 file into Message Analyzer that contains this cmdlet, the data that it generates will be loaded into a Message Analyzer viewer that you specify (from the **Start With** drop-down list in the **New Session** dialog) after you start your Data Retrieval Session. Note that you also have the option to use the **Open** feature in the Message Analyzer **File** menu to quickly import a .ps1 file, execute its code, and load the data it generates into the default **Analysis Grid** viewer.  
@@ -33,6 +36,7 @@ This section describes two different methods that you can use to acquire data fo
     -   Open the .ps1 file by using either of the methods specified in the “Local hosts” bullet point above.  
   
 ## Importing Data Through a PowerShell Query  
+
  To generate a PowerShell query that captures data from a particular local or remote host, you can construct the query with any cmdlets that you wish and display the output in Message Analyzer. This provides a convenient way of using PowerShell in the Message Analyzer environment where you can take advantage of Message Analyzer analysis capabilities to review results. For example, you can use the **Analysis Grid** viewer to display the query output data in the **Summary** column of the grid. By selecting a message row in the grid, you   can examine fields and values in the **Details** **Tool Window** that correspond to **Summary** column data. The figure that follows shows the data retrieval interface configuration with which you will work to load the data into Message Analyzer from the output of a PowerShell query.  
   
  ![PowerShell Query data retrieval interface](media/fig35-powershell-query-data-retrieval-interface.png "Fig35-PowerShell Query data retrieval interface")  

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Specifying Advanced ETW Session Configuration Settings
+
 This section describes how to use the **ETW Session - Advanced Configuration** dialog when configuring a Live Trace Session, to enhance the performance of event tracing in the underlying ETW Sessions that all Message Analyzer providers utilize. To facilitate this enhancement, the **ETW Session - Advanced Configuration** dialog enables you to modify configuration settings for the ETW Session in which the ETW Provider components of a Message Analyzer Live Trace Session participate. Mainly, this involves adjusting settings for the ETW buffer configuration of the ETW Session that is managed by the [ETW Controller](etw-framework-conceptual-tutorial.md#BKMK_ETWController). You can open the **ETW Session - Advanced Configuration** dialog by clicking the **Configure ETW Session** button on the **Live Trace** tab of the **New Session** or **Edit Session** dialog (if you are editing an existing session). The **Configure ETW Session** dialog is shown in the figure that follows.  
   
  ![ETW Session &#45; Advanced Configuration](media/fig28-etw-session-advanced-configuration.png "Fig28-ETW Session - Advanced Configuration")  
@@ -27,6 +29,7 @@ This section describes how to use the **ETW Session - Advanced Configuration** d
 >  The most common reason why you might want to specify **ETW Session - Advanced Configuration** settings is that your Live Trace Sessions are dropping packets, the evidence of which could be spurious diagnosis errors, excessive TCP retransmits or broken three-way handshakes, dropped packet log indications for a **Microsoft-PEF-WFP-MessageProvider** trace, and other occurrences where trace results seem odd.  
   
 ## ETW Buffer Background Concepts  
+
  The **ETW Session - Advanced Configuration** dialog enables you to specify values for key ETW buffer settings. By adjusting these settings for an ETW Session, you can reduce the risk of dropping event packets during a Live Trace Session with Message Analyzer. A properly configured ETW Session will prevent the loss of event data, although acquiring the right configuration can be tricky. For example, larger ETW buffers are preferred over smaller buffers to enable more efficient disk I/O as buffer data is written to disk. However, as you specify higher values for the ETW buffer settings more memory will be consumed, thus impacting performance.  
   
  Events are captured in an ETW Session by accepting them from the ETW Provider API. An ETW Session is a collection of in-memory buffers that are managed by the kernel. At all times, an *in-use* buffer is assigned to each processor. Each time the EventWrite() method is called, space is reserved in the in-use buffer that is currently allocated to the processor on which the calling thread is running. The event header and user data is then copied into that space. When the in-use buffer becomes full, it is flushed to the ETW Session's log file and/or to the ETW Consumer in real time.  At this point, a free buffer from the buffer pool is assigned to the processor. If the logging throughput exceeds the ability of the flusher to free up buffers—for example, because the incoming event throughput is greater than the disk write throughput—at some point all available buffer space in the ETW Session might be consumed, causing the EventWrite() method to fail with an ERROR_NOT_ENOUGH_MEMORY message along with a loss of event data.  
@@ -34,6 +37,7 @@ This section describes how to use the **ETW Session - Advanced Configuration** d
  To avoid this loss of event data, it is critical that the flusher interval is adequate, enough ETW buffers are available from the buffer pool, and that buffer size is set correctly to ensure good I/O write efficiency.  
   
 ## Configuring the ETW Session  
+
  When you are configuring a Live Trace Session, you have the option to specify several settings in the **ETW Session - Advanced Configuration** dialog. These settings provide information to the ETW Session Controller that enable it to control various aspects of an ETW Session to ensure that data is not lost from dropped event packets. After you create a new Live Trace Session and you have selected a **Trace Scenario** in the **New Session** dialog, click the **Configure ETW Session** button in the **New Session** dialog to display the **ETW Session – Advanced Configuration** dialog. You can then configure values for the following settings:  
   
 -   **Buffer size in KB** — sets the size of all ETW buffers in the ETW buffer pool, to which an **ETW Provider** writes events during an ETW Session.  

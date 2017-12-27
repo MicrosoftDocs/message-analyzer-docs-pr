@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuring a Remote Capture
+
 Message Analyzer enables you to capture traffic on remote machines by running the **Remote Network Interfaces** **Trace Scenario**. This scenario uses the **Microsoft-Windows-NDIS-PacketCapture** provider for remote tracing. However, you can capture remote traffic with the **Remote Network Interfaces** scenario only from computers that are running the Windows 8.1, Windows Server 2012 R2, Windows 10, or later operating system. In addition, the source machine from where you start the **Remote Network Interfaces** scenario must also be running one of these same operating systems. Note that the **Remote Network Interface** scenario is not available on computers that are running the Windows 7, Windows 8, or Windows Server 2012 operating system.  
   
  Other requirements also apply, as follows:  
@@ -32,6 +34,7 @@ Message Analyzer enables you to capture traffic on remote machines by running th
     > `winrm set winrm/config/client @{TrustedHosts="RemoteHost1Name, RemoteHost2Name,.."}`, and so on  
   
 ## Connecting with Remote Hosts  
+
  If your systems match the indicated requirements, you can start remote configuration for your Live Trace Session by first specifying the name of one or more remote Windows 8.1, Windows Server 2012 R2, or Windows 10 hosts on which to capture remote message traffic, possibly along with Administrator credentials (see [Specifying Remote Host Connection Data](configuring-a-remote-capture.md#BKMK_SpecifyRemHostData)), to connect with those computers. You can specify the connection information from the **Edit Target Computers** dialog, which is accessible by clicking the **Edit** button on the **Live Trace** tab of the **New Session** dialog. If you do not specify any remote computers on which to capture traffic, then your Live Trace Session defaults to capturing messages on the local computer, as indicated by the default **Localhost** setting in the **Target Computers** list on the **Live Trace** tab.  
   
  Moreover, Message Analyzer enables you to capture traffic with the following target configurations:  
@@ -54,6 +57,7 @@ Message Analyzer enables you to capture traffic on remote machines by running th
  If you want to edit the connection information for any of the hosts that display in the **Target Computers** list, simply click **Edit** on the **Live Trace** tab of the **New Session** dialog and modify the information as required. Note that Message Analyzer retains all the connection information that you specify from session to session, until you remove it with the **Delete** control in the **Edit Target Computers** dialog. In addition, all the host names and user names that you entered in the **Edit Target Computers** dialog are retained in the **Add** drop-down list for future selection as required.  
   
 ## Specifying Advanced Settings for Remote Hosts  
+
  After you have specified connection credentials for remote computers on which to capture message traffic, and you have selected the **Remote Network Interfaces** **Trace Scenario**, you have the option to specify special filtering configurations in the **Advanced Settings – Microsoft-Windows-NDIS-PacketCapture** dialog. To access this dialog, click the **Configure** link to the right of the **Microsoft-Windows-NDIS-PacketCapture** provider **Id** in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog. When the dialog opens, select the **Provider** tab and then click the **Host** drop-down to display the list of target computers that your Live Trace Session will connect with. To specify different filtering configurations for different hosts, you must select each host separately in the **Host** drop-down and then specify the filters you want to use, as described in [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
   
  **Enumerating Adapters**   
@@ -73,6 +77,7 @@ When you select an item in the **Host** drop-down list, Message Analyzer attempt
 >  In either case, you will need to determine an adapter that supports P-Mode and then select that adapter in the **P-Mode** column of the Interface Selection section of the **Advanced Settings — Microsoft-Windows-NDIS-PacketCapture** dialog to enable a Promiscuous Mode capture with the selected adapter.  
   
 ## Filtering and Adapter Configurations  
+
  Message Analyzer enables you to specify the remote adapters on which to capture traffic by selecting specific adapters in the tree grid section of the **Advanced Settings** dialog. In addition, you can specify various filters such as **All Layers**, **Direction**, **Truncation**, **EtherType**, **IP Protocol Numbers**, **IP Addresses**, and **MAC Addresses**.  
   
 > [!IMPORTANT]
@@ -86,7 +91,9 @@ When you select an item in the **Host** drop-down list, Message Analyzer attempt
 >  The **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog configuration settings are tied to the **Microsoft-Windows-NDIS-PacketCapture** provider. As a result, you can use this dialog to specify configuration settings for any **Trace Scenario** that employs the **Microsoft-Windows-NDIS-PacketCapture** provider. You simply access the dialog in the previously indicated manner for this provider. Note that the remote capabilities of the **Microsoft-Windows-NDIS-PacketCapture** provider are available in all **Trace Scenarios** that use this provider on computers that are running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system; but you can only capture remote data successfully if you are targeting computers that are running one of the same operating systems.  
   
 ## Starting a Remote Trace  
+
  After Message Analyzer has connected to one or more remote hosts and you have optionally specified adapter and filtering configurations in the **Advanced Settings** dialog, you can close the dialog and start your remote Live Trace Session the same way you start any trace — by clicking the **Start** button in the **New Session** dialog. At this time, Message Analyzer starts multiple concurrent subsessions, that is, if you have successfully connected with multiple hosts for remote capture, where each subsession captures message traffic on a different host that is specified in the **Target Computers** list on the **Live Trace** tab of the **New Session** dialog. The captured data then begins to aggregate from all the subsessions into the **Analysis Grid** viewer, or whichever viewer you specified from the **Start With** drop-down in the **New Session** dialog prior to starting the trace.  
   
 ## See Also  
- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)
+
+- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)

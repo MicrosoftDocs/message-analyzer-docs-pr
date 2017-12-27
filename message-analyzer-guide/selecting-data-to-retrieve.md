@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Selecting Data to Retrieve
+
 As part of the BSV model, Message Analyzer provides a data selection feature that enables you to define the scope of the information that you load through a session. Although the concept of data selection applies equally to loading saved data in a Data Retrieval Session and capturing data in a Live Trace Session, this section focuses on selecting data in a Data Retrieval Session.  
   
 ## Using Data Selection  
+
  To use the data selection feature, you must configure your Data Retrieval Session to select specific data based on configurable criteria prior to starting the actual data retrieval process. During the retrieval process, the selection criteria that you configured is applied. This enables you to narrow the focus of the data retrieval process to only the message data that you want to work with. A very effective means of isolating different messages in a Data Retrieval Session, including those that have specific characteristics, consists of using a **Session Filter** to retrieve only the type of message data that you choose, while blocking all data that does not specifically meet your designated filtering criteria. Other aspects of data selection in a Data Retrieval Session consist of the following:  
   
 -   Specifying the input file configuration with the use of check marks on the files in the files list of the **New Session** dialog, to select specific data from chosen files only.  
@@ -36,8 +39,10 @@ As part of the BSV model, Message Analyzer provides a data selection feature tha
  **To learn more** about how to select data from a Data Retrieval Session with a **Session Filter**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
 **To learn more** about how to select data from a Data Retrieval Session with a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
 **To learn more** about how to choose the point in the stack up to which Message Analyzer will parse, see  [Specifying a Parsing Level](specifying-a-parsing-level.md).  
+
 ---  
   
 ## See Also  
- [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)   
- [Managing Session Filters](managing-session-filters.md)
+
+- [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)   
+- [Managing Session Filters](managing-session-filters.md)

@@ -14,16 +14,20 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Retrieving Azure Storage Table Data
+
 Message Analyzer versions 1.2 and later provide a data input preview feature known as the **Azure Table Import**, which enables you to retrieve data stored in an Azure Storage table. To enable this feature, you will need to select it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. After you click **OK** to exit the **Options** dialog, you must restart Message Analyzer so that the **Azure Table** button appears in the **New Session** dialog, from where you can select it.  
   
 ---  
   
  **Go To Procedure**   
 To proceed directly to a detailed procedure that you can follow to retrieve Azure Storage table data, see [To access, load, and view data stored in an Azure table](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureTableData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-table-data.md#BKMK_AzureWrkflowOverview).   
+
 ---  
   
 ## Specifying Connection Information  
+
  After you start a **New Session** from the Message Analyzer **File** menu and you click the **Azure Table** button, an input configuration appears on the **Azure Table** tab from where you can provide connection information. To enable Message Analyzer to read Azure Storage table data, you will need to obtain and enter the following required information:  
   
 -   **Account Name** — an Azure Storage account name. You can obtain this information from your Azure portal.  
@@ -71,7 +75,9 @@ To proceed directly to a detailed procedure that you can follow to retrieve Azur
 **To learn more** about **Session Filters**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
 **To learn more** about creating filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
+
 ---  
   
 ## See Also  
- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)
+
+- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)

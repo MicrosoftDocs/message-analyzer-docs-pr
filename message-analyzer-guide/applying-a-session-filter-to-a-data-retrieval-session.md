@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Applying a Session Filter to a Data Retrieval Session
+
 After specifying one or more data sources in a Data Retrieval Session, you can apply a **Session Filter** expression to those data sources to filter the loaded message data to specific criteria. The same data selection capability is provided for Live Trace Sessions, where you can also apply a **Session Filter** expression to select specific data that is returned in your trace results. A **Session Filter** is shown in the topic [Using a Session Filter](message-analyzer-tutorial.md#BKMK_UsingSessionFilter).  
   
  To apply a **Session Filter**, you can either choose a built-in Filter Expression or you can create your own. When you create your own Filter Expression or modify a built-in filter, you should be careful to create a valid Filter Expression, or you may not return any data. For further information about creating valid Filter Expressions, see the topic [Writing Filter Expressions](writing-filter-expressions.md) to learn about the Filtering Language that is used by Message Analyzer.  
@@ -36,4 +38,5 @@ After specifying one or more data sources in a Data Retrieval Session, you can a
 **To learn more** about creating Filter Expressions and using the Message Analyzer Filtering Language, see [Writing Filter Expressions](writing-filter-expressions.md).   
 **To learn more** about **Aliases**, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).   
 **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).  
+
 ---

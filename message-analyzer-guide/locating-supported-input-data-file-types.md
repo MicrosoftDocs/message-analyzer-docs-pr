@@ -14,13 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Locating Supported Input Data File Types
+
 To locate saved data that you want to load into Message Analyzer from supported file types and to access session configuration features prior to loading the data, you should first create a Data Retrieval Session as described in [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md). To load data very quickly from supported file types into Message Analyzer without accessing the session configuration settings of the **New Session** dialog, you can use any of the methods described in [Performing Data Retrieval](performing-data-retrieval.md). The exception to these “fast” methods is for text log files with a .log extension, where instead, Message Analyzer automatically opens the **New Session** dialog so that you can select a **Text Log Configuration** file that is required for parsing text logs.  
   
 > [!NOTE]
 >  For Data Retrieval Sessions that contain a large message collection with many files targeted for loading data, you can search the files list to quickly locate any file by specifying file name characters in the search text box on the toolbar of the **Files** tab. For easy location capability, you should consider using relevant file naming conventions, as described in [Naming Saved Files](naming-saved-files.md), when saving files from which you expect to reload data at some point.  
   
 ## Supported Input File Types  
+
  The data that you load into Message Analyzer must be derived from one or more of the supported file types, as described in the table that follows. Some of these file types are in Message Analyzer default native format while others are non-native. Some input files have certain requirements, as indicated in the table. Note that you can save Message Analyzer data in the .matp native file format only, even if you initially loaded data from a message file that has a non-native format.  
   
 ### Table 9.  Message Analyzer Supported Input File Types  
@@ -59,4 +62,5 @@ To locate saved data that you want to load into Message Analyzer from supported 
 **To learn more** about different methods that you can use to quickly load data into Message Analyzer, see [Performing Data Retrieval](performing-data-retrieval.md).  
 **To learn more** about saving your message data in the native .matp file format, see [Saving Files in Native Format](saving-files-in-native-format.md).  
 **To learn more** about how to create an OPN Configuration file for a text log, see the [OPN Configuration File for Textlog Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document download.   
+
 ---

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Decrypting TLS and SSL Encrypted Data
+
 In addition to the many tools that Message Analyzer provides to filter, analyze, and visualize network traffic and other data, Message Analyzer also provides a **Decryption** feature that can help you diagnose traces that contain encrypted Transport Layer Security (TLS) and Secure Sockets Layer (SSL) traffic. Decrypting TLS/SSL traffic can be critical to troubleshooting network, protocol, performance, and connectivity issues. The Message Analyzer **Decryption** feature also resolves existing limitations of the **Microsoft-PEF-WebProxy** Fiddler message provider, such as the non-transparency of errors and the inability to capture other TLS/SSL encrypted traffic besides HTTPS.  
   
 > [!NOTE]
@@ -23,6 +25,7 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
  The Message Analyzer **Decryption** feature enables you to view data for Application layer protocols that are encrypted with TLS and SSL, such as the HTTP and Remote Desktop (RDP) protocols. However, to enable a **Decryption** session in Message Analyzer, you will need to import a certificate that contains a matching identity for a target server, specify a required password, and then save the configuration. You can then either load a saved trace file into Message Analyzer through a Data Retrieval Session or start a Live Trace Session that will be enabled for decryption.  Thereafter, Message Analyzer decrypts the trace by using the server certificate and password that you provided. After the trace results display in the **Analysis Grid** viewer, a **Decryption** **Tool Window** holds the decryption analysis information. If there are decryption failures, errors are reported to the **Decryption** window, where a red **Error** icon displays for each message that failed the decryption process. Detailed error descriptions are also provided in the **Decryption** window to assist in troubleshooting and analysis. If there are no errors reported, then the **Decryption** window displays either a blue **Info** icon for each message that was successfully decrypted, or a yellow **Warning** icon that flags each message for which a certificate could not be found.  
   
 ## Workflow Overview  
+
  Decryption works within the existing Message Analyzer architecture to simplify its usage and results analysis. After you provide and save one or more server certificates and passwords, Message Analyzer will decrypt target traffic that is encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols for any session containing such traffic in the current Message Analyzer instance. Note that existing certificates are recovered from the certificate store after Message Analyzer restarts; however, for security purposes, passwords are not. Therefore, if you want decryption to occur after a Message Analyzer restart, you will need to manually re-enter passwords each time. In any single instance of Message Analyzer where you have entered passwords for existing or new certificates, Message Analyzer can decrypt target messages whenever you load a saved file or run a live trace that retrieves such messages. Thereafter, Message Analyzer displays the decrypted data in the **Analysis Grid** viewer at an upper layer of the protocol stack and provides a separate **Decryption** window that presents decryption session analysis information, including status and errors. You can also save a trace that contains decrypted data in the .matp format, just as you would any other trace. All the Message Analyzer tools and features that normally enable you to manipulate and analyze message data are available for use in a decryption session, including the **Details**, **Message Data**, **Field Data**, and **Message Stack** **Tool Windows** that enable you to focus on specific message fields, properties, values, and layers.  
   
  The following steps are an overview of the workflow that you will typically follow when working with the **Decryption** feature:  
@@ -46,9 +49,11 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
  All certificates and passwords that you add to the grid on the **Decryption** tab of the **Options** dialog are saved to the certificate store and persist in the current Message Analyzer instance, unless you remove them by clicking the **Clear List** button in the toolbar on the **Decryption** tab. Note that if you remove certificate entries from the list and click **OK** to exit the **Options** dialog, neither the certificates nor the passwords will be listed in the grid following a Message Analyzer restart.  
   
 ## Obtaining a Server Certificate  
+
  If you require a security certificate from a server on which you are capturing encrypted message traffic, you can obtain one by using the Certificate Manager MMC to export a server-side certificate (from the server). Note that the client-side version of such a certificate does not have the information needed to decrypt the data. Cipher suites are typically decided by the server configuration. Note that you may have to make modifications to the client- or server-side to locate a cipher suite that is supported by Message Analyzer.  
   
 ## Enabling Certificates  
+
  Certificates and passwords are not enabled for a Data Retrieval Session or a Live Trace Session unless you specifically select them prior to the session. To enable or disable a certificate in the certificate list, either select or unselect the check box to the left of the certificate name, respectively. In addition, you can enable or disable all certificates simultaneously by either selecting or unselecting the **Name** check box, respectively. Before loading data or running a live trace that you want to decrypt, make sure that your certificate/s are enabled by selecting the appropriate certificate check box in the certificate list; you should also ascertain that a password for the certificate displays in hidden text in the **Password** column. When you are finished adding certificates and passwords, click the **OK** button to exit the **Options** dialog, at which time the certificate and password are stored. Thereafter, the certificate that you added is accessible to all subsequent decryption sessions, including those following Message Analyzer restarts; however, the password is made available for decryption sessions that use that certificate in the current Message Analyzer instance only.  
   
 <a name="BKMK_DecryptTraceData"></a>   
@@ -118,7 +123,9 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
  **More Information**   
  **To learn more** about starting and configuring a new Data Retrieval Session or a Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
 **To learn more** about saving trace data, see the [Saving Message Data](saving-message-data.md) section.   
+
 ---  
   
 ## See Also  
- [Decryption Tool Window](decryption-tool-window.md)
+
+- [Decryption Tool Window](decryption-tool-window.md)

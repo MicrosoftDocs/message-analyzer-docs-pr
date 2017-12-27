@@ -13,10 +13,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Loading OMS Log Data
+
 Message Analyzer now enables you to load data from Operations Management Suite (OMS) logs so that you can take advantage of Message Analyzer data viewers and analysis capabilities. Message Analyzer provides a search  interface to OMS  Log Analytics that you can access with the **OMS** data source feature of the **New Session** dialog during Data Retrieval Session configuration. However, **OMS** is a preview feature and for it to appear as an input data source in the **New Session** dialog, you will need to select the **OMS Import** feature on the **Features** tab of the **Options** dialog and then restart Message Analyzer. The **Options** dialog is accessible from the global Message Analyzer **Tools** menu.  
   
 ## OMS Background Information  
+
  The data and resources that are managed by OMS are organized by an OMS Workspace, which you can think of as  a unique OMS environment with its own data repositories and data sources. To access OMS data, you must have an Azure Subscription and credentials to log in to Azure.  You can have multiple Workspaces in your Subscription to support multiple environments, for example, production and test. In a Workspace, you can enable different solutions that return operational data, for example, the Wire Data solution, which returns Network and performance data. You can now use Message Analyzer to extract OMS data from logs that are written by solutions that are enabled in a Workspace that you create. Message Analyzer does this by creating an interface for the search component of OMS Log Analytics, which enables you to write Azure Resource Manager (ARM) queries that access specific data for which you are searching in a particular OMS data collection in your Workspace.  
   
  For a single query, a user might access several log entries of different types in a single workspace, while the number of log entries actually returned by OMS depends on the query itself. For example, if you write an ARM query such as "events &#124; top 100", you will return the first 100 events. If you specify a query such as "error", you will return all the log entries in your Workspace that contain errors.  
@@ -25,9 +28,11 @@ Message Analyzer now enables you to load data from Operations Management Suite (
   
  **More Information**   
  **To learn more** about Log Analytics search syntax, see the [Log Analytics Documentation](https://technet.microsoft.com/en-us/library/mt484087.aspx) topic on  TechNet.  
+
 ---  
   
 ## OMS Import Feature Process Flow  
+
  The processes that must occur in sequence to enable you to access data from OMS and display it in Message Analyzer consist of the following:  
   
 -   A user **Login** provides the credentials that initiate the process of logging into Azure.  
@@ -45,6 +50,7 @@ Message Analyzer now enables you to load data from Operations Management Suite (
 -   Message Analyzer parses the JSON and displays the data as individual messages, typically in the **Analysis Grid** viewer.  
   
 ### Using the Message Analyzer OMS User Interface  
+
  The interface for retrieving OMS log data is shown in the following figure.  
   
  ![OMS log data retrieval interface](media/fig38-oms-log-data-retrieval-interface.png "Fig38-OMS log data retrieval interface")  
@@ -81,4 +87,5 @@ Message Analyzer now enables you to load data from Operations Management Suite (
   
  **More Information**   
  **To learn more** about JSON, see the [JSON Official Site](http://json.org/).  
+ 
 ---

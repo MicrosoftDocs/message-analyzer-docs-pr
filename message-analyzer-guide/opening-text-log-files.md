@@ -14,13 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Opening Text Log Files
+
 Message Analyzer enables you to parse data from text-based log files, for example, files with a \*.log extension. You can open these types of log files from the **New Session** dialog in a Data Retrieval Session, or by using **Windows Explorer**, the **Open** feature, or the drag-and-drop method.  
   
 > [!NOTE]
 >  The drag-and-drop method is unavailable when running Message Analyzer in the Administrator mode due to varying security contexts.  
   
 ## Using a Configuration File to Parse Text Logs  
+
  To parse text-based log files, Message Analyzer requires a configuration file. By default, Message Analyzer provides several predefined configuration files that you can select from a drop-down list in the **Text Log Configuration** column just below the toolbar on the **Files** tab of the **New Session** dialog during Data Retrieval Session configuration. You can view the **Text Log Configuration** drop-down list in the figure of the topic [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
   
  If there is no predefined configuration file that meets your requirements, you are advised to create an OPN configuration file so that Message Analyzer can fully parse your text log. Thereafter, you will need to either set the new configuration file as the default for all your log files, by selecting it from the drop-down list in the **Text Log Files** section on the **General** tab of the global **Options** dialog — which is accessible from the Message Analyzer **Tools** menu — or you must select a unique configuration file in the **Text Log Configuration** drop-down for each specific log file that contains a varying message format. For more information about configuration tasks that are required for opening and parsing text logs, see the [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md) topic.  
@@ -34,6 +37,7 @@ Message Analyzer enables you to parse data from text-based log files, for exampl
 >  If you do not create a configuration file for your text log and you simply select the **[None]** option in the **Text Log Configuration** column drop-down list, you can still use Message Analyzer filtering features to locate specific data from your log file after the data displays in the **Analysis Grid** viewer. For example, you might specify a view **Filter** such as `contains “error”` or `*Summary contains “error”` to filter for lines of data that contain “error” characters, or you could also specify **Color Rule** filters or a **Pattern Expression** to highlight or extract other data of interest.  
   
 ## Using Alternate Input Methods for Text Log Files  
+
  You have the option to load data from a .log file by using **Windows Explorer**, the **Open** feature, or the drag-and-drop method. Providing that you have not set a default configuration file, Message Analyzer automatically opens to the **New Session** dialog to enable you to select a configuration file from the **Text Log Configuration** drop-down menu on the **Files** tab. However, if you have already set a default configuration file that your text logs will use (from the **General** tab of the global **Options** dialog that is accessible from the global Message Analyzer **Tools** menu), as described in the [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md), then Message Analyzer automatically parses and displays the data in the default data viewer without displaying any Data Retrieval Session configuration options.  
   
  To open multiple log files simultaneously from outside a Data Retrieval Session, you can double-click supported files in **Windows Explorer**, use the drag-and-drop method, or use the **Open** feature. Note that if you use **Windows Explorer**, you might need to select the right-click **Open With** context menu command to associate Message Analyzer as the application that opens your log files.  

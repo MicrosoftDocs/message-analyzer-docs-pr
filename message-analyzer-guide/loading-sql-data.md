@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Loading SQL Data
+
 Message Analyzer enables you to retrieve data from a SQL database table by using a built-in interface to provide connection information, SQL query code, and a reference timestamp. After you complete the input configuration and **Start** a Data Retrieval Session, you can display the data in the default **Analysis Grid** viewer in rows of information, with the SQL table data in the **Summary** column of the grid. The data in this column will be in a format that is typical of  comma-separated value (CSV) or tab-separated value (TSV) delimiting. This means that you can view the values of the delimited data as separate fields in the **Details** **Tool Window** for any row of information that you select in the **Analysis Grid** viewer.  
   
  The figure that follows shows the interface from which you will work when loading SQL table data into Message Analyzer.  

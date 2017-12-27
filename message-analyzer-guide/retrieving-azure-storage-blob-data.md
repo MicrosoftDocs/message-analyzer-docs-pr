@@ -14,13 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Retrieving Azure Storage Blob Data
+
 This topic shows you how to access and load data into Message Analyzer version 1.3 and later from log files that exist in Azure Storage binary large object (BLOB) containers. For Message Analyzer to successfully load and display this log data, you will need to provide some input connection information in order to access the BLOB repositories where the log data is saved. To access these repositories, you will use the **File Selector** dialog to select the files that contain the data you want to work with. After you specify such files and you exit the dialog, you must select a particular configuration file in your Data Retrieval Session for parsing the log data. If the **AzureStorageLog** configuration file does not exist in the **Text Log Configuration** drop-down list in your Data Retrieval Session configuration, you will need to download it through the Message Analyzer sharing infrastructure, as described in [Using the AzureStorageLog Parser](retrieving-azure-storage-blob-data.md#BKMK_UsingAzureStorageLogParser), and then restart Message Analyzer.  
   
 ---  
   
  **Go to Procedure**   
 To proceed directly to a detailed procedure that you can follow to retrieve log data from Azure Storage BLOB containers, see [To access, load, and view log data from Azure storage BLOB containers](procedures-using-the-data-retrieval-features.md#BKMK_LoadAzureLogData). Otherwise, you can review the [Workflow Overview](retrieving-azure-storage-blob-data.md#BKMK_AzureWrkflowOverview).  
+
 ---  
   
 <a name="BKMK_AccessingAzureLogs"></a>   
@@ -45,6 +48,7 @@ To proceed directly to a detailed procedure that you can follow to retrieve log 
  You can now select the **AzureStorageLog** configuration file in the **Text Log Configuration** drop-down list during Data Retrieval Session configuration.  
   
 ## Analyzing Azure Data  
+
  After Message Analyzer loads your Azure data, you can analyze and correlate the fields from the parsed input log file data by viewing it in **Analysis Grid** viewer columns. You can also make use of the **Field Chooser** **Tool Window** to display additional Azure data fields of interest, by adding them as columns to the **Analysis Grid** viewer for further analysis. The additional fields appear under the **AzureStorageLog** node when it is expanded in the **Field Chooser** window.  
   
 <a name="BKMK_AzureWrkflowOverview"></a>   
@@ -82,7 +86,9 @@ To proceed directly to a detailed procedure that you can follow to retrieve log 
  **More Information**   
  **To learn more** about downloading and auto-syncing Message Analyzer assets, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.   
+
 ---  
   
 ## See Also  
- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)
+
+- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)

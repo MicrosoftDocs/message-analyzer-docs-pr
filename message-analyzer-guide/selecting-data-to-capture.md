@@ -14,15 +14,19 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Selecting Data to Capture
+
 As part of the browse-select-view (BSV) model, Message Analyzer provides a *data selection* feature that enables you to define the scope of the information that you capture or load through a session. Although the concept of data selection applies equally to capturing data in a Live Trace Session or loading saved data through a Data Retrieval Session, with exception of using different filter types in some cases, this section focuses on selecting data in a Live Trace Session.  
   
 ## Using Data Selection  
+
  Data selection is not exactly a specific user interface element that you can locate, but rather, more of an approach you can take to focus on obtaining the precise data you need to work with to quickly solve problems. In Message Analyzer, the goal of data selection is to acquire the least amount of data necessary to resolve an issue, in order to minimize consumption of system resources, improve performance, and streamline the data analysis process.  
   
  Message Analyzer provides several tools that you can use to create this focus, as indicated in the list below. To use these data selection capabilities, you will typically create a Live Trace Session (or Data Retrieval Session) that selects specific data  based on configurable criteria, prior to starting the actual data capture process. During data capture, the selection criteria that you configured is applied. This context enables you to narrow the focus of the data capture process to only the message data that you want to work with.  
   
 ## Isolating Specific Types of Message Data  
+
  A very effective means of isolating specific message types in a Live Trace Session consists of using filters to return only the type of message data that you choose, while blocking all data that does not specifically meet your designated filtering criteria. The effects of filtering can be initiated at a   high-level or a low-level to select the data that you want to extract from a Live Trace Session, as described in the subsections that follow.  
   
  **Selecting Data with High-Level Filtering**   
@@ -83,7 +87,9 @@ The **Trace Scenario** that you select for your Live Trace Session can have an i
 [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md) — describes how to configure **Fast Filters**, **Discarded Packet Events**, and **WFP Layer Set** filters (packet direction at the Transport Layer).  
 [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) — describes how to select adapters, configure **Fast Filters**, and create **Fast Filter** groups to apply to local host adapters.  
 [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) — describes how to configure advanced packet direction and layer filtering configurations for the NDIS stack and Hyper-V-Switch extension layers on remote (or local) hosts, in addition to packet **Truncation** filters and special message payload filtering such as **EtherType** and **IP Protocol Numbers**.  
+
 ---  
   
 ## See Also  
- [Editing Existing Sessions](editing-existing-sessions.md)
+
+- [Editing Existing Sessions](editing-existing-sessions.md)

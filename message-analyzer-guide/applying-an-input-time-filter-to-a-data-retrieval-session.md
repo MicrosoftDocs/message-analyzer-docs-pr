@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Applying an Input Time Filter to a Data Retrieval Session
+
 Prior to loading data into Message Analyzer from a specified message collection that you configure in a Data Retrieval Session, you can also configure a window of time in which to view data by using a **Time Filter**. This is particularly useful if you have one or more very large data files that contain trace or log data that was collected over a significant period of time and you want to narrow the scope of the data to be viewed. The UI configuration of the **Time Filter** feature is shown in the figure of the topic [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).  
   
  Most logs and file types are supported by the **Time Filter** feature; however, you may need to select the **Use Start Filter** and **Use End Filter** check boxes and specify start and end times in the corresponding text boxes for certain types of logs and traces in which the data format prevented Message Analyzer from retrieving this information. See [Manually Specifying Time Formats](applying-an-input-time-filter-to-a-data-retrieval-session.md#BKMK_ManuallySetTimeFormats) for more information.  
@@ -57,12 +59,14 @@ Prior to loading data into Message Analyzer from a specified message collection 
  You should also be aware that estimated start and end times for some supported file types, as indicated in the **Start Time** and **End Time** text boxes in the **Time Filter** pane of your Data Retrieval Session configuration, may not match the **Start Time** and **End Time** text box values in the **Time Filter** panel on the Filtering toolbar in an Analysis Session. This is because the start and end times indicated in a Data Retrieval Session for certain file types is only an estimate, while the **Start Time** and **End Time** indicated in the **Time Filter** panel on the Filtering toolbar are known values that are determined in the parsing process. Moreover, this is the case because the start and end time estimations in the **Time Filter** pane are calculated *before* the data is retrieved, whereas the start and end time indications that appear on the Filtering toolbar are calculated *after* the data is retrieved.  
   
 ## Input File Details  
+
  After you add a supported input data file to your Data Retrieval Session and select it in the files list on the **Files** tab of the **New Session** dialog, Message Analyzer estimates the start and end times of the events in the trace or log files and displays these values, respectively, on each side of the adjustable time-window slider controls in the **Time Filter** pane of the Data Retrieval Session configuration. The start and end times are also displayed in  the **Start Time** and **End Time** text boxes just above the **Time Filter** pane. In addition, an estimate of the total number of messages in the trace or log time frame is displayed in the **Total Messages** text box and the number of selected files in the files list is indicated in the **Selected Files** text box. Other file attribute information is also included, such as the file **Name**, **Size**, **File Type**, and **Message Count**; which all display in the columns just below the toolbar on the **Files** tab of the **New Session** dialog.  
   
 > [!NOTE]
 >  If you are loading multiple data sources in a Data Retrieval Session and any of those sources are among the ones listed in the previous table with a “No” in the estimated start time or estimated end time columns, the corresponding start or end times for the entire input file configuration will not display in the **Time Filter** section of the Data Retrieval Session configuration of the **New Session** dialog.  
   
 ## Configuring a Time Filter  
+
  To configure a **Time Filter**, you can adjust the time-window slider controls to zoom into a particular time slot in which you want to view data. Before you adjust the time slider controls, you should enable  **Filtered Messages** tracking  by selecting the **Use Start Filter** and **Use End Filter** check boxes. Thereafter, as you adjust the slider controls, a text box below the **Use Start Filter** check box displays the start time and a text box below the **Use End Filter** check box displays the end time in the **Time Filter** pane of the **New Session** dialog. The corresponding new start and end time values define the selected time window in which you are choosing to view data, while the parenthetical **Filtered Messages** label displays the estimated number of messages that are contained in the time slot that you specify. However, the overall start and end times of the trace or log persist in the **Start Time** and **End Time** text boxes above the **Time Filter** pane.  
   
 > [!NOTE]
@@ -81,4 +85,5 @@ Prior to loading data into Message Analyzer from a specified message collection 
  **More Information**   
  **To learn more** about reconfiguring a Data Retrieval Session and re-running it, see [Editing Existing Sessions](editing-existing-sessions.md).   
 **To learn more** about creating an OPN configuration file for text logs with a proprietary format, the [OPN Configuration File for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document is available as a TechNet download.   
+
 ---

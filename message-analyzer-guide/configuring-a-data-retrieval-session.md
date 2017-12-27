@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuring a Data Retrieval Session
+
 This section describes the typical tasks that you will perform when configuring a Data Retrieval Session, along with some background information on the features you will be using. Locating and selecting saved files or logs that contain the data you want to load into Message Analyzer is the only required task, while most others described in this section are optional, depending on what you wish to accomplish.  
   
  For example, if you are loading messages into Message Analyzer from a textual log file, you will need to make sure that you have a configuration file that enables Message Analyzer to parse such messages. You can do this by either selecting a built-in  configuration file from the **Text Log Configuration** drop-down menu on the **Files** tab of the **New Session** dialog, or by custom-coding one, as described in [Opening Text Log Files](opening-text-log-files.md). On the other hand, specifying a **Session Filter** or a **Time Filter** is optional, although advised if you are working with large data files and you want to focus and limit data retrieval in a specific way.  
@@ -26,14 +28,15 @@ This section describes the typical tasks that you will perform when configuring 
  **Figure 31: Data Retrieval Session configuration**  
   
 ## Data Retrieval Session Workflow Overview  
+
  The following steps are an overview of the workflow that you can generally follow when configuring a Data Retrieval Session. Features for the following configuration tasks are accessible from the **Files** tab of the **New Session** dialog:  
   
 1.  Verify that the input data files from which you will be retrieving data are file types that are supported by Message Analyzer, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).  
   
 2.  Target the message data to be retrieved from one or more data sources such as saved trace files or logs, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
   
-    > [!NOTE]
-    >  You have the option to aggregate multiple data sources into a single session by making use of the **New Data Source** tab in a Data Retrieval Session. For additional details, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
+> [!NOTE]
+>  You have the option to aggregate multiple data sources into a single session by making use of the **New Data Source** tab in a Data Retrieval Session. For additional details, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
   
 3.  Select specific files that contain the data you want to work with, to create a subset of a larger targeted set of input files, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
   
@@ -71,18 +74,19 @@ If the input files for your Data Retrieval Session are large, you can limit the 
 ## Data Retrieval Session Configuration Features  
  The following subtopics describe the Data Retrieval Session configuration features that Message Analyzer provides and various operations that Message Analyzer supports:  
   
- [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)   
- [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md)   
- [Decrypting Input Data](decrypting-input-data.md)   
- [Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
- [Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   
- [Working With Special Input Requirements](working-with-special-input-requirements.md)   
- [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
- [Merging and Aggregating Message Data](merging-and-aggregating-message-data.md)   
- [Naming a Session](naming-a-session.md)  
+- [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)   
+- [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md)   
+- [Decrypting Input Data](decrypting-input-data.md)   
+- [Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
+- [Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   
+- [Working With Special Input Requirements](working-with-special-input-requirements.md)   
+- [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
+- [Merging and Aggregating Message Data](merging-and-aggregating-message-data.md)   
+- [Naming a Session](naming-a-session.md)  
   
 ---  
   
  **Retrieving the Data**   
 When you are ready to load data into Message Analyzer, see  [Performing Data Retrieval](performing-data-retrieval.md) to review various methods for retrieving saved data with Message Analyzer.   
+
 ---

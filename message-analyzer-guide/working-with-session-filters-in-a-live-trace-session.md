@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Working with Session Filters in a Live Trace Session
+
 Prior to starting any Live Trace Session, you can specify a **Session Filter** that will be applied by the Runtime in *user mode* to messages captured by one or more message providers that are included in the **Trace Scenario** you selected. To specify a **Session Filter**, you can select one of the built-in filters from the centralized **Message Analyzer Filter** asset collection **Library**. This user **Library** is accessible from the following locations during the indicated session phases, although you can  only use the first location below to specify a **Session Filter**:  
   
 > [!NOTE]
@@ -62,6 +64,7 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
 -   **USB**  
   
 ## Creating New Session Filters  
+
  To create your own **Session Filter**, you can write a Filter Expression in the **Session Filter** text box of the **New Session** or **Edit Session** dialogs prior to starting a Live Trace Session or prior to applying configuration changes to an existing session, respectively. You can then click the **New Filter** item in the **Library** drop-down list to display the **Edit Filter** dialog, which captures the filter code that you specified and enables you to **Save** the new Filter Expression to the **Examples** category of your user **Library**.  
   
  However, before you write a new Filter Expression, you might want to review the topics specified in **More Information** to familiarize yourself with some of the built-in filters provided with Message Analyzer and the Filtering Language with which they were created. Also, to assist you in Filter Expression development, Message Analyzer provides the Filter IntelliSense Service, which activates as soon as you begin typing in the **Session Filter** text box. You can also open the **Field Chooser** **Tool Window** and navigate through the message hierarchy of supported protocols to see a tree list view of such hierarchies, so that you can discover at a glance the defined fields that are accessible for your Filter Expressions.  
@@ -74,6 +77,7 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
 >  If you have created a Filter Expression that uses an **Alias** (typically a friendly name that replaces some cryptic field value), that filter will appear in your user **Library** drop-down list in the  **New Session** dialog. You can use such a Filter Expression that contains an **Alias** just as you would any other filter.  
   
 ## Applying a Session Filter  
+
  As described in several topics in this Operating Guide, adding a **Session Filter** to your Live Trace Session configuration enables you to focus on capturing specific data of interest after you have started a Live Trace Session. **Session Filters** also enable you to reduce message count and realize better performance. When you start a Live Trace Session, the messages that are captured by one or more providers in the **Trace Scenario** that you selected for the session are all automatically subjected to the filtering criteria of the **Session Filter** that you specified.  
   
 > [!NOTE]
@@ -86,7 +90,9 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
 **To learn more** about the built-in filters in the centralized **Message Analyzer Filter** asset collection **Library** that are provided with Message Analyzer, see [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
 **To learn more** about using the statement completion feature for Filter Expressions, see the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
+
 ---  
   
 ## See Also  
- [Filtering Message Data](filtering-message-data.md)
+
+- [Filtering Message Data](filtering-message-data.md)
