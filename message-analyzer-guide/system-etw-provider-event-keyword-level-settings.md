@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # System ETW Provider Event Keyword-Level Settings
+
 All PEF providers are instrumented with Event Tracing for Windows (ETW) technology so that Message Analyzer can leverage its infrastructure for data collection, session control, buffer configuration, and so on, as described in the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md). As a result, all PEF providers contain a core ETW Provider component that interacts with an enabling ETW Session where it writes events that Message Analyzer can capture. Other ETW Providers that are registered on your system were originally created by instrumenting various Windows components with ETW technology; as a result, they too can leverage the ETW infrastructure and Message Analyzer can capture their events. In this documentation, these are referred to as *system* ETW Providers, and in general, they write events from various applications and components on your system, such as Dynamic Host Configuration Protocol (DHCP), Domain Name System (DNS), Lightweight Directory Access Protocol (LDAP), and so on.  
   
  These system ETW Providers are accessible from the **Add System Provider** dialog, which you can display by clicking the **Add System Providers** item in the **Add Providers** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog  during Live Trace Session configuration.  
@@ -30,6 +32,7 @@ Most system ETW Providers from which Message Analyzer can capture event data are
  The conceptual section that follows provides some brief background information on event tracing to help clarify the meaning of these **Keyword** and **Level** filtering features.  
   
 ## Conceptual Background  
+
  Event tracing is built upon an API that exposes the following ETW components:  
   
 -   **ETW Session** — provides an environment that accepts events, buffers them, and creates a trace file for logging the events or delivers them live in real-time to an ETW Consumer.  
@@ -142,4 +145,4 @@ You also might be able to review the **Keyword** configuration of a  system ETW 
 5.  In the **EventLog-System Properties** dialog, click the **Edit** button to display a list of all the **Keywords** that define the events that the selected provider can write to a trace consumer, which are typically specified in the provider manifest.  
   
 ## See Also  
- [Generating a Provider Manifest](generating-a-provider-manifest.md)
+- [Generating a Provider Manifest](generating-a-provider-manifest.md)

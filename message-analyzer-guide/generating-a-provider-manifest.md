@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Generating a Provider Manifest
+
 You might need to generate a provider manifest to ensure that Message Analyzer can parse ETW messages on a destination computer if the ETW events were captured on another source computer and the destination computer has no corresponding manifest to understand the data format. You might also have a destination computer with a manifest that is out-of-date with respect to the source computer manifest that was included in an ETL file. To accommodate these requirements, you can generate and save a manifest in the following ways:  
   
 -   **Automatically** — requires that Message Analyzer is installed on the source computer. For this method, you configure a Live Trace Session and specify one or more ETW providers and then perform a capture of ETW events. When you save a trace that used one or more ETW providers to capture live data, Message Analyzer automatically attaches the manifest for each ETW provider in use to the trace.  
@@ -54,4 +56,5 @@ You might need to generate a provider manifest to ensure that Message Analyzer c
 >  In a future release, Message Analyzer may have the capability to import provider manifests directly through an OPN adapter, depending on demand.  
   
 ## See Also  
- [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md)
+
+- [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md)

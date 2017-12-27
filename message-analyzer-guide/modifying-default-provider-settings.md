@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Modifying Default Provider Settings
+
 To enhance the capture configuration of a Live Trace Session, you can modify the following aspects of ETW-instrumented providers:  
   
 -   **Driver/provider-level filtering** — as described in [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md), you can configure various low-level **Fast Filters** for PEF providers to introduce a selectivity factor to your Live Trace Sessions that improves performance, for example, with the **Microsoft-PEF-NDIS-PacketCapture** provider.  You can also configure special stack filters and packet traversal paths at the driver level for **Trace Scenarios** that use the **Microsoft-Windows-NDIS-PacketCapture** provider. In addition, you can employ **WFP Layer Set** filters in **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider** in order to control  the direction in which packets are passed or blocked at the Transport Layer.  
@@ -24,6 +26,7 @@ To enhance the capture configuration of a Live Trace Session, you can modify the
 -   **Event filtering** — as described in [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md), you can specify event **Keyword** and error **Level** filter settings for numerous system ETW Providers to enable selective event logging via ETW, which subsequently focuses the events that Message Analyzer captures.  
   
 ## Configuring Provider-Level Filters  
+
  The indicated provider setting types are accessible from the **Provider** or **ETW Core** tab of the **Advanced Settings** dialog that you can open by clicking the **Configure** link for message providers that display in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog in Live Trace Session configuration. The following is an overview of the filtering features that enable you to create the indicated configurations:  
   
 -   **Fast Filter Groups** — configure **Groups** of logically chained **Fast Filters** and assign them to selected adapters in **Trace Scenarios** that use the **Microsoft-PEF-NDIS-PacketCapture** provider, for example, the **Local Network Interfaces** scenario on computers running the Windows 7 or Windows 8 operating system. Specify these settings in the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog during Live Trace Session  configuration.  
@@ -32,8 +35,8 @@ To enhance the capture configuration of a Live Trace Session, you can modify the
   
 -   **WFP Layer Set Filters** — selectively enable or disable filters that pass or block inbound, outbound, or bidirectional packet traffic at the Transport Layer in **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider**. Specify these settings in the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog during Live Trace Session  configuration.  
   
-    > [!NOTE]
-    >  You also have the option to log dropped packet information, which includes reason and layer statistics. Enable this function by placing a check mark in the **Select Discarded Packet Events** check box in the **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider**.  
+> [!NOTE]
+>  You also have the option to log dropped packet information, which includes reason and layer statistics. Enable this function by placing a check mark in the **Select Discarded Packet Events** check box in the **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider**.  
   
 -   **NDIS and Extension Stack Filters** — specify the layers on which packets are intercepted in the NDIS stack or Hyper-V-Switch extension stack, in **Trace Scenarios** that use the **Microsoft-Windows-NDIS-PacketCapture** provider, for example, the **Local Network Interfaces (Win8.1 and later)** scenario. You can also configure special filters such as **Truncation**, packet traversal **Direction**, **EtherTypes**, **IP Protocol Numbers**, **Mac Addresses**, and **IP Addresses**. Specify these filtering configurations  in the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog during Live Trace Session  configuration.  
   
@@ -52,4 +55,5 @@ To enhance the capture configuration of a Live Trace Session, you can modify the
 **To learn more** about how to configure settings for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
 **To learn more** about how to configure settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
 **To learn more** about configuring ETW event **Keyword** and error **Level** settings, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
+
 ---

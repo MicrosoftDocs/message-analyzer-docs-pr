@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Creating Custom Trace Configurations
+
 Message Analyzer enables you to create your own **Trace Scenario** templates by customizing the properties of an existing scenario and then saving your customized version as a **Trace Scenario** template with a specified name and category, without actually starting a trace and collecting data in a Live Trace Session. When you save **Trace Scenario** templates, they become part of the **Trace Scenarios** Library where they represent a master trace configuration that can include one or more providers, **Fast Filters**, a **Session Filter**, ETW **Keyword** bitmask or error **Level** filters, or advanced filters that you specify in the **Trace Scenario** configuration prior to saving the template. You can also choose the data viewer that your **Trace Scenario** will use by default whenever you decide to run the template configuration in a Live Trace Session.  
   
  Some of the advantages of creating your own preconfigured **Trace Scenarios** are that you can do the following:  

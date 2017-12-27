@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Managing Trace Scenarios
+
 Message Analyzer provides facilities for managing your local **Trace Scenarios** Library. This means you can create and modify **Trace Scenarios**, set them as **Favorites** (by clicking the star to the left of a scenario in the **Trace Scenarios** Library), and share them with others. The Message Analyzer Sharing Infrastructure enables you to choose **Trace Scenario** items in your local Library and share them with others, and you can also add **Trace Scenario** items to your local Library from others. To do this, Message Analyzer enables you to **Export** your **Trace Scenarios** to a designated location to make them accessible to other users on your team or to the larger Message Analyzer community; or you can **Import**  **Trace Scenarios** from other users who make their scenarios available to you in the same manner. This includes any custom **Trace Scenario** templates that you or others have created. Designated share locations can include a user-defined SMB share, a Web server resource, or a custom subscriber feed in the Message Analyzer Sharing Infrastructure that you configure from the **Settings** tab in the **Asset Manager** dialog, which is accessible from the Message Analyzer global **Tools** menu. When you export one or more **Trace Scenarios**, they are saved to a designated location as an asset collection file (*.asset) so that others can import one or more items in the collection.  
   
 ## Manage Trace Scenarios Dialog  
+
  You can manage **Trace Scenarios** from the **Manage Trace Scenario** dialog, which displays when you click the **Manage Trace Scenarios** item in the **Select Scenario** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog. From the **Manage Trace Scenario** dialog, you can export and import **Trace Scenarios**, in addition to performing other scenario management tasks, as described in the subtopics that follow.  
   
  **Exporting Trace Scenarios**   
@@ -50,4 +53,5 @@ The **Manage Trace Scenario** dialog also enables you to open the **Edit Trace S
   
  **More Information**   
  **To learn more** about the Message Analyzer Sharing Infrastructure and the common **Manage \<AssetType>** dialog format that is used to manage various Message Analyzer Library asset collections, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.   
+
 ---

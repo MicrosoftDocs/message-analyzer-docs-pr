@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # PEF-WFP Provider Manifest
+
 The manifest for the **Microsoft-PEF-WFP-MessageProvider** defines its contract with an ETW Controller in terms of the events that are issued by the provider, which are in turn consumed by Message Analyzer. The **Microsoft-PEF-WFP-MessageProvider** and its manifest are installed and registered on your machine when you install Message Analyzer. You can find the **Microsoft-PEF-WFP-MessageProvider** manifest in the following location:  
   
  `C:\Windows\System32\Microsoft-Pef-WFP-MessageCapture.man`  
@@ -27,4 +29,5 @@ The manifest for the **Microsoft-PEF-WFP-MessageProvider** defines its contract 
  **To learn more** about the contents of provider manifests, see [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest).   
 **To learn more** about how Message Analyzer uses provider manifests, see [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md).  
 **To learn more** about obtaining a provider manifest if you are missing one, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
+
 ---

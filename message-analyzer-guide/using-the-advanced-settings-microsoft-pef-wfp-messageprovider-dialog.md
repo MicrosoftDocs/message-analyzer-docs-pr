@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog
+
 This section describes the types of filters that you can configure for the **Microsoft-PEF-WFP-MessageProvider**. The filtering configurations are available from the **Advanced Settings** dialog for this provider, which displays after you click the **Configure** link to the right of the **Microsoft-PEF-WFP-MessageProvider** after it appears in the **ETW Providers** list of the **New Session** dialog during Live Trace Session configuration. The **New Session** dialog is accessible from the Message Analyzer **File** menu, the **Start Page**, or the global Message Analyzer toolbar.  
   
  You can add the **Microsoft-PEF-WFP-MessageProvider** to the **ETW Providers** list, by selecting any **Trace Scenario** that uses this provider from the **Select Scenario** drop-down list in the **New Session** dialog during Live Trace Session configuration. For example, you can select any of the following **Trace Scenarios** to display the **Microsoft-PEF-WFP-MessageProvider** in the **ETW Providers** list:  
@@ -33,6 +35,7 @@ This section describes the types of filters that you can configure for the **Mic
  **Figure 23: Advanced Settings for the Microsoft-PEF-WFP-MessageProvider**  
   
 ## Using WFP Layer Set Filters  
+
  When configuring settings for the **Microsoft-PEF-WFP-MessageProvider** in **Trace Scenarios** that use it, you can create a **WFP Layer Set** filter configuration that directionally isolates inbound or outbound TCP packets at the Transport Layer for IPv4 or IPv6 traffic. A scenario where you might want to do this is when you are capturing loopback traffic, in which case, you should disable either inbound or outbound IPv4 and IPv6 traffic to avoid the duplication of messages. Otherwise, for regular network traffic, you should always enable both inbound and outbound packet directions.  
   
  You can specify the configuration for the **WFP Layer Set** filters on the **Provider** tab of the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog.  The **WFP Layer Set** contains the following filters, which you can enable or disable, respectively, by selecting or unselecting the corresponding filter check boxes as appropriate:  
@@ -48,6 +51,7 @@ This section describes the types of filters that you can configure for the **Mic
  These check boxes represent kernel mode TCP/IP stack filters that operate in the receive or send path (inbound or outbound, respectively) at the Transport Layer before any processing occurs at this layer. When you create a **WFP Layer Set** configuration with these check boxes, you selectively enable or disable the kernel mode filters that pass or block inbound, outbound, or bidirectional packet traffic at the Transport Layer, depending on the settings, for IPv4 and IPv6 traffic.  
   
 ## Using WFP Fast Filters  
+
  The actual work that is performed by the **Fast Filters** that you specify in the **Microsoft-PEF-WFP-MessageProvider** configuration is accomplished by the WFP base filtering engine (BFE). The message frames that pass the filtering criteria are delivered to the **Microsoft-PEF-WFP-MessageProvider** callout drivers at the corresponding layers, which in turn send the messages to the enabling ETW session.  
   
  **WFP Fast Filters** consist of the following types:  
@@ -75,6 +79,7 @@ When you configure **Fast Filters** in the **Advanced Settings - Microsoft-PEF-W
 **Fast Filter 2** value for **UDP port**:  `== 389`  
   
 ## Logging Dropped Packets  
+
  The **Microsoft-PEF-WFP-MessageProvider** also enables you to log dropped packet information, which includes reason and layer statistics. To obtain these statistics, you must select the **Select Discarded Packet Events** check box on the **Provider** tab of the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog.  
   
  Logged information for discarded packet events consists of dropped packet statistics that are derived from the Discard filter layer of the Statistics callout in the **Microsoft-PEF-WFP-MessageProvider**. Statistics consist of the reason for dropping packets and the layer on which they were dropped.  
@@ -88,7 +93,9 @@ When you configure **Fast Filters** in the **Advanced Settings - Microsoft-PEF-W
   
  **More Information**   
  **To learn more** about using **Column Filters**, see [Filtering Column Data](filtering-column-data.md).   
+
 ---  
   
 ## See Also  
- [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)
+
+- [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)

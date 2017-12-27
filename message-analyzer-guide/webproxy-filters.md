@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # WebProxy Filters
+
 The **Microsoft-Pef-WebProxy** provider has two filters for which you can set values. The purpose of these filters is to isolate specific traffic and optimize Message Analyzer capture performance. An option is also provided that enables you to specify a client certificate file that Fiddler will provide in a given session to a site server that requires certification validation. After you open the **New Session** dialog from the Message Analyzer **File** menu and select the **Pre-Encryption for HTTPS** **Trace Scenario** from the **Select a trace scenario** drop-down in the dialog, you can configure the following settings on the **Provider** tab of the **Advanced Settings – Microsoft-Pef-WebProxy** dialog (access by clicking the **Microsoft-Pef-WebProxy** provider **Configure** link to the right of the provider **Id** in the **New Session** dialog):  
   
 -   **Hostname Filter** — enables you to filter HTTP messages to and from a specific host, by specifying the host name in a format similar to the following:  

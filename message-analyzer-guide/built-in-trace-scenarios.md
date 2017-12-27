@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Built-In Trace Scenarios
+
 All Message Analyzer installations include a built-in set of predefined **Trace Scenarios** that together provide you with a large range of tracing functionality, applicability, and usefulness. These scenarios can help you get started very quickly with capturing and processing live data. For example, you can simply select a built-in **Trace Scenario** and then start your Live Trace Session with no additional configuration required. However, the quickest way to start a Live Trace Session is to click the **Start Local Trace** button on the **Start Page** to immediately begin capturing network messages on your local computer at the Data Link Layer and above by using the **Local Network Interfaces** scenario. Other quick start methods that you can use to immediately launch a Live Trace Session and start capturing live data consist of the following:  
   
 -   Click one of the built-in **Trace Scenarios** in the **Favorite Scenarios** submenu, which is accessible from the Message Analyzer **File** menu.  
@@ -22,6 +24,7 @@ All Message Analyzer installations include a built-in set of predefined **Trace 
 -   Click one of the built-in **Trace Scenarios** in the **Favorite Scenarios** list, which is accessible from the Message Analyzer **Start Page**.  
   
 ## Trace Scenarios Library  
+
  Message Analyzer maintains all items of the **Message Analyzer Trace Scenarios** asset collection in a Library that is accessible to the Message Analyzer Sharing Infrastructure, where you can auto-synchronize with collection updates that are pushed out by a Microsoft web service or manually download them as required with the use of the **Asset Manager**, which is accessible from the global Message Analyzer **Tools** menu. The built-in **Trace Scenarios** utilize different combinations of providers to achieve specific results that are useful in common network, component, and device troubleshooting scenarios. You also have the option to specify your own provider combinations, by adding more providers to a built-in **Trace Scenario** or by specifying chosen system ETW Providers for a custom **Trace Scenario** that you create.  
   
  Some examples of how you might customize ETW-instrumented message provider combinations consist of using the following:  
@@ -37,11 +40,13 @@ All Message Analyzer installations include a built-in set of predefined **Trace 
 -   One or more Windows system ETW providers.  
   
 ## Operating System Dependencies  
+
  The built-in **Trace Scenarios** and the providers they utilize for capturing data are described in this section. Note that the **Trace Scenarios** that are available in the **Select Scenario** drop-down list in the **New Session** dialog are specific to the supported operating system you are running. For example, the **Local Network Interfaces** **Trace Scenario** in the **Network** category on computers running the Windows 7, Windows 8, or Windows Server 2012 operating system, uses the **Microsoft-PEF-NDIS-PacketCapture** provider; while computers running the Windows 8.1, Windows Server 2012 R2, Windows 10, or later operating system use the **Microsoft-Windows-NDIS-PacketCapture** provider in the **Local Network Interfaces** **Trace Scenario**. In Message Analyzer, when a **Trace Scenario** has an operating system dependency, it is specified as part of the scenario name in the **Select Scenario** drop-down list or it is included in the scenario description. In any case, the **Select Scenario** drop-down list in the **New Session** dialog will never contain any **Trace Scenarios** that do not apply to the supported operating system your computer is running.  
   
  Whenever you select a scenario in the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog, the providers that are included in each scenario display in the **ETW Providers** list, along with their **Ids** or globally unique identifiers (GUIDs). A short description of each **Trace Scenario** in this user Library is also included below the scenario name, and when there are environment differences, the operating system that supports the scenario is typically specified.  
   
 ## Configuring Remote vs Local Traces  
+
  There are differences in the way you can configure the **Microsoft-Windows-NDIS-PacketCapture** and **Microsoft-PEF-NDIS-PacketCapture** providers prior to running a trace, as follows:  
   
 -   **Remote trace scenarios with the Microsoft-Windows-NDIS-PacketCapture** provider — in remote scenarios that use this provider, you can specify the *remote* host adapters and/or virtual machine (VM) adapters from which to capture messages, the manner in which packets traverse the NDIS stack layers or Hyper-V-Switch extension layers on such remote adapters, respectively, and various unique filters such as **Truncation**, **EtherTypes**, and **IP Protocol Numbers**. You can configure these settings from the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** provider dialog, as described in [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
@@ -55,6 +60,7 @@ All Message Analyzer installations include a built-in set of predefined **Trace 
 >  In Message Analyzer v1.3 and later, the **Microsoft-PEF-WFP-MessageProvider** has the capability to capture messages from remote computers that are running the Windows 10 operating system. You can capture this data in any **Trace Scenario** that uses this provider by starting your Live Trace Session with this scenario from any computer that is running the Windows 8.1, Windows Server R2, Windows 10, or later operating system.  
   
 ## Built-In Trace Scenario Descriptions  
+
  The built-in **Message Analyzer Trace Scenarios** asset collection items that are included with every Message Analyzer installation are described in the table that follows, along with a functional description and possible usage for each scenario.  
   
 ### Table 4.  Message Analyzer Built-In Trace Scenarios  
@@ -96,8 +102,9 @@ All Message Analyzer installations include a built-in set of predefined **Trace 
  **To learn more** about PEF provider capabilities, including capturing data with the network driver interface specification (NDIS) driver, see the [PEF Message Providers](pef-message-providers.md) topic.  
 **To learn more** about configuring provider settings, see [Modifying Default Provider Settings](modifying-default-provider-settings.md).  
 **To learn more** about provider manifests, see [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md).  
-**To learn more** about managing the **Message Analyzer Trace Scenarios** asset collection, see [Managing Trace Scenarios](managing-trace-scenarios.md).  
+**To learn more** about managing the **Message Analyzer Trace Scenarios** asset collection, see [Managing Trace Scenarios](managing-trace-scenarios.md)  
 ---  
   
 ## See Also  
- [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md)
+
+- [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md)

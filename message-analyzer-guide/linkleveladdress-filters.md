@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # LinkLevelAddress Filters
+
 A **LinkLevelAddress** is a type of **Fast Filter** that enables you to filter out all messages during a Live Trace Session except those that are sent to and from a specified physical address. You can also use several relational operators with **Fast Filters** to enhance filtering functionality. For example, for **LinkLevelAddress** filters, you could use the logical NOT (!=) operator to filter out all messages that are sent to and from a specified physical address. You might do this if you have multiple network adapters and you want to isolate traffic to a particular one. Other operators that are available for use with **Fast Filters** include EQUALS (==), LESS THAN (\<), and GREATER THAN (>).  
   
 ## Configuring a LinkLevelAddress Fast Filter  
+
  To configure a **LinkLevelAddress** filter, you must open the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog by clicking the **Configure** link to the right of the **Microsoft-PEF-NDIS-PacketCapture** provider **Id** in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog. When the **Advanced Settings** dialog displays, select the **Provider** tab and then click a **Filter** drop-down arrow in a **Fast Filter Group**. In the menu that appears, select the **LinkLevelAddress** item as the address type. You must then enter a media access control (MAC) address for the network adapter on which to capture messages by specifying its value in the text box to the right of the selected filter type, in a format similar to the following examples:  
   
  `00-2F-39-7E-1F-36`   
@@ -29,4 +32,5 @@ A **LinkLevelAddress** is a type of **Fast Filter** that enables you to filter o
   
  **More Information**   
  **To learn more** about **Fast Filter** configuration capabilities, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
+
 ---

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # WebProxy Provider Manifest
+
 The manifest for the **Microsoft-Pef-WebProxy** provider defines its contract with an ETW Controller in terms of the events that are issued by the provider, which are in turn consumed by Message Analyzer. The **Microsoft-Pef-WebProxy** provider and its manifest are installed and registered on your machine when you install Message Analyzer. You can find the **Microsoft-Pef-WebProxy** provider manifest file in the following location:  
   
  `C:\Windows\System32\Microsoft-Pef-WebProxy.man`  

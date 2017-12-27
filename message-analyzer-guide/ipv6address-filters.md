@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # IPv6Address Filters
+
 An **IPv6Address** is a type of **Fast Filter** that enables you to filter out all messages during a live trace except those that are sent to and from a specified IPv6 address. As with other **Fast Filter** configurations, you can also use several relational operators to enhance filtering functionality. For example, you could use the logical NOT (!=) operator to filter out all messages that are sent to and from a specified IPv6 address. You can also use the GREATER THAN (>) or LESS THAN (<) operators to isolate message traffic above or below a particular IPv6 address value, respectively.  
   
 ## Configuring an IPv6Address Fast Filter  
+
  To configure an **IPv6Address** filter, you must open the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog by clicking the **Configure** link to the right of the **Microsoft-PEF-NDIS-PacketCapture** provider **Id** in the **ETW Providers** list that displays on the **Live Trace** tab of the **New Session** dialog. When the **Advanced Settings** dialog displays, select the **Provider** tab and then click a **Filter** drop-down arrow in a **Fast Filter Group**. In the menu that appears, select the **IPv6Address** item as the address type. You must then enter the IPv6 address value with or without operators, by specifying it in the text box to the right of the selected filter type, in a format similar to the following examples:  
   
  `2001:4898:2b:3:ac0a:511:f971:5d85`   
@@ -30,4 +33,5 @@ An **IPv6Address** is a type of **Fast Filter** that enables you to filter out a
   
  **More Information**   
  **To learn more** about **Fast Filter** configuration capabilities, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
+
 ---

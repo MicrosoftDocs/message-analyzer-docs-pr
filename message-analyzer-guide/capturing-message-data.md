@@ -27,8 +27,6 @@ Go directly to an overview of Live Trace Session configuration workflow, filteri
 
 ---  
   
----  
-  
  **What You Will Learn**   
 In the topics of this section, you will learn how to accomplish the tasks indicated below.  
 

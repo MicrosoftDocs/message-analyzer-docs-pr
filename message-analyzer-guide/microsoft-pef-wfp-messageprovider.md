@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Microsoft-PEF-WFP-MessageProvider
+
 Similar to the **Microsoft-PEF-NDIS-PacketCapture** provider, the **Microsoft-PEF-WFP-MessageProvider** is instrumented to work with the ETW infrastructure, as described in the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md). This infrastructure provides the mechanisms for controlling ETW Sessions, buffering trace data, and delivering events to a consumer. Because the **Microsoft-PEF-WFP-MessageProvider** provider is integrated into this infrastructure, it can deliver the packets that it captures as events. The **Microsoft-PEF-WFP-MessageProvider** also has an option that enables you to log discarded packet events.  
   
 ## Provider Functions  
+
  The **Microsoft-PEF-WFP-MessageProvider** is based on the Windows Filtering Platform (WFP) which is typically used to create firewall applications, but in Message Analyzer, it provides an entry point into the stack that enables you to capture traffic above the IP/Network Layer. Capturing message data with the **Microsoft-PEF-WFP-MessageProvider** is less noisy than capturing at the Data Link Layer with either the **Microsoft-PEF-NDIS-PacketCapture** or **Microsoft-Windows-NDIS-PacketCapture** provider, as most low-level and broadcast traffic is ignored in the case of the **PEF-WFP-MessageProvider**. Therefore, with the use of the **Microsoft-PEF-WFP-MessageProvider** you can focus your analysis on messages above the Network Layer. Note that messages at and below the Network Layer in a **Microsoft-PEF-WFP-MessageProvider** capture are typically represented in your trace results as **WFPCapture**, and below that there is an **ETW** layer.  
   
  Although most lower-level noise is removed by the **Microsoft-PEF-WFP-MessageProvider**, other noise can be introduced by this provider in terms of diagnosis errors and loopback traffic. However, you can specifically filter out this noise by configuring **Fast Filters** in the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog, as described in [Provider Fast Filtering Configurations](microsoft-pef-wfp-messageprovider.md#BKMK_ProviderFastFiltering). The provider configuration in this dialog is accessible by clicking the **Configure** link in the **New Session** dialog in **Trace Scenarios** that use this provider.  
@@ -72,9 +75,11 @@ Similar to the **Microsoft-PEF-NDIS-PacketCapture** provider, the **Microsoft-PE
 [PEF-WFP Fast Filters](pef-wfp-fast-filters.md)  
 [PEF-WFP Layer Set Filters](pef-wfp-layer-set-filters.md)  
 [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md)  
----  
+
+--  
   
 ## See Also  
- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
- [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
- [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)
+
+- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+- [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
+- [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)

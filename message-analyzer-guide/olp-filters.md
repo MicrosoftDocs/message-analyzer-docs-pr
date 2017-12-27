@@ -14,11 +14,14 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # OLP Filters
+
 An OLP filter is a type of **Fast Filter** that enables you to locate message fields containing a specific **IPv4Address**, **IPv6Address**, **LinkLevelAddress**, string, or other value, by specifying an **O**ffset value,  bit **L**ength, and value **P**attern.  Only messages containing a match to the specified pattern are identified by the OLP filter for further processing.  Messages containing a match are then either included or excluded from the returned trace data, depending on the operator you configure in the OLP expression.  
   
 ## Using the OLP Format for Fast Filters  
- You can use the following format as a template when specifying an OLP filter as a **Fast Filter**:  
+
+You can use the following format as a template when specifying an OLP filter as a **Fast Filter**:  
 **op bit-offset:bit-length:hex-value**  
 where “op” can be one of the following operators:  
   
@@ -56,4 +59,5 @@ where “op” can be one of the following operators:
   
  **More Information**   
  **To learn more** about **Fast Filter** configuration capabilities, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).   
+
 ---

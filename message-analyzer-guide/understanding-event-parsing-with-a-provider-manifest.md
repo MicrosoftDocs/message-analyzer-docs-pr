@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Understanding Event Parsing with a Provider Manifest
+
 Message Analyzer traces are based on ETW Providers, which operate in an infrastructure that enables you to capture ETW events on your system. For Message Analyzer to be able to parse ETW messages from a particular provider, it must have a manifest for that provider. The manifest is a configuration file that defines the schema or format of the data that is delivered by the provider. When starting a Live Trace Session that is configured to use a specific system ETW provider, Message Analyzer typically obtains the required system manifest from the .exe or .dll of the registered provider component and builds an OPN description (parser) to represent its messages. This OPN description is then compiled and temporarily loaded into the Runtime so it can parse the ETW messages. If a trace file is saved and then transferred to another system, that system may not have the same provider components, component versions, or an appropriate provider manifest that is needed to enable parsing of the ETW messages.  
   
  This issue can be resolved in either of the following ways:  
@@ -31,10 +33,11 @@ Message Analyzer traces are based on ETW Providers, which operate in an infrastr
  You might also save trace data on a source computer that will be further processed on other destination systems where the provider versions are unknown. If this is the case, Message Analyzer accommodates this situation by automatically saving trace data with the manifests of the underlying provider/s that were used in the trace. This ensures that Message Analyzer will be able to parse the ETW message data on the destination computer. Likewise, if you are loading data from an ETL file into Message Analyzer and you suspect that an unknown provider configuration was used to capture/log the data, you might need to generate a manifest for the log to ensure that Message Analyzer can parse its messages.  
   
 ## Obtaining a Provider Manifest  
+
  If you need to obtain a provider manifest for parsing ETW messages, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
   
 ---  
   
 ## See Also  
- [Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)   
- [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)
+- [Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)   
+- [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)

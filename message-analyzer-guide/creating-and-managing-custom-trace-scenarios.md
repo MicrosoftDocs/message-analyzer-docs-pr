@@ -14,14 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Creating and Managing Custom Trace Scenarios
+
 This section discusses the advantages of developing **Trace Scenarios**, how to create one by configuring a custom trace template, and how to save it as a **Trace Scenario** that encapsulates common, predefined capture functionality that you can access and run at any time.  
   
  These discussions are covered in the following subtopics:  
   
- [Trace Scenario Overview](trace-scenario-overview.md)   
- [Creating Custom Trace Configurations](creating-custom-trace-configurations.md)   
- [Designing a Trace Template](designing-a-trace-template.md)   
- [Saving Trace Scenarios](saving-trace-scenarios.md)   
- [Starting a Custom Trace Scenario](starting-a-custom-trace-scenario.md)   
- [Managing Trace Scenarios](managing-trace-scenarios.md)
+- [Trace Scenario Overview](trace-scenario-overview.md)   
+- [Creating Custom Trace Configurations](creating-custom-trace-configurations.md)   
+- [Designing a Trace Template](designing-a-trace-template.md)   
+- [Saving Trace Scenarios](saving-trace-scenarios.md)   
+- [Starting a Custom Trace Scenario](starting-a-custom-trace-scenario.md)   
+- [Managing Trace Scenarios](managing-trace-scenarios.md)

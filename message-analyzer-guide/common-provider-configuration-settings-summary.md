@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Common Provider Configuration Settings Summary
+
 This topic provides an overview of the types of filters that you can apply to the core providers that are used in the most common **Trace Scenarios** that Message Analyzer provides. Examples of settings for such filters are included in the [Common Provider Configuration Settings](common-provider-configuration-settings-summary.md#BKMK_CommonProvSettings) table of this topic.  
   
 <a name="BKMK_SelectingDataWithProviderFiltering"></a>   
@@ -72,6 +74,7 @@ This topic provides an overview of the types of filters that you can apply to th
  You can learn more about configuring **Groups** of **Fast Filters** and adapter assignment in **Trace Scenarios** that use the **Microsoft-PEF-NDIS-PacketCapture** provider by reviewing the topic [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md). However, some of the settings for adapter and **Fast Filter** configuration are briefly described in the configuration settings table in this section.  
   
 ## Applying Filters in Local and Remote Scenarios  
+
  This section provides a quick overview of applying host adapter filtering and low-level **Fast Filters** in **Trace Scenarios** that capture traffic locally; and host adapter filtering, packet filters, and other special filters in **Trace Scenarios** that capture traffic remotely. To specify these filtering configurations, you will need to click the **Configure** link in the **ETW Providers** list in the **New Session** dialog for the particular provider with which you are working in order to display the associated **Advanced Settings** dialog.  
 **Local Trace Scenarios**  
 You can modify the **Microsoft-PEF-NDIS-PacketCapture** provider configuration for the **Local Network Interfaces** scenario in the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, to isolate traffic by the following:  
@@ -115,6 +118,7 @@ You can specify filtering configuration settings in the **Advanced Settings** di
   
  **More Information**   
  **To learn more** about capturing data from a remote host, see the [Configuring a Remote Capture](configuring-a-remote-capture.md) section. However, some of the configuration settings for remote tracing are briefly described in the configuration settings table that is included in this section.   
+
 ---  
   
 <a name="BKMK_CommonProvSettings"></a>   
@@ -161,7 +165,8 @@ You can specify filtering configuration settings in the **Advanced Settings** di
  **To learn more** about creating **Fast Filter** and adapter filter configurations for a Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
 **To learn more** about how to select adapters and specify filters for a Live Trace Session that uses the **Remote Network Interfaces** **Trace Scenario**, see [Configuring a Remote Capture](configuring-a-remote-capture.md) and [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
 **To learn more** about configuring system ETW Providers with event **Keyword** and **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).   
+
 ---  
   
 ## See Also  
- [PEF Message Providers](pef-message-providers.md)
+- [PEF Message Providers](pef-message-providers.md)

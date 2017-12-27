@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog
+
 The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available in Message Analyzer installations on computers that are running the Windows 7 or Windows 8 operating system only. The dialog is accessible by clicking the **Configure** link to the right of the **Microsoft-PEF-NDIS-PacketCapture** provider **Id** in the **ETW Provider** list on the **Live Trace** tab of the **New Session** dialog; that is, after you select a **Trace Scenario** that uses the **Microsoft-PEF-NDIS-PacketCapture** provider. For example, you can select any of the following **Trace Scenarios** from the **Select Scenarios** drop-down list to display the **Microsoft-PEF-NDIS-PacketCapture** provider in the **ETW Providers** list of the **New Session** dialog during Live Trace Session configuration:  
   
 -   **Local Network Interfaces (Win 8 and earlier)**  
@@ -34,6 +36,7 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
  An adapter is considered selected only when you select at least one of the **In** or **Out** (traffic direction) check boxes in the **Advanced Settings** dialog. However, the default selection is to capture traffic in both directions. In order for a **Group** filter configuration to *apply* to packets intended for a particular adapter, the adapter must be selected in the indicated manner. Also, a filter **Group** can only be *assigned* to a selected adapter if the row in which the adapter exists is highlighted and then you click the **Apply to Highlighted** button for the **Group**. In addition, because **Fast Filters** are nested in **Groups**, which are in turn assigned to specific adapters, the total filtering effects that you realize are the result of both adapter selection and filter **Group** assignment combined. For this reason, you should carefully consider how you assign **Groups** to selected adapters, as described in [How Fast Filter Groups Are Applied](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md#BKMK_FastFiltersApplied).  
   
 ## Viewing the System Network Configuration  
+
  When you open the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, the **System Network** tree grid configuration is prepopulated with the following information:  
   
 -   **Adapters** — the adapters and adapter nodes on your machine are listed in the **Name** column of the tree grid configuration. For example, your adapters might include Ethernet and Wireless network adapters and a Hyper-V-Switch node containing virtual machines (VMs).  
@@ -47,28 +50,31 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
 -   **MAC addresses** — the MAC address for each adapter on your machine is listed in the **MAC Address** column of the tree grid configuration.  
   
 ## Finding Column Data  
+
  If you have a particularly long list of adapters, including a Hyper-V-Switch and VMs, you can take advantage of the **Column Filter** feature that is also included in numerous Message Analyzer viewer and **Tool Windows**, to search for column entries that contain specified search text. This can help you to quickly isolate a row of adapter data in which you are interested. You can display the column filtering row by clicking the **Show Column Filter Row** icon in the **System Network** configuration. Also, if you select any network adapter that is listed, a description displays below the **System Network** configuration.  
   
 > [!NOTE]
 >  You can utilize the **Copy** commands in the context menu that displays when you right-click any tree grid configuration column that contains data.  
   
 ## Logically Chaining Fast Filters  
+
  You have the option to configure up to three **Fast Filters** per **Group** with the same or different address types, and you can also logically chain the **Fast Filters** within each **Group**, by selecting either the **And** or **Or** operator option. Note that the **Groups** are logically ANDed by default, but can be set to **OR** if necessary.  
   
 ## Assigning Fast Filter Groups to Tree Grid Elements  
+
  The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog provides a flexibility that enables you to selectively assign filter **Groups** to adapters in the **System Network** tree grid. After you create a **Fast Filter** configuration for a particular **Group**, you can assign it to any of the following elements in the tree grid by first highlighting the element and then clicking the appropriate **Apply to Highlighted** button:  
   
 -   **One adapter element row** — when you assign a filter **Group** containing one or more **Fast Filters** to a single adapter that is both selected and highlighted, the filtering configuration applies to the highlighted adapter only.  
   
-    > [!NOTE]
-    >  You can highlight an adapter by clicking any column in the element row in which the target adapter is listed, at which time the row is highlighted in blue. After you assign a filter **Group** to a highlighted adapter by clicking the **Apply to Highlighted** button, the color of the highlighted row changes to gray.  
+> [!NOTE]
+>  You can highlight an adapter by clicking any column in the element row in which the target adapter is listed, at which time the row is highlighted in blue. After you assign a filter **Group** to a highlighted adapter by clicking the **Apply to Highlighted** button, the color of the highlighted row changes to gray.  
   
 -   **Multiple adapter element rows** — when you assign a filter **Group** of one or more **Fast Filters** to multiple selected and highlighted adapters, the filtering configuration applies to the highlighted adapters.  
   
 -   **All adapters** — when you assign a filter **Group** of one or more **Fast Filters** to all selected and highlighted adapters, the filtering configuration applies to all adapters in the **System Network** tree grid.  
-  
-    > [!NOTE]
-    >  You can select and highlight all adapters by selecting one or both traffic direction check boxes in the **Machine** element row.  
+
+> [!NOTE]
+>  You can select and highlight all adapters by selecting one or both traffic direction check boxes in the **Machine** element row.  
   
  Also, when you successfully assign a filter **Group** to a particular adapter, the name of the adapter to which the filter configuration is assigned displays next to the **Target** label for the assigned **Group**.  
   
@@ -90,7 +96,8 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
   
  **More Information**   
  **To learn more** about how to create a **Fast Filter Group** and assign it to an adapter, see the procedure [Configure and Run a Local Network Interfaces Trace](procedures-using-the-network-tracing-features.md#BKMK_configStartLinkLayerTrace).  
+
 ---  
   
 ## See Also  
- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)
+- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)

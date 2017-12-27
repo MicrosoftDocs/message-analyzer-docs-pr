@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Saving Trace Scenarios
+
 When you are finished designing a trace template, you can save it as a custom **Trace Scenario** by clicking the **Save Scenario** button in the **New Session** dialog, at which time the **Edit Trace Scenario** dialog will display. In this dialog, you can specify a **Name** for the custom **Trace Scenario**, a **Description**, and add it to an existing **Category** or specify a new one. When you finish specifying your save configuration, click the **Save** button in the **Edit Trace Scenario** dialog to save your trace template as a new **Trace Scenario** item in the **Trace Scenarios** Library. The customized **Trace Scenario** that you are saving will be added to the **Trace Scenario** Library and will be available thereafter for selection from the **My Items** category of the **Select Scenario** drop-down list on the **Live Trace** tab of the **New Session** dialog during Live Trace Session configuration.  
   
  As part of this Library, your **Trace Scenario** template is accessible through the Message Analyzer Sharing Infrastructure. This infrastructure enables you to share your custom **Trace Scenario** templates with other team members and for others to share theirs with you.  

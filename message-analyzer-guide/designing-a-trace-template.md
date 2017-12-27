@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Designing a Trace Template
+
 Designing a trace template consists of adding providers, filters, and other settings to the trace configuration, just as you would do when configuring any Live Trace Session prior to running it, only you save the trace template as a **Trace Scenario** in the **Trace Scenarios** Library instead of running it. From the **Select Scenario** drop-down in the **New Session** dialog, you can add a default **Trace Scenario** with a predefined provider configuration to your trace template design by selecting one in the **Trace Scenarios** Library. You can then modify the provider configuration to achieve specific results that you require. For example, you might create a filter configuration that retrieves specific data in a Live Trace Session where you run your scenario template. Moreover, you can do the following and more when configuring your own trace template:  
   
 -   Specify driver-level **Fast Filter Groups** in the default **Local Network Interfaces (Win 8 and earlier)** **Trace Scenario** provider settings, by using the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog that is accessible by clicking the **Configure** link for the **Microsoft-PEF-NDIS-PacketCapture** provider in the **ETW Providers** list of the **New Session** dialog.  
@@ -40,4 +42,5 @@ Designing a trace template consists of adding providers, filters, and other sett
 **To learn more** about how to configure advanced filters for **Remote Network Interfaces** scenarios, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
 **To learn more** about creating filter expressions, see [Writing Filter Expressions](writing-filter-expressions.md).   
 **To learn more** about how to configure advanced settings for ETW sessions, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).   
+
 ---
