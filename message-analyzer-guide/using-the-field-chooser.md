@@ -14,13 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Field Chooser
+
 The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that contains several columns in which basic message data is displayed; however, the default layout displays only a limited cross-section of the available data. Additional information is also available for many other message fields that you can access by using the **Field Chooser** **Tool Window**. By adding specific columns, you can expose hidden but important field information that you can examine for greater troubleshooting capabilities with Message Analyzer.  
   
 > [!NOTE]
 >  The column configuration for the default **Analysis Grid**  view **Layout** is described in the [Analysis Grid Viewer](analysis-grid-viewer.md) topic. Also, you can find all the individual columns that are contained in the default layout of the **Analysis Grid** viewer in the **Field Chooser** by using its search facility.  
   
 ## Accessing the Field Chooser  
+
  Although the column configuration of the default **Analysis Grid** view **Layout** provides some basic information for any message that you view, there are many more data columns that you can add to the **Analysis Grid** viewer that enable you to focus on specific data fields that contain values for the message types, properties, structures, methods, flags, events, metadata, and so on, of your captured messages. Each of the nodes in the message hierarchies of the **Field Chooser** window use common icons to represent fields, methods, properties, and so on. You can access the **Field Chooser** from the **Analysis Grid** viewer in any of the following ways:  
   
 -   Click the **Add Columns** icon on the **Analysis Grid** viewer toolbar. This action opens and docks the **Field Chooser** window in its default location. If the **Field Chooser** is already displayed when you click the **Add Columns** icon, then **Field Chooser** simply becomes the active window.  
@@ -51,8 +54,8 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
   
 -   Right-click a field name and select the **Add as Column** item in the context menu.  
   
-    > [!TIP]
-    >  You can also select the **Go to Definition** item in this context menu to open the OPN viewer and highlight the definition of the field you chose.  
+> [!TIP]
+>  You can also select the **Go to Definition** item in this context menu to open the OPN viewer and highlight the definition of the field you chose.  
   
  For example, if you wanted to view the ID of processes for which Message Analyzer captured events, you could add  **ProcessId** as a column — found under the **Etw** node or under the **Global Properties** node in the **Field Chooser** — to the **Analysis Grid** viewer. Note that you also have the capability to display a **ProcessName** column from **Global Properties** as well. You are advised that viewing process ID and process names works best when you are displaying data from a *.etl file.  
   
@@ -64,9 +67,11 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
  **More Information**   
  **To learn more** about adding new Groups to the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.  
 **To learn more** about creating groups to enhance your analysis perspectives with the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).   
+
 ---  
   
 ## Searching for Fields  
+
  If you want to search for a particular field by name, you can type the name, or a portion thereof, in the search text box at the top of the **Field Chooser** window and search results will display with yellow highlighting, similar to the way Windows Explorer displays search results. After you locate the correct field, you can then add it as a data column to the **Analysis Grid** viewer or as a Group in the **Grouping** viewer, in the previously specified manner. If there is data associated with any field you chose, it will automatically display after you add the field as a new column in the **Analysis Grid** viewer, or as a Group in the **Grouping** viewer.  
   
 > [!NOTE]
@@ -78,6 +83,7 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
 >  Note that you can invoke Filter IntelliSense when configuring Filter Expressions in the **Session Filter** text box in the **New Session** dialog, or in the **Filter** and **Viewpoint Filter** text boxes on the Filtering toolbar that is located just below any session viewer tab.  
   
 ## Adding Analysis Grid Columns from the Details Tool Window  
+
  In addition to using the **Field Chooser** window to add more data columns to the current column configuration of the **Analysis Grid** viewer, you can also quickly add a new data column to the **Analysis Grid** viewer based on field names in the **Details** **Tool Window**, which displays beneath the **Analysis Grid** viewer by default. To do this, right-click any row of field data in the **Details** window and select the **Add 'fieldName' as Column** menu item, where *fieldName* is a placeholder for the actual field, property, or other name in the **Name** column of the **Details** window. Message Analyzer then automatically populates the new named column with values based on parsed data from the currently displayed message collection.  
   
 ---  
@@ -87,7 +93,9 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
 **To learn more** about Filter IntelliSense, see the [Filter IntelliSense Service](filter-intellisense-service.md).  
 **To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
 **To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
+
 ---  
   
 ## See Also  
- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
+
+- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)

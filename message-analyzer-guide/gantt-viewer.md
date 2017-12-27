@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Gantt Viewer
+
 Message Analyzer provides the **Gantt** viewer, which is currently a preview feature. If you wish to use the **Gantt** viewer, you will need to select its check box on the **Features** tab of the **Options** dialog, which is accessible from the global **Tools** menu, and then restart Message Analyzer. It will then be available for selection in the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
   
 ## Understanding the Gantt Viewer  
+
  The **Gantt** viewer is an alternate graphic data visualizer that you can select when analyzing your message data. The **Gantt** viewer provides an at-a-glance view of message dispersion across a trace timeline that is presented as color-coded protocol module identifiers, with source/destination address message pairs in the y-axis orientation and timestamps in the x-axis orientation. The **Gantt** viewer also provides axis expansion and contraction controls to facilitate zooming into and out of data points. The **Gantt** viewer enables you to determine how long any operation takes to complete with respect to **Timestamp** axis values in the display and provides this data in the context of the completion times of other operations. The figure that follows shows an example of the **Gantt** viewer.  
   
  ![Gantt Viewer](media/fig45-gantt-viewer.png "Fig45-Gantt Viewer")  
@@ -25,6 +28,7 @@ Message Analyzer provides the **Gantt** viewer, which is currently a preview fea
  **Figure 45: Gantt Viewer**  
   
 ## Using the Toolbar Commands  
+
  To enhance data analysis capabilities the **Gantt** viewer toolbar provides the following features:  
   
 -   **Edit** — click this button to open the **Gantt Configuration Editor** dialog, from where you can reconfigure the viewer layout, which includes the **Horizontal Axis** and **Vertical Axis** **Label** and **Layout** configuration; and the **Legend** and **Heatmap** configurations.  
@@ -78,4 +82,5 @@ Message Analyzer provides the **Gantt** viewer, which is currently a preview fea
 -   **Opaque Items** — enables you to alter the data presentation format by alternately applying and removing an opaque value to all message colors in the **Gantt** chart grid.  
   
 ## Legend  
+
  The **Gantt** viewer also contains a **Legend** that provides a list of check boxes that correspond to the protocols or modules for which messages were captured in the trace results displayed in the **Gantt** analysis surface. To focus on messages from one or more particular protocols or modules, unselect all the ones for which you do not want to view data.

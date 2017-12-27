@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Average Response Time for Operations
+
 The **Average Response Times for Operations** viewer **Layout** for **Charts** provides a horizontal **Bar** element visualizer component to display the average response time  that is calculated across all instances of  specific methods or commands  of the same type that are detected in a set of trace results, that is, for protocols that make use of request/response pairs. For example, an HTTP GET or POST method is a request message  that is sent by a client to a web server, where the client awaits a response from the web server. When a response is received, Message Analyzer encapsulates the request and response messages in an Operation node that displays as a top-level message row in the **Analysis Grid** viewer. The **Average Response Time** is calculated as the average time it took for all request  messages in a set of trace results to receive the first server response.  
   
 <a name="BKMK_ResponseTime"></a>   
@@ -23,4 +25,5 @@ The **Average Response Times for Operations** viewer **Layout** for **Charts** p
  To determine which server may be having performance problems, you might be able to isolate that information through filtering. For example, for  HTTP GET methods that are reporting a long average response time, you might apply a view  **Filter** to the **Analysis Grid** viewer such as `HTTP.Method == "GET"` to isolate the Operations that contain the HTTP requests. You can then add  the **ResponseTime** annotation from the **GlobalAnnotations** node in **Field Chooser**  as a new column in the **Analysis Grid** viewer, from where you can correlate the high response time values with the IP address of the web server in the **Destination** column. You might perform a similar filtering operation for an `SMB2.ComNegotiate` request message to a file server.  
   
 ## See Also  
- [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)
+
+- [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)

@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Data Viewer Concepts
+
 Message Analyzer provides a  set of default and preview data viewers that enable you to display session results in different viewing formats, whether you are working with a Data Retrieval Session or a Live Trace Session, as described in [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md). The ability to do so is made possible by the Message Analyzer data viewing infrastructure. The viewing infrastructure enables you to specify the data viewers that provide the unique analysis perspectives that are most advantageous for streamlining your data assessment tasks.  
   
 ## Data Viewing Infrastructure  
+
  The Message Analyzer data viewing infrastructure makes use of various data viewers and various types of  **Tool Windows** that are either message-specific, session-specific, or provide annotation capabilities. Many data viewers, including the **Analysis Grid** and **Gannt** viewer, are known as *multi-instance* viewers. Multi-instance viewers provide the capability to display message data in multiple instances of the same viewer type. Message-specific windows are typically driven by multi-instance viewers. They reflect data based on the selected messages or fields of an in-focus, multi-instance data viewer. Because message-specific windows can have only a single instance in display, they are considered *single-instance* windows. Multi-instance viewers typically interact with single-instance windows to provide additional data details and presentation enhancements.  
   
  For example, by selecting a row of message data in the **Analysis Grid** viewer, the message-specific **Details** and **Message Data** single-instance **Tool Windows** display message field data and hexadecimal field values, respectively, for the selected message. A session-specific window such as **Diagnostics** is driven by session selection. For example, if you have multiple Live Trace Session and Data Retrieval Session viewer tabs displayed, the **Diagnostics** window displays the associated diagnosis summary information for the particular session that corresponds to the viewer tab that you select.  
@@ -26,6 +29,7 @@ Message Analyzer provides a  set of default and preview data viewers that enable
 >  The Message Analyzer viewing infrastructure also enables interaction between some **Tool Windows**. For example, selection of message fields in the single-instance **Details** **Tool Window** drives interaction with the single-instance **Message Data** and **Field Data** **Tool Windows**.  
   
 ## Data Presentation Configurations  
+
  The Message Analyzer viewing infrastructure represents message data in several presentation configurations, as follows:  
   
 -   **Tree grid** format — provides a familiar grid view for displaying, filtering, grouping, and analyzing trace or log data, as shown in the [Analysis Grid Viewer](analysis-grid-viewer.md) topic.  
@@ -51,6 +55,7 @@ Message Analyzer provides a  set of default and preview data viewers that enable
 -   **Tool data** — provided by message-specific and session-specific **Tool Windows** that serve as analysis tools by working interactively with a data viewer that is in-focus. Tool data provides additional message details and data presentation perspectives that are relative to data selection from an in-focus viewer. Some common **Tool Windows**  are shown together with the **Analysis Grid** viewer in the [Tool Windows](tool-windows.md) topic.  
   
 ## Data Viewing Infrastructure Implementation  
+
  The most common Message Analyzer viewing infrastructure components with which you will typically work the most  are described in this section. They display in the main analysis surface where all data viewers  appear and includes the **Analysis Grid** viewer, **Tool Windows**, and **Chart** viewer **Layouts**, among others. In Message Analyzer, these viewing components are interactive and integrated such that message selection in one viewing component drives the display of related data such as low-level details or high-level message summaries in one or more other viewing components, providing that  integrated components are currently displayed.  The following types of message data are implemented in these viewing components:  
   
 -   **Message detail summaries** — displayed in the tree grid format of the **Analysis Grid** viewer, as described in the [Analysis Grid Viewer](analysis-grid-viewer.md) topic. This format contains session results data that is presented as expandable message nodes in a stacked configuration. Each parent node in the stacked configuration represents an Operation or top-level transaction, while child nodes represent the underlying modules (protocols or providers) that supported such Operations or transactions, including reassembled message fragments that arrived at varying times. In this documentation, these child nodes are also referred to as the *message origins* or the *origins tree*.  
@@ -78,4 +83,5 @@ Message Analyzer provides a  set of default and preview data viewers that enable
  **To learn more** about the multi-instance data viewers, see the [Data Viewers](data-viewers.md) topic.  
 **To learn more** about the message-specific and session-specific **Tool Windows**, see the [Tool Windows](tool-windows.md) topic.  
 **To learn more** about creating and managing your own **Layouts** that contain data visualizer components for the **Chart** viewer, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
+
 ---

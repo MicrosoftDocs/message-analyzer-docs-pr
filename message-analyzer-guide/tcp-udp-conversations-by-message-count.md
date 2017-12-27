@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # TCP-UDP Conversations by Message Count
+
 The **TCP/UDP Conversations by Message Count** viewer **Layout** for **Charts** provides a summary of the top Transport Layer conversations that took place within the time boundaries of a set of trace results. The summary data is provided in a **Table** grid visualizer component to expose message details and useful statistics for the top Transport Layer conversations that took place in a set of trace results. The data is sorted in descending order from the highest to lowest message count, per conversation. The grid layout contains the following data columns:  
   
 -   **Network** — contains the IPv4, IPv6, and Ethernet addresses of the computer nodes that exchanged messages in each conversation in a set of trace results.  
@@ -37,6 +39,7 @@ The **TCP/UDP Conversations by Message Count** viewer **Layout** for **Charts** 
 -   **K** — a chart constant to facilitate calculation of the KBs values.  
   
 ## Using the TCP/UDP Conversations by Message Count Layout  
+
  To maximize analysis effectiveness at the Transport Layer, the **Transport Layers TCP/UDP** **Viewpoint** has been applied to this **Layout** by default, which removes all messages above the Transport Layer. You can observe evidence of this background configuration in the **Viewpoints** drop-down list on the Filtering Toolbar, where you will see that the **Layout ViewPoint** item is selected, that is, after you display the **TCP/UDP Conversations by Message Count** **Layout**. As a result of this applied **Viewpoint**, the values in columns such as **Count**, **Bytes**, **KBs**, and **BPS**, will be based on top-level TCP and UDP messages only. For example, the **Count** column will then indicate the number of top-level TCP or UDP messages in each conversation, while the **Bytes** column will indicate the number of TCP or UDP payload bytes exchanged in each conversation. Note that you can also isolate conversations by TCP or UDP messages if you apply a **TCP** or **UDP** **Viewpoint**, respectively.  
   
  Statistics that you can obtain from this **Layout** that are useful in troubleshooting the Transport Layer include:  
@@ -64,7 +67,9 @@ The **TCP/UDP Conversations by Message Count** view **Layout** for **Charts** is
   
  **More Information**   
  **To learn more** about the integrated analysis environments that are created by the **Profiles** that use the  **TCP/UDP Conversations by Message Count** view **Layout** for **Charts**, see the **Performance Top Down** and **Network Monitor** **Profiles** in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic. Note that you can also review related usage scenarios and analysis examples for the **Profiles** in this topic.  
+
 ---  
   
 ## See Also  
- [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)
+
+- [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)

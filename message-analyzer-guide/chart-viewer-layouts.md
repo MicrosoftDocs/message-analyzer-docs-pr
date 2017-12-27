@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Chart Viewer Layouts
+
 By default, Message Analyzer provides several built-in data viewers such as the **Analysis Grid**, **Grouping**,  **Pattern Match**, and **Gantt** viewers, as described in earlier sections. However, Microsoft also provides numerous view **Layouts** for the **Chart** viewer  that each have a predefined configuration designed to display specific types of data in various presentation formats for the enhancement of data analysis perspectives. The built-in **Layouts** for the **Chart** viewer consist of various graphic visualizer components that provide top-level data summaries and statistics based on message types, fields, properties, and preconfigured formulas. The visualizer component types include **Table** grid, **Bar** element, **Pie** chart, **Timeline** graph, and other graphs that plot message data in the x-y coordinate domain; the **Timeline** graphs also include time window slider controls for zooming on data. A **Chart** viewer **Layout** called the **Top Level Protocols Message Count** contains a **Bar** element visualizer component, as shown in the figure that follows. The data exposed in this **Layout** shows the relative distribution of message volume for all protocols or modules for which messages were captured in a set of trace results.  
   
  ![Top Level Protocols Message Count Chart Layout](media/fig46-top-level-protocols-message-count-chart-layout.png "Fig46-Top Level Protocols Message Count Chart Layout")  
@@ -32,15 +34,18 @@ In the case of **Profiles**, the **Chart** viewer **Layouts** are preselected to
   
  **More Information**   
  **To learn more** about **Profiles** and how you can use some of the viewer **Layouts** that they employ  for analysis and troubleshooting purposes, see  [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
+
 ---  
   
 ## Creating Custom Chart Viewer Layouts  
+
  Message Analyzer also enables you to create custom **Layout** configurations by editing any built-in **Chart** viewer **Layout** and saving it under a different name. When creating a new **Layout**, you can choose which visualizer component you want to use by selecting a **Bar**, **Pie**, **Timeline**, or **Grid** style visualizer component. You can also choose the fields and formulas that provide the **Layout** configuration and functions that you want. However, to configure settings, you must have an in-focus **Chart** viewer **Layout** already displayed in order to get access to the **Edit** command that appears in the **Chart** drop-down on the global Message Analyzer **Session** menu.  After you  click the **Edit** command, the **Edit Chart Layout** dialog displays from where you can create and **Apply** your custom configuration. Thereafter, you can save the **Layout** with the use of the **Save Current Layout As** command.  
   
 ---  
   
  **More Information**   
  **To learn more** about configuring and saving a custom **Chart** viewer **Layout**, see [Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md).  
+
 ---  
   
 <a name="BKMK_LocatePredefinedCharts"></a>   
@@ -56,6 +61,7 @@ In the case of **Profiles**, the **Chart** viewer **Layouts** are preselected to
 -   **Session Explorer** context menu — by right-clicking anywhere in the **Session Explorer** **Tool Window**, you can select the **New Viewer** item in the context menu that appears to access the **Chart** drop-down list.  
   
 ## Obtaining New or Updated Chart Viewer Layouts  
+
  Microsoft may occasionally provide updates to the  **Message Analyzer Chart View Layouts** asset collection that you can access from the **Asset Manager** dialog in the global Message Analyzer **Tools** menu; note that this dialog exposes the Message Analyzer Sharing Infrastructure. Updates to this asset collection can include new or revised **Chart** viewer **Layout** configurations that are developed at Microsoft. If you auto-sync to this collection in the **Asset Manager** dialog, you will periodically receive automatic updates and downloads of the **Message Analyzer Chart View Layouts** asset collection into  your local **Chart Layouts** Library.  
   
 <a name="BKMK_ChartCategories"></a>   
@@ -75,7 +81,9 @@ In the case of **Profiles**, the **Chart** viewer **Layouts** are preselected to
  **More Information**   
  **To learn more** about editing, creating, and managing **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).   
 **To learn more** about how to receive downloads and updates for asset collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
+
 ---  
   
 ## See Also  
- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+
+- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

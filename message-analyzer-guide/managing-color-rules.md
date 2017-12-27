@@ -14,18 +14,21 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Managing Color Rules
+
 Message Analyzer enables you to share your local **Message Analyzer Color Rules** asset collection Library items with others, either by employing a user-configured feed or by sharing asset collection items directly with other users on a designated file share. You can share your entire Library as a set, or you can create a subset that includes specific **Color Rules** while excluding others. You can also modify the filtering and decoration scheme for **Color Rules** that you will export and share with others; however, keep in mind that any edits you make to custom **Color Rules** that you intend to export, will modify the corresponding local asset collection Library items. You can view the **Color Rule** items that are available in your local asset collection Library by clicking the **Color Rules** drop-down list on the **Analysis Grid** viewer toolbar.  
   
  To create a **Color Rule** export configuration, you must select the **Manage Color Rules** item from the **Color Rules** drop-down list on the previously indicated toolbar to display the **Manage Color Rules** dialog. Note that you can use the **Manage Color Rules** dialog to export and import **Color Rules** directly to and from a user-designated location, respectively, without employing a user-configured feed in the Message Analyzer Sharing Infrastructure.  
   
 ## Managing Color Rule Items  
+
  The **Manage Color Rules** dialog provides the following UI elements to enable you to share **Color Rules** with others:  
   
 -   **Import** — enables you to navigate to a location designated by a user or team that previously posted a **Color Rule** asset collection, so that you can retrieve it and add the **Color Rules** it contains to your local **Library**.  
   
-    > [!CAUTION]
-    >  You should not use the **Import** feature to retrieve **Color Rule** items from a file share that is configured as a feed in the Message Analyzer Sharing Infrastructure. If you use the **Import** feature to retrieve **Color Rule** items from such a user file share, all rules that you select in the **Select Items to Import** dialog will be *added to* your local Library, while any items that have an identical name will not be overwritten, resulting in duplicate rules in your local Library. For **Color Rule** downloads or updates through the Message Analyzer Sharing Infrastructure, you should always click the status icon on the **Downloads** tab of the **Asset Manager** dialog to obtain the download or update options for the **Message Analyzer Color Rules** or **Azure Storage Color Rules** asset collections. For more information about downloading asset collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md). For a procedure that provides an example of importing Library items, see [Share Local Library Items on a File Share](procedures-using-the-asset-management-features.md#BKMK_ShareLibraryItems).  
+> [!CAUTION]
+>  You should not use the **Import** feature to retrieve **Color Rule** items from a file share that is configured as a feed in the Message Analyzer Sharing Infrastructure. If you use the **Import** feature to retrieve **Color Rule** items from such a user file share, all rules that you select in the **Select Items to Import** dialog will be *added to* your local Library, while any items that have an identical name will not be overwritten, resulting in duplicate rules in your local Library. For **Color Rule** downloads or updates through the Message Analyzer Sharing Infrastructure, you should always click the status icon on the **Downloads** tab of the **Asset Manager** dialog to obtain the download or update options for the **Message Analyzer Color Rules** or **Azure Storage Color Rules** asset collections. For more information about downloading asset collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md). For a procedure that provides an example of importing Library items, see [Share Local Library Items on a File Share](procedures-using-the-asset-management-features.md#BKMK_ShareLibraryItems).  
   
 -   **Export** — you can use this feature to post a set of **Color Rules** to a designated file share that you intend to configure as a feed in the Message Analyzer Sharing Infrastructure. However, you can also use this feature to post a **Color Rule** asset collection to a file share that is not configured as a user feed in the Message Analyzer Sharing Infrastructure. Note that if you use the **Export** feature to publish *updates* to a **Color Rule** asset collection on a user feed, some manual configuration is necessary for this to be successful, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
   
@@ -63,9 +66,11 @@ Message Analyzer enables you to share your local **Message Analyzer Color Rules*
 ---  
   
  **More Information**   
- **To learn more** about the common **Manage** ***\<AssetType>*** dialog, see [Managing User Libraries](managing-user-libraries.md).   
+ **To learn more** about the common **Manage** ***\<AssetType>*** dialog, see [Managing User Libraries](managing-user-libraries.md).  
+ 
 ---  
   
 ## See Also  
- [Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)   
- [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)
+
+- [Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)   
+- [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Viewing Session Statistics and Progress
+
 Message Analyzer provides a robust set of monitoring facilities such as progress indicators and various types of session statistics that include hover-over tool tips. For example, Message Analyzer enables you to view the progress of various message retrieval operations such as the following:  
   
 -   Data loaded through the **Open** feature on the Message Analyzer **Start Page**.  
@@ -28,6 +30,7 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
  Message Analyzer also enables you to view progress indications for multiple concurrent sessions that load data at the same time. You can also observe the progress of message processing during data manipulation operations, which includes the application and removal of view **Filters**, **Groups**, **Viewpoints**, **Pattern Matches**, **Layouts**, and **Time Filters**. In addition, you can hover over any top-level session node in **Session Explorer** with your mouse and view the message count for the associated session in a tooltip. You can also hover over any session viewer node in **Session Explorer** **Tool Window** and display a tooltip that indicates the analytical assets that are applied to that viewer.  
   
 ## Indicating Progress and Statistics  
+
  Visual progress indications and statistics for the previously described Message Analyzer operations are displayed in the **Session Explorer** window. To provide these indications when loading data, capturing data, or manipulating data, **Session Explorer** utilizes the following progress and statistics indicator components:  
   
 -   **Progress bar control** — provides the following types of progress indications:  
@@ -46,18 +49,19 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
   
 -   **Hover-over tool tips** — as indicated earlier, tooltips that display when you mouse-hover over any top-level session node or any session viewer sub-node in **Session Explorer**, provide a quick indication of session message count and the analytical assets that you have applied to a viewer, respectively. Applied assets can include a **Viewpoint**, **Viewpoint Filter**, view **Filter**, and/or a **Message Range Filter**.  
   
-    > [!NOTE]
-    >  Session viewer tabs also display the same tool tip information when you hover over them with your mouse.  
+> [!NOTE]
+>  Session viewer tabs also display the same tool tip information when you hover over them with your mouse.  
   
 -   **Session color coding** — each top-level session node and related session viewer subnodes in **Session Explorer** are color-coded for quick identification. Different sessions are identified with a different colored dot, which helps to automatically organize your session data viewers.  
   
-    > [!TIP]
-    >  Session viewer tabs also contain associated colored dots, to enable you to quickly correlate all viewers of the same session.  
+> [!TIP]
+>  Session viewer tabs also contain associated colored dots, to enable you to quickly correlate all viewers of the same session.  
   
 > [!NOTE]
 >  **Session Explorer** also contains different **Session** node icons that indicate the type of session to which progress statistics apply, for example, a Live Trace Session versus a Data Retrieval Session. In addition, icons are added to the right side of session viewer subnodes to indicate the application of an analytical asset. For example, a funnel shaped glyph indicates when a **Session Filter** or view **Filter** was applied to the messages in your Live Trace Session or Data Retrieval Session.  
   
 ## Observing Progress Indicator Behaviors  
+
  The behavior of **Session Explorer** progress indicators varies depending on the tasks you are performing, as follows:  
   
  **Loading parsed messages** — when you load data from a .matp file in a Data Retrieval Session, the progress bar might display an *ambiguous* progress indication for larger files, by scrolling a block across the control in marquee fashion, along with the following simultaneous indications:  
@@ -77,6 +81,7 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
 >  **Session Total** and **Available** message indicators are also provided in labels on the Status Bar of the Message Analyzer UI and reflect the identical values that display in the **Session** node and viewer node labels, respectively.  
   
 ## Manipulating data  
+
  Progress indications are also displayed whenever you apply or remove view **Filters**, **Groups**, **Viewpoints**, **Pattern Matching**, view **Layouts**, and **Time Filters** to or from a set of displayed messages, respectively, or when you toggle **Operations** from the **Viewpoints** drop-down list on the Message Analyzer Filtering toolbar. Progress indications are also provided when you sort columns. The progress indications that display for each of these data manipulation operations consists of:  
   
 -   A continuous solid progress bar that propagates from left to right.  
@@ -91,4 +96,5 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
  You can also apply simultaneous data manipulation operations across multiple sessions and observe progress indications that apply to each session. However, if you apply multiple operations in the same session viewer, the order in which operation indicators display is determined by a preset order of precedence that Message Analyzer applies, regardless of the sequence in which you start data manipulation operations.  
   
 ## See Also  
- [Session Explorer Tool Window](session-explorer-tool-window.md)
+
+- [Session Explorer Tool Window](session-explorer-tool-window.md)

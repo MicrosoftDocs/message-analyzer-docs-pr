@@ -14,13 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Understanding Message Pattern Matching
+
 Message Analyzer enables you to process a set of trace results to retrieve groups of messages that meet the sequential pattern criteria of manually configured or built-in **Pattern** expressions. Whenever you execute a **Pattern** expression by selecting one in the **AVAILABLE PATTERNS** pane of the **Pattern Match** viewer, an API is accessed that calls into the pattern matching engine which starts the search for a pattern match based on the definition of the selected **Pattern** expression.  
   
 > [!NOTE]
 >  The underlying technology that you use to create **Pattern** expressions is part of the full Open Protocol Notation (OPN) language, as described in the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).  
   
 ## Accessing Built-In Pattern Expressions  
+
  Message Analyzer provides you with the option to use several built-in OPN **Pattern** expressions that are included in every Message Analyzer installation by default. You can access the built-in expressions only after you open the **Pattern Match** viewer, where they are included as a list in the **AVAILABLE PATTERNS** pane of this viewer. You can run a **Pattern** expression against a set of trace results by simply placing a check mark in the check box to the left of the **Pattern** expression that you want to execute, for example, the **TCP Retransmit Pairs** expression. Message Analyzer then begins searching for patterns that match the **Pattern** expression criteria and initially displays any matches that are found in a Matched pattern selector that appears in the **MATCHES** pane of the **Pattern Match** viewer.  
   
 > [!NOTE]
@@ -30,6 +33,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
 >  Microsoft will continue to develop pattern matching capabilities and make them available either from the Message Analyzer Sharing Infrastructure, and/or as part of the installation package in ongoing Message Analyzer release versions. This will include additional built-in **Pattern** expressions and extended functionality for the pattern matching engine.  
   
 ## Understanding Pattern Expressions  
+
  This section provides a code walkthrough of two of the built-in **Pattern** expressions that are related to TCP operations. By understanding the concepts of these working **Pattern** expressions, you can apply this knowledge when creating expressions of your own. The built-in **Pattern** expressions that are presented as examples consist of the following:  
   
 -   **TCP Retransmit Pairs** — the OPN behavior scenario that defines this **Pattern** expression is encapsulated in the following OPN code:  
@@ -115,8 +119,8 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
         -   GetMessageNumber — a method that sets the variable “mn” to the current message number and returns it.  
   
-        > [!NOTE]
-        >  Observe that the KeepAlive method explicitly rules out TCP KeepAlive messages for evaluation, because they are not considered to be TCP retransmits.  
+> [!NOTE]
+>  Observe that the KeepAlive method explicitly rules out TCP KeepAlive messages for evaluation, because they are not considered to be TCP retransmits.  
   
     4.  ***IP addresses***  — the line of code containing the “IPv4.Datagram” statement gets values that set the “sa” and “da” variables based on the values of the IPv4 SourceAddress and DestinationAddress, respectively. Note that the expression uses the double backslash characters “\\\” to get at the IPv4 level of the TCP origins tree, as described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
   
@@ -130,8 +134,8 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
         -   Source and destination IP addresses that match the last segment evaluation.  
   
-        > [!TIP]
-        >  The line of code containing the “->” operator tells the expression to go forward evaluating messages until a match is found and to pass over all nonmatching messages.  
+> [!TIP]
+>  The line of code containing the “->” operator tells the expression to go forward evaluating messages until a match is found and to pass over all nonmatching messages.  
   
          ***Match found***  — if the SequenceNumber and AcknowledgementNumber are identical to those in the last segment evaluation, the payload count value is equal to “pyl.Count”, and the source and destination address are the same as the last segment evaluation, then the message is a TCP retransmit; in which case, the variable “mnretrans” is set to the retransmit message number which is returned by the GetMessageNumber method and passed to the virtual operation for output.  
   
@@ -293,10 +297,10 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
      Note that this **Pattern** expression also returns the values of various TCP fields to further enhance the analysis process, for example, the client and server **MaxSegmentSize**, **WindowsScaleFactor**, and **SackPermitted** TCP option values, which expose how these options were negotiated during the initial stages of a connection request. The values of these options are held by corresponding client and server variables, for example, the ClientScaleFactor and ServerScaleFactor vars. Note that the TCP options configuration might be the cause of TCP performance issues.  
   
-    > [!NOTE]
-    >  To simplify this walkthrough, only the IPv4 case is discussed, although the IPv6 case that follows the “&#124;” operator (OR) in the code is functionally similar:  
+> [!NOTE]
+>  To simplify this walkthrough, only the IPv4 case is discussed, although the IPv6 case that follows the “&#124;” operator (OR) in the code is functionally similar:  
   
-    ### Table 12.             TCP Handshake Connection Negotiation  
+### Table 12.             TCP Handshake Connection Negotiation  
   
     |**Computer Node**|**Message Sent**|**SYN Flag Value**|**ACK Flag Value**|**SequenceNumber**|**AcknowledgementNumber**|  
     |-----------------------|----------------------|------------------------|------------------------|------------------------|-------------------------------|  
@@ -323,9 +327,9 @@ Message Analyzer enables you to process a set of trace results to retrieve group
         -   "starttime" — is set to the return value of the GetTimestamp() method. The time value in this variable is subtracted from the return value of the GetTimeStamp() method in the next TCP.Segment section to calculate the approximate round trip time that is set in the variable "approxrtt" in that section of code.  
   
         -   “transportV4” — is set to the value of the **TCP.Segment.TransportKey** field. Provides a hash constant value that is the difference between the source and destination TCP ports currently under evaluation. Provides a faster comparison of the current TCP port pair.  
-  
-            > [!NOTE]
-            >  For further details, right-click the **TransportKey** field in **Field Chooser** **Tool Window** and select **Go To Definition** in the context menu that appears to show the OPN definition of this field. You can also add this field to the **Analysis Grid** viewer column layout to see what a typical value might look like. Also, right-click a field value and select the **Include Hex for Numeric Values** command in the context menu that appears, to view the hexadecimal value that is used as the hash constant.  
+
+        > [!NOTE]
+        >  For further details, right-click the **TransportKey** field in **Field Chooser** **Tool Window** and select **Go To Definition** in the context menu that appears to show the OPN definition of this field. You can also add this field to the **Analysis Grid** viewer column layout to see what a typical value might look like. Also, right-click a field value and select the **Include Hex for Numeric Values** command in the context menu that appears, to view the hexadecimal value that is used as the hash constant.  
   
         -   “SrvMaxSegSize” — is set to the value of the TCP MaxSegmentSize option; the method GetMaxSegSize() is called to return the value.  
   
@@ -368,6 +372,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
     7.  ***Continuing evaluations***  — the **Pattern** expression then backtracks to the next TCP segment (where the SYN flag = true) following the initial evaluation point and the process is repeated until all messages in the input stream (trace results) have been evaluated.  
   
 ## Writing Pattern Expressions  
+
  Message Analyzer enables you to write your own **Pattern** expression in “free form”, meaning that you must develop the expression without any UI automation support such as you have from the **Quick** tab of the **Pattern Editor**. To write your own **Pattern** expression in “free form”, the **Pattern Editor** provides the features you will need. However, you will most likely need to learn more about OPN, although you can review the code descriptions provided here to help you obtain a rudimentary understanding of how the language works for building **Pattern** expressions.  
   
 > [!TIP]
@@ -381,4 +386,5 @@ Message Analyzer enables you to process a set of trace results to retrieve group
  **To learn more** about the **Pattern Editor**, see [Using the Pattern Editor](using-the-pattern-editor.md).   
 **To learn more** about executing sequential **Pattern** expressions, see the TechNet Blog article [Sequence Match View: Identifying Interesting Network Patterns](http://blogs.technet.com/b/messageanalyzer/archive/2013/08/23/sequence-match-view-identifying-interesting-network-patterns.aspx).  
 **To learn more** about OPN, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).   
+
 ---

@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Perfmon Log (.blg)
+
 The **Perfmon Log** view **Layout** for **Charts** enables you to display data from a Performance Monitor log and utilize some of Message Analyzer capabilities to manipulate and analyze the data whenever you load data from a \*.blg log file. This **Layout** provides a main display with a graphic representation of performance counter data along with a legend of counters and an adjustable time window for zooming into data points. It displays a related set of messages after you double-click a line of performance counter data for further details.  
   
  **Interactive Analysis**   
@@ -30,4 +32,5 @@ This **Layout** for the **Chart** viewer is intended to work with the **Perfmon 
  Under any **Instance** group, you can click a **Counter** and display that result in the **Perfmon Log** **Layout** of the **Chart** viewer. In addition, you can double-click the resulting counter data line and display the logged data in an associated set of messages in a new instance of the **Analysis Grid** viewer. Otherwise, if the **Analysis Grid** viewer is already open in the session, it will simply be updated with the same set of messages.  
   
 ## See Also  
- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+
+- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

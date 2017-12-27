@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Grouping Viewer
+
 To augment your analysis capabilities, the **Grouping** viewer enables you to organize your traffic into summary hierarchies based on Grouping viewer **Layouts** that contain predefined message field Groups that exist in nested configurations. The **Grouping** viewer enables you to extract specific types of data from any large data set  and  organizes this information into a hierarchy of one of more nested Groups that provide instant access to data that you can  interactively correlate with **Analysis Grid** viewer message details.  
   
  The **Grouping** viewer is accessible from the **New Viewer** drop-down list, which in turn is accessible from the following locations:  
@@ -31,18 +33,19 @@ To augment your analysis capabilities, the **Grouping** viewer enables you to or
   
  **What You Will Learn**   
 In this section, you will learn about the functions and features of the **Grouping** viewer, as described in the following topics:  
-[Utilizing the Grouping Viewer Capabilities](grouping-viewer.md#BKMK_UtilizeGroupingCapabiities)  
-[Changing the Analysis Perspective Through Group Reorganization](grouping-viewer.md#BKMK_GroupReorg)  
-[Grouping Viewer Layouts](grouping-viewer.md#BKMK_GroupViewLayouts)  
-[Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts)  
-[Manipulating Group Displays](grouping-viewer.md#BKMK_ManipulateGroups)  
-[Grouping Viewer Modes of Operation](grouping-viewer.md#BKMK_ModesofOperation)  
-[Locating Analysis Grid Messages in the Grouping Viewer](grouping-viewer.md#BKMK_LocatingAGMessages)  
-[Grouping Viewer Display Features](grouping-viewer.md#BKMK_GroupingDisplayFeatures)  
-[Adding New Groups](grouping-viewer.md#BKMK_AddNewGroups)  
-[Editing a Built-In Layout](grouping-viewer.md#BKMK_EditGroupingLayouts)  
-[Creating a Grouping Viewer Layout Template](grouping-viewer.md#BKMK_CreatingViewLayouts)  
-[Managing Grouping View Layouts](grouping-viewer.md#BKMK_ManageGroupViewLayouts)  
+- [Utilizing the Grouping Viewer Capabilities](grouping-viewer.md#BKMK_UtilizeGroupingCapabiities)  
+- [Changing the Analysis Perspective Through Group Reorganization](grouping-viewer.md#BKMK_GroupReorg)  
+- [Grouping Viewer Layouts](grouping-viewer.md#BKMK_GroupViewLayouts)  
+- [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts)  
+- [Manipulating Group Displays](grouping-viewer.md#BKMK_ManipulateGroups)  
+- [Grouping Viewer Modes of Operation](grouping-viewer.md#BKMK_ModesofOperation)  
+- [Locating Analysis Grid Messages in the Grouping Viewer](grouping-viewer.md#BKMK_LocatingAGMessages)  
+- [Grouping Viewer Display Features](grouping-viewer.md#BKMK_GroupingDisplayFeatures)  
+- [Adding New Groups](grouping-viewer.md#BKMK_AddNewGroups)  
+- [Editing a Built-In Layout](grouping-viewer.md#BKMK_EditGroupingLayouts)  
+- [Creating a Grouping Viewer Layout Template](grouping-viewer.md#BKMK_CreatingViewLayouts)  
+- [Managing Grouping View Layouts](grouping-viewer.md#BKMK_ManageGroupViewLayouts)  
+
 ---  
   
 <a name="BKMK_UtilizeGroupingCapabiities"></a>   
@@ -78,6 +81,7 @@ In this section, you will learn about the functions and features of the **Groupi
  **More Information**   
  **To learn more** about the **Process Name and Conversations** layout for the **Grouping** viewer, see [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts).    
 **To learn more** about reorganizing Grouped information, see [Manipulating Group Displays](grouping-viewer.md#BKMK_ManipulateGroups).  
+
 ---  
   
 <a name="BKMK_GroupViewLayouts"></a>   
@@ -88,8 +92,8 @@ In this section, you will learn about the functions and features of the **Groupi
   
 -   Modify a currently displayed **Layout** by adding or removing Groups and then select the **Save Current Layout As…** command from the **Layout** drop-down list on the **Grouping** viewer toolbar to display the **Edit Item** dialog, from where you can specify **Name**, **Description**, and **Category** information. When you click **OK** to exit the dialog, Message Analyzer saves your custom **Layout** in the **Category** name that you specified, under the top-level **My Items** category of the **Layout** Library.  
   
-    > [!NOTE]
-    >  You can add Groups by using any of the methods that are described in [Adding New Groups](grouping-viewer.md#BKMK_AddNewGroups). You can remove Groups by simply clicking the **x** mark in one or more Group labels, just below the **Grouping** viewer toolbar.  
+> [!NOTE]
+>  You can add Groups by using any of the methods that are described in [Adding New Groups](grouping-viewer.md#BKMK_AddNewGroups). You can remove Groups by simply clicking the **x** mark in one or more Group labels, just below the **Grouping** viewer toolbar.  
   
 -   Right-click an item in the **Layout** drop-down list and then select the **Create a Copy** command to display the **Edit Item** dialog, where you can modify **Name**, **Description**, and **Category** information. After you click **OK** to exit the **Edit Item** dialog, Message Analyzer saves your custom layout in the **Category** name that you specified, under the top-level **My Items** category of the **Layout** Library. Thereafter, you will have access to several context menu commands that display whenever you right-click a **Layout** in the **My Items** category, where all user-created **Layouts** for the **Grouping** viewer are saved by default. Thereafter, you can display and customize your **Layout** by adding or removing Groups and saving your changes as previously described.  
   
@@ -225,8 +229,8 @@ In this section, you will learn about the functions and features of the **Groupi
   
 -   **Expose different analytical contexts** — as described earlier, to achieve a different perspective on the data that displays in the **Grouping** viewer, you can pivot the grouped display by dragging and dropping any Group label into a different position in the hierarchic group arrangement that appears below the **Grouping** viewer toolbar, just as you can do with grouped messages in the **Analysis Grid** viewer, as described in [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md). This action changes the Group nesting configuration. When you alter the orientation of nested Groups, Message Analyzer refilters and repopulates the data in the current **Grouping** **Layout** according to the modified Group nesting configuration that you create. With this feature, you can change the relationship in which Group data is displayed and thereby expose different analytical contexts and data correlations.  
   
-    > [!NOTE]
-    >  You can also remove a Group in the **Grouping** viewer, by clicking on the “**x**” mark in its Group label. Also note that you can save any modifications that you make as a custom **Layout** of your own design, as described in [Editing a Built-In Layout](grouping-viewer.md#BKMK_EditGroupingLayouts).  
+> [!NOTE]
+>  You can also remove a Group in the **Grouping** viewer, by clicking on the “**x**” mark in its Group label. Also note that you can save any modifications that you make as a custom **Layout** of your own design, as described in [Editing a Built-In Layout](grouping-viewer.md#BKMK_EditGroupingLayouts).  
   
 -   **Summarize Group data** — to obtain a data summary for any Group, you can collapse a *particular* Group by right-clicking its label and selecting the **Collapse All Groups** context menu command. By collapsing a specific Group, you actually collapse the nested Group(s) under the data nodes of that specific Group. The resulting display provides a concisely summarized view of the data nodes associated with the particular Group for which you selected the **Collapse All Groups** context command. Thereafter, you can re-expand the Group with the **Expand All Groups** command to expose all data in the original nested Group configuration again. You can then move on to another Group in the **Grouping** viewer toolbar and do the same thing to achieve similar results. This enables you to quickly summarize the data associated with each Group label for clarity of analysis. You also have the option to collapse or expand all Groups simultaneously, as described earlier, by clicking the **Collapse All** or **Expand All** buttons, respectively, on the **Grouping** viewer toolbar.  
   
@@ -236,8 +240,8 @@ In this section, you will learn about the functions and features of the **Groupi
   
 -   **Filtering Mode** — to enable this mode, click the **Filtering Mode** button (with the funnel-shaped icon) on the **Grouping** viewer toolbar.  
   
-    > [!TIP]
-    >  To show the **Filtering Mode** button and other buttons on the toolbar with full text labels and icons, right-click the toolbar and select the **Show Labels and Icons** command in the context menu that appears.  
+> [!TIP]
+>  To show the **Filtering Mode** button and other buttons on the toolbar with full text labels and icons, right-click the toolbar and select the **Show Labels and Icons** command in the context menu that appears.  
   
      In the **Filtering Mode**, selecting a node in the **Group Values** column of the **Grouping** viewer causes the messages associated with that node to be filtered in the **Analysis Grid** viewer such that only those messages display in the **Analysis Grid**. To remove the applied filtering, click the **Reset** button on the **Grouping** viewer toolbar.  
   
@@ -246,15 +250,16 @@ In this section, you will learn about the functions and features of the **Groupi
   
 -   **Selection Mode** — to enable this mode, click the **Selection Mode** button (with the grid-shaped icon) on the **Grouping** viewer toolbar. In this mode, selecting a node in the **Group Values** column of the **Grouping** viewer causes the message/s associated with that node to be selected and highlighted in the **Analysis Grid** viewer. You can also select multiple message nodes by holding down the `Ctrl` key on your keyboard as you make selections. You can undo selections one at a time in the same manner, or you can undo all selections at once by clicking the **Reset** button on the **Grouping** viewer toolbar.  
   
-    > [!TIP]
-    >  If you have the **Selection** **Tool Window** open as you are making different selections in the **Grouping** viewer, the **Selection** window keeps track of all your message selections. This tracking feature enables you to use the **Go back** arrow-button on the **Selection** window toolbar to scroll through previous selections you made in the **Grouping** viewer. When you reach the last message or group of messages in the selection collection, you can then use the **Go forward** arrow-button to incrementally advance through those selections in the opposite direction.  
-    >   
-    >  This improvement to analysis capabilities allows you to backtrack to a previous message selection you may have forgotten or navigate to a previous selection if you lose focus to another viewer. The selection feature maintains context while providing quick and convenient access to messages of interest that you selected for analysis purposes.  
+> [!TIP]
+>  If you have the **Selection** **Tool Window** open as you are making different selections in the **Grouping** viewer, the **Selection** window keeps track of all your message selections. This tracking feature enables you to use the **Go back** arrow-button on the **Selection** window toolbar to scroll through previous selections you made in the **Grouping** viewer. When you reach the last message or group of messages in the selection collection, you can then use the **Go forward** arrow-button to incrementally advance through those selections in the opposite direction.  
+>   
+>  This improvement to analysis capabilities allows you to backtrack to a previous message selection you may have forgotten or navigate to a previous selection if you lose focus to another viewer. The selection feature maintains context while providing quick and convenient access to messag  es of interest that you selected for analysis purposes.  
   
 ---  
   
-     **More Information**   
-     **To learn more** about how to use the **Selection** window, see the [Selection Tool Window](selection-tool-window.md) topic.   
+**More Information**   
+**To learn more** about how to use the **Selection** window, see the [Selection Tool Window](selection-tool-window.md) topic.   
+
 ---  
   
 <a name="BKMK_LocatingAGMessages"></a>   
@@ -341,8 +346,8 @@ In this section, you will learn about the functions and features of the **Groupi
   
      Repeat step 2 for as many Groups that you want to create in your new **Layout**.  
   
-    > [!NOTE]
-    >  The order in which you add message field groups determines the order in which Group(s) are nested. For example, the first message field you add to the **Grouping** viewer becomes the top-level Group node; the second message field that you add is nested under the top-level node as the second Group; the third field you add is nested under the second Group, and so on. Each Group that you add to the **Layout** is represented as a label above the data grid of the **Grouping** viewer and appears as soon as you add it.  
+> [!NOTE]
+>  The order in which you add message field groups determines the order in which Group(s) are nested. For example, the first message field you add to the **Grouping** viewer becomes the top-level Group node; the second message field that you add is nested under the top-level node as the second Group; the third field you add is nested under the second Group, and so on. Each Group that you add to the **Layout** is represented as a label above the data grid of the **Grouping** viewer and appears as soon as you add it.  
   
 3.  When complete, save your new **Layout** configuration by selecting the **Save Current Layout As…** command in the **Grouping** viewer **Layout** drop-down list.  
   
@@ -371,7 +376,8 @@ In this section, you will learn about the functions and features of the **Groupi
         -   **Delete** — click this command to delete the selected **Layout**. This command is available for **Layout** items under the top-level **My Items** category only, in the **Manage Grouping Layout** dialog.  
   
 ## See Also  
- [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)   
- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)   
- [Selection Tool Window](selection-tool-window.md)   
- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)
+
+- [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)   
+- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)   
+- [Selection Tool Window](selection-tool-window.md)   
+- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)

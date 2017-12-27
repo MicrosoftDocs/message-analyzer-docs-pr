@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Top Talkers
+
 The built-in **Top Talkers** view **Layout** for **Chart** provides a summary of the endpoint conversation address pairs that had the top message volume and payload bytes values in a set of trace results. This **Layout** also displays additional statistics that provide an indication of the data transmission rate and the distribution of network busyness with respect to traffic volume and duration for each endpoint address pair. The summary data is contained in a **Table** grid visualizer component that provides endpoint address pairs, message and byte count, and other traffic details in a column layout that is tailored to provide statistics that are useful for analysis. The grid data is sorted in descending order from the highest to lowest message count and by highest to lowest payload byte count. The **Layout** contains the following data columns:  
   
 -   **AddressPair** — values in this column specify the endpoint address set for which traffic statistics are generated.  
@@ -36,6 +38,7 @@ The built-in **Top Talkers** view **Layout** for **Chart** provides a summary of
 -   **BPS** — provides an indication of the data transmission rate in bytes per second.  
   
 ## Using the Top Talkers Layout  
+
  To enable you to focus on message volume and payload byte count at different layers, you can set a **Viewpoint** such as **TCP** or **Ethernet**. To apply a **Viewpoint**, click the **Viewpoint** drop-down list on the Filtering toolbar and then select the **TCP** or **Ethernet** item. You will notice that values such as the message count, payload byte count, and data transmission rates may change in the **Layout** as you set these **Viewpoints**.  
   
  From this **Layout**, you can obtain statistics such as the following to assist in the troubleshooting process:  
@@ -52,4 +55,5 @@ The built-in **Top Talkers** view **Layout** for **Chart** provides a summary of
 >  You can double-click any IP **AddressPair** set and display all the messages for a particular set in the **Analysis Grid** viewer for further analysis.  
   
 ## See Also  
- [Top Talkers Top 20](top-talkers-top-20.md)
+
+- [Top Talkers Top 20](top-talkers-top-20.md)

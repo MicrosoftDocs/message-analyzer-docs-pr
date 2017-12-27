@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # IIS Log HTTP Traffic  Volumes
+
 The **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** enables you to obtain a high-level summary view of  specific data from an IIS log file that depicts the relative distribution of HTTP traffic volume in bytes, from the highest to the lowest volume, for the cumulative IIS server responses to each client query that the server received. The **Layout** uses a **Bar** element visualizer component that provides a Y-axis label next to each bar element to display the IP address of an IIS server and the uniform resource identifier (URI) query made to the server from an HTTP  client. Each horizontal graphic bar element in this **Layout** shows the cumulative HTTP traffic volume in bytes for all server responses associated with a particular query made by a client browser or other query source. The volume values in this **Layout** are based on the **sc_bytes** field for server responses, the values for which you can view in the **Details** **Tool Window** after selecting a log entry in the **Analysis Grid** viewer.  
   
 > [!NOTE]
@@ -26,6 +28,7 @@ The **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** enables you 
 >---  
   
 ## Using the IIS Log HTTP Traffic Volumes Layout  
+
  This **Layout** provides a quick summary of the total server response volumes in bytes that are associated with client queries requesting access to IIS server resources and services. It enables you to see at-a-glance which client queries are driving high byte volume responses from an IIS server, which may point to areas that need further investigation. For example, very high byte volume server responses could be an indication of the potential overload of an IIS server, especially if a higher than expected number of server responses are needed to service client queries.  
   
  **Interactive Analysis**   
@@ -40,4 +43,5 @@ This **Layout** for the **Chart** viewer is intended to work with the **IIS** **
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **IIS** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **IIS** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **IIS Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+
 ---

@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Netlogon Message Types
+
 The **Netlogon Message Types** view **Layout** for **Charts** enables you to obtain a high-level summary view of specific data from a Netlogon.log file that depicts the relative percentage of message volumes for each message type in the log. The **Layout** uses a **Pie** chart visualizer component where the volume for each message type is represented by a slice of the chart. The legend to the right of the **Pie** chart exposes each message type in a list of nodes for quick correlation with the message volumes represented in the **Pie** chart.  
   
 > [!NOTE]
@@ -26,6 +28,7 @@ The **Netlogon Message Types** view **Layout** for **Charts** enables you to obt
 >---  
   
 ## Using the Netlogon Message Types Layout  
+
  This **Layout** enables you to assess at-a-glance the distribution of message type volumes in a Netlogon.log file so that you can  quickly focus on message types of interest. For example, you will likely want to review any log entries that contain error or diagnostic information first and this would mean looking at the messages of type CRITICAL and DIAGNOSIS. You might also review MAILSLOT messages for records of client and server communications and PERF messages that can include performance counter information related to setting up client-server sessions and the number of authentication timeouts that have occurred.  
   
  When your mouse hovers over any slice in the **Pie** chart, a tool tip  displays a log message type and a value that represents the percent volume for the message type out of the total volume of all message types in the log. At the same time, the message type is highlighted in the chart's message type  legend. Note that this legend is interactive, as is the **Pie** chart itself, and either of these enable you to drive the display of common message types into a new instance of the **Analysis Grid** viewer by double-clicking a legend node or a slice in the **Pie** chart, respectively, for further analysis of a particular log message type.  
@@ -44,4 +47,5 @@ This **Layout** for the **Chart** viewer is intended to work with the **Netlogon
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **Netlogon** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **Netlogon Group by Message Type** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **Netlogon Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+
 ---

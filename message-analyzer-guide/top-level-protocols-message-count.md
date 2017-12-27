@@ -13,10 +13,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Top Level Protocols Message Count
+
 The **Top Level Protocols Message Count** viewer **Layout** for **Charts** illustrates message data in a horizontal **Bar** element visualizer component that provides an at-a-glance view of the relative volume of the top-level messages from different source modules or protocols in a set of trace results. If you double-click any data bar element representing a message source in this **Layout**, the details for the top-level messages represented by that particular data bar element are rendered in a new instance of the  **Analysis Grid** viewer for further analysis.  
   
 ## Using the Top Level Protocols Message Count Layout  
+
  This **Layout** can provide an immediate indication of which modules or protocols are the highest bandwidth consumers, based on the associated message count and/or the relative percent volume with respect to total volume of messages. As such, this **Layout** provides an at-a-glance view of the distribution of message volume per module in a set of trace results.  
   
 > [!NOTE]
@@ -34,7 +37,9 @@ The **Top Level Protocols Message Count Layout** for the **Chart** viewer is int
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **ETW** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **ETW Guids and IDs** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **ETW Analysis** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+
 ---  
   
 ## See Also  
- [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)
+
+- [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)

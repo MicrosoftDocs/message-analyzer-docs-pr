@@ -13,10 +13,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Pattern Match Viewer
+
 This topic describes how to execute built-in **Pattern** expressions, how to view **Pattern** match data, and how to view messages that are associated with **Pattern** match data. To get started, you can launch the **Pattern Match** viewer against an existing set of trace results that are displayed in an **Analysis Grid** viewer instance. To do so, click the **New Viewer** drop-down list on the global Message Analyzer toolbar and select the **Pattern Match** item.  
   
 ## Executing Built-In Pattern Expressions  
+
  After you launch the **Pattern Match** viewer, you can execute a **Pattern** expression to view the results of pattern matching. You can do so by clicking one of the built-in **Pattern** expressions in the **AVAILABLE PATTERNS** pane of the **Pattern Match** viewer to execute that **Pattern** expression and return any pattern matches it finds.  
   
 > [!NOTE]
@@ -48,8 +51,8 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
     -   **Three-Way Handshake** — enables you to isolate all three-way handshakes that occurred when setting up TCP connections, for both IPv4 and IPv6 transports, in the current set of messages. Also displays the approximate round trip time as the time delta between Syn messages and Syn Acknowledgement messages.  
   
-    > [!NOTE]
-    >  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
+> [!NOTE]
+>  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
   
 -   **TLS** category — the built-in **Pattern** expressions that are available in this category are described below.  
   
@@ -64,6 +67,7 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
      Therefore, the primary scenario in which you might execute these TLS **Pattern** expressions is when you run decryption against a set of trace results and you discover that decryption did not successfully occur, or a  connection in which you were interested was not decrypted. By executing these **Pattern** expressions, you might  learn that one or more connections in question were renegotiated. For example, you could determine this by examining which session connection requests were negotiated with an existing/cached Session ID and which ones were not.  
   
 ## Viewing Pattern Match Data  
+
  When you execute a **Pattern** expression, the results first display in the **MATCHES** pane of the **Pattern Match** viewer in a Matched pattern selector. To display the matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer for the results of an executed **Pattern** expression, you can simply click the corresponding Matched pattern selector check box. This selector also has labels and controls that provide the following information or functions, respectively:  
   
 -   **Matched instance count** — a label that indicates the number of matched instances that were returned by an executed **Pattern** expression.  
@@ -76,8 +80,8 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
 -   **Check to include matches in the Instance list** check box — by placing a check mark in this check box or by removing it, you can alternately show or hide the results of an executed **Pattern** expression in the **MATCHED INSTANCES** list, respectively. This is useful when you are displaying multiple Matched pattern selectors that result from executing multiple **Pattern** expressions that returned data. By selecting and deselecting different Matched pattern selectors in the **MATCHES** pane, you can alternately display or hide the matched instances of any results set.  
   
-    > [!NOTE]
-    >  If you are already displaying matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer that result from executing a particular **Pattern** expression, you should unselect the corresponding Matched pattern selector for such  **Pattern** expression results before you attempt to display the results of another **Pattern** expression execution by clicking a different Matched pattern selector. Otherwise, it could be more difficult to locate the latter data in the **MATCHED INSTANCES** pane, given that it is chronologically ordered and could be buried amidst other data.  
+> [!NOTE]
+>  If you are already displaying matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer that result from executing a particular **Pattern** expression, you should unselect the corresponding Matched pattern selector for such  **Pattern** expression results before you attempt to display the results of another **Pattern** expression execution by clicking a different Matched pattern selector. Otherwise, it could be more difficult to locate the latter data in the **MATCHED INSTANCES** pane, given that it is chronologically ordered and could be buried amidst other data.  
   
 -   **Additional Options** drop-down menu — by clicking the black drop-down arrow on any Matched pattern selector, a menu appears with the following commands:  
   
@@ -86,6 +90,7 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
     -   **Open Pattern Messages in Gantt** — enables you to display the messages associated with a particular Matched pattern selector in the **Gantt** viewer, for example, to examine the time window in which the matched instance messages occurred, along with source and destination IP address information.  
   
 ## Removing Pattern Match Data  
+
  To remove the results of an executed **Pattern** expression, simply click the check box for the executed **Pattern** expression in the **AVAILABLE PATTERNS** pane of the **Pattern Match** viewer to remove its check mark. This results in simultaneously removing the Matched pattern selector and any match instances data that are displaying in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer for the particular **Pattern** expression that you deselected. You also have the option to simply unselect any Matched pattern selector to hide its associated matched instances data, until you select it again.  
   
 <a name="BKMK_ViewMatchedInstanceData"></a>   
@@ -129,5 +134,6 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
  Also note that the drop-down list on the **MESSAGES** pane contains all the commands specified in the previous two lists.  
   
 ## See Also  
- [Understanding Message Pattern Matching](understanding-message-pattern-matching.md)   
- [Using the Pattern Editor](using-the-pattern-editor.md)
+
+- [Understanding Message Pattern Matching](understanding-message-pattern-matching.md)   
+- [Using the Pattern Editor](using-the-pattern-editor.md)

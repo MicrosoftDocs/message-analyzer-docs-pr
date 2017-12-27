@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Data Viewers
+
 In any Analysis Session, Message Analyzer enables you to use data viewers to present message data in various formats to create unique analysis perspectives. You can choose data viewers during session configuration in the **New Session** dialog prior to starting a session, or afterwards in an Analysis Session where you have displayed session results. Some of these are default viewers, while others are preview feature viewers that you can enable,  try out, and provide feedback to Microsoft to initiate possible improvements. Several viewers can utilize numerous **Layouts** that change the  default view of data and provide advantages such as the following:  
   
 -   Display different message field data to target   a specific analysis environment.  
@@ -76,7 +78,9 @@ In any Analysis Session, Message Analyzer enables you to use data viewers to pre
  **More Information**   
  **To learn more** about how to create **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
 **To learn more** about Message Analyzer assets, see [Managing Message Analyzer Assets](managing-message-analyzer-assets.md).  
----  
+
+--  
   
 ## See Also  
- [Chart Viewer Layouts](chart-viewer-layouts.md)
+
+- [Chart Viewer Layouts](chart-viewer-layouts.md)

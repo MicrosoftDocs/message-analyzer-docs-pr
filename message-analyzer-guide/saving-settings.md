@@ -14,18 +14,21 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Saving Settings
+
 When assessing data in an Analysis Session, you will invariably use the many features that Message Analyzer provides for data manipulation, including the default asset collection Library items, such as view  **Filters**, **Aliases**, **Viewpoints**, **Charts**, **Color Rules**, viewer **Layouts**, **Pattern Expressions**, and so on, that ship with Message Analyzer. However, it is likely that you will want to create your own customized versions of these Library items or create completely new items of your own to facilitate data analysis. If you create new Library items in the previously described categories for data analysis purposes, Message Analyzer enables you to save your settings for future use and for sharing with others through the Message Analyzer Sharing Infrastructure. When you save an item, it becomes part of the particular asset collection Library with which you are working and such items are available to you from the UI whenever you run Message Analyzer. It is these local Library items that you can share with others by making use of the Message Analyzer Sharing Infrastructure.  
   
  There are also additional settings that you can save with session data that include default settings that will apply to all live sessions, and other settings that are the result of manipulating trace data following an Analysis Session, as described in [Saving Other Settings](saving-settings.md#BKMK_SavingOtherSettings).  
   
 ## Saving Settings of Library Items  
+
  Message Analyzer provides the facilities for saving the settings of your asset collection Library items from the same location where you apply them for data analysis purposes. You can save the settings of the following asset Library item types in the indicated manner:  
   
 -   View **Filters** — to save the settings of a custom view  **Filter** and add it to your local Filter Expression **Library**, first create one by selecting the **New Filter** item from the **Library** drop-down list on the Filtering toolbar. When you make this selection, the **Edit Filter** dialog displays, from where you can create and save a new Filter Expression based on editing an existing filtering item, or you can create a totally new one by writing a new Filter Expression. You can also specify a filter **Name**, **Description**, and a **Category** to place it in. When you are done with filter configuration, you can save the filter in your local Filter Expression **Library** by clicking the **Save** button in the **Edit Filter** dialog.  
   
-    > [!NOTE]
-    >  As indicated in various locations of this operating guide, your local Filter Expression **Library** is a centralized repository that contains the same set of filters that you access when selecting a **Session Filter**, view **Filter**, or **Color Rule** filter. You can also create and save a new Filter Expression in the centralized asset collection **Library** from any of the indicated locations where you select such Filter Expressions.  
+> [!NOTE]
+>  As indicated in various locations of this operating guide, your local Filter Expression **Library** is a centralized repository that contains the same set of filters that you access when selecting a **Session Filter**, view **Filter**, or **Color Rule** filter. You can also create and save a new Filter Expression in the centralized asset collection **Library** from any of the indicated locations where you select such Filter Expressions.  
   
      In addition, if you create and save a Filter Expression that uses an **Alias**, that filter will appear in the centralized Filter Expression **Library** as well. For example, this enables you to use such a Filter Expression containing an **Alias** as a **Session Filter**, **Color Rule** filter, or view **Filter**.  
   
@@ -43,8 +46,8 @@ When assessing data in an Analysis Session, you will invariably use the many fea
   
      You can also specify any **Layout** you choose to be the default column layout configuration for the **Analysis Grid** viewer, by selecting the **Save Current As Default User Layout** item in the **Manage Layouts** submenu. If you modify your default user **Layout** configuration and you need to restore it to the original version, you can do so by selecting the **Load Default User Layout** item in the same submenu. However, if you need to restore the default **Layout** that ships with Message Analyzer, you can do so by selecting the **Restore Application Default Layout** item, which is also a **Manage Layouts** submenu item.  
   
-    > [!NOTE]
-    >  You can also save the settings of **Layouts** that you create for the **Grouping** viewer.  
+> [!NOTE]
+>  You can also save the settings of **Layouts** that you create for the **Grouping** viewer.  
   
 -   **Pattern Expressions** — to save the settings of a custom Pattern Expression, first build one by using the features of  the **Pattern Editor**, the user interface for which displays when you click the **Create Pattern** button on the **Pattern Match** viewer after you open this viewer from the **New Viewer** drop-down list. When you are done using the **Quick** or **Free Form** tab to create your Pattern Expression, click the **Save Pattern** button on the **Pattern Editor** dialog toolbar to add your new Pattern Expression to the **My Items** category of the **AVAILABLE PATTERNS** list that appears in the **Pattern Match** viewer. This action also adds your new Pattern Expression to the **Message Analyzer Sequence Expressions** asset collection, which comprises a user Library that appears as the indicated patterns list. You also have the option to manage and share Pattern Expressions by selecting the **Manage Patterns** command from the **Pattern Match** drop-down list in the global Message Analyzer **Session** menu.  
   
@@ -76,32 +79,33 @@ When assessing data in an Analysis Session, you will invariably use the many fea
   
     -   **Display as Decimal**  
   
-    > [!NOTE]
-    >  This setting is persisted across Message Analyzer restarts, just as all settings that you specify in the **Options** dialog are persisted.  
+> [!NOTE]
+>  This setting is persisted across Message Analyzer restarts, just as all settings that you specify in the **Options** dialog are persisted.  
   
 -   **Decryption Options** — you can add one or more server certificates and passwords in the **Certificates** pane on the **Decryption** tab of the **Options** dialog, to enable Message Analyzer to decrypt traffic that is encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols. You automatically save these items in the Message Analyzer certificate store when you click the **OK** button to exit the **Options** dialog. Thereafter, you can load a saved trace file or start a Live Trace Session to retrieve the target encrypted traffic and Message Analyzer attempts to decrypt as many messages as possible. Server certificates are saved across Message Analyzer restarts; however, for security purposes, you must manually re-enter passwords after a Message Analyzer restart, prior to decrypting a trace.  
   
 -   **Session results** — when you save the results of an **Analysis Session**, you have the option to save all session messages, subsets of a message collection that result from the application of various data manipulation items such as **Viewpoints** and view **Filters**. The **Save/Export Session** dialog that is accessible by clicking the **Save** item in the global Message Analyzer **File** menu provides options to save data in this manner, which includes the **All Messages**, **Filtered Messages**, or **Selected Messages** options. For example, a subset of a message collection might reflect the application of a **Time Filter** or view **Filter**, which you would save under the **Filtered Messages** option. You can also save specifically selected messages with the **Save Selected Messages** context menu command in the **Analysis Grid** viewer. You can save your session results in the .matp (parsed) or .cap file format only.  
   
-    > [!NOTE]
-    >  If you save your trace results as a .cap file, **Comments**, **Bookmarks**, and **Time Shift** settings are not saved.  
+> [!NOTE]
+>  If you save your trace results as a .cap file, **Comments**, **Bookmarks**, and **Time Shift** settings are not saved.  
   
 -   **Parsing Levels** — if you set a **Parsing Level** when configuring a **New Session** that you run, thereafter when you save the message set that displays in a data viewer such as the **Analysis Grid**, the applied **Parsing Level** and its effects will be reflected in the saved file. Note that you must use the **Open File** feature on the **Start Page** or the **Open** and **From File Explorer** commands on the **File** menu, rather than loading one or more files through a **New Session**, to retrieve the data with the original **Parsing Level** applied.  
   
 ## See Also  
- [Applying and Managing Filters](applying-and-managing-filters.md)   
- [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)   
- [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)   
- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
- [Using and Managing Color Rules](using-and-managing-color-rules.md)   
- [Managing Chart Viewer Layouts](managing-chart-viewer-layouts.md)   
- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
- [Using the Pattern Editor](using-the-pattern-editor.md)   
- [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md)   
- [Setting the Session Parsing Level](setting-the-session-parsing-level.md)   
- [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles)   
- [Using the Field Chooser](using-the-field-chooser.md)   
- [Saving Message Data](saving-message-data.md)   
- [Annotation Windows](annotation-windows.md)   
- [Setting Time Shifts](setting-time-shifts.md)   
- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
+
+- [Applying and Managing Filters](applying-and-managing-filters.md)   
+- [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)   
+- [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)   
+- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
+- [Using and Managing Color Rules](using-and-managing-color-rules.md)   
+- [Managing Chart Viewer Layouts](managing-chart-viewer-layouts.md)   
+- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
+- [Using the Pattern Editor](using-the-pattern-editor.md)   
+- [Creating and Managing Custom Trace Scenarios](creating-and-managing-custom-trace-scenarios.md)   
+- [Setting the Session Parsing Level](setting-the-session-parsing-level.md)   
+- [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles)   
+- [Using the Field Chooser](using-the-field-chooser.md)   
+- [Saving Message Data](saving-message-data.md)   
+- [Annotation Windows](annotation-windows.md)   
+- [Setting Time Shifts](setting-time-shifts.md)   
+- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)

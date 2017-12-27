@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Creating and Modifying Color Rules
+
 Message Analyzer enables you to create new **Color Rules** of your own design or you can modify existing ones. Message Analyzer provides an **Example Color Rules** item under **My Items** in the **Color Rules** drop-down list on the **Analysis Grid** viewer toolbar that you can modify however you want for practice purposes, so you can begin familiarizing yourself with **Color Rule** features and functions. After you create a new **Color Rule** or modify an existing one, you can add it to an existing **Category** or populate it to a new **Category** that you define for your local **Message Analyzer Color Rules** asset collection Library. You can perform these operations by using the **Edit Color Rule** dialog, which is accessible in each of the following ways:  
   
 -   By selecting the **New Color Rule** item from the **Color Rules** drop-down list on the **Analysis Grid** viewer toolbar. Note that this drop-down list is also available from the global Message Analyzer **Session** menu, but only when an **Analysis Grid** viewer tab has focus.  
@@ -45,8 +47,8 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
   
      To do this, you can manually configure a filter by entering the Filter Expression text directly in the filter text box below the **Edit Color Rule** dialog toolbar, or you can select a built-in Filter Expression from the centralized **Message Analyzer Filters** asset collection **Library**. If you want to manually configure a Filter Expression, the Filter IntelliSense service is available to provide statement completion assistance.  
   
-    > [!NOTE]
-    >  Whether you specify a manually configured Filter Expression or you modify one of the predefined expressions from the centralized **Library**, Message Analyzer automatically validates that the expression properly compiles when you attempt to **Save** the **Color Rule**. If the filter expression does not compile, you will be unable to save the new **Color Rule**.  
+> [!NOTE]
+>  Whether you specify a manually configured Filter Expression or you modify one of the predefined expressions from the centralized **Library**, Message Analyzer automatically validates that the expression properly compiles when you attempt to **Save** the **Color Rule**. If the filter expression does not compile, you will be unable to save the new **Color Rule**.  
   
 -   Configure the decoration scheme for the new **Color Rule** by using the controls in the **Style**, **Weight**, **Lines**, and **Colors** panes of the **Edit Color Rule** dialog. As you modify the **Color Rule** decoration scheme, the configuration is displayed in the **Preview** pane at the bottom of the **Edit Color Rule** dialog.  
   
@@ -62,10 +64,11 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
   
 -   Create the new **Color Rule** and **Category** (if you specified one) by clicking the **Save** button in the **Edit Color Rule** dialog.  
   
-    > [!NOTE]
-    >  After you save a new **Color Rule** or an edited one, it is automatically applied to the current message collection displaying in the **Analysis Grid** viewer.  
+> [!NOTE]
+>  After you save a new **Color Rule** or an edited one, it is automatically applied to the current message collection displaying in the **Analysis Grid** viewer.  
   
 ## Modifying Color Rules  
+
  Message Analyzer enables you to modify, delete, or create a copy of any **Color Rule** under the **My Items** node only, in the **Color Rules** drop-down list. This includes the **Example Color Rule** that is provided for practice purposes. You can also **Create a Copy** of any predefined **Color Rule**, modify it, and then **Save** it, but you cannot directly modify a predefined **Color Rule** that is provided by default with Message Analyzer. The commands to perform these operations are available as the following context menu items, which display as appropriate for the category node in which you right-click a **Color Rule**:  
   
 -   **Edit** — available for **Color Rules** under the **My Items** node only. Displays the **Edit Color Rule** dialog, from where you have access to the **Color Rule** configuration described in [Creating New Color Rules](creating-and-modifying-color-rules.md#BKMK_CreatingNewColorRules).  
@@ -84,4 +87,5 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
  **More Information**   
  **To learn more** about managing **Color Rule** items, including sharing them with others, see [Managing Color Rules](managing-color-rules.md).   
 **To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md) and the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
+
 ---

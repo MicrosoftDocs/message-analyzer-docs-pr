@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using and Managing Color Rules
+
 Message Analyzer provides an important analysis feature known as  **Color Rules**, to enable you to define special filters that use color, text, and font styles to decorate and highlight messages that contain specific information in a trace. With this feature, you can apply visual indicators on top of individual message rows in a set of trace results or log data displaying in the **Analysis Grid** viewer, to easily identify specific types of traffic at a glance, thereby lessening the need for additional actions and diagnostics. Rather than as a mechanism that isolates particular messages that meet specific criteria and removes those that do not, such as you have with a view **Filter**, you can think of **Color Rules** as a feature that serves the following purposes:  
   
 -   **Alerts** — you can use **Color Rules** to serve as a warning or reminder function that invites closer scrutiny and further investigation of certain messages that meet rules criteria.  
@@ -28,6 +30,7 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
  For example, you could very quickly expose messages with a particular transport and network protocol in a trace by applying the default **TCP** left gradient and **IPv4 Right Gradient** rules from the **Color Rules** drop-down list on the **Analysis Grid** toolbar. Thereafter, all **TCP** messages that use **IPv4** will display in the **Analysis Grid** viewer with the opposite facing gradient color configurations that are characterized by these rules. Note that the **Analysis Grid** viewer will expose these color configurations by showing them in top-level messages, even if one of those **Color Rules** applies to an unexposed origins message only.  
   
 ## Using the Default Color Rule Asset Collection Library  
+
  To help you get started and familiarized with real-world usage examples, Message Analyzer provides a default set of **Color Rules** in several different **Categories** in the **Message Analyzer Color Rules** asset collection **Library**. These categories provide some basic filtering rules, decoration schemes, and text styles that are useful for exposing messages from common protocols such as TCP, ARP, SMB, HTTP, RPC, and so on. Message Analyzer provides the default set of **Color Rules** in the following categories:  
   
 -   **Network**  
@@ -68,6 +71,7 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
 >  The default gradient **Color Rule** pairs are specifically designed to visually coordinate the display of their gradients in opposite directions when overlaid on a single message that matches the filtering criteria of both rules. This is possible because each **Color Rule** makes appropriate use of a white background for either the **Left-Hand Side** or **Right-Hand Side** color in the **Gradient Background** configuration, so that the overlaid gradients can show through.  
   
 ## Expanding the Default Color Rule Asset Collection Library  
+
  If the default **Color Rules** do not provide the features that you need, you can obtain additional **Color Rules** in the following ways:  
   
 -   **Download** — download **Message Analyzer Color Rule** asset collection updates from the Message Analyzer feed in the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu.  
@@ -87,7 +91,9 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
  **To learn more** about **Color Rule** management features, see [Managing Color Rules](managing-color-rules.md).  
 **To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
 **To learn more** about auto-syncing and downloading user Library asset collection updates, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
+
 ---  
   
 ## See Also  
- [Applying Color Rules](applying-color-rules.md)
+
+- [Applying Color Rules](applying-color-rules.md)

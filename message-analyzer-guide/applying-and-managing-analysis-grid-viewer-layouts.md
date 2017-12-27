@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Applying and Managing Analysis Grid Viewer Layouts
+
 Message Analyzer enables you to apply built-in and custom column layout configurations to the **Analysis Grid** viewer to create unique data viewing capabilities that expose other data fields of interest beyond the default **Analysis Grid** viewer column configuration. These layout configurations are included in the **Message Analyzer View Layouts** asset collection Library, which is accessible from the **Layout** drop-down list on the **Analysis Grid** viewer toolbar. By default, this Library contains a list of built-in view **Layouts** and a customizable **Example** layout, which are included in every Message Analyzer installation. The **Layout** drop-down list also has several commands that enable you to save, restore, and manage the **Layouts**. The main reason why you might change the default **Layout** is to reconfigure the **Analysis Grid** viewer data column arrangement to one that is more applicable to the type of troubleshooting or analysis tasks you are performing. When you select a built-in **Layout**, Message Analyzer adds new data columns that expose additional message field values. By doing this, you can expose hidden data that might be critically important to your data analysis perspectives.  
   
  You can change the default column arrangement by applying any built-in **Layout** or by creating, saving, and applying any custom **Layout** of your own. You can create your own custom **Layouts** by using the **Field Chooser** **Tool Window** to add new columns to the **Analysis Grid** viewer, or you can similarly customize the **Example** **Layout** however you want. Note that you can even apply the **Group** function to one or more **Analysis Grid** viewer data columns, by right-clicking chosen data columns and selecting the **Group** command from the context menu, and then save the resulting grouped configuration as a new view **Layout** asset collection Library item. You can also sort any column and the sort configuration will be persisted when you save the **Layout**.  
@@ -22,6 +24,7 @@ Message Analyzer enables you to apply built-in and custom column layout configur
  The commands that facilitate these features, along with the built-in **Layout** functions, are described in the sections that immediately follow.  
   
 ## Applying Built-in View Layouts  
+
  Message Analyzer provides several built-in view **Layouts** that you can quickly apply to a message collection in the **Analysis Grid** viewer by simply selecting them from a drop-down list. These layouts consist of many different column configurations that expose data that can be useful for troubleshooting common problems, for example, when the TCP or HTTP protocol is the focus of analysis. In addition, the built-in **Layouts** provide various grouped message presentations that streamline analysis of data from Perfmon, WPP,  ProcMon, and other logs. The built-in **Layouts** are contained in the following subcategories of the top-level **Message Analyzer** category:  
   
 -   **Azure Storage** category  
@@ -101,8 +104,8 @@ Message Analyzer enables you to apply built-in and custom column layout configur
   
     -   **TCP Deep Packet Analysis with RELATIVE Sequence Number with Grouping** — provides a **Layout** that creates a hierarchy of **Network**, **Transport**, and **Sourceport** groups that isolate network conversations at top-level, the transport that carried them in the first nested group, and the ports over which the conversations transited in the second nested group. The **Network** and **Transport** groups provide quick access to data that can assist you in troubleshooting the network layer and related communication ports, for example IP addresses,  conversation direction, and conversation ports. The columns in this **Layout** are identical to those of the **TCP Deep Packet Analysis with RELATIVE Sequence Number Flat** **Layout**, as is the use of relative sequence numbers.  
   
-        > [!NOTE]
-        >  If you also specify a **TCP** **Viewpoint** with the TCP **Layouts** described here, you can isolate all TCP traffic as top-level messages for ease of analysis.  
+> [!NOTE]
+>  If you also specify a **TCP** **Viewpoint** with the TCP **Layouts** described here, you can isolate all TCP traffic as top-level messages for ease of analysis.  
   
 -   **IIS** category  
   
@@ -141,6 +144,7 @@ Message Analyzer enables you to apply built-in and custom column layout configur
     -   **Example View Layout** — provides a sample **Layout** based on TCP fields that you can modify as you wish. You can save your changes with a new **Layout** name that is appropriate for the type of analysis it supports.  
   
 ## Managing View Layouts  
+
  The **Layout** asset collection Library drop-down list also provides a set of commands that enable you to manage your view **Layouts**. Most commands are accessible in a submenu that displays when you click the **Manage Layouts** item in the **Layouts** drop-down list, as described in the "Manage Layout Commands" section below. However, the following frequently used command is directly accessible from the **Layout** drop down list for convenience:  
   
 -   **Save Current Layout As…** — enables you to save view **Layouts** that reflect unique column configurations that you create with **Field Chooser**, so that they appear as items in a specified **Category** in your local asset collection **Layout** Library. Thereafter, you can reapply them whenever you want to by selecting them from the **Layout** Library, or you can export them to a designated location for sharing with other users.  
@@ -159,6 +163,7 @@ Other commands that are available for managing view **Layouts** display in a sub
 -   **Manage…** — displays the **Manage Column Layouts** dialog from where you can export one or more **Layouts** as shareable items so that other users can take advantage of your **Layout** configurations. You can also import one or more **Layouts** that other users have made available as shareable items, to expand your local **Layout** Library. In addition, you can edit the information for any column **Layout** in the **My Items** category of the dialog by executing the **Edit** command from the dialog's right-click context menu.  
   
 ## Sharing View Layout Items  
+
  When you save a view **Layout**, it becomes part of a local asset collection Library containing **Layout** items that you can manage and share with others. Message Analyzer provides a simple way to expose these **Layout** items to others for sharing, or to retrieve **Layouts** that others have shared. From the **Manage Column Layout** dialog, you can share **Layout** items directly with others by selecting the item/s you want to share and then clicking the **Export** button on the dialog tool bar. The **Save Library** dialog then displays so that you can enter **Title**, **Description**, and **Organization** data. Thereafter, you can specify the file share location where you want to post your items. You can also use the **Import** feature in the same dialog to access **Layout** items that have been shared by others to a designated file share. The **Manage Column Layout** dialog is accessible by selecting the **Manage…** item in the submenu that appears when you select the **Manage Layouts** item from the **Layout** asset collection Library drop-down list on the **Analysis Grid** viewer toolbar.  
   
  You can also share your **Layout** items through the Message Analyzer Sharing Infrastructure by creating a user feed from the **Settings** tab of the **Asset Manager** dialog, which is accessible from the Message Analyzer global **Tools** menu. When you create your own user feed, you will point it to a file share or other designated location where you post your **Layout** items. To post your items, click the **Export** button on the **Manage Column Layout** dialog tool bar and navigate to the designated share location. Thereafter, you can update existing items or add others and make them available to team members or other users through the configured feed, where users can view, download, and synchronize to updates to your **Layout** items. However, the synchronization feature will be available only in a future Message Analyzer release, at which time the Sharing Infrastructure publishing features will enable others to automatically synchronize to any updates that you make to your **Layout** items on a user feed. In the meantime, you can perform a manual configuration process that enables users to synchronize to your **Layout** asset collection updates, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
@@ -175,4 +180,5 @@ Other commands that are available for managing view **Layouts** display in a sub
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 **To learn more** about the **Analysis Grid** viewer **Group** function, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 **To review** some simple examples of TCP troubleshooting with Message Analyzer, see [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md).  
+
 ---

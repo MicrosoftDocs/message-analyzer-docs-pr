@@ -13,10 +13,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Event Log IDs
+
 The **Event Log IDs** viewer **Layout** for **Charts** provides a horizontal **Bar** element  visualizer component that displays the message count associated with each **EventID** in an event  (\*.evtx) log. This **Layout** provides an immediate visual assessment of the relative distribution of message volume per **EventID** — ordered from the highest to the lowest volume. As you might expect, this exposes which **EventIDs** had the most significant volumes.  
   
 ## Using the Event Log IDs Layout  
+
  From a quick visual assessment of the data in this **Layout** alone, you can determine the events that involved the highest message count, which could be an indication of where  further investigation is needed, for example, very busy processes that are generating a large number of events. High volumes might also point to an overburdened system component or application that is issuing a lot of event traffic or experiencing a high rate of errors. Sparse traffic might be an indication of dropped packets due to misconfigured ETW Session buffer settings, as described in [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).  
   
  **Interactive Analysis**   
@@ -31,4 +34,5 @@ The **Event Log IDs** **Layout** for the **Chart** viewer is intended to work wi
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **Event Log** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **Event Viewer** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **Event Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+
 ---

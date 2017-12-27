@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Session Data Viewer Options
+
 After you use the **New Session** dialog to configure either a Data Retrieval Session that points to the input files that contain the data you want to work with, or a Live Trace Session that you are ready to run, you can choose one of the data viewers previously described in the [Data Viewers](data-viewers.md) section to display your data. You can also simply allow Message Analyzer to present your session results in the default **Analysis Grid** viewer, unless you have already set another type of data viewer as the default in the **Options** dialog, as described in [Setting the Default Session Viewer](session-data-viewer-options.md#BKMK_SetDefaultViewer). If you want to choose a data viewer for a session, select one from the common **Start With** drop-down list in the **New Session** dialog prior to starting the session. After you click the **Start** button in the **New Session** dialog, Message Analyzer immediately begins to retrieve or capture data and display it in the chosen viewer.  
   
 ## Using the Data Viewing Options  
+
  The data viewer that appears in the text box portion of the **Start With** combo box when you open the **New Session** dialog, is the default viewer that is set in the global **Options** dialog; this dialog is accessible from the global Message Analyzer **Tools** menu. At any time, you can specify the default data viewer of your choice for all sessions, as described in [Setting the Default Session Viewer](session-data-viewer-options.md#BKMK_SetDefaultViewer), although you still have the option to choose a different one prior to starting a new session. However, the default data viewer setting will persist in each subsequent reopening of the **New Session** dialog, which provides you with the same option again to use the default viewer or choose another one. In addition, after session results display in the viewer you specified in session configuration, you have the option to display data in any of the other available data viewers to enhance data analysis by selecting them from the **New Viewer** drop-down list, as described in [Locating Data Viewers for Selection](session-data-viewer-options.md#BKMK_DataViewerSelectionLocations). The data viewers that are available in Message Analyzer are described in the [Data Viewers](data-viewers.md) section.  
   
 > [!NOTE]
@@ -62,4 +65,5 @@ After you use the **New Session** dialog to configure either a Data Retrieval Se
  **More Information**   
  **To learn more** about Message Analyzer data windows that interact with data viewers, see the [Tool Windows](tool-windows.md) topic.  
 **To learn more** about how to configure and save custom  **Chart** viewer **Layouts**, see [Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md).   
+
 ---

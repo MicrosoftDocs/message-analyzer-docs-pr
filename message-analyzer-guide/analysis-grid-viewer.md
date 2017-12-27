@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Analysis Grid Viewer
+
 The details of raw message data are presented in the Message Analyzer **Analysis Grid** viewer. This is the viewer that displays by default for all Data Retrieval Sessions and Live Trace Sessions, unless you either change the default **Default Viewer** on the **Profiles** tab of the global **Options** dialog that is accessible from the global Message Analyzer **Tools** menu, or if you simply select a different viewer from the **Start With** drop-down list in the **New Session** dialog prior to starting a session. The **Analysis Grid** viewer consists of a default tree grid display that groups related messages together in expandable, stacked configurations of parent and child message nodes that show Operations and other top-level messages above the underlying capture modules (message stack, also called the "origins" in this Operating Guide) and message fragments that supported such transactions across the time boundaries of a trace. In addition, the message **Details**, **Message Data**, **Message Stack**, and **Field Data** **Tool Windows** display by default when you specify the **Analysis Grid** as a data viewer. Note that message selection in the **Analysis Grid** drives interaction with these **Tool Windows**. The default configuration of the Analysis Grid  viewer is shown in the figure that follows.
 
  ![Analysis Grid viewer default configuration](media/fig41-analysis-grid-viewer-default-configuration.png "Fig41-Analysis Grid viewer default configuration")
@@ -51,6 +53,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 >  If you are a Microsoft Network Monitor user and familiarizing yourself with Microsoft Message Analyzer, you might consider adding the **DeltaFromFirst** field to the **Analysis Grid** viewer as a new column to simulate the **Time Offset** field in Network Monitor. Both of these fields in their respective tools provide the sequential running time of each message in  a set of trace results. To display the **DeltaFromFirst** field as a column, open the **Field Chooser** and expand the **Global Properties** node. Next, right-click the **DeltaFromFirst** property in the list and select the **Add As Column** command to display it as a new column in the **Analysis Grid** viewer. Note that an instance of the **Analysis Grid** viewer must be in focus when you perform this task.
 
 ## Tree Grid Features for Data Manipulation
+
  The **Analysis Grid** viewer also provides numerous functions that you can access from the tree grid so that you can manipulate the data display to streamline data assessment. Moreover, these functions enable you to do the following:
 
 -   Review a message **Summary** that highlights significant fields and values for any selected message.
@@ -130,16 +133,18 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
 ---
 
-     **More Information**
-     **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+**More Information**
+**To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+
 ---
 
 -   **Group by Multiple Values** — creates groups based on varying values in a particular field that might be different at various stack levels, for example, IP addresses and Ethernet addresses hidden in the stack. Note that the **Group by Multiple Values** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
 
 ---
 
-     **More Information**
-     **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+**More Information**
+**To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+
 ---
 
 -   **Remove** — enables you to remove any column from the current column **Layout** that is displayed in the **Analysis Grid** viewer. Note that you can restore the default **Layout** for the **Analysis Grid** viewer at any time by selecting the **Restore Application Default Layout** command that displays when you click the **Manage Layouts** menu in the **Layouts** drop-down list on the **Analysis Grid** viewer toolbar.
@@ -155,6 +160,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 -   **Add Columns** — enables you to display the **Field Chooser** window, or to set the focus on it if already displayed.
 
 ## Other Data Manipulation Feature Locations
+
  Message Analyzer also provides several other locations that contain data manipulation features that can impact the display of data in the **Analysis Grid** viewer, although some of these are also duplicated elsewhere. The other locations for data manipulation features include the Message Analyzer global menus and the global toolbar, which are both located at the top of the Message Analyzer main working interface. Data manipulation commands that are included under global menus consist of the following:
 
 -   **Session** global menu — note that several of these commands are duplicated on the global Message Analyzer toolbar:
@@ -193,17 +199,18 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
  **More Information**
  **To learn more** about the data manipulation features that you can use when working with the **Analysis Grid** viewer, see the following topics:
-[Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)
-[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
-[Using the Find Message Feature](using-the-find-message-feature.md)
-[Using the Go To Message Feature](using-the-go-to-message-feature.md)
-[Filtering Column Data](filtering-column-data.md)
-[Using and Managing Color Rules](using-and-managing-color-rules.md)
-[Applying and Managing Filters](applying-and-managing-filters.md)
-[Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
-[Using the Field Chooser](using-the-field-chooser.md)
-[Setting Time Shifts](setting-time-shifts.md)
-[Annotation Windows](annotation-windows.md)
+- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)
+- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
+- [Using the Find Message Feature](using-the-find-message-feature.md)
+- [Using the Go To Message Feature](using-the-go-to-message-feature.md)
+- [Filtering Column Data](filtering-column-data.md)
+- [Using and Managing Color Rules](using-and-managing-color-rules.md)
+- [Applying and Managing Filters](applying-and-managing-filters.md)
+- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
+- [Using the Field Chooser](using-the-field-chooser.md)
+- [Setting Time Shifts](setting-time-shifts.md)
+- [Annotation Windows](annotation-windows.md)
+
 ---
 
 ## See Also

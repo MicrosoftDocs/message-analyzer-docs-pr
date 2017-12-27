@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Pattern Editor
+
 You can generate a sequential pattern matching definition as an OPN behavior scenario or a virtual operation. Note that the term “scenario” or “virtual operation” is used in the OPN code for various **Pattern** expressions to identify to the OPN Compiler the OPN entity type that is being referenced. A virtual operation enables you to abstract property values from pattern matching definition results to provide additional processing, such as writing custom output messages. A “scenario” does not provide this particular capability, but in all other respects, scenarios and virtual operations are identical.  
   
  The purpose of writing an OPN behavior scenario is to find the specific sequential message patterns that the scenario defines. Pattern matching is built upon a pattern matching engine that is called by OPN code via an API. This makes it possible for you to create your own custom **Pattern** expressions as OPN behavior scenarios that are subject to OPN compilation, which thereafter makes them accessible to the Message Analyzer Runtime parsing engine. You can create your own **Pattern** expressions by configuring one with the **Pattern Editor** dialog. Similarly, you can edit any **Pattern** expression with the features of this dialog.  
@@ -27,8 +29,8 @@ You can generate a sequential pattern matching definition as an OPN behavior sce
   
 -   **Analysis Grid** viewer — the **Create Pattern** command appears as a context menu item that displays when you right-click one or more selected messages in the **Analysis Grid** viewer. When you open the **Pattern Editor** from this location, it is prepopulated with an initial configuration of message **Id**, **Type**, and **Summary**, for *each* selected input message. The initial configuration provides a starting point for **Pattern** expression building, where you can specify parameters associated with the selected messages to create your pattern definition components.  
   
-    > [!TIP]
-    >  This method of starting **Pattern** expression configuration is very useful because it helps you learn how to write patterns, given that the initial OPN code is automatically created for you.  
+> [!TIP]
+>  This method of starting **Pattern** expression configuration is very useful because it helps you learn how to write patterns, given that the initial OPN code is automatically created for you.  
   
  After you open the **Pattern Editor** dialog from either of these locations, you can start to build pattern definition components for your **Pattern** expression, as described in the section that follows.  
   
@@ -37,8 +39,8 @@ You can generate a sequential pattern matching definition as an OPN behavior sce
   
 -   **Quick** configuration — a tabbed space that enables you to take advantage of UI automation to configure simple pattern definition components. You will find the *quick* configuration space on the **Quick** tab of the **Pattern Editor**. Note that this tab is prepopulated with data that is derived from one or more messages, but only if you launched the dialog from the previously described **Analysis Grid** viewer context menu command.  
   
-    > [!CAUTION]
-    >  If you are working with the UI automation feature on the **Quick** tab of the **Pattern Editor** and you click **Edit** on the toolbar of the **Free Form** tab, you will be unable to return to the **Quick** configuration tab.  
+> [!CAUTION]
+>  If you are working with the UI automation feature on the **Quick** tab of the **Pattern Editor** and you click **Edit** on the toolbar of the **Free Form** tab, you will be unable to return to the **Quick** configuration tab.  
   
 -   **Free Form** configuration — enables you to write OPN code by hand to configure pattern definition components. You will find the *free form* configuration space on the **Free Form** tab of the **Pattern Editor**. This option is mainly for users who are familiar with OPN coding and can create more complex **Pattern** expressions.  
   
@@ -59,8 +61,9 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
 ---  
   
-     **More Information**   
-     **To learn more** about backtracking, see the predefined **TCP Three-Way Handshake** expression walkthrough in [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).   
+**More Information**   
+**To learn more** about backtracking, see the predefined **TCP Three-Way Handshake** expression walkthrough in [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).   
+
 ---  
   
 -   **Insert a message criteria clause** — click the **Insert Criteria** link to display a set of clause configuration controls that enable you to perform the following basic operations:  
@@ -87,16 +90,16 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
 -   **Specify a value or field** — enter a value in the third criteria input box, against which the *fieldName* operand results are to be evaluated. The resulting filter expression for this criteria set would look similar to the following:  
     `field1Name – field2Name > someValue`  
   
-    > [!TIP]
-    >  Note that Message Analyzer enables you to use **Timestamp** as a field in a Pattern Expression. **Timestamp** is a **Global Annotation** that is accessible from the **Field Chooser** window.  
+> [!TIP]
+>  Note that Message Analyzer enables you to use **Timestamp** as a field in a Pattern Expression. **Timestamp** is a **Global Annotation** that is accessible from the **Field Chooser** window.  
   
 -   **Create a Summary for matched instance display** — in the text box under the **SUMMARY** subtab, specify summary text that will appear under the **Summary** column in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer. This can include the use of variable values that are specified in the **Pattern** expression.  
   
-    > [!NOTE]
-    >  You can include additional columns of data for variable values in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer, providing that you used the **assign** function in the **Pattern Editor** to assign the value of a field, or an operation on two fields, to a variable name that you create. To add columns of data based on one or more variables, you can select them under the **Column** heading that appears below the **SUMMARY** subtab text box. You also have the option to override the column (variable) names by specifying a different column name in the **Name Override** column beneath the **Summary** text box.  
-  
-    > [!TIP]
-    >  To review an example of how to use the **assign** function, see [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  
+> [!NOTE]
+>  You can include additional columns of data for variable values in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer, providing that you used the **assign** function in the **Pattern Editor** to assign the value of a field, or an operation on two fields, to a variable name that you create. To add columns of data based on one or more variables, you can select them under the **Column** heading that appears below the **SUMMARY** subtab text box. You also have the option to override the column (variable) names by specifying a different column name in the **Name Override** column beneath the **Summary** text box.  
+
+> [!TIP]
+>  To review an example of how to use the **assign** function, see [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  
   
 -   **Specify the message evaluation direction** — on the **ADVANCED** subtab of the **Quick** tab, optionally place a check mark in the **Evaluate sequential message patterns using the oldest to newest message** check box. This will begin the evaluation from the captured message that has the latest **Timestamp** value in a set of trace results; otherwise, the default (this check box unselected) is to start the evaluation from the message that contains the earliest **Timestamp** value in a set of trace results.  
   
@@ -104,8 +107,9 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
 ---  
   
-     **More Information**   
-     **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
+**More Information**   
+**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
+
 ---  
   
  **Populated Configuration Mode**   
@@ -142,8 +146,8 @@ If you choose to create a **Pattern** expression without any UI automation suppo
   
      These port values will be checked against port values in subsequent TCP messages that are evaluated by the second set of message criteria, to ensure that the **Pattern** expression processes only messages that are in the same conversation.  
   
-    > [!NOTE]
-    >  Whenever you create a variable as the right-hand expression of a criteria set and assign the value of some field to it in the **Pattern Editor**, that variable will appear in **Field Chooser** under the **Sequence Variables** node, which displays in the context of the **Pattern Editor** only.  
+> [!NOTE]
+>  Whenever you create a variable as the right-hand expression of a criteria set and assign the value of some field to it in the **Pattern Editor**, that variable will appear in **Field Chooser** under the **Sequence Variables** node, which displays in the context of the **Pattern Editor** only.  
   
 8.  In the first row of criteria controls for the second TCP message, click the ellipsis (**…**) to display the **Field Chooser** and then double-click the **PayloadLength** field in the TCP message hierarchy to display this field name in the first criteria input box.  
   
@@ -171,13 +175,13 @@ If you choose to create a **Pattern** expression without any UI automation suppo
   
 17. Click the **Save pattern** button on the toolbar of the **Pattern Editor** dialog to save this **Pattern** expression.  
   
-    > [!NOTE]
-    >  As soon as you save a new **Pattern** expression, Message Analyzer automatically executes the **Pattern** expression code against the current set of trace results.  
-  
-     If you want to view the **Pattern** expression code that Message Analyzer created in the background for the criteria control fields, operators, and values that you specified, you can hover over the **Pattern** expression in the **AVAILABLE PATTERNS** list of the **Pattern Match** viewer with your mouse, or you can right-click the **Pattern** expression and select the **Edit** or **Create a Copy** command in the context menu that appears, to display the code on the **Free Form** tab of the **Pattern Editor** dialog.  
-  
-    > [!TIP]
-    >  After you save a **Pattern** expression, you can leave the **Pattern Editor** dialog open so you can revisit the prepopulated view, should you need to alter the configuration with the automation controls. If you close the **Pattern Editor** for a newly created **Pattern** expression, you can then only view the **Pattern** expression in the **Free Form** configuration mode, which displays the OPN code rather than the automation controls that are accessible on the **Quick** tab .  
+> [!NOTE]
+>  As soon as you save a new **Pattern** expression, Message Analyzer automatically executes the **Pattern** expression code against the current set of trace results.  
+
+If you want to view the **Pattern** expression code that Message Analyzer created in the background for the criteria control fields, operators, and values that you specified, you can hover over the **Pattern** expression in the **AVAILABLE PATTERNS** list of the **Pattern Match** viewer with your mouse, or you can right-click the **Pattern** expression and select the **Edit** or **Create a Copy** command in the context menu that appears, to display the code on the **Free Form** tab of the **Pattern Editor** dialog.  
+
+> [!TIP]
+>  After you save a **Pattern** expression, you can leave the **Pattern Editor** dialog open so you can revisit the prepopulated view, should you need to alter the configuration with the automation controls. If you close the **Pattern Editor** for a newly created **Pattern** expression, you can then only view the **Pattern** expression in the **Free Form** configuration mode, which displays the OPN code rather than the automation controls that are accessible on the **Quick** tab .  
   
 ## Editing Pattern Expressions  
  You can edit, delete, set as a favorite, or make a copy of any **Pattern** expression that appears in the **My Items** category of your local **Pattern** expression Library in the **AVAILABLE PATTERNS** pane of the **Pattern Match** viewer. However, for the predefined **Pattern** expressions that appear in the **Network** category, you can only make a copy of these since they cannot be modified or deleted. To edit a **Pattern** expression, you will use the same **Pattern Editor** already described herein.  
@@ -195,4 +199,5 @@ For any of the built-in **Pattern** expressions that exist in the **Network** ca
   
  **More Information**   
  **To learn more** about language requirements, constructs, and other details you need to create OPN behavioral scenarios and virtual operations for pattern matching with **Pattern** expressions, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).   
+ 
 ---
