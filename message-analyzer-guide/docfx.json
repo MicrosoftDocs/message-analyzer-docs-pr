@@ -29,7 +29,6 @@
         "overwrite": [],
         "externalReference": [],
         "globalMetadata": {
-            "ms.locale": "en-us",
             "breadcrumb_path": "/message-analyzer/breadcrumb/toc.json",
             "extendBreadcrumb": true,
             "contributors_to_exclude": ["v-kents"]
