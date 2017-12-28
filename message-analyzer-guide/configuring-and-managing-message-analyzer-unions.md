@@ -14,16 +14,20 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuring and Managing Message Analyzer Unions
+
 The Message Analyzer **Unions** feature provides a service that can help you overcome the difficulties of analyzing data that derives from different sources with varying naming conventions, in a common environment. If you have an interlaced session containing trace data from multiple sources — for example, .cap, .matp, and text log files — you might also have fields or properties within the session data that are essentially identical, but Message Analyzer does not recognize them as such because they have different names. However, for ease of analysis, you can manually configure Message Analyzer to correlate such fields with a single new entity that you specify as a **Union**. A common example of how Message Analyzer *automatically* performs such a correlation is the manner in which date-time stamps of messages from different supported data sources are treated. Message Analyzer interprets the date-time stamps of such data sources and converts them to a predefined format that displays in a single **TimeStamp** column in the **Analysis Grid** viewer. This enables you to perform operations such as sorting and grouping by time, which are powerful data analysis techniques. However, there can also be many other fields, properties, and annotations from disparate data sources that you can configure Message Analyzer to recognize as identical.  
   
 ## Understanding Data Field Correlation  
+
  To facilitate this field correlation capability, Message Analyzer provides the **Unions** feature that enables you to combine one or more message fields, properties, or annotations from different data sources into a single entity that is defined by a **Union** name that you specify. You can then display the named **Union**, which correlates and represents its constituent message field components, as a new data column in the **Analysis Grid** viewer. By configuring a **Union** that maps similar data fields with different names to a single user-defined **Union** name, you can easily correlate equivalent trace data in a message set that combines multiple traces.  
   
 > [!NOTE]
 >  Message Analyzer also enables **Unions** to support multiple values as “sets” of values for a particular field in the correlation, as described in [Creating Unions](creating-unions.md). In addition, you can use a  **Union** that configures  a set of values in a **Chart** viewer **Layout**, for example, a set of IP addresses, as in the default **AddressPair** **Union** that you will find in the **Field Chooser**.  
   
 ## Simplifying Data Analysis with Unions  
+
  In the figure that follows, you will see messages that were captured at two different interfaces by two different data sources, a SambaSysLog and a live Wireshark trace. The scenario represented by this illustration involves troubleshooting SMB file access issues. To facilitate analysis, data from both sources is loaded together into Message Analyzer through a Data Retrieval Session and interlaced as if they were one trace, so that the log messages and associated SMB live capture messages can be assessed together.  
   
  ![SMB Fields Union Example](media/fig63-smb-fields-union-example.png "Fig63-SMB Fields Union Example")  
@@ -90,6 +94,7 @@ The Message Analyzer **Unions** feature provides a service that can help you ove
         -   **IPv6.Datagram.Source**, **IPv6.Datagram.Destination**  
   
 ## Using Unions in Message Analyzer Operations  
+
  Message Analyzer also enables the ubiquitous use of **Unions** with various operations, viewers, and tools that you might typically employ during data analysis processes, as follows:  
   
 -   Grouping  
@@ -110,9 +115,10 @@ The Message Analyzer **Unions** feature provides a service that can help you ove
   
  **What You Will Learn**   
 In the following topics of this section, you will learn how to create, modify, manage, and share **Unions**, in addition to performing Message Analyzer operations with them:  
-[Creating Unions](creating-unions.md)  
-[Modifying Unions](modifying-unions.md)  
-[Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)  
-[Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md)  
-[Managing Unions as Shared Items](managing-unions-as-shared-items.md)  
+- [Creating Unions](creating-unions.md)  
+- [Modifying Unions](modifying-unions.md)  
+- [Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)  
+- [Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md)  
+- [Managing Unions as Shared Items](managing-unions-as-shared-items.md)  
+
 ---

@@ -14,22 +14,27 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Creating Message Analyzer Aliases
+
 Message Analyzer enables you to create an alphanumeric string value **Alias** for any data field value in the **Analysis Grid** viewer that is of a type that supports aliasing, as described in [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md). You can create an **Alias** for only one data field value at a time; however, you can only create an **Alias** from the **Analysis Grid** viewer, as there are no other facilities to create one. Note that you can apply any alias while Message Analyzer is capturing data in a Live Trace Session or loading messages through a Data Retrieval Session.  
   
 ---  
   
  **Go To Procedure**   
 To go directly to a procedure that creates an **Alias**, see [Create an Alias for a Data Field Value](procedures-using-the-data-viewing-features.md#BKMK_CreateAlias). However, you are advised to examine the information contained in this section before doing so.  
+
 ---  
   
 ## Enforcing Unique Alias Values  
+
  Message Analyzer enforces the restriction that the **Value** of each *applied* **Alias** must be unique. However, if you create an **Alias** and its **Value** matches that of another **Alias**, and you **Save** it, Message Analyzer simply adds that **Alias** to the **Aliases** drop-down list on the global Message Analyzer toolbar and to the **Aliases** submenu that is accessible from the global Message Analyzer **Tools** menu, and then sets it to the disabled state, while preventing it from being applied to the current message set. If you attempt to enable this **Alias**, Message Analyzer blocks application of the **Alias** and displays a **Duplicated value** message to indicate the inherent restriction. Even though this is a restriction, it does give you the flexibility to create multiple **Aliases** with different names for the same **Value**; however, you can only enable and apply them one at a time.  
   
 > [!NOTE]
 >  Note that although it is possible to create multiple aliases with the *same* name but with different **Values**, this is probably not the best use of this feature, except perhaps for multiple IP addresses that your computer may have.  
   
 ## Configuring an Alias  
+
  To configure an **Alias** for a particular data field value in a set of trace results, right-click a field value in the **Analysis Grid** viewer that supports aliasing, for example, an IP address in the **Source** column, and then select the **Create 'Source' Alias** context menu item. Thereafter, the **Alias Editor** dialog appears and enables you to specify the values or settings that follow:  
   
 > [!NOTE]
@@ -45,8 +50,8 @@ To go directly to a procedure that creates an **Alias**, see [Create an Alias fo
   
 -   **Auto Refresh Views** — select this check box if you want Message Analyzer to refresh all data viewers that will be impacted by the new **Alias**, immediately after you **Save** the **Alias**.  
   
-    > [!IMPORTANT]
-    >  Be aware that the **Auto Refresh Views** function of the **Alias Editor** dialog can be activated only when creating a new **Alias**. It does not activate for other operations that you can perform, such as editing and saving an **Alias** or creating a copy of, modifying, and saving an **Alias**. In addition, when the current message set is refreshed to apply a newly created **Alias**, there could be an impact on performance depending on the number of messages that exist in the displayed message set.  
+> [!IMPORTANT]
+>  Be aware that the **Auto Refresh Views** function of the **Alias Editor** dialog can be activated only when creating a new **Alias**. It does not activate for other operations that you can perform, such as editing and saving an **Alias** or creating a copy of, modifying, and saving an **Alias**. In addition, when the current message set is refreshed to apply a newly created **Alias**, there could be an impact on performance depending on the number of messages that exist in the displayed message set.  
   
      If you do not select the **Auto Refresh Views** check box, and you **Save** the new **Alias**, Message Analyzer prompts you with the following message that displays on the **Aliases Changed** information bar above the **Analysis Grid** viewer:  
   

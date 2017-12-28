@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Modifying Message Analyzer Aliases
+
 If you want to modify an existing **Alias**, you will need to open the **Alias Editor** dialog, which is the same dialog that enables you to create a new **Alias**. To backtrack for a moment, when you *create* a new **Alias**, you access the **Alias Editor** dialog by right-clicking the field value of a data type in the **Analysis Grid** viewer that supports aliasing and then selecting the **Create ‘\<columnName>’ Alias** menu item to display the dialog. However, to *modify* an existing **Alias**, you can only use either of the following methods to open the **Alias Editor** dialog:  
   
 -   Right-click an existing **Alias** in the **Aliases** drop-down list that is accessible from the Message Analyzer global **Tools** menu or the global toolbar, and then select the **Edit** item in the context menu that appears.  
@@ -22,6 +24,7 @@ If you want to modify an existing **Alias**, you will need to open the **Alias E
 -   Click the **Aliases** drop-down list and then click the **Manage Aliases** command. From the **Manage Alias** dialog that displays, right-click the existing **Alias** that you want to modify, and then select the **Edit** item in the context menu that appears.  
   
 ## Using the Context Menu Commands  
+
  Whenever you right-click an existing **Alias**, either in the **Aliases** drop-down list or in the **Manage Alias** dialog, the following commands are accessible from the context menu that displays:  
   
 -   **Edit** — click this command to open the **Alias Editor** dialog, as previously indicated. The values and settings that you can specify in the **Alias Editor** dialog are described in [Creating Message Analyzer Aliases](creating-message-analyzer-aliases.md). Note that after you edit and **Save** changes to a currently enabled **Alias**, your modifications are automatically applied to the current message set, without Message Analyzer displaying the **Aliases Changed** information bar that prompts you to refresh data views. If you edit and **Save** changes to a currently disabled **Alias** (see [Enabling and Disabling Message Analyzer Aliases](enabling-and-disabling-message-analyzer-aliases.md)), your modifications are saved but they are not applied to the current message set until you manually select the **Alias** to enable it.  

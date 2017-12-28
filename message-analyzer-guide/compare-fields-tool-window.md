@@ -13,10 +13,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Compare Fields Tool Window
+
 Message Analyzer enables you to compare the field data of any two messages that you select in the **Analysis Grid** viewer for detailed analysis of field values. This functionality is provided in the **Compare Fields** **Tool Window**, which is a preview feature that you must enable on the **Features** tab of the **Options** dialog in order to use it.  After enabling this preview feature and restarting Message Analyzer, you can access it from the **Windows** submenu of the global Message Analyzer **Tools** menu.  
   
 ## Comparing Message Field Data  
+
  To begin, open the **Compare Fields** window from the **Windows** submenu as previously indicated, to display it in the lower right sector of the Message Analyzer user interface. Assuming that you have a set of trace results displaying in the **Analysis Grid** viewer, perform the following steps:  
   
 1.  In the **Analysis Grid** viewer, select a message containing the fields that you want to compare with those of another message of the same type.  

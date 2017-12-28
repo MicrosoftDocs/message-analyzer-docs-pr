@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Working With Operations
+
 Message Analyzer provides some special features for working with protocols that employ request and response messages as the basis of their negotiation architecture.  In other protocol analysis tools, it is a common practice to display messages in the order in which the tool originally captured them. In practice, this can present some difficulties for those who are analyzing such data, because they may have to search through literally hundreds, if not thousands of messages to locate the response to an associated request message. Although other techniques such as filtering can be used by the analyst to find these messages, it  can still involve multiple steps of additional manual configuration to locate and organize the data before analysis can begin.  
   
  Message Analyzer provides a simple solution to this problem by encapsulating each request and response message pair of any   protocol that uses this architecture into a single, expandable Operation node that displays as a top-level message row in the  **Analysis Grid** viewer. By expanding such an Operation node, you can expose the original request and response messages, where each of these messages also has an expandable  node that encapsulates an associated message stack. This technique pushes  all the information of importance in this scenario to top-level for quick and efficient analysis. Moreover, because the response message is at top-level, you don't have to search any further to begin analyzing the data.  Note that the Operations feature aligns with the overall Message Analyzer design strategy to bring relevant data that is normally hidden or dispersed to the top-level of a suitable analysis surface, where you can examine it immediately without the encumbrance of having to apply elaborate techniques to get at the data you need to assess.  
@@ -22,6 +24,7 @@ Message Analyzer provides some special features for working with protocols that 
 >  Some typical protocols that support request/response message pairs include HTTP, DNS, and SMB2. The messages for these protocols and others that support Operations will appear in the **Analysis Grid** viewer as Operation nodes, where they are signified by a blue-cubed icon.  
   
 ## Advantages of Operations to Analysis  
+
  The major advantage of  having request/response pairs encapsulated into separate Operations nodes  is that this configuration provides quick access to both the request and response messages when you expand an Operation node. You can also expose the server response time to requests that Message Analyzer automatically calculates for you, as described in the list that follows. With this information exposed at top-level in the **Analysis Grid** viewer, you can quickly make comparisons between several important values that can be critical to troubleshooting and analysis. These values consist of the following:  
   
 -   **ResponseTime** — provides an indication of how long it took to receive a server's first response to a request message. Large values for **ResponseTime** can be an indication of a slow server that is having performance problems.  
@@ -39,6 +42,7 @@ Message Analyzer provides some special features for working with protocols that 
   
  **More Information**   
  **To learn more** about the Response Time, as used in the **Average Response Times for Operations** view **Layout**, see the [Average Response Time for Operations](average-response-time-for-operations.md) topic.  
+
 ---  
   
 <a name="BKMK_TogglingOperations"></a>   
@@ -106,6 +110,7 @@ Message Analyzer provides some special features for working with protocols that 
 >  In the previous procedure, you can substitute selection of the **SMB/SMB2 Disable Operations** command in the **Viewpoints** drop-down list for step 4.  
   
 ## Usage Scenarios with Viewpoints  
+
  In a typical usage scenario, you might select the **Disable Operations** **Viewpoint** in the **Viewpoints** drop-down list to cause Operations to be  broken apart and the constituent request and response message pairs to then be displayed in chronological order, as previously described. In this display configuration, you might lose some context as the request and response messages will no longer be grouped together as a single operation, but will instead assume their original chronological position in the trace before Message Analyzer created the Operation nodes. This produces a view that is similar to Network Monitor and may provide some analytical value and familiarity to Network Monitor users, but the response messages can still be difficult to locate. However, you might find it easier to correlate the messages if you select the **No Viewpoints** item in the **Viewpoints** drop-down list to return to the display configuration that collapses all related request and response message pairs back into separate, top-level Operation nodes in the **Analysis Grid** viewer.  
   
  As an example of  another usage scenario, you may have applied a viewpoint such as the **HTTP** **Viewpoint** during an Analysis Session because you want to view only the messages at that level. However, HTTP can also have non-operational messages that display at the applied **Viewpoint**, for example payload reassembly messages, and you might not want to examine these yet. To remove these non-operational messages, you can apply the view **Filter**`HTTP && *IsOperation` from the Filtering Toolbar. If you want to examine only the non-operational HTTP messages, apply the view **Filter**`HTTP && !*IsOperation` from another **Filter** panel on the Filtering Toolbar. You can then toggle back and forth between applying and removing these filters to view and analyze the Operation messages and non-Operation messages in the **Analysis Grid** viewer, as required.  
@@ -114,5 +119,6 @@ Message Analyzer provides some special features for working with protocols that 
 >  After you select the **Disable Operations** **Viewpoint** to disassociate the request/response pairs in the Operation nodes for a set of trace results, you can continue to view the request and response message stacks side-by-side in the **Message Stack** **Tool Window**.  
   
 ## See Also  
- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)
+
+- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
+- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)

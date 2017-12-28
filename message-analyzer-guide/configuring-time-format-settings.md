@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuring Time Format Settings
+
 For the data viewers that display date-time values, Message Analyzer utilizes the standard ISO format for consistency throughout the user interface (UI). For example, the same date-time format that displays in the **Analysis Grid** viewer will also display in the **Pattern Match** viewer, in addition to the **Time Filter** dialog in Live Trace Session results and in the **Time Filter** pane of a Data Retrieval Session.  However, Message Analyzer enables you to change how time data displays by providing you with the option to show either the date and time, or the time only.  Configuration settings for these formats are available from the following locations:  
   
 -   **Options dialog** — this dialog is accessible from the global Message Analyzer **Tools** menu. The dialog exposes the **Time Display** pane on the **Display** tab, from where you can specify date and time configuration settings that include **Show Date And Time** and **Show Time Only** options, along with a **Time Zone** drop-down list that enables you to set your locale. Specifying the date and time configuration settings from this location has global scope that overrides any previously set configuration.  Note that by default, your local time zone is automatically set in the **Time Zone** drop-down list when you start Message Analyzer and will remain that way until you manually change it.  
@@ -27,4 +29,5 @@ For the data viewers that display date-time values, Message Analyzer utilizes th
 >  Although you might set the time display configuration to **Show Time Only**, you will still need to specify a full date and time value when you configure a `#Timestamp` filter, for example, when specifying a **Session Filter** or view **Filter**.  
   
 ## See Also  
- [Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md)
+
+- [Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md)

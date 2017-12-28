@@ -14,28 +14,32 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Creating Unions
+
 Message Analyzer enables you to create a **Union** that correlates two or more fields, properties, or annotations, as described in [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md). Creating a **Union** can help streamline data analysis and can also simplify what might otherwise be cryptic field names that are difficult to work with. You can create a new **Union** by selecting the **New Union** item from the **Unions** drop-down list in the global Message Analyzer **Tools** menu or by clicking the **Unions** button on the global Message Analyzer toolbar. Making such a selection causes the **Edit Union** dialog to display, from where you can provide the input configuration data that is required to create a new **Union**.  
   
 ---  
   
  **Go To Procedure**   
 To go directly to a procedure that creates a **Union**, see [Create a Union of Two Data Fields](procedures-using-the-data-viewing-features.md#BKMK_CreateUnion). However, you are advised to review the information contained in this section before doing so.  
+
 ---  
   
 ## Configuring a Union  
+
  To configure a **Union** of two or more data fields, properties, or annotations, use the following controls in the **Edit Union** dialog:  
   
 -   **Name** — in this text box, specify a **Union** name that is appropriate for your environment. However, note that you cannot prefix a **Union** name with a number; otherwise, you can follow your own naming conventions. Note that Message Analyzer permits you to specify a **Union** name that is similar to one of its child (constituent) field names. For example, a **Union** could be named “command”, even if one of its child field names is “SMB.command”. This is because the result of such a naming, *\<UnionName>*.command, is unique and would not collide with the child field name.  
   
-    > [!NOTE]
-    >  If the **Union** name that you specify already exists, Message Analyzer displays a message box with the following prompt:    
-    > "**The name has been used, please use a different name**"  
+> [!NOTE]
+>  If the **Union** name that you specify already exists, Message Analyzer displays a message box with the following prompt:    
+> "**The name has been used, please use a different name**"  
   
 -   **Type** — consists of a label that indicates the **Union** data type. It is likely that the fields, properties, or annotations that you combine into a **Union** will be of different data types. When this is the case, Message Analyzer performs a fundamental conversion to an appropriate type, as described in [Supporting Type Conversions for Union Fields](creating-unions.md#BKMK_UnionTypeConversions), to ensure that an appropriate data type is generated for your **Union**.  
-  
-    > [!NOTE]
-    >  If you add or remove any field, property, or annotation in the **Edit Union** dialog, the **Type** label may update to reflect a new **Union** data type, depending on the field types you are adding to or removing from the **Union** configuration.  
+    
+> [!NOTE]
+>  If you add or remove any field, property, or annotation in the **Edit Union** dialog, the **Type** label may update to reflect a new **Union** data type, depending on the field types you are adding to or removing from the **Union** configuration.  
   
 -   **Category** — in this combo box, specify the name of the **Category** in which to place your new **Union**. You have the option to either create a new **Category**, which is retained as an editable drop-down list item for future selection, or you can choose an existing **Category** from the drop-down. Be sure to create or choose a **Category** that is meaningful for your environment. All new categories that you specify become subcategories that appear under the default **My Items** top-level category in the **Unions** drop-down list. However, if you leave the **Category** combo box blank, the **Union** will be stored directly under the **My Items** category.  
   
@@ -80,11 +84,13 @@ To go directly to a procedure that creates a **Union**, see [Create a Union of T
   
      **More Information**   
     The [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) contains a type conversion table in section 2.1.7 that enables you to map the conversion path taken by Message Analyzer in the previously mentioned type conversion. For example, the type `byte` can implicitly convert to type `short`, and a `short` can implicitly convert to an `int`, therefore, type `byte` can convert directly to type `int`.   
+
 ---  
   
 -   **Base type conversion** — incompatible field types would remain incompatible if there were no implicit conversions to a common type available. Therefore, when this is the case, Message Analyzer converts all field types to a common base type called `any`. The `any` type is sufficient to handle the value range of any other data type. The **Union** would then display the `any` type in the **Type** label of the **Edit Union** dialog.  
   
 ## Performing Other Operations on Unions  
+
  After you successfully create one or more **Unions**, you can perform the following operation on any **Union** that exists in the **Manage Unions** dialog, as described in [Modifying Unions](modifying-unions.md):  
   
 -   **Create a Copy** — this  is the only command available for  built-in **Unions**, given that built-in **Union** assets   cannot be edited.  

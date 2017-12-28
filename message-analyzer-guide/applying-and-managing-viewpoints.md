@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Applying and Managing Viewpoints
+
 In Message Analyzer, the default **Analysis Grid** viewer focuses on top-level messages to provide a compact display of data summaries, so that you can very quickly understand issues at a high level. As a result, other important details can be hidden in this view, such as the underlying origins messages that support Operations or other top-level messages. However, because awareness of the activities of specific protocols at the lower layers can be crucial to data analysis, it is often necessary to achieve a focused analytical perspective at these levels. Moreover, it can also be advantageous to be able to view only the traffic of a particular higher-layer protocol, for example, HTTP. In Message Analyzer, this is made possible through the application of **Viewpoints**.  
   
 ## Understanding Viewpoints  
+
  To make your troubleshooting efforts easier, Message Analyzer enables you to examine network traffic from the perspective of a protocol, where you can display the specific protocol messages at top-level in the **Analysis Grid** viewer with no layers above them. For this reason, **Viewpoints** could be considered *layer filters* because they temporarily remove the display of all messages above the applied protocol **Viewpoint**, such that only those protocol messages appear at top-level in the **Analysis Grid** viewer.  
   
  For example, when viewing trace results in the **Analysis Grid** viewer, you may have higher-layer traffic that obscures the underlying messages that you want to troubleshoot. By default, the **Analysis Grid** viewer displays top-level messages and Operations in single rows with expandable nodes, where the message origins or underlying message stack is concealed under multiple lower-level expansion nodes. As a result, you can only examine the details of messages in the underlying layers by expanding the message nodes one by one to expose the protocol or module layer that you want to troubleshoot. Repeating this process across an entire trace when searching for specific data can become extremely labor intensive, particularly in a large trace with many messages.  
@@ -30,17 +33,19 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
  The **Viewpoint** that displays by default in the **Analysis Grid** viewer is a summary view of top-level messages that have no other message layers above them. After applying a **Viewpoint** to a set of messages and changing the data to the perspective of a particular protocol, you can return to the default **Viewpoint** by clicking the **No Viewpoint** item in the **Viewpoint** drop-down list on the Filtering Toolbar. You can also remove the current **Viewpoint** by selecting another one from the **Viewpoint** drop-down list.  
   
 ## Accessing the Built-In Viewpoints  
+
  To assist your troubleshooting efforts, Message Analyzer provides a robust set of built-in **Viewpoints** that you can access and apply from the Filtering Toolbar that appears whenever Message Analyzer displays a set of trace results, as described in [Using the Filtering Toolbar](using-the-filtering-toolbar.md). These **Viewpoints** are contained in the **Message Analyzer Viewpoints** asset collection Library that is accessible from the **Viewpoints** drop-down list on the Filtering Toolbar. They enable you to filter and reorganize your data view to display messages from the perspective of different protocols, modules, or message layers, in accordance with the functionality of the applied **Viewpoint** . The application of a **Viewpoint** enables you to achieve a unique analytical perspective on data that might normally be hidden from view or difficult to expose.  
   
 ## Using the Viewpoint Features  
+
  The remaining topics in this section describe the built-in **Viewpoints** that ship with Message Analyzer, applying a **Viewpoint**, how to work with **Viewpoint Filters**, and using the features for managing **Viewpoints**:  
   
 ---  
   
- [Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
-[Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
-[Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
-[Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
+- [Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
+- [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
+- [Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
+- [Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
 
 ---  
   
@@ -63,8 +68,8 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 ---  
   
-     **More Information**   
-     **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
+**More Information**   
+**To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
 
 ---  
   
@@ -72,8 +77,8 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 -   **TCP** — this **Viewpoint** reorganizes your data to enable easier diagnosis of the TCP layer. It places TCP messages on top, which can facilitate diagnosis of TCP performance issues that include the analysis of TCP SequenceNumber and AcknowledgementNumber values, TCP flags such as SYNs, SACKS, and ACKs, retransmits, broken three-way handshakes, window size, TCP options, and so on. Note that if you apply this **Viewpoint**, Operations will no longer be visible, as they typically exist at a layer above this **Viewpoint**.  
   
-    > [!TIP]
-    >  To enhance your analytical perspective with the **TCP** **Viewpoint**, you can use the **TCP Deep Packet Analysis with Relative Sequence Number with Grouping** view **Layout** for the **Analysis Grid** viewer to display the relevant field data in a predefined Grouped configuration with **Network**, **Transport**, and **SourcePort** groups.  
+> [!TIP]
+>  To enhance your analytical perspective with the **TCP** **Viewpoint**, you can use the **TCP Deep Packet Analysis with Relative Sequence Number with Grouping** view **Layout** for the **Analysis Grid** viewer to display the relevant field data in a predefined Grouped configuration with **Network**, **Transport**, and **SourcePort** groups.  
   
 -   **UDP** — provides perspective from the **Viewpoint** of the UDP transport protocol.  
   
@@ -85,8 +90,8 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 -   **HTTP** — an application-layer **Viewpoint** that places HTTP messages at top-level in the **Analysis Grid** viewer. Provides a convenient way to analyze the request/response pairs of HTTP Operations without having to search for the response messages. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
   
-    > [!NOTE]
-    >  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
+> [!NOTE]
+>  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
   
 -   **SMB/SMB2** — an application-layer **Viewpoint** that places SMB and SMB2 messages at top-level in the **Analysis Grid** viewer by removing RPC and any other message layers on top, for example, GSSAPI and Kerberos messages.  
   
@@ -165,4 +170,5 @@ In addition, you can share a **Viewpoints** asset collection through a user feed
 ---  
   
 ## See Also  
- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
+
+- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)

@@ -13,15 +13,17 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Filtering Data Sources
+
 This section describes how to filter a collection of messages based on the associated data sources from which the messages derive. This feature is particularly useful if you are loading saved data from multiple sources into Message Analyzer through a Data Retrieval Session. For example, you might have a collection of messages from related sources such as logs and traces that you are correlating and it may be advantageous to isolate the messages that are associated with each source of data. There are two ways you can achieve this, as follows:  
   
 -   **Filtering** — filter on the data sources that contain the messages you want to view.  
   
      To do this, select one or more data sources in the **Data Source Filter** dialog that is accessible from the global Message Analyzer **Session** menu after you load a collection of messages into Message Analyzer. By selecting one or more data sources in the dialog and clicking the **Apply** button, all messages are filtered from the current data  viewer except those that are associated with the selected data source/s.  
   
-    > [!NOTE]
-    >  The **Data Source Filter** feature does not support filtering in **Layouts** for the **Chart** viewer that you can access from the **New Viewer** drop-down list.  
+> [!NOTE]
+>  The **Data Source Filter** feature does not support filtering in **Layouts** for the **Chart** viewer that you can access from the **New Viewer** drop-down list.  
   
      The **Data Source Filter** dialog is shown in the figure that follows, where a trace file and a cluster log  are the selected data sources.  
   
@@ -41,6 +43,7 @@ This section describes how to filter a collection of messages based on the assoc
 >  The **Grouping** viewer does not currently have any **Layouts** that make use of the **DataSource** field by default. However, you can manually add this field to any **Grouping** viewer **Layout** as needed, as long as the **Grouping** viewer *has focus* when you are doing so. To add the **DataSource** field to a **Grouping** viewer **Layout**, use the **Field Chooser** as described immediately above.  
   
 ## Using the Data Source Filter Dialog  
+
  As previously described, you can access the **Data Source Filter** dialog by clicking the global **Session** menu, highlighting the **Data Source Filter** item, and then selecting the **Edit** command that appears in the drop-down list. When the **Data Source Filter** dialog displays, you will see a tabular listing of data source information in the following column headers:  
   
 -   **Data Source** — the listings in this column are specified in a format similar to the following examples, for the indicated file types:  
@@ -53,8 +56,8 @@ This section describes how to filter a collection of messages based on the assoc
   
     -   Log (.log) files — uses the format: FileName  
   
-    > [!NOTE]
-    >  The **DataSource** column in the **Analysis Grid** viewer can also include additional information when messages from cap, .etl, and other  files are displayed. For example the host name can be included in the listing.  
+> [!NOTE]
+>  The **DataSource** column in the **Analysis Grid** viewer can also include additional information when messages from cap, .etl, and other  files are displayed. For example the host name can be included in the listing.  
   
 -   **Start Time** — specifies the **Timestamp** of the first message in the trace file or log.  
   
@@ -68,4 +71,5 @@ After you use the **Data Source Filter** dialog to select the data source/s cont
  **More Information**   
  **To learn more** about how to use the **Group** context menu command in the **Analysis Grid** viewer, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 **To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.  
+
 ---

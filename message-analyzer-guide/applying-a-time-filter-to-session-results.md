@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Applying a Time Filter to Session Results
+
 Message Analyzer enables you to filter messages in data viewers that you have opened, such as the **Analysis Grid** and **Chart** viewers, based on a configured time window in which you elect to view messages. This feature is called a **Time Filter** and it is accessible from the **Add Filter** drop-down list on the Message Analyzer Filtering Toolbar that displays above the analysis surface where data viewers appear when selected. You can configure a **Time Filter** for Live Trace Session results similar to the way you configure a **Time Filter** for a Data Retrieval Session with some exceptions, as described in [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md), which includes employing controls that you  can use to define the **Start Time** and **End Time** of a time window in which to view messages. However, the   scope of these **Time Filters** is different, as are  some label and naming nomenclatures of the user interfaces involved.  
   
  The difference in scope of these **Time Filters** has to do with the context in which they are applied. For example, if you apply a **Time Filter** to data that you load into Message Analyzer through a Data Retrieval Session, only the messages that fall within the time window that you specify in the time-filter configuration are retrieved. All other messages are filtered out when the data is loaded, which therefore makes such filtered messages  unavailable in the chosen Message Analyzer data viewer. Thereafter, the filtered-out messages can be restored only by undoing the **Time Filter** configuration and reloading the data from the **Edit Session** dialog. On the other hand, although a **Time Filter** for a set of trace results applies the same type of time-slot filtering, it does so in the context of an already parsed message collection. This means that the original raw trace data is preserved in the Message Store even if the message display is altered by the way you manipulate the data. As a result, a **Time Filter** for trace results provides the convenience of enabling you to toggle back and forth between the original trace results and the time-filtered trace results, which can be a benefit to your analytical processes.  
@@ -32,12 +34,14 @@ When you apply a **Time Filter** to a Data Retrieval Session, the amount of data
   
  **More Information**   
  **To learn more** about applying a **Time Filter** when loading data from logs and trace files into Message Analyzer, including the file types for which Message Analyzer can determine start and end times, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+
 ---  
   
  **Applying a Time Filter to Live Trace Session Results**   
 On the other hand, if you wait to apply a **Time Filter** to a set of messages that are already displayed in a data viewer such as the **Analysis Grid**, an applied **Time Filter** must check the time stamps on each message in the entire collection against the filtering criteria, which can impact performance if there is a very high message volume. However, usability is improved since you can easily restore the entire message set, including conversation contexts, with a single click of the **Apply** button in the **Time Filter** panel on the Filtering toolbar after altering the time window as needed, for ease of analysis.  
   
 ## Configuring a Time Filter for a Set of Trace Results  
+
  When you are ready to configure a **Time Filter** for a set of trace results, select the **Add Time Filter** command that displays when you click the **Add Filter** drop-down list on the Message Analyzer Filtering Toolbar that appears just above the analysis surface where all data viewers display. This action displays the **Time Filter** panel that contains **Start Time** and **End Time** text boxes that by default  display the original time window boundaries of the displayed message collection, along with a set of time slider controls that enable you to adjust the window of time in which you want to view data.  
   
  As you change the time window with the slider controls, the time values in the **Start Time** and **End Time** text boxes display also change.   When you finish adjusting the time slider controls, the corresponding new start and end time values define the selected time window in which you are choosing to view data.  
@@ -48,10 +52,12 @@ On the other hand, if you wait to apply a **Time Filter** to a set of messages t
  As you set the slider controls, Message Analyzer creates a Filter Expression in the background that will facilitate the time-filtering action. Note that you can manually specify time stamps in the **Start Time** and **End Time** text boxes; however, any time stamp that is outside the message collection time boundaries will create an erroneous **Time Filter**.  
   
 ## Applying a Time Filter  
+
  After you set the time window configuration for a **Time Filter** as previously described, you can apply the filter by clicking the **Apply** button on the **Time Filter** panel. Message Analyzer responds by displaying only the messages that fall within the time window you specified. If you want to return to the unfiltered display of original message data, click the **Remove** button on the **Time Filter** panel. This action removes the effects of the previously applied **Time Filter**, but does not alter the time window configuration that you specified. If you want to reapply the **Time Filter**, you can do so by clicking the **Apply** button again on the **Time Filter** panel. You can toggle back and forth between the filtered and unfiltered view configurations as many times as you want, as the time window values that you set for a particular session viewer will persist until you change them.  
   
 > [!NOTE]
 >  As you alternately apply and remove a **Time Filter** configuration, you can observe the activation of session progress indicators in the **Session Explorer** **Tool Window**.  
   
 ## See Also  
- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
+
+- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)

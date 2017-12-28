@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Tool Windows
+
 This section describes various interactive **Tool Windows** that are provided with Message Analyzer to display additional message details such as field information, message stack, hexadecimal, diagnosis, and decryption data. Some **Tool Windows** support data analysis capabilities such as the application of **Viewpoints**, view **Filters**, and selection of messages. Others enable you to configure annotations such as comments and bookmarks, or to add new data columns to the **Analysis Grid** viewer based on selected message fields.  
   
  Certain **Tool Windows** provide a multi-instance capability that enables you to display up to a maximum of four windows of the same type. This feature enhances your data analysis process because it enables you to compare different message data across multiple instances of the same window type. The **Tool Windows** that support this capability include the **Details**, **Message Data**, and **Message Stack** windows.  
@@ -31,8 +33,9 @@ This section describes various interactive **Tool Windows** that are provided wi
   
 ---  
   
- [Message-Specific Windows](message-specific-windows.md)   
- [Session-Specific Windows](session-specific-windows.md)   
- [Annotation Windows](annotation-windows.md)   
- [Other Windows](other-windows.md)   
+- [Message-Specific Windows](message-specific-windows.md)   
+- [Session-Specific Windows](session-specific-windows.md)   
+- [Annotation Windows](annotation-windows.md)   
+- [Other Windows](other-windows.md)   
+
 ---

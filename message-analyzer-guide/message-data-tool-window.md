@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Message Data Tool Window
+
 The **Analysis Grid** viewer works in tandem with the message **Details**, **Message Data**, and **Field Data** **Tool Windows**. If you select any message row in the **Analysis Grid** viewer, message data can be displayed in the following ways:  
   
 -   The hexadecimal value of a message field may be highlighted in the **Message Data** window.  
@@ -24,9 +26,11 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
 -   The decimal or parenthetical hexadecimal value of any selected message field in **Details** can display in the **Field Data** window.  
   
 ## Tool Window Interaction  
+
  If you select a particular field in the **Details** window, Message Analyzer highlights the hexadecimal value of that field in the **Message Data** window. The **Details** window also works interactively with **Field Data** window. For example, if you select a field in the **Details** window, the **Field Data** tab displays the decimal and hexadecimal values of the selected field. These capabilities enable you to quickly assess the value of any field contained in any message.  
   
 ## Using the Controls and Commands  
+
  The **Message Data** window is accessible as a selectable tab below the **Analysis Grid** viewer, as is the **Field Data** window. The **Message Data** window has several right-click context menu commands that provide options for copying, displaying, and saving hexadecimal, ASCII, and binary data, as described below.  
   
 -   **Copy** — enables you to copy several forms of data in the **Message Data** window, as follows:  
@@ -63,6 +67,7 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
 -   **Protocol Offset** — indicates how far the starting point of field data or a highlighted block of hexadecimal values is offset, in bytes, from the beginning of a protocol message, which starts at the point where the stripped header (un-highlighted values) of a previous lower layer ends.  
   
 ## Viewing Field and Message Data  
+
  You can view the fields and values of any top-level parent message node that you select in the **Analysis Grid** viewer, and you can also view the fields and values of any selected child message node that is part of the origins tree under its parent node. To expose this data, expand the parent message node and each child message node in succession to display the underlying stack layers that make up the origins tree. For example, you might have a TCP message as a parent node in a **Local Network Interfaces** trace, with subsequent child nodes for the **IPv4**, **Ethernet**, **NdisProvider**, and **Etw** messages that make up the origins tree. If you select a message row in the **Analysis Grid** viewer for any one of these messages and you have not yet selected a field in the **Details** window, all the data contained in the selected message is highlighted in the **Message Data** window. Moreover, if you select a particular field of the message in the **Details** window, Message Analyzer highlights the hexadecimal value of the field in the **Message Data** window. At the same time, the value of the field displays in the **Field Data** window.  
   
  You can also examine the headers and payloads of any particular message layer and you can even observe how the process of de-encapsulation is represented, as you upwardly traverse the message stack. For instance, using the previously indicated TCP example, perform the following steps to visualize how de-encapsulation took place:  
@@ -98,12 +103,15 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
  **Figure 66:  Message Analyzer Layer De-encapsulation example**  
   
 ## Displaying the Message Data Tool Window  
+
  If the **Message Data** window is no longer displaying in an Analysis Session, you can redisplay it by selecting the **Message Data** item from the **Windows** submenu, which is accessible from the global Message Analyzer **Tools** menu. You can also undock and reposition the **Message Data** window by taking advantage of the docking navigation control that displays after you drag the **Message Data** window away from its default docking location by its tab. You might do this to move the **Message Data** window adjacent to another **Tool Window** or data viewer with which you are working, to enhance your data analysis perspectives.  
   
 ## Analyzing Data with Multiple Message Data Tool Window Instances  
+
  The **Message Data** window provides a multi-instance capability that enables you to display up to a maximum of four numerically numbered windows of this type. This feature supports your data analysis process because it enables you to compare the hexadecimal data of different messages across multiple instances of this window type.  
   
  For example, selecting a message in the **Message Stack 1** window, **Analysis Grid** viewer, **Grouping** viewer, or other data viewer, can drive the display of hexadecimal values in the **Message Data 1** window, if it is currently open. Before selecting another related message of interest in a particular viewer, you can pin or *freeze* the data in the **Message Data 1** window by clicking the pinning icon on its toolbar and then open the **Message Data 2** window from the **Windows** submenu that is accessible from the global **Tools** menu. You can then select another related message in a particular viewer. Thereafter, the hexadecimal values of any message that is automatically selected in the **Message Stack** window or of any field that is automatically selected in the **Details** window are displayed in the **Message Data 2** window. You can now easily compare data between the two **Message Data** window instances. You can display up to four **Message Data** windows to compare the values of four messages that you select in a particular viewer.  
   
 ## See Also  
- [Message Details Tool Window](message-details-tool-window.md)
+
+- [Message Details Tool Window](message-details-tool-window.md)

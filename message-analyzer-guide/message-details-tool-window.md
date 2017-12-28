@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Message Details Tool Window
+
 The message **Details** **Tool Window** is one of the primary windows that is driven by message selection in viewers such as the **Analysis Grid**, **Pattern Match**, **Gantt**, and others. For example, whenever you select a message row in the **Analysis Grid** viewer or in the **Matched Instances** section of the **Pattern Match** viewer, the grid configuration of the **Details** window below the **Analysis Grid** viewer is populated  with field names, values, types, and other data associated with the particular message that you selected. In addition, **Summary** information for the selected message displays in the tray of the **Details** window for convenience and improved visibility. You can also hover over the tray to display a tooltip with the **Summary** information, which is handy when the **Summary** line is long.  
   
 <a name="BKMK_ViewMessageDetailsInline"></a>   
@@ -40,8 +42,8 @@ The message **Details** **Tool Window** is one of the primary windows that is dr
   
 -   **Value** — specifies the value of each field name that is contained in the message you selected in the **Analysis Grid** viewer.  
   
-    > [!NOTE]
-    >  The inline **Details** now include a  Bit Field display for **Flag** fields. For example, if you expand the **Flags** field in a TCP message, you will see a visual representation of each flag value in an 8-bit field that appears in parentheses in the **Value** field, for example:  (. . .0. . . .) for ACK and (. . . . . .1.) for SYN. Note that the same visual representation appears in the **Details** **Tool Window**.  
+> [!NOTE]
+>  The inline **Details** now include a  Bit Field display for **Flag** fields. For example, if you expand the **Flags** field in a TCP message, you will see a visual representation of each flag value in an 8-bit field that appears in parentheses in the **Value** field, for example:  (. . .0. . . .) for ACK and (. . . . . .1.) for SYN. Note that the same visual representation appears in the **Details** **Tool Window**.  
   
 -   **Type** — specifies the data type for the fields contained in the selected message.  
   
@@ -65,13 +67,13 @@ You can also create Filter Expressions, add **Analysis Grid** viewer columns, an
   
 -   **Add ‘\<fieldName>’ as Column** — captures the name of the selected field within the associated message hierarchy and adds a new named column to the current **Analysis Grid** viewer column layout, based on the selected field name. Message Analyzer populates that new data column with information that derives from the current message collection.  
   
-    > [!NOTE]
-    >  An **Analysis Grid** viewer session tab must have the active focus for this command to appear in the **Details** window context menu.  
+> [!NOTE]
+>  An **Analysis Grid** viewer session tab must have the active focus for this command to appear in the **Details** window context menu.  
   
 -   **Add ‘\<fieldName>’ as Grouping** — captures the name of the selected field within the associated message hierarchy and performs a data grouping operation based on the selected field name.  
   
-    > [!NOTE]
-    >  When an **Analysis Grid** viewer session tab is in focus, this command creates a Grouped view of data based on the selected field name. If a Grouped view already exists in the **Analysis Grid** viewer, the new Group that you add will be configured at the lowest level of the nested group configuration. If the single-instance **Grouping** viewer has focus, this command causes a new Group to be added to the current **Grouping** viewer **Layout** at the lowest level of the nested group configuration.  
+> [!NOTE]
+>  When an **Analysis Grid** viewer session tab is in focus, this command creates a Grouped view of data based on the selected field name. If a Grouped view already exists in the **Analysis Grid** viewer, the new Group that you add will be configured at the lowest level of the nested group configuration. If the single-instance **Grouping** viewer has focus, this command causes a new Group to be added to the current **Grouping** viewer **Layout** at the lowest level of the nested group configuration.  
   
 -   **Go To ‘\<fieldName>’ Definition** — captures the name of the selected field within the associated message hierarchy and causes Message Analyzer to display the **OPN Viewer**. The selected field is highlighted in yellow within the OPN definition code that displays.  
   
@@ -96,15 +98,15 @@ You can also create Filter Expressions, add **Analysis Grid** viewer columns, an
      **Comparing Field Values**   
     Any fields and properties that you have set for tracking values appear in the **Details** window when you click the **Show tracked fields and properties for the selected message** button. You can set a field or property for tracking in the previously specified manner. Once Message Analyzer is tracking a field or property, click the **Details** toolbar button with the footprint icon to display the value/s. Thereafter, you can select different messages in the **Analysis Grid** viewer and observe how values vary across your trace results, for enhanced analysis.  
   
-    > [!TIP]
-    >  If you have the [Selection Tool Window](selection-tool-window.md) set for tracking messages, you can conveniently backtrack to previous message selections to view tracked field and property values.  
+> [!TIP]
+>  If you have the [Selection Tool Window](selection-tool-window.md) set for tracking messages, you can conveniently backtrack to previous message selections to view tracked field and property values.  
   
 -   **Copy Selected Rows** — enables you to copy one or more selected rows of data in the **Details** window to the clipboard.  
   
 -   **Copy ‘\<fieldname>’** — enables you to copy a specific field name to the clipboard.  
   
-    > [!TIP]
-    >  You can also use the keyboard shortcuts **Ctrl+C** and **Ctrl+Alt+C** to initiate the **Copy Selected Rows** and **Copy ‘\<fieldname>’** commands, respectively.  
+> [!TIP]
+>  You can also use the keyboard shortcuts **Ctrl+C** and **Ctrl+Alt+C** to initiate the **Copy Selected Rows** and **Copy ‘\<fieldname>’** commands, respectively.  
   
 ## Using the Details Toolbar Functions  
  The toolbar in the upper part of the **Details** window has several functions that provide interactive capabilities, as follows:  
@@ -147,9 +149,11 @@ If this viewer is in focus, you can use the following context menu commands to a
 -   **Add ‘\<fieldName>’ as Grouping** — enables you to configure nested Group configurations in the **Analysis Grid** viewer to achieve an organized and hierarchical message display that exposes different but related data in the nested groups.  
   
 ## Displaying and Re-docking the Details Tool Window  
+
  If the **Details** window is no longer displaying in an Analysis Session, you can redisplay it by selecting the **Details** item from the **Windows** submenu that is accessible from the global Message Analyzer **Tools** menu. Note that you can also undock and reposition the **Details** window by taking advantage of the docking navigation control that displays after you drag the **Details** window by its tab away from its default docking location. You might do this to place the **Details** window adjacent to a particular **Tool Window** or data viewer with which you are working, to create an enhanced view of your data.  
   
 ## Analyzing Data with Multiple Details Tool Window Instances  
+
  The **Details** window provides a multi-instance capability that enables you to display up to a maximum of four numerically numbered windows of this type. This feature supports your data analysis process because it enables you to compare different message details data across multiple instances of this window type.  
   
  For example, selecting a message in the **Analysis Grid** viewer or **Message Stack** **Tool Window** can drive the display of details in the **Details 1** window, if it is currently open. Before selecting another related message of interest in the **Analysis Grid** viewer, you can pin or *freeze* the data in the **Details 1** window with the previously described pin selection icon and then open the **Details 2** window from the **Windows** submenu of the global **Tools** menu. You can then select another related message in the **Analysis Grid** viewer or **Message Stack** **Tool Window** and the message details of this newly selected message can display in the **Details 2** window. You can now easily compare data between the two **Details** window instances, given that the latter **Details 2** window displays immediately to the right of the former **Details 1** instance in this example. You can display up to four **Details** windows to compare the values of four messages that you select in the **Analysis Grid** viewer.  
@@ -158,8 +162,9 @@ If this viewer is in focus, you can use the following context menu commands to a
 As a usage example, consider that you have two traces, one from a computer that is performing well and another that is not. You might also have a common message that you sent to both, such as an SMB FileCreate message. In the case of the poorly performing computer, you notice that the FileCreate message seems to be the point where the traffic diverges into slower performance. You could pin the **Details** for this message and then compare them to the computer that is performing well. For example, you might notice that the server response message on the well performing computer has the OpLocks flag set while the poorly performing computer does not. This might mean that the server did not grant an opportunistic lock (OpLock) to the poorly performing computer, which in turn, could result in poor performance.  
   
 ## See Also  
- [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
- [Writing Filter Expressions](writing-filter-expressions.md)   
- [Using the Field Chooser](using-the-field-chooser.md)   
- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
- [Message Data Tool Window](message-data-tool-window.md)
+
+- [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
+- [Writing Filter Expressions](writing-filter-expressions.md)   
+- [Using the Field Chooser](using-the-field-chooser.md)   
+- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
+- [Message Data Tool Window](message-data-tool-window.md)

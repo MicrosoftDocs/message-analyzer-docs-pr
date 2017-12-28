@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Refreshing Views
+
 There are several **Alias** operations that you can perform that will trigger a refresh of message data that is displayed in Message Analyzer. In at least one case, the trigger is automatic and in others it is in response to a particular action. These triggers are described in the list that follows:  
   
 -   **Modifying an applied Alias** — if you edit the **Value** of an **Alias** or its name while it is in an enabled state and you save it, Message Analyzer automatically performs a refresh of the current message set.  
@@ -28,6 +30,7 @@ There are several **Alias** operations that you can perform that will trigger a 
  When any of the previously specified actions occur, Message Analyzer performs a global refresh of the current message set, which includes every session and viewer in the current Message Analyzer instance, including **Layouts** for the **Chart** viewer. The global refresh will also pertain to various Message Analyzer operations that are impacted by application of the **Alias**, such as any applied grouping, sorting, filtering, color rule, or find operation in a viewer where the **Alias** is in use.  
   
 ## Removing the Aliases Changed Information Bar  
+
  After the information bar displays, you can remove it in the following ways:  
   
 -   **Perform a view refresh** — click the **Refresh Views** button to update the current message set with changes that you specified.  

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Setting Time Shifts
+
 Message Analyzer provides a **Shift Time** dialog that enables you to change the timestamp of captured messages displaying in an Analysis Session. The purpose of this feature is to compensate for skewed system clock values or time zone differences across different computers when comparing traces and logs from those computers, either side-by-side in separate Live Trace Sessions or when viewing interlaced message configurations in a single Data Retrieval Session. Ensuring that traces are chronologically aligned is important for troubleshooting. For example, if you have different traces that are interlaced in a Data Retrieval Session, messages that are offset by skewed system clock values will appear in an incorrect sequence that makes data comparison very difficult.  
   
  The following are two different ways that you can apply a **Time Shift** to a set of data sources in a session, along with the circumstances in which you might apply them:  
@@ -24,6 +26,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
 -   **Adjust the** **TimeStamp** **of a particular message** — this automatically initiates a **Time Shift** calculation for all messages in selected data sources for the current session. In this case, you are in analysis mode and you discover that message **Timestamps** are off and you need to synchronize certain data sources.  
   
 ## Applying a Time Shift  
+
  Before you can apply a time shift, you must open the **Shift Time** dialog in either of the following ways:  
   
 -   By clicking the **Shift Time** button on the global Message Analyzer toolbar.  
@@ -39,6 +42,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
  **Figure 62: Message Analyzer Shift Time dialog**  
   
 ## Dialog Entry Contexts  
+
  There are two different contexts in which you can open the **Shift Time** dialog, as follows:  
   
 -   **Without message context** — if you open the **Shift Time** dialog with no messages selected in the **Analysis Grid** viewer, the dialog is entered *without message context*, where the **Time Stamp** option and related controls are disabled and contain no prepopulated values. This context automatically selects the **Time Shift** option when the **Shift Time** dialog opens, which provides the controls to configure an explicit time shift.  
@@ -54,6 +58,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
      You might be using this context because you discovered during analysis that messages from a particular data source need a time shift and you want to calculate the shift based on a known/selected message **Timestamp** value.  
   
 ## Context-Enabled Dialog Controls  
+
  When you open the **Shift Time** dialog *without message context* by clicking the **Shift Time** drop-down list on the global Message Analyzer **Session** menu, the following menu items are available to perform the indicated actions (these options are unavailable when you click the **Shift Time** button on the global Message Analyzer toolbar):  
   
 -   **Shift Time** — displays the **Shift Time** dialog.  
@@ -65,6 +70,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
  When you open the **Shift Time** dialog *with message context*, that is, while a message is selected in the **Analysis Grid** viewer, all controls in the **Shift Time** dialog are enabled so you can specify an incremental time shift value as well as a date change to accommodate **Timestamp** differences. Also, the **Apply Time Shift to Data Sources** pane may be populated with values if you previously specified a time shift and reopened the **Shift Time** dialog in the current session.  
   
 ## Using the Time Shift Controls  
+
  The controls in the **Shift Time** dialog provide time shift functionality as follows:  
   
 -   **Time Shift** option — enables the following controls that allow you to set an incremental time shift value — in hours, minutes, and seconds, with up to 7 decimal digits resolution — that alters all message **Timestamps** in selected data sources:  
@@ -77,8 +83,8 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
   
 -   **Time Stamp** option — enables the following controls to allow you to set an incremental time shift value and/or change the calendar date for all messages in selected data sources:  
   
-    > [!NOTE]
-    >  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
+> [!NOTE]
+>  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
   
     -   **Date** — consists of a date control that drops down when you click it. Enables you to specify a date that shifts the **Timestamp** values of all messages in selected data sources in 24-hour increments.  
   
@@ -87,6 +93,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
 -   **Apply Time Shift to Data Sources** pane — specifies time shift statistics that include **Current Shift**, **Updated Shift**, and **Shift Difference** values. Also specifies the data sources for the current session in the **Data Source** column.  
   
 ## Time Shift Example  
+
  In practice, it is likely that you will apply a **Time Shift** to one or more selected data sources. For example, you might have loaded data from two trace files and you either already know that a time shift is required for one of the files, or you discover this during analysis.  
   
  In the first case, where you did not select any messages in the **Analysis Grid** viewer (without message context), you can open the **Shift Time** dialog in the previously stated manner and simply select the **Data Source** in the **Apply Time Shift to Data Sources** grid of the dialog for the messages that require a shift, while deselecting all others. You can then use the **Time Shift** controls to add or subtract a configured time shift value and click the **Apply** button to increment or decrement the **Timestamps** for the selected data source by the value that you specified. This action applies the time shift to all messages in a selected data source. At this point, you can sort the **Timestamp** column in the **Analysis Grid** viewer to interlace the message collection in chronological order for analysis purposes.  

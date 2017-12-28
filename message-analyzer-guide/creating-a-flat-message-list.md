@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Creating a Flat Message List
+
 A new feature is now included in Message Analyzer for Microsoft Network Monitor users who are making the transition to the Message Analyzer tool, to enable them to create a flattened message display  that appears similar to  the way Network Monitor displays a set of trace results. Users can initiate this type of message display by clicking the **Flat Message List** button on the Filtering toolbar.  
   
  When you select this command, messages are displayed at top-level in their original chronological order, where each request/response message pair is no longer encapsulated under a separate Operation node. However, note that there is a slight difference  between Message Analyzer and Network Monitor in this context, in that Message Analyzer's top-level messages also encapsulate the origins (stack) messages, including fragments under expandable nodes, whereas Network Monitor does not. The included message stack data  provides an additional level of detail that is quickly accessible for analysis. Moreover, even while the **Flat Message List** command is active against a set of trace results and Operations are broken apart, you can still see the request and response message pairs side-by-side in the **Message Stack** **Tool Window**, by selecting any request message in the **Analysis Grid** viewer.  

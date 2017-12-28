@@ -14,12 +14,14 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Performing Message Analyzer Operations with Aliases
+
 Message Analyzer enables you to use **Aliases** in the following common operations that you can employ when analyzing session results:  
   
- [Using an Alias in a Filter Expression](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasFilters)   
- [Sorting Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasSorting)   
- [Grouping Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasGrouping)  
+- [Using an Alias in a Filter Expression](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasFilters)   
+- [Sorting Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasSorting)   
+- [Grouping Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasGrouping)  
   
  This section briefly describes these capabilities, in addition to the dynamic application of **Aliases** as you are acquiring input message data through a Live Trace Session or a Data Retrieval Session.  
   
@@ -65,6 +67,7 @@ FF02:0:0:0:0:0:1:3
  If you expand this group by clicking the arrow, you will see only the messages that have a “MyComputer” **Alias** in the **Source** column of the **Analysis Grid** viewer.  
   
 ## Dynamically Applying Aliases  
+
  If you have a Live Trace Session in progress or if you are in the process of loading static data into Message Analyzer through a Data Retrieval Session, you can create a new **Alias** or enable/disable an existing **Alias** and the results will immediately take effect.  
   
 ---  
@@ -72,4 +75,5 @@ FF02:0:0:0:0:0:1:3
  **More Information**   
  **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
 **To learn more** about grouping, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
+
 ---
