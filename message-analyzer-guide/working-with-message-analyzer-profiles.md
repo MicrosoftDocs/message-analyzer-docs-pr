@@ -87,6 +87,7 @@ In the remaining topics of this section, you will learn more about understanding
 **To learn more** about the view **Layouts** that you can select for the **Analysis Grid** viewer in a **Profile**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).
 **To learn more** about the view **Layouts** that you can select for the **Grouping** viewer in a **Profile**, see [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts).
 **To learn more** about the **Layouts** that you can select for **Chart** viewers in a **Profile**, see [Chart Viewer Layouts](chart-viewer-layouts.md).
+
 ---
 
 <a name="BKMK_Applying-ManagingProfiles"></a>
@@ -199,7 +200,7 @@ As indicated in the previous procedure, this **Profile** is configured by defaul
 
 ## See Also
 
- [Analysis Grid Viewer](analysis-grid-viewer.md)
- [Grouping Viewer](grouping-viewer.md)
- [Chart Viewer Layouts](chart-viewer-layouts.md)
- [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)
+- [Analysis Grid Viewer](analysis-grid-viewer.md)
+- [Grouping Viewer](grouping-viewer.md)
+- [Chart Viewer Layouts](chart-viewer-layouts.md)
+- [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)

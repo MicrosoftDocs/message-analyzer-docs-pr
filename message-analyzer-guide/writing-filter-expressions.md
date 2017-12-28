@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Writing Filter Expressions
+
 This section provides you with practical knowledge that you can utilize to create your own Filter Expressions with the Message Analyzer Filtering Language. This language is a derivative of the full OPN language that developers use to write OPN protocol descriptions that Message Analyzer utilizes to parse the messages of such protocols. As a result, there are various elements, constructs, and syntax that both languages share. Any Filter Expressions that you create can be saved in the centralized filter **Library**. Thereafter, you can use them as a **Session Filter** when configuring a new session, or as a view **Filter** when analyzing trace results in an Analysis Session.  
   
  To aid your understanding of the Filtering Language, you are advised to work with some of the built-in Filter Expressions in the centralized filter **Library** in parallel with the studies that you do here. The goal is to accelerate the learning process through observation and assessment of working example results. You can even work with any existing Filter Expression by creating a copy, modifying the copy, and saving it as a new Filter Expression in your central user **Library** without affecting the original filter configuration. This enables you to start with a known working filter configuration and perform some experimental modifications to see the effects of your changes when applied to a set of trace results.  
@@ -28,7 +30,9 @@ In this section, you will learn about the Filtering Language and how to create s
 [Introduction to Creating and Applying Filters](introduction-to-creating-and-applying-filters.md)  
 [Understanding the Filtering Language Basics](understanding-the-filtering-language-basics.md)  
 [Using the Filtering Language](using-the-filtering-language.md)  
+
 ---  
   
 ## See Also  
- [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)
+
+-[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Session Explorer Tool Window
+
 The **Session Explorer** **Tool Window** is a single-instance, interactive, and dockable window that drives the selection of Message Analyzer session viewers that can contain data from Live Trace Sessions and/or Data Retrieval Sessions in different view configurations. The **Session Explorer** window also provides a **New Viewer** context menu that enables you to select numerous types of data viewers and **Layouts** to assist your data analysis process.  
   
  The **Session Explorer** window configuration contains session nodes and viewer subnodes, along with associated progress indicators that display when messages are being loaded, captured, or processed by Message Analyzer. All viewer subnodes in the **Session Explorer** window are contained under top-level session nodes, and can consist of one or more viewers for each Live Trace Session and/or Data Retrieval Session in display.  
@@ -22,6 +24,7 @@ The **Session Explorer** **Tool Window** is a single-instance, interactive, and 
  Whenever you have session data for which there are multiple data viewers displayed, you can bring the data contained in a particular viewer into focus by clicking the appropriate viewer subnode in the **Session Explorer** window. For example, a session node for a Live Trace Session might have **Analysis Grid** and **Gantt** session viewer subnodes under it that represent the corresponding data viewers that you opened for that session. If you successively select these subnodes, the selection action drives the display of data in the **Analysis Grid** viewer tab and then in the **Gantt** viewer tab. Note that you can also bring the data of a particular viewer into focus by simply selecting its session viewer tab in an Analysis Session.  
   
 ## Using Session Explorer Features  
+
  The functions and features of the **Session Explorer** window enable you to do the following:  
   
 -   **Select new session data viewers** — **Session Explorer** has a context menu that displays when you right-click any session node, viewer subnode, or anywhere in the white space of the **Session Explorer** window. The **New Viewers** command in the context menu opens a submenu that provides a selection of numerous  data viewers that you can choose to enhance your data analysis perspectives. For some viewers, such as the **Analysis Grid**, **Grouping**, and **Chart** viewers, you can specify a **Layout** from a drop-down list that displays when you highlight one of these viewers in the indicated submenu.  
@@ -55,6 +58,7 @@ The **Session Explorer** **Tool Window** is a single-instance, interactive, and 
     -   **Parsing Level** — the current **Parsing Level** that is applied to a set of trace results.  
   
 ## Displaying Session Explorer  
+
  If the **Session Explorer** window is not displayed, click the global Message Analyzer **Tools** menu, click the **Windows** item, and then select the **Session Explorer** item to restore it. Note that you can also undock and reposition the **Session Explorer** window by taking advantage of the docking navigation control that displays after you drag the **Session Explorer** window away from its default docking location. You might do this to configure a location for the window that is more convenient for the analysis environment in which you are working.  
   
 ---  
@@ -63,4 +67,5 @@ The **Session Explorer** **Tool Window** is a single-instance, interactive, and 
  **To learn more** about selecting data viewers, see [Session Data Viewer Options](session-data-viewer-options.md).  
 **To learn more** about progress monitoring and session statistics, see [Viewing Session Statistics and Progress](viewing-session-statistics-and-progress.md).  
 **To learn more** about docking and redocking tool windows, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).  
+
 ---

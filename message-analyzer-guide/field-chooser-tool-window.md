@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Field Chooser Tool Window
+
 The **Field Chooser** **Tool Window** is a single-instance and dockable window that enables you to specify message types, field types, methods, properties, annotations, and other general fields to enhance the functionality of various Message Analyzer data viewers, for example, as described in [Expanding the Analysis Grid Viewer Column Layout](field-chooser-tool-window.md#BKMK_ExpandAGLayout). The **Field Chooser** is a common dialog that presents expandable hierarchical nodes that contain the properties, fields, methods, and other entities, for the protocol/module messages that Message Analyzer parses. Note that **Field Chooser** is not an interactive window since it does not drive message or data selection, nor is it driven by such selections.  
   
  **Displaying the Field Chooser**   
@@ -67,6 +69,7 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
   
  **More Information**   
  **To learn more** about these commands in addition to saving, sharing, and updating view **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).   
+
 ---  
   
 <a name="BKMK_ExpandGroupConfig"></a>   
@@ -92,6 +95,7 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
 -   **Union** configuration — after you click the **New Union** button on the global Message Analyzer toolbar, the **Edit Union** dialog displays. When you click the **Add** button in this dialog for fields to include in the **Union**, the **Field Chooser** window displays to enable you to locate and select the fields you want in the **Union** configuration.  
   
 ## Understanding Other Field Chooser Categories  
+
  The **Field Chooser** window contains a number of nodes that are not directly associated with a protocol or module; however, you can use the entities contained in these nodes in any of the tasks described in this section, among many others. These nodes are located in the uppermost categories of **Field Chooser** window and consist of the following:  
   
 -   **General** category — contains common entities that you can add as new columns in the **Analysis Grid** viewer, use in a  **Filter**,  configure in a **Pattern Expression**, and so on. You can also use **Global Annotations** and **Global Properties** in these tasks and many others. Some entities in the **General** category consist of **Type**, **DiagnosisLevels**, and **DataSource**.  
@@ -110,10 +114,11 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
   
  **More Information**   
  **To learn more** about using the **Field Chooser** with various Message Analyzer features, see the following topics:   
-[Using the Field Chooser](using-the-field-chooser.md)  
-[Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)  
-[Using the Pattern Editor](using-the-pattern-editor.md)  
-[Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
-[Grouping Viewer](grouping-viewer.md)  
-[Creating Unions](creating-unions.md)  
+- [Using the Field Chooser](using-the-field-chooser.md)  
+- [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)  
+- [Using the Pattern Editor](using-the-pattern-editor.md)  
+- [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
+- [Grouping Viewer](grouping-viewer.md)  
+- [Creating Unions](creating-unions.md)  
+
 ---

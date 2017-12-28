@@ -14,18 +14,21 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Filtering Language
+
 The topics of this section as listed below describe how to use various features of the Filtering Language.  
   
 ---  
   
- [Using Truncated Filter Expressions](using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
- [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
- [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)   
- [Referencing Enumerations](using-the-filtering-language.md#BKMK_ReferenceEnums)   
- [Using Special Filtering Functions](using-the-filtering-language.md#BKMK_UseSpecialFilterFunctions)   
- [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins)   
- [Using Aliases](using-the-filtering-language.md#BKMK_usingAliases)   
+- [Using Truncated Filter Expressions](using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
+- [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
+- [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)   
+- [Referencing Enumerations](using-the-filtering-language.md#BKMK_ReferenceEnums)   
+- [Using Special Filtering Functions](using-the-filtering-language.md#BKMK_UseSpecialFilterFunctions)   
+- [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins)   
+- [Using Aliases](using-the-filtering-language.md#BKMK_usingAliases)   
+
 ---  
   
  For each of these discussion areas, working filter examples are provided so that you can copy and paste them into a Filter Expression text box and test them. However, please observe the following advisory note.  
@@ -88,6 +91,7 @@ The topics of this section as listed below describe how to use various features 
   
  **More Information**   
  **To learn more** about Filter Expressions that use enumerations, including additional examples, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).  
+
 ---  
   
 <a name="BKMK_UseSpecialFilterFunctions"></a>   
@@ -149,4 +153,5 @@ The topics of this section as listed below describe how to use various features 
   
  **More Information**   
  **To learn more** about OPN aspects, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) document.  
+ 
 ---

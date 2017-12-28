@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Filtering Message Data
+
 This section describes various ways to filter message data in Message Analyzer so that you can focus on traffic that is isolated by specific message type, field value, address, port communication, string value, diagnosis type, and so on. You can use Filter Expressions to select specific data from saved files or live captures when a Data Retrieval Session or Live Trace Session is running, respectively. You can also apply Filter Expressions when you are working with trace *results* to narrow down your view to specific data of interest while filtering out all the rest. In addition, you can either specify built-in Filter Expressions, or you can manually create your own.  
   
  You can even create a Filter Expression that uses an **Alias** (typically a friendly name that replaces some cryptic field value; see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)), and you can save such a filter in the centralized Filter Expression **Library**. This enables you to use the Filter Expression that incorporates an **Alias** as a **Session Filter** or a view **Filter**. Note that you can also create Filter Expressions that include **Unions**.  
@@ -23,9 +25,11 @@ This section describes various ways to filter message data in Message Analyzer s
   
  **What You Will Learn**   
 In the topics of this section, you will specifically learn about Message Analyzer filtering capabilities, which includes filtering imported data in a Data Retrieval Session, filtering data while it is captured in a Live Trace Session, filtering trace results, and learning how to create your own Filter Expressions, as described below.  
+
 ---  
   
 ## In This Section  
+
  **[Filtering Loaded Input Data](filtering-loaded-input-data.md)**  — apply a built-in or user-developed **Session Filter** or a **Time Filter** to a Data Retrieval Session to constrain input message volume; also use input file selection as a method of limiting input data.  
   
  **[Filtering Captured Input Data](filtering-captured-input-data.md)**  — apply numerous types of driver-level filters to focus on specific types of messages in a trace, so you can limit the amount of data you will capture in a Live Trace Session for problem solving. Provider-level filters include **Fast Filters**, **Keyword** bitmask filters, **Level** filters, **WFP Layer Set** filters, **HTTP** filters, host adapter NDIS layer filters, and Hyper-V-Switch extension layer filters.  
@@ -40,7 +44,9 @@ In the topics of this section, you will specifically learn about Message Analyze
   
  **Go To Procedures**   
 To proceed directly to procedures that demonstrate the filtering features described in this task area, see **[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)**.  
+
 ---  
   
 ## See Also  
- [Applying and Managing Filters](applying-and-managing-filters.md)
+
+- [Applying and Managing Filters](applying-and-managing-filters.md)

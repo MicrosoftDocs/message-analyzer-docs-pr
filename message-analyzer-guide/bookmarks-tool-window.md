@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Bookmarks Tool Window
+
 Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to configure the following types of bookmarks:  
   
 -   **Message Bookmarks** — enables you to specify a bookmark for any single message or group of messages that you select in the **Analysis Grid** viewer. You typically set such bookmarks in a trace for quick location of messages that have some related importance or critical context for the data analysis process. Bookmarks make it convenient to locate these messages at any time, since you can save them with your message data in the *.matp format. It also makes it convenient to share the trace with others along with the bookmarks that you configured to highlight the important focus areas.  
@@ -22,6 +24,7 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
 -   **Pattern Bookmarks** — enables you to specify bookmarks for one or more matched instance messages in the **Pattern Match** viewer, after executing a Pattern expression against a set of trace results. You can set these types of bookmarks to quickly locate messages for specific matched instances of a Pattern expression, as described in [Viewing Matched Instance Message Data](using-the-pattern-match-viewer.md#BKMK_ViewMatchedInstanceData), although the method to do so is different than you would do in the **Analysis Grid** viewer, as described in [Viewing Bookmarked Data](bookmarks-tool-window.md#BKMK_ViewingBookmarks).  
   
 ## Displaying the Bookmarks Tool Window  
+
  If the **Bookmarks** window is not displaying in an Analysis Session, you can open it by clicking the **Bookmarks** item in the **Windows** submenu that is accessible from the global Message Analyzer **Tools** menu. You can also undock and reposition the **Bookmarks** window in a more convenient location by taking advantage of the docking navigation control that displays after you drag the **Bookmarks** window by its tab away from the default docking location.  
   
 <a name="BKMK_configuringBKMKs"></a>   
@@ -53,6 +56,7 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
 -   **Scope** — this column is set to **Shared** by default, which enables all users to see the bookmarks you configure. However, in a future Message Analyzer release, you may be able to limit the scope to **Private** so that only you can view the bookmarks you configure in a particular set of trace results.  
   
 ## Using the Bookmarks Toolbar Commands  
+
  The commands that are available on the **Bookmarks** toolbar consist of the following:  
   
 -   **Add** drop-down menu — provides the commands that enable you to configure a **Message Bookmark** or a **Pattern Bookmark**. The enabled/disabled state of these commands corresponds with the session viewer that is in focus.  
@@ -85,8 +89,8 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 -   **Comments** — this tab enables you to specify one or more comments for any **Bookmarks** message row by clicking the **+Add** button and entering an optional comment **Title**, descriptive text for the comment, and saving the comment by clicking the **Save Changes** icon. You can also delete any existing **Comment** for a selected **Bookmarks** message row by clicking the delete (**X**) button.  
   
-    > [!TIP]
-    >  You can also configure a comment from the **Comments** **Tool Window**, which contains the identical interface components for configuring comments that you use in the **Bookmarks** window. However, the **Comments** window enables you to create comments that are independent of bookmark configuration.  
+> [!TIP]
+>  You can also configure a comment from the **Comments** **Tool Window**, which contains the identical interface components for configuring comments that you use in the **Bookmarks** window. However, the **Comments** window enables you to create comments that are independent of bookmark configuration.  
   
 -   **Patterns** — this tab enables you to view all the **Pattern Group** rows where you added bookmarks. This tab contains a header that specifies the following information for each row of data:  
   
@@ -100,14 +104,15 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
 >  The book icon in each data row in the **Bookmarks** configuration grid is enhanced with certain glyphs whenever a configured bookmark has an attached file and/or a specified comment. These glyphs consist of the same icons that delineate the **Link** and **Comment** column headers in the **Bookmarks** configuration grid, respectively.  
   
 ## Using Context Menu Commands  
+
  The **Bookmarks** **Tool Window** contains a right-click context menu where you can access several commands that perform the actions indicated below when selected:  
   
 -   **View Message Range in ‘Analysis Grid’** — enables you to display the range of messages that a bookmark contains in a separate instance of the **Analysis Grid** viewer.  
   
 -   **Add Message Range to Filter** — enables you to automatically create the code for a view **Filter** based on the messages contained in a bookmark row. When applied, the filter will remove all messages from the current **Analysis Grid** viewer instance, except the messages that fall within the range of the selected bookmark. Note that for best results, the **Analysis Grid** viewer that is in the same session as the **Pattern Match** viewer must have the focus.  
   
-    > [!TIP]
-    >  This makes it convenient to save only the messages that were bookmarked by clicking the **Save As** item in the Message Analyzer **File** menu to open the **Save/Export Session** dialog.  
+> [!TIP]
+>  This makes it convenient to save only the messages that were bookmarked by clicking the **Save As** item in the Message Analyzer **File** menu to open the **Save/Export Session** dialog.  
   
 -   **Delete Bookmark** — enables you to delete any selected bookmark in the **Bookmarks** configuration grid.  
   
@@ -124,6 +129,7 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
 -   **Edit ‘columnName’** — enables you to specify and edit the name of certain bookmark columns, for example, the **Name** and **Category** columns. The single-quoted text in this command is a placeholder for the actual selected column.  
   
 ## Saving and Loading Trace Files Containing Bookmarks  
+
  If you want to save bookmarks that you have configured in a message collection, you can only do so by saving your messages in the Message Analyzer native .matp format. When saving a message collection that contains bookmarks, note that if you use the **Export** option in the **Save/Export Session** dialog to save your message collection to a .cap file, bookmarks will not be saved. When you reload a saved message collection containing bookmarks, for example, through **Open**, **Recent Files**, or a Data Retrieval  Session, the bookmarks you configured will display in the **Bookmarks** window, which should automatically open when messages are loaded.  
   
 > [!IMPORTANT]
@@ -150,8 +156,9 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 ---  
   
-         **More Information**   
-         **To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).    
+**More Information**   
+**To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).    
+
 ---  
   
 -   **Pattern Group drop down** — click the book icon to the left of the **Pattern Group** of interest in the **Bookmarks** window to display a drop-down that contains the messages associated with a particular bookmarked **MATCHED INSTANCE** in the **Pattern Match** viewer.  

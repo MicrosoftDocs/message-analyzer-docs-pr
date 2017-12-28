@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Filter IntelliSense Service
+
 <a name="BKMK_FilterIntellisense"></a> To assist you in developing Filter Expressions, Message Analyzer provides a statement completion service known as Filter IntelliSense. The Filter IntelliSense service is a level-sensitive and interactive feature that interprets the text that you enter in Message Analyzer Filter Expression text boxes and responds by displaying scrollable drop-down lists of message elements, such as protocols, message types, structures, fields, properties, annotations, and so on. This feature helps you to navigate through message hierarchy levels to find and select elements that you can configure in Filter Expressions. Similar to the **Field Chooser** **Tool Window**, the Filter IntelliSense service enables you to quickly learn about and work with the message hierarchies of the protocols that are parsed by the PEF Runtime. Because Filter IntelliSense provides visual message element cues in response to text that you enter, it enables you to discover and learn about the Filtering Language syntax on-the-fly as you use Message Analyzer to resolve issues on which you are working. The visual presentations provided by the service also help you to easily recognize the difference between ambiguous and fully qualified filter expressions, such as `HTTP.Method=="GET"` and `HTTP.Request.Method=="GET"`, respectively.  
   
 <a name="BKMK_StartIntellisenseService"></a>   
@@ -35,6 +37,7 @@ manager: "ronstarr"
 >  To place the cursor in any Filter Expression text box, simply click directly in the text box of choice. This includes the text box in any Filter panel on the Filtering toolbar during session analysis, or the **Session Filter** text box that exists in the **New Session** dialog during session configuration.  
   
 ## Using the Filter IntelliSense Service  
+
  When you invoke Filter IntelliSense in one of the indicated ways, each listed entity displays with an associated icon that represents its element type, for example, a protocol module, message, structure, operation, property, or field, similar to the way the **Field Chooser** window displays icons to the left of each element. If you select any listed element, the element type, its data type, and one or more fully qualified expressions are displayed in an informational pop-up window to the right of each element.  
   
  If you continue to type with Filter IntelliSense invoked, the element list is filtered to show only the results that match the input text. If you invoke Filter IntelliSense in a blank Filter Expression text box, the results are shown in separate sections for each element type with each section in alphabetical order. If you invoke Filter IntelliSense from below a parent element, it displays child entities and its descendants in separate groups with each group in alphabetical order. If a Filter Expression is abbreviated or ambiguous and can be represented by two or more expressions, a list of represented, fully-qualified expressions will display in an informational pop-up window.  
@@ -44,6 +47,7 @@ manager: "ronstarr"
  If you invoke Filter IntelliSense at root level by typing a protocol name followed by a dot (.), a list displays that can include message types, structures, properties, fields, and so on, depending on the protocol and its message hierarchy. From this level, you can also select a field or other message element from the list and integrate it into your Filter Expression by pressing one of the previously specified Keyboard keys. If you type the name of a field only, a pop-up list displays with all possible filter expressions that end with the name of the field you specified. As you continue to traverse the message hierarchy of a particular protocol by using the dotted notation, Filter IntelliSense continues to display the field names that are associated with the current hierarchic level. This process repeats until you reach the last available level in the protocol message hierarchy.  
   
 ## Service Implementation  
+
  To implement its functions, the Filter IntelliSense service makes use of a metadata access layer that is made available by underlying classes that provide the routines for fetching statement completion text. The service architecture that underlies these functions includes the following components:  
   
 -   Statement Completion Service with a cache  
@@ -94,7 +98,9 @@ The Filter IntelliSense service contains the interpretive intelligence to antici
  **To learn more** about explicit paths, see [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths).  
 **To learn more** about special methods for traversing a protocol stack, see [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
 **To learn more** about annotations, see [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations).   
+
 ---  
   
 ## See Also  
- [Using the Filtering Language](using-the-filtering-language.md)
+
+- [Using the Filtering Language](using-the-filtering-language.md)

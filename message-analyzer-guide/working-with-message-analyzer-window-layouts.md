@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Working with Message Analyzer Window Layouts
+
 By default, Message Analyzer provides several built-in **Window Layouts** that organize the **Analysis Grid** viewer with different **Tool Windows** as preset configurations that enable you to customize your working environment for the type of troubleshooting and analysis in which you are engaged. The window layouts that you can choose range from simple to increasingly more complex selections in the **Window Layout** drop-down list, and are intended to accommodate a cross-section of typical Message Analyzer users. You can access this drop-down list from the global Message Analyzer toolbar. The typical layout configuration consists of a single/default data viewer and an arrangement of one or more **Tool Windows**. By default, Message Analyzer uses the **Analysis Grid** viewer in all the built-in **Window Layouts**; however, you can set a different **Default Viewer** from the **Profiles** tab of the **Options** dialog that is accessible from the global Message Analyzer **Tools** menu. You can also add other **Tool Windows** to any of the built-in **Windows Layouts**, as needed.  
   
  You also have the option to further customize your analysis environment by redocking any data viewer or **Tool Window** in use to a location that facilitates easier viewing and analysis, or better correlation of related message data that is held in different views, as described in [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures). If you do not select one of the built-in **Window Layouts**, Message Analyzer still provides a default window layout that contains the **Analysis Grid** viewer and several **Tool Windows** that provide a basic configuration for analysis, as described in [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout). You will see this default layout configuration at first Message Analyzer startup and upon all subsequent startups unless you change the layout by any of the following actions:  
@@ -35,12 +37,13 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
 ---  
   
- [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
- [Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
- [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows)   
- [Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
- [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
- [Saving Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
+- [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
+- [Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
+- [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows)   
+- [Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
+- [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
+- [Saving Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
+
 ---  
   
 <a name="BKMK_UsingDefaultLayout"></a>   
@@ -160,4 +163,5 @@ At other times, you might need to compare different traces and related log file 
 When you close the Message Analyzer application, the configuration file is updated so that you can resume your latest window layout on the next Message Analyzer restart. Note that this file as well as other configuration files in this location are now versioned in newer Message Analyzer releases.  
   
 ## See Also  
- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+
+- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

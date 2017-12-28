@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Other Windows
+
 This section describes several other **Tool Windows** that you will make regular use of in Message Analyzer, which include the following:  
   
 -   **Field Chooser Tool Window** — provides message hierarchies in tree grid format to assist in configuration tasks where field selection is required, for example, when creating **Pattern** expressions, **Charts**, and **Unions**, or when adding new data columns to the **Analysis Grid** viewer default column layout or new Groups to the **Grouping** viewer.  
@@ -31,8 +33,9 @@ This section describes several other **Tool Windows** that you will make regular
   
 ---  
   
- [Field Chooser Tool Window](field-chooser-tool-window.md)   
- [Output Tool Window](output-tool-window.md)   
- [Session Explorer Tool Window](session-explorer-tool-window.md)   
- [Map Tool Window](map-tool-window.md)   
+- [Field Chooser Tool Window](field-chooser-tool-window.md)   
+- [Output Tool Window](output-tool-window.md)   
+- [Session Explorer Tool Window](session-explorer-tool-window.md)   
+- [Map Tool Window](map-tool-window.md)   
+
 ---

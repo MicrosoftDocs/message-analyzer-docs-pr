@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Filtering Live Trace Session Results
+
 After you capture data in a Live Trace Session, load data through a Data Retrieval Session, or load data using the **Open** or **Recent Files** features, you will typically analyze your trace results in one of the Message Analyzer data viewers, such as the default **Analysis Grid** viewer. As part of analysis, it is likely that you will need to manipulate the trace results to expose specific information that you want to examine. In Message Analyzer, a primary method for isolating specific data during trace results analysis is to apply a view **Filter**, which temporarily alters the data that Message Analyzer displays according to applied filtering criteria. When you finish analyzing the effects of the applied view **Filter**, you can simply click the **Remove** button on the Filtering toolbar to remove the filter and return to the original trace session results.  
   
  You can specify a view **Filter** in any of the following ways:  
@@ -30,6 +32,7 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
      To learn more about manually configuring Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
   
 ## Using the Filtering Toolbar to Apply and Remove a View Filter  
+
  After you specify a Filter Expression on the Filtering toolbar for the data in a particular session viewer tab and you click the **Apply** button on the toolbar, the filter isolates the message data that meets the filtering criteria that you specified, such that only those messages are visible. However, a view **Filter** does not modify the original data set, as Message Analyzer persists the full data set such that you can redisplay it whenever you remove the specified view **Filter**. In addition, when you click the **Remove** button on the Filtering toolbar to undo the results of a view **Filter** that you applied to a set of messages, the Filter Expression text in the  text box on the Filtering toolbar remains unchanged. This enables you to retain the Filter Expression text should you decide to reapply it, as described in [Working with Tiered Filtering Configurations](applying-and-managing-filters.md#BKMK_WorkWithTieredFiltering). For example, if you have a tiered configuration of two or more Filter Expressions, you can alternately select or unselect each filter to enable or disable it, respectively, and obtain different results based on different combinations of filtering criteria, for enhanced analysis.  
   
 > [!NOTE]
@@ -78,6 +81,7 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
  **To learn more** about troubleshooting Azure storage logs, see the following documentation:   
 [End-to-End Troubleshooting Using Azure Storage Metrics and Logging, AzCopy, and Message Analyzer](https://azure.microsoft.com/en-us/documentation/articles/storage-e2e-troubleshooting/)  
 [Monitor, Diagnose, and Troubleshoot Microsoft Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)  
+
 ---  
   
 <a name="BKMK_AddressFilteringCat"></a>   
@@ -90,22 +94,22 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **IPv4.Address ==**  ***192.168.1.1***  — filters out all messages except those that contain a **Source** or **Destination** address that matches the specified IPv4 address value.  
   
-    > [!NOTE]
-    >  Before applying any of these filters, you should substitute your actual search address for the *italic* values in these Filter Expressions. The same is true of any built-in Filter Expression that has placeholder values.  
+> [!NOTE]
+>  Before applying any of these filters, you should substitute your actual search address for the *italic* values in these Filter Expressions. The same is true of any built-in Filter Expression that has placeholder values.  
   
 -   **IPv4.Address ~=**  ***192.168.1.1***  — filters out all IPv4 messages that contain a **Source** or **Destination** address that matches the specified IPv4 address value. Use of the tilde (~) character ensures that you will only return IPv4 traffic. Otherwise, other traffic would not be blocked.  
   
      For example, if you specified the Filter Expression as `IPv4.Address != 192.168.1.1` or `!(IPv4.Address == 192.168.1.1)`, all protocol messages that do not meet this criteria are returned, which means you would get all messages that are not IPv4 messages in addition to the target IPv4 traffic. However, as an alternative, you could add “`&& IPv4`” to either  expression if you want to pass only IPv4 messages.  
   
-    > [!NOTE]
-    >  The Filter Expression `!(IPv4.Address == 192.168.1.1)` is semantically equivalent to `IPv4.Address != 192.168.1.1`. For more details about the use of the “!” operator, see [Other Filtering Considerations](understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).  
+> [!NOTE]
+>  The Filter Expression `!(IPv4.Address == 192.168.1.1)` is semantically equivalent to `IPv4.Address != 192.168.1.1`. For more details about the use of the “!” operator, see [Other Filtering Considerations](understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).  
   
 -   **IPv6.Address ==**  ***2001:4898:0:FFF:200:5EFE:4135:4A7***  — filters out all messages except those that contain a **Source** or **Destination** address that matches the specified IPv6 address value.  
   
 -   **\*Address ==**  ***192.168.1.1***  **or \*Address ==**  ***2001:4898:0:FFF:200:5EFE:4135:4A7***  — filters out all messages except those that contain a **Source** or **Destination** address that matches either the specified IPv4 address or IPv6 address value. *Address can also specify an Ethernet address.  
   
-    > [!NOTE]
-    >  By using the expression “*Address”, you can mix IPv4 and IPv6 addresses in this Filter Expression.  
+> [!NOTE]
+>  By using the expression “*Address”, you can mix IPv4 and IPv6 addresses in this Filter Expression.  
   
 <a name="BKMK_DiagnosisEnums"></a>   
 ## Diagnosis Category  
@@ -113,29 +117,29 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **#DiagnosisLevels** — this filter passes all messages that have a diagnosis-level error. This Filter Expression is semantically equivalent to `#DiagnosisLevels != nothing`. If you want to be more specific, you can specify different enumeration values to filter for certain diagnosis levels. In the table that follows, friendly enumeration names are given along with their equivalent integer values that you can include as right-hand side values in this Filter Expression:  
   
-    ### Table 15.   Enum Values for DiagnosisLevel Filters  
+### Table 15.   Enum Values for DiagnosisLevel Filters  
+
+|Filter Expression with Friendly Enum Name|Filter Expression with Integer Enum Value|Description|  
+|-----------------------------------------------|-----------------------------------------------|-----------------|  
+|#DiagnosisLevels==Standard.DiagnosisLevel.Error|#DiagnosisLevels==1|Filters for messages that contain an Error-diagnosis level.|  
+|#DiagnosisLevels==Standard.DiagnosisLevel.Warning|#DiagnosisLevels==2|Filters for messages that contain a Warning-diagnosis level.|  
+|#DiagnosisLevels==Standard.DiagnosisLevel.Information|#DiagnosisLevels==4|Filters for messages that contain an Information-diagnosis level.|  
   
-    |Filter Expression with Friendly Enum Name|Filter Expression with Integer Enum Value|Description|  
-    |-----------------------------------------------|-----------------------------------------------|-----------------|  
-    |#DiagnosisLevels==Standard.DiagnosisLevel.Error|#DiagnosisLevels==1|Filters for messages that contain an Error-diagnosis level.|  
-    |#DiagnosisLevels==Standard.DiagnosisLevel.Warning|#DiagnosisLevels==2|Filters for messages that contain a Warning-diagnosis level.|  
-    |#DiagnosisLevels==Standard.DiagnosisLevel.Information|#DiagnosisLevels==4|Filters for messages that contain an Information-diagnosis level.|  
-  
-    > [!NOTE]
-    >  In the Filtering Language, **DiagnosisLevels** is a global annotation, meaning that it is applicable to any OPN message. The character “#” provides access to an annotation, as differentiated from other filters that use a dot (.) operator to enable access to a field.  
+> [!NOTE]
+>  In the Filtering Language, **DiagnosisLevels** is a global annotation, meaning that it is applicable to any OPN message. The character “#” provides access to an annotation, as differentiated from other filters that use a dot (.) operator to enable access to a field.  
   
 -   **#DiagnosisTypes==2** — this filter passes any messages that contain validation type diagnosis errors that occurred during the OPN message ValidationCheck, as part of the parsing process. A validation error is a *soft* error, meaning that it is not severe enough to halt the parsing process. Validation errors typically occur when a message deviates from associated protocol specifications, which can include occurrences such as out-of-range values, invalid collection sizes, data element constraint violations, and so on.  
   
      **DiagnosisTypes** is described in the OPN language as a flag pattern, which is a special type of enum. The table that follows specifies the enumeration values of the **DiagnosisTypes** enum that you can use in a **DiagnosisTypes** filter. Friendly enumeration names are given along with their equivalent integer values. You can specify the enum values in either format as right-hand side values in this Filter Expression.  
   
-    ### Table 16.  Enum Values for DiagnosisType Filters  
-  
-    |Filter Expression with Friendly Enum Name|Filter Expression with Integer Enum Value|Description|  
-    |-----------------------------------------------|-----------------------------------------------|-----------------|  
-    |#DiagnosisTypes == Standard.DiagnosisType.Application|#DiagnosisTypes==1|Filters for messages that contain Application-type diagnosis errors, for example, an application-related or network communication issue.|  
-    |#DiagnosisTypes == Standard.DiagnosisType.Validation|#DiagnosisTypes==2|Filters for messages that contain Validation-type diagnosis errors. A Validation error is an indication that a message does not align with its protocol definition.|  
-    |#DiagnosisTypes == Standard.DiagnosisType.InsufficientData|#DiagnosisTypes==4|Filters for messages that contain InsufficientData-type diagnosis errors. An InsufficientData error is an indication that message data was lost, for example, when Message Analyzer is attempting to group messages into an operation or when performing data reassembly.|  
-    |#DiagnosisTypes == Standard.DiagnosisType.Parsing|#DiagnosisTypes==8|Filters for messages that contain Parsing-type diagnosis errors. A Parsing error is an indication that parsing failed when Message Analyzer attempted to decode invalid message data.|  
+### Table 16.  Enum Values for DiagnosisType Filters  
+
+|Filter Expression with Friendly Enum Name|Filter Expression with Integer Enum Value|Description|  
+|-----------------------------------------------|-----------------------------------------------|-----------------|  
+|#DiagnosisTypes == Standard.DiagnosisType.Application|#DiagnosisTypes==1|Filters for messages that contain Application-type diagnosis errors, for example, an application-related or network communication issue.|  
+|#DiagnosisTypes == Standard.DiagnosisType.Validation|#DiagnosisTypes==2|Filters for messages that contain Validation-type diagnosis errors. A Validation error is an indication that a message does not align with its protocol definition.|  
+|#DiagnosisTypes == Standard.DiagnosisType.InsufficientData|#DiagnosisTypes==4|Filters for messages that contain InsufficientData-type diagnosis errors. An InsufficientData error is an indication that message data was lost, for example, when Message Analyzer is attempting to group messages into an operation or when performing data reassembly.|  
+|#DiagnosisTypes == Standard.DiagnosisType.Parsing|#DiagnosisTypes==8|Filters for messages that contain Parsing-type diagnosis errors. A Parsing error is an indication that parsing failed when Message Analyzer attempted to decode invalid message data.|  
   
 <a name="BKMK_GeneralExamples"></a>   
 ## General Examples Category  
@@ -145,8 +149,8 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **TCP::Flags:SYN == true** — this filter uses an explicit path expression to pass TCP messages that have their SYN bit set (0x02). Note that the missing value between the double colons (::) is the **Segment** message-type specifier.  
   
-    > [!TIP]
-    >  You could also specify the equivalent of this Filter Expression as: “`TCP:Segment::SYN==true`” or even “`TCP:::SYN==true`”, to obtain an identical filtering result. At a minimum, an explicit path expression should specify a protocol or module as the first entity in the left-side expression and the field for which you are searching in a particular message hierarchy as the last entity in the expression, separated by an appropriate number of colons to delimit any skipped hierarchical entities. However, for the best performance, you should specify all entities in an explicit path.  
+> [!TIP]
+>  You could also specify the equivalent of this Filter Expression as: “`TCP:Segment::SYN==true`” or even “`TCP:::SYN==true`”, to obtain an identical filtering result. At a minimum, an explicit path expression should specify a protocol or module as the first entity in the left-side expression and the field for which you are searching in a particular message hierarchy as the last entity in the expression, separated by an appropriate number of colons to delimit any skipped hierarchical entities. However, for the best performance, you should specify all entities in an explicit path.  
   
 <a name="BKMK_RegEx"></a>   
 ## RegEx  
@@ -196,15 +200,15 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **tcp.syn == true** — this filter passes TCP messages that have their SYN bit set (0x02). If you want to pass all TCP messages that specify the SYN field, you can drop the Boolean evaluation and apply the Filter Expression as: “`tcp.syn`”.  
   
-    > [!NOTE]
-    >  Although there is a **Segment** message type and a **Flags** container in the upper hierarchy for the **SYN** flag, it is unnecessary to specify a fully qualified expression such as “`TCP.Segment.Flags.SYN`”. In the Filtering Language, the dot notation is commonly used to traverse the message type-hierarchy, which is shown in the **Field Chooser** **Tool Window**. A dot (.) in a Filter Expression means the filter should find any entity at any depth in the hierarchy, hence in this example: `tcp.syn==true`. However, to improve performance, you can create an explicit path that uses colons, as indicated in the text of the earlier Filter Expression `TCP::Flags:SYN == true`.  
+> [!NOTE]
+>  Although there is a **Segment** message type and a **Flags** container in the upper hierarchy for the **SYN** flag, it is unnecessary to specify a fully qualified expression such as “`TCP.Segment.Flags.SYN`”. In the Filtering Language, the dot notation is commonly used to traverse the message type-hierarchy, which is shown in the **Field Chooser** **Tool Window**. A dot (.) in a Filter Expression means the filter should find any entity at any depth in the hierarchy, hence in this example: `tcp.syn==true`. However, to improve performance, you can create an explicit path that uses colons, as indicated in the text of the earlier Filter Expression `TCP::Flags:SYN == true`.  
   
 -   **TCP.Windowscaled \<**  ***1000***  — this filter passes TCP messages having a receive window size that is less than 1000.  
   
      Note that TCP Window Scaling increases the TCP receive window size above its default maximum value of 65,535 bytes for better throughput, for example, in cases where a receiver is overwhelmed with high message volumes such as a web server might be.  
   
-    > [!NOTE]
-    >  If you encounter a bottleneck, it might be caused by a small TCP receive window size that should be increased above the default setting by using a tool such as **netsh**. Windows 7, Windows 8, Windows 8.1, and Windows Server 2012 operating systems provide a Receive Window Auto-Tuning Level configuration that is set by default to “Normal”, which allows the TCP receive window size to grow automatically to accommodate most conditions. If TCP Auto-Tuning is disabled, the receive Window size is limited to the default size of 65,535 bytes (64 KB).  
+> [!NOTE]
+>  If you encounter a bottleneck, it might be caused by a small TCP receive window size that should be increased above the default setting by using a tool such as **netsh**. Windows 7, Windows 8, Windows 8.1, and Windows Server 2012 operating systems provide a Receive Window Auto-Tuning Level configuration that is set by default to “Normal”, which allows the TCP receive window size to grow automatically to accommodate most conditions. If TCP Auto-Tuning is disabled, the receive Window size is limited to the default size of 65,535 bytes (64 KB).  
   
 <a name="BKMK_LDAPFilters"></a>   
 ## LDAP Category  
@@ -250,6 +254,7 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
      You are encouraged to browse through the HTTP message hierarchy with the **Field Chooser** window to review the types of fields that you can specify in an HTTP filter. You can also make use of the Filtering IntelliSense feature that kicks in and exposes the message hierarchy when you type a dot (.) after “HTTP” in the Filter Expression text box of the **Edit Filter** dialog (or in the Filter Expression text box on any Filter panel). You can open the **Edit Filter** dialog by right-clicking the HTTP example and selecting the **Edit** item in the context menu that appears.  
   
 ## Sharing Filter Items  
+
  You can share  items from your centralized filter **Library** with other users, including any that you create, by exporting them as a **Filter** asset collection (\*.asset file) through the Message Analyzer Sharing Infrastructure. The features of the Sharing Infrastructure enable you to export and import **Filter** items to and from a designated user file share or other location, respectively, or to a user feed that you create from the **Settings** tab of the Message Analyzer **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu. To learn how to manage view **Filters** from the **Manage Filters** dialog, see [Applying and Managing Filters](applying-and-managing-filters.md).  
   
 ---  
@@ -257,8 +262,10 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
  **More Information**   
  **To learn more** about using **Aliases** in Filter Expressions, see [Performing Message Analyzer Operations with Aliases](performing-message-analyzer-operations-with-aliases.md).   
 **To learn more** about using **Unions** in Filter Expressions, see [Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md).   
+
 ---  
   
 ## See Also  
- [Writing Filter Expressions](writing-filter-expressions.md)   
- [Filter IntelliSense Service](filter-intellisense-service.md)
+
+- [Writing Filter Expressions](writing-filter-expressions.md)   
+- [Filter IntelliSense Service](filter-intellisense-service.md)

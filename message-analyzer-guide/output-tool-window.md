@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Output Tool Window
+
 The **Output** **Tool Window** is a dockable window that outputs text from the Message Analyzer log file as a result of various operations, for example, when Message Analyzer loads modules at startup. If errors are logged, the **Output** window will show them in red text. As a usage example, the **Output** window can conveniently expose when an OPN parser fails to load. Another example is that the **Output** window displays statistical data when you export a trace to the .cap file format from the **Save/Export Session** dialog, which is accessible by clicking either the **Save** or **Save As** item in the Message Analyzer **File** menu.  
   
 > [!NOTE]

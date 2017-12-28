@@ -14,13 +14,17 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Filtering Captured Input Data
+
 Prior to starting a Live Trace Session with Message Analyzer, there are numerous types of filter configurations that you can create to limit the scope of data that you capture. An overview of the filter types that you can apply to a Live Trace Session is provided in this section.  
   
 ## Using a Session Filter  
+
  One of the simplest and most effective methods of filtering is to add a **Session Filter**. A **Session Filter** will allow you to retrieve only the messages that meet the filtering criteria that you define. This conveniently provides a way to target specific message data while reducing the number of retrieved messages for better performance. Just as you can do in a Data Retrieval Session, you can either select a built-in **Session Filter** or configure your own in the **Session Filter** text box of the **New Session** dialog. If you want to use a built-in **Session Filter**, you can select one from the **Message Analyzer  Filters** asset collection **Library** that appears on the toolbar above the **Session Filter** text box in the **New Session** dialog, or you can create your own by entering filter parameters in the indicated text box during Live Trace Session configuration. For additional information about **Session Filters**, see [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md) or [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
   
 ## Using Other Filters  
+
  In addition to specifying a **Session Filter** when you are configuring a Live Trace Session, you can also specify any of the following filter types:  
   
 -   **Fast Filters** — if you are configuring a Live Trace Session with a **Trace Scenario** that uses the **Microsoft-PEF-NDIS-PacketCapture** provider, you have the option to specify up to three **Fast Filters** that operate efficiently at the kernel level. You can also specify up to four **Fast Filters** when configuring a Live Trace Session with any **Trace Scenario** that uses the **Microsoft-PEF-WFP-MessageProvider**.  
@@ -43,8 +47,8 @@ Prior to starting a Live Trace Session with Message Analyzer, there are numerous
   
 -   **Keyword and Level filters** — if you are configuring a Live Trace Session that uses a particular system **ETW Provider**, you can set event **Keyword** bitmask and **Level** filters to capture events from specific modules of a Windows system component that has been instrumented for ETW via that **ETW Provider**, with **Keyword** bitmask values and **Level** strings that represent its events. By setting an appropriate **Keyword** bitmask or **Level** value, you cause the **ETW Provider** to deliver only the events that are represented by the **Keyword** or **Level** configuration, thereby enabling you to filter for these events in traces that use a particular system **ETW Provider**. Examples of such providers include the **Microsoft-Windows-Dhcp-Client** and **Microsoft-Windows-LDAP-Client**. These ETW providers are accessible from the **Add System Providers** dialog, which you can display from the **Add Providers** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog during Live Trace Session configuration.  
   
-    > [!NOTE]
-    >  The default **Microsoft-PEF-NDIS-PacketCapture** provider and **Microsoft-PEF-WFP-MessageProvider** both enable you to specify event **Keyword** bitmask and **Level** filter configurations. However, you should note that not all system **ETW Providers** are enabled for event **Keyword** and **Level** configuration, as some **ETW Providers** do not define them.  
+> [!NOTE]
+>  The default **Microsoft-PEF-NDIS-PacketCapture** provider and **Microsoft-PEF-WFP-MessageProvider** both enable you to specify event **Keyword** bitmask and **Level** filter configurations. However, you should note that not all system **ETW Providers** are enabled for event **Keyword** and **Level** configuration, as some **ETW Providers** do not define them.  
   
 ---  
   
@@ -58,7 +62,9 @@ Prior to starting a Live Trace Session with Message Analyzer, there are numerous
 **To learn more** about **WFP Layer Set** filtering, see [Common Provider Configuration Settings  Summary](common-provider-configuration-settings-summary.md).  
 **To learn more** about **Hostname** and **PortFilter** filtering, see [WebProxy Filters](webproxy-filters.md).   
 **To learn more** about event **Keyword** bitmask and **Level** filtering, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).   
+
 ---  
   
 ## See Also  
- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)
+
+- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)

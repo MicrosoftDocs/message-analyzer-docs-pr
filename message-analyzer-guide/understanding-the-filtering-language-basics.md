@@ -14,12 +14,15 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Understanding the Filtering Language Basics
+
 To assist you in understanding the Filtering Language, you should experiment with some of the built-in Filter Expressions that Message Analyzer provides in the centralized filter **Library**. You should also review the descriptions of these filters in the [Filtering Live Trace Session Results](filtering-live-trace-session-results.md) topic of this documentation and then apply them to a trace, to get a sense of how real-world filter expressions work when analyzing trace results.  
   
  This section provides concepts and constructs that you will need to understand to create your own Filter Expressions. In this section, you will learn how to use the basics of the Filtering Language to construct Filter Expressions. This includes the use of operators and literals, traversing the protocol message hierarchy, and other considerations such as case sensitivity, filter applicability, semantic equivalence, and the meaning of negation.  
   
 ## Using Operators  
+
  When creating custom Filter Expressions, you can use the basic Boolean operators that follow. You can also use the textual equivalent of these operators, for example, AND, OR, and NOT in your filter expressions:  
   
 -   **&&** — represents the logical AND function. Typically used when combining filter expressions.  
@@ -36,8 +39,8 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
 -   **~=** — Not equals. This operator negates the condition on a value only but does not evaluate nonexistence as a form of negation.  
   
-    > [!NOTE]
-    >  The following examples further clarify the difference between the “!=” and “~=” operators. A filter expression such as `TCP.SourcePort != 443` returns all TCP messages that have a **SourcePort** value that is not equal to 443, together with all messages that are not TCP. By using the ~= operator in this expression, for example `TCP.SourcePort ~= 443`, the condition on the value is negated and the filter expression will return TCP messages with a **SourcePort** that is not equal to 443, but non-TCP messages will not also be included.  
+> [!NOTE]
+>  The following examples further clarify the difference between the “!=” and “~=” operators. A filter expression such as `TCP.SourcePort != 443` returns all TCP messages that have a **SourcePort** value that is not equal to 443, together with all messages that are not TCP. By using the ~= operator in this expression, for example `TCP.SourcePort ~= 443`, the condition on the value is negated and the filter expression will return TCP messages with a **SourcePort** that is not equal to 443, but non-TCP messages will not also be included.  
   
 -   **>** — Greater than. This operator is used to evaluate whether one filter expression operand is greater than the other.  
   
@@ -53,6 +56,7 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
  **More Information**   
  **To learn more** about how to apply relational operators, see the built-in Filter Expressions described in [Filtering Live Trace Session Results](filtering-live-trace-session-results.md).   
+
 ---  
   
  The Filtering Language also supports the following bitwise and arithmetic operators that you can apply to field expressions:  
@@ -66,6 +70,7 @@ To assist you in understanding the Filtering Language, you should experiment wit
  For example, the following is a valid filter expression that uses arithmetic operators: `TCP.SourcePort + 1 == TCP.DestinationPort / 2`.  
   
 ## Using Literals  
+
  The Filtering Language supports all literals for built-in Open Protocol Notation (OPN) types, such as integer, floating point, Boolean, char, string, and so on. The language also supports protocol-specific literals, as indicated in the examples of the table that follows:  
   
 ### Table 17.   Using Literals in Filter Expressions  
@@ -134,4 +139,5 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
  **More Information**   
  **To learn more** about OPN concepts that may help you write Filter Expressions, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) document.   
+ 
 ---
