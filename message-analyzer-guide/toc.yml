@@ -558,6 +558,8 @@
       href: configuration-walkthrough-of-a-built-in-chart-viewer-layout.md
     - name: Managing Chart Viewer Layouts
       href: managing-chart-viewer-layouts.md
+    - name: "Procedures: Using the Chart Configuration Features"
+      href: procedures-using-the-chart-viewer-layout-configuration-features.md
   - name: Participating in the Message Analyzer Community
     href: participating-in-the-message-analyzer-community.md
     items:
