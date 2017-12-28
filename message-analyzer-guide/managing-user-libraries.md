@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Managing User Libraries
+
 Message Analyzer enables you to manage any user Library by using a common and centralized set of management features. These features consist of commands and configuration settings that are available from user Library drop-down lists and from the common **Manage** ***\<AssetType>*** dialog that is accessible from such drop-down lists and other locations.  
   
  You can use the Library drop-down lists to do the following:  
@@ -34,6 +36,7 @@ Message Analyzer enables you to manage any user Library by using a common and ce
  You can use the **Manage** ***\<AssetType>*** dialog to import and export selected asset collection Library items from and to a user file share or other location, respectively, for mutually sharing Library items with others. In addition, the **Manage** ***\<AssetType>*** dialog also enables you to perform other operations, for example, modifying and deleting existing items in certain categories.  
   
 ## Centrally Managing User Libraries  
+
  The central locations from where you can manage the items in any asset collection Library and the specific commands that are available from these locations are described in this section. The list that follows describes the management locations and indicates how to access commands:  
   
 -   **Library drop-down list** — from the drop-down list of a Library, you can access a right-click context menu that provides different sets of commands, depending on whether you right-click an item in the default **Message Analyzer** category or an item in the **My Items** category of an asset collection Library. The available context menu commands are described ahead.  
@@ -67,6 +70,7 @@ Message Analyzer enables you to manage any user Library by using a common and ce
 |**Aliases**|Yes|**Create Alias for \<field> ...**, an **Analysis Grid** context menu item, the **Manage Aliases** item; **Import** and **Export** commands<br />For more information about **Aliases**, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).<br /><br /> **Note:** The **Aliases** Library is not a collection that is updated by Microsoft, given that you typically customize aliases to your own environment.|No|None|**Edit**, **Create a Copy**, **Delete**|  
   
 ## Exporting and Importing Library Items  
+
  In addition to the available commands specified in the previous table, the **Manage** ***\<AssetType>*** dialog also enables you to perform the following operations:  
   
 -   **Export Library items** — the **Manage** ***\<AssetType>*** dialog enables you to create an export configuration by choosing the items you want to include in the export. For example, you can select individual items or all items in subcategories such as **Network** and **Examples** or you can select all items in either or both top-level categories such as **Message Analyzer** or **My Items**, to comprise the export configuration. After you decide which items in an asset collection Library you want to export, click the **Export** button in the **Manage** ***\<AssetType>*** dialog to display the **Save Library** dialog, which enables you to specify the following information:  
@@ -91,6 +95,7 @@ Message Analyzer enables you to manage any user Library by using a common and ce
     >  You are advised to not use the **Import** feature to retrieve asset collection items from a user-configured subscriber feed that is part of the Message Analyzer Sharing Infrastructure, as duplicates are not overwritten, but rather to obtain them by performing a download or auto-sync operation from the Message Analyzer **Asset Manager** dialog, as described in [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
   
 ## Expanding User Libraries  
+
  There are four ways to add items to an asset collection Library, as follows:  
   
 -   Create new items such as **Session Filters**, **Color Rules**, **Pattern Expressions**, **Aliases**, **Chart** viewer **Layouts**, and **Trace Scenarios**, or configure and save a new **Layout** for the **Analysis Grid** or **Grouping** viewer. After you create a new item, you can specify the Library category in which to place it.  
@@ -118,7 +123,9 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
  **More Information**   
  **To learn more** about how to manage downloads and updates for asset collection Libraries, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
+
 ---  
   
 ## See Also  
- [User Libraries](user-libraries.md)
+
+- [User Libraries](user-libraries.md)

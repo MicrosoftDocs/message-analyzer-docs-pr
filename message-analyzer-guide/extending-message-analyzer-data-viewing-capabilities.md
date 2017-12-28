@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Extending Message Analyzer Data Viewing Capabilities
+
 Although Message Analyzer provides many built-in data viewers that attempt to address common analysis scenarios, it can be to your advantage to customize your data analysis environment with additional data viewing capabilities that meet your specific needs. Message Analyzer accommodates for these requirements by allowing you to extend Message Analyzer data viewing capabilities with custom **Layouts** of your own design that you can create for the **Chart** viewer. When you create your own **Layout**, you can configure any one of several types of graphic data visualizer components along with one or more data formulas that you can specifically craft to provide data analysis capabilities that streamline your work.  
   
 > [!IMPORTANT]
@@ -37,6 +39,7 @@ In the topics of this section, you will learn about the functions of **Chart** *
 ---  
   
 ## In This Section  
+
  **[Configuring Chart Viewer Layouts](configuring-chart-viewer-layouts.md)**  — learn about the constraints  with which you must work when creating a **Chart** viewer **Layout** of your own design,  the built-in **Chart** viewer **Layouts** that are provided with Message Analyzer by default, the visualizer components that Message Analyzer uses in the built-in **Chart** viewer **Layouts** and that you can likewise use in your own **Layouts**, along with the criteria for choosing a visualizer component type for a custom **Layout** of your own. You can also read an overview about configuring a custom **Chart** viewer **Layout**.  
   
  **[Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)**  — learn about the controls and features that you can use to create and save your own custom **Layouts** with a visualizer component that you specify. Also describes how to use the **Edit Chart Layout** dialog to set **Chart Properties**, **Series Fields**, and **Values**; and the **Formula Editor** dialog in which you can create data formulas based on a specified operation that manipulates message field data or computed values.  

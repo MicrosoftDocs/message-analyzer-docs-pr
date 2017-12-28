@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Message Analyzer Online Forum
+
 If you have comments or questions about Message Analyzer issues that you encounter, you can start a discussion thread on the Message Analyzer Forum on TechNet. This includes issues that you may experiencing such as an application crash, unknown exception, or others that appear to be bug related. Microsoft regularly monitors the Message Analyzer Forum, so if you are having an issue that is bug related or otherwise, please provide the details and Microsoft will respond.  
   
  The advantage of bringing your issue to the community of Message Analyzer users is that you can solicit interactive participation in your discussion thread to obtain feedback that may resolve a problem you are experiencing. By engaging with other users in this manner, a tribal knowledge is developed in the community that not only helps users, but enables Microsoft to make improvements to Message Analyzer based on feedback.  
@@ -22,9 +24,11 @@ If you have comments or questions about Message Analyzer issues that you encount
 ---  
   
  **[Go To the Message Analyzer Online Forum](http://go.microsoft.com/fwlink/?LinkId=523826)**    
+
 ---  
   
 ## Forum Feature Summary  
+
  The following Message Analyzer Forum features summary describes some of the specific things you can do at the site:  
   
 -   **Start a discussion thread** — ask a question and/or provide instructions that describe the conditions under which a problem is reproduced, so that others, including Microsoft, may understand the issue and respond appropriately.  

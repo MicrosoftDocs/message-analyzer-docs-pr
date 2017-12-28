@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Managing Microsoft OPN Parser Packages
+
 By default, every Message Analyzer installation is provided with a baseline set of **OPN Parsers** that enable the PEF Runtime to decode messages that are captured by various Message Analyzer providers. These **OPN Parsers** are automatically copied to default locations during Message Analyzer installation. Thereafter, they are accessed by the PEF Runtime when parsers are required for decoding captured messages.  
   
 ## Downloading and Updating OPN Parsers  
+
  Message Analyzer enables you to download **OPN Parser** updates from a Microsoft web service that drives the **Message Analyzer** feed on the **Downloads** tab of the Message Analyzer **Asset Manager**. The **OPN Parsers** are listed on this tab and the **Settings** tab, from where you can manage your downloads with interactive status icons. As indicated earlier, the default behavior is to copy **OPN Parsers** to specific directory locations during Message Analyzer installation, but the default behavior does not automatically synchronize them for updates. In this state, all **OPN Parser** packages display server download icons that you can click for download options, either from the **Downloads** or **Settings** tab of the **Asset Manager**. To automatically synchronize for updates, you must set the *auto-sync* download option, which changes the **OPN Parser** download status; or you can elect to perform a single download without syncing for future updates.  
   
 > [!TIP]
@@ -38,6 +41,7 @@ By default, every Message Analyzer installation is provided with a baseline set 
 -   **Work offline** — when you toggle the **Online** button on the **Downloads** page to the **Offline** state, you essentially prevent **OPN Parser** updates from being pushed out to your Message Analyzer installation from the web service. Going into the **Offline** state has no effect on your current **OPN Parser** download status, such that any auto-sync configuration that you previously set will automatically resume after you return to the **Online** state.  
   
 ## OPN Parser Groupings and Dependencies  
+
  The **OPN Parsers** are grouped into packages which contain components that relate to specific areas of functionality, such as applications, devices, communications, support, and so on. For example, the **Core Networking** package contains parsers for public network protocols and the **Microsoft Remote Desktop** package contains parsers for remote desktop application communications and management. In addition, some **OPN Parser** packages have dependencies on other **OPN Parser** packages, which means, for example, that syncing, downloading, or reinstalling one package will include any dependent packages as well. The dependencies between **OPN Parser** packages are automatically managed by Message Analyzer, such that the following occurs:  
   
 -   When you download an **OPN Parser** package that depends on another **OPN Parser** package, it is automatically downloaded with the dependency package included.  
@@ -47,6 +51,7 @@ By default, every Message Analyzer installation is provided with a baseline set 
 -   When an **OPN Parser** package is set for auto-syncing updates, any **OPN Parser** packages upon which the synced package depends will be included in the updates.  
   
 ## OPN Parser Package Descriptions  
+
  The following table identifies and describes the baseline **OPN Parser** packages that are provided with Message Analyzer:  
   
 ### Table 28. OPN Parser Packages and Dependencies  
@@ -72,5 +77,6 @@ By default, every Message Analyzer installation is provided with a baseline set 
 |**Skype for Business Parsers Version 1.3**|Contains parsers for Microsoft Skype services.|Core Networking, Public, Infrastructure|  
   
 ## See Also  
- [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)   
- [Asset Manager](asset-manager.md)
+
+- [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)   
+- [Asset Manager](asset-manager.md)

@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Naming Saved Files
+
 When saving trace data in one of the Message Analyzer native file formats, you are advised to consider file naming conventions. The following elements can be represented in saved message data and can therefore impact how you name the file:  
   
 -   The stack level at which you ran a trace or the **Trace Scenario** you used.  
@@ -34,6 +36,7 @@ When saving trace data in one of the Message Analyzer native file formats, you a
 -   The problem you solved.  
   
 ## File Naming and Searchability  
+
  Considering the variability of these factors, the content of each saved message file is almost certain to be unique. Therefore, the name of any message file that you save should be representative of its unique content, to facilitate ease of recognition when you revisit the data at a future time, or when reviewers, decision makers, and other colleagues view it for the first time. You can also apply the same principles when naming new sessions.  
   
  If you have a well thought-out file naming strategy, it can simplify your work and save time. For example, if you are importing a large number of files that display in the files list of a Data Retrieval Session, you can quickly locate and select specific files containing data that you want to load by specifying characters, in the search box on the toolbar of the **Files** tab in the **New Session** dialog, that are unique to the file names or the directory in which the files are located. For instance, you could search for all files or directories containing the characters “SMB2 Query Info”. The search then highlights all files and directories containing those characters and you can then select only those files from which to load data. This feature enables you to select any single file or group of files, in any combination, that contain the data you want to analyze following the data loading process.  

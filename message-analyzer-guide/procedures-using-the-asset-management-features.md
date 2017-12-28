@@ -14,13 +14,16 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Procedures: Using the Asset Management Features
+
 This section contains procedures that demonstrate how to use the Message Analyzer asset collection download, auto-syncing, and sharing features for tasks that you are likely to perform on a consistent basis. Also included is a procedure that shows how to manually configure an asset collection for update synchronization.  
   
 ---  
   
  **Procedure Overviews**   
 A brief description of each procedure is included here for review, as follows.  
+
 ---  
   
  **[Download and Auto-Sync Asset Collections](procedures-using-the-asset-management-features.md#BKMK_DownloadAutoSync)**  — provides an example of how to download an asset collection once without synchronizing it for updates; how to set a selected asset collection for auto-syncing updates; and how to synchronize all asset collections for updates.  
@@ -69,8 +72,8 @@ A brief description of each procedure is included here for review, as follows.
   
      The asset collections that you auto-synced are removed from the **Downloads** tab and reappear on the **Settings** tab with the auto-sync status icon displaying to the right of each collection.  
   
-    > [!NOTE]
-    >  When you click the **Sync All Displayed Items** button on the **Downloads** tab to set all asset collections to the auto-sync state, this includes all **OPN Parser** packages.  
+> [!NOTE]
+>  When you click the **Sync All Displayed Items** button on the **Downloads** tab to set all asset collections to the auto-sync state, this includes all **OPN Parser** packages.  
   
 <a name="BKMK_ShareLibraryItems"></a>   
 ## Share Local Library Items on a File Share  
@@ -96,8 +99,8 @@ A brief description of each procedure is included here for review, as follows.
   
 9. After you specify a **File name** for the asset collection, click the **Save** button to exit the **Select Library Location...** dialog, at which time your asset collection is posted to the file share location.  
   
-    > [!NOTE]
-    >  Ensure that users have your file share location information and appropriate permissions to access the share or other location.  
+> [!NOTE]
+>  Ensure that users have your file share location information and appropriate permissions to access the share or other location.  
   
 #### To import a Filter asset collection  
   
@@ -168,4 +171,5 @@ A brief description of each procedure is included here for review, as follows.
  Users should then be able to use the download or auto-sync option in the **Item Download Options** dialog to update their local Library with the latest version of your asset collection. After users update a Library, the collection items should appear in the Library under a category name that matches the feed name.  
   
 ## See Also  
- [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)
+
+- [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)

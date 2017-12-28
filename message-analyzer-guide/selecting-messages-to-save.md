@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Selecting Messages to Save
+
 Message Analyzer enables you to select specific messages from a session that you want to save by allowing you to specify one of the following save options in the **Save/Export Session** dialog:  
   
 > [!NOTE]

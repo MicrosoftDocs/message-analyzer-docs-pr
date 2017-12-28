@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Participating in the Message Analyzer Community
+
 As a Message Analyzer user, you can take advantage of community resources to enhance your knowledge of Message Analyzer and network troubleshooting. To this end, you can participate in Message Analyzer Forum discussions to obtain feedback on issues or to report bugs. You can also respond to Message Analyzer team Blog postings. These features enable you to connect with Microsoft and other users so you can  benefit from their perspectives and experiences with Message Analyzer. There are also facilities in the Message Analyzer user interface to provide feedback about product features. In addition, you can provide feedback on specific topics of this Operating Guide in either of the following ways, while in the case of the first bullet point below, you can receive feedback directly from Microsoft:  
   
 -   Use the **Community Additions** feature at the end of each topic in this Operating Guide to start a comment and response thread, where you can receive direct feedback from Microsoft.  
@@ -25,9 +27,11 @@ As a Message Analyzer user, you can take advantage of community resources to enh
   
  **What You Will Learn**   
 In the topics of this section, a     brief description of the above specified resources is included. Enhancements to the way you can provide **Feedback** directly from the Message Analyzer user interface are also described.   
+
 ---  
   
 ## In This Section  
+
  **[Message Analyzer Community Additions](message-analyzer-community-additions.md)**  — learn how you can provide feedback or start a discussion thread on any topic in this Operating Guide, to which you can obtain feedback directly from Microsoft.  
   
  **[Message Analyzer Team Blog](message-analyzer-team-blog.md)**  — take advantage of the Message Analyzer Blog site, where informative articles are posted by the engineers who designed Message Analyzer.  

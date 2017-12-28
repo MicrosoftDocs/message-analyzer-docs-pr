@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuring Chart Viewer Layouts
+
 The built-in   **Chart** viewer **Layouts** that are provided with Message Analyzer by default represent various ways to organize the display of data using any of the four data visualizer components that are available for **Layouts**. When configuring a custom **Layout** of your own design, the following constraints apply:  
   
 -   You can use only one of the four types of graphic visualizer components in any one **Layout**.  
@@ -131,12 +133,13 @@ The **Layout** list that you can access from the **Session** menu, as previously
   
 -   **Timeline** graph — displays an interconnected timeline element across trace boundaries for common properties, fields, values, or other entities that are contained in captured messages, to expose the points in time on the X-axis where those entities were sent and/or received, versus other values on the Y-axis that might represent the application of a particular formula, such as the **Count** of identical values for a particular field. Double-click a single timeline element or node to view the associated messages in a new instance of the **Analysis Grid** viewer.  
   
-    > [!NOTE]
-    >  The **Timeline** visualizer is enabled for zooming into chosen windows of time.  
+> [!NOTE]
+>  The **Timeline** visualizer is enabled for zooming into chosen windows of time.  
   
 -   **Table** grid — contains data row and column elements that you can organize to correlate values with entities such as message fields and properties, or formulas based on field and properties, for example the **Average** of a set of field values. Double-click a data row to view the associated messages in a new instance of the **Analysis Grid** viewer.  
   
 ## Choosing a Visualizer Component for a Custom Layout  
+
  When you are creating a custom **Chart** viewer **Layout** of your own design,  you should consider several factors before you select the visualizer component that you want to work with, as follows:  
   
 -   **Troubleshooting context** — this refers to  the environment or circumstances in which you typically expect to experience issues, for example,  connectivity, performance, security, diagnostics, Internet, and so on.  
@@ -151,8 +154,8 @@ The **Layout** list that you can access from the **Session** menu, as previously
   
      For example, if you are interested in working with IPv4 messages, you might want to expose network conversations with the **IPv4.Datagram.Network** field in your **Layout** along with their associated message volumes across a set of trace results. If you are interested in working with SMB2 messages, you might want to expose the average response time for all messages associated with the SMB2 queries that occurred in a set of trace results. The average response time would be calculated by a **Layout** formula that is based on the **ResponseTime** Global Annotation; see  [SMB/SMB2 Service Performance](smb-smb2-service-performance.md) for further information.  
   
-    > [!TIP]
-    >  You have the option to employ **Unions** in any **Layout** that you modify, which includes **Union** sets.  
+> [!TIP]
+>  You have the option to employ **Unions** in any **Layout** that you modify, which includes **Union** sets.  
   
 -   **Data presentation format** — the format in which you present data should align with the level of detail that you want to see, for example, a high-level summary or low-level details that include message field data  and other computed values, or events occurring in the context of time, as follows:  
   
@@ -179,4 +182,5 @@ If you want to create a custom **Layout**, you will need to edit an existing **L
 ---
   
  [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)   
+ 
 ---

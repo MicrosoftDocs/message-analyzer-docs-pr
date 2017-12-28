@@ -14,10 +14,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Managing Chart Viewer Layouts
+
 This section describes how to manage the items of your **Message Analyzer Chart View Layouts** asset collection. Also included are discussions about using the Message Analyzer Sharing Infrastructure to share **Chart** viewer **Layouts** with others and how to receive automatic updates for this collection.  
   
 ## Managing the Chart Viewer Layouts Library  
+
  To manage  the **Chart** viewer **Layouts** in the **Message Analyzer Chart View Layouts** asset collection Library, you will use commands that are available in the **Manage Chart Layout** dialog, which is accessible from the global Message Analyzer **Session** menu by selecting the **Chart**, **Layout**,  **Manage Layouts**, and **Manage** items in succession.  
   
  The **Message Analyzer Chart View Layouts** asset collection Library has a **Message Analyzer** category for the default asset collection that contains the built-in **Layouts** that are described in the [Built-In Chart Viewer Layouts](configuring-chart-viewer-layouts.md#BKMK_Charts) topic. This Library also contains a **My Items** category from where you can manage any **Layouts** of your own design that you saved. The commands that are available in this dialog are described in [Managing Chart Viewer Layout Library Items](managing-chart-viewer-layouts.md#BKMK_ManageChartLayoutItems).  
@@ -28,9 +31,11 @@ This section describes how to manage the items of your **Message Analyzer Chart 
   
  **More Information**   
  **To learn more** about managing Message Analyzer asset collections, including the **Message Analyzer Chart View Layouts** collection, see [Managing User Libraries](managing-user-libraries.md).   
+
 ---  
   
 ## Using the Layout Commands  
+
  This section briefly describes the Layout commands that you can use to manage any of the built-in **Chart** viewer **Layouts** or any new **Layout** that you have created. These commands are accessible from the **Layouts** drop-down list that appears on the Charts toolbar whenever a **Chart** viewer **Layout** is displayed. A descriptions of each command is specified in the list that follows:  
   
 -   **Save Current Layout As...** — the primary command that you will use to save a newly modified **Chart** viewer **Layout** as a custom **Layout** of your own. When you click this command from the **Layout** drop-down list on the Charts toolbar, the **Edit Chart Layout** dialog displays with the **Layout** configuration and formulas that you specified, where you can provide a **Name**, **Description**, and a **Category** for your custom **Chart** viewer **Layout**.  
@@ -42,6 +47,7 @@ This section describes how to manage the items of your **Message Analyzer Chart 
 -   **Save Current as Default User Layout** — appears in the **Manage Layouts** submenu of the **Layout** drop-down list that displays on the Charts toolbar. Enables you to save the currently displayed **Chart** viewer **Layout** as the default, such that you can display it any time thereafter by executing the **Load Default User Layout** command.  
   
 ## Utilizing the Message Analyzer Sharing Infrastructure  
+
  You can share your **Layout** collection items through the Message Analyzer Sharing Infrastructure by using the **Export** feature of the **Manage Chart Layout** dialog to post one or more **Layouts** to a file share or other designated location that is accessed through a user-configured feed. You can create your own feed from the **Settings** tab in the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu. Thereafter, you can update existing **Layout** collection items or add others to make them available to team members or other users through the configured feed, where they can view, synchronize, and download them. However, the synchronization feature that keeps users up to date  requires some manual configuration at this time, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
   
  Message Analyzer also has a default subscriber feed that appears on both the **Downloads** and **Settings** tabs of the **Asset Manager** dialog. On the **Downloads** tab, the feed enables you to view the default assets provided with Message Analyzer.  On the **Settings** tab, the feed provides the path that enables the Message Analyzer application to download the **Message Analyzer Chart View Layouts** asset collection from a Microsoft web service at first Message Analyzer startup. It also enables you to receive asset collection updates that are periodically pushed out by the service, as useful **Layout** assets are developed at Microsoft for the community of Message Analyzer users. To receive updates that will appear in the **Message Analyzer** category of your local **Message Analyzer Chart View Layouts** asset collection Library, you must set this asset collection to the auto-sync state on the **Downloads** tab of the **Asset Manager**, as described in [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md).  
@@ -74,4 +80,5 @@ This section describes how to manage the items of your **Message Analyzer Chart 
  **To learn more** about sharing Message Analyzer asset collection Library items, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
 **To learn more** about the manual synchronization process for a user-configured feed, see [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
 **To learn more** about auto-syncing and downloading item collections, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
+
 ---

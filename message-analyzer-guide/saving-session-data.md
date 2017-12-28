@@ -14,12 +14,15 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Saving Session Data
+
 Message Analyzer enables you to save message data that is loaded from any Data Retrieval Session or captured in any Live Trace Session. If you start a new Data Retrieval Session and load data from one or more saved message files, or you capture messages in a Live Trace Session, you can save certain modifications that you made to the data set if you save in the Message Analyzer native parsed (.matp) file or .cap file formats only. The modifications to a set of trace *results* that can be saved are described in [Saving Message Data](saving-message-data.md). Note that the capture file (.cap) format can be viewed in other applications such as Microsoft Network Monitor.  
   
  If you open a supported message file (see [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)) of non-native format, for example with the **Open** feature, and you manipulate the data, you can save the resulting data set in one of the previously indicated file formats only. Also, if you load data from a saved file in parsed .matp format or any other supported format, and you need to resave it after manipulating the data, you can only save it again in the same .matp format, or you can export it as a .cap file. If you start a new Live Trace Session, you can save the session data that you capture in either of the indicated file formats.  
   
 ## Using the Save As/Export Session Dialog  
+
  When you are ready to save your data, click the **Save As** item in the Message Analyzer **File** menu to display the **Save/Export Session** dialog that is shown in the figure that follows. This dialog provides you with the option to save all messages, a message set that resulted from applying one or more filters or other operations, or a selected set of messages from the Data Retrieval Session or Live Trace Session results.  
   
 > [!NOTE]
@@ -45,6 +48,7 @@ Message Analyzer enables you to save message data that is loaded from any Data R
 >  When you want to save the results of a Live Trace Session that has never been saved before, use the **Save As** command from the Message Analyzer **File** menu to display the **Save/Export Session** dialog.  If you want to save the results of changes you have made to an existing session, for example, where you have applied a **Time Shift** or added **Bookmarks** and **Comments**, use the **Save** command from the Message Analyzer **File** menu to silently preserve the changes in the session file.  
   
 ## Saving Session Results  
+
  After loading, capturing, manipulating, and analyzing data, you can save your session results set to a single native file only for which you specify a new name, or you can overwrite an original file with the new results set. The save process aggregates all message data in the selected session (or a filtered subset of the data) into this single file no matter how many files you originally included in the input file configuration. Moreover, if you attempt to reload data from this newly saved file, Message Analyzer will display the name of the new file in the files list and retrieve all the aggregated data contained in that file after you start the Data Retrieval Session.  
   
  Message Analyzer also enables you to save session results after working with either of the following:  
@@ -59,6 +63,7 @@ Message Analyzer enables you to save message data that is loaded from any Data R
 >  When you save data from a Live Trace Session in the native .matp file format, Message Analyzer automatically stores the OPN parsers used in the trace so that .matp files become portable. This ensures that a different Message Analyzer installation will be able to parse the messages in ported files when they are reloaded through a Data Retrieval Session or the **Open** feature.  
   
 ## Saving Session Data to the Default Location  
+
  After you open the **Save/Export Session** dialog and you click the **Save As** button, a **Save As** dialog opens to the following default location for saving Message Analyzer session data:  
   
  `c:\Users\<username>\Documents\MessageAnalyzer\Traces\`  
@@ -74,4 +79,5 @@ Message Analyzer enables you to save message data that is loaded from any Data R
   
  **More Information**   
  **To learn more** about saving message data that was loaded with a **Time Filter** applied, see the procedure [Apply a Time Filter to Data Loading and Save the Message Collection](procedures-using-the-data-retrieval-features.md#BKMK_importSaveMsgCollection).  
+
 ---

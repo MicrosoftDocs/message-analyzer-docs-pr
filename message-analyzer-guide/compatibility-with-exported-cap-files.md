@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Compatibility with Exported CAP Files
+
 As previously stated, Message Analyzer enables you to export trace data in the  .cap file format, which is the native file format for  Microsoft Network Monitor. If you export Message Analyzer data to the .cap file format, it enables Network Monitor and other protocol analysis tools that support this format to open such a file. However, Message Analyzer only supports certain media types when exporting data to the .cap file format. Therefore, if you are saving trace data that contains frames that are unsupported, that data will not be exported. In addition, if no frames of the supported type are found in the trace data being exported, Message Analyzer will not export any messages and displays the following **Trace Save Error** message:  
 **None of the messages could be written to file, therefore the file was not created**  
   
@@ -29,4 +31,5 @@ As previously stated, Message Analyzer enables you to export trace data in the  
 |ETW provider message (NetEvent)|0xFFE0|  
   
 ## See Also  
- [Saving Files in Native Format](saving-files-in-native-format.md)
+
+- [Saving Files in Native Format](saving-files-in-native-format.md)

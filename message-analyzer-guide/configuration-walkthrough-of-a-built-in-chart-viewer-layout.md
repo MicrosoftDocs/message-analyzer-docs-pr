@@ -13,10 +13,13 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Configuration Walkthrough of a Built-In Chart Viewer Layout
+
 This section provides a walkthrough of the configuration process for the built-in **Chart** viewer **Layout** known as the [TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)**Layout**. You might click the specified link and review the indicated topic in order to understand the functionality of this **Layout** before proceeding with the walkthrough.  
   
 ## Built-In Chart Viewer Layout Configuration Walkthrough  
+
  The **TCP/UDP Conversations by Message Count** **Layout** is accessible from the **Chart** drop-down list in the **New Viewer** menu on the global Message Analyzer toolbar. This **Layout** enables you to view the network conversations and the transports that carried them, along with the following data that can point you to specific areas that may require further investigation:  
   
 -   Conversations with the highest message volume  
@@ -42,6 +45,7 @@ This section provides a walkthrough of the configuration process for the built-i
 -   **Duration statistics** data — displays in the **Duration** column and provides a computed time interval for the duration of each conversation.  
   
 ### Configuration Walkthrough  
+
  The subsections below explain how the fields and computed values that populate the Table columns of the **TCP/UDP Conversations by Message Count** **Layout** are configured with the use of the **Edit Chart Layout** and **Formula Editor** dialogs. To get the most out of this walkthrough, you should display this **Layout** and open the **Edit Chart Layout** and **Formula Editor** dialogs in the procedures and explanations that follow, so that you can follow the process step-by-step through the dialog configurations that are given here.  
   
 ##### To start Message Analyzer, load data, and display the TCP/UDP Conversations by Message Count Layout  
@@ -207,4 +211,5 @@ For this **Layout** to display data in the **Duration** column, the fourth **Val
 >  There are other **Formulas** that you can review for data that displays in the **StartTime**, **EndTime**, **BPS**, and **K** columns of this **Layout**. However, an explanation of the **Formulas** for this data has already  been provided in other parts of this walkthrough.  
   
 ## See Also  
- [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)
+
+- [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)

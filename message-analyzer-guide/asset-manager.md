@@ -13,7 +13,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Asset Manager
+
 Message Analyzer provides an **Asset Manager** dialog that enables you to manage your asset collections, which includes the following tasks:  
   
 -   Downloading asset collections to your user Libraries.  
@@ -38,8 +40,8 @@ Message Analyzer provides an **Asset Manager** dialog that enables you to manage
   
 -   **Sync All Displayed Items** button — causes automatic update synchronization of all the default **Message Analyzer** feed list items. Thereafter, your Message Analyzer installation is synchronized with item collection and **OPN Parser** package updates from a Microsoft web service, so that you always have the latest versions. However, for this synchronization to take place, your Message Analyzer installation must be set to **Online** status, as described in the next bullet item.  
   
-    > [!NOTE]
-    >  You have the option to synchronize **Message Analyzer** feed list items individually or you can elect to download the current configuration of a particular item and stop receiving updates. You can access these features by clicking the status icons to the right of the feed list items that are displayed on the **Downloads** page.  
+> [!NOTE]
+>  You have the option to synchronize **Message Analyzer** feed list items individually or you can elect to download the current configuration of a particular item and stop receiving updates. You can access these features by clicking the status icons to the right of the feed list items that are displayed on the **Downloads** page.  
   
 -   **Online/Offline** button — when this button is set to **Online**, you automatically receive updates to **Message Analyzer** subscriber feed **Synced Collections** that are set to auto-sync status. When this button is set to **Offline**, you do not receive updates.  
   
@@ -55,10 +57,11 @@ Message Analyzer provides an **Asset Manager** dialog that enables you to manage
   
 -   **Remove Feed** — enables you  to remove any feed by clicking the **X** to the right of the feed name.  
   
-    > [!NOTE]
-    >  You are advised to *not* remove the default **Message Analyzer** subscriber feed.  
+> [!NOTE]
+>  You are advised to *not* remove the default **Message Analyzer** subscriber feed.  
   
 -   **Online/Offline** button — when this button is set to **Online**, you automatically receive updates to **Message Analyzer** subscriber feed **Synced Collections** that are set to auto-sync status. When this button is set to **Offline**, you do not receive updates.  
   
 ## See Also  
- [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)
+
+- [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)

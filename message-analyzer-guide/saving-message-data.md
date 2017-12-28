@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Saving Message Data
+
 After you have loaded data through a Data Retrieval Session or captured data in a Live Trace Session and displayed it in a viewer such as the **Analysis Grid** viewer, in most cases you will manipulate the data in some way to isolate specific information and analyze the issues on which you are working. For example, you might have modified your Data Retrieval Session or Live Trace Session results data in one or more of the following ways:  
   
 -   Displayed additional message fields by adding specific columns to the **Analysis Grid** viewer to contain new field data.  
@@ -44,9 +46,11 @@ After you have loaded data through a Data Retrieval Session or captured data in 
   
  **What You Will Learn**   
 In this section, you will learn about saving session data to the default location, the selection options for saving messages, specifying file formats, and naming files, as indicated by the topics below.   
+
 ---  
   
 ## In This Section  
+
  **[Saving Session Data](saving-session-data.md)**  — learn how to use the **Save As/Export Session** dialog to save trace results data in the *.matp file format, or to export trace results to a \*.cap file for compatibility with other applications, such as Network Monitor.  
   
  **[Selecting Messages to Save](selecting-messages-to-save.md)**  — review the save options that are available, which includes saving **All Messages**, **Filtered Messages**, and **Selected Messages**.  

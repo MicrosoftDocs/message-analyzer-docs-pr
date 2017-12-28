@@ -14,7 +14,9 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Automating Tracing Functions with PowerShell
+
 At times, it may be advantageous for you to automate certain Message Analyzer functions that enable you to do the following:  
   
 -   Utilize enhancements to the manner in which you start and stop traces, for example, with various types of triggers such as a time trigger or process trigger.  
@@ -29,6 +31,7 @@ At times, it may be advantageous for you to automate certain Message Analyzer fu
   
  **What You Will Learn**   
 In the topics of this section that are listed below, you will learn about the PowerShell automation features that are available for Message Analyzer.  
+
 ---  
   
  **[Encapsulating Tracing Functionality](automating-tracing-functions-with-powershell.md#BKMK_EncapsulatedFunctionality)**  — learn what types of tracing functions you  an automate with PowerShell.  
@@ -98,15 +101,15 @@ In the topics of this section that are listed below, you will learn about the Po
   
          When you start a Trace Session with the **Start-PefTraceSession** cmdlet, the **Trace Filter** that you specify with the **Set-PefTraceFilter** cmdlet functions the same way as any other **Trace Filter** configured in the Message Analyzer UI. The **Set-PefTraceFilter** cmdlet also returns the target session to enable pipelining.  
   
-        > [!NOTE]
-        >  If you specify a file-based data source (such as a log file) as the message provider when creating a Trace Session with the **New-PefTraceSession** cmdlet, any filter that you specify with the **Set-PefTraceFilter** cmdlet will act as a **Trace  Filter**.  
+> [!NOTE]
+>  If you specify a file-based data source (such as a log file) as the message provider when creating a Trace Session with the **New-PefTraceSession** cmdlet, any filter that you specify with the **Set-PefTraceFilter** cmdlet will act as a **Trace  Filter**.  
   
     -   **Start-PefTraceSession** — enables you to start a Message Analyzer Trace Session and to specify a trigger for the startup action. **Start-PefTraceSession** acts as an entry point for message processing. If you do not specify a trigger, **Start-PefTraceSession** initiates a processing loop where no other PowerShell cmdlets or functions are executed until the loop ends. If the **Start-PefTraceSession** cmdlet has a trigger, it will start a message processing loop only when that trigger is fired. When a message processing loop terminates, all active Trace Sessions are stopped. You can stop a Trace Session by invoking the **Stop-PefTraceSession** cmdlet, which causes **Start-PefTraceSession** to exit the processing loop. This cmdlet also returns the target session to enable pipelining.  
   
     -   **Stop-PefTraceSession** — provides the means to define how you will stop a specified Trace Session. When the session is stopped, it is terminated and the PEF Runtime state is cleaned up. You can also use this cmdlet to define the trigger action that stops a specified Trace Session, which you configure prior to starting the Trace Session. To store the data retrieved in the Trace Session, you can specify values for the `SaveOnStop` parameter when creating a Trace Session with the **New-PefTraceSession** cmdlet, or you can use the **Save-PefDataCollection** cmdlet to specify where to store retrieved data.  
   
-        > [!NOTE]
-        >  When you write a PowerShell script, you typically specify the **Stop_PefTraceSession** cmdlet before the **Start-PefTraceSession** cmdlet, because the Trace Session will start as soon as you hit return at the PowerShell command line after specifying the **Start-PefTraceSession** cmdlet.  
+> [!NOTE]
+>  When you write a PowerShell script, you typically specify the **Stop_PefTraceSession** cmdlet before the **Start-PefTraceSession** cmdlet, because the Trace Session will start as soon as you hit return at the PowerShell command line after specifying the **Start-PefTraceSession** cmdlet.  
   
 -   **Trigger scripts**:  
   
@@ -134,8 +137,8 @@ In the topics of this section that are listed below, you will learn about the Po
   
         -   A log file as a message source in a Data Retrieval Session, for example, an event log (.etl) or a text log (.log) file.  
   
-            > [!NOTE]
-            >  When specifying a text log as input to a Data Retrieval Session, you can also specify a text log configuration file for parsing the log.  
+> [!NOTE]
+>  When specifying a text log as input to a Data Retrieval Session, you can also specify a text log configuration file for parsing the log.  
   
         -   Manifest-based PEF message providers such as the **Microsoft-PEF-WFP-MessageProvider** or **Microsoft-PEF-NDIS-PacketCapture** provider, as a message source in a Live Trace Session.  
   
@@ -151,12 +154,12 @@ In the topics of this section that are listed below, you will learn about the Po
   
     -   **New-PefTargetHost** — enables you to create a target host object that you specify as a target computer for remote tracing in a Live Trace Session. You can target and add multiple computers to a Live Trace Session with this cmdlet. Use the object that this cmdlet creates as input to the **Add-PefProviderConfig** cmdlet. Note that this cmdlet uses the current user credentials by default, although you can provide other credentials by specifying the -Credentials parameter.  
   
-        > [!NOTE]
-        >  This cmdlet uses the Microsoft-PEF-WFP-MessageProvider, which is now enabled for remote tracing. You can use this provider to capture remote traffic, but on a remote Windows 10 host only, and while running on a Windows 8.1, Windows Server 2012 R2, or Windows 10 computer only.  
-  
-        > [!TIP]
-        >  On the Windows 10 client operating system, you can capture traffic locally or remotely in promiscuous mode (p-mode) by using the **Add-NetEventNetworkAdapter** and the **Add-NetEventPacketCaptureProvider** PowerShell cmdlets. With the **Add-NetEventNetworkAdapter** cmdlet, you can specify the –PromiscuousMode parameter for a supporting network adapter that you are adding as a filter on a remote packet capture provider. With the **Add-NetEventPacketCaptureProvider** cmdlet, you can specify the **Windows-NDIS-PacketCapture** provider to capture remote traffic and save a \*.etl file locally on the remote computer. Note that you can import this file into Message Analyzer from the **Files** tab of the **New Session** dialog to retrieve the data for analysis. In a future Message Analyzer release, you may have the option to capture in the promiscuous mode directly from the user interface.  
-        > **To learn more**, see the [Add-NetEventNetworkAdapter](https://technet.microsoft.com/en-us/library/dn283343.aspx) and [Add-NetEventPacketCaptureProvider](https://technet.microsoft.com/en-us/library/dn268510.aspx) cmdlets on TechNet.  
+> [!NOTE]
+>  This cmdlet uses the Microsoft-PEF-WFP-MessageProvider, which is now enabled for remote tracing. You can use this provider to capture remote traffic, but on a remote Windows 10 host only, and while running on a Windows 8.1, Windows Server 2012 R2, or Windows 10 computer only.  
+
+> [!TIP]
+>  On the Windows 10 client operating system, you can capture traffic locally or remotely in promiscuous mode (p-mode) by using the **Add-NetEventNetworkAdapter** and the **Add-NetEventPacketCaptureProvider** PowerShell cmdlets. With the **Add-NetEventNetworkAdapter** cmdlet, you can specify the –PromiscuousMode parameter for a supporting network adapter that you are adding as a filter on a remote packet capture provider. With the **Add-NetEventPacketCaptureProvider** cmdlet, you can specify the **Windows-NDIS-PacketCapture** provider to capture remote traffic and save a \*.etl file locally on the remote computer. Note that you can import this file into Message Analyzer from the **Files** tab of the **New Session** dialog to retrieve the data for analysis. In a future Message Analyzer release, you may have the option to capture in the promiscuous mode directly from the user interface.  
+> **To learn more**, see the [Add-NetEventNetworkAdapter](https://technet.microsoft.com/en-us/library/dn283343.aspx) and [Add-NetEventPacketCaptureProvider](https://technet.microsoft.com/en-us/library/dn268510.aspx) cmdlets on TechNet.  
   
 <a name="BKMK_PSScriptExample"></a>   
 ## Examining a PowerShell Script Example  
@@ -182,6 +185,7 @@ Start-PefTraceSession -PEFSession $TraceSession01 –Trigger $Trigger02
   
  **More Information**   
  **To learn more** about writing **Trace Filters** and other Filter Expressions, see the [Writing Filter Expressions](writing-filter-expressions.md) topic in this Operating Guide. Note that a **Trace Filter** in a PowerShell script performs a function that is identical to a **Session Filter** in the Message Analyzer user interface.  
+ 
 ---  
   
 <a name="BKMK_AccessingPSFunctionality"></a>   

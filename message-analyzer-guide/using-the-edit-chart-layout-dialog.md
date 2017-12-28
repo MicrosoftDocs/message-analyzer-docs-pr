@@ -14,12 +14,15 @@ author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
 ---
+
 # Using the Edit Chart Layout Dialog
+
 To obtain access to the configuration controls and features that you will need to create a custom **Chart** viewer **Layout**, you must have a **Layout** already displaying in an Analysis Session, for example, Data Retrieval Session or Live Trace Session results. When you have a **Layout** displayed, the drop-down lists and commands required to edit and save a custom **Layout** of your own design are enabled; otherwise, such lists and commands are unavailable. The required drop-downs and commands for editing and saving a **Layout** appear in the global Message Analyzer **Session** menu, for example, the **Chart** item which displays a drop-down list that contains the **Edit** command and the **Layout** item from where you can save a modified **Layout**.  
   
  The sections that immediately follow describe how to use the configuration controls of the **Edit Chart Layout** to create your own custom **Layout** configuration. You can then learn how to save the **Layout** with a new **Name**, **Description**, and **Category** when complete, as described in [Saving a Custom Chart Viewer Layout](using-the-edit-chart-layout-dialog.md#BKMK_SaveCustomChartLayout).  
   
 ## Editing an Existing Chart Viewer Layout  
+
  If you have a **Chart** viewer **Layout** already in focus and displaying data from the current set of trace results, you can edit the **Layout** and save your changes. To begin, click the **Edit** item on the toolbar that appears above the **Chart** analysis surface to display the **Edit Chart Layout** dialog, from where you can modify the currently displayed **Layout** as needed for your own custom design. Alternatively, you can click the **Edit** item in the **Chart** drop-down list on the global Message Analyzer **Session** menu to display this dialog, which is shown in the figure that follows.  
   
  ![Edit Chart Layout Dialog](media/fig72-edit-chart-layout-dialog.png "Fig72-Edit Chart Layout Dialog")  
@@ -78,8 +81,8 @@ To obtain access to the configuration controls and features that you will need t
   
 -   **Series Fields** pane — provides controls that enable you to add one or more sets of field controls that each consist of a **Label** text box and a read-only **Field** text box. One set of controls displays by default, although you can add more control sets by clicking the **Add Fields** button. For each set, you can specify a **Field** name for which you want data to display in your **Layout** and a **Label** that describes the data field contents. Each field that you define becomes part of the *series* of fields that you configure. For example, multiple fields in the **Series Fields** pane will be separated by commas in a **Bar** element visualizer, or will become column names in a **Table** grid visualizer.  
   
-    > [!NOTE]
-    >  You will typically use the **Series Fields** pane controls to configure **Fields** that inherently display a value by default, for example, an IP conversation (**Network** field) or bytes value  (**PayloadLength** field). On the other hand, you will typically use the **Values** pane controls to configure formulas that use a **Computed Value** argument along with built-in operations that you can select to manipulate one or more data field values and  create statistics that are useful for the type of analysis you are performing. However, in the **Values** pane, you can also create formulas that use a **Message Field** argument that works with a specified operation upon one selected field in **Field Chooser** **Tool Window**.  
+> [!NOTE]
+>  You will typically use the **Series Fields** pane controls to configure **Fields** that inherently display a value by default, for example, an IP conversation (**Network** field) or bytes value  (**PayloadLength** field). On the other hand, you will typically use the **Values** pane controls to configure formulas that use a **Computed Value** argument along with built-in operations that you can select to manipulate one or more data field values and  create statistics that are useful for the type of analysis you are performing. However, in the **Values** pane, you can also create formulas that use a **Message Field** argument that works with a specified operation upon one selected field in **Field Chooser** **Tool Window**.  
   
      The following describes the controls in the **Series Fields** pane of the **Edit Chart Layout** dialog:  
   
@@ -135,8 +138,8 @@ To obtain access to the configuration controls and features that you will need t
   
                  In the latter case, you  will typically be able to specify a computed value based on two **Argument values** along with an operation such as **Division**, **Subtraction**, or possibly **Minimum** and **Maximum** values.  
   
-        > [!NOTE]
-        >  A label displays below the **Argument** pane of the **Formula Editor** dialog that indicates the operation that you specified and the field/s upon which the operation will act, for example, **Sum(PayloadLength)**. The text of this label also appears in the **Value** text box in the **Values** pane of the **Edit Chart Layout** dialog.  
+> [!NOTE]
+>  A label displays below the **Argument** pane of the **Formula Editor** dialog that indicates the operation that you specified and the field/s upon which the operation will act, for example, **Sum(PayloadLength)**. The text of this label also appears in the **Value** text box in the **Values** pane of the **Edit Chart Layout** dialog.  
   
     -   **Add Field** — this button displays only when you select the **Table** grid visualizer component in the **Chart type** drop-down list in the **Chart Properties** pane of the **Edit Chart Layout** dialog. Enables you to display additional sets of message field controls when clicked. Each message field that you specify becomes a new column in the **Table** grid component under a **Label** name that you specify.  
   
@@ -144,8 +147,8 @@ To obtain access to the configuration controls and features that you will need t
   
 -   **Apply** button — after you complete your **Layout** configuration with the **Formula Editor** and **Edit Chart Layout** dialogs, click the **Apply** button to render the results of your configuration as a new **Chart** viewer **Layout**. If the results meet your expectations, you can save your customized **Chart** as specified in [Saving a Custom Chart Viewer Layout](using-the-edit-chart-layout-dialog.md#BKMK_SaveCustomChartLayout). Otherwise, you can return to editing by again displaying **Edit Chart Layout** dialog or you can close the **Chart** viewer **Layout** without saving your changes.  
   
-    > [!CAUTION]
-    >  If you close the **Chart** viewer tab on which your modified **Layout** exists, you will lose the **Layout** configuration and you will be unable to recover it unless you reconfigure the **Layout**.  
+> [!CAUTION]
+>  If you close the **Chart** viewer tab on which your modified **Layout** exists, you will lose the **Layout** configuration and you will be unable to recover it unless you reconfigure the **Layout**.  
   
 <a name="BKMK_SaveCustomChartLayout"></a>   
 ## Saving a Custom Chart Viewer Layout  
@@ -164,4 +167,5 @@ To obtain access to the configuration controls and features that you will need t
 >  If you elect  to not save your custom **Layout** configuration and you close the **Chart** viewer,  you will lose all the configuration settings that you specified.  
   
 ## See Also  
- [Configuration Walkthrough of a Built-In Chart Viewer Layout](configuration-walkthrough-of-a-built-in-chart-viewer-layout.md)
+
+- [Configuration Walkthrough of a Built-In Chart Viewer Layout](configuration-walkthrough-of-a-built-in-chart-viewer-layout.md)
