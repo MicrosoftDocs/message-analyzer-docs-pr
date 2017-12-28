@@ -23,13 +23,14 @@ This section begins with some background concepts about Microsoft Message Analyz
 
  **Go To Procedures**  
 To go directly to procedures that provide examples of using Message Analyzer, see the following topics:
-[Procedures: Quick Start](procedures-quick-start.md)
-[Procedures: Using the Network Tracing Features](procedures-using-the-network-tracing-features.md)
-[Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)
-[Procedures: Using the Data Viewing Features](procedures-using-the-data-viewing-features.md)
-[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)
-[Procedures: Using the Asset Management Features](procedures-using-the-asset-management-features.md)
-[Procedures: Using the Chart Viewer Layout Configuration Features](procedures-using-the-chart-viewer-layout-configuration-features.md)
+
+- [Procedures: Quick Start](procedures-quick-start.md)
+- [Procedures: Using the Network Tracing Features](procedures-using-the-network-tracing-features.md)
+- [Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)
+- [Procedures: Using the Data Viewing Features](procedures-using-the-data-viewing-features.md)
+- [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)
+- [Procedures: Using the Asset Management Features](procedures-using-the-asset-management-features.md)
+- [Procedures: Using the Chart Viewer Layout Configuration Features](procedures-using-the-chart-viewer-layout-configuration-features.md)
 
 ---
 
