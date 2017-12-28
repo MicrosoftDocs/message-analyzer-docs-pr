@@ -117,7 +117,7 @@ You should also be aware that when you run Message Analyzer in the administrativ
 > [!IMPORTANT]
 > Even if you log off your system, log back on, and receive the required security credentials from the MCUG, you will still need to use the **Run as administrator** option if you want to capture message traffic in Message Analyzer **Trace Scenarios** that use the **Microsoft-Windows-NDIS-PacketCapture** provider or the **Microsoft-PEF-WFP-MessageProvider**, which both have remote capabilities. Because of the inherent remote capabilities of these message providers, security restrictions must be applied.
 
- **Syncing Message Analyzer Assets for Automatic Updates**(#BKMK_SyncingAssets)
+<a name="BKMK_SyncingAssets"></a>**Syncing Message Analyzer Assets for Automatic Updates**
 The first time that you start up Message Analyzer, you have the option  to configure the Automatic update of Message Analyzer assets, such as **Filters**, **Trace Scenarios**, **Viewpoints**, **Chart** viewer **Layouts**, and so on. If you opt in to automatic updates, no further action is required, as the update process occurs silently in the background whenever you start up Message Analyzer and asset updates are available. If you do not opt in, then the asset versions that install with the latest version of Message Analyzer will not be updated by the Microsoft web service that handles the installation of such asset versions. However, you can set any asset collection or all of them to the auto-sync state anytime thereafter with the use of the **Asset Manager** dialog.
 
 ---

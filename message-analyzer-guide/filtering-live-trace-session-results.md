@@ -72,7 +72,7 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   [Examples Category](filtering-live-trace-session-results.md#BKMK_ExamplesFilter)  
   
-> [!IMPORTANT]
+> <a name="BKMK_AzureFilterNote"></a>[!IMPORTANT]
 >  The **Azure Storage** category filters are not described in this section, as Microsoft provides related information in Azure blogs that you can access, as indicated immediately below.  
   
 ---  
