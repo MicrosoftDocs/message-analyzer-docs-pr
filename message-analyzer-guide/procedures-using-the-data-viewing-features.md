@@ -557,7 +557,7 @@ The name of the trace or log file appears in the files list.
 >   
 >  Whenever you create a new **Union**, you will need to use the **Field Chooser** to locate and add the fields that are to comprise the **Union**, as indicated ahead in this procedure.  
   
-    The name of the trace and log files appear in the files list.  
+The name of the trace and log files appear in the files list.  
   
 5.  Observe the current **Start With** drop-down list selection in the **New Session** dialog; if it is not the **Analysis Grid** viewer, click the drop-down list and select the **Analysis Grid** item.  
   

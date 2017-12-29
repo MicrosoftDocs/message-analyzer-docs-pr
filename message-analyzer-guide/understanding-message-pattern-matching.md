@@ -137,7 +137,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
     > [!TIP]
     >  The line of code containing the “->” operator tells the expression to go forward evaluating messages until a match is found and to pass over all nonmatching messages.  
   
-         ***Match found***  — if the SequenceNumber and AcknowledgementNumber are identical to those in the last segment evaluation, the payload count value is equal to “pyl.Count”, and the source and destination address are the same as the last segment evaluation, then the message is a TCP retransmit; in which case, the variable “mnretrans” is set to the retransmit message number which is returned by the GetMessageNumber method and passed to the virtual operation for output.  
+    ***Match found***  — if the SequenceNumber and AcknowledgementNumber are identical to those in the last segment evaluation, the payload count value is equal to “pyl.Count”, and the source and destination address are the same as the last segment evaluation, then the message is a TCP retransmit; in which case, the variable “mnretrans” is set to the retransmit message number which is returned by the GetMessageNumber method and passed to the virtual operation for output.  
   
     6.  ***Output***  — when two TCP messages are detected that meet the indicated criteria of this **Pattern** expression, the appropriate variable values are then abstracted to the virtual operation, which extracts the values needed for the **Pattern** expression output to appear as a **Retransmit Pair** in the Message Analyzer **Pattern Match** viewer.  
   

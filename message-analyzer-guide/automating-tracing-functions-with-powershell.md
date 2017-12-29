@@ -159,7 +159,7 @@ In the topics of this section that are listed below, you will learn about the Po
 
 > [!TIP]
 >  On the Windows 10 client operating system, you can capture traffic locally or remotely in promiscuous mode (p-mode) by using the **Add-NetEventNetworkAdapter** and the **Add-NetEventPacketCaptureProvider** PowerShell cmdlets. With the **Add-NetEventNetworkAdapter** cmdlet, you can specify the –PromiscuousMode parameter for a supporting network adapter that you are adding as a filter on a remote packet capture provider. With the **Add-NetEventPacketCaptureProvider** cmdlet, you can specify the **Windows-NDIS-PacketCapture** provider to capture remote traffic and save a \*.etl file locally on the remote computer. Note that you can import this file into Message Analyzer from the **Files** tab of the **New Session** dialog to retrieve the data for analysis. In a future Message Analyzer release, you may have the option to capture in the promiscuous mode directly from the user interface.  
-> **To learn more**, see the [Add-NetEventNetworkAdapter](https://technet.microsoft.com/en-us/library/dn283343.aspx) and [Add-NetEventPacketCaptureProvider](https://technet.microsoft.com/en-us/library/dn268510.aspx) cmdlets on TechNet.  
+> **To learn more**, see the [Add-NetEventNetworkAdapter](/powershell/module/neteventpacketcapture/add-neteventnetworkadapter?view=win10-ps) and [Add-NetEventPacketCaptureProvider](h/powershell/module/neteventpacketcapture/Add-NetEventPacketCaptureProvider?view=win10-ps) cmdlets on TechNet.  
   
 <a name="BKMK_PSScriptExample"></a>   
 ## Examining a PowerShell Script Example  
