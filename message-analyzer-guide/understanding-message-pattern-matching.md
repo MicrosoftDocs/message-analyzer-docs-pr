@@ -312,7 +312,7 @@ The **TCP Three-Way Handshake** **Pattern** expression identifies this pattern a
 
 1.  ***Virtual operation***  — following the using statements is a "virtual operation" that provides for definition of variables and exposure of properties that are used in **Pattern** expression evaluations; for example, to hold source and destination IPv4 or IPv6 address values to check for matches; a round trip time value; and to hold other TCP field values that are used in the evaluations such as SourcePort and DestinationPort. Other declarations in the virtual operation are for variables that hold the values of TCP **MaxSegmentSize**, **WindowsScaleFactor**, and **SackPermitted** options on the sending and receiving nodes. These variables correlate TCP option values in the returned **Pattern** expression results for analysis purposes.  
 
-        ***Custom output message***  — as part of the virtual operation, the overridden ToString() method is used to create a custom output message, which can be based on values returned in the expression, or it can be any custom string value that you specify. The string value displays in the **Summary** column of the **Pattern Match** viewer when you click a **Matches** pane summary button after the executing **Pattern** expression completes its evaluation.  
+    ***Custom output message***  — as part of the virtual operation, the overridden ToString() method is used to create a custom output message, which can be based on values returned in the expression, or it can be any custom string value that you specify. The string value displays in the **Summary** column of the **Pattern Match** viewer when you click a **Matches** pane summary button after the executing **Pattern** expression completes its evaluation.  
 
 2.  ***Backtrack***  — the line of code that contains the “backtrack” statement tells the **Pattern** expression to always start with, or backtrack to, a TCP segment that has its SYN flag set to true, which is indicative of a TCP message that is requesting to open a connection on a target node.  
 
@@ -328,8 +328,8 @@ The **TCP Three-Way Handshake** **Pattern** expression identifies this pattern a
 
     -   “transportV4” — is set to the value of the **TCP.Segment.TransportKey** field. Provides a hash constant value that is the difference between the source and destination TCP ports currently under evaluation. Provides a faster comparison of the current TCP port pair.  
 
-> [!NOTE]
->  For further details, right-click the **TransportKey** field in **Field Chooser** **Tool Window** and select **Go To Definition** in the context menu that appears to show the OPN definition of this field. You can also add this field to the **Analysis Grid** viewer column layout to see what a typical value might look like. Also, right-click a field value and select the **Include Hex for Numeric Values** command in the context menu that appears, to view the hexadecimal value that is used as the hash constant.  
+    > [!NOTE]
+    >  For further details, right-click the **TransportKey** field in **Field Chooser** **Tool Window** and select **Go To Definition** in the context menu that appears to show the OPN definition of this field. You can also add this field to the **Analysis Grid** viewer column layout to see what a typical value might look like. Also, right-click a field value and select the **Include Hex for Numeric Values** command in the context menu that appears, to view the hexadecimal value that is used as the hash constant.  
 
     -   “SrvMaxSegSize” — is set to the value of the TCP MaxSegmentSize option; the method GetMaxSegSize() is called to return the value.  
 
