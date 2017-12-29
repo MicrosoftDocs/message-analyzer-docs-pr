@@ -36,6 +36,7 @@ Although Message Analyzer provides many built-in data viewers that attempt to ad
   
  **What You Will Learn**   
 In the topics of this section, you will learn about the functions of **Chart** **Layout** configuration features, how to use them to create new **Layouts** that you can display whenever you require them for analysis, and how to manage and share your custom **Layout** assets with others, through the Message Analyzer Sharing Infrastructure. A walkthrough of a built-in **Chart** viewer **Layout** that Message Analyzer provides by default is included for the benefit of exposing the behind-the-scenes configuration of a working **Layout** so that you can come up to speed on the process of creating a new **Chart** viewer **Layout**.  
+
 ---  
   
 ## In This Section  

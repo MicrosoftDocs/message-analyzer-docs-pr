@@ -60,7 +60,9 @@ This **Layout** is intended to work with the **SMB Flat** view **Layout** of the
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **SMB Flat** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **File Sharing SMB/SMB2** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **File Sharing SMB** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+
 ---  
   
 ## See Also  
- [SMB Top Commands](smb-top-commands.md)
+
+- [SMB Top Commands](smb-top-commands.md)

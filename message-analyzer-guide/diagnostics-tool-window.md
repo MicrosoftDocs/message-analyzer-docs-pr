@@ -63,6 +63,7 @@ In troubleshooting scenarios, quick access to diagnostic message information can
   
  **More Information**   
  **To learn more** about the meaning of diagnosis messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.  
+ 
 ---  
   
 ## Using the Context Menu Commands  

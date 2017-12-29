@@ -132,8 +132,8 @@ A brief description of each procedure is included here for review, as follows.
   
 ---  
   
-     **More Information**   
-     **To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
+**More Information**   
+**To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
 ---  
   
 <a name="BKMK_displayDifferentViews"></a>   

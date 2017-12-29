@@ -26,11 +26,11 @@ This section describes how to filter a collection of messages based on the assoc
 > [!NOTE]
 >  The **Data Source Filter** feature does not support filtering in **Layouts** for the **Chart** viewer that you can access from the **New Viewer** drop-down list.  
   
-     The **Data Source Filter** dialog is shown in the figure that follows, where a trace file and a cluster log  are the selected data sources.  
+The **Data Source Filter** dialog is shown in the figure that follows, where a trace file and a cluster log  are the selected data sources.  
   
-     ![Data Source Filter dialog](media/fig60-data-source-filter-dialog.png "Fig60-Data Source Filter dialog")  
-  
-     **Figure 60:   Data Source Filter dialog**  
+![Data Source Filter dialog](media/fig60-data-source-filter-dialog.png "Fig60-Data Source Filter dialog")  
+
+**Figure 60:   Data Source Filter dialog**  
   
 -   **Grouping** — create an associated message Group for each data source in a message collection under separate expandable **Data Source** nodes in the **Analysis Grid** viewer.  
   

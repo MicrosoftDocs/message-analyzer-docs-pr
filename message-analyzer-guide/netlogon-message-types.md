@@ -22,11 +22,11 @@ The **Netlogon Message Types** view **Layout** for **Charts** enables you to obt
 > [!NOTE]
 >  A Netlogon.log file will be parsed only if you select the **Netlogon** configuration file in the **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **Netlogon Message Types** view **Layout**.  
 >   
->---  
+  
 >   
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
->---  
+  
   
 ## Using the Netlogon Message Types Layout  
 

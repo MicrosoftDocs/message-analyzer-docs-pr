@@ -74,29 +74,29 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 > [!NOTE]
 >  In addition, the **TCP** protocol is included so you can reparse with TCP auto-reassembly disabled to reduce virtual segment message count; you can also reparse with verbose TCP diagnosis messages enabled. The default values for these two features are enabled and disabled, respectively.
 
-    -   **AllJoyn**
+-   **AllJoyn**
 
-    -   **HTTP**
+-   **HTTP**
 
-    -   **LDAP**
+-   **LDAP**
 
-    -   **NetFlow/IPFIX**
+-   **NetFlow/IPFIX**
 
-    -   **RDP**
+-   **RDP**
 
-    -   **SMB/SMB2**
+-   **SMB/SMB2**
 
-    -   **SSL/TLS**
+-   **SSL/TLS**
 
-    -   **TCP**
+-   **TCP**
 
-    -   **TDS**
+-   **TDS**
 
-    -   **TURN**
+-   **TURN**
 
-    -   **WSRMTCPPort**
+-   **WSRMTCPPort**
 
-     After you select an alternate port on which to reparse the messages of a supported protocol, a reload of all data for reparsing will occur immediately after you click the **OK** button to exit the **Options** dialog. Note that you can display the **Parsing** tab of the **Options** dialog by right-clicking a message in the **Analysis Grid** viewer and then selecting the **Parse As...** command in the context menu that appears.
+After you select an alternate port on which to reparse the messages of a supported protocol, a reload of all data for reparsing will occur immediately after you click the **OK** button to exit the **Options** dialog. Note that you can display the **Parsing** tab of the **Options** dialog by right-clicking a message in the **Analysis Grid** viewer and then selecting the **Parse As...** command in the context menu that appears.
 
 -   **Privacy** tab — enables you to opt-in or opt-out of the **Microsoft Message Analyzer Experience Improvement** program.  You can also give permission or withhold it from Microsoft to contact you regarding  Message Analyzer feature and feedback surveys. Note that a **Feedback** drop-down list is now provided in the upper-right corner of the Message Analyzer user interface.
 

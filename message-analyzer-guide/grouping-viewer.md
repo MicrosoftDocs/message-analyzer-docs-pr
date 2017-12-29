@@ -243,10 +243,10 @@ In this section, you will learn about the functions and features of the **Groupi
 > [!TIP]
 >  To show the **Filtering Mode** button and other buttons on the toolbar with full text labels and icons, right-click the toolbar and select the **Show Labels and Icons** command in the context menu that appears.  
   
-     In the **Filtering Mode**, selecting a node in the **Group Values** column of the **Grouping** viewer causes the messages associated with that node to be filtered in the **Analysis Grid** viewer such that only those messages display in the **Analysis Grid**. To remove the applied filtering, click the **Reset** button on the **Grouping** viewer toolbar.  
-  
-    > [!NOTE]
-    >  In the **Filtering Mode**, the **Selection** window does not track the messages that display in the **Analysis Grid** viewer.  
+In the **Filtering Mode**, selecting a node in the **Group Values** column of the **Grouping** viewer causes the messages associated with that node to be filtered in the **Analysis Grid** viewer such that only those messages display in the **Analysis Grid**. To remove the applied filtering, click the **Reset** button on the **Grouping** viewer toolbar.  
+
+> [!NOTE]
+>  In the **Filtering Mode**, the **Selection** window does not track the messages that display in the **Analysis Grid** viewer.  
   
 -   **Selection Mode** — to enable this mode, click the **Selection Mode** button (with the grid-shaped icon) on the **Grouping** viewer toolbar. In this mode, selecting a node in the **Group Values** column of the **Grouping** viewer causes the message/s associated with that node to be selected and highlighted in the **Analysis Grid** viewer. You can also select multiple message nodes by holding down the `Ctrl` key on your keyboard as you make selections. You can undo selections one at a time in the same manner, or you can undo all selections at once by clicking the **Reset** button on the **Grouping** viewer toolbar.  
   

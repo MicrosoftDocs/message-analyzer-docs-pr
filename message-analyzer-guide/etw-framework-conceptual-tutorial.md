@@ -61,7 +61,7 @@ This tutorial provides conceptual overviews of the underlying Event Tracing for 
 
  The following type definition shows the above event information as fields in an EVENT_DESCRIPTOR structure:
 
-```
+```C++
 typedef struct EVENT_DESCRIPTOR {
     USHORT Id;
     UCHAR Version;
@@ -84,8 +84,7 @@ typedef struct EVENT_DESCRIPTOR {
 
  Event manifests are usually written by developers when designing instrumentation for a software component. The Event Descriptor data items are specified in the event manifest, along with other event metadata and user information. Metadata fields are combined for each event and defined in an \<Event> tag that is uniquely associated with an event ID. Event layouts are specified with a \<Template> tag which describes user-specified context data for each event. The layout can specify data fields such as strings and integers, or other more complex data structures. Template information does not have to be specified for all events; however, if unspecified for a particular event, it will have no user context data. The following is a fragment of a hypothetical XML event manifest for an ETW Provider:
 
-```
-
+```XML
 <provider name="Microsoft-Windows-Kernel-SomeComponent"
     guid="{70eb4f03-c1de-4f73-a051-33d13d5413bd}"
     symbol="SomeComponentProvGuid"

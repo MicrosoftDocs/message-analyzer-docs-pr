@@ -62,4 +62,5 @@ You can also interactively drive the display of messages into the **Analysis Gri
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **File Sharing Perf SMB2/SMB** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **File Sharing SMB/SMB2** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **File Sharing SMB Perf** **Profile** in the table of this topic to review a related usage scenario and brief analysis example.  
+
 ---

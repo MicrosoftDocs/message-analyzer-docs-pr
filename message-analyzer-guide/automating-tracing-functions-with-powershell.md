@@ -104,9 +104,9 @@ In the topics of this section that are listed below, you will learn about the Po
 > [!NOTE]
 >  If you specify a file-based data source (such as a log file) as the message provider when creating a Trace Session with the **New-PefTraceSession** cmdlet, any filter that you specify with the **Set-PefTraceFilter** cmdlet will act as a **Trace  Filter**.  
   
-    -   **Start-PefTraceSession** — enables you to start a Message Analyzer Trace Session and to specify a trigger for the startup action. **Start-PefTraceSession** acts as an entry point for message processing. If you do not specify a trigger, **Start-PefTraceSession** initiates a processing loop where no other PowerShell cmdlets or functions are executed until the loop ends. If the **Start-PefTraceSession** cmdlet has a trigger, it will start a message processing loop only when that trigger is fired. When a message processing loop terminates, all active Trace Sessions are stopped. You can stop a Trace Session by invoking the **Stop-PefTraceSession** cmdlet, which causes **Start-PefTraceSession** to exit the processing loop. This cmdlet also returns the target session to enable pipelining.  
-  
-    -   **Stop-PefTraceSession** — provides the means to define how you will stop a specified Trace Session. When the session is stopped, it is terminated and the PEF Runtime state is cleaned up. You can also use this cmdlet to define the trigger action that stops a specified Trace Session, which you configure prior to starting the Trace Session. To store the data retrieved in the Trace Session, you can specify values for the `SaveOnStop` parameter when creating a Trace Session with the **New-PefTraceSession** cmdlet, or you can use the **Save-PefDataCollection** cmdlet to specify where to store retrieved data.  
+-   **Start-PefTraceSession** — enables you to start a Message Analyzer Trace Session and to specify a trigger for the startup action. **Start-PefTraceSession** acts as an entry point for message processing. If you do not specify a trigger, **Start-PefTraceSession** initiates a processing loop where no other PowerShell cmdlets or functions are executed until the loop ends. If the **Start-PefTraceSession** cmdlet has a trigger, it will start a message processing loop only when that trigger is fired. When a message processing loop terminates, all active Trace Sessions are stopped. You can stop a Trace Session by invoking the **Stop-PefTraceSession** cmdlet, which causes **Start-PefTraceSession** to exit the processing loop. This cmdlet also returns the target session to enable pipelining.  
+
+-   **Stop-PefTraceSession** — provides the means to define how you will stop a specified Trace Session. When the session is stopped, it is terminated and the PEF Runtime state is cleaned up. You can also use this cmdlet to define the trigger action that stops a specified Trace Session, which you configure prior to starting the Trace Session. To store the data retrieved in the Trace Session, you can specify values for the `SaveOnStop` parameter when creating a Trace Session with the **New-PefTraceSession** cmdlet, or you can use the **Save-PefDataCollection** cmdlet to specify where to store retrieved data.  
   
 > [!NOTE]
 >  When you write a PowerShell script, you typically specify the **Stop_PefTraceSession** cmdlet before the **Start-PefTraceSession** cmdlet, because the Trace Session will start as soon as you hit return at the PowerShell command line after specifying the **Start-PefTraceSession** cmdlet.  
@@ -137,22 +137,22 @@ In the topics of this section that are listed below, you will learn about the Po
   
         -   A log file as a message source in a Data Retrieval Session, for example, an event log (.etl) or a text log (.log) file.  
   
-> [!NOTE]
->  When specifying a text log as input to a Data Retrieval Session, you can also specify a text log configuration file for parsing the log.  
+    > [!NOTE]
+    >  When specifying a text log as input to a Data Retrieval Session, you can also specify a text log configuration file for parsing the log.  
   
-        -   Manifest-based PEF message providers such as the **Microsoft-PEF-WFP-MessageProvider** or **Microsoft-PEF-NDIS-PacketCapture** provider, as a message source in a Live Trace Session.  
-  
-        -   Manifest-based system ETW providers such as the **Microsoft-Windows-Dhcp-Client** as a message source in a Live Trace Session.  
-  
-        -   The object created by the **Add-PefProviderConfig** cmdlet can also serve as input to the **Add-PefMessageSource** cmdlet.  
-  
-    -   **Add-PefProviderConfig** — enables you to add a provider to the configuration of a Live Trace Session that targets a remote host, by specifying the friendly provider name (not a GUID).  
-  
-         The provider configuration is accessible by using the object that this cmdlet creates, from where you can configure provider error levels, event keywords, filters, and other provider-specific options for providers such as the **Microsoft-Windows-NDIS-PacketCapture**, **Microsoft-Pef-WebProxy**, and **Microsoft-Pef-WFP-MessageProvider**.  
-  
-    -   **New-PefTraceSession** — enables you to create a Trace Session object that captures live data or retrieves stored messages, for example, from a log file. You can specify whether to capture data in circular or linear mode to control how much data is held in the Trace Session. You can also configure a **Trace Filter** to focus the data retrieval action on messages that meet specific filtering criteria. If you want to save the data to a file after the Trace Session is stopped, you can do so by specifying the **SaveOnStop** parameter. For each Trace Session that you configure, you must add the message provider you want to use, such as the **Microsoft-Pef-NDIS-PacketCapture** or **Microsoft-Pef-WFP-MessageProvider**, by specifying it with the **Add-PefMessageProvider** cmdlet. To start and stop the Trace Session, you can use the **Start-PefTraceSession** and **Stop-PefTraceSession**, respectively, along with configuring any triggers that facilitate such actions.  
-  
-    -   **New-PefTargetHost** — enables you to create a target host object that you specify as a target computer for remote tracing in a Live Trace Session. You can target and add multiple computers to a Live Trace Session with this cmdlet. Use the object that this cmdlet creates as input to the **Add-PefProviderConfig** cmdlet. Note that this cmdlet uses the current user credentials by default, although you can provide other credentials by specifying the -Credentials parameter.  
+    -   Manifest-based PEF message providers such as the **Microsoft-PEF-WFP-MessageProvider** or **Microsoft-PEF-NDIS-PacketCapture** provider, as a message source in a Live Trace Session.  
+
+    -   Manifest-based system ETW providers such as the **Microsoft-Windows-Dhcp-Client** as a message source in a Live Trace Session.  
+
+    -   The object created by the **Add-PefProviderConfig** cmdlet can also serve as input to the **Add-PefMessageSource** cmdlet.  
+
+-   **Add-PefProviderConfig** — enables you to add a provider to the configuration of a Live Trace Session that targets a remote host, by specifying the friendly provider name (not a GUID).  
+
+        The provider configuration is accessible by using the object that this cmdlet creates, from where you can configure provider error levels, event keywords, filters, and other provider-specific options for providers such as the **Microsoft-Windows-NDIS-PacketCapture**, **Microsoft-Pef-WebProxy**, and **Microsoft-Pef-WFP-MessageProvider**.  
+
+-   **New-PefTraceSession** — enables you to create a Trace Session object that captures live data or retrieves stored messages, for example, from a log file. You can specify whether to capture data in circular or linear mode to control how much data is held in the Trace Session. You can also configure a **Trace Filter** to focus the data retrieval action on messages that meet specific filtering criteria. If you want to save the data to a file after the Trace Session is stopped, you can do so by specifying the **SaveOnStop** parameter. For each Trace Session that you configure, you must add the message provider you want to use, such as the **Microsoft-Pef-NDIS-PacketCapture** or **Microsoft-Pef-WFP-MessageProvider**, by specifying it with the **Add-PefMessageProvider** cmdlet. To start and stop the Trace Session, you can use the **Start-PefTraceSession** and **Stop-PefTraceSession**, respectively, along with configuring any triggers that facilitate such actions.  
+
+-   **New-PefTargetHost** — enables you to create a target host object that you specify as a target computer for remote tracing in a Live Trace Session. You can target and add multiple computers to a Live Trace Session with this cmdlet. Use the object that this cmdlet creates as input to the **Add-PefProviderConfig** cmdlet. Note that this cmdlet uses the current user credentials by default, although you can provide other credentials by specifying the -Credentials parameter.  
   
 > [!NOTE]
 >  This cmdlet uses the Microsoft-PEF-WFP-MessageProvider, which is now enabled for remote tracing. You can use this provider to capture remote traffic, but on a remote Windows 10 host only, and while running on a Windows 8.1, Windows Server 2012 R2, or Windows 10 computer only.  
@@ -169,7 +169,7 @@ In the topics of this section that are listed below, you will learn about the Po
   
  The syntax for this functionality is specified as follows:  
   
-```  
+```PowerShell
 $TraceSession01 = New-PefTraceSession -Mode Circular  
 Add-PefMessageProvider -PEFSession $TraceSession01 –Provider "Microsoft-PEF-WFP-MessageProvider"  
 $Trigger01 = New-PefTimeSpanTrigger -TimeSpan (New-TimeSpan -Seconds 150)  

@@ -86,9 +86,9 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
 > [!NOTE]
 >  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
   
-    -   **Date** — consists of a date control that drops down when you click it. Enables you to specify a date that shifts the **Timestamp** values of all messages in selected data sources in 24-hour increments.  
-  
-    -   **Time Stamp** up-down and spin — works interactively to enable you to add or subtract a specified increment of time, as previously described.  
+-   **Date** — consists of a date control that drops down when you click it. Enables you to specify a date that shifts the **Timestamp** values of all messages in selected data sources in 24-hour increments.  
+
+-   **Time Stamp** up-down and spin — works interactively to enable you to add or subtract a specified increment of time, as previously described.  
   
 -   **Apply Time Shift to Data Sources** pane — specifies time shift statistics that include **Current Shift**, **Updated Shift**, and **Shift Difference** values. Also specifies the data sources for the current session in the **Data Source** column.  
   

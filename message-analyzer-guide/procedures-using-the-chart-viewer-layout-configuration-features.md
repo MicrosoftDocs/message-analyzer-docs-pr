@@ -37,6 +37,7 @@ the message volume associated with various HTTP content types being
 delivered to a client computer in HTTP response messages, which can
 provide an indication of the load on a web
 
+<a name="BKMK_CreateCharts"></a>
 ## Create and Edit an HTTP Chart Data Viewer
 
 This example demonstrates how to create a new **Chart** viewer that is

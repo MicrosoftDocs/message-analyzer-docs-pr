@@ -363,7 +363,7 @@ A brief description of each procedure is included here for review, as follows.
 >   
 >  Note that you can optionally add other system ETW Providers to your **Trace Scenario** configuration from the **Add System Providers** dialog, which is accessible by clicking the **Add Providers** drop-down list on the **ETW Providers** toolbar. You might do this to return specific events that such a provider's **Keyword** configuration enables.  
   
-    The **ETW Providers** list on the **Live Trace** tab is populated with the **Name** and **Id** (GUID) of the **Microsoft-PEF-WFP-MessageProvider** (and the **Microsoft-Windows-LDAP-Client** if you selected the **SASL LDAP Pre-encryption with WFP** **Trace Scenario**).  
+The **ETW Providers** list on the **Live Trace** tab is populated with the **Name** and **Id** (GUID) of the **Microsoft-PEF-WFP-MessageProvider** (and the **Microsoft-Windows-LDAP-Client** if you selected the **SASL LDAP Pre-encryption with WFP** **Trace Scenario**).  
   
 5.  In the **ETW Providers** list, click the **Configure** link to the right of the **Id** for the **Microsoft-PEF-WFP-MessageProvider** to open the **Advanced Settings - Microsoft-PEF-WFP-MessageProvider** dialog, as shown in [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
   
@@ -392,11 +392,11 @@ A brief description of each procedure is included here for review, as follows.
   
 13. Click the **Save** button in the **Edit Trace Scenario** dialog to save the scenario in the **Message Analyzer Trace Scenarios** Library and exit the dialog.  
   
-     The **Trace Scenario** template that you saved should now display in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog.  
+The **Trace Scenario** template that you saved should now display in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog.  
   
 14. Display your **Trace Scenario** template configuration at any time by selecting it in the **Message Analyzer Trace Scenarios** Library that is accessible from the **Select Scenario** drop-down list.  
   
-     When you do this, the **New Session** dialog will be populated with the custom settings that you specified when you created the **Trace Scenario** template. Note that you still have the option at this point to reconfigure your **Trace Scenario** prior to running a Live Trace Session; for example, you could specify a different **Session Filter**, provider line up, or **Keyword** bitmask configuration.  
+When you do this, the **New Session** dialog will be populated with the custom settings that you specified when you created the **Trace Scenario** template. Note that you still have the option at this point to reconfigure your **Trace Scenario** prior to running a Live Trace Session; for example, you could specify a different **Session Filter**, provider line up, or **Keyword** bitmask configuration.  
   
 > [!TIP]
 >  If you make further modifications to your **Trace Scenario** template, you can resave it with the new configuration settings without ever running it.  

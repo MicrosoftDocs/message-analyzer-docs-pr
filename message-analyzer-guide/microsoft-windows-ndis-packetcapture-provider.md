@@ -64,6 +64,7 @@ The **Microsoft-Windows-NDIS-PacketCapture** provider works with several **Trace
   
  **More Information**   
  **To learn more** about configuring these special filters, see the [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) topic, which also includes a figure that shows the **Advanced Settings** dialog for this provider.  
+ 
 ---  
   
 <a name="BKMK_NDISKeywordErrorLevelFilters"></a>   
@@ -74,6 +75,7 @@ The **Microsoft-Windows-NDIS-PacketCapture** provider works with several **Trace
   
  **More Information**   
  **To learn more** about configuring ETW Providers, including event **Keyword** and error **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
+
 ---  
   
 <a name="BKMK_CaptureInPMode"></a>   

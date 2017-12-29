@@ -191,7 +191,7 @@ A brief description of each procedure is included here for review, as follows.
 > [!TIP]
 >  To create a more focused analysis, you can limit the display to HTTP messages only by specifying an HTTP **Viewpoint**; you can do this by clicking the **Viewpoint** drop-down list on the Filtering toolbar and then selecting the **HTTP** item.  
   
-     When you are done with assessing the data, click the **x** in the **ContentType** Group label above the **Analysis Grid** to remove the Group and return to the default view **Layout**.  
+When you are done with assessing the data, click the **x** in the **ContentType** Group label above the **Analysis Grid** to remove the Group and return to the default view **Layout**.  
   
 12. Sort the **ResponseTime** column in descending order and then **Group** this column to quickly expose the slowest server responses and associated messages in separate Groups for analysis.  
   
@@ -367,13 +367,13 @@ A brief description of each procedure is included here for review, as follows.
 > [!IMPORTANT]
 >  Pairing up request and response messages in Operation nodes for protocols that typically use request/response pairs such as HTTP, DNS, and SMB2, provides immediate access to response messages rather than having to search through potentially hundreds or even thousands of messages to find them. Another advantage of this configuration is that you can readily measure and correlate important values such as **ResponseTime** and **ElapsedTime**, which specify how long it took for the first server response and how long it took to receive all message fragments and complete the Operation, respectively. High values for these times can provide an indication of a poorly responding server in the first case and network latency issues in the second. The **ElapsedTime** is displayed by default in the **Analysis Grid** viewer column layout; however, you must add the **ResponseTime** column by right-clicking it under **Global Annotations** in the **Field Chooser** **Tool Window** and then selecting the **Add as Column** command.  
 >   
->---  
+  
 >   
 >  **More Information**   
 >  **To learn more** about average response time for Operations, see [Average Response Time for Operations](average-response-time-for-operations.md).  
 > **To learn more** about average elapsed time for Operations, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md). 
 
->---  
+  
   
 <a name="BKMK_ApplyQuickFilter"></a>   
 ## Apply a Time Filter to Trace Results  
@@ -398,7 +398,7 @@ A brief description of each procedure is included here for review, as follows.
   
 4.  On the **Files** tab of the **New Session** dialog, click the **Add Files** button on the **Files** tab toolbar to launch the **Open** dialog, select a large trace or log file containing data that you want to view in a specific time window, and then click **Open**.  
   
-     The name of the trace or log file appears in the files list.  
+The name of the trace or log file appears in the files list.  
   
 5.  If you loaded a \*.log file, you should choose an applicable configuration file from the **Text Log Configuration** drop-down list just below the toolbar of the **Files** tab for your log, to enable full parsing of messages.  
   

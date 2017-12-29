@@ -27,6 +27,7 @@ The basic unit of workflow and starting point of all Message Analyzer operations
   
  **Go To Quick Session Startup**   
 To learn how to immediately start a Message Analyzer session that captures live data at the Link Layer with a single click, see the [Quick Session Startup](quick-session-startup.md) topic.  
+
 ---  
   
  **Streamlining Session Input Workflow**   

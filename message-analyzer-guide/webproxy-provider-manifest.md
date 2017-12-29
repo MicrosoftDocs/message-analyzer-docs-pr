@@ -29,4 +29,5 @@ The manifest for the **Microsoft-Pef-WebProxy** provider defines its contract wi
  **To learn more** about the contents of provider manifests, see [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest).  
 **To learn more** about how Message Analyzer uses provider manifests, see [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md).  
 **To learn more** about obtaining a provider manifest if you are missing one, see [Generating a Provider Manifest](generating-a-provider-manifest.md).   
+
 ---

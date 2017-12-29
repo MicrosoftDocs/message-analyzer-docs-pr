@@ -22,12 +22,11 @@ The **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** enables you 
 > [!NOTE]
 >  An IIS.log file will be parsed only if you select the **IIS** configuration file in the **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **IIS Log HTTP Traffic Volumes** view **Layout**.  
 >   
->---  
+  
 >   
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
->---  
-  
+
 ## Using the IIS Log HTTP Traffic Volumes Layout  
 
  This **Layout** provides a quick summary of the total server response volumes in bytes that are associated with client queries requesting access to IIS server resources and services. It enables you to see at-a-glance which client queries are driving high byte volume responses from an IIS server, which may point to areas that need further investigation. For example, very high byte volume server responses could be an indication of the potential overload of an IIS server, especially if a higher than expected number of server responses are needed to service client queries.  

@@ -70,14 +70,14 @@ Message Analyzer supports parsing and display of Windows software trace preproce
   
 ---  
   
-         **More Information**   
-         **To learn more** about *Tracepdb*, the commands that it provides, and download information, see [Tracepdb](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553034(v=vs.85).aspx).  
+**More Information**   
+**To learn more** about *Tracepdb*, the commands that it provides, and download information, see [Tracepdb](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553034(v=vs.85).aspx).  
 
 ---  
   
-    -   **PDB path** — in this text box, specify the path to the PDB file that contains the event structure you want to convert to TMF for parsing a WPP-generated ETL file. Note that you can add multiple PDB paths in this text box if you have multiple ETL files to parse, but you must separate each path with a colon.  
+-   **PDB path** — in this text box, specify the path to the PDB file that contains the event structure you want to convert to TMF for parsing a WPP-generated ETL file. Note that you can add multiple PDB paths in this text box if you have multiple ETL files to parse, but you must separate each path with a colon.  
   
-          For each PDB file that you specify, Message Analyzer generates and compiles an OPN description for parsing associated WPP-generated ETL files when loaded through a Data Retrieval Session.  
+For each PDB file that you specify, Message Analyzer generates and compiles an OPN description for parsing associated WPP-generated ETL files when loaded through a Data Retrieval Session.  
   
  When you click the **OK** button to exit the **Options** dialog, the WPP configuration immediately takes effect; however, OPN descriptions are created dynamically as described in [Generating an OPN Description for PDB and TMF Files](loading-wpp-generated-events.md#BKMK_GenerateOPNs).  
   
@@ -96,8 +96,8 @@ Message Analyzer supports parsing and display of Windows software trace preproce
 <a name="BKMK_CreateXMLClonfigFile"></a>   
 ### Creating an XML Configuration File  
  You have the option to create a wpp.config file that specifies the path to one or more TMF files. You might want to use such a configuration file if you need to store multiple files that contain event structure information for parsing the events that were written by several different trace providers, or you might have multiple versions of the same TMF file for test purposes. The configuration file must contain the following XML:  
-  
-```  XML
+
+```XML
 <?xml version="1.0" encoding="utf-8"?>  
 <root>  
 <tmf>  

@@ -20,11 +20,11 @@ The **SysLogLevels** view **Layout** for **Charts** enables you to quickly asses
 > [!NOTE]
 >  A SambaSysLog.log file will be parsed only if you select the **SambaSysLog** configuration file in the **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **SysLogLevels** view **Layout**.  
 >   
->---  
+  
 >   
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
->---  
+  
   
 ## Using the SysLogLevels Layout  
  With the **SysLogLevels** view **Layout** for **Charts**, you can instantly assess the areas in your log that had the most critical **levels**, which can indicate an initial direction in which further investigation might proceed. SambaSysLog **levels** typically consist of the following. As expected, errors and warnings are usually the most critical to review, as described in "Interactive Analysis" ahead:  
@@ -53,4 +53,5 @@ The **SysLogLevels** view **Layout** is intended to work with the **SysLog** vie
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md) — see the **SysLog** **Layout** in this topic.  
 [Grouping Viewer](grouping-viewer.md) — see the **SysLog** **Layout** in this topic.  
 [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) — see the **Samba Logs** **Profile** in the table of this topic to review a related usage scenario and analysis example and to learn how to manually display the **Grouping** and **Chart** viewers with the **Layouts** defined in this **Profile**.  
+
 ---

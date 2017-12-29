@@ -40,8 +40,8 @@ A brief description of each procedure is included here for review, as follows.
   
 ---  
   
-     **More Information**   
-     **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
+**More Information**   
+**To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
 
 ---  
   
@@ -123,15 +123,15 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 12. Right-click the **StatusCode** column and select the **Group** command to isolate the status data into separate groups with identical status codes for ease of analysis.  
   
-    > [!TIP]
-    >  You can right-click the **StatusCode** label and select the **Expand All Groups** menu item to expand all the nodes of grouped data.  
+> [!TIP]
+>  You can right-click the **StatusCode** label and select the **Expand All Groups** menu item to expand all the nodes of grouped data.  
   
 13. In the **Analysis Grid** viewer, examine the **StatusCode** and **Reason Phrase** values to determine any problem areas that might indicate a poorly performing web server, as described in the status code table in the [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) section of this documentation.  
   
-    > [!NOTE]
-    >  You can also review the default **TimeElapsed** column in the **Analysis Grid** viewer to verify the elapsed time for HTTP “GET” methods, or for entire HTTP operations to complete. High values for elapsed time in the latter “operations” case may be an indication of network latency or TCP retransmit issues due to dropped packets.  
-    >   
-    >  You might also add a **ResponseTime** column (from the **Global Annotation** category in **Field Chooser**) to examine the server response times to request messages. This can provide an indication of whether or not a server is performing slowly, as it measures the time difference between the last time-stamped message in the request stack and the **Timestamp** of the first response message that is sent back to the requesting node. Note that you can create a similar configuration for any protocol that makes use of request/response pairs.  
+> [!NOTE]
+>  You can also review the default **TimeElapsed** column in the **Analysis Grid** viewer to verify the elapsed time for HTTP “GET” methods, or for entire HTTP operations to complete. High values for elapsed time in the latter “operations” case may be an indication of network latency or TCP retransmit issues due to dropped packets.  
+>   
+>  You might also add a **ResponseTime** column (from the **Global Annotation** category in **Field Chooser**) to examine the server response times to request messages. This can provide an indication of whether or not a server is performing slowly, as it measures the time difference between the last time-stamped message in the request stack and the **Timestamp** of the first response message that is sent back to the requesting node. Note that you can create a similar configuration for any protocol that makes use of request/response pairs.  
   
 14. Expand the top-level HTTP operations nodes and child nodes in the **Analysis Grid** viewer to expose the origins tree for HTTP messages to determine whether any TCP diagnosis errors are present. You can do this by clicking the **Diagnostics** icon in the **DiagnosisTypes** column in the **Analysis Grid** viewer for any message to display diagnosis error details inline. Alternatively, you can view diagnostic information more effectively by doing any of the following:  
   
@@ -311,9 +311,9 @@ The hypothetical high-level issue in this example is that a Network Administrato
 > [!TIP]
 >  You can also specify these filters in separate Filter panels. The first Filter panel displays by default, where you can enter the first filter in the Filter Expression text box of that panel. To add the second filter to the text box of another Filter panel, select **Add Filter** from the **Add Filter** drop-down list on the Filtering toolbar to display the  second Filter panel with its Filter Expression text box and enter the text of the second filter into it. You can then apply and remove these filters independently by clicking the respective **Apply** and **Remove** buttons on the Filter panels.  
   
-     You might also reconfigure the **WFP Layer Set** filtering  by clicking **Edit Session** on the global Message Analyzer toolbar,  clicking the  **Configure** link for the **Microsoft-PEF-WFP-MessageProvider** in the **ETW Providers** list to open the **Advanced Settings** dialog, and then selecting the **Outbound Transport V4** filter only on the **Provider** tab of the dialog. Thereafter in the trace results, apply the following view **Filter** so you can focus on outbound TCP synchronization traffic from the client:  `tcp.syn==true`.  
-  
-     In any case, you can also look at diagnosis error messages in the default **DiagnosisTypes** column of the **Analysis Grid** viewer to see what TCP issues you might have. The goal in creating these **WFP Layer Set** filtering configurations is to capture the least amount of traffic to resolve TCP connectivity and/or transmission problems.  
+You might also reconfigure the **WFP Layer Set** filtering  by clicking **Edit Session** on the global Message Analyzer toolbar,  clicking the  **Configure** link for the **Microsoft-PEF-WFP-MessageProvider** in the **ETW Providers** list to open the **Advanced Settings** dialog, and then selecting the **Outbound Transport V4** filter only on the **Provider** tab of the dialog. Thereafter in the trace results, apply the following view **Filter** so you can focus on outbound TCP synchronization traffic from the client:  `tcp.syn==true`.  
+
+In any case, you can also look at diagnosis error messages in the default **DiagnosisTypes** column of the **Analysis Grid** viewer to see what TCP issues you might have. The goal in creating these **WFP Layer Set** filtering configurations is to capture the least amount of traffic to resolve TCP connectivity and/or transmission problems.  
   
  **More Information**   
  **To learn more** about Advanced Settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
@@ -669,13 +669,11 @@ The hypothetical high-level issue in this example is that a Network Administrato
 > [!NOTE]
 >  If you are interested in examining the IP conversations where the TCP options were negotiated, along with the TCP ports that carried the traffic, add an IP **Network** column and a TCP **Transport** column to the **Analysis Grid** viewer column **Layout** and then perform the **Group** function on these columns to quickly reorganize the data into common groups. If you use this method, make sure to right-click the **Network** and **Transport** group labels and select the **Expand All Groups** menu command to expose all the data.  
   
-     When you are viewing the TCP **Option** configuration, you might want to do the following:  
-  
-    -   Ensure that **Selective Acknowledgement (SACK)** is enabled, to minimize TCP retransmits.  
-  
-    -   Verify that the **Maximum Segment Size (MSS)** is set to a reasonable value to reduce fragmentation.  
-  
-    -   Ensure that the **WindowsScaleFactor** function is operative and set to a reasonable value for the **Window** size setting, to enable automatic resize of the receive TCP **Window** as necessary.  
+When you are viewing the TCP **Option** configuration, you might want to do the following:  
+
+- Ensure that **Selective Acknowledgement (SACK)** is enabled, to minimize TCP retransmits.  
+- Verify that the **Maximum Segment Size (MSS)** is set to a reasonable value to reduce fragmentation.  
+- Ensure that the **WindowsScaleFactor** function is operative and set to a reasonable value for the **Window** size setting, to enable automatic resize of the receive TCP **Window** as necessary.  
   
 16. To display statistics associated with all the TCP three-way handshakes in a set of trace results, execute the **TCP Three-Way Handshake** pattern expression in the **Pattern Match** viewer, which is accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar. When the **Pattern Match** viewer is open, click the  **TCP Three-Way Handshake** pattern expression in the **AVAILABLE PATTERNS** list. If any matches are found, they appear in the Matched pattern selector in the **MATCHES** pane of the viewer. To review the discovered data, click the Matched pattern selector to display all instances of TCP three-way handshake patterns and the associated TCP data.  
   
@@ -686,20 +684,19 @@ The hypothetical high-level issue in this example is that a Network Administrato
 
 ---  
   
-     Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along with surrounding messages potentially related to a failure:  
-  
-    -   Click the **Viewpoint** drop-down list on the Filtering toolbar and then select the **TCP** **Viewpoint** to display all TCP messages at top-level.  
-  
-    -   Click the **Find Message** button on the **Analysis Grid** viewer toolbar.  
-  
-    -   Enter any of the following Filter Expressions in the **Find Message** text box and then successively click the **Find** binoculars icon to locate messages that meet the specified filtering criteria:   
-        TCP::TCPDiagnosis contains "Segment-Lost"   
-        TCP::AcknowledgementNumber==0  
-        TCP::Flags.Syn==true && TCP::Flags.Ack==true  
-  
-     You can use the method described immediately above to find TCP messages that participated in incomplete three-way handshake operations. By locating the TCP messages that contain TCP **Options** and broken or incomplete patterns of **SYN**, **ACK**, **SequenceNumber**, and **AcknowledgementNumber** field values, you may be able to determine where failures have occurred.  
-  
-     For reference, the following table specifies the pattern of **SYN** and **ACK** field values, with the relative **SequenceNumber** and **AcknowledgementNumber** value representations, that exposes the signature of a three-way handshake pattern that successfully opened a TCP connection:  
+Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along with surrounding messages potentially related to a failure:  
+
+- Click the **Viewpoint** drop-down list on the Filtering toolbar and then select the **TCP** **Viewpoint** to display all TCP messages at top-level.  
+- Click the **Find Message** button on the **Analysis Grid** viewer toolbar.  
+- Enter any of the following Filter Expressions in the **Find Message** text box and then successively click the **Find** binoculars icon to locate messages that meet the specified filtering criteria:  
+
+    TCP::TCPDiagnosis contains "Segment-Lost"   
+    TCP::AcknowledgementNumber==0  
+    TCP::Flags.Syn==true && TCP::Flags.Ack==true  
+
+You can use the method described immediately above to find TCP messages that participated in incomplete three-way handshake operations. By locating the TCP messages that contain TCP **Options** and broken or incomplete patterns of **SYN**, **ACK**, **SequenceNumber**, and **AcknowledgementNumber** field values, you may be able to determine where failures have occurred.  
+
+For reference, the following table specifies the pattern of **SYN** and **ACK** field values, with the relative **SequenceNumber** and **AcknowledgementNumber** value representations, that exposes the signature of a three-way handshake pattern that successfully opened a TCP connection:  
   
 ### Table 25.  Three-way Handshake Signature  
 

@@ -32,20 +32,15 @@ Message Analyzer provides the **Map** **Tool Window** to support data analysis i
 > [!TIP]
 >  After you create a data selection window, you can click anywhere in the **Map** window data field and cause the selection window to track your mouse clicks by jumping to that location.  
   
-    -   **Pan** — enables the **Pan** mode, where you can drag a fixed-size data selection window across the **Map** window data field to locate the messages on which you want to focus your analysis.  
+-   **Pan** — enables the **Pan** mode, where you can drag a fixed-size data selection window across the **Map** window data field to locate the messages on which you want to focus your analysis.  
   
 -   **Zoom** — enables you to change the zoom ratio in the **Map** window by selecting preset zooming values for the **X** axis, **Y** axis, or **X and Y** axis together, as follows:  
   
-    -   **1:1**  
-  
-    -   **Fit**  
-  
-    -   **In**  
-  
-    -   **Way In**  
-  
-    -   **Out**  
-  
-    -   **Way Out**  
+    -   **1:1**
+    -   **Fit**
+    -   **In**
+    -   **Way In**
+    -   **Out**
+    -   **Way Out**
   
 -   **Fit Map to Window** — by selecting this mode, it enables you to fit the entire data field of the in-focus viewer into the **Map** window. By unselecting this mode, the **Map** window data field size no longer encapsulates the data field of the  in-focus viewer.

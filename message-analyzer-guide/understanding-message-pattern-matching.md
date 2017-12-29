@@ -38,7 +38,7 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
 -   **TCP Retransmit Pairs** — the OPN behavior scenario that defines this **Pattern** expression is encapsulated in the following OPN code:  
   
-    ```  
+    ```C++
     using TCP;  
     using IPv4;  
     using IPv6;  
@@ -119,8 +119,8 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
         -   GetMessageNumber — a method that sets the variable “mn” to the current message number and returns it.  
   
-> [!NOTE]
->  Observe that the KeepAlive method explicitly rules out TCP KeepAlive messages for evaluation, because they are not considered to be TCP retransmits.  
+    > [!NOTE]
+    >  Observe that the KeepAlive method explicitly rules out TCP KeepAlive messages for evaluation, because they are not considered to be TCP retransmits.  
   
     4.  ***IP addresses***  — the line of code containing the “IPv4.Datagram” statement gets values that set the “sa” and “da” variables based on the values of the IPv4 SourceAddress and DestinationAddress, respectively. Note that the expression uses the double backslash characters “\\\” to get at the IPv4 level of the TCP origins tree, as described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins).  
   
@@ -134,8 +134,8 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
         -   Source and destination IP addresses that match the last segment evaluation.  
   
-> [!TIP]
->  The line of code containing the “->” operator tells the expression to go forward evaluating messages until a match is found and to pass over all nonmatching messages.  
+    > [!TIP]
+    >  The line of code containing the “->” operator tells the expression to go forward evaluating messages until a match is found and to pass over all nonmatching messages.  
   
          ***Match found***  — if the SequenceNumber and AcknowledgementNumber are identical to those in the last segment evaluation, the payload count value is equal to “pyl.Count”, and the source and destination address are the same as the last segment evaluation, then the message is a TCP retransmit; in which case, the variable “mnretrans” is set to the retransmit message number which is returned by the GetMessageNumber method and passed to the virtual operation for output.  
   
@@ -144,8 +144,8 @@ Message Analyzer enables you to process a set of trace results to retrieve group
     7.  ***Continuing evaluations***  — the evaluation process backtracks to the next TCP message Segment that meets the indicated Payload requirements following the initial evaluation point, and the process is repeated until all messages in the input stream (the trace results) have been evaluated.  
   
 -   **Three-Way Handshake** — the OPN behavior scenario that defines this **Pattern** expression is encapsulated in the following OPN code:  
-  
-    ```  
+
+    ```C++
     using TCP;  
     using IPv4;  
     using IPv6;  
@@ -302,74 +302,74 @@ Message Analyzer enables you to process a set of trace results to retrieve group
   
 ### Table 12.             TCP Handshake Connection Negotiation  
   
-    |**Computer Node**|**Message Sent**|**SYN Flag Value**|**ACK Flag Value**|**SequenceNumber**|**AcknowledgementNumber**|  
-    |-----------------------|----------------------|------------------------|------------------------|------------------------|-------------------------------|  
-    |Sending|Connection Request|True|False|x|0|  
-    |Receiving*|Request Acknowledgement|True|True|y|x+1|  
-    |Sending|Sync Acknowledgement|False|True|x+1|y+1|  
-  
-     The **TCP Three-Way Handshake** **Pattern** expression identifies this pattern across a set of trace results and returns them first to the **MATCHES** pane of the **Pattern Match** viewer as a summary button, which in turn you must click to display the full results set in the **MATCHED INSTANCES** pane of the viewer. To accomplish this, the code uses the following processing elements and constructs:  
-  
-    1.  ***Virtual operation***  — following the using statements is a "virtual operation" that provides for definition of variables and exposure of properties that are used in **Pattern** expression evaluations; for example, to hold source and destination IPv4 or IPv6 address values to check for matches; a round trip time value; and to hold other TCP field values that are used in the evaluations such as SourcePort and DestinationPort. Other declarations in the virtual operation are for variables that hold the values of TCP **MaxSegmentSize**, **WindowsScaleFactor**, and **SackPermitted** options on the sending and receiving nodes. These variables correlate TCP option values in the returned **Pattern** expression results for analysis purposes.  
-  
-         ***Custom output message***  — as part of the virtual operation, the overridden ToString() method is used to create a custom output message, which can be based on values returned in the expression, or it can be any custom string value that you specify. The string value displays in the **Summary** column of the **Pattern Match** viewer when you click a **Matches** pane summary button after the executing **Pattern** expression completes its evaluation.  
-  
-    2.  ***Backtrack***  — the line of code that contains the “backtrack” statement tells the **Pattern** expression to always start with, or backtrack to, a TCP segment that has its SYN flag set to true, which is indicative of a TCP message that is requesting to open a connection on a target node.  
-  
-    3.  ***Segment evaluation***  — the line of code containing the first “TCP.Segment” statement looks at the first TCP message that has its SYN flag set to true, which is characteristic of a connection request from a sending node, that can be *accepted* by a receiving node. The **Pattern** expression then sets the values of the following variables for comparison with other messages:  
-  
-        -   “IPv4SeqNumRequest” — is set to the SequenceNumber of this initial TCP request message.  
-  
-        -   “sp" — is set to the SourcePort value of this message to identify the source port involved in the IP conversation where the handshake is being set up.  
-  
-        -   "dp" — is set to the DestinationPort value of this message to identify the destination port involved in the IP conversation where the handshake is being set up.  
-  
-        -   "starttime" — is set to the return value of the GetTimestamp() method. The time value in this variable is subtracted from the return value of the GetTimeStamp() method in the next TCP.Segment section to calculate the approximate round trip time that is set in the variable "approxrtt" in that section of code.  
-  
-        -   “transportV4” — is set to the value of the **TCP.Segment.TransportKey** field. Provides a hash constant value that is the difference between the source and destination TCP ports currently under evaluation. Provides a faster comparison of the current TCP port pair.  
+|**Computer Node**|**Message Sent**|**SYN Flag Value**|**ACK Flag Value**|**SequenceNumber**|**AcknowledgementNumber**|  
+|-----------------------|----------------------|------------------------|------------------------|------------------------|-------------------------------|  
+|Sending|Connection Request|True|False|x|0|  
+|Receiving*|Request Acknowledgement|True|True|y|x+1|  
+|Sending|Sync Acknowledgement|False|True|x+1|y+1|  
 
-        > [!NOTE]
-        >  For further details, right-click the **TransportKey** field in **Field Chooser** **Tool Window** and select **Go To Definition** in the context menu that appears to show the OPN definition of this field. You can also add this field to the **Analysis Grid** viewer column layout to see what a typical value might look like. Also, right-click a field value and select the **Include Hex for Numeric Values** command in the context menu that appears, to view the hexadecimal value that is used as the hash constant.  
-  
-        -   “SrvMaxSegSize” — is set to the value of the TCP MaxSegmentSize option; the method GetMaxSegSize() is called to return the value.  
-  
-        -   “SrvSackPerm” — is set to the value of the TCP SackPermitted option; the method GetSackPermitted() is called to return the value.  
-  
-        -   “SrvScale” — is set to the value of the TCP WindowsScaleFactor option; the method GetScaleFactor() is called to return the value.  
-  
-        -   "sa" — is set to the IPv4 SourceAddress of this message to identify the source node that is involved in the IP conversation where the handshake is being set up.  
-  
-        -   "da" — is set to the IPv4 DestinationAddress of this message to identify the destination node that is involved in the IP conversation where the handshake is being set up.  
-  
-        -   “networkV4” — is set to the value of the **IPv4.Datagram.NetworkKey** field. Provides a hash constant value that is the difference between the source and destination IPv4 addresses under evaluation. Provides a faster comparison of the current IPv4 address pair.  
-  
-    4.  ***Segment evaluation***  — the line of code containing the second "TCP.Segment" section looks for the next TCP message that has both its SYN flag and ACK flag set to true, which is the signature of an acknowledgement reply *issued* by a receiving node to indicate a successful connection, that is, along with appropriate TCP SequenceNumber and AcknowledgementNumber values. This line of code also captures the SequenceNumber of this message in the ”IPv4SeqNumResponse” variable and detects whether the AcknowledgementNumber of this message is equal to the SequenceNumber of the first message sent, plus 1. This would indicate that the message is a component part of the handshake, as long as the message is in the same established IP conversation and port communication, as they would be in an associated ACK response. To verify that this is the case, the **Pattern** expression checks the values of the following variables:  
-  
-        -   "dp” — is checked against the current message SourcePort to see if the values are identical. Note that the source and destination ports switch for the first ACK message.  
-  
-        -   "sp" — is checked against the current message DestinationPort to see if the values are identical.  
-  
-        -   "approxrtt" — is calculated by subtracting the "starttime" value of the last "TCP.Segment" from the current return value of the GetTimeStamp() method. This value is specified in the **ApproxRTT** column of the **Pattern Match** viewer when you expand the results node after the **Pattern** expression completes its evaluation.  
-  
-        -   “transportV4” — is set to the value of the **TCP.Segment.TransportKey** field, as previously described.  
-  
-        -   “CliMaxSegSize” — is set to the value of the TCP MaxSegmentSize option; the method GetMaxSegSize() is called to return the value.  
-  
-        -   “CliSackPerm” — is set to the value of the TCP SackPermitted option; the method GetSackPermitted() is called to return the value.  
-  
-        -   “CliScale” — is set to the value of the TCP WindowsScaleFactor option; the method GetScaleFactor() is called to return the value.  
-  
-        -   "da.Octets" — is checked against the current message IPv4 SourceAddress.Octets value to see if the values are identical.  
-  
-        -   "sa.Octets" — is checked against the current IPv4 Destination Address.Octets value.  
-  
-        -   “networkV4” — is set to the value of the **IPv4.Datagram.NetworkKey** field, as previously described.  
-  
-    5.  ***Segment evaluation***  — the line of code containing the third "TCP.Segment" section looks for the next TCP message that has its ACK flag set to true, its SequenceNumber equal to the value of the first message’s SequenceNumber plus 1 (“SeqNumRequest +1”), and an AcknowledgementNumber equal to the value of the second message’s SequenceNumber plus 1 (“SeqNumResponse + 1”), while also ensuring that the message is in the same IP conversation and is using the same ports. This pattern is characteristic of a successful connection that is in turn acknowledged by the sending node that made the initial connection request, which can be *accepted* by the receiving node.  
-  
-    6.  ***Output***  — as these patterns are met, Message Analyzer returns the three-way handshake messages to the **Pattern Match** viewer for display. To learn more about how to display the results of executing a **Pattern** expression, see [Using the Pattern Match Viewer](using-the-pattern-match-viewer.md).  
-  
-    7.  ***Continuing evaluations***  — the **Pattern** expression then backtracks to the next TCP segment (where the SYN flag = true) following the initial evaluation point and the process is repeated until all messages in the input stream (trace results) have been evaluated.  
+The **TCP Three-Way Handshake** **Pattern** expression identifies this pattern across a set of trace results and returns them first to the **MATCHES** pane of the **Pattern Match** viewer as a summary button, which in turn you must click to display the full results set in the **MATCHED INSTANCES** pane of the viewer. To accomplish this, the code uses the following processing elements and constructs:  
+
+1.  ***Virtual operation***  — following the using statements is a "virtual operation" that provides for definition of variables and exposure of properties that are used in **Pattern** expression evaluations; for example, to hold source and destination IPv4 or IPv6 address values to check for matches; a round trip time value; and to hold other TCP field values that are used in the evaluations such as SourcePort and DestinationPort. Other declarations in the virtual operation are for variables that hold the values of TCP **MaxSegmentSize**, **WindowsScaleFactor**, and **SackPermitted** options on the sending and receiving nodes. These variables correlate TCP option values in the returned **Pattern** expression results for analysis purposes.  
+
+        ***Custom output message***  — as part of the virtual operation, the overridden ToString() method is used to create a custom output message, which can be based on values returned in the expression, or it can be any custom string value that you specify. The string value displays in the **Summary** column of the **Pattern Match** viewer when you click a **Matches** pane summary button after the executing **Pattern** expression completes its evaluation.  
+
+2.  ***Backtrack***  — the line of code that contains the “backtrack” statement tells the **Pattern** expression to always start with, or backtrack to, a TCP segment that has its SYN flag set to true, which is indicative of a TCP message that is requesting to open a connection on a target node.  
+
+3.  ***Segment evaluation***  — the line of code containing the first “TCP.Segment” statement looks at the first TCP message that has its SYN flag set to true, which is characteristic of a connection request from a sending node, that can be *accepted* by a receiving node. The **Pattern** expression then sets the values of the following variables for comparison with other messages:  
+
+    -   “IPv4SeqNumRequest” — is set to the SequenceNumber of this initial TCP request message.  
+
+    -   “sp" — is set to the SourcePort value of this message to identify the source port involved in the IP conversation where the handshake is being set up.  
+
+    -   "dp" — is set to the DestinationPort value of this message to identify the destination port involved in the IP conversation where the handshake is being set up.  
+
+    -   "starttime" — is set to the return value of the GetTimestamp() method. The time value in this variable is subtracted from the return value of the GetTimeStamp() method in the next TCP.Segment section to calculate the approximate round trip time that is set in the variable "approxrtt" in that section of code.  
+
+    -   “transportV4” — is set to the value of the **TCP.Segment.TransportKey** field. Provides a hash constant value that is the difference between the source and destination TCP ports currently under evaluation. Provides a faster comparison of the current TCP port pair.  
+
+> [!NOTE]
+>  For further details, right-click the **TransportKey** field in **Field Chooser** **Tool Window** and select **Go To Definition** in the context menu that appears to show the OPN definition of this field. You can also add this field to the **Analysis Grid** viewer column layout to see what a typical value might look like. Also, right-click a field value and select the **Include Hex for Numeric Values** command in the context menu that appears, to view the hexadecimal value that is used as the hash constant.  
+
+    -   “SrvMaxSegSize” — is set to the value of the TCP MaxSegmentSize option; the method GetMaxSegSize() is called to return the value.  
+
+    -   “SrvSackPerm” — is set to the value of the TCP SackPermitted option; the method GetSackPermitted() is called to return the value.  
+
+    -   “SrvScale” — is set to the value of the TCP WindowsScaleFactor option; the method GetScaleFactor() is called to return the value.  
+
+    -   "sa" — is set to the IPv4 SourceAddress of this message to identify the source node that is involved in the IP conversation where the handshake is being set up.  
+
+    -   "da" — is set to the IPv4 DestinationAddress of this message to identify the destination node that is involved in the IP conversation where the handshake is being set up.  
+
+    -   “networkV4” — is set to the value of the **IPv4.Datagram.NetworkKey** field. Provides a hash constant value that is the difference between the source and destination IPv4 addresses under evaluation. Provides a faster comparison of the current IPv4 address pair.  
+
+4.  ***Segment evaluation***  — the line of code containing the second "TCP.Segment" section looks for the next TCP message that has both its SYN flag and ACK flag set to true, which is the signature of an acknowledgement reply *issued* by a receiving node to indicate a successful connection, that is, along with appropriate TCP SequenceNumber and AcknowledgementNumber values. This line of code also captures the SequenceNumber of this message in the ”IPv4SeqNumResponse” variable and detects whether the AcknowledgementNumber of this message is equal to the SequenceNumber of the first message sent, plus 1. This would indicate that the message is a component part of the handshake, as long as the message is in the same established IP conversation and port communication, as they would be in an associated ACK response. To verify that this is the case, the **Pattern** expression checks the values of the following variables:  
+
+    -   "dp” — is checked against the current message SourcePort to see if the values are identical. Note that the source and destination ports switch for the first ACK message.  
+
+    -   "sp" — is checked against the current message DestinationPort to see if the values are identical.  
+
+    -   "approxrtt" — is calculated by subtracting the "starttime" value of the last "TCP.Segment" from the current return value of the GetTimeStamp() method. This value is specified in the **ApproxRTT** column of the **Pattern Match** viewer when you expand the results node after the **Pattern** expression completes its evaluation.  
+
+    -   “transportV4” — is set to the value of the **TCP.Segment.TransportKey** field, as previously described.  
+
+    -   “CliMaxSegSize” — is set to the value of the TCP MaxSegmentSize option; the method GetMaxSegSize() is called to return the value.  
+
+    -   “CliSackPerm” — is set to the value of the TCP SackPermitted option; the method GetSackPermitted() is called to return the value.  
+
+    -   “CliScale” — is set to the value of the TCP WindowsScaleFactor option; the method GetScaleFactor() is called to return the value.  
+
+    -   "da.Octets" — is checked against the current message IPv4 SourceAddress.Octets value to see if the values are identical.  
+
+    -   "sa.Octets" — is checked against the current IPv4 Destination Address.Octets value.  
+
+    -   “networkV4” — is set to the value of the **IPv4.Datagram.NetworkKey** field, as previously described.  
+
+5.  ***Segment evaluation***  — the line of code containing the third "TCP.Segment" section looks for the next TCP message that has its ACK flag set to true, its SequenceNumber equal to the value of the first message’s SequenceNumber plus 1 (“SeqNumRequest +1”), and an AcknowledgementNumber equal to the value of the second message’s SequenceNumber plus 1 (“SeqNumResponse + 1”), while also ensuring that the message is in the same IP conversation and is using the same ports. This pattern is characteristic of a successful connection that is in turn acknowledged by the sending node that made the initial connection request, which can be *accepted* by the receiving node.  
+
+6.  ***Output***  — as these patterns are met, Message Analyzer returns the three-way handshake messages to the **Pattern Match** viewer for display. To learn more about how to display the results of executing a **Pattern** expression, see [Using the Pattern Match Viewer](using-the-pattern-match-viewer.md).  
+
+7.  ***Continuing evaluations***  — the **Pattern** expression then backtracks to the next TCP segment (where the SYN flag = true) following the initial evaluation point and the process is repeated until all messages in the input stream (trace results) have been evaluated.  
   
 ## Writing Pattern Expressions  
 

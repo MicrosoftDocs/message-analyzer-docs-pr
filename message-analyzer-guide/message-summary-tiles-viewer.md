@@ -60,8 +60,9 @@ Each of the default tiles contain lines of data that are labeled according to pr
   
 ---  
   
-     **More Information**   
-     **To learn more** about the meaning of diagnostic messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
+**More Information**   
+**To learn more** about the meaning of diagnostic messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
+
 ---  
   
 -   **Source** — provides an indication below the tile name, of the total number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count of the specific sender IP addresses with the top 5 highest message volumes for the current set of trace results.  
