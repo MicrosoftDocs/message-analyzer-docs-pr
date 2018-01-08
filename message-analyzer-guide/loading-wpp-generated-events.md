@@ -127,11 +127,7 @@ For each PDB file that you specify, Message Analyzer generates and compiles an O
   
  When using the wpp.config file, you must specify the directory location for all TMF files under the \<store location/> tag in the XML above by using the \<share&#124;drive:> tag, rather than specifying PDB files, which are not supported in this configuration. If you only have a PDB file, you can use the command-line tool *Tracepdb* to convert the PDB file to a TMF file, as previously described. When this is the case, you should specify the TMFDirectory output  path from the *Tracepdb* tool in the \<share &#124; drive:> tag of the XML code above.  
   
- Note that the \<store location/> tag allows you to specify multiple TMF file versions, as shown in the code example above. Thereafter, you must place the wpp.config file in the following directory location. Note that you will need to create the “WppConfiguration” directory:  
-  
-```  
-%localappdata%\Microsoft\MessageAnalyzer\OPNAndConfiguration\WppConfiguration\  
-```  
+ Note that the \<store location/> tag allows you to specify multiple TMF file versions, as shown in the code example above. Thereafter, you must place the wpp.config file in the following directory location. Note that you will need to create the “WppConfiguration” directory: `%localappdata%\Microsoft\MessageAnalyzer\OPNAndConfiguration\WppConfiguration\`  
   
 > [!NOTE]
 >  When you place your wpp.config file in this location, Message Analyzer will automatically search the store location to match the GUID of the appropriate TMF file  with that of the ETL file you are attempting to parse.  
