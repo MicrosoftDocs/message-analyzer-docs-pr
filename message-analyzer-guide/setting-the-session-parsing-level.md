@@ -31,9 +31,8 @@ Message Analyzer provides a collection of built-in **Parsing Level** scenarios t
   
 ### Table 8.  Message Analyzer Parsing Levels  
   
-||||  
-|-|-|-|  
 |**Name**|**Description**|**Definition**|  
+|-|-|-|  
 |**Full**|Enables the Message Analyzer default **Parsing Level**.|No **Parsing Level** is applied; note however, that parsing results can be impacted by the PEF **Trace Scenario** or other message provider in use.|  
 |**Network Analysis**|Focuses on diagnosing Transport and Network layers, but includes UDP/TCP traffic along with DNS, DHCP, ARP, and ICMP messages.|-   Exclude Filter: TCP.Port==53 or TCP.Port==42<br />     StopAtModule: TCP<br />-   Exclude Filter: UDP.Port==53 or UDP.Port==546 or UDP.Port==67 or UDP.Port==137 or UDP.Port==1512<br />     StopAtModule: UDP **Note:**  ARP and ICMP are included in this scenario because they are not explicitly excluded, therefore, they parse to the top level in this scenario.|  
 |**File Sharing**|Focuses on diagnosing file sharing scenarios, but is limited to SMB and some simple name resolution protocols such as WINS, DNS, and NetBIOS.|-   Exclude Filter: TCP.Port==445 or TCP.Port==135<br />     StopAtModule: TCP<br />-   Exclude Filter:<br />     StopAtModule: SMB<br />-   Exclude Filter:<br />     StopAtModule: SMB2<br />-   Exclude Filter: UDP.Port == 53 or UDP.Port==546 or UDP.Port==67 or UDP.Port==137 or UDP.Port==1512<br />     StopAtModule: UDP|  

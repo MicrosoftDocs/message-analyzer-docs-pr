@@ -46,16 +46,15 @@ You can also interactively drive the display of messages into the **Analysis Gri
   
 ### Table 13. Interactive Viewing Configuration Example for SMB Data  
   
-|||  
-|-|-|  
 |**Viewer**|**Layout**|  
+|-|-|  
 |Analysis Grid|File Sharing Perf SMB2/SMB|  
 |Grouping|File Sharing SMB/SMB2|  
 |Chart|SMB File Stats|  
   
  With this viewing configuration, you can redock the **SMB File Stats** view **Layout** for **Charts** next to the **Analysis Grid** viewer, and then select group nodes in the **Grouping** viewer to simultaneously drive the display of associated messages in the **Analysis Grid** viewer and related rows of data in the **SMB File Stats** view **Layout**. Conversely, you can also select a row of data in the **SMB File Stats** view **Layout** and automatically detect and highlight the messages associated with a particular SMB file operation in the **Analysis Grid** viewer. In addition, message fields and values in the **Details** **Tool Window** snap to whatever message selections are made through these interactions. In each case, you can obtain focused analysis environments for correlating different aspects of the data.  
   
----  
+---
   
  **More Information**   
  **To learn more** about interactively analyzing SMB data with the indicated viewing and **Layout** configurations, see the following topics:  

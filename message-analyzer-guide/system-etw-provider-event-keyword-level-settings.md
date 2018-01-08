@@ -90,9 +90,9 @@ In many cases, if you leave the **Keywords(Any)** bitmask set to the default val
   
 ### Table 6. Example Provider Event Configuration  
   
-|||||  
-|-|-|-|-|  
+
 |**Event Name**|**Configuration**|**Binary Value**|**Hexadecimal Value**|  
+|-|-|-|-|  
 |Initialization|Sets first binary bit.|000**1**|0x0000000000000001|  
 |File Read Operation|Sets second  binary bit.|00**1**0|0x0000000000000002|  
 |File Write Operation|Sets third binary bit.|0**1**00|0x0000000000000004|  

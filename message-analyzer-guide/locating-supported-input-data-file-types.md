@@ -28,9 +28,8 @@ To locate saved data that you want to load into Message Analyzer from supported 
   
 ### Table 9.  Message Analyzer Supported Input File Types  
   
-|||||  
-|-|-|-|-|  
 |**Message file name extension**|**Description**|**Support**|**Uses/Requirements**|  
+|-|-|-|-|  
 |.aztable|Azure table storage|Non-native|Display data from Azure table storage (requires input connection information, as described in [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)).|  
 |.blg|Binary performance file (PerfMon)|Non-native|Standard input file support. A Message Analyzer **Profile** is available for this input file type.|  
 |.cap|Network Monitor capture file|Native|Open Network Monitor .cap files. Note that Message Analyzer can export trace data in the .cap file format. Several Message Analyzer **Profiles** are available for this input file type.|  
@@ -54,9 +53,9 @@ To locate saved data that you want to load into Message Analyzer from supported 
 |.trc|Network Associates Sniffer - DOS files|Non-native|Standard input file support.|  
 |.tsv|Tab Separated Value file|Non-native|Standard input file support.|  
 |.xml|XML file|Non-native|Standard input file support.|  
-  
----  
-  
+
+---
+
  **More Information**   
  **To learn more** about how to use Message Analyzer **Profiles** to automatically display a predefined viewer and layout configuration for  a targeted analysis context when loading data from  applicable file types, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
 **To learn more** about different methods that you can use to quickly load data into Message Analyzer, see [Performing Data Retrieval](performing-data-retrieval.md).  

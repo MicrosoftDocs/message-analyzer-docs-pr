@@ -33,9 +33,8 @@ In any Analysis Session, Message Analyzer enables you to use data viewers to pre
   
 ### Table 11. Message Analyzer Data Viewers and Layouts  
   
-||||||  
-|-|-|-|-|-|  
 |**Viewer Name**|**Description**|**Layouts**|**Viewer Type***|**Asset Collection**|  
+|-|-|-|-|-|  
 |[Analysis Grid](analysis-grid-viewer.md)|The primary analysis surface that consists of a default tree grid display containing a default column layout with expandable parent and child message nodes that expose top-level transactions/Operations and message origins, respectively, along with message details, in a tree-view structure.|Yes — **Layouts** drop-down list above Filter text box.|**Default**|**Message Analyzer View Layouts**|  
 |[Grouping](grouping-viewer.md)|Enables you to organize your traffic into summary hierarchies based on **Grouping** viewer **Layouts** that contain predefined message field groups. These groups exist in nested configurations that create focus on specific data by extracting it from a set of trace results and exposing it at different levels in the group hierarchy.<br /><br /> Enables you to drill down into important data while at the same time interactively correlate  the group data with the **Analysis Grid** viewer display through group selection.|Yes — **Layouts** drop-down list on the **Grouping** viewer toolbar.|**Default**|**Message Analyzer Grouping View Layouts**|  
 |[Pattern Match](pattern-match-viewer.md)|Enables you to detect message behaviors, patterns, or repeating value sequences within a message collection, based on execution of  a predefined or custom-designed OPN **Pattern** expression. Also provides a summary analysis of **Matches**, **Matched Instances** details, and the correlated **Messages**.|None|**Default**|**Message Analyzer Sequence Expressions**|  
