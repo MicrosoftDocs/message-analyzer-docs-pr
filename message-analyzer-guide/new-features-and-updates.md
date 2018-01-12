@@ -120,11 +120,8 @@ For more details about these features, see the following topics:
 ---
 
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)  
-
 [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts)  
-
 [Chart Viewer Layouts](chart-viewer-layouts.md)  
-
 [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
 
 ---

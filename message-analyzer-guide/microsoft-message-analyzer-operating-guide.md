@@ -70,7 +70,5 @@ manager: "ronstarr"
 **[Technology Tutorials](technology-tutorials.md)**  — get an overview of Message Analyzer functions and technology concepts, and learn about the PEF architecture and ETW framework components that support them:  
 
 [Message Analyzer Tutorial](message-analyzer-tutorial.md)  
-
 [PEF Architecture Tutorial](pef-architecture-tutorial.md)  
-
 [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)

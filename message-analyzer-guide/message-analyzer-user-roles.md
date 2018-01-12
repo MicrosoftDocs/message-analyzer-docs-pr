@@ -29,7 +29,7 @@ The Message Analyzer user audience primarily consists of network administrators,
 
 - **Tracer** — typically a client who is experiencing issues in some area and is requested to take a trace for in-depth analysis by a Network Administrator or Support Analyst.
 
- The diverse audience described above can be represented  in two high-level categories of User Roles, basic and advanced, as described immediately below. The list that follows briefly summarizes each high-level User Role and provides pointers to the appropriate topics in this Operating Guide for each User Role to get started with Message Analyzer. The information in this list should help you determine the User Role that best fits your use of Message Analyzer.
+The diverse audience described above can be represented  in two high-level categories of User Roles, basic and advanced, as described immediately below. The list that follows briefly summarizes each high-level User Role and provides pointers to the appropriate topics in this Operating Guide for each User Role to get started with Message Analyzer. The information in this list should help you determine the User Role that best fits your use of Message Analyzer.
 
 - **Basic User Role** — if you are a **Tracer** and you intend to use Message Analyzer only to take traces, save them to file, and then pass them along to colleagues, administrators, or support personnel for analysis, proceed to the following topics to get started quickly with these tasks.
 
@@ -71,19 +71,19 @@ The Message Analyzer user audience primarily consists of network administrators,
 
       - [Performing Data Retrieval](performing-data-retrieval.md)
 
-    - [Viewing Message Data](viewing-message-data.md) — review this topic to learn about a wide assortment of data viewing options that are available for live or saved data, including built-in data viewers, **Chart** viewer **Layouts**, **Tool Windows**, **Window Layouts**, **Profiles**, and other data manipulation tools. Also run procedures that provide examples of how to use data viewers and **Tool Windows**, and how to apply **Filters**, **Viewpoints**, and data **Grouping**. Topics of particular interest might be the following:
+  - [Viewing Message Data](viewing-message-data.md) — review this topic to learn about a wide assortment of data viewing options that are available for live or saved data, including built-in data viewers, **Chart** viewer **Layouts**, **Tool Windows**, **Window Layouts**, **Profiles**, and other data manipulation tools. Also run procedures that provide examples of how to use data viewers and **Tool Windows**, and how to apply **Filters**, **Viewpoints**, and data **Grouping**. Topics of particular interest might be the following:
 
-        - [Data Viewers](data-viewers.md)
+      - [Data Viewers](data-viewers.md)
 
-        - [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
+      - [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
 
-        - [Tool Windows](tool-windows.md)
+      - [Tool Windows](tool-windows.md)
 
-        - [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+      - [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
 
-    - [Analyzing Message Data](analyzing-message-data.md) — review this topic for an overview of Message Analyzer analysis capabilities. Given that viewing message data and analyzing message data are closely related, this topic will give you a better idea of how to use the Message Analyzer viewing features as analysis tools.
+  - [Analyzing Message Data](analyzing-message-data.md) — review this topic for an overview of Message Analyzer analysis capabilities. Given that viewing message data and analyzing message data are closely related, this topic will give you a better idea of how to use the Message Analyzer viewing features as analysis tools.
 
-    - [Saving Session Data](saving-session-data.md) — as described earlier.
+  - [Saving Session Data](saving-session-data.md) — as described earlier.
 
 > [!NOTE]
 > If your tasks fall into the **Advanced User Role** category, you are also encouraged to review the [Message Analyzer Tutorial](message-analyzer-tutorial.md) to obtain a broad understanding of Message Analyzer features and functions.

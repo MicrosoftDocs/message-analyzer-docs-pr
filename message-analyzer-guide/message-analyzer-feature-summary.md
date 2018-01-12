@@ -37,33 +37,35 @@ The global Message Analyzer **File** menu provides access to the features descri
 
 ---
 
-**More Information**  
-**To learn more** about starting a new Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).
+    **More Information**  
+    **To learn more** about starting a new Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).
 
 ---
 
-> [!NOTE]
->  If you intend to *capture* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security rotocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable any Live Trace Session for *Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+    > [!NOTE]
+    >  If you intend to *capture* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security rotocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable any Live Trace Session for *Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
 
--   **[Files](configuring-a-data-retrieval-session.md)**  — opens the **New Session** dialog with the **Files** tab selected, from where you can configure a Data Retrieval Session to acquire data that exists in one or more saved files. You can also select specific data to retrieve from such sources by using filters, for example a **Time Filter** and/or **Session Filter**.
+    - **[Files](configuring-a-data-retrieval-session.md)**  — opens the **New Session** dialog with the **Files** tab selected, from where you can configure a Data Retrieval Session to acquire data that exists in one or more saved files. You can also select specific data to retrieve from such sources by using filters, for example a **Time Filter** and/or **Session Filter**.
 
-A **Truncated Parsing** check box is also included in the **Files** tab configuration to indicate when truncated messages exist in files from which you are retrieving data, at which time Message Analyzer switches to a pared-down truncation parser set. You have the option to unselect this check box or to select it manually if Message Analyzer did not automatically detect truncated messages.
-
----
-
-**More Information**  
-**To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session]starting-a-message-analyzer-session.md).
+    A **Truncated Parsing** check box is also included in the **Files** tab configuration to indicate when truncated messages exist in files from which you are retrieving data, at which time Message Analyzer switches to a pared-down truncation parser set. You have the option to unselect this check box or to select it manually if Message Analyzer did not automatically detect truncated messages.
 
 ---
 
-> [!NOTE]
->  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).<br />In addition, the **Files** tab configuration provides you with the capability to retrieve data from textual log files and to select from a list of configuration files that support log file parsing. The **Truncated Parsing**, **Decryption**, and text log parsing features are described in [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).
+    **More Information**  
+    **To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session]starting-a-message-analyzer-session.md).
 
-- **[Azure Table](retrieving-azure-storage-table-data.md)**  — opens the **New Session** dialog to a configuration interface that enables you to specify an **Account Name**, **Account Key**, and **Table Name**, from which you can load Azure event log data into Message Analyzer.
-- **[Event Logs](loading-system-event-log-data.md)**  — opens the **New Session** dialog to the **Event Logs** tab, which contains a large list of event logs that were generated on your computer. You can select one or more of the event log check boxes and click **Start** to retrieve the data from the selected logs.
-- **[PowerShell](deriving-input-data-with-powershell-scripts.md)**  — opens the **New Session** dialog to the **PowerShell** tab, from where you can write a PowerShell query. If your PowerShell script obtains data from a remote source, you can specify a **Host** name and connection credentials in the **New Session** dialog. Note that if your PowerShell script captures event or network traffic and logs to an event log (*.etl) or Message Analyzer \*.matp file, respectively, you can import the data from such files through a subsequent Data Retrieval Session.
-- **[Sql](loading-sql-data.md)**  — opens the **New Session** dialog to the **Sql** tab, from where you can load data into Message Analyzer from any SQL database table. Provides facilities to specify a **Connection** string, user credentials, **Table** name, **Timestamp**, and a **WHERE** clause.
-- **[Oms](loading-oms-log-data.md)**  — opens the **New Session** dialog to the configuration interface for access to Operations Management Suite (OMS) logs. Specify user credentials to log on to Azure, select a **Subscription**, select a **Workspace** that you have configured, and then specify an Azure Resource Manager (ARM) query to extract OMS data from logs that are written by solutions that are enabled in a Workspace you created.
+---
+
+    > [!NOTE]
+    >  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+    
+    In addition, the **Files** tab configuration provides you with the capability to retrieve data from textual log files and to select from a list of configuration files that support log file parsing. The **Truncated Parsing**, **Decryption**, and text log parsing features are described in [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).
+
+    - **[Azure Table](retrieving-azure-storage-table-data.md)**  — opens the **New Session** dialog to a configuration interface that enables you to specify an **Account Name**, **Account Key**, and **Table Name**, from which you can load Azure event log data into Message Analyzer.
+    - **[Event Logs](loading-system-event-log-data.md)**  — opens the **New Session** dialog to the **Event Logs** tab, which contains a large list of event logs that were generated on your computer. You can select one or more of the event log check boxes and click **Start** to retrieve the data from the selected logs.
+    - **[PowerShell](deriving-input-data-with-powershell-scripts.md)**  — opens the **New Session** dialog to the **PowerShell** tab, from where you can write a PowerShell query. If your PowerShell script obtains data from a remote source, you can specify a **Host** name and connection credentials in the **New Session** dialog. Note that if your PowerShell script captures event or network traffic and logs to an event log (*.etl) or Message Analyzer \*.matp file, respectively, you can import the data from such files through a subsequent Data Retrieval Session.
+    - **[Sql](loading-sql-data.md)**  — opens the **New Session** dialog to the **Sql** tab, from where you can load data into Message Analyzer from any SQL database table. Provides facilities to specify a **Connection** string, user credentials, **Table** name, **Timestamp**, and a **WHERE** clause.
+    - **[Oms](loading-oms-log-data.md)**  — opens the **New Session** dialog to the configuration interface for access to Operations Management Suite (OMS) logs. Specify user credentials to log on to Azure, select a **Subscription**, select a **Workspace** that you have configured, and then specify an Azure Resource Manager (ARM) query to extract OMS data from logs that are written by solutions that are enabled in a Workspace you created.
 
 -   **[Open](performing-data-retrieval.md)**  — provides a submenu with the following two items:
 
@@ -83,7 +85,7 @@ A **Truncated Parsing** check box is also included in the **Files** tab configur
 
 -   **Exit** — click this item to close Message Analyzer. If you have any unsaved changes, you will be prompted with the option to save them.
 
- **Session Menu**
+**Session Menu**  
 The global Message Analyzer **Session** menu provides access to the features described in the list that follows.
 
 -   **[New Viewer](selecting-a-session-data-viewer.md)**  — click this item to open the **New Viewer** drop-down list, from where you can choose one of the built-in data viewers. You can also select a built-in **Layout** or a custom **Layout** that you created for the **Chart**, **Analysis Grid**, or **Grouping** viewers, for the current in-focus session. Data viewers that you can select from  the list consist of the following:
@@ -128,7 +130,7 @@ The global Message Analyzer **Session** menu provides access to the features des
 
 -   ***ViewerName***  — a placeholder for which the name changes depending on the type of session viewer that is currently in focus. For example, if the **Grouping** viewer is in focus, then the name of this **Session** menu item changes to **Grouping**. If an **Analysis Grid** session tab is currently in focus, the item name changes to **Analysis Grid**, and so on. Click the viewer name item in the **Session** menu to display a submenu with a set of commands that apply to the indicated data viewer only. Typically reproduces the commands that exist on the respective data viewer toolbar.
 
- **Tools Menu**
+**Tools Menu**  
 The global Message Analyzer **Tools** menu provides access to the features described in the list that follows.
 
 -   **[Windows](tool-windows.md)**  — utilize interactive **Tool Windows** that respond to message selection or session selection to provide additional message details. The **Tool Windows** that are available consist of the following:
@@ -211,7 +213,7 @@ The global Message Analyzer **Tools** menu provides access to the features descr
 
     -   **[WPP](loading-wpp-generated-events.md)**  tab — provides a convenient interface that simplifies the input configuration for specifying symbol files that are required to parse WPP-generated events.
 
- **Help Menu**
+**Help Menu**  
 The global Message Analyzer **Help** menu provides access to the features described in the list that follows.
 
 -   **[Feedback Center](message-analyzer-feedback.md)**  — click this item to open the **Feedback Center** dialog, from where you can provide feedback for predefined questions about various Message Analyzer features. Note that the feedback features are reproduced by the **Feedback Center** and **Feedback** controls in the upper-right section of the Message Analyzer user interface.
@@ -278,7 +280,7 @@ The global Message Analyzer **Help** menu provides access to the features descri
 
 -   **[Message Analyzer Team Blog](message-analyzer-team-blog.md)**  — go to the Message Analyzer Blog to review numerous Blog postings about Message Analyzer features and use. Also, leave comments, rate articles, and get feedback from Microsoft. In addition, you will find a link to Message Analyzer training Videos on this site under **Important Links**.
 
- From the **Start Page**, you can also view **Recent Files**, **Favorite Scenarios**, edit **Favorite  Scenarios**, and review **News** items.
+From the **Start Page**, you can also view **Recent Files**, **Favorite Scenarios**, edit **Favorite  Scenarios**, and review **News** items.
 
 ## Layouts for the Chart Viewer
  Message Analyzer enables you to select various built-in **[Chart Viewer Layouts](chart-viewer-layouts.md)** against a set of trace results to enhance your data analysis perspectives. Message Analyzer also provides the configuration tools and other features needed to create, edit, save, and share **Layouts** for the **Chart** viewer that you can configure with custom **Bar** element, **Pie** slice, **Timeline** graphic, and **Table** grid visualizer components. Note that each of these components are used in the built-in **Protocol Dashboard** viewer, which is accessible from the **Charts (Deprecated)** drop-down list in the **New Viewer** drop-down on the global Message Analyzer toolbar.
@@ -339,7 +341,7 @@ The global Message Analyzer **Help** menu provides access to the features descri
 
 -   Simulate the Network Monitor **Network Conversations** tree with the Message Analyzer **Grouping** viewer.
 
- For a high-level comparison of  Message Analyzer and Network Monitor features and why new approaches have been taken for capturing, displaying, and analyzing message traffic, see the following Message Analyzer Blog articles.
+For a high-level comparison of  Message Analyzer and Network Monitor features and why new approaches have been taken for capturing, displaying, and analyzing message traffic, see the following Message Analyzer Blog articles.
 
- [Message Analyzer v1.3 vs Network Monitor v3.4](http://blogs.technet.com/b/messageanalyzer/archive/2015/07/23/microsoft-message-analyzer-v1-3-versus-network-monitor-v3-4.aspx)
- [Message Analyzer: Why so different from Network Monitor?](http://blogs.technet.com/b/messageanalyzer/archive/2013/09/25/message-analyzer-why-so-different-from-network-monitor.aspx)
+[Message Analyzer v1.3 vs Network Monitor v3.4](http://blogs.technet.com/b/messageanalyzer/archive/2015/07/23/microsoft-message-analyzer-v1-3-versus-network-monitor-v3-4.aspx)
+[Message Analyzer: Why so different from Network Monitor?](http://blogs.technet.com/b/messageanalyzer/archive/2013/09/25/message-analyzer-why-so-different-from-network-monitor.aspx)

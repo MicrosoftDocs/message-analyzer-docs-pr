@@ -123,7 +123,6 @@ The first time that you start up Message Analyzer, you have the option  to confi
 ---
 
  **More Information**  
-
 **To learn more** about syncing Message Analyzer assets for automatic updates at first startup, see [Syncing Items on First Startup](syncing-items-on-first-startup.md).  
 **To learn more** about the **Asset Manager** dialog, see the [Asset Manager](asset-manager.md) topic.
 
