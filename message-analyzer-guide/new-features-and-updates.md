@@ -35,7 +35,7 @@ This section provides a brief description of the ongoing new and updated feature
 
   - Flat Message List (simulates the Network Monitor view)
 
-     For more details about these feature, see the [Using the Filtering Toolbar](using-the-filtering-toolbar.md) section.
+  For more details about these feature, see the [Using the Filtering Toolbar](using-the-filtering-toolbar.md) section.
 
 - **Window Layouts** — organizes data viewers and **Tool Windows** into preset configurations for customizing your working analysis environment, with window layouts that range from simple to increasingly more complex configurations.
 
@@ -119,9 +119,12 @@ For more details about these features, see the following topics:
 
 ---
 
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
-- [Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts)
-- [Chart Viewer Layouts](chart-viewer-layouts.md)
-- [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)  
+
+[Understanding the Built-In Grouping View Layouts](grouping-viewer.md#BKMK_UsingPredefinedLayouts)  
+
+[Chart Viewer Layouts](chart-viewer-layouts.md)  
+
+[Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
 
 ---
