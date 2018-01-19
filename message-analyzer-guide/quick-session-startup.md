@@ -60,6 +60,6 @@ If you have not yet started Message Analyzer, see [Starting Message Analyzer for
 ---
 
 **More Information**  
-     **To learn more** about the built-in **Trace Scenarios** provided with Message Analyzer, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.
-     
+**To learn more** about the built-in **Trace Scenarios** provided with Message Analyzer, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.
+
 ---

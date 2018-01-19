@@ -37,13 +37,13 @@ The global Message Analyzer **File** menu provides access to the features descri
 
 ---
 
-    **More Information**  
-    **To learn more** about starting a new Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).
+**More Information**  
+**To learn more** about starting a new Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).
 
 ---
 
-    > [!NOTE]
-    >  If you intend to *capture* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security rotocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable any Live Trace Session for *Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+> [!NOTE]
+>  If you intend to *capture* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security rotocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable any Live Trace Session for *Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
 
     - **[Files](configuring-a-data-retrieval-session.md)**  — opens the **New Session** dialog with the **Files** tab selected, from where you can configure a Data Retrieval Session to acquire data that exists in one or more saved files. You can also select specific data to retrieve from such sources by using filters, for example a **Time Filter** and/or **Session Filter**.
 
@@ -51,14 +51,14 @@ The global Message Analyzer **File** menu provides access to the features descri
 
 ---
 
-    **More Information**  
-    **To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session]starting-a-message-analyzer-session.md).
+**More Information**  
+**To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session]starting-a-message-analyzer-session.md).
 
 ---
 
-    > [!NOTE]
-    >  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
-    
+> [!NOTE]
+>  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+
     In addition, the **Files** tab configuration provides you with the capability to retrieve data from textual log files and to select from a list of configuration files that support log file parsing. The **Truncated Parsing**, **Decryption**, and text log parsing features are described in [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).
 
     - **[Azure Table](retrieving-azure-storage-table-data.md)**  — opens the **New Session** dialog to a configuration interface that enables you to specify an **Account Name**, **Account Key**, and **Table Name**, from which you can load Azure event log data into Message Analyzer.

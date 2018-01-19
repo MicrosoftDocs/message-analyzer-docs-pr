@@ -24,13 +24,13 @@ This section begins with some background concepts about Microsoft Message Analyz
  **Go To Procedures**  
 To go directly to procedures that provide examples of using Message Analyzer, see the following topics:
 
-- [Procedures: Quick Start](procedures-quick-start.md)
-- [Procedures: Using the Network Tracing Features](procedures-using-the-network-tracing-features.md)
-- [Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)
-- [Procedures: Using the Data Viewing Features](procedures-using-the-data-viewing-features.md)
-- [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)
-- [Procedures: Using the Asset Management Features](procedures-using-the-asset-management-features.md)
-- [Procedures: Using the Chart Viewer Layout Configuration Features](procedures-using-the-chart-viewer-layout-configuration-features.md)
+[Procedures: Quick Start](procedures-quick-start.md)  
+[Procedures: Using the Network Tracing Features](procedures-using-the-network-tracing-features.md)  
+[Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)  
+[Procedures: Using the Data Viewing Features](procedures-using-the-data-viewing-features.md)  
+[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)  
+[Procedures: Using the Asset Management Features](procedures-using-the-asset-management-features.md)  
+[Procedures: Using the Chart Viewer Layout Configuration Features](procedures-using-the-chart-viewer-layout-configuration-features.md)  
 
 ---
 
@@ -51,11 +51,11 @@ The overarching and new approach that Message Analyzer uses when capturing traff
 
 - Enabling you to "select" specific data that you want to view through filtering.
 
- In this manner, the important information that you need to see for any particular message is readily exposed at top-level in the **Analysis Grid** viewer, which is the main analysis surface that Message Analyzer provides.
+In this manner, the important information that you need to see for any particular message is readily exposed at top-level in the **Analysis Grid** viewer, which is the main analysis surface that Message Analyzer provides.
 
- Another significant feature that enables you to focus on messages of interest is **Viewpoints**, which display data from the perspective of a chosen protocol, module, or layer with no messages above it. For example, you could select a TCP **Viewpoint** and drive all TCP messages to top-level in the **Analysis Grid** to facilitate better analysis of TCP messages. This is in contrast to Message Analyzer's predecessor Network Monitor, which shows only flat or static message packets in original capture order and does not hide any noise, reassemble fragments, or simulate protocol behavior to allow for interpreting states and maintaining a protocol model, such as Message Analyzer does.  Moreover, Message Analyzer formalizes its parser definitions to enable more artifacts to be derived from them, such as test cases and documentation.
+Another significant feature that enables you to focus on messages of interest is **Viewpoints**, which display data from the perspective of a chosen protocol, module, or layer with no messages above it. For example, you could select a TCP **Viewpoint** and drive all TCP messages to top-level in the **Analysis Grid** to facilitate better analysis of TCP messages. This is in contrast to Message Analyzer's predecessor Network Monitor, which shows only flat or static message packets in original capture order and does not hide any noise, reassemble fragments, or simulate protocol behavior to allow for interpreting states and maintaining a protocol model, such as Message Analyzer does.  Moreover, Message Analyzer formalizes its parser definitions to enable more artifacts to be derived from them, such as test cases and documentation.
 
- You will learn more about these features in the next few sections that provide an overview of  acquiring data through a Message Analyzer session and using various tools  to focus data capture and analysis on specific types of data. After these sections, you can review the [Getting Started Primers](message-analyzer-tutorial.md#BKMK_Primers).
+You will learn more about these features in the next few sections that provide an overview of  acquiring data through a Message Analyzer session and using various tools  to focus data capture and analysis on specific types of data. After these sections, you can review the [Getting Started Primers](message-analyzer-tutorial.md#BKMK_Primers).
 
 ## Acquiring Data Through a Message Analyzer Session
 
@@ -86,8 +86,8 @@ In a Data Retrieval Session, Message Analyzer enables you to retrieve and aggreg
 
 ---
 
- **More Information**  
- **To learn more** about configuring a Data Retrieval Session, see [Retrieving Message Data](retrieving-message-data.md).  
+**More Information**  
+**To learn more** about configuring a Data Retrieval Session, see [Retrieving Message Data](retrieving-message-data.md).  
 **To learn more** about accessing data from the previously mentioned special input sources, see [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md).
 
 ---
@@ -110,9 +110,9 @@ In a Data Retrieval Session, Message Analyzer enables you to retrieve and aggreg
 
 - **View Filter** — when applied to a set of trace results, passes only the message data that meets the filtering criteria that you specify, as described in [Applying and Managing Filters](applying-and-managing-filters.md). Enables you to create a focused set of results during an Analysis Session.
 
- Furthermore, Message Analyzer enables you to decrypt data that is encrypted with the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols, for example Remote Desktop Protocol (RDP) and HTTPS messages, respectively. The **Decryption** feature also provides a **Decryption** **Tool Window** that presents summary and statistical data for the decryption session to facilitate  analysis, as described in [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+Furthermore, Message Analyzer enables you to decrypt data that is encrypted with the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols, for example Remote Desktop Protocol (RDP) and HTTPS messages, respectively. The **Decryption** feature also provides a **Decryption** **Tool Window** that presents summary and statistical data for the decryption session to facilitate  analysis, as described in [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
 
- These capabilities solve many inherent capture, data display, and analysis problems, such as the visibility of encrypted data, assessment of loopback traffic that is enabled by the **Local Loopback Network** scenario, and seeing traffic from the **Viewpoint** of a protocol. The underlying technologies that support Message Analyzer also machine-validate message structure and values, behavior, and architecture based on protocol specifications; and if errors occur, they are surfaced very quickly to top-level as Diagnosis messages. To this end, Message Analyzer also provides a **Diagnostics** **Tool Window** that summarizes all the Diagnostic messages in a trace, which interactively drives selection of corresponding messages in the **Analysis Grid** viewer to facilitate further review of message **Details**, **Message Stack** information, and **Message Data**.
+These capabilities solve many inherent capture, data display, and analysis problems, such as the visibility of encrypted data, assessment of loopback traffic that is enabled by the **Local Loopback Network** scenario, and seeing traffic from the **Viewpoint** of a protocol. The underlying technologies that support Message Analyzer also machine-validate message structure and values, behavior, and architecture based on protocol specifications; and if errors occur, they are surfaced very quickly to top-level as Diagnosis messages. To this end, Message Analyzer also provides a **Diagnostics** **Tool Window** that summarizes all the Diagnostic messages in a trace, which interactively drives selection of corresponding messages in the **Analysis Grid** viewer to facilitate further review of message **Details**, **Message Stack** information, and **Message Data**.
 
 > [!NOTE]
 > Message Analyzer is also an effective tool for testing and verifying protocol implementations. See the [Open Specifications](http://go.microsoft.com/fwlink/?LinkId=246356) documentation library for more information about protocol technical specifications.
@@ -123,13 +123,13 @@ In a Data Retrieval Session, Message Analyzer enables you to retrieve and aggreg
 
 ---
 
-- [Capture Message Data](message-analyzer-tutorial.md#BKMK_CapturingMessageData)
-- [Retrieve Message Data](message-analyzer-tutorial.md#BKMK_LoadingMessageData)
-- [Edit Message Data](message-analyzer-tutorial.md#BKMK_EditSessionData)
-- [View Message Data](message-analyzer-tutorial.md#BKMK_ViewingMessageData)
-- [Filter Message Data](message-analyzer-tutorial.md#BKMK_FilteringMessageData)
-- [Analyze Message Data](message-analyzer-tutorial.md#BKMK_AnalyzingMessageData)
-- [Save Message Data](message-analyzer-tutorial.md#BKMK_SavingMessageData)
+[Capture Message Data](message-analyzer-tutorial.md#BKMK_CapturingMessageData)  
+[Retrieve Message Data](message-analyzer-tutorial.md#BKMK_LoadingMessageData)  
+[Edit Message Data](message-analyzer-tutorial.md#BKMK_EditSessionData)  
+[View Message Data](message-analyzer-tutorial.md#BKMK_ViewingMessageData)  
+[Filter Message Data](message-analyzer-tutorial.md#BKMK_FilteringMessageData)  
+[Analyze Message Data](message-analyzer-tutorial.md#BKMK_AnalyzingMessageData)  
+[Save Message Data](message-analyzer-tutorial.md#BKMK_SavingMessageData)  
 
 ---
 
@@ -139,13 +139,13 @@ In a Data Retrieval Session, Message Analyzer enables you to retrieve and aggreg
 
 ---
 
-- [Configuring a Live Trace Session](message-analyzer-tutorial.md#BKMK_ConfigLiveTraceSession)
-- [Starting a Live Trace Session](message-analyzer-tutorial.md#BKMK_StartLiveTraceSession)
-- [Setting Message Analyzer Global Options](message-analyzer-tutorial.md#BKMK_GlobalOptions)
-- [Protocol Modules and Specifications](message-analyzer-tutorial.md#BKMK_protoModules)
-- [Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)
-- [Optimizing ETW Session Performance](message-analyzer-tutorial.md#BKMK_OptimizeETWSessionPerf)
-- [Using MOF-Based ETW Providers](message-analyzer-tutorial.md#BKMK_MOFProviders)
+[Configuring a Live Trace Session](message-analyzer-tutorial.md#BKMK_ConfigLiveTraceSession)  
+[Starting a Live Trace Session](message-analyzer-tutorial.md#BKMK_StartLiveTraceSession)  
+[Setting Message Analyzer Global Options](message-analyzer-tutorial.md#BKMK_GlobalOptions)  
+[Protocol Modules and Specifications](message-analyzer-tutorial.md#BKMK_protoModules)  
+[Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)  
+[Optimizing ETW Session Performance](message-analyzer-tutorial.md#BKMK_OptimizeETWSessionPerf)  
+[Using MOF-Based ETW Providers](message-analyzer-tutorial.md#BKMK_MOFProviders)  
 
 ---
 
@@ -326,9 +326,9 @@ The following message providers are included in Message Analyzer **Trace Scenari
 ---
 
  **More Information**  
- **To learn more** about optimizing an ETW Session, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).
-**To learn more** about how system ETW Providers function in the ETW framework, see the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).
-**To learn more** about configuring system ETW Providers, including **Keyword** and **Level** filters, see [Adding a System ETW Provider](adding-a-system-etw-provider.md) and [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).
+ **To learn more** about optimizing an ETW Session, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).  
+**To learn more** about how system ETW Providers function in the ETW framework, see the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).  
+**To learn more** about configuring system ETW Providers, including **Keyword** and **Level** filters, see [Adding a System ETW Provider](adding-a-system-etw-provider.md) and [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
 
 ---
 
@@ -375,10 +375,10 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 
 ---
 
-- [Loading Data into Message Analyzer](message-analyzer-tutorial.md#BKMK_LoadingDataIntoMA)
-- [Acquiring Input From Other Data Sources](message-analyzer-tutorial.md#BKMK_AcquireInputData)
-- [Selecting Data to Retrieve](message-analyzer-tutorial.md#BKMK_SelectDataToRetrieve)
-- [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles)
+[Loading Data into Message Analyzer](message-analyzer-tutorial.md#BKMK_LoadingDataIntoMA)  
+[Acquiring Input From Other Data Sources](message-analyzer-tutorial.md#BKMK_AcquireInputData)  
+[Selecting Data to Retrieve](message-analyzer-tutorial.md#BKMK_SelectDataToRetrieve)  
+[Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles)  
 
 ---
 
@@ -428,7 +428,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 
 ---
 
-**More Information**
+**More Information**  
 **To learn more** about working with PowerShell as an input source to Message Analyzer, see [Deriving Input Data with PowerShell Scripts](deriving-input-data-with-powershell-scripts.md).
 
 ---
@@ -437,7 +437,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 
 ---
 
-**More Information**
+**More Information**  
 **To learn more** about working with SQL data as an input source to Message Analyzer, see [Loading SQL Data](loading-sql-data.md).
 
 ---
@@ -446,7 +446,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 
 ---
 
-**More Information**
+**More Information**  
 **To learn more** about working with OMS data as an input source to Message Analyzer, see [Loading OMS Log Data](loading-oms-log-data.md).
 
 ---
@@ -455,7 +455,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 
 ---
 
-**More Information**
+**More Information**  
 **To learn more** about the configuration required for Message Analyzer to parse  WPP-generated events, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).
 
 ---
@@ -468,16 +468,15 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 ---
 
  **More Information**  
- **To learn more** about configuring a Data Retrieval Session, see [Retrieving Message Data](retrieving-message-data.md).
-**To learn more** about how to use a **Session Filter** in a Data Retrieval Session, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).
-**To learn more** about how to use a **Time Filter** in a Data Retrieval Session, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).
-**To learn more** about how to work with **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).
+ **To learn more** about configuring a Data Retrieval Session, see [Retrieving Message Data](retrieving-message-data.md).  
+**To learn more** about how to use a **Session Filter** in a Data Retrieval Session, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
+**To learn more** about how to use a **Time Filter** in a Data Retrieval Session, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+**To learn more** about how to work with **Parsing Levels**, see [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
 
 ---
 
 <a name="BKMK_ParsingLogFiles"></a>
 ### Parsing Input Text Log Files
-
  If you have a text-based log file containing log entries that you want to view, Message Analyzer enables you to load and view the data from the log file, but you will need to specify an OPN configuration file to drive the process. Message Analyzer provides several built-in configuration file types that you can select from in the **Text Log Configuration** column  that appears below the toolbar on the **Files** tab of the **New Session** dialog for a Data Retrieval Session, as shown in the figure that follows.
 
  ![Message Analyzer Textlog parsers](media/fig05-message-analyzer-textlog-parsers.png "Fig05-Message Analyzer Textlog parsers")
@@ -527,13 +526,9 @@ The built-in OPN configuration file types that are currently available for selec
 
 > [!NOTE]
 > With exception of the configuration files for Azure storage logs, the listed  text log configuration files are contained in  the Message Analyzer **Device and Log File Version 1.4** asset collection that you can configure for automatic downloads and updates from a Microsoft web service through the [Sharing Infrastructure](sharing-infrastructure.md). The configuration files for Azuze storage logs are contained in the **Azure Storage Parsers Version 1.0** asset collection. The management features for the Azure storage parsers and all other Message Analyzer asset collections are available from the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu.
->
-
->
+ 
 > **More Information**  
 > **To learn more** about managing Message Analyzer asset collections, including downloading and auto-syncing any collection for automatic updates, see [Managing Message Analyzer Assets](managing-message-analyzer-assets.md).
-
-
 
  **Selecting Versus Creating an  OPN Configuration File**  
 The built-in text log OPN configuration files are named in such a way that it should be obvious which one to select for your text log. For example, a Cluster text log will use the **Cluster** configuration file, the IIS text log will use the **IIS** configuration file, and so on.
@@ -551,8 +546,8 @@ A configuration file contains a description of the log's messages in OPN and Reg
 ---
 
  **More Information**  
- **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.
-**To learn more** about other OPN configuration file requirements, see the [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md) topic.
+ **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.  com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.  
+**To learn more** about other OPN configuration file requirements, see the [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md) topic.  
 
 ---
 
@@ -576,12 +571,12 @@ When you open the **Edit Session** dialog for a Data Retrieval Session, it opens
 
 - **Truncated Parsing** — specify the **Truncated Parsing** option for input files that contain truncated messages. Results in improved performance.
 
- When you edit a Data Retrieval Session with any of these features, the session data will be reloaded with the specified asset/s applied, for example, a **Session Filter** and/or a **Time Filter**. This enables you to modify the session results and obtain a different view of the data. You can edit a Data Retrieval Session in the specified manner as many times as you wish.
+When you edit a Data Retrieval Session with any of these features, the session data will be reloaded with the specified asset/s applied, for example, a **Session Filter** and/or a **Time Filter**. This enables you to modify the session results and obtain a different view of the data. You can edit a Data Retrieval Session in the specified manner as many times as you wish.
 
- **Editing a Live Trace Session**  
+**Editing a Live Trace Session**  
 When you open the **Edit Session** dialog for a running, paused, or stopped Live Trace Session, it opens  with no editing restrictions; this means you can make modifications to the session configuration and **Apply** them as required. Whatever changes you make to a *running* Live Trace Session will take effect on subsequent messages that the Live Trace Session in progress is capturing, that is, after you click **Apply** in the **Edit Session** dialog. If you edit a *stopped* or *paused* Live Trace Session, the changes do not take effect until you restart the session, either by clicking the **Restart** button or the **Pause/Resume** button, respectively, on the global Message Analyzer toolbar.
 
- Similar to initial configuration of a Live Trace Session, the changes that you can make to the Live Trace Session configuration include one or more of the following:
+Similar to initial configuration of a Live Trace Session, the changes that you can make to the Live Trace Session configuration include one or more of the following:
 
 - **Trace Scenario** — replace any existing **Trace Scenario** with a new one, as you can only have a single scenario in the session configuration at any one time.
 
@@ -601,8 +596,8 @@ When you open the **Edit Session** dialog for a running, paused, or stopped Live
 
 ---
 
- **More Information**  
- **To learn more** about editing a session, see [Editing Existing Sessions](editing-existing-sessions.md).  
+**More Information**  
+**To learn more** about editing a session, see [Editing Existing Sessions](editing-existing-sessions.md).  
 **To learn more** about **Trace Scenarios**, see the [Built-In Trace Scenarios](built-in-trace-scenarios.md) topic.  
 **To learn more** about working with system ETW providers, see [Adding a System ETW Provider](adding-a-system-etw-provider.md).  
 **To learn more** about **Advanced Settings** for system ETW Providers, see the topics [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) or [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
@@ -628,17 +623,17 @@ When you open the **Edit Session** dialog for a running, paused, or stopped Live
 
 ---
 
-- [Organizing Messages in the Analysis Grid Viewer](message-analyzer-tutorial.md#BKMK_OrgMessagesInAG)
-- [Grouping Messages in the Analysis Grid Viewer](message-analyzer-tutorial.md#BKMK_GroupingInAG)
-- [Grouping Messages in the Grouping Viewer](message-analyzer-tutorial.md#BKMK_GroupingInGroupingViewer)
-- [Applying Viewpoints](message-analyzer-tutorial.md#BKMK_ApplyViewpoints)
-- [Viewing Message Details](message-analyzer-tutorial.md#BKMK_ViewMsgDetails)
-- [Viewing Other Message Data](message-analyzer-tutorial.md#BKMK_ViewOtherMsgData)
-- [Viewing Data from Multiple Sessions](message-analyzer-tutorial.md#BKMK_ViewMultipleSessions)
-- [Limiting the Scope of Applied Assets](message-analyzer-tutorial.md#BKMK_LimitScopeOfAssets)
-- [Driving Interaction Between Data Viewers](message-analyzer-tutorial.md#BKMK_DriveViewerInteraction)
-- [Using Window Layouts](message-analyzer-tutorial.md#BKMK_WindowLayouts)
-- [Using Message Analyzer Profiles](message-analyzer-tutorial.md#BKMK_UsingMAProfiles)
+[Organizing Messages in the Analysis Grid Viewer](message-analyzer-tutorial.md#BKMK_OrgMessagesInAG)  
+[Grouping Messages in the Analysis Grid Viewer](message-analyzer-tutorial.md#BKMK_GroupingInAG)  
+[Grouping Messages in the Grouping Viewer](message-analyzer-tutorial.md#BKMK_GroupingInGroupingViewer)  
+[Applying Viewpoints](message-analyzer-tutorial.md#BKMK_ApplyViewpoints)  
+[Viewing Message Details](message-analyzer-tutorial.md#BKMK_ViewMsgDetails)  
+[Viewing Other Message Data](message-analyzer-tutorial.md#BKMK_ViewOtherMsgData)  
+[Viewing Data from Multiple Sessions](message-analyzer-tutorial.md#BKMK_ViewMultipleSessions)  
+[Limiting the Scope of Applied Assets](message-analyzer-tutorial.md#BKMK_LimitScopeOfAssets)  
+[Driving Interaction Between Data Viewers](message-analyzer-tutorial.md#BKMK_DriveViewerInteraction)  
+[Using Window Layouts](message-analyzer-tutorial.md#BKMK_WindowLayouts)  
+[Using Message Analyzer Profiles](message-analyzer-tutorial.md#BKMK_UsingMAProfiles)  
 
 ---
 
@@ -895,10 +890,10 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
 
 ---
 
-- [Using a Session Filter](message-analyzer-tutorial.md#BKMK_UsingSessionFilter)
-- [Using Special Filters for a Live Trace](message-analyzer-tutorial.md#BKMK_UseSpecialFilters)
-- [Using View Filters to Manipulate a Set of Trace Results](message-analyzer-tutorial.md#BKMK_UseViewFilters)
-- [Creating Custom Filters](message-analyzer-tutorial.md#BKMK_CreateCustomFilters)
+[Using a Session Filter](message-analyzer-tutorial.md#BKMK_UsingSessionFilter)  
+[Using Special Filters for a Live Trace](message-analyzer-tutorial.md#BKMK_UseSpecialFilters)  
+[Using View Filters to Manipulate a Set of Trace Results](message-analyzer-tutorial.md#BKMK_UseViewFilters)  
+[Creating Custom Filters](message-analyzer-tutorial.md#BKMK_CreateCustomFilters)  
 
 ---
 
@@ -929,11 +924,11 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
 
 - **HostName** and **Port** filters — accessible from the **Provider** tab of the **Advanced Settings – Microsoft-Pef-WebProxy** configuration dialog. You can display this dialog by clicking the **Configure** link to the right of the **Microsoft-Pef-WebProxy** provider listing on the **Live Trace** tab of the **New Session** dialog, after you select the **Pre-Encryption for HTTPS** **Trace Scenario** from the **Select Scenario** drop-down on the **ETW Providers** toolbar of the **Live Trace** tab.
 
--**Event**  **Keyword** and error **Level** filters — accessible from the **ETW Core** tab of any **Advanced Settings** dialog for any **Trace Scenario** that you select from the **Select Scenario** drop-down list. You can display this dialog by clicking the **Configure** link to the right of any provider listing on the **Live Trace** tab of the **New Session** dialog. Note that not all ETW Providers contain an event  **Keyword** configuration.
+- **Event**  **Keyword** and error **Level** filters — accessible from the **ETW Core** tab of any **Advanced Settings** dialog for any **Trace Scenario** that you select from the **Select Scenario** drop-down list. You can display this dialog by clicking the **Configure** link to the right of any provider listing on the **Live Trace** tab of the **New Session** dialog. Note that not all ETW Providers contain an event  **Keyword** configuration.
 
 - **NDIS stack, Hyper-V-Switch extension layer, and Host adapter filters** — accessible from the **Provider** tab of the **Advanced Settings – Microsoft-Windows-NDIS-PacketCapture** provider configuration dialog. You can display this dialog by clicking the **Configure** link to the right of the **Microsoft-Windows-NDIS-PacketCapture** provider listing on the **Live Trace** tab of the **New Session** dialog, after you select the **Local Network Interfaces**, **Remote Network Interfaces**, or **Remote Network Interfaces with Drop Information** **Trace Scenario** from the **Select Scenario** drop-down list on the **ETW Providers** toolbar of the **Live Trace** tab. The **Microsoft-Windows-NDIS-PacketCapture** provider has remote capabilities and is available on computers that are running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system only.
 
-The filters that are available for the **Microsoft-Windows-NDIS-PacketCapture** provider in these scenarios consist of advanced driver-level filters that include the following:
+  The filters that are available for the **Microsoft-Windows-NDIS-PacketCapture** provider in these scenarios consist of advanced driver-level filters that include the following:
 
 - Host adapter filters
 
@@ -966,23 +961,26 @@ The filters that are available for the **Microsoft-Windows-NDIS-PacketCapture** 
 
 - **Time Filter** — you can utilize a **Time Filter** to configure a window of time in which to view the results of a Message Analyzer session. This is particularly useful if you can approximate a time frame in which you suspect a particular issue occurred that you need to detect. It is also useful in situations where you are working with data from multiple input files in different time zones to which you have applied a **Time Shift** and you want to view all the data that exists in a particular time slot, for which you can create a **Time Filter** window.
 
-**Applying a Time Filter to Captured Data**
-The major advantage of using a **Time Filter** against a set of trace results is that you can remove it, modify the time window, reapply it, and repeat this process as many times as needed. You can display  the **Time Filter** configuration controls for session results by selecting **Add Time Filter** from the **Add Filter** drop-down list on the Filtering toolbar that appears above all session data viewers. The **Time Filter** configuration panel contains  the time slider controls and window definition readouts, along with the **Apply** and **Remove** buttons that enable you to alternately apply a **Time Filter** or remove its effects as required.
+  **Applying a Time Filter to Captured Data**
+  The major advantage of using a **Time Filter** against a set of trace results is that you can remove it, modify the time window, reapply it, and repeat this process as many times as needed. You can display  the **Time Filter** configuration controls for session results by selecting **Add Time Filter** from the **Add Filter** drop-down list on the Filtering toolbar that appears above all session data viewers. The **Time Filter** configuration panel contains  the time slider controls and window definition readouts, along with the **Apply** and **Remove** buttons that enable you to alternately apply a **Time Filter** or remove its effects as required.
 
-**Applying a Time Filter to Loaded Data**
-You can also utilize a **Time Filter** to configure a window of time in which to view static data that you load into Message Analyzer from selected input files. Note in this case that the **Time Filter** configuration is applied *as* you load the data, rather than *after* you load the data. To apply a **Time Filter** to data that you are loading, you must create the **Time Filter** window during Data Retrieval Session configuration in the **New Session** dialog, where the **Time Filter** controls are located below the input **Files** list in the dialog. The **Time Filter** configuration will be applied by Message Analyzer after you click the **Start** button in the **New Session** dialog.
+  **Applying a Time Filter to Loaded Data**
+  You can also utilize a **Time Filter** to configure a window of time in which to view static data that you load into Message Analyzer from selected input files. Note in this case that the **Time Filter** configuration is applied *as* you load the data, rather than *after* you load the data. To apply a **Time Filter** to data that you are loading, you must create the **Time Filter** window during Data Retrieval Session configuration in the **New Session** dialog, where the **Time Filter** controls are located below the input **Files** list in the dialog. The **Time Filter** configuration will be applied by Message Analyzer after you click the **Start** button in the **New Session** dialog.
 
-Note that you have the option to modify the original **Time Filter** configuration in the **Edit Session** dialog for  the Data Retrieval Session by clicking **Edit Session** on the global Message Analyzer toolbar. You will need to set the **Edit Session** dialog for **Full Edit** mode to enable the **Time Filter** controls. When the adjustments are complete, click the **Apply** button in the **New Session** dialog to apply the **Time Filter** changes to the data set.
+  Note that you have the option to modify the original **Time Filter** configuration in the **Edit Session** dialog for  the Data Retrieval Session by clicking **Edit Session** on the global Message Analyzer toolbar. You will need to set the **Edit Session** dialog for **Full Edit** mode to enable the **Time Filter** controls. When the adjustments are complete, click the **Apply** button in the **New Session** dialog to apply the **Time Filter** changes to the data set.
 
-Also note that if you did not apply a **Time Filter** to  the data loading process in a Data Retrieval Session, you still have the option to utilize the **Time Filter** feature from the **Add Filter** drop-down list on the Filtering toolbar. From  this location, you can use simple button clicks to alternately **Apply** and **Remove** the filtering effects as required.
+  Also note that if you did not apply a **Time Filter** to  the data loading process in a Data Retrieval Session, you still have the option to utilize the **Time Filter** feature from the **Add Filter** drop-down list on the Filtering toolbar. From  this location, you can use simple button clicks to alternately **Apply** and **Remove** the filtering effects as required.
 
 > [!IMPORTANT]
 > Message Analyzer provides you with the versatility to apply a **Time Filter** to the results of a Live Trace Session, the results of a Data Retrieval Session, or to the data loading process.  In the latter case, you can achieve performance enhancements due to the effects of a **Time Filter** on reducing the input message volume that is loaded into Message Analyzer. But this can have an effect on usability when the filtered-out messages have a bearing on the analysis in which you are engaged. When this is the case and you want to recover messages that the input **Time Filter** dropped, you will need to edit the session as described earlier, to create a different **Time Filter** configuration; this also has an impact on usability. Therefore, you might want to further consider the tradeoffs between performance and usability, especially when loading data from very large files.
-    >
-    > **More Information**  
-    > **To learn more** about the impacts on performance and usability with the **Time Filter** feature, see [Considering Performance vs. Usability Factors for Time Filter Application](applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability).
+>
+>---
 
-    
+> **More Information**  
+> **To learn more** about the impacts on performance and usability with the **Time Filter** feature, see [Considering Performance vs. Usability Factors for Time Filter Application](applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability).
+>
+>---
+>
 
 ---
 
@@ -1024,8 +1022,8 @@ Also note that if you did not apply a **Time Filter** to  the data loading proce
 ---
 
  **More Information**  
- **To learn more** about the functionality of the built-in view **Filters**, see the [Filtering Live Trace Session Results](filtering-live-trace-session-results.md) topic, which describes each **Filter** in the centralized Filter Expression **Library**.
-**To learn more** about auto-syncing, downloading, and managing the **Message Analyzer Filters** asset collection with the **Asset Manager** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.
+ **To learn more** about the functionality of the built-in view **Filters**, see the [Filtering Live Trace Session Results](filtering-live-trace-session-results.md) topic, which describes each **Filter** in the centralized Filter Expression **Library**.  
+**To learn more** about auto-syncing, downloading, and managing the **Message Analyzer Filters** asset collection with the **Asset Manager** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) and [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md) topics.  
 
 ---
 
@@ -1061,7 +1059,7 @@ Some highlights of the options you have for manipulating data are included here 
 
 - **Viewpoints** — you have the option to apply a **Viewpoint** to enhance your data analysis and troubleshooting perspectives. When a **Viewpoint** is applied, you can examine network traffic from the perspective of a protocol because all messages above the “viewpoint” protocol are temporarily removed from display. This feature is advantageous when you have higher-layer traffic that obscures the underlying messages that you want to troubleshoot. To apply a **Viewpoint**, select one from the **Viewpoints** drop-down list on the Filtering toolbar that appears above each Message Analyzer session viewer that you open.
 
-For example, you might apply a **TCP** **Viewpoint** to display TCP messages at top-level for diagnostic purposes. You could then select one of the **TCP** view **Layouts** for the **Analysis Grid** viewer or **Chart** viewer to expose additional data field values, calculated statistical values, or high-level data summaries that are particularly important to your analytical proceedings. You can do the same thing with an **HTTP** **Viewpoint** and then select one of the **HTTP** view **Layouts** for these same data viewers.
+  For example, you might apply a **TCP** **Viewpoint** to display TCP messages at top-level for diagnostic purposes. You could then select one of the **TCP** view **Layouts** for the **Analysis Grid** viewer or **Chart** viewer to expose additional data field values, calculated statistical values, or high-level data summaries that are particularly important to your analytical proceedings. You can do the same thing with an **HTTP** **Viewpoint** and then select one of the **HTTP** view **Layouts** for these same data viewers.
 
 - **Grouping** — you have the option to organize trace results data into Groups that expose messages in a nested Group configuration that you can specify by executing the **Group** command that displays when you right-click an **Analysis Grid** viewer column. You can also utilize the **Grouping** viewer and select built-in  **Grouping** viewer **Layouts** that organize data into unique Group configurations that are designed to create a specific analytical focus, where you can summarize and expose target data in grouping categories across a high volume of messages.   The **Grouping** viewer also provides different modes of interaction with the **Analysis Grid** viewer, which includes the **Selection** and **Filtering** modes. For example, in the **Selection** mode, Group selection causes the Group messages to be *selected* in the **Analysis Grid** viewer; in the **Filtering** mode, Group selection causes the Group messages to be *filtered* in the **Analysis Grid** viewer.
 
@@ -1071,7 +1069,7 @@ For example, you might apply a **TCP** **Viewpoint** to display TCP messages at 
 
 - **Field Chooser** — for any given set of data that displays in the **Analysis Grid** viewer, you should be aware that there are many more columns of data that you can add to the grid beyond the default column layout, to expose the values of message fields that could be critical to troubleshooting processes. You simply find the relevant protocol or module of interest in the **Field Chooser** **Tool Window**, expand the protocol node, and navigate to the data field you want to add to the **Analysis Grid** viewer column **Layout**. After you double-click the field name, the field is added to the **Analysis Grid** viewer as a new column, provided that the **Analysis Grid** viewer is in focus when you do so. At this time, data should display in the new field for the particular protocol or module of interest, unless the field is not used or contains no data.
 
-If the [Grouping Viewer](grouping-viewer.md) is in focus, then double-clicking a field name in **Field Chooser** window will add a new nested Group to the current **Grouping** viewer **Layout** configuration. Note that you can also right-click any field in **Field Chooser** window and choose the **Add as Column** or **Add as Grouping** context menu command to add a column to the **Analysis Grid** viewer or a new nested Group to the **Grouping** viewer, respectively.
+  If the [Grouping Viewer](grouping-viewer.md) is in focus, then double-clicking a field name in **Field Chooser** window will add a new nested Group to the current **Grouping** viewer **Layout** configuration. Note that you can also right-click any field in **Field Chooser** window and choose the **Add as Column** or **Add as Grouping** context menu command to add a column to the **Analysis Grid** viewer or a new nested Group to the **Grouping** viewer, respectively.
 
 > [!NOTE]
 > To access the **Field Chooser** window, if it is not already displayed, click the **Add Columns** button on the toolbar of the **Analysis Grid** viewer. If the **Grouping** viewer is in focus, you can access the **Field Chooser** by clicking the **Add Groupings** button on the toolbar of the **Grouping** viewer. The **Field Chooser** also appears in the **Windows** submenu of the global Message Analyzer **Tools** menu.
@@ -1081,7 +1079,7 @@ If the [Grouping Viewer](grouping-viewer.md) is in focus, then double-clicking a
 
 - **Pattern Matching** — provides a pattern matching capability that can identify sequential message patterns in a group of messages, for example virus signatures, processes in a faulty state that form a specific pattern, and other patterns such as request/response pairs.  You can match message sequences by executing user-designed or built-in Pattern expressions that are provided with the **Pattern Match** viewer.
 
-Note that you can create a Pattern expression that is pre-populated with an initial configuration by selecting and right-clicking one or more related messages in the **Analysis Grid** viewer, such as HTTP or DNS, and then selecting the **Create Pattern** command that displays in the context menu that appears. You can also display the **Pattern Match** viewer from the **New Viewer** drop-down list on the global Message Analyzer toolbar to create a Pattern expression without any data population automation.
+  Note that you can create a Pattern expression that is pre-populated with an initial configuration by selecting and right-clicking one or more related messages in the **Analysis Grid** viewer, such as HTTP or DNS, and then selecting the **Create Pattern** command that displays in the context menu that appears. You can also display the **Pattern Match** viewer from the **New Viewer** drop-down list on the global Message Analyzer toolbar to create a Pattern expression without any data population automation.
 
 - **Filtering columns** — you can apply a **Column Filter** to any **Analysis Grid** viewer column, to filter your trace results according to search text that you specify for a column. You can also do the same for columns in the **Details** **Tool Window**, to filter for specific message field names or other data values in the **Details** window. Be aware that **Column Filters** search only on data that displays in top-level parent nodes; child nodes will not be included in the search unless you first expand them.
 
@@ -1091,14 +1089,14 @@ Note that you can create a Pattern expression that is pre-populated with an init
 
 - **Chart** viewer **Layouts** — Message Analyzer provides a wide range of **Layouts** that you can select for the **Chart** viewer. They are accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar. A description of the available **Layouts** are provided in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. In general, they display high-level data summaries and data formula-generated statistics in several graphic formats to enhance your analysis contexts through various types of data overviews. Some of these **Layouts** are designed to work together with the **Grouping** and **Analysis Grid** viewers to create integrated and interactive analysis environments, as described in [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md). Note that you can even create your own custom-designed **Chart** viewer **Layouts** for the environment in which you typically work, as described in [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).
 
- **Other Data Analysis Features**  
+**Other Data Analysis Features**  
 Other techniques that you can use to analyze data consist of the following:
 
 - **Tool Windows** — you can display additional **Tool Windows** to dramatically enhance the scope of analysis capabilities. These tools are accessible from the **Windows** submenu of the global Message Analyzer **Tools** menu.
 
 - **Finding messages** — you can use the **Find Message** feature to locate individual messages. The **Find** command is designated by the **Find** binoculars icon in the **Find Message** window that displays when you click the **Find Messages** button on the toolbar of the **Analysis Grid** viewer. This command enables you to locate the next message that matches a specified Filter Expression, while still retaining visibility and context of all the messages in the original trace results. You can select either a built-in Filter Expression from the **Library** drop-down list in the **Find Message** window, or you can manually configure one, such as `contains “bing”` (or some other string), or `#MessageNumber==messagenumber`, to locate the next message that contains the value that you specify.
 
-By using this command, you can dramatically impact your data analysis experience. Although Message Analyzer already provides the view **Filter** capability that works similarly, the disadvantage of a view **Filter** is that all messages surrounding the target message/s are hidden after view **Filter** application, unless they match the filter criteria. However, in many cases the context of the surrounding messages is key to the analysis. When this is the case, it might be better to employ a **Find** filter. A **Find** filter highlights the next top-level message that matches the filtering criteria, even if the match is to a message that is *within* the message stack of the highlighted top-level message, also known in this documentation as the origins tree.
+  By using this command, you can dramatically impact your data analysis experience. Although Message Analyzer already provides the view **Filter** capability that works similarly, the disadvantage of a view **Filter** is that all messages surrounding the target message/s are hidden after view **Filter** application, unless they match the filter criteria. However, in many cases the context of the surrounding messages is key to the analysis. When this is the case, it might be better to employ a **Find** filter. A **Find** filter highlights the next top-level message that matches the filtering criteria, even if the match is to a message that is *within* the message stack of the highlighted top-level message, also known in this documentation as the origins tree.
 
 > [!TIP]
 > You can also use the **Go To Message** feature to locate a specified message by its number across one or more data sources or sessions.
@@ -1124,25 +1122,27 @@ By using this command, you can dramatically impact your data analysis experience
 
  **More Information**  
  **To learn more** about the details of working with filters and other data manipulation features for analysis, see the following topics:
-- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
+[Using the Filtering Toolbar](using-the-filtering-toolbar.md)  
+
 - [Applying and Managing Filters](applying-and-managing-filters.md)
 - [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
 - [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)
 - [Working With Operations](working-with-operations.md)
 - [Creating a Flat Message List](creating-a-flat-message-list.md)
-- [Using the Find Message Feature](using-the-find-message-feature.md)
-- [Using the Go To Message Feature](using-the-go-to-message-feature.md)
-- [Filtering Column Data](filtering-column-data.md)
-- [Using and Managing Color Rules](using-and-managing-color-rules.md)
-- [Pattern Match Viewer](pattern-match-viewer.md)
-- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)
-- [Grouping Viewer](grouping-viewer.md)
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
-- [Using the Field Chooser](using-the-field-chooser.md)
-- [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)
-- [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)
-- [Setting Time Shifts](setting-time-shifts.md)
-- [Tool Windows](tool-windows.md)
+
+[Using the Find Message Feature](using-the-find-message-feature.md)  
+[Using the Go To Message Feature](using-the-go-to-message-feature.md)  
+[Filtering Column Data](filtering-column-data.md)  
+[Using and Managing Color Rules](using-and-managing-color-rules.md)  
+[Pattern Match Viewer](pattern-match-viewer.md)  
+[Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)  
+[Grouping Viewer](grouping-viewer.md)  
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)  
+[Using the Field Chooser](using-the-field-chooser.md)  
+[Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)  
+[Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)  
+[Setting Time Shifts](setting-time-shifts.md)  
+[Tool Windows](tool-windows.md)  
 
 ---
 
@@ -1171,9 +1171,9 @@ By using this command, you can dramatically impact your data analysis experience
 
   - **Selected Messages for \<sessionName> session ()** — saves only the messages that are selected in a set of trace results.
 
-     To save selected messages only with the dialog, use the third option, which parenthetically indicates the number of messages that you highlighted in the in-focus data viewer. Thereafter, click the **Save As** button in **Step 2** of the dialog to open the Windows **Save As** dialog, from where you can navigate to an appropriate directory location for saving the data in the native Message Analyzer .matp file format. To export the selected messages to a .cap file, click the **Export** button in **Step 2** of the dialog to display the Windows **Save As** dialog.
+  To save selected messages only with the dialog, use the third option, which parenthetically indicates the number of messages that you highlighted in the in-focus data viewer. Thereafter, click the **Save As** button in **Step 2** of the dialog to open the Windows **Save As** dialog, from where you can navigate to an appropriate directory location for saving the data in the native Message Analyzer .matp file format. To export the selected messages to a .cap file, click the **Export** button in **Step 2** of the dialog to display the Windows **Save As** dialog.
 
- If you have a session configuration that consists of an aggregation of data from multiple sources that you have analyzed, Message Analyzer enables you to save your results to a single file in the default .matp format. Note then when you export your data as a .cap file, it will be compatible with the Microsoft Network Monitor tool and other applications, with certain exceptions that are described in [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md).
+If you have a session configuration that consists of an aggregation of data from multiple sources that you have analyzed, Message Analyzer enables you to save your results to a single file in the default .matp format. Note then when you export your data as a .cap file, it will be compatible with the Microsoft Network Monitor tool and other applications, with certain exceptions that are described in [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md).
 
 ---
 

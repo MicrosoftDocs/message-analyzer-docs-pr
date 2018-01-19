@@ -21,8 +21,8 @@ This section contains several tutorials to help you better understand Message An
 
 ---
 
-- [Message Analyzer Tutorial](message-analyzer-tutorial.md)
-- [PEF Architecture Tutorial](pef-architecture-tutorial.md)
-- [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)
+[Message Analyzer Tutorial](message-analyzer-tutorial.md)  
+[PEF Architecture Tutorial](pef-architecture-tutorial.md)  
+[ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)  
 
 ---
