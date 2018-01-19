@@ -61,20 +61,20 @@ Message Analyzer directly relies upon the following components of the PEF archit
 
 -   **PEF Driver-Providers** — provide the network interfaces for capturing events and messages that are passed to the Runtime parsing engine. For example, the **Microsoft-PEF-NDIS-PacketCapture** provider captures data on the wire starting at the Data Link Layer; the **Microsoft-PEF-WFP-MessageProvider** captures data above the Network/IP Layer; and the **Microsoft-PEF-WebProxy** provider captures HTTP client browser traffic, unencrypted HTTPS, and other messages at the Application layer.
 
-> [!NOTE]
->  The **Microsoft-Windows-NDIS-PacketCapture** provider also captures messages at the Data Link Layer and above; however, this provider also has remote capabilities that you can employ in certain scenarios, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md). In addition, this provider is available on computers running the Windows 8.1, Windows Server 2012 R2, Windows 10, or later  operating systems only.
+  > [!NOTE]
+  >  The **Microsoft-Windows-NDIS-PacketCapture** provider also captures messages at the Data Link Layer and above; however, this provider also has remote capabilities that you can employ in certain scenarios, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md). In addition, this provider is available on computers running the Windows 8.1, Windows Server 2012 R2, Windows 10, or later  operating systems only.
 
-All PEF drivers are instrumented for Event Tracing for Windows (ETW) so they can take advantage of the ETW infrastructure and deliver both events and captured network traffic. In turn, the events and network messages are passed to the Runtime parsing engine and thereafter Message Analyzer can display them.
+  All PEF drivers are instrumented for Event Tracing for Windows (ETW) so they can take advantage of the ETW infrastructure and deliver both events and captured network traffic. In turn, the events and network messages are passed to the Runtime parsing engine and thereafter Message Analyzer can display them.
 
-> [!NOTE]
->  The PEF Runtime can also parse messages from system ETW providers that exist on your computer, as long as Message Analyzer was able to retrieve a manifest for them during installation. After Message Analyzer successfully finds and stores the manifest for a system ETW provider, you can capture the  provider's events during a Live Trace Session. However, you must first select the ETW provider you want to use  in the ***Add Providers*** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog during Live Trace Session configuration, as described in [Adding a System ETW Provider](adding-a-system-etw-provider.md).
-
----
-
-**More Information**  
-**To learn more** about PEF providers and their features, see [PEF Message Providers](pef-message-providers.md).
-
----
+  > [!NOTE]
+  >  The PEF Runtime can also parse messages from system ETW providers that exist on your computer, as long as Message Analyzer was able to   retrieve a manifest for them during installation. After Message Analyzer successfully finds and stores the manifest for a system ETW provider,   you can capture the  provider's events during a Live Trace Session. However, you must first select the ETW provider you want to use  in the   ***Add Providers*** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog during Live Trace Session configuration, as   described in [Adding a System ETW Provider](adding-a-system-etw-provider.md).
+  
+  ---
+  
+  **More Information**  
+  **To learn more** about PEF providers and their features, see [PEF Message Providers](pef-message-providers.md).
+  
+  ---
 
 -   **Input Adapters** — provide the interfaces that define entry points or “chokepoints” into the PEF Runtime for various Import Entities, in message file formats such as .etl, .cap, .log, .matu, and .matp.
 

@@ -150,28 +150,28 @@ This section contains simple procedures that you can run to start coming up to s
 
 8.  Optionally, select a **Session Filter** from the Filter Expression **Library** in the **New Session** dialog, or configure a **Time Filter** from the **Files** tab in the dialog to define the scope of data retrieval or to narrow the window of time in which to view data, respectively.
 
----
+  ---
 
   **More Information**  
   **To learn more** about applying a **Session Filter** and/or a **Time Filter**, see [Selecting Data to Retrieve](selecting-data-to-retrieve.md).
 
----
+  ---
 
 9. Click the **Start** button in the **New Session** dialog to begin loading the data into Message Analyzer.
 
      After the data is loaded, it displays in the default or selected data viewer.
 
----
-
-**More Information**  
-**To learn more** about how to manipulate and analyze saved trace data that you have loaded into the Message Analyzer **Analysis Grid** viewer, see the following sections:
-
-[Analysis Grid Viewer](analysis-grid-viewer.md)  
-[Common Data Viewer Features](common-data-viewer-features.md)  
-[Tool Windows](tool-windows.md)  
-[Filtering Live Trace Session Results](filtering-live-trace-session-results.md)  
-
----
+  ---
+  
+  **More Information**  
+  **To learn more** about how to manipulate and analyze saved trace data that you have loaded into the Message Analyzer **Analysis Grid**   viewer, see the following sections:
+  
+  [Analysis Grid Viewer](analysis-grid-viewer.md)  
+  [Common Data Viewer Features](common-data-viewer-features.md)  
+  [Tool Windows](tool-windows.md)  
+  [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)  
+  
+  ---
 
 <a name="BKMK_ModifyDRSession"></a>
 ## Modifying an Existing Data Retrieval Session
@@ -195,13 +195,13 @@ This section contains simple procedures that you can run to start coming up to s
   > [!NOTE]
   >  When you load data from additional files in an edited Data Retrieval Session, the messages from these files are interlaced with the existing messages in the **Analysis Grid** viewer in chronological order.
 
- **Configuring a Session Filter**
+**Configuring a Session Filter**
 When loading data from saved files into Message Analyzer, you can select a built-in Filter Expression from the **Library** drop-down list above the **Session Filter** text box, or you can manually configure one in the  same text box. This results in filtering the input messages to specific criteria.
 
- For example, you might add a simple expression such as `*Port != IANA.Port.LDAP` from the **Library** drop-down list to remove LDAP traffic on TCP and UDP transports, if you don't want to  view this data. Note that if you manually configure a Filter Expression and it is invalid, you may receive a **Compile query error** message after you click the **Apply** button in the **New Session** dialog.
+For example, you might add a simple expression such as `*Port != IANA.Port.LDAP` from the **Library** drop-down list to remove LDAP traffic on TCP and UDP transports, if you don't want to  view this data. Note that if you manually configure a Filter Expression and it is invalid, you may receive a **Compile query error** message after you click the **Apply** button in the **New Session** dialog.
 
-  > [!TIP]
-  >  After loading a collection of messages from specified files and displaying the data in a selected viewer, you have the option to add a built-in or manually-configured view **Filter** to further isolate specific data of interest. The centralized Filter Expression **Library** for selecting built-in **Filters** is available on the Filtering toolbar that appears above every session viewer.
+> [!TIP]
+>  After loading a collection of messages from specified files and displaying the data in a selected viewer, you have the option to add a built-in or manually-configured view **Filter** to further isolate specific data of interest. The centralized Filter Expression **Library** for selecting built-in **Filters** is available on the Filtering toolbar that appears above every session viewer.
 
 ---
 
@@ -239,12 +239,12 @@ When loading data from saved files into Message Analyzer, you can select a built
 
      Note that each viewer in the same session is identified by a unique color code. Therefore, the color code for each viewer in the Live Trace Session will be the same, while at the same time different from that of the viewer for the Data Retrieval Session in which you loaded data from saved files into Message Analyzer.
 
----
+  ---
 
   **More Information**  
   **To learn more** about the **Layouts** that are available for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.
 
----
+  ---
 
 7.  Double-click any bar element in the **SMB Top Commands** **Bar** graph visualizer component **Layout** to display the corresponding SMB messages in a separate **Analysis Grid** session viewer tab for further analysis.
 
@@ -261,23 +261,23 @@ When loading data from saved files into Message Analyzer, you can select a built
 
      This will enable you to drill down into the hierarchically organized Group display to analyze the messages associated with each file, as nested under the SMB session and tree IDs. for example to search for diagnostic errors. Note that when you select any Group node under the **Group Values** column of the **Grouping** viewer, you will display the messages associated with the selected Group node in the **Analysis Grid** viewer for further analysis, provided that the **Filtering Mode** is enabled on the **Grouping** viewer toolbar. If the **Selection Mode** is enabled, selecting a Group will only highlight the associated messages in the **Analysis Grid** viewer.
 
----
+  ---
 
   **More Information**  
   **To learn more** about the **Grouping** viewer, including the **Filtering Mode** and **Selection Mode** of operation, refer to the [Grouping Viewer](grouping-viewer.md) topic.
 
----
+  ---
 
 11. Next, right-click the node for the Data Retrieval Session in **Session Explorer**, highlight **New Viewer**, and then select **Pattern Match** to display the **Pattern Match** viewer.
 
      To start the **Pattern** matching process, specify a built-in **Pattern** expression in the **AVAILABLE PATTERNS** list of the **Pattern Match** viewer, by selecting the check box of a chosen **Pattern** expression. For example, you might select the **TCP Retransmit Pairs** or **TCP Three-Way Handshake** **Pattern** expression to identify these types of sequential pattern matches across the retrieved message set, possibly to expose network or connectivity issues, respectively.
 
----
+  ---
 
   **More Information**  
   **To learn more** about **Pattern** matching, refer to the [Pattern Match Viewer](pattern-match-viewer.md) topic.
 
----
+  ---
 
 12. To quickly vary your analysis perspectives, poll through the various views of data by clicking the viewer nodes under each session name in **Session Explorer**, or select different viewer tabs in the Message Analyzer main analysis surface.
 
@@ -319,30 +319,30 @@ When loading data from saved files into Message Analyzer, you can select a built
 
   -   Specify an IPv4 address value in the format *192.168.1.1* in the text box adjacent to the drop-down menu, to isolate traffic to the specified IPv4 address. Make sure to substitute appropriately for the IP address placeholder italics value specified in this example.
 
--   Highlight the row in which the Ethernet adapter exists in the **System Network** tree grid of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, and then click the **Apply to Highlighted** button in **Group 1**.
+  -   Highlight the row in which the Ethernet adapter exists in the **System Network** tree grid of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, and then click the **Apply to Highlighted** button in **Group 1**.
 
     The name of the Ethernet adapter displays as the **Target** of the filter **Group**. Click **OK** to exit.
 
     > [!NOTE]
     >  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
 
----
+  ---
 
   **More Information**  
   **To learn more** about the filtering configurations that you can specify for the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).
 
----
+  ---
 
 6.  In later operating system scenarios, click the **Configure** link to the right of the **Microsoft-Windows-NDIS-PacketCapture** provider in the **ETW Providers** list to display the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog. Select the **Provider** tab in the dialog and then specify an IP Address filtering configuration.
 
      You can do this by first selecting the Ethernet adapter in the **Adapters** list of the dialog and then specifying an IP address  in the **IP Addresses** text box in the **Filters** pane of the dialog. Make sure that the selected Ethernet adapter is the only one with  a check mark in  the corresponding **Enabled** check box; all others should be removed. Note that you could specify a MAC address for the Ethernet adapter instead of, or in addition to, an IP address.
 
----
+  ---
 
   **More Information**  
   **To learn more** about special filtering configurations that you can specify for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).
 
----
+  ---
 
 7.  Click the **Save Scenario** button on the **ETW Providers** toolbar to display the **Edit Trace Scenario** dialog and then specify values for the **Name**, **Description**, and **Category** fields.
 
