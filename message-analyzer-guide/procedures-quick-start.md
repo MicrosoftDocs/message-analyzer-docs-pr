@@ -108,12 +108,12 @@ This section contains simple procedures that you can run to start coming up to s
 
 ---
 
-**More Information**  
-**To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
-[To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
-[To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
+  **More Information**  
+  **To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
+  [To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
+  [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
 
-**To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).
+  **To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).
 
 ---
 
@@ -152,8 +152,8 @@ This section contains simple procedures that you can run to start coming up to s
 
 ---
 
-**More Information**  
-**To learn more** about applying a **Session Filter** and/or a **Time Filter**, see [Selecting Data to Retrieve](selecting-data-to-retrieve.md).
+  **More Information**  
+  **To learn more** about applying a **Session Filter** and/or a **Time Filter**, see [Selecting Data to Retrieve](selecting-data-to-retrieve.md).
 
 ---
 
@@ -192,8 +192,8 @@ This section contains simple procedures that you can run to start coming up to s
 
 4.  When you are done with reconfiguring the session, click the **Apply** button to load and display the new data in the **Analysis Grid** viewer.
 
-> [!NOTE]
->  When you load data from additional files in an edited Data Retrieval Session, the messages from these files are interlaced with the existing messages in the **Analysis Grid** viewer in chronological order.
+  > [!NOTE]
+  >  When you load data from additional files in an edited Data Retrieval Session, the messages from these files are interlaced with the existing messages in the **Analysis Grid** viewer in chronological order.
 
  **Configuring a Session Filter**
 When loading data from saved files into Message Analyzer, you can select a built-in Filter Expression from the **Library** drop-down list above the **Session Filter** text box, or you can manually configure one in the  same text box. This results in filtering the input messages to specific criteria.
@@ -288,8 +288,8 @@ When loading data from saved files into Message Analyzer, you can select a built
   > [!IMPORTANT]
   >  The **Diagnostics** window is currently a preview feature. To use this tool, you must enable it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu, and you must then restart Message Analyzer.
 
-  > [!TIP]
-  >  You can compare Live Trace Session results with related data that is loaded into Message Analyzer from a Data Retrieval Session. This provides a convenient method for analyzing current and historical data side-by-side. To learn how to display data viewer tabs side by side, see [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows).
+> [!TIP]
+>  You can compare Live Trace Session results with related data that is loaded into Message Analyzer from a Data Retrieval Session. This provides a convenient method for analyzing current and historical data side-by-side. To learn how to display data viewer tabs side by side, see [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows).
 
 <a name="BKMK_createSaveScenarioTemplate"></a>
 ## Creating and Saving a Customized Trace Scenario
@@ -314,8 +314,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
     -   In the **Fast Filters** pane of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, click the black arrow next to the **Filter 1** designator in **Group 1** and select the **IPv4Address** option from the drop-down menu that displays.
 
-  > [!NOTE]
-  >  With a low-level IPv4 address **Fast Filter**, the **Trace Scenario** will deliver messages to the PEF Runtime that transited to or from a specified IPv4 address only, as the **Trace Scenario** is running. This avoids the additional parsing that would normally be required if you specify a similar **Session Filter** instead, thereby improving Message Analyzer performance.
+    > [!NOTE]
+    >  With a low-level IPv4 address **Fast Filter**, the **Trace Scenario** will deliver messages to the PEF Runtime that transited to or from a specified IPv4 address only, as the **Trace Scenario** is running. This avoids the additional parsing that would normally be required if you specify a similar **Session Filter** instead, thereby improving Message Analyzer performance.
 
   -   Specify an IPv4 address value in the format *192.168.1.1* in the text box adjacent to the drop-down menu, to isolate traffic to the specified IPv4 address. Make sure to substitute appropriately for the IP address placeholder italics value specified in this example.
 
@@ -323,8 +323,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
     The name of the Ethernet adapter displays as the **Target** of the filter **Group**. Click **OK** to exit.
 
-  > [!NOTE]
-  >  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
+    > [!NOTE]
+    >  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
 
 ---
 
@@ -339,8 +339,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 ---
 
-**More Information**  
-**To learn more** about special filtering configurations that you can specify for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).
+  **More Information**  
+  **To learn more** about special filtering configurations that you can specify for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).
 
 ---
 
