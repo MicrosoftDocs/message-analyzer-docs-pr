@@ -186,16 +186,16 @@ The following message providers are included in Message Analyzer **Trace Scenari
 
 - **Microsoft-Windows-NDIS-PacketCapture** provider — an ETW-instrumented provider that has remote capabilities along with special NDIS stack and Hyper-V-Switch extension layer filtering, adapter configurations, packet traversal path directivity, and other filters and specifiers that you can configure.
 
-> [!NOTE]
-> The **Microsoft-Windows-NDIS-PacketCapture** provider with remote capabilities is used on the Windows 8.1, Windows Server 2012 R2, and Windows 10 operating system only, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md).
+  > [!NOTE]
+  > The **Microsoft-Windows-NDIS-PacketCapture** provider with remote capabilities is used on the Windows 8.1, Windows Server 2012 R2, and Windows 10 operating system only, as described in [Built-In Trace Scenarios](built-in-trace-scenarios.md).
 
----
-
-**More Information**  
-**To learn more** about the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md).  
-**To learn more** about capturing messages from one or more remote hosts and configuring the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).
-
----
+  ---
+  
+  **More Information**  
+  **To learn more** about the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Microsoft-Windows-NDIS-PacketCapture Provider]  (microsoft-windows-ndis-packetcapture-provider.md).  
+  **To learn more** about capturing messages from one or more remote hosts and configuring the **Microsoft-Windows-NDIS-PacketCapture**   provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).
+  
+  ---
 
 - **System ETW providers** — write events for various components on your system that have been instrumented as ETW event providers. This includes ETW providers that define their events with the use of the following:
 
@@ -406,7 +406,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 
 - **Azure Tables** — Message Analyzer enables you to load input data from Azure tables. You can do this by creating an Azure input configuration from the **New Session** dialog that specifies Azure **Account** connection information and a **Table Name**.
 
-**Azure Storage Blobs** — Message Analyzer enables you  to browse for, select, and view data from log files that are stored in Azure binary large object (BLOB) containers. You can do this my making use of the **File Selector** dialog, which is accessible by clicking the **From Other File Sources** item in the **Open** drop-down list that appears on the global Message Analyzer **File** menu.
+  **Azure Storage Blobs** — Message Analyzer enables you  to browse for, select, and view data from log files that are stored in Azure binary large object (BLOB) containers. You can do this my making use of the **File Selector** dialog, which is accessible by clicking the **From Other File Sources** item in the **Open** drop-down list that appears on the global Message Analyzer **File** menu.
 
   ---
   
