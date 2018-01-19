@@ -106,7 +106,7 @@ This section contains simple procedures that you can run to start coming up to s
 
      Inspect your trace results in the data viewer that you chose and observe that Message Analyzer has captured a set of messages, including HTTP, as a result of the browser links that you clicked.
 
----
+  ---
 
   **More Information**  
   **To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
@@ -115,7 +115,7 @@ This section contains simple procedures that you can run to start coming up to s
 
   **To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).
 
----
+  ---
 
 > [!CAUTION]
 >  Be aware that if you let a trace session run for an extended period, it can consume a large amount of memory.
