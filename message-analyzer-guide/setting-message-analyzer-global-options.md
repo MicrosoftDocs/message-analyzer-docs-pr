@@ -56,7 +56,7 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 
         -   **Display as Decimal**
 
-         The primary use for this feature is to enable you to choose the data format that displays for the **Payload** field in the **Details** window. For example, by using the default **ASCII** setting, you can cause key information to be exposed in the **Payload** field as text, such as an error string, file path, or other indications that can be useful. Note that you can override the default value in either **Details** or the **Analysis Grid** viewer from the right-click context menus in those locations.
+    The priThe primary use for this feature is to enable you to choose the data format that displays for the **Payload** field in the **Details** window. For example, by using the default **ASCII** setting, you can cause key information to be exposed in the **Payload** field as text, such as an error string, file path, or other indications that can be useful. Note that you can override the default value in either **Details** or the **Analysis Grid** viewer from the right-click context menus in those locations.
 
 -   **Decryption** tab — provides the controls that allow you to import and select server certificates and to specify passwords that are required to enable Message Analyzer to decrypt traffic that is encrypted with the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) security protocols. For example, Message Analyzer can decrypt HTTPS and Remote Desktop Protocol (RDP) messages.
 
@@ -74,29 +74,19 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 > [!NOTE]
 >  In addition, the **TCP** protocol is included so you can reparse with TCP auto-reassembly disabled to reduce virtual segment message count; you can also reparse with verbose TCP diagnosis messages enabled. The default values for these two features are enabled and disabled, respectively.
 
--   **AllJoyn**
+  -   **AllJoyn**
+  -   **HTTP**
+  -   **LDAP**
+  -   **NetFlow/IPFIX**
+  -   **RDP**
+  -   **SMB/SMB2**
+  -   **SSL/TLS**
+  -   **TCP**
+  -   **TDS**
+  -   **TURN**
+  -   **WSRMTCPPort**
 
--   **HTTP**
-
--   **LDAP**
-
--   **NetFlow/IPFIX**
-
--   **RDP**
-
--   **SMB/SMB2**
-
--   **SSL/TLS**
-
--   **TCP**
-
--   **TDS**
-
--   **TURN**
-
--   **WSRMTCPPort**
-
-After you select an alternate port on which to reparse the messages of a supported protocol, a reload of all data for reparsing will occur immediately after you click the **OK** button to exit the **Options** dialog. Note that you can display the **Parsing** tab of the **Options** dialog by right-clicking a message in the **Analysis Grid** viewer and then selecting the **Parse As...** command in the context menu that appears.
+  After you select an alternate port on which to reparse the messages of a supported protocol, a reload of all data for reparsing will occur immediately after you click the **OK** button to exit the **Options** dialog. Note that you can display the **Parsing** tab of the **Options** dialog by right-clicking a message in the **Analysis Grid** viewer and then selecting the **Parse As...** command in the context menu that appears.
 
 -   **Privacy** tab — enables you to opt-in or opt-out of the **Microsoft Message Analyzer Experience Improvement** program.  You can also give permission or withhold it from Microsoft to contact you regarding  Message Analyzer feature and feedback surveys. Note that a **Feedback** drop-down list is now provided in the upper-right corner of the Message Analyzer user interface.
 

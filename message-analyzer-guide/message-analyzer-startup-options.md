@@ -49,11 +49,11 @@ This section describes several different ways in which you can start Message Ana
 
 - Start Message Analyzer while specifying various command line options associated with locating, logging, and compiling any custom OPN parsers that you have created for Message Analyzer use.
 
- The basic syntax for starting Message Analyzer from the command line is the following:  `MessageAnalyzer.exe [TraceFile|LogFile] [Options]`
+The basic syntax for starting Message Analyzer from the command line is the following:  `MessageAnalyzer.exe [TraceFile|LogFile] [Options]`
 
- For example, you can open Message Analyzer from the command line without specifying a trace file, log file, or any options, as follows:  `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe”`
+For example, you can open Message Analyzer from the command line without specifying a trace file, log file, or any options, as follows:  `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe”`
 
- You can also specify a trace or log to open, as indicated in the following example, but it must be in one of the supported file formats, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md):   `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe” <TraceFile.matp>`
+You can also specify a trace or log to open, as indicated in the following example, but it must be in one of the supported file formats, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md):   `“C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe” <TraceFile.matp>`
 
 ## Using the Startup Switches
 
@@ -107,11 +107,11 @@ This section describes several different ways in which you can start Message Ana
 
 - **Improve performance on Windows 8 and later** — Message Analyzer performs better on the Windows 8 operating system and later if the destination disk is formatted to the Resilient File System (ReFS), instead of the enforced NTFS format of your default system drive.
 
- Although the main application that benefits from reconfiguration of the temporary files location is usually server components, you still have the option change the location. If you want to do this you will need to open the MessageAnalyzer.exe.config file from the following location (or the installation folder location that you specified when installing Message Analyzer), and modify it as indicated below. Note that you could open this XML file in the Visual Studio IDE for the convenience of auto-formatting:
+Although the main application that benefits from reconfiguration of the temporary files location is usually server components, you still have the option change the location. If you want to do this you will need to open the MessageAnalyzer.exe.config file from the following location (or the installation folder location that you specified when installing Message Analyzer), and modify it as indicated below. Note that you could open this XML file in the Visual Studio IDE for the convenience of auto-formatting:
 
- `C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe.config`
+`C:\Program Files\Microsoft Message Analyzer\MessageAnalyzer.exe.config`
 
- Under the `<configuration/>` node in the MessageAnalyzer.exe.config XML file contents, enter the following and specify an appropriate value for  the drive location.
+Under the `<configuration/>` node in the MessageAnalyzer.exe.config XML file contents, enter the following and specify an appropriate value for  the drive location.
 
 ```Configuration
 <appSettings>
@@ -122,4 +122,4 @@ This section describes several different ways in which you can start Message Ana
 
 ## See Also
 
-- [Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)
+[Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)

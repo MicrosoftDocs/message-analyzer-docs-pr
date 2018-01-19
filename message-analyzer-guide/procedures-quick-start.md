@@ -26,12 +26,12 @@ This section contains simple procedures that you can run to start coming up to s
 
 ---
 
-- [Displaying Data Quickly From a Saved Trace File](procedures-quick-start.md#BKMK_quickdisplaytracedata)
-- [Starting a Live Trace Session with a Built-In Trace Scenario](procedures-quick-start.md#BKMK_startlivecapture)
-- [Starting a Data Retrieval Session](procedures-quick-start.md#BKMK_browseSessionLoadData)
-- [Modifying an Existing Data Retrieval Session](procedures-quick-start.md#BKMK_ModifyDRSession)
-- [Displaying Different Data Viewers to Change Analysis Perspectives](procedures-quick-start.md#BKMK_displaySummaryViews)
-- [Creating and Saving a Customized Trace Scenario](procedures-quick-start.md#BKMK_createSaveScenarioTemplate)
+[Displaying Data Quickly From a Saved Trace File](procedures-quick-start.md#BKMK_quickdisplaytracedata)
+[Starting a Live Trace Session with a Built-In Trace Scenario](procedures-quick-start.md#BKMK_startlivecapture)
+[Starting a Data Retrieval Session](procedures-quick-start.md#BKMK_browseSessionLoadData)
+[Modifying an Existing Data Retrieval Session](procedures-quick-start.md#BKMK_ModifyDRSession)
+[Displaying Different Data Viewers to Change Analysis Perspectives](procedures-quick-start.md#BKMK_displaySummaryViews)
+[Creating and Saving a Customized Trace Scenario](procedures-quick-start.md#BKMK_createSaveScenarioTemplate)
 
 > [!NOTE]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios. This is also true of other procedural content in this Operating Guide.
@@ -49,8 +49,8 @@ This section contains simple procedures that you can run to start coming up to s
 
 2.  Click the global Message Analyzer **File** menu and then click **Open** to display the Windows **Open** dialog.
 
-> [!TIP]
->  If you have already opened files with the **Open** command, a **Recent Files** item is available just below the **Open** command on the **File** menu that displays a submenu to the right, from where you can select a file and immediately open it in the default data viewer.
+  > [!TIP]
+  >  If you have already opened files with the **Open** command, a **Recent Files** item is available just below the **Open** command on the **File** menu that displays a submenu to the right, from where you can select a file and immediately open it in the default data viewer.
 
 3.  In the **Open** dialog that displays, navigate to a saved trace or log file containing the data you want to display and then click the **Open** button to exit the dialog.
 
@@ -91,8 +91,8 @@ This section contains simple procedures that you can run to start coming up to s
 
 5.  Optionally, select a built-in **Session Filter** from the centralized Filter Expression **Library**, such as `IPv4Address==<192.168.1.1>` to capture messages that are sent to and received from a specific computer only. The IP address in this example filter is a placeholder for an actual IP address that you must provide.
 
-> [!NOTE]
->  A **Session Filter** enables you to define the scope of the data capture while at the same time improve performance by limiting how much data you collect.
+  > [!NOTE]
+  >  A **Session Filter** enables you to define the scope of the data capture while at the same time improve performance by limiting how much data you collect.
 
 6.  Click the **Start With** drop-down arrow and select the data viewer in which to display your trace results, or use the default **Analysis Grid** data viewer setting.
 
@@ -109,9 +109,9 @@ This section contains simple procedures that you can run to start coming up to s
 ---
 
 **More Information**  
-**To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:
-- [To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)
-- [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
+**To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
+[To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
+[To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
 
 **To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).
 
@@ -138,15 +138,15 @@ This section contains simple procedures that you can run to start coming up to s
 
      Message Analyzer displays the files you selected in a list on the **Files** tab that includes columns of data such as **Name**, file **Size**, **File Type**, **Message Count**, **Start Time**, **End Time**, and **Text Log Configuration**.
 
-> [!NOTE]
->  The data from the files that display in this list is not yet loaded into Message Analyzer. At this point, the files are simply the target data sources from which data will be loaded after you click the **Start** button in the **New Session** dialog.
+  > [!NOTE]
+  >  The data from the files that display in this list is not yet loaded into Message Analyzer. At this point, the files are simply the target data sources from which data will be loaded after you click the **Start** button in the **New Session** dialog.
 
 6.  In the files list, ensure that there is a check mark in the check box next to the file/s containing the data you want to load into Message Analyzer. Note that you can select or unselect files in the list to create specific combinations of data sources from which to load data.
 
 7.  In the **Start With** drop-down menu of the **New Session** dialog, select a data viewer in which to display the results of your Data Retrieval Session; otherwise, the default data viewer setting will be used.
 
-> [!TIP]
->  You have the option to change the default data viewer from the **Profiles** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. Note that Message Analyzer ships with the **Analysis Grid** viewer as the default setting, as specified in the **Default Profile** pane of the **Profiles** tab.
+  > [!TIP]
+  >  You have the option to change the default data viewer from the **Profiles** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. Note that Message Analyzer ships with the **Analysis Grid** viewer as the default setting, as specified in the **Default Profile** pane of the **Profiles** tab.
 
 8.  Optionally, select a **Session Filter** from the Filter Expression **Library** in the **New Session** dialog, or configure a **Time Filter** from the **Files** tab in the dialog to define the scope of data retrieval or to narrow the window of time in which to view data, respectively.
 
@@ -166,10 +166,10 @@ This section contains simple procedures that you can run to start coming up to s
 **More Information**  
 **To learn more** about how to manipulate and analyze saved trace data that you have loaded into the Message Analyzer **Analysis Grid** viewer, see the following sections:
 
-- [Analysis Grid Viewer](analysis-grid-viewer.md)
-- [Common Data Viewer Features](common-data-viewer-features.md)
-- [Tool Windows](tool-windows.md)
-- [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)
+[Analysis Grid Viewer](analysis-grid-viewer.md)  
+[Common Data Viewer Features](common-data-viewer-features.md)  
+[Tool Windows](tool-windows.md)  
+[Filtering Live Trace Session Results](filtering-live-trace-session-results.md)  
 
 ---
 
@@ -185,10 +185,10 @@ This section contains simple procedures that you can run to start coming up to s
 
 3.  On the **Files** tab of the **New Session** dialog, click **Add Files** to add one or more saved trace files to the files list and then select the check box next to each file containing the data you want to load into Message Analyzer.
 
-> [!IMPORTANT]
->  When you click the **Edit Session** button on the global Message Analyzer toolbar, by default your Data Retrieval Session opens in **Restricted Edit** mode. This mode enables you to add saved files as new data sources, but it disables other configuration capabilities, such as setting a **Time Filter**, choosing a **Session Filter**, or setting the **Parsing Level**.
->
->  The advantage of the **Restricted Edit** mode is that you can add the new data files without triggering a reload of all data and incurring a performance hit. However, if you want to enable the indicated configuration features to specify changes, you can select the **Full Edit** mode, although you should be aware that a reload of all data will be required if you **Apply** the changes.
+  > [!IMPORTANT]
+  >  When you click the **Edit Session** button on the global Message Analyzer toolbar, by default your Data Retrieval Session opens in **Restricted Edit** mode. This mode enables you to add saved files as new data sources, but it disables other configuration capabilities, such as setting a **Time Filter**, choosing a **Session Filter**, or setting the **Parsing Level**.
+  >
+  >  The advantage of the **Restricted Edit** mode is that you can add the new data files without triggering a reload of all data and incurring a performance hit. However, if you want to enable the indicated configuration features to specify changes, you can select the **Full Edit** mode, although you should be aware that a reload of all data will be required if you **Apply** the changes.
 
 4.  When you are done with reconfiguring the session, click the **Apply** button to load and display the new data in the **Analysis Grid** viewer.
 
@@ -200,8 +200,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
  For example, you might add a simple expression such as `*Port != IANA.Port.LDAP` from the **Library** drop-down list to remove LDAP traffic on TCP and UDP transports, if you don't want to  view this data. Note that if you manually configure a Filter Expression and it is invalid, you may receive a **Compile query error** message after you click the **Apply** button in the **New Session** dialog.
 
-> [!TIP]
->  After loading a collection of messages from specified files and displaying the data in a selected viewer, you have the option to add a built-in or manually-configured view **Filter** to further isolate specific data of interest. The centralized Filter Expression **Library** for selecting built-in **Filters** is available on the Filtering toolbar that appears above every session viewer.
+  > [!TIP]
+  >  After loading a collection of messages from specified files and displaying the data in a selected viewer, you have the option to add a built-in or manually-configured view **Filter** to further isolate specific data of interest. The centralized Filter Expression **Library** for selecting built-in **Filters** is available on the Filtering toolbar that appears above every session viewer.
 
 ---
 
@@ -222,8 +222,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
      Note that the **Microsoft-PEF-WFP-MessageProvider** in the **Loopback and Unencrypted IPSEC** **Trace Scenario** captures data above the IP/Network Layer, which makes it a good choice for capturing SMB traffic at the Application Layer while minimizing lower layer noise.
 
-> [!TIP]
->  You might consider using the **SMB2 Client Full Payloads** **Trace Scenario** to capture SMB traffic unencrypted.
+  > [!TIP]
+  >  You might consider using the **SMB2 Client Full Payloads** **Trace Scenario** to capture SMB traffic unencrypted.
 
 3.  Stop the Live Trace Session at a suitable point by clicking the **Stop** button on the global Message Analyzer toolbar.
 
@@ -241,8 +241,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 ---
 
-**More Information**  
-**To learn more** about the **Layouts** that are available for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.
+  **More Information**  
+  **To learn more** about the **Layouts** that are available for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.
 
 ---
 
@@ -250,8 +250,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 8.  Repeat step 6  and select the **SMB Reads and Writes** **Layout** for the **Chart** viewer to display SMB statistics in the **Timeline** visualizer component.
 
-> [!IMPORTANT]
->  These viewers will display data only if SMB, SMB2, or SMB3 protocol packets were captured in the Live Trace Session that you ran.
+  > [!IMPORTANT]
+  >  These viewers will display data only if SMB, SMB2, or SMB3 protocol packets were captured in the Live Trace Session that you ran.
 
 9. Right-click the node for the Data Retrieval Session in **Session Explorer**, highlight **New Viewer**, select the **Grouping** viewer, and then select the **Process Name and Conversations** view **Layout** in the drop-down list that appears.
 
@@ -263,8 +263,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 ---
 
-**More Information**  
-**To learn more** about the **Grouping** viewer, including the **Filtering Mode** and **Selection Mode** of operation, refer to the [Grouping Viewer](grouping-viewer.md) topic.
+  **More Information**  
+  **To learn more** about the **Grouping** viewer, including the **Filtering Mode** and **Selection Mode** of operation, refer to the [Grouping Viewer](grouping-viewer.md) topic.
 
 ---
 
@@ -274,8 +274,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 ---
 
-**More Information**  
-**To learn more** about **Pattern** matching, refer to the [Pattern Match Viewer](pattern-match-viewer.md) topic.
+  **More Information**  
+  **To learn more** about **Pattern** matching, refer to the [Pattern Match Viewer](pattern-match-viewer.md) topic.
 
 ---
 
@@ -285,11 +285,11 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 13. Optionally, to obtain alternate but integrated views of the saved message data, select the **Message Stack** **Tool Window** from the **Windows** submenu of the global Message Analyzer **Tools** menu, if the window is not already open, to expose the underlying message stack that supported top-level transactions. Also select the **Diagnostics** **Tool Window** from the same menu location to display summary groups of the different types of diagnosis errors that occurred in the retrieved data.
 
-> [!IMPORTANT]
->  The **Diagnostics** window is currently a preview feature. To use this tool, you must enable it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu, and you must then restart Message Analyzer.
+  > [!IMPORTANT]
+  >  The **Diagnostics** window is currently a preview feature. To use this tool, you must enable it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu, and you must then restart Message Analyzer.
 
-> [!TIP]
->  You can compare Live Trace Session results with related data that is loaded into Message Analyzer from a Data Retrieval Session. This provides a convenient method for analyzing current and historical data side-by-side. To learn how to display data viewer tabs side by side, see [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows).
+  > [!TIP]
+  >  You can compare Live Trace Session results with related data that is loaded into Message Analyzer from a Data Retrieval Session. This provides a convenient method for analyzing current and historical data side-by-side. To learn how to display data viewer tabs side by side, see [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows).
 
 <a name="BKMK_createSaveScenarioTemplate"></a>
 ## Creating and Saving a Customized Trace Scenario
@@ -305,8 +305,8 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 4.  Select the **Local Network Interfaces** **Trace Scenario** in the **Select Scenario** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog.
 
-> [!NOTE]
->  If you are running the Windows 7, Windows 8, or Windows Server 2012 operating system, the **Microsoft-PEF-NDIS-PacketCapture** is added to the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog. Otherwise, for later operating systems, the **Microsoft-Windows-NDIS-PacketCapture** provider (with remote capabilities) is added to the list.
+  > [!NOTE]
+  >  If you are running the Windows 7, Windows 8, or Windows Server 2012 operating system, the **Microsoft-PEF-NDIS-PacketCapture** is added to the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog. Otherwise, for later operating systems, the **Microsoft-Windows-NDIS-PacketCapture** provider (with remote capabilities) is added to the list.
 
 5.  In the earlier operating system scenario, click the **Configure** link to the right of the **Microsoft-PEF-NDIS-PacketCapture** provider in the **ETW Providers** list to display the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog. Select the **Provider** tab in the dialog and then specify the configurations that follow:
 
@@ -314,22 +314,22 @@ When loading data from saved files into Message Analyzer, you can select a built
 
     -   In the **Fast Filters** pane of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, click the black arrow next to the **Filter 1** designator in **Group 1** and select the **IPv4Address** option from the drop-down menu that displays.
 
-> [!NOTE]
->  With a low-level IPv4 address **Fast Filter**, the **Trace Scenario** will deliver messages to the PEF Runtime that transited to or from a specified IPv4 address only, as the **Trace Scenario** is running. This avoids the additional parsing that would normally be required if you specify a similar **Session Filter** instead, thereby improving Message Analyzer performance.
+  > [!NOTE]
+  >  With a low-level IPv4 address **Fast Filter**, the **Trace Scenario** will deliver messages to the PEF Runtime that transited to or from a specified IPv4 address only, as the **Trace Scenario** is running. This avoids the additional parsing that would normally be required if you specify a similar **Session Filter** instead, thereby improving Message Analyzer performance.
 
--   Specify an IPv4 address value in the format *192.168.1.1* in the text box adjacent to the drop-down menu, to isolate traffic to the specified IPv4 address. Make sure to substitute appropriately for the IP address placeholder italics value specified in this example.
+  -   Specify an IPv4 address value in the format *192.168.1.1* in the text box adjacent to the drop-down menu, to isolate traffic to the specified IPv4 address. Make sure to substitute appropriately for the IP address placeholder italics value specified in this example.
 
 -   Highlight the row in which the Ethernet adapter exists in the **System Network** tree grid of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, and then click the **Apply to Highlighted** button in **Group 1**.
 
     The name of the Ethernet adapter displays as the **Target** of the filter **Group**. Click **OK** to exit.
 
-> [!NOTE]
->  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
+  > [!NOTE]
+  >  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
 
 ---
 
-**More Information**  
-**To learn more** about the filtering configurations that you can specify for the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).
+  **More Information**  
+  **To learn more** about the filtering configurations that you can specify for the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).
 
 ---
 
@@ -346,12 +346,12 @@ When loading data from saved files into Message Analyzer, you can select a built
 
 7.  Click the **Save Scenario** button on the **ETW Providers** toolbar to display the **Edit Trace Scenario** dialog and then specify values for the **Name**, **Description**, and **Category** fields.
 
-> [!NOTE]
->  When you run your customized **Trace Scenario**, the trace results will display in the default data viewer that is specified in the **Default Profile** pane on the **Profiles** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. If you want to change the default viewer from this location, simply click the **Default Viewer** drop-down list and choose a viewer that you want as the default.
+  > [!NOTE]
+  >  When you run your customized **Trace Scenario**, the trace results will display in the default data viewer that is specified in the **Default Profile** pane on the **Profiles** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. If you want to change the default viewer from this location, simply click the **Default Viewer** drop-down list and choose a viewer that you want as the default.
 
 8.  When your **Trace Scenario** configuration is complete, click the **Save** button to exit the **Edit Trace Scenario** dialog.
 
- **Running the Custom Trace Scenario**
+**Running the Custom Trace Scenario**
 When you save a customized **Trace Scenario**, it becomes a new item in the **Trace Scenario** user Library in the **Category** that you specified. This **Category** will be located under the **My Items** top-level category of the Library, from where you can select and run it at any time. It also becomes part of the Message Analyzer Sharing Infrastructure, which enables you to mutually share the scenarios in the **Trace Scenario** user Library with others.
 
 > [!TIP]
@@ -367,6 +367,6 @@ When you save a customized **Trace Scenario**, it becomes a new item in the **Tr
 
 ## See Also
 
-- [Capturing Message Data](capturing-message-data.md)
-- [Retrieving Message Data](retrieving-message-data.md)
-- [Data Viewers](data-viewers.md)
+[Capturing Message Data](capturing-message-data.md)  
+[Retrieving Message Data](retrieving-message-data.md)  
+[Data Viewers](data-viewers.md)  

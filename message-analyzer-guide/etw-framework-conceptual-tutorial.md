@@ -36,13 +36,13 @@ This tutorial provides conceptual overviews of the underlying Event Tracing for 
 
 -   Identify bottlenecks.
 
- For a software component to report events, it must register with ETW as an event provider. To facilitate event reporting functionality, a provider configuration must be specified to define the event descriptions, data, and format. Thereafter, when the software component encounters an error condition or other important execution state that has been instrumented for ETW, the provider raises corresponding events. These events need to be recorded somewhere for further processing. In the ETW framework, the component to which provider events are initially written is called an ETW Session. In turn, an ETW Session delivers the event data live to a consumer or logs it for later processing and analysis.
+For a software component to report events, it must register with ETW as an event provider. To facilitate event reporting functionality, a provider configuration must be specified to define the event descriptions, data, and format. Thereafter, when the software component encounters an error condition or other important execution state that has been instrumented for ETW, the provider raises corresponding events. These events need to be recorded somewhere for further processing. In the ETW framework, the component to which provider events are initially written is called an ETW Session. In turn, an ETW Session delivers the event data live to a consumer or logs it for later processing and analysis.
 
- ETW has a unified API that combines the processes of logging and writing trace events to consumers in a single convenient mechanism that easily accommodates event providers. In ETW, event trace sessions are not statically tied to providers, but rather, exist in different spaces to enable more dynamic and flexible trace and event management.
+ETW has a unified API that combines the processes of logging and writing trace events to consumers in a single convenient mechanism that easily accommodates event providers. In ETW, event trace sessions are not statically tied to providers, but rather, exist in different spaces to enable more dynamic and flexible trace and event management.
 
- An ETW Controller starts and stops ETW Sessions and dynamically enables providers. This means that the ETW Controller can enable a group of providers for a session, disable some at a certain point, and then enable others later on. Also, because providers are separate from ETW Sessions that operate in the kernel, providers typically have no knowledge of the session to which their events are being logged. An important advantage of separating trace sessions and providers is that it makes tracing immune to application crashes and hangs, such that any events logged by a provider before a crash will be in kernel memory or in a trace file already. This ensures that events are not lost, which is very useful when you are debugging crashed applications.
+An ETW Controller starts and stops ETW Sessions and dynamically enables providers. This means that the ETW Controller can enable a group of providers for a session, disable some at a certain point, and then enable others later on. Also, because providers are separate from ETW Sessions that operate in the kernel, providers typically have no knowledge of the session to which their events are being logged. An important advantage of separating trace sessions and providers is that it makes tracing immune to application crashes and hangs, such that any events logged by a provider before a crash will be in kernel memory or in a trace file already. This ensures that events are not lost, which is very useful when you are debugging crashed applications.
 
- The high-level components of the ETW session architecture are illustrated in the following figure. The functions of these components, along with the role of event definitions and manifests, are described thereafter.
+The high-level components of the ETW session architecture are illustrated in the following figure. The functions of these components, along with the role of event definitions and manifests, are described thereafter.
 
  ![ETW Session Architecture](media/fig17-etw-session-architecture.gif "Fig17-ETW Session Architecture")
 
@@ -192,7 +192,7 @@ Status = EventUnregister(MyProvRegHandle);
 
 -   Obtains execution statistics for ETW Sessions.
 
- Session statistics include the number of buffers used, the number of buffers delivered, and the number of events and buffers lost.
+Session statistics include the number of buffers used, the number of buffers delivered, and the number of events and buffers lost.
 
 ### ETW Consumer
 
@@ -226,4 +226,4 @@ Status = EventUnregister(MyProvRegHandle);
 
 ## See Also
 
-- [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)
+[Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)
