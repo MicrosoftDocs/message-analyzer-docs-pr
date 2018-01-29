@@ -29,7 +29,7 @@ The **Microsoft-PEF-NDIS-PacketCapture** filter driver is primarily used by the 
   
 -   ETW Event Consumer  
   
- The ETW event provider in this model is the **Microsoft-PEF-NDIS-PacketCapture** filter driver, while the ETW event consumer is the Protocol Engineering Framework (PEF) Runtime, which parses/processes the message and event data that is delivered by the  **Microsoft-PEF-NDIS- PacketCapture** provider and exposes the processed data in an API that the Message Analyzer user interface (UI) consumes for   the display of data.  
+The ETW event provider in this model is the **Microsoft-PEF-NDIS-PacketCapture** filter driver, while the ETW event consumer is the Protocol Engineering Framework (PEF) Runtime, which parses/processes the message and event data that is delivered by the  **Microsoft-PEF-NDIS- PacketCapture** provider and exposes the processed data in an API that the Message Analyzer user interface (UI) consumes for   the display of data.  
   
 ## Associated Trace Scenarios  
 
@@ -71,6 +71,6 @@ The **Microsoft-PEF-NDIS-PacketCapture** filter driver is primarily used by the 
  <sup>1</sup> Computers that are running the Microsoft Windows 8 and Microsoft Windows Server 2012 64-bit operating systems use the Microsoft-PEF-NDIS-PacketCapture v6.3 provider. Computers running the Microsoft Windows 7 operating system or the 32-bit version of the Microsoft Windows 8 operating system use the Microsoft-PEF-NDIS-PacketCapture v6.0 provider. Computers running the Microsoft Windows 8.1, Windows Server 2012 R2, Windows 10, and later operating systems use the Microsoft-Windows-NDIS-PacketCapture (NDISCAP) provider only, which has remote capabilities.  
   
 ## See Also  
-- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
-- [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)   
-- [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)
+[Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+[Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)   
+[Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)

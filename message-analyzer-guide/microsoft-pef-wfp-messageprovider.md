@@ -80,6 +80,6 @@ Similar to the **Microsoft-PEF-NDIS-PacketCapture** provider, the **Microsoft-PE
   
 ## See Also  
 
-- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
-- [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
-- [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)
+[Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+[Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
+[Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md)

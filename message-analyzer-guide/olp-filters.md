@@ -33,7 +33,7 @@ where “op” can be one of the following operators:
   
 -   Less than (<).  
   
- The OLP filter parameters for which you specify values are delimited by a colon (:).  These parameters have the following meanings:  
+The OLP filter parameters for which you specify values are delimited by a colon (:).  These parameters have the following meanings:  
   
 -   **Bit-offset** — is specified in hexadecimal format and represents the number of offset bytes that precede an address being searched for.  
   
@@ -48,7 +48,7 @@ where “op” can be one of the following operators:
   
     -   A **LinkLevelAddress** in xx-xx-xx-xx-xx-xx format — is specified as a 12-digit hexadecimal number, 48-bits long; for example: *001F297D2F46*.  
   
- By using an OLP filter, you can be very specific and granular about pinpointing messages that meet the filtering criteria that you define. This can have a big impact on reducing the amount of traffic you capture and improving performance, for example, to minimize the effect of a capture on a busy server.  
+By using an OLP filter, you can be very specific and granular about pinpointing messages that meet the filtering criteria that you define. This can have a big impact on reducing the amount of traffic you capture and improving performance, for example, to minimize the effect of a capture on a busy server.  
   
 ## Configuring an OLP Fast Filter  
  To configure an **OLP** filter, you must open the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog by clicking the **Configure** link to the right of the provider **Id** in the **ETW Providers** list that displays on the **Live Trace** tab of the **New Session** dialog. When the dialog displays, select the **Provider** tab and then click a **Filter** drop-down arrow in a **Fast Filter Group**. In the menu that appears, select the **OLP** item as the address type. You must then enter an OLP address in the text box to the right of the selected filter type, in the format that is described in this section.  

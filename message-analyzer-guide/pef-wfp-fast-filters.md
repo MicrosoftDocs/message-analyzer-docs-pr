@@ -33,9 +33,9 @@ The **Microsoft-PEF-WFP-MessageProvider** configuration on the **Provider** tab 
   
 -   **UDP port** — enables you to filter live traffic based on a specified UDP port.  
   
- When configuring **Fast Filters** in the **Advanced Settings - Microsoft-PEF-WFP-MessageProvider** dialog, you have the option to enhance filter functionality with the use of several relational operators, including logical NOT (!), GREATER THAN (>), and LESS THAN (<). For example, you might apply **Fast Filter** configurations that exclude or include specific traffic on a **TCP port** or **UDP port**, respectively. To do this, you could configure one **Fast Filter** with the **TCP port** set to remove HTTPS traffic from your trace results and another **Fast Filter** with the **UDP port** set to exclude all traffic except LDAP messages, respectively, as follows:  
+When configuring **Fast Filters** in the **Advanced Settings - Microsoft-PEF-WFP-MessageProvider** dialog, you have the option to enhance filter functionality with the use of several relational operators, including logical NOT (!), GREATER THAN (>), and LESS THAN (<). For example, you might apply **Fast Filter** configurations that exclude or include specific traffic on a **TCP port** or **UDP port**, respectively. To do this, you could configure one **Fast Filter** with the **TCP port** set to remove HTTPS traffic from your trace results and another **Fast Filter** with the **UDP port** set to exclude all traffic except LDAP messages, respectively, as follows:  
   
- **Fast Filter 1** value for **TCP port**:  `!= 443`  
+**Fast Filter 1** value for **TCP port**:  `!= 443`  
 **Fast Filter 2** value for **UDP port**:  `== 389`  
   
 ## Capturing Loopback Traffic  

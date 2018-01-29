@@ -48,13 +48,13 @@ You might need to generate a provider manifest to ensure that Message Analyzer c
   
 -   A trace file or *.etl log with a separate \*.man file.  
   
- If you have a .matu or .matp file with the required manifest attached, you can simply load the file and Message Analyzer should be able to parse the messages.  If you manually generated the manifest for an ETL file, you will need to place the manifest \<filename.man> in the following folder prior to loading the log data into Message Analyzer:  
+If you have a .matu or .matp file with the required manifest attached, you can simply load the file and Message Analyzer should be able to parse the messages.  If you manually generated the manifest for an ETL file, you will need to place the manifest \<filename.man> in the following folder prior to loading the log data into Message Analyzer:  
   
- `%localappdata%\Microsoft\MessageAnalyzer\OPNAndConfiguration\EtwManifests\`  
+`%localappdata%\Microsoft\MessageAnalyzer\OPNAndConfiguration\EtwManifests\`  
   
 > [!NOTE]
 >  In a future release, Message Analyzer may have the capability to import provider manifests directly through an OPN adapter, depending on demand.  
   
 ## See Also  
 
-- [Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md)
+[Understanding Event Parsing with a Provider Manifest](understanding-event-parsing-with-a-provider-manifest.md)

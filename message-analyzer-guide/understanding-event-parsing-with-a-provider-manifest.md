@@ -39,5 +39,5 @@ Message Analyzer traces are based on ETW Providers, which operate in an infrastr
 ---  
   
 ## See Also  
-- [Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)   
-- [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)
+[Integrating Event Tracing](message-analyzer-tutorial.md#BKMK_EventTraces)   
+[Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)

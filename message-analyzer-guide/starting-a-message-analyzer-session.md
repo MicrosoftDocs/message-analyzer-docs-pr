@@ -70,7 +70,7 @@ All of the foregoing capabilities are unified through the use of a common interf
   
     -   Load data from various other input sources such as system Event Logs, SQL databases, WPP-generated events, and OMS log data, as described in [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md).  
   
- The configuration features of the **New Session** dialog that are common to both session types enable you to do the following:  
+The configuration features of the **New Session** dialog that are common to both session types enable you to do the following:  
   
 -   Specify a **Session Filter** that limits the data you capture or retrieve based on specific filtering criteria.  
   
@@ -80,14 +80,14 @@ All of the foregoing capabilities are unified through the use of a common interf
   
 -   Provide a **Name** for the new session, as described in [Naming a Session](naming-a-session.md).  
   
- **Using Session Options**   
+**Using Session Options**   
 The **New Session** item in the Message Analyzer **File** menu provides the following submenu items as options for creating a session:  
   
 -   **Blank Session** — creates an unconfigured new session.  
   
 -   **From Current Session** — creates a new session based on the configuration of a currently open and selected session.  
   
- **Creating a New Session: Workflow Overview**   
+**Creating a New Session: Workflow Overview**   
 To familiarize yourself with the workflow you will generally follow when creating a basic session configuration, follow the steps below to create a session that captures data live or retrieves data from saved files and logs:  
   
 ### General Workflow Process  

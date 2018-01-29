@@ -23,7 +23,7 @@ Message Analyzer provides the **Message Analyzer Trace Scenarios** asset collect
   
 -   Click a scenario in the **Favorite Scenarios** list on the Message Analyzer **Start Page**.  
   
- Note that whenever you select a **Trace Scenario** that has **Favorite** status, a Live Trace Session is immediately started with no additional session configuration required. This gives you a quick and convenient method for very quickly starting a Live Trace Session.  
+Note that whenever you select a **Trace Scenario** that has **Favorite** status, a Live Trace Session is immediately started with no additional session configuration required. This gives you a quick and convenient method for very quickly starting a Live Trace Session.  
   
 ## Setting Trace Scenarios as Favorites  
 
@@ -41,7 +41,7 @@ Message Analyzer provides the **Message Analyzer Trace Scenarios** asset collect
   
 -   **File Sharing**  
   
- When you select a built-in **Trace Scenario** in any of these categories, the following items display in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog:  
+When you select a built-in **Trace Scenario** in any of these categories, the following items display in the **ETW Providers** list on the **Live Trace** tab of the **New Session** dialog:  
   
 -   The names of the providers used in the scenario and an associated GUID that identifies each one that appears in the **ETW Providers** list.  
   
@@ -62,4 +62,4 @@ Message Analyzer provides the **Message Analyzer Trace Scenarios** asset collect
   
 ## See Also  
 
-- [Built-In Trace Scenarios](built-in-trace-scenarios.md)
+[Built-In Trace Scenarios](built-in-trace-scenarios.md)

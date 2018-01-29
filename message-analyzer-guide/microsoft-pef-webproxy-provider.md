@@ -48,6 +48,6 @@ The **Microsoft-PEF-WebProxy** provider enables you to focus on capturing traffi
   
 ## See Also  
 
-- [Built-In Trace Scenarios](built-in-trace-scenarios.md)   
-- [Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
-- [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)
+[Built-In Trace Scenarios](built-in-trace-scenarios.md)   
+[Microsoft-PEF-NDIS-PacketCapture Provider](microsoft-pef-ndis-packetcapture-provider.md)   
+[Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)

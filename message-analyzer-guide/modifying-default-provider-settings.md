@@ -35,8 +35,8 @@ To enhance the capture configuration of a Live Trace Session, you can modify the
   
 -   **WFP Layer Set Filters** — selectively enable or disable filters that pass or block inbound, outbound, or bidirectional packet traffic at the Transport Layer in **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider**. Specify these settings in the **Advanced Settings – Microsoft-PEF-WFP-MessageProvider** dialog during Live Trace Session  configuration.  
   
-> [!NOTE]
->  You also have the option to log dropped packet information, which includes reason and layer statistics. Enable this function by placing a check mark in the **Select Discarded Packet Events** check box in the **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider**.  
+ > [!NOTE]
+ >  You also have the option to log dropped packet information, which includes reason and layer statistics. Enable this function by placing a check mark in the **Select Discarded Packet Events** check box in the **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider**.  
   
 -   **NDIS and Extension Stack Filters** — specify the layers on which packets are intercepted in the NDIS stack or Hyper-V-Switch extension stack, in **Trace Scenarios** that use the **Microsoft-Windows-NDIS-PacketCapture** provider, for example, the **Local Network Interfaces (Win8.1 and later)** scenario. You can also configure special filters such as **Truncation**, packet traversal **Direction**, **EtherTypes**, **IP Protocol Numbers**, **Mac Addresses**, and **IP Addresses**. Specify these filtering configurations  in the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog during Live Trace Session  configuration.  
   

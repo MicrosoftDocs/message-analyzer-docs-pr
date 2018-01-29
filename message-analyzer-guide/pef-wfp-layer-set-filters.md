@@ -27,7 +27,7 @@ When configuring  settings for the **Microsoft-PEF-WFP-MessageProvider** in **Tr
   
 -   OUTBOUND_TRANSPORT_V6  
   
- These filters are kernel mode TCP/IP stack filters that operate in the receive or send path (inbound or outbound, respectively) at the Transport Layer before any processing occurs at that layer. When set, these filters selectively enable or disable the capture of all inbound, outbound, or bidirectional packet traffic at the Transport Layer.  
+These filters are kernel mode TCP/IP stack filters that operate in the receive or send path (inbound or outbound, respectively) at the Transport Layer before any processing occurs at that layer. When set, these filters selectively enable or disable the capture of all inbound, outbound, or bidirectional packet traffic at the Transport Layer.  
   
 ## Capturing Loopback Traffic  
 

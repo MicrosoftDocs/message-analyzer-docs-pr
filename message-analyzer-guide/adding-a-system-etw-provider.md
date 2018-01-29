@@ -36,19 +36,19 @@ Message Analyzer enables you to expand or narrow the scope of the data that a Li
 
 3. In the drop-down list, select  the **Add System Providers** item to display the **Add System Providers** dialog that contains a list of system ETW Providers  that Message Analyzer enumerated on your local system during installation, as shown in the figure that follows.
 
-![Specifying ETW Providers for Live Trace Session Configuration](media/fig21-specifying-etw-providers-for-live-trace-session-configuration.png "Fig21-Specifying ETW Providers for Live Trace Session Configuration")
+ ![Specifying ETW Providers for Live Trace Session Configuration](media/fig21-specifying-etw-providers-for-live-trace-session-configuration.png "Fig21-Specifying ETW Providers for Live Trace Session Configuration")
 
-**Figure 21: Specifying  ETW Providers for Live Trace Session Configuration**
+ **Figure 21: Specifying  ETW Providers for Live Trace Session Configuration**
 
 4. Scroll down the  **Available System Providers** list to locate a particular provider by name, or alternatively, type an ETW **System Provider** name or GUID in the search box to locate the provider of interest.
 
-If you have a general idea of the type of provider you want to locate, you can enter  text in the search box that partially reflects the provider name and Message Analyzer will return all provider names that contain the text you entered. For example, if you specify the text "dhcp", Message Analyzer will return a list of ETW Providers such as the **Microsoft-Windows-Dhcp-Client** and **Microsoft-Windows-DHCPv6-Client**.
+ If you have a general idea of the type of provider you want to locate, you can enter  text in the search box that partially reflects the provider name and Message Analyzer will return all provider names that contain the text you entered. For example, if you specify the text "dhcp", Message Analyzer will return a list of ETW Providers such as the **Microsoft-Windows-Dhcp-Client** and **Microsoft-Windows-DHCPv6-Client**.
 
 5. After you locate the ETW Provider/s you want to add to the Live Trace Session configuration from the **Available System Providers** list of the **Add System Providers** dialog, highlight each one separately and then click the **Add To** button in the dialog to populate the **Selected Providers** list of the dialog.
 
 6. After  all the ETW Providers that you are adding to the Live Trace Session configuration are displayed in the **Selected Providers** list, click the **OK** button to exit the **Add System Providers** dialog.
 
-At this time, the ETW providers that you are adding to the Live Trace Session configuration appear in the **ETW Providers** list of the **New Session** dialog.
+ At this time, the ETW providers that you are adding to the Live Trace Session configuration appear in the **ETW Providers** list of the **New Session** dialog.
 
 7. Optionally modify the event **Keyword** and/or **Level** settings for any ETW Provider, as described in [Configuring System ETW Providers](adding-a-system-etw-provider.md#BKMK_ConfigETWProviders).
 
@@ -90,9 +90,9 @@ In scenarios where you want to view WPP events immediately after they are genera
 ---
 
  **More Information**  
- **To learn more** about the configuration settings for system ETW Providers, including event **Keyword** and error **Level** filter configuration, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).
-**To learn more** about the ETW framework and system ETW Provider functionality, see the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).
-**To learn more** about how Message Analyzer supports WPP trace providers, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).
+ **To learn more** about the configuration settings for system ETW Providers, including event **Keyword** and error **Level** filter configuration, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
+**To learn more** about the ETW framework and system ETW Provider functionality, see the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).  
+**To learn more** about how Message Analyzer supports WPP trace providers, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).  
 **To learn more** about Message Analyzer support for MOF-based providers, including how to register and deploy one, see [Using MOF-Based ETW Providers](message-analyzer-tutorial.md#BKMK_MOFProviders).
 
 ---

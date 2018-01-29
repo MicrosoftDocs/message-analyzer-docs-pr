@@ -86,6 +86,7 @@ The **Microsoft-Windows-NDIS-PacketCapture** provider works with several **Trace
   
  **More Information**   
  **To learn more** about capturing data in P-Mode, see [Capturing Remotely in Promiscuous Mode](configuring-a-remote-capture.md#BKMK_PromiscuousMode).  
+
 ---  
   
 ## See Also  

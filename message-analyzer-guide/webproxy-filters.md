@@ -36,7 +36,7 @@ The **Microsoft-Pef-WebProxy** provider has two filters for which you can set va
   
 -   **HTTPS Client Certificate** — enables you to specify a certificate file (\*.cer) that Fiddler will provide in a given session to a server that requires certification validation. This is because in some scenarios, Fiddler must act as the proxy that provides the security certificate. You will need to specify  the path to the certificate file in the **HTTPS Client Certificate** text box.  
   
- Other settings that you can specify  on the **Provider** tab of the **Advanced Settings – Microsoft-Pef-WebProxy** dialog consist of the following:  
+Other settings that you can specify  on the **Provider** tab of the **Advanced Settings – Microsoft-Pef-WebProxy** dialog consist of the following:  
   
 -   **Reuse Client Connections** — given that Fiddler is a proxy, when it creates HTTP client connections on behalf of Internet Explorer or another browser,  it will keep these connections alive for reuse to more speedily expedite client HTTP requests, rather than keep creating new ones and incurring the accompanying degradation to performance.  
   

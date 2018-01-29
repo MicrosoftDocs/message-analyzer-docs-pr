@@ -33,11 +33,11 @@ To capture data live with Message Analyzer, you can either start a basic Live Tr
   
 -   Choosing a data viewer from the **Start With** drop-down list, or accepting the default viewer setting.  
   
- This section describes how to perform these tasks by using the integrated features of Message Analyzer. In the discussions that follow, see the following figure for the location of referenced features.  
+This section describes how to perform these tasks by using the integrated features of Message Analyzer. In the discussions that follow, see the following figure for the location of referenced features.  
   
- ![Live Trace Session configuration](media/fig20-live-trace-session-configuration.PNG "Fig20-Live Trace Session configuration")  
+![Live Trace Session configuration](media/fig20-live-trace-session-configuration.PNG "Fig20-Live Trace Session configuration")  
   
- **Figure 20:  Live Trace Session configuration**  
+**Figure 20:  Live Trace Session configuration**  
   
 ## Live Trace Session Workflow Overview  
 
@@ -96,16 +96,15 @@ To capture data live with Message Analyzer, you can either start a basic Live Tr
 
  The following subtopics provide further details about Message Analyzer's Live Trace Session configuration features along with various operations that Message Analyzer supports for live captures:  
   
-- [Selecting a Trace Scenario](selecting-a-trace-scenario.md)   
-- [Using a Custom Trace Scenario Template](using-a-custom-trace-scenario-template.md)   
-- [Adding a System ETW Provider](adding-a-system-etw-provider.md)   
-- [Modifying Default Provider Settings](modifying-default-provider-settings.md)   
-- [Selecting Data to Capture](selecting-data-to-capture.md)   
-- [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)   
-- [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)   
-- [Configuring a Remote Capture](configuring-a-remote-capture.md)   
-- [Selecting a Session Data Viewer](selecting-a-session-data-viewer.md)   
-- [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)  
+[Selecting a Trace Scenario](selecting-a-trace-scenario.md)   
+[Using a Custom Trace Scenario Template](using-a-custom-trace-scenario-template.md)   
+[Adding a System ETW Provider](adding-a-system-etw-provider.md)   
+[Modifying Default Provider Settings](modifying-default-provider-settings.md)   
+[Selecting Data to Capture](selecting-data-to-capture.md)   
+[Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)  [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)   
+[Configuring a Remote Capture](configuring-a-remote-capture.md)   
+[Selecting a Session Data Viewer](selecting-a-session-data-viewer.md)   
+[Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)  
   
 ---  
   
@@ -116,4 +115,4 @@ When you are ready to capture data with Message Analyzer, see [Performing a Live
   
 ## See Also  
 
-- [Message Analyzer User Roles](message-analyzer-user-roles.md)
+[Message Analyzer User Roles](message-analyzer-user-roles.md)
