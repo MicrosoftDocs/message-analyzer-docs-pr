@@ -29,11 +29,11 @@ This section describes the types of filters that you can configure for the **Mic
   
 -   **SMB2 Client and Firewall**  
   
- The **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider** is shown in the figure that follows:  
+The **Advanced Settings** dialog for the **Microsoft-PEF-WFP-MessageProvider** is shown in the figure that follows:  
   
- ![Advanced Settings for the Microsoft&#45;PEF&#45;WFP&#45;MessageProvider](media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG "Fig23-Advanced Settings for the Microsoft-PEF-WFP-MessageProvider")  
+![Advanced Settings for the Microsoft&#45;PEF&#45;WFP&#45;MessageProvider](media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG "Fig23-Advanced Settings for the Microsoft-PEF-WFP-MessageProvider")  
   
- **Figure 23: Advanced Settings for the Microsoft-PEF-WFP-MessageProvider**  
+**Figure 23: Advanced Settings for the Microsoft-PEF-WFP-MessageProvider**  
   
 ## Using WFP Layer Set Filters  
 
@@ -49,7 +49,7 @@ This section describes the types of filters that you can configure for the **Mic
   
 -   OUTBOUND_TRANSPORT_V6  
   
- These check boxes represent kernel mode TCP/IP stack filters that operate in the receive or send path (inbound or outbound, respectively) at the Transport Layer before any processing occurs at this layer. When you create a **WFP Layer Set** configuration with these check boxes, you selectively enable or disable the kernel mode filters that pass or block inbound, outbound, or bidirectional packet traffic at the Transport Layer, depending on the settings, for IPv4 and IPv6 traffic.  
+These check boxes represent kernel mode TCP/IP stack filters that operate in the receive or send path (inbound or outbound, respectively) at the Transport Layer before any processing occurs at this layer. When you create a **WFP Layer Set** configuration with these check boxes, you selectively enable or disable the kernel mode filters that pass or block inbound, outbound, or bidirectional packet traffic at the Transport Layer, depending on the settings, for IPv4 and IPv6 traffic.  
   
 ## Using WFP Fast Filters  
 
@@ -65,7 +65,7 @@ This section describes the types of filters that you can configure for the **Mic
   
 -   **UDP port** — enables you to filter live traffic based on a specified UDP port.  
   
- **Utilizing Fast Filter Relational Operators**   
+**Utilizing Fast Filter Relational Operators**   
 When you configure **Fast Filters** in the **Advanced Settings - Microsoft-PEF-WFP-MessageProvider** dialog, you have the option to enhance filter functionality with the use of several relational operators, which includes the following:  
   
 -   Logical NOT (!)  
@@ -74,9 +74,9 @@ When you configure **Fast Filters** in the **Advanced Settings - Microsoft-PEF-W
   
 -   LESS THAN (<)  
   
- For example, you might apply **Fast Filter** configurations that exclude or include specific traffic on a **TCP port** or **UDP port**, respectively. To do this, you could configure one **Fast Filter** with a **TCP port** set to remove HTTPS traffic from your live trace and another **Fast Filter** with a **UDP port** set to exclude all traffic except LDAP messages, respectively, as follows:  
+For example, you might apply **Fast Filter** configurations that exclude or include specific traffic on a **TCP port** or **UDP port**, respectively. To do this, you could configure one **Fast Filter** with a **TCP port** set to remove HTTPS traffic from your live trace and another **Fast Filter** with a **UDP port** set to exclude all traffic except LDAP messages, respectively, as follows:  
   
- **Fast Filter 1** value for **TCP port**:  `!= 443`  
+**Fast Filter 1** value for **TCP port**:  `!= 443`  
 **Fast Filter 2** value for **UDP port**:  `== 389`  
   
 ## Logging Dropped Packets  
@@ -99,4 +99,4 @@ When you configure **Fast Filters** in the **Advanced Settings - Microsoft-PEF-W
   
 ## See Also  
 
-- [Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)
+[Microsoft-PEF-WFP-MessageProvider](microsoft-pef-wfp-messageprovider.md)

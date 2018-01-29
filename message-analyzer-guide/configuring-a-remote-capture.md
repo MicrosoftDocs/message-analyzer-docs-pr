@@ -96,4 +96,4 @@ When you select an item in the **Host** drop-down list, Message Analyzer attempt
   
 ## See Also  
 
-- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)
+[Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)

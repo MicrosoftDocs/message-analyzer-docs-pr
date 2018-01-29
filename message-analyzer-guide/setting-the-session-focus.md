@@ -25,11 +25,11 @@ This section describes  various high-level settings that you can specify for a L
   
  These discussions are covered in the following subtopics:  
   
-- [Selecting Data to Capture](selecting-data-to-capture.md)   
-- [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md)   
-- [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)   
-- [Selecting a Session Data Viewer](selecting-a-session-data-viewer.md)  
+[Selecting Data to Capture](selecting-data-to-capture.md)   
+[Specifying Advanced ETW Session Configuration Settings]pecifying-advanced-etw-session-configuration-settings.md)   
+[Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)   
+[Selecting a Session Data Viewer](selecting-a-session-data-viewer.md)  
   
 ## See Also  
 
-- [Modifying Default Provider Settings](modifying-default-provider-settings.md)
+[Modifying Default Provider Settings](modifying-default-provider-settings.md)

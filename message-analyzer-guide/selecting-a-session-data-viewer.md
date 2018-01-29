@@ -41,7 +41,7 @@ Message Analyzer provides a set of native data viewers for all Message Analyzer 
   
 -   **Perfmon***  
   
- Note that the data viewers in this list that are marked with an asterisk (\*) are **Preview** features. To make these viewers available for selection during session configuration, you must select them on the **Features** tab of the **Options** dialog, which is accessible from the Message Analyzer **Tools** menu, and then you will need to restart Message Analyzer.  
+Note that the data viewers in this list that are marked with an asterisk (\*) are **Preview** features. To make these viewers available for selection during session configuration, you must select them on the **Features** tab of the **Options** dialog, which is accessible from the Message Analyzer **Tools** menu, and then you will need to restart Message Analyzer.  
   
 > [!NOTE]
 >  If you do not specify a data viewer prior to starting a Live Trace Session or Data Retrieval Session, then Message Analyzer uses the current default viewer to display data, for example, the **Analysis Grid** viewer. You can set the default viewer for all session results in the **Default Profiles** pane on the **Profiles** tab of the **Options** dialog.  
@@ -54,7 +54,7 @@ Message Analyzer provides a set of native data viewers for all Message Analyzer 
   
 -   **Session Explorer** **Tool Window** context menu — after you start a Live Trace Session or Data Retrieval Session, you can specify a different viewer for your data by right-clicking anywhere in the **Session Explorer** window, clicking the **New Viewer** item in the context menu that appears, and then selecting a data viewer of choice along with a **Layout** if appropriate.  
   
- **Selecting Layouts**   
+**Selecting Layouts**   
 When you select data viewers from these alternate locations, the viewers listed immediately below will also enable you to choose a built-in view **Layout** in which to present the data. The built-in **Layouts** are custom designed by Microsoft to expose data that is relevant to specific types of analysis. For example, if you are interested in analyzing file sharing performance data after performing a capture, you might choose the **File Sharing Perf SMB/SMB2 Layout** for the **Analysis Grid** viewer in the **New Viewer** drop-down list on the global Message Analyzer toolbar.  
   
 -   **Analysis Grid**  
@@ -87,5 +87,5 @@ When you select data viewers from these alternate locations, the viewers listed 
   
 ## See Also  
 
-- [Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   
-- [Session Data Viewer Options](session-data-viewer-options.md)
+[Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   
+[Session Data Viewer Options](session-data-viewer-options.md)

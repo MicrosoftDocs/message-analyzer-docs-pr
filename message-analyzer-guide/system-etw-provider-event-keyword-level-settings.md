@@ -29,7 +29,7 @@ Most system ETW Providers from which Message Analyzer can capture event data are
 >   
 >  If event **Keyword** and error **Level** filter configurations are available for a chosen system ETW provider and you want to configure such filters, see the sections that follow to understand how to set and use them.  
   
- The conceptual section that follows provides some brief background information on event tracing to help clarify the meaning of these **Keyword** and **Level** filtering features.  
+The conceptual section that follows provides some brief background information on event tracing to help clarify the meaning of these **Keyword** and **Level** filtering features.  
   
 ## Conceptual Background  
 
@@ -43,13 +43,13 @@ Most system ETW Providers from which Message Analyzer can capture event data are
   
 -   **ETW Consumer** — consumes the events from an event tracing session.  
   
- When an ETW Controller enables an ETW Provider, it exposes the provider event configuration to the ETW Session to enhance the provider’s filtering instrumentation. An ETW Provider event configuration is specified with the use of the following two elements:  
+When an ETW Controller enables an ETW Provider, it exposes the provider event configuration to the ETW Session to enhance the provider’s filtering instrumentation. An ETW Provider event configuration is specified with the use of the following two elements:  
   
 -   **Level** — a 1-byte integer that enables filtering based on the severity or verbosity of events.  
   
 -   **Keywords** — an 8-byte bitmask that enables the filtering of events from specific provider subcomponents.  
   
- For example, by selectively enabling these filtering features, the ETW Controller can enable providers to log the following:  
+For example, by selectively enabling these filtering features, the ETW Controller can enable providers to log the following:  
   
 -   Only the error events from a particular provider subcomponent.  
   
@@ -145,4 +145,4 @@ You also might be able to review the **Keyword** configuration of a  system ETW 
 5.  In the **EventLog-System Properties** dialog, click the **Edit** button to display a list of all the **Keywords** that define the events that the selected provider can write to a trace consumer, which are typically specified in the provider manifest.  
   
 ## See Also  
-- [Generating a Provider Manifest](generating-a-provider-manifest.md)
+[Generating a Provider Manifest](generating-a-provider-manifest.md)

@@ -95,4 +95,4 @@ Prior to starting any Live Trace Session, you can specify a **Session Filter** t
   
 ## See Also  
 
-- [Filtering Message Data](filtering-message-data.md)
+[Filtering Message Data](filtering-message-data.md)

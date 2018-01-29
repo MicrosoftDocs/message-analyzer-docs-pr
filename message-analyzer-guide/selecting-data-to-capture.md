@@ -47,7 +47,7 @@ High-level filtering enables you to alter the overall session results that you o
 > [!TIP]
 >  You can also filter trace *results* data by applying a view **Filter** in an Analysis Session. Note that while you can remove the effects of a view **Filter** on a set of trace results, the effect of using a **Fast Filter**, as described ahead,  is inherent to a given set of trace results and cannot be changed unless you rerun the trace with a change in the **Fast Filter** configuration. However, you have the option to modify a **Session Filter** or specify a different one and apply those changes to a set of trace results, if you do so through the **Edit Session** dialog, which is accessible only after your initial trace completes.  
   
- **Selecting Data with Low Level Filtering**   
+**Selecting Data with Low Level Filtering**   
 Message Analyzer also enables you to specify  other types of filtering  during Live Trace Session configuration, such as low-level **Fast Filters**, **WFP Layer Set** filters, event **Keyword** bitmask and error **Level** filters, and others, You can even use **Trace Scenarios** to select specific data in a Live Trace Session. These filters consist of the following:  
   
 -   **Fast Filter** — configure these filters from the **Advanced Settings** dialog for **Trace Scenarios** that use the **Microsoft-PEF-WFP-MessageProvider** or the **Microsoft-PEF-NDIS-PacketCapture** provider. **Fast Filters** work at the provider/driver level, which means that you can isolate the messages you want to focus on without incurring any Message Analyzer parsing time to apply the filtering criteria. This is partly what makes **Fast Filters** so efficient and quick.  
@@ -71,19 +71,19 @@ Message Analyzer also enables you to specify  other types of filtering  during L
      For further details about how to select data from a Live Trace Session with the use of an Adapter filter during **Microsoft-PEF-NDIS-PacketCapture** provider configuration, see [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md).  
     For further details about how to select data from a Live Trace Session with the use of an Adapter filter during **Microsoft-Windows-NDIS-PacketCapture** provider configuration, see [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md).  
   
- **Selecting Data with a Trace Scenario**   
+**Selecting Data with a Trace Scenario**   
 The **Trace Scenario** that you select for your Live Trace Session can have an impact on the data that you return. For example, you could select a **Trace Scenario** that uses a message provider that focuses on a particular stack level, such as the **Loopback and Unencrypted IPSEC** scenario. This scenario focuses on messages above the IP/Network Layer while filtering out most lower-level noise at the Data Link Layer, such as broadcast traffic.  
   
- You could also select a **Trace Scenario** that employs predefined filtering to return a specific result, such as the **Local Loopback Network** scenario, which uses two **Fast Filters** and **WFP Layer Set** filters to pass only loopback traffic. Moreover, you might select a **Trace Scenario**, such as the **VPN** scenario, that employs a number of system ETW Providers that focus on returning specific messages and events that are useful when you are troubleshooting VPN issues.  
+You could also select a **Trace Scenario** that employs predefined filtering to return a specific result, such as the **Local Loopback Network** scenario, which uses two **Fast Filters** and **WFP Layer Set** filters to pass only loopback traffic. Moreover, you might select a **Trace Scenario**, such as the **VPN** scenario, that employs a number of system ETW Providers that focus on returning specific messages and events that are useful when you are troubleshooting VPN issues.  
   
- You might also create your own **Trace Scenario** by selecting one or more system ETW providers from the ***Add Provider*** drop-down list in the **New Session** dialog during Live Trace Session configuration, to create focus on specific types of messages to retrieve during live capture.  
+You might also create your own **Trace Scenario** by selecting one or more system ETW providers from the ***Add Provider*** drop-down list in the **New Session** dialog during Live Trace Session configuration, to create focus on specific types of messages to retrieve during live capture.  
   
- For further details about selecting a **Trace Scenario** to return specific types of data, see the [Selecting a Trace Scenario](selecting-a-trace-scenario.md) section.  
+For further details about selecting a **Trace Scenario** to return specific types of data, see the [Selecting a Trace Scenario](selecting-a-trace-scenario.md) section.  
   
 ---  
   
- **More Information**   
- **To learn more** about the configuration features of the **Advanced Settings** dialogs for the **Microsoft-PEF-WFP-MessageProvider**, **Microsoft-PEF-NDIS-PacketCapture** provider, and the **Microsoft-Windows-NDIS-PacketCapture** provider, see the following topics:  
+**More Information**   
+**To learn more** about the configuration features of the **Advanced Settings** dialogs for the **Microsoft-PEF-WFP-MessageProvider**, **Microsoft-PEF-NDIS-PacketCapture** provider, and the **Microsoft-Windows-NDIS-PacketCapture** provider, see the following topics:  
 [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md) — describes how to configure **Fast Filters**, **Discarded Packet Events**, and **WFP Layer Set** filters (packet direction at the Transport Layer).  
 [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md) — describes how to select adapters, configure **Fast Filters**, and create **Fast Filter** groups to apply to local host adapters.  
 [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md) — describes how to configure advanced packet direction and layer filtering configurations for the NDIS stack and Hyper-V-Switch extension layers on remote (or local) hosts, in addition to packet **Truncation** filters and special message payload filtering such as **EtherType** and **IP Protocol Numbers**.  
@@ -92,4 +92,4 @@ The **Trace Scenario** that you select for your Live Trace Session can have an i
   
 ## See Also  
 
-- [Editing Existing Sessions](editing-existing-sessions.md)
+[Editing Existing Sessions](editing-existing-sessions.md)

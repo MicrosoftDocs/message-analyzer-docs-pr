@@ -112,7 +112,7 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
   
 -   **Selected Messages** — enables you to save only specific messages that you select in an **Analysis Grid** viewer session tab; for example, you might want to save specific decrypted messages and their origins messages of the associated protocol stacks.  
   
- After you specify one of the indicated save options, you can save your data as follows:  
+After you specify one of the indicated save options, you can save your data as follows:  
   
 -   **Save As** — click this button to save your decrypted data in the native .matp trace file format. If you reload such a file, it is unnecessary to enable **Decryption** again to see the decrypted data in a Message Analyzer viewer such as the **Analysis Grid**.  
   
@@ -120,12 +120,12 @@ In addition to the many tools that Message Analyzer provides to filter, analyze,
   
 ---  
   
- **More Information**   
- **To learn more** about starting and configuring a new Data Retrieval Session or a Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
+**More Information**   
+**To learn more** about starting and configuring a new Data Retrieval Session or a Live Trace Session, see [Starting a Message Analyzer Session](starting-a-message-analyzer-session.md).  
 **To learn more** about saving trace data, see the [Saving Message Data](saving-message-data.md) section.   
 
 ---  
   
 ## See Also  
 
-- [Decryption Tool Window](decryption-tool-window.md)
+[Decryption Tool Window](decryption-tool-window.md)

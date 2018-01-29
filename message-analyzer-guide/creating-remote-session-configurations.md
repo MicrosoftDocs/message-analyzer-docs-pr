@@ -28,5 +28,5 @@ This section describes how to set up a **Trace Scenario** that will capture data
   
 ## See Also  
 
-- [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md)   
-- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)
+[Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md)   
+[Configuring a Live Trace Session](configuring-a-live-trace-session.md)

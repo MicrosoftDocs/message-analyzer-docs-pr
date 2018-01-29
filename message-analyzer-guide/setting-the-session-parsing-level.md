@@ -90,4 +90,4 @@ Message Analyzer provides a collection of built-in **Parsing Level** scenarios t
   
 ## See Also  
 
-- [Specifying a Parsing Level](specifying-a-parsing-level.md)
+[Specifying a Parsing Level](specifying-a-parsing-level.md)

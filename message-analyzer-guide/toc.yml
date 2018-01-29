@@ -148,8 +148,8 @@
           items:
           - name: Configuring a Remote Capture
             href: configuring-a-remote-capture.md
-          - name: Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog
-            href: using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md
+          - name: Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog
+            href: using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md
       - name: Performing a Live Capture
         href: performing-a-live-capture.md
       - name: "Procedures: Using the Network Tracing Features"

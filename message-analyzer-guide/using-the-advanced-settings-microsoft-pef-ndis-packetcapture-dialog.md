@@ -25,15 +25,15 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
   
 -   **Wireless Local Area Network (Win 8 and earlier)**  
   
- The **Advanced Settings** dialog for the **Microsoft-PEF-NDIS-PacketCapture** provider  is shown in the figure that follows.  
+The **Advanced Settings** dialog for the **Microsoft-PEF-NDIS-PacketCapture** provider  is shown in the figure that follows.  
   
- ![Advanced Settings &#45; PEF&#45;NDIS&#45;PacketCapture Dialog](media/fig22-advanced-settings-pef-ndis-packetcapture-dialog.png "Fig22-Advanced Settings - PEF-NDIS-PacketCapture Dialog")  
+![Advanced Settings &#45; PEF&#45;NDIS&#45;PacketCapture Dialog](media/fig22-advanced-settings-pef-ndis-packetcapture-dialog.png "Fig22-Advanced Settings - PEF-NDIS-PacketCapture Dialog")  
   
- **Figure 22:  Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog**  
+**Figure 22:  Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog**  
   
- The **Advanced Settings** dialog provides its functionality in a flexible framework that enables you to focus on capturing very specific data while achieving the performance advantages that are inherent to **Fast Filters**. This framework enables you to logically chain up to three **Fast Filters** in each of two **Groups** that can be logically ORed or ANDed, which you can then assign to one or more *selected* adapters. For example, you can assign a single **Group** or both **Groups** of filters to one or more adapters.  
+The **Advanced Settings** dialog provides its functionality in a flexible framework that enables you to focus on capturing very specific data while achieving the performance advantages that are inherent to **Fast Filters**. This framework enables you to logically chain up to three **Fast Filters** in each of two **Groups** that can be logically ORed or ANDed, which you can then assign to one or more *selected* adapters. For example, you can assign a single **Group** or both **Groups** of filters to one or more adapters.  
   
- An adapter is considered selected only when you select at least one of the **In** or **Out** (traffic direction) check boxes in the **Advanced Settings** dialog. However, the default selection is to capture traffic in both directions. In order for a **Group** filter configuration to *apply* to packets intended for a particular adapter, the adapter must be selected in the indicated manner. Also, a filter **Group** can only be *assigned* to a selected adapter if the row in which the adapter exists is highlighted and then you click the **Apply to Highlighted** button for the **Group**. In addition, because **Fast Filters** are nested in **Groups**, which are in turn assigned to specific adapters, the total filtering effects that you realize are the result of both adapter selection and filter **Group** assignment combined. For this reason, you should carefully consider how you assign **Groups** to selected adapters, as described in [How Fast Filter Groups Are Applied](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md#BKMK_FastFiltersApplied).  
+An adapter is considered selected only when you select at least one of the **In** or **Out** (traffic direction) check boxes in the **Advanced Settings** dialog. However, the default selection is to capture traffic in both directions. In order for a **Group** filter configuration to *apply* to packets intended for a particular adapter, the adapter must be selected in the indicated manner. Also, a filter **Group** can only be *assigned* to a selected adapter if the row in which the adapter exists is highlighted and then you click the **Apply to Highlighted** button for the **Group**. In addition, because **Fast Filters** are nested in **Groups**, which are in turn assigned to specific adapters, the total filtering effects that you realize are the result of both adapter selection and filter **Group** assignment combined. For this reason, you should carefully consider how you assign **Groups** to selected adapters, as described in [How Fast Filter Groups Are Applied](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md#BKMK_FastFiltersApplied).  
   
 ## Viewing the System Network Configuration  
 
@@ -66,17 +66,17 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
   
 -   **One adapter element row** — when you assign a filter **Group** containing one or more **Fast Filters** to a single adapter that is both selected and highlighted, the filtering configuration applies to the highlighted adapter only.  
   
-> [!NOTE]
->  You can highlight an adapter by clicking any column in the element row in which the target adapter is listed, at which time the row is highlighted in blue. After you assign a filter **Group** to a highlighted adapter by clicking the **Apply to Highlighted** button, the color of the highlighted row changes to gray.  
+ > [!NOTE]
+ >  You can highlight an adapter by clicking any column in the element row in which the target adapter is listed, at which time the row is highlighted in blue. After you assign a filter **Group** to a highlighted adapter by clicking the **Apply to Highlighted** button, the color of the highlighted row changes to gray.  
   
 -   **Multiple adapter element rows** — when you assign a filter **Group** of one or more **Fast Filters** to multiple selected and highlighted adapters, the filtering configuration applies to the highlighted adapters.  
   
 -   **All adapters** — when you assign a filter **Group** of one or more **Fast Filters** to all selected and highlighted adapters, the filtering configuration applies to all adapters in the **System Network** tree grid.  
 
-> [!NOTE]
->  You can select and highlight all adapters by selecting one or both traffic direction check boxes in the **Machine** element row.  
+ > [!NOTE]
+ >  You can select and highlight all adapters by selecting one or both traffic direction check boxes in the **Machine** element row.  
   
- Also, when you successfully assign a filter **Group** to a particular adapter, the name of the adapter to which the filter configuration is assigned displays next to the **Target** label for the assigned **Group**.  
+Also, when you successfully assign a filter **Group** to a particular adapter, the name of the adapter to which the filter configuration is assigned displays next to the **Target** label for the assigned **Group**.  
   
 <a name="BKMK_FastFiltersApplied"></a>   
 ## How Fast Filter Groups Are Applied  
@@ -100,4 +100,4 @@ The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog is available
 ---  
   
 ## See Also  
-- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)
+[Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)
