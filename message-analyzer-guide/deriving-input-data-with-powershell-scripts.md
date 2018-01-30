@@ -64,4 +64,4 @@ This section describes two different methods that you can use to acquire data fo
   
 3.  If not already selected, choose the **Analysis Grid** viewer from the **Start With** drop-down list in the **New Session** dialog as the viewer in which to assess your query results.  
   
- When you finish with the PowerShell query and host configuration, click the **Start** button in the **New Session** dialog to begin acquiring your data.
+When you finish with the PowerShell query and host configuration, click the **Start** button in the **New Session** dialog to begin acquiring your data.

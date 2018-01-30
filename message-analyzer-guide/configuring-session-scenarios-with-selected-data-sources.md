@@ -30,11 +30,11 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
 ---  
   
-- [Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
-- [Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
-- [Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
-- [Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
-- [Correlating Data from Multiple Input Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
+[Input Data Source Configurations](configuring-session-scenarios-with-selected-data-sources.md#BKMK_InputDataSourceConfigs)   
+[Supported Data Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_SupportedDataSources)   
+[Live Trace Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_LiveTraceSessionConfig)   
+[Data Retrieval Scenario Configuration](configuring-session-scenarios-with-selected-data-sources.md#BKMK_DataRetrievalSessionConfig)   
+[Correlating Data from Multiple Input Sources](configuring-session-scenarios-with-selected-data-sources.md#BKMK_CorrelateDataFromInputSources)   
 
 ---  
   
@@ -50,13 +50,13 @@ When you are creating a Live Trace Session or  a Data Retrieval Session with Mes
   
      Different data sources might consist of two separate sets of files along with a PowerShell query, a SQL query, data from a specified Event Log, and/or multiple instances of these with different filtering configurations applied, that is, where it makes sense to do so.  
   
- The figure that follows is a Data Retrieval Session that is configured to retrieve data from two file sources and a PowerShell query. It also shows the other data source types that Message Analyzer supports on the **New Data Source** tab. Any of these sources could be added to this data loading configuration if correlation of data from such sources made sense.  
+The figure that follows is a Data Retrieval Session that is configured to retrieve data from two file sources and a PowerShell query. It also shows the other data source types that Message Analyzer supports on the **New Data Source** tab. Any of these sources could be added to this data loading configuration if correlation of data from such sources made sense.  
   
- ![Session configuration options](media/fig39-session-configuration-options.png "Fig39-Session configuration options")  
+![Session configuration options](media/fig39-session-configuration-options.png "Fig39-Session configuration options")  
   
- **Figure 39:  Session data source configuration options**  
+**Figure 39:  Session data source configuration options**  
   
- **Live Capture Configurations**   
+**Live Capture Configurations**   
 For Live Trace Sessions, this means that you can create one or more unique capture configurations to acquire live data from  the local computer and/or from one or more remote computers. To create this type of session scenario, you would click the **Live Trace** button under **Add Data Source** in the **New Session** dialog. In the **New Session** dialog, you can accept the default and  collect live data from the local computer, or you can specify one or more remote computers on which to capture live data. If you want to create another capture configuration to acquire live data, for example from a different set of computers, simply click the **New Data Source** tab and then click the **Live Trace** button again to display the Live Trace Session configuration controls on another **Live Trace** tab. On each tab, the inherent controls enable you to create unique capture configurations that use different built-in **Trace Scenarios**, different ETW providers and provider configurations, and different types of filtering that together can create a capture focus that will return specific data from specified computers for analysis. You can then run all capture configurations simultaneously on the computers that you specified.  
   
 ---  
@@ -125,7 +125,7 @@ For Data Retrieval Sessions, this means that you can create a unique data loadin
   
 -   **Customized Parsing** — a **Parsing Level** will apply to any specified **Trace Scenario**.  
   
- After you start the Live Trace Session, Message Analyzer applies the filtering configurations and other settings that you specified to the live capture on the target computer/s. If you specified any remote computers in the **Target Computers** list on any **Live Trace** tab, Message Analyzer creates a separate sub-session of the Live Trace Session that captures messages on each specified remote computer. The data from all sub-sessions is returned and aggregated to the originating Live Trace Session when the session is stopped.  
+After you start the Live Trace Session, Message Analyzer applies the filtering configurations and other settings that you specified to the live capture on the target computer/s. If you specified any remote computers in the **Target Computers** list on any **Live Trace** tab, Message Analyzer creates a separate sub-session of the Live Trace Session that captures messages on each specified remote computer. The data from all sub-sessions is returned and aggregated to the originating Live Trace Session when the session is stopped.  
   
 > [!TIP]
 >  After you have captured data from multiple data sources, in many cases you can organize them into separate data source groups in the **Analysis Grid** viewer by right-clicking the **DataSource** field in the **General** category of **Field Chooser** and then selecting the **Add as Grouping** command in the context menu that appears.  
@@ -199,7 +199,7 @@ For Data Retrieval Sessions, this means that you can create a unique data loadin
   
 ## See Also  
 
-- [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
-- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)   
-- [Configuring a Remote Capture](configuring-a-remote-capture.md)   
-- [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)
+[Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
+[Configuring a Live Trace Session](configuring-a-live-trace-session.md)   
+[Configuring a Remote Capture](configuring-a-remote-capture.md)   
+[Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md)

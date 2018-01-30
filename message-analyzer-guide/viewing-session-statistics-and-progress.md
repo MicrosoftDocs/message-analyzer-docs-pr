@@ -27,7 +27,7 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
   
 -   Data captured in a Live Trace Session.  
   
- Message Analyzer also enables you to view progress indications for multiple concurrent sessions that load data at the same time. You can also observe the progress of message processing during data manipulation operations, which includes the application and removal of view **Filters**, **Groups**, **Viewpoints**, **Pattern Matches**, **Layouts**, and **Time Filters**. In addition, you can hover over any top-level session node in **Session Explorer** with your mouse and view the message count for the associated session in a tooltip. You can also hover over any session viewer node in **Session Explorer** **Tool Window** and display a tooltip that indicates the analytical assets that are applied to that viewer.  
+Message Analyzer also enables you to view progress indications for multiple concurrent sessions that load data at the same time. You can also observe the progress of message processing during data manipulation operations, which includes the application and removal of view **Filters**, **Groups**, **Viewpoints**, **Pattern Matches**, **Layouts**, and **Time Filters**. In addition, you can hover over any top-level session node in **Session Explorer** with your mouse and view the message count for the associated session in a tooltip. You can also hover over any session viewer node in **Session Explorer** **Tool Window** and display a tooltip that indicates the analytical assets that are applied to that viewer.  
   
 ## Indicating Progress and Statistics  
 
@@ -49,13 +49,13 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
   
 -   **Hover-over tool tips** — as indicated earlier, tooltips that display when you mouse-hover over any top-level session node or any session viewer sub-node in **Session Explorer**, provide a quick indication of session message count and the analytical assets that you have applied to a viewer, respectively. Applied assets can include a **Viewpoint**, **Viewpoint Filter**, view **Filter**, and/or a **Message Range Filter**.  
   
-> [!NOTE]
->  Session viewer tabs also display the same tool tip information when you hover over them with your mouse.  
+ > [!NOTE]
+ >  Session viewer tabs also display the same tool tip information when you hover over them with your mouse.  
   
 -   **Session color coding** — each top-level session node and related session viewer subnodes in **Session Explorer** are color-coded for quick identification. Different sessions are identified with a different colored dot, which helps to automatically organize your session data viewers.  
   
-> [!TIP]
->  Session viewer tabs also contain associated colored dots, to enable you to quickly correlate all viewers of the same session.  
+ > [!TIP]
+ >  Session viewer tabs also contain associated colored dots, to enable you to quickly correlate all viewers of the same session.  
   
 > [!NOTE]
 >  **Session Explorer** also contains different **Session** node icons that indicate the type of session to which progress statistics apply, for example, a Live Trace Session versus a Data Retrieval Session. In addition, icons are added to the right side of session viewer subnodes to indicate the application of an analytical asset. For example, a funnel shaped glyph indicates when a **Session Filter** or view **Filter** was applied to the messages in your Live Trace Session or Data Retrieval Session.  
@@ -97,4 +97,4 @@ Message Analyzer provides a robust set of monitoring facilities such as progress
   
 ## See Also  
 
-- [Session Explorer Tool Window](session-explorer-tool-window.md)
+[Session Explorer Tool Window](session-explorer-tool-window.md)

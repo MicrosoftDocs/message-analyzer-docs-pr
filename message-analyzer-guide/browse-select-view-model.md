@@ -29,9 +29,9 @@ Microsoft Message Analyzer utilizes a unique set of Browse-Select-View (BSV) fea
   
 -   **Capturing live data** — this path handles new data that is captured in a Live Trace Session.  
   
- For each of these data acquisition paths, Message Analyzer uses common aspects of the BSV model to provide a similar data selection and viewing experience in both types of sessions. A Data Retrieval Session and a Live Trace Session also share another common characteristic, which is that they both enable you to acquire input from multiple data sources. For example, you can retrieve historical data from one or more saved source files in a single Data Retrieval Session; or you can capture data simultaneously from the local computer and/or multiple remote computers in a single Live Trace Session that establishes a subsession for each computer on which Message Analyzer is capturing data. Message Analyzer also has the capability to run multiple Live Trace Sessions at the same time, where you can start up multiple sessions one after the other.  
+For each of these data acquisition paths, Message Analyzer uses common aspects of the BSV model to provide a similar data selection and viewing experience in both types of sessions. A Data Retrieval Session and a Live Trace Session also share another common characteristic, which is that they both enable you to acquire input from multiple data sources. For example, you can retrieve historical data from one or more saved source files in a single Data Retrieval Session; or you can capture data simultaneously from the local computer and/or multiple remote computers in a single Live Trace Session that establishes a subsession for each computer on which Message Analyzer is capturing data. Message Analyzer also has the capability to run multiple Live Trace Sessions at the same time, where you can start up multiple sessions one after the other.  
   
- The Message Analyzer BSV model supports the following operations when acquiring input data:  
+The Message Analyzer BSV model supports the following operations when acquiring input data:  
   
 -   **Browse for data sources** — you can browse for and load data from one or more data sources, such as saved trace and log files.  See [Targeting Saved Data as an Input Source](targeting-saved-data-as-an-input-source.md) for more information.  
   
@@ -51,7 +51,7 @@ Microsoft Message Analyzer utilizes a unique set of Browse-Select-View (BSV) fea
   
     -   **Parsing Level** filter  
   
- You can also view data from a Live Trace Session in the exact same presentation formats that you can apply to data that you load into Message Analyzer through a Data Retrieval Session.  
+You can also view data from a Live Trace Session in the exact same presentation formats that you can apply to data that you load into Message Analyzer through a Data Retrieval Session.  
   
 ---  
   

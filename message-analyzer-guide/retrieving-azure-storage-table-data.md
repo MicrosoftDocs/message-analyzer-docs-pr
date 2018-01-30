@@ -36,11 +36,11 @@ To proceed directly to a detailed procedure that you can follow to retrieve Azur
   
 -   **Table Name** — the name of the table that contains the data you want to access.  
   
- The figure that follows shows the **Azure Table** interface from where you provide the specified input information.  
+The figure that follows shows the **Azure Table** interface from where you provide the specified input information.  
   
- ![Azure Table input configuration](media/fig33-azure-table-input-configuration.png "Fig33-Azure Table input configuration")  
+![Azure Table input configuration](media/fig33-azure-table-input-configuration.png "Fig33-Azure Table input configuration")  
   
- **Figure 33: Azure Table input configuration**  
+**Figure 33: Azure Table input configuration**  
   
 <a name="BKMK_AzureWrkflowOverview"></a>   
 ## Workflow Overview  
@@ -80,4 +80,4 @@ To proceed directly to a detailed procedure that you can follow to retrieve Azur
   
 ## See Also  
 
-- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)
+[Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)

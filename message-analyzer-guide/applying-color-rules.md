@@ -29,11 +29,11 @@ In the Message Analyzer **Analysis Grid** viewer, each row of the message grid d
   
 -   **Globally** — apply all the **Color Rules** in the local **Message Analyzer Color Rules** asset collection Library by selecting the **Message Analyzer** and **My Items** nodes in the **Color Rules** drop-down list, which is accessible on the **Analysis Grid** viewer toolbar.  
   
- Each rule **Category** contains a tree view of **Color Rules** that you can selectively enable or disable by placing a check mark in the check box of a rule, or by removing it, respectively. A **Category** that has only a subset of rules enabled is shown with its check box in the shaded tri-state condition. A **Category** that has all its rules enabled is simply shown with a check mark in its selection check box.  
+Each rule **Category** contains a tree view of **Color Rules** that you can selectively enable or disable by placing a check mark in the check box of a rule, or by removing it, respectively. A **Category** that has only a subset of rules enabled is shown with its check box in the shaded tri-state condition. A **Category** that has all its rules enabled is simply shown with a check mark in its selection check box.  
   
 > [!NOTE]
 >  If you leave a **Color Rule** or one or more  **Categories** of rules enabled and you close the current Live Trace Session or Data Retrieval Session, the selected **Color Rules** will continue to be applied to all subsequent session results that you display in the **Analysis Grid** viewer, until such time that you disable them. Enabled **Color Rules** are also applied across all current Message Analyzer sessions.  
   
 ## See Also  
 
-- [Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)
+[Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)

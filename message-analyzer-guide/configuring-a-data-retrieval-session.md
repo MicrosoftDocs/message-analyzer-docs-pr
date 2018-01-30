@@ -35,8 +35,8 @@ This section describes the typical tasks that you will perform when configuring 
   
 2.  Target the message data to be retrieved from one or more data sources such as saved trace files or logs, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
   
-> [!NOTE]
->  You have the option to aggregate multiple data sources into a single session by making use of the **New Data Source** tab in a Data Retrieval Session. For additional details, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
+ > [!NOTE]
+ >  You have the option to aggregate multiple data sources into a single session by making use of the **New Data Source** tab in a Data Retrieval Session. For additional details, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
   
 3.  Select specific files that contain the data you want to work with, to create a subset of a larger targeted set of input files, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
   
@@ -74,15 +74,15 @@ If the input files for your Data Retrieval Session are large, you can limit the 
 ## Data Retrieval Session Configuration Features  
  The following subtopics describe the Data Retrieval Session configuration features that Message Analyzer provides and various operations that Message Analyzer supports:  
   
-- [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)   
-- [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md)   
-- [Decrypting Input Data](decrypting-input-data.md)   
-- [Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
-- [Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   
-- [Working With Special Input Requirements](working-with-special-input-requirements.md)   
-- [Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
-- [Merging and Aggregating Message Data](merging-and-aggregating-message-data.md)   
-- [Naming a Session](naming-a-session.md)  
+[Locating Supported Input Data File Types](locating-supported-input-data-file-types.md)   
+[Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md)   
+[Decrypting Input Data](decrypting-input-data.md)   
+[Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
+[Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md)   
+[Working With Special Input Requirements](working-with-special-input-requirements.md)   
+[Acquiring Data From Other Input Sources](acquiring-data-from-other-input-sources.md)   
+[Merging and Aggregating Message Data](merging-and-aggregating-message-data.md)   
+[Naming a Session](naming-a-session.md)  
   
 ---  
   

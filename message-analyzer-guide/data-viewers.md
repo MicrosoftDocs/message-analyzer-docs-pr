@@ -27,9 +27,9 @@ In any Analysis Session, Message Analyzer enables you to use data viewers to pre
   
 -   Perform calculations that expose interesting statistics, extract key information, or enhance the analysis process by utilizing custom    global property and annotation values.  
   
- The data viewers, the **Layouts** that apply to specific data viewers, and the graphic visualizer **Layouts** for the **Chart** viewer are all described in this section, along with related functional descriptions, how to launch these data viewers, how to display different viewer **Layouts** in those viewers that employ them, and how to use these components to solve diagnostic problems.  
+The data viewers, the **Layouts** that apply to specific data viewers, and the graphic visualizer **Layouts** for the **Chart** viewer are all described in this section, along with related functional descriptions, how to launch these data viewers, how to display different viewer **Layouts** in those viewers that employ them, and how to use these components to solve diagnostic problems.  
   
- The table that follows describes the default data viewers and the preview feature viewers that Message Analyzer provides and also identifies the viewers that employ **Layouts** along with the asset collection Libraries in which they exist.  
+The table that follows describes the default data viewers and the preview feature viewers that Message Analyzer provides and also identifies the viewers that employ **Layouts** along with the asset collection Libraries in which they exist.  
   
 ### Table 11. Message Analyzer Data Viewers and Layouts  
   
@@ -70,16 +70,16 @@ In any Analysis Session, Message Analyzer enables you to use data viewers to pre
   
 -   **File Sharing**  
   
- The **Chart** viewer **Layouts** that exist in these categories are described in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. Note that you can also create your own **Layouts** to contain a data visualizer that you choose and  data formulas that you configure, and you can create your own categories in which to place them under the default **My Items** top-level category in the **Layouts** Library.  
+The **Chart** viewer **Layouts** that exist in these categories are described in the [Chart Viewer Layouts](chart-viewer-layouts.md) topic. Note that you can also create your own **Layouts** to contain a data visualizer that you choose and  data formulas that you configure, and you can create your own categories in which to place them under the default **My Items** top-level category in the **Layouts** Library.  
   
 ---  
   
- **More Information**   
- **To learn more** about how to create **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
+**More Information**   
+**To learn more** about how to create **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
 **To learn more** about Message Analyzer assets, see [Managing Message Analyzer Assets](managing-message-analyzer-assets.md).  
 
 --  
   
 ## See Also  
 
-- [Chart Viewer Layouts](chart-viewer-layouts.md)
+[Chart Viewer Layouts](chart-viewer-layouts.md)

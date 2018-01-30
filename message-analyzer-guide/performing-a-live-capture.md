@@ -33,7 +33,7 @@ This topic describes several methods that you can use to perform a live capture 
   
     -   **Pre-Encryption for HTTPS** — uses the **Microsoft-Pef-WebProxy** and Fiddler providers for any supported operating system that is running on the local computer.  
   
-     You will find each of the  above **Trace Scenario** Favorites by performing any of the following actions:  
+ You will find each of the  above **Trace Scenario** Favorites by performing any of the following actions:  
   
     -   Click the Message Analyzer **File** menu, point to the **Favorite Scenarios** item, and then select one of the above scenarios in the submenu that appears.  
   
@@ -41,13 +41,13 @@ This topic describes several methods that you can use to perform a live capture 
   
     -   Click one of the scenarios in the **Favorite Scenarios** list on the **Start Page**.  
   
-> [!TIP]
->  To add more scenarios to the **Favorite Scenarios** list, which includes other built-in **Trace Scenarios** and any custom scenarios that you have created, click **Edit Favorites** on the **Start Page** to display the **Edit Favorites** dialog. From this dialog, configure a **Trace Scenario** as a Favorite and add it to the **Favorite Scenarios** list by clicking the white star next to a **Trace Scenario**, at which time the white star changes to the color yellow and the **Favorite Scenarios** list is updated to include the new Favorite that you are adding. The update is then reflected in the previously indicated locations where you can access the **Favorite Scenarios** list.  
+   > [!TIP]
+   >  To add more scenarios to the **Favorite Scenarios** list, which includes other built-in **Trace Scenarios** and any custom scenarios that you have created, click **Edit Favorites** on the **Start Page** to display the **Edit Favorites** dialog. From this dialog, configure a **Trace Scenario** as a Favorite and add it to the **Favorite Scenarios** list by clicking the white star next to a **Trace Scenario**, at which time the white star changes to the color yellow and the **Favorite Scenarios** list is updated to include the new Favorite that you are adding. The update is then reflected in the previously indicated locations where you can access the **Favorite Scenarios** list.  
   
 -   **New Session** dialog — click the **Start** button in the **New Session** dialog. Use this method to create the capture configuration for a Live Trace Session prior to starting it. You could configure a session simply by selecting a particular **Trace Scenario** and then starting the session. Optionally, you can customize the capture configuration first with selected system ETW providers; with filtering configurations that can include a **Fast Filter**, **Session Filter**, **Parsing Level**, and an event **Keyword** bitmask or error **Level** filter; with advanced host adapter and/or switch adapter filters; by specifying a data viewer; and so on. If you want to create unique capture configurations that are tailored to your environment or other requirements, this is the method you will use most often.  
   
-> [!NOTE]
->  After you create a custom capture configuration for a Live Trace Session, you can save the configuration as a new user **Trace Scenario**. It will then appear in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog, as described in [Saving Trace Scenarios](saving-trace-scenarios.md). You can then run the scenario on demand. Note that you can fully edit or delete any **Trace Scenarios** that you created, whereas, this is not possible for any of the built-in **Trace Scenarios** that install with Message Analyzer.  
+ > [!NOTE]
+ >  After you create a custom capture configuration for a Live Trace Session, you can save the configuration as a new user **Trace Scenario**. It will then appear in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog, as described in [Saving Trace Scenarios](saving-trace-scenarios.md). You can then run the scenario on demand. Note that you can fully edit or delete any **Trace Scenarios** that you created, whereas, this is not possible for any of the built-in **Trace Scenarios** that install with Message Analyzer.  
   
 ---  
   

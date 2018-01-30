@@ -25,9 +25,9 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
   
 -   **Organization** — you can organize the view of network/protocol infrastructure at a high level.  
   
- With **Color Rules** applied, you can quickly expose subtleties that are not readily obvious in the default display style of the **Analysis Grid** viewer — for example, network direction, message payloads, and error conditions. This can help you effectively evaluate common issues with accuracy and speed. Moreover, you can design multiple **Color Rules** with differing decoration configurations and filtering criteria that apply to specifically related message types, so that the default display style will alter to include the decoration schemes of all the matching **Color Rules**. Using **Color Rules** in this manner can provide a more visually robust indication of some state, condition, or value that you are trying to pinpoint at-a-glance.  
+With **Color Rules** applied, you can quickly expose subtleties that are not readily obvious in the default display style of the **Analysis Grid** viewer — for example, network direction, message payloads, and error conditions. This can help you effectively evaluate common issues with accuracy and speed. Moreover, you can design multiple **Color Rules** with differing decoration configurations and filtering criteria that apply to specifically related message types, so that the default display style will alter to include the decoration schemes of all the matching **Color Rules**. Using **Color Rules** in this manner can provide a more visually robust indication of some state, condition, or value that you are trying to pinpoint at-a-glance.  
   
- For example, you could very quickly expose messages with a particular transport and network protocol in a trace by applying the default **TCP** left gradient and **IPv4 Right Gradient** rules from the **Color Rules** drop-down list on the **Analysis Grid** toolbar. Thereafter, all **TCP** messages that use **IPv4** will display in the **Analysis Grid** viewer with the opposite facing gradient color configurations that are characterized by these rules. Note that the **Analysis Grid** viewer will expose these color configurations by showing them in top-level messages, even if one of those **Color Rules** applies to an unexposed origins message only.  
+For example, you could very quickly expose messages with a particular transport and network protocol in a trace by applying the default **TCP** left gradient and **IPv4 Right Gradient** rules from the **Color Rules** drop-down list on the **Analysis Grid** toolbar. Thereafter, all **TCP** messages that use **IPv4** will display in the **Analysis Grid** viewer with the opposite facing gradient color configurations that are characterized by these rules. Note that the **Analysis Grid** viewer will expose these color configurations by showing them in top-level messages, even if one of those **Color Rules** applies to an unexposed origins message only.  
   
 ## Using the Default Color Rule Asset Collection Library  
 
@@ -49,7 +49,7 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
   
 -   **RPC**  
   
- You can select any or all of the default **Color Rules** in your rule Library to immediately apply the associated rule functionality to a currently displaying message set. As a result, the default display color and style of messages in the **Analysis Grid** viewer that match the filtering criteria of the applied **Color Rules** will be overlaid with the decoration scheme and styles of such **Color Rules**. This temporary alteration to the default message display style provides an instant visual cue that enables you to rapidly discover message data that may be of interest in your analysis process. When you deselect one or more **Color Rules**, the associated display schemes and styles are immediately removed from the corresponding messages in the **Analysis Grid** viewer.  
+You can select any or all of the default **Color Rules** in your rule Library to immediately apply the associated rule functionality to a currently displaying message set. As a result, the default display color and style of messages in the **Analysis Grid** viewer that match the filtering criteria of the applied **Color Rules** will be overlaid with the decoration scheme and styles of such **Color Rules**. This temporary alteration to the default message display style provides an instant visual cue that enables you to rapidly discover message data that may be of interest in your analysis process. When you deselect one or more **Color Rules**, the associated display schemes and styles are immediately removed from the corresponding messages in the **Analysis Grid** viewer.  
   
 <a name="BKMK_UsingGradientDecorations"></a>   
 ## Using Gradient Decoration Configurations  
@@ -65,7 +65,7 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
   
 -   **IPv6** and **UDP**  
   
- The **Color Rule** filtering criteria in this example is simple. The **IPv4 Color Rule** uses an “IPv4” filter expression; the **TCP Color Rule** uses a “TCP” filter expression; the **UDP Color Rule** uses a “UDP” filter expression; and so on for **IPv6**. When a particular message meets the filtering criteria of any of the **Color Rule** pairs indicated in the example, both directional gradients will be overlaid on the message and rendered easily visible, thus providing a quick visual cue of the particular message types that the specified filtering criteria reflects. For example, in the case of the default **IPv4** and **TCP** rules, **IPv4** uses a **Right-Hand Side** gradient decoration and **TCP** uses a **Left-Hand Side** gradient decoration, such that both decoration schemes will be easily recognized in a message row when the filtering criteria of both these rules is met.  
+The **Color Rule** filtering criteria in this example is simple. The **IPv4 Color Rule** uses an “IPv4” filter expression; the **TCP Color Rule** uses a “TCP” filter expression; the **UDP Color Rule** uses a “UDP” filter expression; and so on for **IPv6**. When a particular message meets the filtering criteria of any of the **Color Rule** pairs indicated in the example, both directional gradients will be overlaid on the message and rendered easily visible, thus providing a quick visual cue of the particular message types that the specified filtering criteria reflects. For example, in the case of the default **IPv4** and **TCP** rules, **IPv4** uses a **Right-Hand Side** gradient decoration and **TCP** uses a **Left-Hand Side** gradient decoration, such that both decoration schemes will be easily recognized in a message row when the filtering criteria of both these rules is met.  
   
 > [!NOTE]
 >  The default gradient **Color Rule** pairs are specifically designed to visually coordinate the display of their gradients in opposite directions when overlaid on a single message that matches the filtering criteria of both rules. This is possible because each **Color Rule** makes appropriate use of a white background for either the **Left-Hand Side** or **Right-Hand Side** color in the **Gradient Background** configuration, so that the overlaid gradients can show through.  
@@ -80,15 +80,15 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
   
 -   **Develop** — create, configure, and save your own **Color Rules** in your local **Color Rule** Library.  
   
- Note that you can also **Export** your **Color Rule** items through the Message Analyzer Sharing Infrastructure to a file share that you can configure as a feed to which others may subscribe. In a future Message Analyzer release, the Sharing Infrastructure publishing features will automatically enable others to synchronize to any updates that you make to your **Color Rule** items on the feed. However, you can currently perform a manual configuration process that enables users to synchronize to your item updates, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
+Note that you can also **Export** your **Color Rule** items through the Message Analyzer Sharing Infrastructure to a file share that you can configure as a feed to which others may subscribe. In a future Message Analyzer release, the Sharing Infrastructure publishing features will automatically enable others to synchronize to any updates that you make to your **Color Rule** items on the feed. However, you can currently perform a manual configuration process that enables users to synchronize to your item updates, as described in [Manual Item Update Synchronization](manual-item-update-synchronization.md).  
   
 > [!TIP]
 >  Because it can be time consuming to create your own **Color Rules**, you should take advantage of **Message Analyzer Color Rule** asset collection updates that are periodically available from Microsoft through the **Message Analyzer** feed in the **Asset Manager** dialog, or from other users that have created and shared their **Color Rules**. To do this, you will make use of the auto-sync and download features for user Library asset collections and the Message Analyzer Sharing Infrastructure, which are available from the **Asset Manager**. Since these features provide a convenient and consistent method for managing and sharing these items, you can quickly learn from others how to apply different methods and approaches to problem diagnosis, and thereby realize improvements in your effectiveness and efficiency as a message analysis specialist.  
   
 ---  
   
- **More Information**   
- **To learn more** about **Color Rule** management features, see [Managing Color Rules](managing-color-rules.md).  
+**More Information**   
+**To learn more** about **Color Rule** management features, see [Managing Color Rules](managing-color-rules.md).  
 **To learn more** about the Message Analyzer Sharing Infrastructure, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
 **To learn more** about auto-syncing and downloading user Library asset collection updates, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).  
 
@@ -96,4 +96,4 @@ Message Analyzer provides an important analysis feature known as  **Color Rules*
   
 ## See Also  
 
-- [Applying Color Rules](applying-color-rules.md)
+[Applying Color Rules](applying-color-rules.md)

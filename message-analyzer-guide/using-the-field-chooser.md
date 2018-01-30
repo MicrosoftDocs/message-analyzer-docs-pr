@@ -54,8 +54,8 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
   
 -   Right-click a field name and select the **Add as Column** item in the context menu.  
   
-> [!TIP]
->  You can also select the **Go to Definition** item in this context menu to open the OPN viewer and highlight the definition of the field you chose.  
+ > [!TIP]
+ >  You can also select the **Go to Definition** item in this context menu to open the OPN viewer and highlight the definition of the field you chose.  
   
  For example, if you wanted to view the ID of processes for which Message Analyzer captured events, you could add  **ProcessId** as a column — found under the **Etw** node or under the **Global Properties** node in the **Field Chooser** — to the **Analysis Grid** viewer. Note that you also have the capability to display a **ProcessName** column from **Global Properties** as well. You are advised that viewing process ID and process names works best when you are displaying data from a *.etl file.  
   
@@ -88,8 +88,8 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
   
 ---  
   
- **More Information**   
- **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
+**More Information**   
+**To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 **To learn more** about Filter IntelliSense, see the [Filter IntelliSense Service](filter-intellisense-service.md).  
 **To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md).  
 **To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
@@ -98,4 +98,4 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
   
 ## See Also  
 
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)

@@ -31,14 +31,14 @@ To simplify the search for a specific message by message number, Message Analyze
   
 -   **Data Source** drop-down list — select an item from this list to specify the data source that contains the message source you want to search for a specified message number entry.  
   
- The previously described options appear in the **Go To Message** dialog only if a particular session contains more than one data source. This scenario is common when you have multiple traces or logs that contain related message data that you need to consolidate for analysis purposes. When you load this type of input data configuration into Message Analyzer, it results in messages from such consolidated data sources displaying in chronological order, interlacing them as the chronology requires it. Note that there are two ways that you can create a session that has more than one data source, as follows:  
+The previously described options appear in the **Go To Message** dialog only if a particular session contains more than one data source. This scenario is common when you have multiple traces or logs that contain related message data that you need to consolidate for analysis purposes. When you load this type of input data configuration into Message Analyzer, it results in messages from such consolidated data sources displaying in chronological order, interlacing them as the chronology requires it. Note that there are two ways that you can create a session that has more than one data source, as follows:  
   
 -   **Add files** — when configuring a Data Retrieval Session, you can use the **Add Files** feature in the **New Session** dialog to add multiple files to the file list on the **Files** tab. Each file that you add is considered a data source, which could be a saved trace or log file. Thereafter, when you launch the **Go To Message** dialog, the data sources listed in the **Data Source** drop-down list might be identified by a trace file name, log file name, or could be associated with a session GUID.  
   
 -   **New data sources** — when configuring a Live Trace Session, you can select different **Trace Scenarios** on two or more **Live Trace** tabs to create multiple data sources. To do this, you will create at least one additional **Live Trace** tab to contain a **Trace Scenario** by clicking the **New Data Source** tab.  
   
-> [!NOTE]
->  When configuring a Data Retrieval Session, you can likewise make use of the **New Data Source** tab to specify multiple **Files** tabs in the **New Session** dialog, where each **Files** tab contains a different data source, such as a saved trace or log file. On each **Files** tab, you can locate the saved traces or logs that will be your data sources by clicking the **Add Files** button and navigating to those sources.  
+ > [!NOTE]
+ >  When configuring a Data Retrieval Session, you can likewise make use of the **New Data Source** tab to specify multiple **Files** tabs in the **New Session** dialog, where each **Files** tab contains a different data source, such as a saved trace or log file. On each **Files** tab, you can locate the saved traces or logs that will be your data sources by clicking the **Add Files** button and navigating to those sources.  
   
 ## Displaying the Go To Message Dialog  
 

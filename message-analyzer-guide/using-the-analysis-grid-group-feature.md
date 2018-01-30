@@ -31,15 +31,15 @@ Because there are many different message conversations that can take place at di
   
 -   **Transport Groups** — consist of separate nested Groups of expandable nodes that each consolidate identical TCP or UDP **SourcePort** and **DestinationPort** pairs where the IP conversations took place. Each **Transport** node indicates the associated TCP or UDP port values and specifies the number of messages that are contained in the node. By expanding the **Transport** node, you can examine the messages that met the filtering criteria of the grouping hierarchy that you created. You will find this field under the **TCP** node in **Field Chooser**.  
   
- After you complete the **Group** commands on these columns, you should see a display similar to the following when various Group nodes are expanded:  
+After you complete the **Group** commands on these columns, you should see a display similar to the following when various Group nodes are expanded:  
   
- ![Old Fig10&#45;Message&#95;Analyzer&#95;Analysis&#95;Grid&#95;grouping&#95;operation](media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png "Old Fig10-Message_Analyzer_Analysis_Grid_grouping_operation")  
+![Old Fig10&#45;Message&#95;Analyzer&#95;Analysis&#95;Grid&#95;grouping&#95;operation](media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png "Old Fig10-Message_Analyzer_Analysis_Grid_grouping_operation")  
   
- **Figure 42: Message Analyzer Analysis Grid grouping operation**  
+**Figure 42: Message Analyzer Analysis Grid grouping operation**  
   
- As shown in the preceding figure, each group is designated by a label that contains the name of the column to which you applied the **Group** command. Note that only the last group that you create contains messages that have been filtered down by the criteria that created each parent group. The displayed groups isolate messages based on TCP port data and IP addresses under ProcessIds, so that you can quickly scan the IP conversations that took place across source and destination node ports for the particular events that Message Analyzer captured.  
+As shown in the preceding figure, each group is designated by a label that contains the name of the column to which you applied the **Group** command. Note that only the last group that you create contains messages that have been filtered down by the criteria that created each parent group. The displayed groups isolate messages based on TCP port data and IP addresses under ProcessIds, so that you can quickly scan the IP conversations that took place across source and destination node ports for the particular events that Message Analyzer captured.  
   
- Another example of grouping consists of applying a **Group** command to the **DiagnosisTypes** column in the **Analysis Grid** viewer to bubble up errors that occurred in a trace. The Groups that display are each designated by a specific diagnostic type such as **Application**, **Insufficient Data**, **Parsing**, or **Validation**. Note that you can also examine a summary of diagnostic errors that occur in a trace by opening the **Diagnostics** **Tool Window** from the **Windows** submenu of the global Message Analyzer **Tools** menu. If the **Diagnostics** window does not appear in this menu, you will need to enable it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. After you select the **Diagnostics** feature and click **OK** to exit the **Options** dialog, a Message Analyzer restart is required. Note that the **Diagnostics** window is currently preview feature.  
+Another example of grouping consists of applying a **Group** command to the **DiagnosisTypes** column in the **Analysis Grid** viewer to bubble up errors that occurred in a trace. The Groups that display are each designated by a specific diagnostic type such as **Application**, **Insufficient Data**, **Parsing**, or **Validation**. Note that you can also examine a summary of diagnostic errors that occur in a trace by opening the **Diagnostics** **Tool Window** from the **Windows** submenu of the global Message Analyzer **Tools** menu. If the **Diagnostics** window does not appear in this menu, you will need to enable it on the **Features** tab of the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu. After you select the **Diagnostics** feature and click **OK** to exit the **Options** dialog, a Message Analyzer restart is required. Note that the **Diagnostics** window is currently preview feature.  
   
 > [!NOTE]
 >  You can also add a view **Filter** or sort columns while grouped data is displayed in the **Analysis Grid** viewer. For example, you could add a **Filter** such as the following to the  text box of a Filter panel on the Filtering toolbar  to remove all message groups except those that contain the specified IP address: `IPv4.address==192.168.1.1`. You can even apply the **Group** command while Message Analyzer is capturing messages.  
@@ -67,4 +67,4 @@ To undo a Grouped display configuration, click the **x** mark in the Group label
   
 ## See Also  
 
-- [Grouping Viewer](grouping-viewer.md)
+[Grouping Viewer](grouping-viewer.md)

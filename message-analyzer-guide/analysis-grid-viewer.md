@@ -133,8 +133,8 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
 ---
 
-**More Information**
-**To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+ **More Information**
+ **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
 
 ---
 
@@ -142,8 +142,8 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
 ---
 
-**More Information**
-**To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+ **More Information**
+ **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
 
 ---
 
@@ -199,20 +199,20 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
  **More Information**
  **To learn more** about the data manipulation features that you can use when working with the **Analysis Grid** viewer, see the following topics:
-- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
-- [Using the Find Message Feature](using-the-find-message-feature.md)
-- [Using the Go To Message Feature](using-the-go-to-message-feature.md)
-- [Filtering Column Data](filtering-column-data.md)
-- [Using and Managing Color Rules](using-and-managing-color-rules.md)
-- [Applying and Managing Filters](applying-and-managing-filters.md)
-- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
-- [Using the Field Chooser](using-the-field-chooser.md)
-- [Setting Time Shifts](setting-time-shifts.md)
-- [Annotation Windows](annotation-windows.md)
+[Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)  
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)  
+[Using the Find Message Feature](using-the-find-message-feature.md)  
+[Using the Go To Message Feature](using-the-go-to-message-feature.md)  
+[Filtering Column Data](filtering-column-data.md)  
+[Using and Managing Color Rules](using-and-managing-color-rules.md)  
+[Applying and Managing Filters](applying-and-managing-filters.md)  
+[Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)  
+[Using the Field Chooser](using-the-field-chooser.md)  
+[Setting Time Shifts](setting-time-shifts.md)  
+[Annotation Windows](annotation-windows.md)
 
 ---
 
 ## See Also
- [Pattern Match Viewer](pattern-match-viewer.md)
- [Viewing OPN Source Code](viewing-opn-source-code.md)
+[Pattern Match Viewer](pattern-match-viewer.md)
+Viewing OPN Source Code](viewing-opn-source-code.md)

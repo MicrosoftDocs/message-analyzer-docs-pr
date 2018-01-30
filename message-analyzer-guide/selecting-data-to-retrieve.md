@@ -31,12 +31,12 @@ As part of the BSV model, Message Analyzer provides a data selection feature tha
   
 -   Enabling the **Truncated Parsing** mode, which enforces a limited parsing set to deal with data files that contain truncated messages, for example, a .cap file. This also improves performance and creates a unique analysis perspective by returning headers only for message types that are limited to a pared-down parser set, as described in [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md).  
   
- You might consider limiting data that you collect in a Data Retrieval Session by using a combination of a **Session Filter** and a **Time Filter**. For example, you could use a **Session Filter** to retrieve messages that transited a specified TCP port only and a **Time Filter** to limit the returned data to a particular window of time in which you suspect an issue is occurring with traffic on the specified port. The advantage of using a **Time Filter** with large data sets, such as you often have with log files, is that you can focus on specific subsets of data in order to reduce data loading time and to obtain better performance.  
+You might consider limiting data that you collect in a Data Retrieval Session by using a combination of a **Session Filter** and a **Time Filter**. For example, you could use a **Session Filter** to retrieve messages that transited a specified TCP port only and a **Time Filter** to limit the returned data to a particular window of time in which you suspect an issue is occurring with traffic on the specified port. The advantage of using a **Time Filter** with large data sets, such as you often have with log files, is that you can focus on specific subsets of data in order to reduce data loading time and to obtain better performance.  
   
 ---  
   
- **More Information**   
- **To learn more** about how to select data from a Data Retrieval Session with a **Session Filter**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
+**More Information**   
+**To learn more** about how to select data from a Data Retrieval Session with a **Session Filter**, see [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
 **To learn more** about how to select data from a Data Retrieval Session with a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
 **To learn more** about how to choose the point in the stack up to which Message Analyzer will parse, see  [Specifying a Parsing Level](specifying-a-parsing-level.md).  
 
@@ -44,5 +44,5 @@ As part of the BSV model, Message Analyzer provides a data selection feature tha
   
 ## See Also  
 
-- [Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)   
-- [Managing Session Filters](managing-session-filters.md)
+[Working with Session Filters in a Live Trace Session](working-with-session-filters-in-a-live-trace-session.md)   
+[Managing Session Filters](managing-session-filters.md)

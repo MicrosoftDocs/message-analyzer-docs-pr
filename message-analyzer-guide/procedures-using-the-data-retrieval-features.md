@@ -132,8 +132,9 @@ A brief description of each procedure is included here for review, as follows.
   
 ---  
   
-**More Information**   
-**To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
+ **More Information**   
+ **To learn more** about the **Edit Session** dialog, see [Editing Existing Sessions](editing-existing-sessions.md).  
+
 ---  
   
 <a name="BKMK_displayDifferentViews"></a>   
@@ -180,8 +181,8 @@ A brief description of each procedure is included here for review, as follows.
   
 ---  
   
- **More Information**   
- **To learn more** about the **Protocol Dashboard** viewer,  see the [Protocol Dashboard](protocol-dashboard.md) topic.    
+**More Information**   
+**To learn more** about the **Protocol Dashboard** viewer,  see the [Protocol Dashboard](protocol-dashboard.md) topic.    
 **To learn more** about the many **Layouts** that you can display for the **Chart** viewer,  see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
 **To learn more** about Pattern Expressions, including the built-in Pattern Expressions, see the [Pattern Match Viewer](pattern-match-viewer.md) section.    
 **To learn more** about the  **Gantt** viewer,  see the [Gantt Viewer](gantt-viewer.md) topic.  
@@ -253,8 +254,8 @@ A brief description of each procedure is included here for review, as follows.
   
      For example, if you have one or more large input files with target data, you might want to focus on a particular time slot in which you suspect that a particular issue has occurred to minimize consumption of system resources, rather than load all the message data contained in the input files. You can do this with a **Time Filter**, which loads only the messages with timestamp values that fall within a specified window of time.  
   
-> [!NOTE]
->  If you have a collection of target input files, the **Start Time** and **End Time** values that display in the **Time Filter** configuration are inclusive of the earliest and latest chronological time value, respectively, that is detected in any input file in the files list.  
+ > [!NOTE]
+ >  If you have a collection of target input files, the **Start Time** and **End Time** values that display in the **Time Filter** configuration are inclusive of the earliest and latest chronological time value, respectively, that is detected in any input file in the files list.  
   
 7.  Optionally, select or configure a **Session Filter** for your Data Retrieval Session to isolate specific information that you want to focus on, as follows.  
   
@@ -298,7 +299,7 @@ A brief description of each procedure is included here for review, as follows.
   
     -   Choose the **Selected Messages** option after selecting/highlighting one or more messages with your mouse.  
   
-     Note that you have the option to save a message collection in the Message Analyzer native .matp file format, or you can export to a .cap file for use in other applications. See [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md) for more information about .cap file interoperability with other network troubleshooting tools.  
+ Note that you have the option to save a message collection in the Message Analyzer native .matp file format, or you can export to a .cap file for use in other applications. See [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md) for more information about .cap file interoperability with other network troubleshooting tools.  
   
 11. From the **Save As** dialog, navigate to the directory location where you want to save the selected message data.  
   
@@ -442,5 +443,5 @@ A brief description of each procedure is included here for review, as follows.
   
 ## See Also  
 
-- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)   
-- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)
+[Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)   
+[Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)

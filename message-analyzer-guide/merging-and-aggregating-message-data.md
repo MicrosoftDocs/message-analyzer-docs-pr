@@ -40,5 +40,5 @@ A key feature of the Message Analyzer Browse-Select-View (BSV) model is that it 
   
 ## See Also  
 
-- [Browse-Select-View Model](browse-select-view-model.md)   
-- [Editing Existing Sessions](editing-existing-sessions.md)
+[Browse-Select-View Model](browse-select-view-model.md)   
+[Editing Existing Sessions](editing-existing-sessions.md)

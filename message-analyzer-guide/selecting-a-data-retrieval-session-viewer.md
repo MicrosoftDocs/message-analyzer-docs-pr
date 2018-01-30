@@ -38,7 +38,7 @@ The default data viewers that are available from the **Start With** drop-down li
   
 -   **Chart** — displays a default Bar element graph with message volumes per module only when chosen from the **Start With** drop-down.  
   
- Note that the data viewers  in the following list are Preview features. To make these viewers available for selection during session configuration, you must select them on the **Features** tab of the **Options** dialog, which is accessible from the Message Analyzer **Tools** menu, and then you will need to restart Message Analyzer.  
+Note that the data viewers  in the following list are Preview features. To make these viewers available for selection during session configuration, you must select them on the **Features** tab of the **Options** dialog, which is accessible from the Message Analyzer **Tools** menu, and then you will need to restart Message Analyzer.  
   
 -   **Interaction**  
   
@@ -48,10 +48,10 @@ The default data viewers that are available from the **Start With** drop-down li
   
 -   **Perfmon**  
   
- **Selecting Data Viewers After Data Retrieval**   
+**Selecting Data Viewers After Data Retrieval**   
 After you retrieve your data and it displays in the viewer that you initially selected, you can present your data in any of the other available viewers by selecting them from a context menu that is accessible by right-clicking any session node in the **Session Explorer** **Tool Window**. You can also access these same viewers by clicking the **New Viewer** drop-down list on the global Message Analyzer toolbar. By selecting different data viewer configurations, you can achieve unique data analysis perspectives to assist in problem solving.  
   
- Note that for many of the data viewers that are available from the **New Viewer** drop-down list, a submenu displays to enable you to select a **Layout** for a chosen viewer. For example, this could be a **Layout** for the **Analysis Grid**, **Chart**, or **Grouping** viewer that each  expose different message fields  to create a focused analysis environment. Some examples of analysis environments that view **Layouts** can create include the following:  
+Note that for many of the data viewers that are available from the **New Viewer** drop-down list, a submenu displays to enable you to select a **Layout** for a chosen viewer. For example, this could be a **Layout** for the **Analysis Grid**, **Chart**, or **Grouping** viewer that each  expose different message fields  to create a focused analysis environment. Some examples of analysis environments that view **Layouts** can create include the following:  
   
 -   SMB file sharing and performance  
   
@@ -67,12 +67,12 @@ After you retrieve your data and it displays in the viewer that you initially se
   
 ---  
   
- **More Information**   
- **To learn more** about the data viewers and **Layouts** that are available in Message Analyzer, along with the **Tool Windows** with which they interact, see the [Data Viewers](data-viewers.md) and [Tool Windows](tool-windows.md) sections of this Operating Guide.  
+**More Information**   
+**To learn more** about the data viewers and **Layouts** that are available in Message Analyzer, along with the **Tool Windows** with which they interact, see the [Data Viewers](data-viewers.md) and [Tool Windows](tool-windows.md) sections of this Operating Guide.  
 **To learn more** about the integrated and interactive analysis environments that Message Analyzer provides with preset configurations of data viewers, **Layouts**, and **Tool Windows**, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
 
 ---  
   
 ## See Also  
 
-- [Session Data Viewer Options](session-data-viewer-options.md)
+[Session Data Viewer Options](session-data-viewer-options.md)

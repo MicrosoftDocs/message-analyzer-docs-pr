@@ -38,8 +38,8 @@ From a Data Retrieval Session, you can locate saved data files and build a messa
   
 -   A focused set of messages that expedites the analysis process for others with whom you are sharing your results.  
   
- You can also optimize performance and target specific data to be retrieved by using the **Truncated Parsing** feature to detect input files that contain truncated messages and cause Message Analyzer to apply a pared-down parser set that reduces data loading time. Another feature that you can use to significantly improve performance is to set a **Parsing Level** to limit how far up the message stack Message Analyzer will parse.  
+You can also optimize performance and target specific data to be retrieved by using the **Truncated Parsing** feature to detect input files that contain truncated messages and cause Message Analyzer to apply a pared-down parser set that reduces data loading time. Another feature that you can use to significantly improve performance is to set a **Parsing Level** to limit how far up the message stack Message Analyzer will parse.  
   
 ## Creating a Data Retrieval Session  
 
- For a general workflow that you can follow to create a Data Retrieval Session, see  [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md). This section also contains subtopics that describe the various features and functions that you can use to create and start a Data Retrieval Session.
+For a general workflow that you can follow to create a Data Retrieval Session, see  [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md). This section also contains subtopics that describe the various features and functions that you can use to create and start a Data Retrieval Session.

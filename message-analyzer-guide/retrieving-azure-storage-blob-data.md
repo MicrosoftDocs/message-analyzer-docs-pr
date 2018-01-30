@@ -91,4 +91,4 @@ To proceed directly to a detailed procedure that you can follow to retrieve log 
   
 ## See Also  
 
-- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)
+[Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)

@@ -55,9 +55,9 @@ In the topics of this section, you will learn how to accomplish the tasks indica
   
 -   Loading data from ETL files that contain WPP-generated events.  
   
- **[Performing Data Retrieval](performing-data-retrieval.md)**  — use different methods to perform data retrieval.  
+**[Performing Data Retrieval](performing-data-retrieval.md)**  — use different methods to perform data retrieval.  
   
- **[Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)**  — perform example procedures that demonstrate the BSV model while encapsulating various aspects of data retrieval functionality.  
+**[Procedures: Using the Data Retrieval Features](procedures-using-the-data-retrieval-features.md)**  — perform example procedures that demonstrate the BSV model while encapsulating various aspects of data retrieval functionality.  
   
 ---  
   

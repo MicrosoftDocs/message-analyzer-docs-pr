@@ -38,8 +38,8 @@ To enhance your troubleshooting experience in the Cloud environment, Message Ana
 
  The following subtopics of this section describe how to get started with loading Azure data into Message Analyzer.  
 
-- [Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)  
-- [Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)  
+[Retrieving Azure Storage Blob Data](retrieving-azure-storage-blob-data.md)  
+[Retrieving Azure Storage Table Data](retrieving-azure-storage-table-data.md)  
   
 ---  
   

@@ -47,8 +47,8 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
   
      To do this, you can manually configure a filter by entering the Filter Expression text directly in the filter text box below the **Edit Color Rule** dialog toolbar, or you can select a built-in Filter Expression from the centralized **Message Analyzer Filters** asset collection **Library**. If you want to manually configure a Filter Expression, the Filter IntelliSense service is available to provide statement completion assistance.  
   
-> [!NOTE]
->  Whether you specify a manually configured Filter Expression or you modify one of the predefined expressions from the centralized **Library**, Message Analyzer automatically validates that the expression properly compiles when you attempt to **Save** the **Color Rule**. If the filter expression does not compile, you will be unable to save the new **Color Rule**.  
+ > [!NOTE]
+ >  Whether you specify a manually configured Filter Expression or you modify one of the predefined expressions from the centralized **Library**, Message Analyzer automatically validates that the expression properly compiles when you attempt to **Save** the **Color Rule**. If the filter expression does not compile, you will be unable to save the new **Color Rule**.  
   
 -   Configure the decoration scheme for the new **Color Rule** by using the controls in the **Style**, **Weight**, **Lines**, and **Colors** panes of the **Edit Color Rule** dialog. As you modify the **Color Rule** decoration scheme, the configuration is displayed in the **Preview** pane at the bottom of the **Edit Color Rule** dialog.  
   
@@ -64,8 +64,8 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
   
 -   Create the new **Color Rule** and **Category** (if you specified one) by clicking the **Save** button in the **Edit Color Rule** dialog.  
   
-> [!NOTE]
->  After you save a new **Color Rule** or an edited one, it is automatically applied to the current message collection displaying in the **Analysis Grid** viewer.  
+ > [!NOTE]
+ >  After you save a new **Color Rule** or an edited one, it is automatically applied to the current message collection displaying in the **Analysis Grid** viewer.  
   
 ## Modifying Color Rules  
 
@@ -77,15 +77,15 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
   
 -   **Delete** — available for **Color Rules** under the **My Items** node only. Removes a single selected **Color Rule** under the **My Items** node.  
   
- When you modify a **Color Rule**, for example, to specify a different decoration scheme or filtering configuration, you are using the same **Edit Color Rule** dialog with which you create new **Color Rules**.  
+When you modify a **Color Rule**, for example, to specify a different decoration scheme or filtering configuration, you are using the same **Edit Color Rule** dialog with which you create new **Color Rules**.  
   
 > [!TIP]
 >  It is advisable to create a backup of your local **Color Rule** Library asset collection, so that you can always restore any custom rules you may have deleted under the **My Items** category of your **Message Analyzer Color Rules** asset collection Library.  
   
 ---  
   
- **More Information**   
- **To learn more** about managing **Color Rule** items, including sharing them with others, see [Managing Color Rules](managing-color-rules.md).   
+**More Information**   
+**To learn more** about managing **Color Rule** items, including sharing them with others, see [Managing Color Rules](managing-color-rules.md).   
 **To learn more** about Filter Expressions, see [Writing Filter Expressions](writing-filter-expressions.md) and the [Filter IntelliSense Service](filter-intellisense-service.md) topic.  
 
 ---

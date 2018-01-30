@@ -73,7 +73,7 @@ Message Analyzer enables you to apply built-in and custom column layout configur
   
         -   *.pcap  
   
-         See the **File Sharing Perf SMB2/SMB** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these files, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
+    See the **File Sharing Perf SMB2/SMB** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these files, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
   
     -   **File Sharing SMB/SMB2** — provides a layout that groups by SMB **SessionId**, **TreeId**, and **FileName** to assist SMB troubleshooting.  
   
@@ -104,8 +104,8 @@ Message Analyzer enables you to apply built-in and custom column layout configur
   
     -   **TCP Deep Packet Analysis with RELATIVE Sequence Number with Grouping** — provides a **Layout** that creates a hierarchy of **Network**, **Transport**, and **Sourceport** groups that isolate network conversations at top-level, the transport that carried them in the first nested group, and the ports over which the conversations transited in the second nested group. The **Network** and **Transport** groups provide quick access to data that can assist you in troubleshooting the network layer and related communication ports, for example IP addresses,  conversation direction, and conversation ports. The columns in this **Layout** are identical to those of the **TCP Deep Packet Analysis with RELATIVE Sequence Number Flat** **Layout**, as is the use of relative sequence numbers.  
   
-> [!NOTE]
->  If you also specify a **TCP** **Viewpoint** with the TCP **Layouts** described here, you can isolate all TCP traffic as top-level messages for ease of analysis.  
+  > [!NOTE]
+  >  If you also specify a **TCP** **Viewpoint** with the TCP **Layouts** described here, you can isolate all TCP traffic as top-level messages for ease of analysis.  
   
 -   **IIS** category  
   
@@ -151,7 +151,7 @@ Message Analyzer enables you to apply built-in and custom column layout configur
   
      When you use this command to save the current **Layout**, the **Edit Item** dialog displays to enable you to specify a **Name**, **Description**, and **Category** in which to place the **Layout**. Note that any **Layouts** that you save from the **Edit Item** dialog will display in a subcategory under the top-level **My Items** category.  
   
- **Manage Layout Commands**   
+**Manage Layout Commands**   
 Other commands that are available for managing view **Layouts** display in a submenu that appears when you select the **Manage Layouts** item in the **Layout** drop-down list, as follows:  
   
 -   **Save Current as Default User Layout** — enables you to save the current **Analysis Grid** viewer column configuration as the default **Layout** for the **Analysis Grid**, which then displays whenever you specify the **Analysis Grid** as the viewer for session results, providing that an enabled **Profile** does not override that **Layout**.  
@@ -176,7 +176,7 @@ Other commands that are available for managing view **Layouts** display in a sub
 ---  
   
  **More Information**   
- **To learn more** about sharing asset collections in Message Analyzer, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
+**To learn more** about sharing asset collections in Message Analyzer, including further details about the common **Manage** ***\<AssetType>*** dialog, see the [Sharing Infrastructure](sharing-infrastructure.md) topic.  
 **To learn more** about the **Field Chooser**, see the [Field Chooser Tool Window](field-chooser-tool-window.md) topic.  
 **To learn more** about the **Analysis Grid** viewer **Group** function, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).  
 **To review** some simple examples of TCP troubleshooting with Message Analyzer, see [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md).  
