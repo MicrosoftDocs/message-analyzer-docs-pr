@@ -29,7 +29,7 @@ The **IIS Log Server Bytes by Host over Time** view **Layout** for **Charts** en
   
 -   **Log entries** — double-click a data line to display all related log entries in the **Analysis Grid** viewer.  
   
- Along with the **IIS Log Server Bytes by Host over Time** view **Layout**, you might also consider using the **Grouping** viewer with the **IIS** **Layout** and the **Analysis Grid** viewer with the **IIS** **Layout** to achieve an integrated and interactive analysis context that can significantly enhance your analysis process.  
+Along with the **IIS Log Server Bytes by Host over Time** view **Layout**, you might also consider using the **Grouping** viewer with the **IIS** **Layout** and the **Analysis Grid** viewer with the **IIS** **Layout** to achieve an integrated and interactive analysis context that can significantly enhance your analysis process.  
   
 ## See Also  
 

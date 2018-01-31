@@ -25,7 +25,7 @@ The **SMB Reads and Writes Bytes Sent** view **Layout** for **Charts** provides 
   
 -   **Max** — specifies the highest message size in bytes among all messages sent in an operation.  
   
- This **Layout** also has a view **Filter** applied in the background that allows the indicated types of SMB or SMB2 requests to pass while blocking all others, in order to create focus on specific SMB/SMB2 operations.  
+This **Layout** also has a view **Filter** applied in the background that allows the indicated types of SMB or SMB2 requests to pass while blocking all others, in order to create focus on specific SMB/SMB2 operations.  
   
 ## Using the SMB Reads and Writes Bytes Sent Layout  
  You can create an interactive analysis context by driving the display of data into the **Analysis Grid** viewer. For example, you can double-click any row of data in the **SMB Reads and Writes Bytes Sent** Table to display the associated messages in a new instance of the **Analysis Grid** viewer for further assessment of **Summary** information and message **Details**.  

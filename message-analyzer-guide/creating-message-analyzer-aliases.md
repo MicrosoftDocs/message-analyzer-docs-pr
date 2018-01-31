@@ -50,16 +50,16 @@ To go directly to a procedure that creates an **Alias**, see [Create an Alias fo
   
 -   **Auto Refresh Views** — select this check box if you want Message Analyzer to refresh all data viewers that will be impacted by the new **Alias**, immediately after you **Save** the **Alias**.  
   
-> [!IMPORTANT]
->  Be aware that the **Auto Refresh Views** function of the **Alias Editor** dialog can be activated only when creating a new **Alias**. It does not activate for other operations that you can perform, such as editing and saving an **Alias** or creating a copy of, modifying, and saving an **Alias**. In addition, when the current message set is refreshed to apply a newly created **Alias**, there could be an impact on performance depending on the number of messages that exist in the displayed message set.  
+ > [!IMPORTANT]
+ >  Be aware that the **Auto Refresh Views** function of the **Alias Editor** dialog can be activated only when creating a new **Alias**. It does not activate for other operations that you can perform, such as editing and saving an **Alias** or creating a copy of, modifying, and saving an **Alias**. In addition, when the current message set is refreshed to apply a newly created **Alias**, there could be an impact on performance depending on the number of messages that exist in the displayed message set.  
   
-If you do not select the **Auto Refresh Views** check box, and you **Save** the new **Alias**, Message Analyzer prompts you with the following message that displays on the **Aliases Changed** information bar above the **Analysis Grid** viewer:  
+ If you do not select the **Auto Refresh Views** check box, and you **Save** the new **Alias**, Message Analyzer prompts you with the following message that displays on the **Aliases Changed** information bar above the **Analysis Grid** viewer:  
 
-“**To avoid excessive CPU utilization when refreshing some data views, please wait until all alias changes are complete before you refresh.**”  
+ “**To avoid excessive CPU utilization when refreshing some data views, please wait until all alias changes are complete before you refresh.**”  
 
-Thereafter, you have the option to manually click the **Refresh Views** button on the information bar at a time when it is appropriate to refresh your data viewers.  
+ Thereafter, you have the option to manually click the **Refresh Views** button on the information bar at a time when it is appropriate to refresh your data viewers.  
   
- When you are finished entering the **Alias** data in the **Alias Editor** dialog, click **Save** to store your new **Alias** in the specified category of the **Aliases** drop-down list. After adding the new **Alias** to your **Alias** collection, you can edit, make a copy, or delete the **Alias** at any time, as described in [Modifying Message Analyzer Aliases](modifying-message-analyzer-aliases.md).  
+When you are finished entering the **Alias** data in the **Alias Editor** dialog, click **Save** to store your new **Alias** in the specified category of the **Aliases** drop-down list. After adding the new **Alias** to your **Alias** collection, you can edit, make a copy, or delete the **Alias** at any time, as described in [Modifying Message Analyzer Aliases](modifying-message-analyzer-aliases.md).  
   
 > [!NOTE]
 >  Your Message Analyzer installation will save any **Aliases** that you create for use in subsequent sessions, however, **Aliases** do not persist in any data files that you save and share with others, such as a .matp trace file.

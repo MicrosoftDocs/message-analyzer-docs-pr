@@ -35,7 +35,7 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 -   **Pattern Bookmark** — creates a bookmark for one or more matched instances that you select in the **Pattern Match** viewer. The **Bookmarks** configuration grid is populated with a row of data that represents the selected matched instance/s that contain the book marked messages.  
   
- The **Bookmarks** grid contains the following information columns:  
+The **Bookmarks** grid contains the following information columns:  
   
 -   **Name** — this sortable column provides a default name value of “**Selected messages**” or “Pattern Group \<n>”, where \<n> is a number placeholder. You can modify this column with a name of your choice, either by double-clicking the existing name in this text box or by right-clicking the text and selecting the **Edit ‘Name’** item in the context menu that appears. The existing text is then highlighted for edit mode.  
   
@@ -89,8 +89,8 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 -   **Comments** — this tab enables you to specify one or more comments for any **Bookmarks** message row by clicking the **+Add** button and entering an optional comment **Title**, descriptive text for the comment, and saving the comment by clicking the **Save Changes** icon. You can also delete any existing **Comment** for a selected **Bookmarks** message row by clicking the delete (**X**) button.  
   
-> [!TIP]
->  You can also configure a comment from the **Comments** **Tool Window**, which contains the identical interface components for configuring comments that you use in the **Bookmarks** window. However, the **Comments** window enables you to create comments that are independent of bookmark configuration.  
+  [!TIP]
+ >  You can also configure a comment from the **Comments** **Tool Window**, which contains the identical interface components for configuring comments that you use in the **Bookmarks** window. However, the **Comments** window enables you to create comments that are independent of bookmark configuration.  
   
 -   **Patterns** — this tab enables you to view all the **Pattern Group** rows where you added bookmarks. This tab contains a header that specifies the following information for each row of data:  
   
@@ -105,14 +105,14 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 ## Using Context Menu Commands  
 
- The **Bookmarks** **Tool Window** contains a right-click context menu where you can access several commands that perform the actions indicated below when selected:  
+The **Bookmarks** **Tool Window** contains a right-click context menu where you can access several commands that perform the actions indicated below when selected:  
   
 -   **View Message Range in ‘Analysis Grid’** — enables you to display the range of messages that a bookmark contains in a separate instance of the **Analysis Grid** viewer.  
   
 -   **Add Message Range to Filter** — enables you to automatically create the code for a view **Filter** based on the messages contained in a bookmark row. When applied, the filter will remove all messages from the current **Analysis Grid** viewer instance, except the messages that fall within the range of the selected bookmark. Note that for best results, the **Analysis Grid** viewer that is in the same session as the **Pattern Match** viewer must have the focus.  
   
-> [!TIP]
->  This makes it convenient to save only the messages that were bookmarked by clicking the **Save As** item in the Message Analyzer **File** menu to open the **Save/Export Session** dialog.  
+ > [!TIP]
+ >  This makes it convenient to save only the messages that were bookmarked by clicking the **Save As** item in the Message Analyzer **File** menu to open the **Save/Export Session** dialog.  
   
 -   **Delete Bookmark** — enables you to delete any selected bookmark in the **Bookmarks** configuration grid.  
   
@@ -156,8 +156,8 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
 ---  
   
-**More Information**   
-**To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).    
+    **More Information**   
+    **To learn more** about the docking features, see [Working with Message Analyzer Window Layouts](working-with-message-analyzer-window-layouts.md).    
 
 ---  
   
@@ -165,4 +165,4 @@ Message Analyzer provides a **Bookmarks** **Tool Window** that enables you to co
   
      You can then click each message in the drop-down to interactively drive selection of corresponding messages in the **Analysis Grid** viewer. As previously described, you can undock and reposition the **Pattern Match** viewer for a better view of message selection correlation.  
   
- With these methods, you or another user can navigate through all bookmarked messages and pattern match instances.
+With these methods, you or another user can navigate through all bookmarked messages and pattern match instances.

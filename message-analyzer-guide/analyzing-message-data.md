@@ -28,8 +28,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Analysis Grid**, see the [Analysis Grid Viewer](analysis-grid-viewer.md) topic.   
+ **More Information**   
+ **To learn more** about the **Analysis Grid**, see the [Analysis Grid Viewer](analysis-grid-viewer.md) topic.   
 
 ---  
   
@@ -37,8 +37,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the built-in **Layouts** for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.   
+ **More Information**   
+ **To learn more** about the built-in **Layouts** for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.   
 
 ---  
   
@@ -58,8 +58,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
+ **More Information**   
+ **To learn more** about the **Grouping** viewer, see the [Grouping Viewer](grouping-viewer.md) topic.   
 
 ---  
   
@@ -71,8 +71,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about using the **Pattern Match** viewer and creating your own **Pattern** expressions, see the [Pattern Match Viewer](pattern-match-viewer.md) section.  
+ **More Information**   
+ **To learn more** about using the **Pattern Match** viewer and creating your own **Pattern** expressions, see the [Pattern Match Viewer](pattern-match-viewer.md) section.  
 
 ---  
   
@@ -80,8 +80,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
+ **More Information**   
+ **To learn more** about view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).   
 
 ---  
   
@@ -91,8 +91,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
+ **More Information**   
+ **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
 
 ---  
   
@@ -102,8 +102,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about **Parsing** options, see the **Parsing** section of [Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md).   
+ **More Information**   
+ **To learn more** about **Parsing** options, see the **Parsing** section of [Setting Message Analyzer Global Options](setting-message-analyzer-global-options.md).   
 
 ---  
   
@@ -111,8 +111,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Shift Time** feature, see [Setting Time Shifts](setting-time-shifts.md).   
+ **More Information**   
+ **To learn more** about the **Shift Time** feature, see [Setting Time Shifts](setting-time-shifts.md).   
 
 ---  
   
@@ -120,8 +120,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Aliases** feature, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).   
+ **More Information**   
+ **To learn more** about the **Aliases** feature, see [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md).   
 
 ---  
   
@@ -129,8 +129,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about **Color Rules**, see [Using and Managing Color Rules](using-and-managing-color-rules.md).   
+ **More Information**   
+ **To learn more** about **Color Rules**, see [Using and Managing Color Rules](using-and-managing-color-rules.md).   
 
 ---  
   
@@ -138,8 +138,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Go To Message** features, see [Using the Go To Message Feature](using-the-go-to-message-feature.md).   
+ **More Information**   
+ **To learn more** about the **Go To Message** features, see [Using the Go To Message Feature](using-the-go-to-message-feature.md).   
 
 ---  
   
@@ -147,17 +147,17 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
      Message Analyzer provides numerous view **Layouts** that are customized for common analysis scenarios. You can access these from the **Layout** drop-down list on the **Analysis Grid** toolbar. You can also create your own custom view **Layouts** by adding columns to the **Analysis Grid** viewer with the **Field Chooser** **Tool Window** and then saving your configuration with the **Save Current Layout As…** command from the **Layout** drop-down list.  
   
-> [!NOTE]
->  Message Analyzer also provides the **Profiles** feature, which displays preset configurations of data viewers and **Layouts** that are specifically designed to create a unified and interactive analysis environment that is tailored for the type of data you are loading into Message Analyzer. For example, if you are loading data from .cap files, you can select a **Profile** such as the **Performance Top Down Profile**, that will display the **Performance Top Down** layout for the **Analysis Grid** viewer, the **Process Names and Conversations** layout for the **Grouping** viewer, and the **Top TCP/UDP Conversations by Message Count** layout for the **Chart** viewer, providing that you enable the **Performance Top Down Profile** prior to loading data from such an input file.  
->   
->  For further details about Message Analyzer **Profiles**, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
+ > [!NOTE]
+ >  Message Analyzer also provides the **Profiles** feature, which displays preset configurations of data viewers and **Layouts** that are specifically  designed to create a unified and interactive analysis environment that is tailored for the type of data you are loading into Message Analyzer. For example,  if you are loading data from .cap files, you can select a **Profile** such as the **Performance Top Down Profile**, that will display the **Performance Top  Down** layout for the **Analysis Grid** viewer, the **Process Names and Conversations** layout for the **Grouping** viewer, and the **Top TCP/UDP  Conversations by Message Count** layout for the **Chart** viewer, providing that you enable the **Performance Top Down Profile** prior to loading data from  such an input file.  
+ >   
+ >  For further details about Message Analyzer **Profiles**, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
   
 ---  
   
-**More Information**   
-**To learn more** about **Analysis Grid** viewer **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md).   
-**To learn more** about **Grouping** viewer **Layouts**, see the [Grouping Viewer](grouping-viewer.md) topic.  
-**To learn more** about **Layouts** for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
+ **More Information**   
+ **To learn more** about **Analysis Grid** viewer **Layouts**, see [Applying and Managing Analysis Grid Viewer Layouts] (applying-and-managing-analysis-grid-viewer-layouts.md).   
+ **To learn more** about **Grouping** viewer **Layouts**, see the [Grouping Viewer](grouping-viewer.md) topic.  
+ **To learn more** about **Layouts** for the **Chart** viewer, see the [Chart Viewer Layouts](chart-viewer-layouts.md) topic.  
 
 ---  
   
@@ -169,8 +169,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).   
+ **More Information**   
+ **To learn more** about **Unions**, see [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md).   
 
 ---  
   
@@ -180,8 +180,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about Message Analyzer diagnostics, see the [Diagnostics Tool Window](diagnostics-tool-window.md) and [Diagnosis Types](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topics.   
+ **More Information**   
+ **To learn more** about Message Analyzer diagnostics, see the [Diagnostics Tool Window](diagnostics-tool-window.md) and [Diagnosis Types](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topics.   
 
 ---  
   
@@ -191,8 +191,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about message selection capabilities, see the [Selection Tool Window](selection-tool-window.md) topic.   
+ **More Information**   
+ **To learn more** about message selection capabilities, see the [Selection Tool Window](selection-tool-window.md) topic.   
 
 ---  
   
@@ -200,8 +200,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Tool Windows** that Message Analyzer provides, see the [Tool Windows](tool-windows.md) section.   
+ **More Information**   
+ **To learn more** about the **Tool Windows** that Message Analyzer provides, see the [Tool Windows](tool-windows.md) section.   
 
 ---  
   
@@ -219,8 +219,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Field Chooser**, see the [Using the Field Chooser](using-the-field-chooser.md) and [Field Chooser Tool Window](field-chooser-tool-window.md) topics.   
+ **More Information**   
+ **To learn more** about the **Field Chooser**, see the [Using the Field Chooser](using-the-field-chooser.md) and [Field Chooser Tool Window](field-chooser-tool-window.md) topics.   
 
 ---  
   
@@ -228,8 +228,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).   
+ **More Information**   
+ **To learn more** about the **Analysis Grid** grouping feature, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).   
 
 ---  
   
@@ -239,8 +239,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about the column filtering feature, see the [Filtering Column Data](filtering-column-data.md) topic.  
+ **More Information**   
+ **To learn more** about the column filtering feature, see the [Filtering Column Data](filtering-column-data.md) topic.  
 
 ---  
   
@@ -249,8 +249,8 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about viewing message field and property values, see the [Message Details Tool Window](message-details-tool-window.md) topic.   
+ **More Information**   
+ **To learn more** about viewing message field and property values, see the [Message Details Tool Window](message-details-tool-window.md) topic.   
 
 ---  
   
@@ -266,7 +266,7 @@ Message Analyzer provides many tools that you can use to achieve unique perspect
   
 ---  
   
-**More Information**   
-**To learn more** about tracking message field and property values in the **Details** window, see the [Using the Details Tool Window Features](message-details-tool-window.md#BKMK_UsingDetailsTracking) topic.   
+ **More Information**   
+ **To learn more** about tracking message field and property values in the **Details** window, see the [Using the Details Tool Window Features](message-details-tool-window.md#BKMK_UsingDetailsTracking) topic.   
 
 ---

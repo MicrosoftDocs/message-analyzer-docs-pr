@@ -27,7 +27,7 @@ There are several **Alias** operations that you can perform that will trigger a 
   
 -   **Deleting an Alias** — whenever you delete an **Alias**, Message Analyzer displays the **Aliases Changed** information bar above the **Analysis Grid** viewer to prompt you to refresh your data views.  
   
- When any of the previously specified actions occur, Message Analyzer performs a global refresh of the current message set, which includes every session and viewer in the current Message Analyzer instance, including **Layouts** for the **Chart** viewer. The global refresh will also pertain to various Message Analyzer operations that are impacted by application of the **Alias**, such as any applied grouping, sorting, filtering, color rule, or find operation in a viewer where the **Alias** is in use.  
+When any of the previously specified actions occur, Message Analyzer performs a global refresh of the current message set, which includes every session and viewer in the current Message Analyzer instance, including **Layouts** for the **Chart** viewer. The global refresh will also pertain to various Message Analyzer operations that are impacted by application of the **Alias**, such as any applied grouping, sorting, filtering, color rule, or find operation in a viewer where the **Alias** is in use.  
   
 ## Removing the Aliases Changed Information Bar  
 

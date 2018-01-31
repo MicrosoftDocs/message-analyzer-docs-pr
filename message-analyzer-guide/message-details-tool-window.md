@@ -36,14 +36,14 @@ The message **Details** **Tool Window** is one of the primary windows that is dr
   
 -   **Embedded** — displays when a module definition reflects that a module is embedded; for example, SOAP headers are embedded.  
   
- The grid configuration for inline message details that are displayed in the **Fields** tab consist of the following columns of information:  
+The grid configuration for inline message details that are displayed in the **Fields** tab consist of the following columns of information:  
   
 -   **Name** — describes the names of the fields contained in the message you selected in the **Analysis Grid** viewer.  
   
 -   **Value** — specifies the value of each field name that is contained in the message you selected in the **Analysis Grid** viewer.  
   
-> [!NOTE]
->  The inline **Details** now include a  Bit Field display for **Flag** fields. For example, if you expand the **Flags** field in a TCP message, you will see a visual representation of each flag value in an 8-bit field that appears in parentheses in the **Value** field, for example:  (. . .0. . . .) for ACK and (. . . . . .1.) for SYN. Note that the same visual representation appears in the **Details** **Tool Window**.  
+ > [!NOTE]
+ >  The inline **Details** now include a  Bit Field display for **Flag** fields. For example, if you expand the **Flags** field in a TCP message, you will see a visual representation of each flag value in an 8-bit field that appears in parentheses in the **Value** field, for example:  (. . .0. . . .) for ACK and (. . . . . .1.) for SYN. Note that the same visual representation appears in the **Details** **Tool Window**.  
   
 -   **Type** — specifies the data type for the fields contained in the selected message.  
   
@@ -72,8 +72,8 @@ You can also create Filter Expressions, add **Analysis Grid** viewer columns, an
   
 -   **Add ‘\<fieldName>’ as Grouping** — captures the name of the selected field within the associated message hierarchy and performs a data grouping operation based on the selected field name.  
   
-> [!NOTE]
->  When an **Analysis Grid** viewer session tab is in focus, this command creates a Grouped view of data based on the selected field name. If a Grouped view already exists in the **Analysis Grid** viewer, the new Group that you add will be configured at the lowest level of the nested group configuration. If the single-instance **Grouping** viewer has focus, this command causes a new Group to be added to the current **Grouping** viewer **Layout** at the lowest level of the nested group configuration.  
+ > [!NOTE]
+ >  When an **Analysis Grid** viewer session tab is in focus, this command creates a Grouped view of data based on the selected field name. If a Grouped view already exists in the **Analysis Grid** viewer, the new Group that you add will be configured at the lowest level of the nested group configuration. If the single-instance **Grouping** viewer has focus, this command causes a new Group to be added to the current **Grouping** viewer **Layout** at the lowest level of the nested group configuration.  
   
 -   **Go To ‘\<fieldName>’ Definition** — captures the name of the selected field within the associated message hierarchy and causes Message Analyzer to display the **OPN Viewer**. The selected field is highlighted in yellow within the OPN definition code that displays.  
   
@@ -98,15 +98,15 @@ You can also create Filter Expressions, add **Analysis Grid** viewer columns, an
      **Comparing Field Values**   
     Any fields and properties that you have set for tracking values appear in the **Details** window when you click the **Show tracked fields and properties for the selected message** button. You can set a field or property for tracking in the previously specified manner. Once Message Analyzer is tracking a field or property, click the **Details** toolbar button with the footprint icon to display the value/s. Thereafter, you can select different messages in the **Analysis Grid** viewer and observe how values vary across your trace results, for enhanced analysis.  
   
-> [!TIP]
->  If you have the [Selection Tool Window](selection-tool-window.md) set for tracking messages, you can conveniently backtrack to previous message selections to view tracked field and property values.  
+  > [!TIP]
+  >  If you have the [Selection Tool Window](selection-tool-window.md) set for tracking messages, you can conveniently backtrack to previous message selections to view tracked field and property values.  
   
 -   **Copy Selected Rows** — enables you to copy one or more selected rows of data in the **Details** window to the clipboard.  
   
 -   **Copy ‘\<fieldname>’** — enables you to copy a specific field name to the clipboard.  
   
-> [!TIP]
->  You can also use the keyboard shortcuts **Ctrl+C** and **Ctrl+Alt+C** to initiate the **Copy Selected Rows** and **Copy ‘\<fieldname>’** commands, respectively.  
+  > [!TIP]
+  >  You can also use the keyboard shortcuts **Ctrl+C** and **Ctrl+Alt+C** to initiate the **Copy Selected Rows** and **Copy ‘\<fieldname>’** commands, respectively.  
   
 ## Using the Details Toolbar Functions  
  The toolbar in the upper part of the **Details** window has several functions that provide interactive capabilities, as follows:  
@@ -139,7 +139,7 @@ If this viewer is in focus, you can use the following context menu commands to a
   
 -   **Add ‘\<fieldName>’ as Grouping** — enables you to add a new Group to the **Grouping** viewer to enhance the grouped data configuration for better analysis capabilities.  
   
- **Analysis Grid Viewer in Focus**   
+**Analysis Grid Viewer in Focus**   
 If this viewer is in focus, you can use the following context menu commands to achieve the indicated results, based on a selected field or property:  
   
 -   **Add ‘\<fieldName>’ to  Filter** — enables you to create and add view **Filter** code to the Filter Expression text box on the default Filter panel of the Filtering toolbar. You can then apply filtering to messages that are displayed in the **Analysis Grid** viewer to achieve a focused set of messages that makes it easier to identify problems, by removing messages that do not pass the filtering criteria.  

@@ -41,7 +41,7 @@ The **SMB File Stats** view **Layout** for **Charts** provides some basic file a
     > [!NOTE]
     >  The **Duration** values are extrapolated from the **Start** and **End** timestamps.  
   
- **Interactive Analysis**   
+**Interactive Analysis**   
 You can also interactively drive the display of messages into the **Analysis Grid** viewer by double-clicking any row of data in the **SMB File Stats** view **Layout**. This results in specific messages in a standard environment for detailed analysis that includes quick access to diagnosis errors and top-level messages that encapsulate message stacks, fragments, and Operations, in addition to the data that is available from the default column **Layout** of the **Analysis Grid** viewer.  However,  you might also consider using other **Layouts** for the **Analysis Grid** viewer to expose different data sets related to the SMB protocol such as the **File Sharing Perf SMB2/SMB** and **File Sharing SMB/SMB2** view **Layouts**. A particularly useful viewing configuration for analyzing SMB data might be to employ the viewers and **Layouts** that are specified in the table that follows.  
   
 ### Table 13. Interactive Viewing Configuration Example for SMB Data  

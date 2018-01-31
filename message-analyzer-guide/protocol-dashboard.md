@@ -25,15 +25,15 @@ The **Protocol Dashboard** is a **Chart**-style data viewer that enables you to 
   
 -   **Top Level Protocol Summary** grid — consists of a table that provides a summary of the top-level messages retrieved by various modules in a trace, along with the number of top-level messages received from each module.  
   
-> [!NOTE]
->  If you double-click a table row, all messages in which the module is either a top-level message or part of message origins will display in a separate **Analysis Grid** viewer tab. Because *all* messages are displayed in a separate viewer tab as indicated, the message count in that viewer tab will differ from the top-level message count specified in the **Top Level Protocol Summary** table. To see only the top-level messages in the new **Analysis Grid** viewer tab, you can apply a view **Filter** that isolates top-level messages by using the backslash symbol (“\”) described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins), as follows:   
-> `“\<modulename>”`  
->  — where \<modulename> is a placeholder for the module or protocol of interest.  
+ > [!NOTE]
+ >  If you double-click a table row, all messages in which the module is either a top-level message or part of message origins will display in a separate **Analysis Grid** viewer tab. Because *all* messages are displayed in a separate viewer tab as indicated, the message count in that viewer tab will differ from the top-level message count specified in the **Top Level Protocol Summary** table. To see only the top-level messages in the new **Analysis Grid** viewer tab, you can apply a view **Filter** that isolates top-level messages by using the backslash symbol (“\”) described in [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins), as follows:   
+ > `“\<modulename>”`  
+ >  — where \<modulename> is a placeholder for the module or protocol of interest.  
   
 -   **Top Level Protocol Summary** bar **Chart** — this visualizer component illustrates message data in a linear graphic format that provides an at-a-glance view of the relative volume of the top-level messages received from different source modules over the trace timeline. If you double-click any data bar representing a message source in this **Chart**, the details for the top-level messages represented by that particular data bar are rendered in a separate **Analysis Grid** viewer tab for further analysis.  
   
-> [!NOTE]
->  If you double-click a bar in the bar **Chart** visualizer component, you will see the same message count disparity as described in the previous note. Similar to the table grid, you can see the top-level messages by applying a view **Filter** with the backslash symbol (“\”), as previously indicated.  
+ > [!NOTE]
+ >  If you double-click a bar in the bar **Chart** visualizer component, you will see the same message count disparity as described in the previous note. Similar to the table grid, you can see the top-level messages by applying a view **Filter** with the backslash symbol (“\”), as previously indicated.  
   
 -   **Top Level Protocol Summary** pie **Chart** — similar to the **Top Level Protocol Summary** bar **Chart**, this visualizer component also illustrates the relative volume of top-level messages received from different source modules; however, the data is presented in a pie chart configuration instead. In this **Chart**, message volume for source modules is delineated as a percentage of the whole so you can quickly obtain the top protocol usage-percentage in the trace. You can also double-click any source module in the **Top Level Protocol Summary** pie **Chart** to present the associated top-level message details in the Message Analyzer **Analysis Grid** viewer.  
   

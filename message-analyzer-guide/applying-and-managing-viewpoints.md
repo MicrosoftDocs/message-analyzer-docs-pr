@@ -68,8 +68,8 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 ---  
   
-**More Information**   
-**To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
+ **More Information**   
+ **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
 
 ---  
   
@@ -77,8 +77,8 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 -   **TCP** — this **Viewpoint** reorganizes your data to enable easier diagnosis of the TCP layer. It places TCP messages on top, which can facilitate diagnosis of TCP performance issues that include the analysis of TCP SequenceNumber and AcknowledgementNumber values, TCP flags such as SYNs, SACKS, and ACKs, retransmits, broken three-way handshakes, window size, TCP options, and so on. Note that if you apply this **Viewpoint**, Operations will no longer be visible, as they typically exist at a layer above this **Viewpoint**.  
   
-> [!TIP]
->  To enhance your analytical perspective with the **TCP** **Viewpoint**, you can use the **TCP Deep Packet Analysis with Relative Sequence Number with Grouping** view **Layout** for the **Analysis Grid** viewer to display the relevant field data in a predefined Grouped configuration with **Network**, **Transport**, and **SourcePort** groups.  
+ > [!TIP]
+ >  To enhance your analytical perspective with the **TCP** **Viewpoint**, you can use the **TCP Deep Packet Analysis with Relative Sequence Number with Grouping** view **Layout** for the **Analysis Grid** viewer to display the relevant field data in a predefined Grouped configuration with **Network**, **Transport**, and **SourcePort** groups.  
   
 -   **UDP** — provides perspective from the **Viewpoint** of the UDP transport protocol.  
   
@@ -90,8 +90,8 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 -   **HTTP** — an application-layer **Viewpoint** that places HTTP messages at top-level in the **Analysis Grid** viewer. Provides a convenient way to analyze the request/response pairs of HTTP Operations without having to search for the response messages. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
   
-> [!NOTE]
->  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
+ > [!NOTE]
+ >  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
   
 -   **SMB/SMB2** — an application-layer **Viewpoint** that places SMB and SMB2 messages at top-level in the **Analysis Grid** viewer by removing RPC and any other message layers on top, for example, GSSAPI and Kerberos messages.  
   

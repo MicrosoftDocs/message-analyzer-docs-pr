@@ -60,8 +60,8 @@ Each of the default tiles contain lines of data that are labeled according to pr
   
 ---  
   
-**More Information**   
-**To learn more** about the meaning of diagnostic messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
+ **More Information**   
+ **To learn more** about the meaning of diagnostic messages, see the [Diagnosis Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.   
 
 ---  
   
@@ -81,7 +81,7 @@ Each of the default tiles contain lines of data that are labeled according to pr
   
     -   **Maximum Value** — specifies the maximum **ResponseTime** value detected in the current set of trace results.  
   
-     **Note** These statistics can quickly alert you when there is a problem with poorly performing servers, in terms of responses to client requests.  
+ **Note** These statistics can quickly alert you when there is a problem with poorly performing servers, in terms of responses to client requests.  
   
 > [!TIP]
 >  For additional summary information about any of the default summary tiles, hover over the number just below the tile name with your mouse to display a popup window that specifies related evaluation data.  

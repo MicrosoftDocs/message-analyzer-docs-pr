@@ -200,7 +200,7 @@ Taken together, these viewers and layouts provide robust information sets that y
 
 ## See Also
 
-[Analysis Grid Viewer](analysis-grid-viewer.md)
-[Grouping Viewer](grouping-viewer.md)
-[Chart Viewer Layouts](chart-viewer-layouts.md)
+[Analysis Grid Viewer](analysis-grid-viewer.md)  
+[Grouping Viewer](grouping-viewer.md)  
+[Chart Viewer Layouts](chart-viewer-layouts.md)  
 [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md)

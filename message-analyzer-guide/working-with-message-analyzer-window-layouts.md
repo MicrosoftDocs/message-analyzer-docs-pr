@@ -33,7 +33,7 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
 -   Load data from a file type for which a viewer configuration is defined by a default or custom **Profile**, as described in topic [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).  
   
- The following topics in this section describe how to work with **Window Layouts**.  
+The following topics in this section describe how to work with **Window Layouts**.  
   
 ---  
   
@@ -78,7 +78,7 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
      See the [Field Chooser Tool Window](field-chooser-tool-window.md) topic for further details on how to use this feature.  
   
- Other redockable **Tool Windows** that you can manually select for display in any Message Analyzer session are available as items in the **Windows** submenu which is accessible from the global Message Analyzer **Tools** menu. This includes the **Bookmarks**, **Comments**, **Diagnostics**, **Decryption**, **Selection**, and **Output** **Tool Windows**.  
+Other redockable **Tool Windows** that you can manually select for display in any Message Analyzer session are available as items in the **Windows** submenu which is accessible from the global Message Analyzer **Tools** menu. This includes the **Bookmarks**, **Comments**, **Diagnostics**, **Decryption**, **Selection**, and **Output** **Tool Windows**.  
   
 <a name="BKMK_UsingWindowLayouts"></a>   
 ## Using the Built-in Window Layouts  

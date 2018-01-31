@@ -39,8 +39,8 @@ You can enable or disable any **Alias** by toggling (selecting/unselecting) the 
   
 -   **IPv6 Loopback** — provides a friendly name for the IPv6 address `::1`, which is a special IP number that is designated for the software loopback interface on your machine.  
   
-> [!NOTE]
->  A loopback interface is not associated with any hardware, nor is it physically connected to a network. Rather, the interface is a conduit for local application traffic, for example, between a local web server and a SQL server.  
+ > [!NOTE]
+ >  A loopback interface is not associated with any hardware, nor is it physically connected to a network. Rather, the interface is a conduit for local application traffic, for example, between a local web server and a SQL server.  
   
  You can also modify and save any of the default **Alias** collection items as necessary, as described in [Modifying Message Analyzer Aliases](modifying-message-analyzer-aliases.md).  You can also share **Aliases** with others, including the default **Aliases**, by using the **Manage Aliases** dialog as described in [Managing Message Analyzer Aliases as Shared Items](managing-message-analyzer-aliases-as-shared-items.md).  
   

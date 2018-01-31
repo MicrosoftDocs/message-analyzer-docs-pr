@@ -93,15 +93,15 @@ A brief description of each procedure is included here for review, as follows.
   
 7.  Stop the trace at a suitable point by clicking the **Stop** button on the global Message Analyzer  toolbar.  
   
-> [!TIP]
->  You can temporarily suspend tracing operations by clicking the **Pause/Resume** button and you can resume tracing by clicking the **Pause/Resume** button again.  
+  > [!TIP]
+  >  You can temporarily suspend tracing operations by clicking the **Pause/Resume** button and you can resume tracing by clicking the **Pause/Resume** button again.  
   
 8.  Click the **Color Rules** drop-down list on the **Analysis Grid** viewer toolbar, and then under the **Network** category of the drop-down that displays, select the **TCP** left gradient and **IPv4 Gradient Right** **Color Rules**.  
   
      All top-level TCP messages or other top-level messages that have TCP in the origins tree are highlighted with the light blue left-to-right gradient **Color Rule** style. Also, all TCP messages that have an IPv4 network layer are highlighted in the olive green right-to-left gradient **Color Rule** style, thus enabling you to easily view messages that meet the filtering criteria of both the applied **Color Rules**.  
   
-> [!NOTE]
->  To isolate either TCP or IPv4 messages at top-level to further enhance analysis, you can apply a TCP or IPv4 viewpoint as appropriate from the Filtering toolbar.  
+  > [!NOTE]
+  >  To isolate either TCP or IPv4 messages at top-level to further enhance analysis, you can apply a TCP or IPv4 viewpoint as appropriate from the Filtering toolbar.  
   
 <a name="BKMK_ApplyViewLayout"></a>   
 ## Apply a Built-In View Layout  
@@ -188,10 +188,10 @@ A brief description of each procedure is included here for review, as follows.
   
      The trace data is grouped according to the different content types associated with HTTP messages, so that you can examine the types of objects being passed to your web browser by the server.  
   
-> [!TIP]
->  To create a more focused analysis, you can limit the display to HTTP messages only by specifying an HTTP **Viewpoint**; you can do this by clicking the **Viewpoint** drop-down list on the Filtering toolbar and then selecting the **HTTP** item.  
+ > [!TIP]
+ >  To create a more focused analysis, you can limit the display to HTTP messages only by specifying an HTTP **Viewpoint**; you can do this by clicking the **Viewpoint** drop-down list on the Filtering toolbar and then selecting the **HTTP** item.  
   
-When you are done with assessing the data, click the **x** in the **ContentType** Group label above the **Analysis Grid** to remove the Group and return to the default view **Layout**.  
+ When you are done with assessing the data, click the **x** in the **ContentType** Group label above the **Analysis Grid** to remove the Group and return to the default view **Layout**.  
   
 12. Sort the **ResponseTime** column in descending order and then **Group** this column to quickly expose the slowest server responses and associated messages in separate Groups for analysis.  
   
@@ -205,8 +205,8 @@ When you are done with assessing the data, click the **x** in the **ContentType*
   
      The trace data is grouped according to **Source** or **Destination**, as appropriate, so that you can determine which IP addresses are carrying the most traffic. Note that you can obtain similar statistics by executing a **Group** command on the **Network** column, which you can add from the IP message hierarchy in the **Field Chooser**.  
   
-> [!TIP]
->  You can also nest groups by performing successive **Group** operations on multiple columns. For example, you might also add the **Response.PayloadLength** field from the **HTTP** message hierarchy in **Field Chooser** and then perform multiple groupings in succession on the **ResponseTime**,  **ContentType**, **PayloadLength**, and **Transport** data columns so you can view the slowest server response times correlated with the content types that are associated with the highest payload values, along with the TCP ports that carried that information. Another grouped configuration you can try would be to **Group** the **Source** and **Destination** columns, in that order, to organize all the **Destination** traffic that is associated with each **Source** address, or vice versa.  
+ > [!TIP]
+ >  You can also nest groups by performing successive **Group** operations on multiple columns. For example, you might also add the **Response.PayloadLength** field from the **HTTP** message hierarchy in **Field Chooser** and then perform multiple groupings in succession on the **ResponseTime**,  **ContentType**, **PayloadLength**, and **Transport** data columns so you can view the slowest server response times correlated with the content types that are associated with the highest payload values, along with the TCP ports that carried that information. Another grouped configuration you can try would be to **Group** the **Source** and **Destination** columns, in that order, to organize all the **Destination** traffic that is associated with each **Source** address, or vice versa.  
   
 16. Remove all **Group** configurations to return to the original **Analysis Grid** viewer display and then execute the **Group** command on the **DiagnosisTypes** column in the **Analysis Grid** viewer.  
   
@@ -252,8 +252,8 @@ When you are done with assessing the data, click the **x** in the **ContentType*
   
 9. Double-click a message node or time line in the **SMB Reads and Writes Bytes/Second** data viewer to display specific traffic in a new instance of the **Analysis Grid** viewer tab for further investigation.  
   
-> [!TIP]
->  You can also use the **Field Chooser** **Tool Window** to add an SMB **FileName** or SMB2 **FileName** column to the **Analysis Grid** viewer and then execute a **Group** command on the new column so that you can examine the SMB traffic that is associated with access to specific files.  
+ > [!TIP]
+ >  You can also use the **Field Chooser** **Tool Window** to add an SMB **FileName** or SMB2 **FileName** column to the **Analysis Grid** viewer and then execute a **Group** command on the new column so that you can examine the SMB traffic that is associated with access to specific files.  
   
 10. Optionally, select the **SMB File Stats** view **Layout** from the **Chart** drop-down in the **New Viewer** drop-down list. With this **Layout**, you can examine a summary of SMB file statistics in a **Table** visualizer component that includes the file name, access duration, total number of bytes for each file or folder access operation, and the data transmission rates, as described in [SMB File Stats](smb-file-stats.md).  
   
@@ -328,8 +328,8 @@ When you are done with assessing the data, click the **x** in the **ContentType*
   
      The **Microsoft-PEF-WFP-MessageProvider** information displays in the **ETW Providers** list on the **Live Trace** tab, which includes the provider **Name**, **GUID**, and a **Configure** link that opens the **Advanced Settings** dialog for this provider.  
   
-> [!NOTE]
->  In addition to capturing loopback traffic and unencrypted IPSEC messages, the **Microsoft-PEF-WFP-MessageProvider** minimizes other lower-level noise such as broadcast traffic, so that you can focus your analysis above the IP/Network Layer.  
+ > [!NOTE]
+ >  In addition to capturing loopback traffic and unencrypted IPSEC messages, the **Microsoft-PEF-WFP-MessageProvider** minimizes other lower-level noise such as broadcast traffic, so that you can focus your analysis above the IP/Network Layer.  
   
 5.  If the **Start With** drop-down list in the **New Session** dialog does not indicate the **Analysis Grid** viewer, then click the drop-down list and select it.  
   
@@ -337,8 +337,8 @@ When you are done with assessing the data, click the **x** in the **ContentType*
   
      The captured data begins to accumulate in the **Analysis Grid** viewer.  
   
-> [!NOTE]
->  You can start this type of trace immediately with default provider configuration settings, by selecting the **Loopback and Unencrypted IPSEC** **Trace Scenario** in the **Favorite Scenarios** list on the Message Analyzer **Start Page**. By starting a trace in this manner, you will not have access to provider configuration settings prior to capturing data.  
+ > [!NOTE]
+ >  You can start this type of trace immediately with default provider configuration settings, by selecting the **Loopback and Unencrypted IPSEC** **Trace Scenario** in the **Favorite Scenarios** list on the Message Analyzer **Start Page**. By starting a trace in this manner, you will not have access to provider configuration settings prior to capturing data.  
   
 7.  While Message Analyzer is capturing data, launch a web browser and attempt to reproduce any conditions that are related to a particular HTTP issue you are trying to isolate, for example, a slowly responding or non-responsive web server.  
   
@@ -398,17 +398,17 @@ When you are done with assessing the data, click the **x** in the **ContentType*
   
 4.  On the **Files** tab of the **New Session** dialog, click the **Add Files** button on the **Files** tab toolbar to launch the **Open** dialog, select a large trace or log file containing data that you want to view in a specific time window, and then click **Open**.  
   
-The name of the trace or log file appears in the files list.  
+ The name of the trace or log file appears in the files list.  
   
 5.  If you loaded a \*.log file, you should choose an applicable configuration file from the **Text Log Configuration** drop-down list just below the toolbar of the **Files** tab for your log, to enable full parsing of messages.  
   
-> [!IMPORTANT]
->  A built-in OPN configuration file is required to parse a text log. Message Analyzer provides several configuration files by default, including Cluster, IIS, SambaSys, and Netlogon .log files, among many others. If the type of text log you want to parse is not included in the previously specified list, you will need to create your own custom OPN configuration file to parse your log, as described in [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md).  
+ > [!IMPORTANT]
+ >  A built-in OPN configuration file is required to parse a text log. Message Analyzer provides several configuration files by default, including Cluster, IIS, SambaSys, and Netlogon .log files, among many others. If the type of text log you want to parse is not included in the previously specified list, you will need to create your own custom OPN configuration file to parse your log, as described in [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md).  
   
 6.  Confirm that the **Analysis Grid** viewer is selected in the **Start With** drop-down list and then click the **Start** button in the **New Session** dialog to start loading the message data.  
   
-> [!IMPORTANT]
->  Do *not* configure a **Time Filter** in the Data Retrieval Session configuration, given that you will be doing this only *after* the data is loaded into Message Analyzer.   You might do this in a different scenario where you want to improve performance by limiting the amount of input messages from a high volume data file, as described in [Considering Performance vs. Usability Factors for Time Filter Application](applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability), but not in this particular example.  
+ > [!IMPORTANT]
+ >  Do *not* configure a **Time Filter** in the Data Retrieval Session configuration, given that you will be doing this only *after* the data is loaded into Message Analyzer.   You might do this in a different scenario where you want to improve performance by limiting the amount of input messages from a high volume data file, as described in [Considering Performance vs. Usability Factors for Time Filter Application](applying-a-time-filter-to-session-results.md#BKMK_PerfVsUsability), but not in this particular example.  
   
 7.  After the message data is loaded and displayed in the **Analysis Grid** viewer, click the **Add Time Filter** item from the **Add Filter** drop-down list on the Filtering toolbar to open the **Time Filter** panel.  
   
@@ -426,8 +426,8 @@ The name of the trace or log file appears in the files list.
   
      Note that you can toggle the application and removal of a **Time Filter** as many times as your analysis requires. You can also apply view **Filters**, **Viewpoints**, and **Viewpoint Filters** to the time filtered results to further focus the results you want to analyze.  
   
-> [!NOTE]
->  **Time Filters** do not persist across sessions or even across viewers of the same session, which means that you will need to create a new **Time Filter** configuration for every session or viewer where you want to apply time window filtering. Also note that you can save any data set to which you have applied a **Time Filter** by clicking **Save As** on the global Message Analyzer **File** menu and specifying the **Filtered Messages for Analysis Grid view** option to perform the save with the **Save/Export Session** dialog.  
+ > [!NOTE]
+ >  **Time Filters** do not persist across sessions or even across viewers of the same session, which means that you will need to create a new **Time Filter** configuration for every session or viewer where you want to apply time window filtering. Also note that you can save any data set to which you have applied a **Time Filter** by clicking **Save As** on the global Message Analyzer **File** menu and specifying the **Filtered Messages for Analysis Grid view** option to perform the save with the **Save/Export Session** dialog.  
   
 <a name="BKMK_DriveInteractions"></a>   
 ## Drive Analysis Grid Viewer and Tool Window Interactions  
@@ -446,8 +446,8 @@ The name of the trace or log file appears in the files list.
   
 2.  Click the global Message Analyzer **Tools** menu, click the **Windows** item, and then select **Diagnostics** in the submenu that appears, to display the **Diagnostics** **Tool Window** in its default docking location.  
   
-> [!NOTE]
->  The **Diagnostics** window is a preview feature that will not be included in the **Windows** submenu unless you have first selected it on the **Features** tab of the **Options** dialog. This dialog is also accessible from the global Message Analyzer **Tools** menu. Note that a Message Analyzer restart is required after this selection.  
+ > [!NOTE]
+ >  The **Diagnostics** window is a preview feature that will not be included in the **Windows** submenu unless you have first selected it on the **Features** tab of the **Options** dialog. This dialog is also accessible from the global Message Analyzer **Tools** menu. Note that a Message Analyzer restart is required after this selection.  
   
 3.  Click the global **Tools** menu again, click the **Windows** item, click the **Message Stack** item, and then select **Message Stack 1** in the submenu to display the **Message Stack 1** **Tool Window** in its default docking location.  
   
@@ -459,15 +459,15 @@ The name of the trace or log file appears in the files list.
   
      Observe that message selection in the **Diagnostics** window drives selection of one or more top-level messages in the **Analysis Grid** viewer and corresponding message details in the **Details** window.  
   
-> [!NOTE]
->  You should be aware that even though top-level messages are highlighted, the actual message that contains a diagnosis error might be at a lower layer in the origins tree (message stack). You can determine this by expanding message nodes in the **Analysis Grid** viewer under the highlighted top-level message/s. In addition, note that the **Diagnostics** window data columns provide descriptions of all diagnosis messages in the current trace results, so you do not have to drill down into the origins tree through node expansion to see them.  
+ > [!NOTE]
+ >  You should be aware that even though top-level messages are highlighted, the actual message that contains a diagnosis error might be at a lower layer in the origins tree (message stack). You can determine this by expanding message nodes in the **Analysis Grid** viewer under the highlighted top-level message/s. In addition, note that the **Diagnostics** window data columns provide descriptions of all diagnosis messages in the current trace results, so you do not have to drill down into the origins tree through node expansion to see them.  
   
 6.  Click the **Message Data 1** **Tool Window** tab in its default docking location to bring it into focus and then select any message in the **Analysis Grid** viewer.  
   
      Observe that message selection in the **Analysis Grid** viewer drives the display of hexadecimal, binary, or ASCII data selection in the **Message Data 1** window and message details in the **Details** window.  
   
-> [!NOTE]
->  If you select the top-level message in any Operation row, it does not display any data in any **Message Data** window. Rather, you must expand the Operation node in the **Analysis Grid** viewer and select one of the nested request or response messages that it contains to display highlighted hexadecimal data.  
+ > [!NOTE]
+ >  If you select the top-level message in any Operation row, it does not display any data in any **Message Data** window. Rather, you must expand the Operation node in the **Analysis Grid** viewer and select one of the nested request or response messages that it contains to display highlighted hexadecimal data.  
   
 7.  Select any message in the **Analysis Grid** viewer and then select a field **Name** in the **Details** window.  
   
@@ -514,8 +514,8 @@ The name of the trace or log file appears in the files list.
   
      `*Source == “MyComputer”`  
   
-> [!NOTE]
->  If a **Filter** panel on the Filtering toolbar is not currently displayed, click the **Add Filter** drop-down list just below the **Analysis Grid** viewer tab and select the **Add Filter** item in the list.  
+ > [!NOTE]
+ >  If a **Filter** panel on the Filtering toolbar is not currently displayed, click the **Add Filter** drop-down list just below the **Analysis Grid** viewer tab and select the **Add Filter** item in the list.  
   
 9. Click the **Apply** button on the **Filter** panel of the Filtering toolbar and observe that the specified filter removes all traffic except the messages in which “MyComputer” represents either the **Source** or **Destination** computer IPv6 address.  
   
@@ -548,16 +548,16 @@ The name of the trace or log file appears in the files list.
   
 4.  On the **Files** tab of the **New Session** dialog, click the **Add Files** button on the **Files** tab toolbar to launch the **Open** dialog, select the trace and log files that contain the data fields for which you will create a **Union**, and then click **Open**.  
   
-> [!TIP]
->  You will need to know in advance the field names from the messages in your input files for which you will be creating a new **Union**. As an example, the built-in **SMBTID** union that you can access from the global Message Analyzer **Tools** menu creates a **Union** of the following three fields that are accessible in **Field Chooser** **Tool Window**  under the **SMB**, **SMB2**, and **SambaSysLog** nodes, respectively:  
->   
->  -   **SMB.SmbHeader.Tid**  
-> -   **SMB2.SMB2Request.Header.TreeId**  
-> -   **SambaSysLog.smb_command.command.smb_tid** — note that the **SambaSysLog** node and this field will only exist in **Field Chooser** if a Samba \*.log file is loaded into  Message Analyzer with a  **SambaSysLog** configuration file specified in the **New Session** dialog for a Data Retrieval Session. This could apply if you are loading a *.log file into Message Analyzer.  
->   
->  Whenever you create a new **Union**, you will need to use the **Field Chooser** to locate and add the fields that are to comprise the **Union**, as indicated ahead in this procedure.  
-  
-The name of the trace and log files appear in the files list.  
+ > [!TIP]
+ >  You will need to know in advance the field names from the messages in your input files for which you will be creating a new **Union**. As an example, the  built-in **SMBTID** union that you can access from the global Message Analyzer **Tools** menu creates a **Union** of the following three fields that are  accessible in **Field Chooser** **Tool Window**  under the **SMB**, **SMB2**, and **SambaSysLog** nodes, respectively:  
+ >   
+ >  -   **SMB.SmbHeader.Tid**  
+ > -   **SMB2.SMB2Request.Header.TreeId**  
+ > -   **SambaSysLog.smb_command.command.smb_tid** — note that the **SambaSysLog** node and this field will only exist in **Field Chooser** if a Samba \*.log  file is loaded into  Message Analyzer with a  **SambaSysLog** configuration file specified in the **New Session** dialog for a Data Retrieval Session. This  could apply if you are loading a *.log file into Message Analyzer.  
+ >   
+ >  Whenever you create a new **Union**, you will need to use the **Field Chooser** to locate and add the fields that are to comprise the **Union**, as  indicated ahead in this procedure.  
+   
+ The name of the trace and log files appear in the files list.  
   
 5.  Observe the current **Start With** drop-down list selection in the **New Session** dialog; if it is not the **Analysis Grid** viewer, click the drop-down list and select the **Analysis Grid** item.  
   

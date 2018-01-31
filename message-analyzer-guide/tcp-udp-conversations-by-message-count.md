@@ -53,7 +53,7 @@ The **TCP/UDP Conversations by Message Count** viewer **Layout** for **Charts** 
   
 -   Duration per conversation  
   
- **Interactive Analysis**   
+**Interactive Analysis**   
 The **TCP/UDP Conversations by Message Count** view **Layout** for **Charts** is intended to work with the **Analysis Grid** viewer and **Grouping** viewer **Layouts** that are configured in all of the  **Performance Top Down** and **Network Monitor** **Profiles**. These **Profiles** create an interactive and integrated analysis environment for data that exists in various trace file types, for which **Profiles** are configured. For example, the **Performance Top Down** **Profile** for \*.cap files uses the following data viewers and **Layouts** to create an integrated analysis environment.  
   
 -   **Analysis Grid** viewer — uses the **Performance Top Down** **Layout** in this **Profile**.  
@@ -62,7 +62,7 @@ The **TCP/UDP Conversations by Message Count** view **Layout** for **Charts** is
   
 -   **Chart** viewer — uses the **TCP/UDP Conversations by Message Count** **Layout** in this **Profile**.  
   
- You will be able to correlate the data most effectively if you have these viewers and **Layouts** displayed. For example, you can interactively drive the display of messages associated with a particular TCP conversation into a new instance of the **Analysis Grid** viewer by double-clicking any table-grid row in the **TCP/UDP Conversations by Message Count** **Layout**. The results enable you to achieve a focused analysis of the messages associated with a particular conversation. The  **Process Names and Conversations** **Layout** for the **Grouping** viewer also enables a greater interactive context with additional enhancements to the analysis process.  
+You will be able to correlate the data most effectively if you have these viewers and **Layouts** displayed. For example, you can interactively drive the display of messages associated with a particular TCP conversation into a new instance of the **Analysis Grid** viewer by double-clicking any table-grid row in the **TCP/UDP Conversations by Message Count** **Layout**. The results enable you to achieve a focused analysis of the messages associated with a particular conversation. The  **Process Names and Conversations** **Layout** for the **Grouping** viewer also enables a greater interactive context with additional enhancements to the analysis process.  
   
 ---  
   

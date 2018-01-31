@@ -30,10 +30,10 @@ You can access the **Field Chooser** window from any of the following locations 
   
 -   **Column context menu** — right-click an **Analysis Grid** viewer column header and select the **Add Columns…** item that displays in the context menu that appears.  
   
- **Redocking the Field Chooser**   
+**Redocking the Field Chooser**   
 After you display the **Field Chooser** window, you can undock and reposition it by taking advantage of the docking navigation control that displays after you drag the **Field Chooser** window away from its default docking location. You might do this to configure a location for this window that better suits your analysis process.  
   
- **Performing Tasks with the Field Chooser**   
+**Performing Tasks with the Field Chooser**   
 You can use **Field Chooser** to locate message fields when performing the following tasks:  
   
 -   Expanding the default column **Layout** of the **Analysis Grid** viewer by adding fields as new data columns, as described in [Expanding the Analysis Grid Viewer Column Layout](field-chooser-tool-window.md#BKMK_ExpandAGLayout).  
@@ -108,7 +108,7 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
   
      Please be aware that you must use an asterisk (\*) to return the data of a **Global Property**.  
   
- Note that the **Global Annotations** and **Global Properties** entities appear in the **Details** **Tool Window** when you click the **Show all properties for the selected message** button on the **Details** window toolbar. However, these entities will display a value in **Details**, only if such values can be read or otherwise derived from the currently selected message.  
+Note that the **Global Annotations** and **Global Properties** entities appear in the **Details** **Tool Window** when you click the **Show all properties for the selected message** button on the **Details** window toolbar. However, these entities will display a value in **Details**, only if such values can be read or otherwise derived from the currently selected message.  
   
 ---  
   

@@ -35,11 +35,11 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
   
 -   Right-clicking any message in the **Analysis Grid** viewer and selecting the **Shift Time…** item in the context menu that appears.  
   
- After you open the **Shift Time** dialog shown in the figure below, you can apply a time shift that changes the **Time Stamp** values for a set of messages by configuring a time shift with the **Shift Time** dialog controls and then clicking the **Apply** button. In the figure below, a 3-hour time shift is being added to a data source to account for a time zone difference.  
+After you open the **Shift Time** dialog shown in the figure below, you can apply a time shift that changes the **Time Stamp** values for a set of messages by configuring a time shift with the **Shift Time** dialog controls and then clicking the **Apply** button. In the figure below, a 3-hour time shift is being added to a data source to account for a time zone difference.  
   
- ![Message Analyzer Shift Time dialog](media/fig62-message-analyzer-shift-time-dialog.png "Fig62-Message Analyzer Shift Time dialog")  
+![Message Analyzer Shift Time dialog](media/fig62-message-analyzer-shift-time-dialog.png "Fig62-Message Analyzer Shift Time dialog")  
   
- **Figure 62: Message Analyzer Shift Time dialog**  
+**Figure 62: Message Analyzer Shift Time dialog**  
   
 ## Dialog Entry Contexts  
 
@@ -55,7 +55,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
   
     -   An incremental or decremental **Timestamp** change to all messages in selected data sources, by making adjustments to hour, minute, and second value displacements with up to 7 decimal digits resolution.  
   
-     You might be using this context because you discovered during analysis that messages from a particular data source need a time shift and you want to calculate the shift based on a known/selected message **Timestamp** value.  
+ You might be using this context because you discovered during analysis that messages from a particular data source need a time shift and you want to calculate the shift based on a known/selected message **Timestamp** value.  
   
 ## Context-Enabled Dialog Controls  
 
@@ -67,7 +67,7 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
   
 -   **Remove All Time Shifts** — removes all time shifts for the current in-focus session.  
   
- When you open the **Shift Time** dialog *with message context*, that is, while a message is selected in the **Analysis Grid** viewer, all controls in the **Shift Time** dialog are enabled so you can specify an incremental time shift value as well as a date change to accommodate **Timestamp** differences. Also, the **Apply Time Shift to Data Sources** pane may be populated with values if you previously specified a time shift and reopened the **Shift Time** dialog in the current session.  
+When you open the **Shift Time** dialog *with message context*, that is, while a message is selected in the **Analysis Grid** viewer, all controls in the **Shift Time** dialog are enabled so you can specify an incremental time shift value as well as a date change to accommodate **Timestamp** differences. Also, the **Apply Time Shift to Data Sources** pane may be populated with values if you previously specified a time shift and reopened the **Shift Time** dialog in the current session.  
   
 ## Using the Time Shift Controls  
 
@@ -83,12 +83,12 @@ Message Analyzer provides a **Shift Time** dialog that enables you to change the
   
 -   **Time Stamp** option — enables the following controls to allow you to set an incremental time shift value and/or change the calendar date for all messages in selected data sources:  
   
-> [!NOTE]
->  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
+ > [!NOTE]
+ >  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
   
--   **Date** — consists of a date control that drops down when you click it. Enables you to specify a date that shifts the **Timestamp** values of all messages in selected data sources in 24-hour increments.  
+  -   **Date** — consists of a date control that drops down when you click it. Enables you to specify a date that shifts the **Timestamp** values of all messages in selected data sources in 24-hour increments.  
 
--   **Time Stamp** up-down and spin — works interactively to enable you to add or subtract a specified increment of time, as previously described.  
+  -   **Time Stamp** up-down and spin — works interactively to enable you to add or subtract a specified increment of time, as previously described.  
   
 -   **Apply Time Shift to Data Sources** pane — specifies time shift statistics that include **Current Shift**, **Updated Shift**, and **Shift Difference** values. Also specifies the data sources for the current session in the **Data Source** column.  
   

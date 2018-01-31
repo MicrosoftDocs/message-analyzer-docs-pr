@@ -60,11 +60,11 @@ FF02:0:0:0:0:0:1:3
   
 -   The data field value, in this case an IP address or the **Alias** name.  
   
- For the hypothetical **Alias** named “MyComputer”, the group identifier might look similar to the following:  
+For the hypothetical **Alias** named “MyComputer”, the group identifier might look similar to the following:  
   
- **>** **Source  (110): MyComputer**  
+**>** **Source  (110): MyComputer**  
   
- If you expand this group by clicking the arrow, you will see only the messages that have a “MyComputer” **Alias** in the **Source** column of the **Analysis Grid** viewer.  
+If you expand this group by clicking the arrow, you will see only the messages that have a “MyComputer” **Alias** in the **Source** column of the **Analysis Grid** viewer.  
   
 ## Dynamically Applying Aliases  
 

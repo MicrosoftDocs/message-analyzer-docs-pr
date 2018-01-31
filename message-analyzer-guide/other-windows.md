@@ -27,9 +27,9 @@ This section describes several other **Tool Windows** that you will make regular
   
 -   **Map Tool Window** — provides a high-level view of data points along with a navigation control that enables you to focus on the data field locations that contain the messages you want to analyze in a supporting primary data viewer that contains map style visualizations.  
   
- You can display any of these windows by selecting them in the **Windows** submenu that is accessible from the global Message Analyzer **Tools** menu, if they are not already displayed. Note that the **Field Chooser** window is also accessible from the **Pattern Editor**, the **Edit Union** dialog, and when creating and editing **Charts**.  
+You can display any of these windows by selecting them in the **Windows** submenu that is accessible from the global Message Analyzer **Tools** menu, if they are not already displayed. Note that the **Field Chooser** window is also accessible from the **Pattern Editor**, the **Edit Union** dialog, and when creating and editing **Charts**.  
   
- The indicated **Tool Windows** are described in the following topics of this section:  
+The indicated **Tool Windows** are described in the following topics of this section:  
   
 ---  
   

@@ -25,7 +25,7 @@ The **Selection** **Tool Window** is an interactive and dockable window that ena
   
 -   Across multiple viewers in different sessions.  
   
- The **Selection** window provides a separate space that independently monitors and displays the selection of messages in multiple viewers and keeps track of such selections, so that you can thereafter back- and forward-navigate among messages as necessary, while maintaining the context of previously selected messages. This enables you to undo any message selection that you made accidentally, without affecting other messages that you selected. The **Selection** window also provides various **Column Layouts** that can expose different message fields. All of these features enable you to improve message correlation and analysis capabilities.  
+The **Selection** window provides a separate space that independently monitors and displays the selection of messages in multiple viewers and keeps track of such selections, so that you can thereafter back- and forward-navigate among messages as necessary, while maintaining the context of previously selected messages. This enables you to undo any message selection that you made accidentally, without affecting other messages that you selected. The **Selection** window also provides various **Column Layouts** that can expose different message fields. All of these features enable you to improve message correlation and analysis capabilities.  
   
 ## Modes of Operation  
 

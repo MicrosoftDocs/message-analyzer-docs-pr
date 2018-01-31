@@ -23,14 +23,14 @@ This section describes how to filter a collection of messages based on the assoc
   
      To do this, select one or more data sources in the **Data Source Filter** dialog that is accessible from the global Message Analyzer **Session** menu after you load a collection of messages into Message Analyzer. By selecting one or more data sources in the dialog and clicking the **Apply** button, all messages are filtered from the current data  viewer except those that are associated with the selected data source/s.  
   
-> [!NOTE]
->  The **Data Source Filter** feature does not support filtering in **Layouts** for the **Chart** viewer that you can access from the **New Viewer** drop-down list.  
+ > [!NOTE]
+ >  The **Data Source Filter** feature does not support filtering in **Layouts** for the **Chart** viewer that you can access from the **New Viewer** drop-down list.  
   
-The **Data Source Filter** dialog is shown in the figure that follows, where a trace file and a cluster log  are the selected data sources.  
+ The **Data Source Filter** dialog is shown in the figure that follows, where a trace file and a cluster log  are the selected data sources.  
   
-![Data Source Filter dialog](media/fig60-data-source-filter-dialog.png "Fig60-Data Source Filter dialog")  
+ ![Data Source Filter dialog](media/fig60-data-source-filter-dialog.png "Fig60-Data Source Filter dialog")  
 
-**Figure 60:   Data Source Filter dialog**  
+ **Figure 60:   Data Source Filter dialog**  
   
 -   **Grouping** — create an associated message Group for each data source in a message collection under separate expandable **Data Source** nodes in the **Analysis Grid** viewer.  
   
@@ -57,14 +57,14 @@ The **Data Source Filter** dialog is shown in the figure that follows, where a t
   
     -   Log (.log) files — uses the format: FileName  
   
-> [!NOTE]
->  The **DataSource** column in the **Analysis Grid** viewer can also include additional information when messages from cap, .etl, and other  files are displayed. For example the host name can be included in the listing.  
+ > [!NOTE]
+ >  The **DataSource** column in the **Analysis Grid** viewer can also include additional information when messages from cap, .etl, and other  files are displayed. For example the host name can be included in the listing.  
   
 -   **Start Time** — specifies the **Timestamp** of the first message in the trace file or log.  
   
 -   **End Time** — specifies the **Timestamp** of the last message in the trace file or log.  
   
- **Applying and Removing Data Source Filtering**   
+**Applying and Removing Data Source Filtering**   
 After you use the **Data Source Filter** dialog to select the data source/s containing the messages that you want to view, click the **Apply** button in the dialog  to initiate the filtering process. After you apply the filtering, the **Apply** command is disabled and the **Remove** command is enabled in the **Data Source Filter** drop-down list so  you can remove the applied filter as necessary. After you click the **Remove** command, the **Apply** command then re-enables in the **Data Source Filter** drop-down list so that you can re-apply the current data source filtering configuration. You can toggle back and forth between applying and removing the **Data Source Filter** as many times as you want without changing the current data source filter configuration. To change the configuration, simply select the **Edit** command in the drop-down and reconfigure your **Data Source Filter** as required before you re-apply it.  
   
 ---  

@@ -32,8 +32,8 @@ After you create a **Union**, as described in [Creating Unions](creating-unions.
   
 -   **Grouping** — after you add the **Union** as a column in the **Analysis Grid** viewer as previously indicated, you can perform a Grouping operation, just as you do with any other **Analysis Grid** viewer column that contains a related set of values. In this case, the Grouping operation results in creating groups of data that are organized according to the different values that exist in the  column with the **Union** name. You can continue with additional Grouping operations on other **Analysis Grid** viewer columns that will typically result in nesting additional child data groups within the original parent **Union** group. By pivoting on various combinations of column data, you can create a variety of unique data analysis perspectives.  
   
-> [!NOTE]
->  Because **Unions** now support sets, that is, multiple values for a particular field correlation, a **Grouping** operation will reflect the set values.  
+ > [!NOTE]
+ >  Because **Unions** now support sets, that is, multiple values for a particular field correlation, a **Grouping** operation will reflect the set values.  
   
 -   **Filtering** — after you create and save a **Union**, it is available for use in a Filter Expression. The simplest way to create a Filter Expression with a **Union** is to right-click any field value in the **Union** column and select the **Add** ***‘\<unionName>'*** **to Filter** item, where '\<unionName>' is  a placeholder for an actual **Union** name. This might be the quickest way to create a valid Filter Expression with a **Union**, because Message Analyzer automatically passes the associated module into the Filter Expression and provides the correct syntax for the filter, as expressed in the following format: `module.unionName==someValue`. The Filter Expression then appears in the text box of the default Filter panel on the Filtering toolbar in the indicated format.  
   

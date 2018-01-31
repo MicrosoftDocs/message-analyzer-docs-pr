@@ -105,7 +105,7 @@ Message Analyzer provides some special features for working with protocols that 
   
      **Figure 59:  Viewpoint filter succeeds in isolating SMB2 request messages**  
   
- As a rule of thumb, keep in mind that you can successfully filter under an applied **Viewpoint** only by applying a **Viewpoint Filter**, as a view **Filter** will not provide the desired results in this scenario.  
+As a rule of thumb, keep in mind that you can successfully filter under an applied **Viewpoint** only by applying a **Viewpoint Filter**, as a view **Filter** will not provide the desired results in this scenario.  
   
 > [!TIP]
 >  In the previous procedure, you can substitute selection of the **SMB/SMB2 Disable Operations** command in the **Viewpoints** drop-down list for step 4.  

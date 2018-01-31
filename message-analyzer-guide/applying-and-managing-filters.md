@@ -92,8 +92,8 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
      When applied, this filter will return only the messages that contain either a **Source** or **Destination** address that matches the specified IP address, thereby providing a concise set of IP conversations where IKE negotiations took place.  
   
-> [!NOTE]
->  If you want to see only the AuthIP conversations, **Apply** the `AuthIP` filter and **Remove** the `IKE` filter.  
+ > [!NOTE]
+ >  If you want to see only the AuthIP conversations, **Apply** the `AuthIP` filter and **Remove** the `IKE` filter.  
   
 11. In the fourth Filter Expression text box, type the code `UDP.SourcePort==500`.  
   
@@ -103,8 +103,8 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
      For example, if you **Remove** the first two filters `AuthIP` and `IKE` and you **Apply** the second two filters `IPv4.Address==<192.168.1.1>` and `UDP.SourcePort==500`, Message Analyzer will show you all the AuthIP and IKE conversations that transited port 500.  
   
-> [!NOTE]
->  You are advised to experiment with different combinations of these view **Filters** so you can learn how to use tiered filtering configurations to expose different filtered results sets in a single data viewer and thereby enhance your data analysis process.  
+ > [!NOTE]
+ >  You are advised to experiment with different combinations of these view **Filters** so you can learn how to use tiered filtering configurations to expose different filtered results sets in a single data viewer and thereby enhance your data analysis process.  
   
 ## Using the Filter Expression Library  
  Message Analyzer provides a default set of built-in Filter Expression items that are accessible from the **Library** drop-down list that appears whenever you click the **Add Filter** button on the Filtering Toolbar. These **Filters** are sourced from the **Message Analyzer Filters** asset collection that you can manage from the **Manage Filter** dialog, which displays when you click the **Manage** item in the indicated **Library** drop-down list. You can also share this collection or any part of it (including any **Filters** that you have created) with others, by using the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu.  
