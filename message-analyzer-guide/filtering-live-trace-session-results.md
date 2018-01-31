@@ -269,5 +269,5 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 ## See Also  
 
-- [Writing Filter Expressions](writing-filter-expressions.md)   
-- [Filter IntelliSense Service](filter-intellisense-service.md)
+[Writing Filter Expressions](writing-filter-expressions.md)   
+[Filter IntelliSense Service](filter-intellisense-service.md)

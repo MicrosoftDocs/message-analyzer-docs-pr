@@ -23,7 +23,7 @@ The **HTTP Content Type Payloads**  viewer **Layout** for **Charts** displays pa
   
 -   The count of messages associated with each content type.  
   
- The  **HTTP Content Type Payloads** data is displayed in tabular format and includes **ContentType**, **PayloadBytes**, and **MessageCount** columns that contain the data. Note that the bar element graph in the **HTTP Content Type Volumes** viewer **Layout** repeats some of this data but does not include the **MessageCount** for each content type.  
+The  **HTTP Content Type Payloads** data is displayed in tabular format and includes **ContentType**, **PayloadBytes**, and **MessageCount** columns that contain the data. Note that the bar element graph in the **HTTP Content Type Volumes** viewer **Layout** repeats some of this data but does not include the **MessageCount** for each content type.  
   
 ## Analyzing Payload Data  
 
@@ -31,4 +31,4 @@ The **HTTP Content Type Payloads**  viewer **Layout** for **Charts** displays pa
   
 ## See Also  
 
-- [HTTP Content Type Volumes](http-content-type-volumes.md)
+[HTTP Content Type Volumes](http-content-type-volumes.md)

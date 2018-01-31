@@ -54,4 +54,4 @@ Message Analyzer has a default **Message Analyzer** subscriber feed that connect
   
 ## See Also  
 
-- [Asset Manager](asset-manager.md)
+[Asset Manager](asset-manager.md)

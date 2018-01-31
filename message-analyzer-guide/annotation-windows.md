@@ -21,7 +21,7 @@ This section provides the details for using the **Bookmarks** and **Comments** *
   
 ---  
   
-- [Bookmarks Tool Window](bookmarks-tool-window.md)   
-- [Comments Tool Window](comments-tool-window.md)   
+[Bookmarks Tool Window](bookmarks-tool-window.md)   
+[Comments Tool Window](comments-tool-window.md)   
 
 ---

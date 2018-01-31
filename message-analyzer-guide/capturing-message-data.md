@@ -80,9 +80,9 @@ In the topics of this section, you will learn how to accomplish the tasks indica
 **To learn more** about specifying **Keyword** and **Level** filters, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).  
 **To learn more** about other filtering configurations that you can apply to a built-in **Trace Scenario**, see the following topics:  
 
-- [Selecting Data to Capture](selecting-data-to-capture.md)  
-- [Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
-- [Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
+[Selecting Data to Capture](selecting-data-to-capture.md)  
+[Using the Advanced Settings - Microsoft-PEF-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-pef-ndis-packetcapture-dialog.md)  
+[Using the Advanced Settings - Microsoft-Windows-NDIS-PacketCapture Dialog](using-the-advanced-settings-microsoft-windows-ndis-packetcapture-dialog.md)  
 
 ---  
   

@@ -43,4 +43,4 @@ The **Top Level Protocols Message Count Layout** for the **Chart** viewer is int
   
 ## See Also  
 
-- [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)
+[Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)

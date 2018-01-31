@@ -114,4 +114,4 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
   
 ## See Also  
 
-- [Message Details Tool Window](message-details-tool-window.md)
+[Message Details Tool Window](message-details-tool-window.md)

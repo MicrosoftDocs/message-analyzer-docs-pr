@@ -50,4 +50,4 @@ The statistics data that you can view is organized into three different categori
 
 ## See Also
 
-- [Message Summary Tiles Viewer](message-summary-tiles-viewer.md)
+[Message Summary Tiles Viewer](message-summary-tiles-viewer.md)

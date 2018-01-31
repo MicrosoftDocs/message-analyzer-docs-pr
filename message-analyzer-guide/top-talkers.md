@@ -56,4 +56,4 @@ The built-in **Top Talkers** view **Layout** for **Chart** provides a summary of
   
 ## See Also  
 
-- [Top Talkers Top 20](top-talkers-top-20.md)
+[Top Talkers Top 20](top-talkers-top-20.md)

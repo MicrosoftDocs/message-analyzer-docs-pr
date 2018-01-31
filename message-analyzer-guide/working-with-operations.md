@@ -121,5 +121,5 @@ Message Analyzer provides some special features for working with protocols that 
   
 ## See Also  
 
-- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
-- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)
+[Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
+[Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)

@@ -23,7 +23,7 @@ This section describes interactive **Tool Windows** that are *session-specific* 
   
 ---  
   
-- [Diagnostics Tool Window](diagnostics-tool-window.md)   
-- [Decryption Tool Window](decryption-tool-window.md)   
+[Diagnostics Tool Window](diagnostics-tool-window.md)   
+[Decryption Tool Window](decryption-tool-window.md)   
 
 ---

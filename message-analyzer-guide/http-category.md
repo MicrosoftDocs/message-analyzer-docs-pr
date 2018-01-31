@@ -21,7 +21,7 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
   
 ---  
   
-- [HTTP Content Type Payloads](http-content-type-payloads.md)   
-- [HTTP Content Type Volumes](http-content-type-volumes.md)   
+[HTTP Content Type Payloads](http-content-type-payloads.md)   
+[HTTP Content Type Volumes](http-content-type-volumes.md)   
 
 ---

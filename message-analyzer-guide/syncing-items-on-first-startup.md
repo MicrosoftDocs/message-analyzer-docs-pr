@@ -29,4 +29,4 @@ This section describes the syncing options that you can utilize upon first Messa
   
 ## See Also  
 
-- [Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)
+[Starting Message Analyzer for the First Time](installing-and-upgrading-message-analyzer.md#BKMK_StartingMAFirstTime)

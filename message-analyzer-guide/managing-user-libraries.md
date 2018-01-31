@@ -128,4 +128,4 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
 ## See Also  
 
-- [User Libraries](user-libraries.md)
+[User Libraries](user-libraries.md)

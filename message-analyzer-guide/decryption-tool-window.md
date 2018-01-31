@@ -36,4 +36,4 @@ The Message Analyzer **Decryption** feature enables you to view messages that ar
   
 ## See Also  
 
-- [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)
+[Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md)

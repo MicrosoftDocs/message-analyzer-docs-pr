@@ -98,16 +98,16 @@ Note that this panel has the same controls that exist on the **Filter** panel. T
   
 ---  
   
-- [Applying and Managing Filters](applying-and-managing-filters.md)   
-- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)   
-- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
-- [Working With Operations](working-with-operations.md)   
-- [Creating a Flat Message List](creating-a-flat-message-list.md)   
+[Applying and Managing Filters](applying-and-managing-filters.md)   
+[Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)   
+[Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
+[Working With Operations](working-with-operations.md)   
+[Creating a Flat Message List](creating-a-flat-message-list.md)   
 
 ---  
   
 ## See Also  
 
-- [Working with Tiered Filtering Configurations](applying-and-managing-filters.md#BKMK_WorkWithTieredFiltering)   
-- [Writing Filter Expressions](writing-filter-expressions.md)   
-- [Grouping Viewer](grouping-viewer.md)
+[Working with Tiered Filtering Configurations](applying-and-managing-filters.md#BKMK_WorkWithTieredFiltering)   
+[Writing Filter Expressions](writing-filter-expressions.md)   
+[Grouping Viewer](grouping-viewer.md)

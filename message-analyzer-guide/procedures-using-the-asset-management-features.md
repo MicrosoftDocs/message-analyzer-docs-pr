@@ -172,4 +172,4 @@ A brief description of each procedure is included here for review, as follows.
   
 ## See Also  
 
-- [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)
+[Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)

@@ -64,6 +64,6 @@ In the case of a parser package that is already synced, if you click the auto-sy
   
 ## See Also  
 
-- [User Libraries](user-libraries.md)   
-- [Managing User Libraries](managing-user-libraries.md)   
-- [Managing Microsoft OPN Parser Packages](managing-microsoft-opn-parser-packages.md)
+[User Libraries](user-libraries.md)   
+[Managing User Libraries](managing-user-libraries.md)   
+[Managing Microsoft OPN Parser Packages](managing-microsoft-opn-parser-packages.md)

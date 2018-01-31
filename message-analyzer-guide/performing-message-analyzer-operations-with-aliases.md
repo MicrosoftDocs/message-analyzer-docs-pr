@@ -19,9 +19,9 @@ manager: "ronstarr"
 
 Message Analyzer enables you to use **Aliases** in the following common operations that you can employ when analyzing session results:  
   
-- [Using an Alias in a Filter Expression](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasFilters)   
-- [Sorting Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasSorting)   
-- [Grouping Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasGrouping)  
+[Using an Alias in a Filter Expression](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasFilters)   
+[Sorting Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasSorting)   
+[Grouping Operations with Aliases](performing-message-analyzer-operations-with-aliases.md#BKMK_AliasGrouping)  
   
  This section briefly describes these capabilities, in addition to the dynamic application of **Aliases** as you are acquiring input message data through a Live Trace Session or a Data Retrieval Session.  
   

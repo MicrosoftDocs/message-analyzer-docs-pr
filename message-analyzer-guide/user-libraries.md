@@ -104,4 +104,4 @@ Message Analyzer provides default asset collections that appear in various user 
   
 ## See Also  
 
-- [Managing User Libraries](managing-user-libraries.md)
+[Managing User Libraries](managing-user-libraries.md)

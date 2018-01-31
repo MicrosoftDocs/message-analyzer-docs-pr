@@ -36,4 +36,4 @@ The built-in **Top Talkers Top 20** view **Layout** for **Charts** provides a su
   
 ## See Also  
 
-- [Top Talkers](top-talkers.md)
+[Top Talkers](top-talkers.md)

@@ -34,4 +34,4 @@ This **Layout** for the **Chart** viewer is intended to work with the **Perfmon 
   
 ## See Also  
 
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

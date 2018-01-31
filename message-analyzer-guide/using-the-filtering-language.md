@@ -21,13 +21,13 @@ The topics of this section as listed below describe how to use various features 
   
 ---  
   
-- [Using Truncated Filter Expressions](using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
-- [Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
-- [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)   
-- [Referencing Enumerations](using-the-filtering-language.md#BKMK_ReferenceEnums)   
-- [Using Special Filtering Functions](using-the-filtering-language.md#BKMK_UseSpecialFilterFunctions)   
-- [Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins)   
-- [Using Aliases](using-the-filtering-language.md#BKMK_usingAliases)   
+[Using Truncated Filter Expressions](using-the-filtering-language.md#BKMK_UsingTruncatedFilters)   
+[Traversing the Message Hierarchy with Explicit Paths](using-the-filtering-language.md#BKMK_TraverseMessageHierarchyExpPaths)   
+[Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)   
+[Referencing Enumerations](using-the-filtering-language.md#BKMK_ReferenceEnums)   
+[Using Special Filtering Functions](using-the-filtering-language.md#BKMK_UseSpecialFilterFunctions)   
+[Browsing Message Origins](using-the-filtering-language.md#BKMK_BrowseMessageOrigins)   
+[Using Aliases](using-the-filtering-language.md#BKMK_usingAliases)   
 
 ---  
   

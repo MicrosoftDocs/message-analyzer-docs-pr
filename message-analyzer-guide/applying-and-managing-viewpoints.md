@@ -42,10 +42,10 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
 ---  
   
-- [Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
-- [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
-- [Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
-- [Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
+[Applying a Built-In Viewpoint](applying-and-managing-viewpoints.md#BKMK_ApplyingPredefinedViewpoints) — as applied to messages displaying in a data viewer.  
+[Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter) — to enhance the analysis context.  
+[Managing Viewpoints as Shared Items](applying-and-managing-viewpoints.md#BKMK_ManageViewpoints) —  to enable the mutual sharing of **Viewpoints** with others.  
+[Receiving Viewpoint Asset Collection Updates from Microsoft](applying-and-managing-viewpoints.md#BKMK_ReceivingViewpointCollectionUpdates) — to synchronize your **Viewpoints** asset collection for automatic updates from Microsoft.  
 
 ---  
   
@@ -171,4 +171,4 @@ In addition, you can share a **Viewpoints** asset collection through a user feed
   
 ## See Also  
 
-- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
+[Using the Filtering Toolbar](using-the-filtering-toolbar.md)

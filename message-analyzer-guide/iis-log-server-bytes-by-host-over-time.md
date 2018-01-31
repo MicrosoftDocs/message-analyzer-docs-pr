@@ -33,6 +33,6 @@ The **IIS Log Server Bytes by Host over Time** view **Layout** for **Charts** en
   
 ## See Also  
 
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
-- [Grouping Viewer](grouping-viewer.md)   
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
+[Grouping Viewer](grouping-viewer.md)   
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

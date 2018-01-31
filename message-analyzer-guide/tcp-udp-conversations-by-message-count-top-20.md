@@ -36,4 +36,4 @@ The **TCP/UDP Conversations by Message Count Top 20** viewer **Layout** for **Ch
   
 ## See Also  
 
-- [TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)
+[TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)

@@ -86,4 +86,4 @@ In the case of **Profiles**, the **Chart** viewer **Layouts** are preselected to
   
 ## See Also  
 
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

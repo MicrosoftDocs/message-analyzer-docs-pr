@@ -23,11 +23,11 @@ This section describes **Tool Windows** that are *message-specific* and *redocka
   
 ---  
   
-- [Message Details Tool Window](message-details-tool-window.md)   
-- [Message Data Tool Window](message-data-tool-window.md)   
-- [Field Data Tool Window](field-data-tool-window.md)   
-- [Message Stack Tool Window](message-stack-tool-window.md)   
-- [Selection Tool Window](selection-tool-window.md)   
-- [Compare Fields Tool Window](compare-fields-tool-window.md)   
+[Message Details Tool Window](message-details-tool-window.md)   
+[Message Data Tool Window](message-data-tool-window.md)   
+[Field Data Tool Window](field-data-tool-window.md)   
+[Message Stack Tool Window](message-stack-tool-window.md)   
+[Selection Tool Window](selection-tool-window.md)   
+[Compare Fields Tool Window](compare-fields-tool-window.md)   
 
 ---

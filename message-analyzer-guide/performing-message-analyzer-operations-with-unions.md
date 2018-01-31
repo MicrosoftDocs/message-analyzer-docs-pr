@@ -47,8 +47,8 @@ After you create a **Union**, as described in [Creating Unions](creating-unions.
   
 ## See Also  
 
-- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
-- [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
-- [Pattern Match Viewer](pattern-match-viewer.md)   
-- [Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)   
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)
+[Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
+[Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
+[Pattern Match Viewer](pattern-match-viewer.md)   
+[Creating and Modifying Color Rules](creating-and-modifying-color-rules.md)   
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)

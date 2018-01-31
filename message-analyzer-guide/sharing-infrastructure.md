@@ -60,6 +60,6 @@ From the common **Manage** ***\<AssetType>*** dialog, you can create new items t
   
 ## See Also  
 
-- [Asset Manager](asset-manager.md)   
-- [User Libraries](user-libraries.md)   
-- [Managing User Libraries](managing-user-libraries.md)
+[Asset Manager](asset-manager.md)   
+[User Libraries](user-libraries.md)   
+[Managing User Libraries](managing-user-libraries.md)

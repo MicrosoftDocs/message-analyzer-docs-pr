@@ -163,8 +163,8 @@ As a usage example, consider that you have two traces, one from a computer that 
   
 ## See Also  
 
-- [Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
-- [Writing Filter Expressions](writing-filter-expressions.md)   
-- [Using the Field Chooser](using-the-field-chooser.md)   
-- [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
-- [Message Data Tool Window](message-data-tool-window.md)
+[Filtering Live Trace Session Results](filtering-live-trace-session-results.md)   
+[Writing Filter Expressions](writing-filter-expressions.md)   
+[Using the Field Chooser](using-the-field-chooser.md)   
+[Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)   
+[Message Data Tool Window](message-data-tool-window.md)

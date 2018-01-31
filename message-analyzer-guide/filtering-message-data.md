@@ -49,4 +49,4 @@ To proceed directly to procedures that demonstrate the filtering features descri
   
 ## See Also  
 
-- [Applying and Managing Filters](applying-and-managing-filters.md)
+[Applying and Managing Filters](applying-and-managing-filters.md)

@@ -61,5 +61,5 @@ After you configure one or more **Unions** according to the instructions outline
   
 ## See Also  
 
-- [Creating Unions](creating-unions.md)   
-- [Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)
+[Creating Unions](creating-unions.md)   
+[Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)

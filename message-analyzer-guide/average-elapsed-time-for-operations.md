@@ -30,4 +30,4 @@ The **Average Elapsed Times for Operations** viewer **Layout** for **Charts** pr
   
 ## See Also  
 
-- [Average Response Time for Operations](average-response-time-for-operations.md)
+[Average Response Time for Operations](average-response-time-for-operations.md)

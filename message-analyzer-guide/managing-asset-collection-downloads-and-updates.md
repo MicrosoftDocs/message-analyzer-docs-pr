@@ -33,9 +33,9 @@ The features that are available to manage asset collection downloads and updates
   
  These capabilities are described in the following topics:  
 
-- [Syncing Items on First Startup](syncing-items-on-first-startup.md)  
-- [Filtering and Searching For Items](filtering-and-searching-for-items.md)  
-- [Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)  
+[Syncing Items on First Startup](syncing-items-on-first-startup.md)  
+[Filtering and Searching For Items](filtering-and-searching-for-items.md)  
+[Downloading Assets and Auto-Syncing Updates](downloading-assets-and-auto-syncing-updates.md)  
   
 ---  
   
@@ -47,4 +47,4 @@ The features that are available to manage asset collection downloads and updates
   
 ## See Also  
 
-- [Asset Manager](asset-manager.md)
+[Asset Manager](asset-manager.md)

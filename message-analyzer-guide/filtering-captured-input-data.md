@@ -67,4 +67,4 @@ Prior to starting a Live Trace Session with Message Analyzer, there are numerous
   
 ## See Also  
 
-- [Configuring a Live Trace Session](configuring-a-live-trace-session.md)
+[Configuring a Live Trace Session](configuring-a-live-trace-session.md)

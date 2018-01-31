@@ -73,4 +73,4 @@ The **TCP/UDP Conversations by Message Count** view **Layout** for **Charts** is
   
 ## See Also  
 
-- [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)
+[TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)

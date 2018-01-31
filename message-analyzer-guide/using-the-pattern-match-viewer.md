@@ -52,8 +52,8 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
     -   **Three-Way Handshake** — enables you to isolate all three-way handshakes that occurred when setting up TCP connections, for both IPv4 and IPv6 transports, in the current set of messages. Also displays the approximate round trip time as the time delta between Syn messages and Syn Acknowledgement messages.  
   
-> [!NOTE]
->  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
+ > [!NOTE]
+ >  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
   
 -   **TLS** category — the built-in **Pattern** expressions that are available in this category are described below.  
   
@@ -65,7 +65,7 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
          When a connection request for a TLS session is initiated by a TLS client and it reuses an existing Session ID, the client request is renegotiated to the TLS server with the use of a cached Session ID. However, during renegotiation, not all the TLS session information is represented on the wire.  When this occurs, Message Analyzer’s decryption expert is unable to decrypt these renegotiated          sessions.  
   
-     Therefore, the primary scenario in which you might execute these TLS **Pattern** expressions is when you run decryption against a set of trace results and you discover that decryption did not successfully occur, or a  connection in which you were interested was not decrypted. By executing these **Pattern** expressions, you might  learn that one or more connections in question were renegotiated. For example, you could determine this by examining which session connection requests were negotiated with an existing/cached Session ID and which ones were not.  
+Therefore, the primary scenario in which you might execute these TLS **Pattern** expressions is when you run decryption against a set of trace results and you discover that decryption did not successfully occur, or a  connection in which you were interested was not decrypted. By executing these **Pattern** expressions, you might  learn that one or more connections in question were renegotiated. For example, you could determine this by examining which session connection requests were negotiated with an existing/cached Session ID and which ones were not.  
   
 ## Viewing Pattern Match Data  
 
@@ -81,8 +81,8 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
 -   **Check to include matches in the Instance list** check box — by placing a check mark in this check box or by removing it, you can alternately show or hide the results of an executed **Pattern** expression in the **MATCHED INSTANCES** list, respectively. This is useful when you are displaying multiple Matched pattern selectors that result from executing multiple **Pattern** expressions that returned data. By selecting and deselecting different Matched pattern selectors in the **MATCHES** pane, you can alternately display or hide the matched instances of any results set.  
   
-> [!NOTE]
->  If you are already displaying matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer that result from executing a particular **Pattern** expression, you should unselect the corresponding Matched pattern selector for such  **Pattern** expression results before you attempt to display the results of another **Pattern** expression execution by clicking a different Matched pattern selector. Otherwise, it could be more difficult to locate the latter data in the **MATCHED INSTANCES** pane, given that it is chronologically ordered and could be buried amidst other data.  
+ > [!NOTE]
+ >  If you are already displaying matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer that result from executing a particular **Pattern** expression, you should unselect the corresponding Matched pattern selector for such  **Pattern** expression results before you attempt to display the results of another **Pattern** expression execution by clicking a different Matched pattern selector. Otherwise, it could be more difficult to locate the latter data in the **MATCHED INSTANCES** pane, given that it is chronologically ordered and could be buried amidst other data.  
   
 -   **Additional Options** drop-down menu — by clicking the black drop-down arrow on any Matched pattern selector, a menu appears with the following commands:  
   
@@ -116,7 +116,7 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
 -   Numerous columns of data that are relevant to the Pattern expression that you executed and for which you received results.  
   
- The **MESSAGES** pane exists below the **MATCHED INSTANCES** pane of the **Pattern Match** viewer. Each time you select a matched instance in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer, the **MESSAGES** pane is populated with the messages that are associated with the matched instance that you selected. You can change the format in which these messages display by selecting any of the following format options in the **MESSAGES** drop-down list:  
+The **MESSAGES** pane exists below the **MATCHED INSTANCES** pane of the **Pattern Match** viewer. Each time you select a matched instance in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer, the **MESSAGES** pane is populated with the messages that are associated with the matched instance that you selected. You can change the format in which these messages display by selecting any of the following format options in the **MESSAGES** drop-down list:  
   
 -   **Show messages in a list** — the default selection that displays the messages associated with a matched instance in a simple list.  
   
@@ -124,17 +124,17 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
 -   **Show messages grouped by sequential pattern match instance** — select this option to display messages in the **MESSAGES** pane as an expandable node that is identified by an executed **Pattern** expression name and the particular matched instance number that is selected in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer. By clicking the expandable node, you can display all the messages associated with the executed **Pattern** expression. By default, the node is in the collapsed state.  
   
- Regardless of the message display format that you choose, whenever messages for a matched instance are displaying in the **MESSAGES** pane of the **Pattern Match** viewer, you can right-click the matched instance messages and select one of the following context menu commands to display the messages:  
+Regardless of the message display format that you choose, whenever messages for a matched instance are displaying in the **MESSAGES** pane of the **Pattern Match** viewer, you can right-click the matched instance messages and select one of the following context menu commands to display the messages:  
   
 -   **Open All Messages** — opens all messages from a matched instance message group in a new instance of the **Analysis Grid** viewer, for example, to examine message details and stack information.  
   
 -   **Open Selected Messages** — opens only the selected messages from a matched instance message group in a new instance of the **Analysis Grid** viewer, for further analysis.  
   
- Note that the **MESSAGES** pane also provides **MessageNumber**, **Timestamp**, and **Summary** data columns, and in some cases, other fields will be included as data columns for specific data that was detected by an executed **Pattern** expression. For example, the **TCP Three-Way Handshake** **Pattern** expression contains many additional data fields that can be useful for analyzing problems with the setup of TCP connections.  
+Note that the **MESSAGES** pane also provides **MessageNumber**, **Timestamp**, and **Summary** data columns, and in some cases, other fields will be included as data columns for specific data that was detected by an executed **Pattern** expression. For example, the **TCP Three-Way Handshake** **Pattern** expression contains many additional data fields that can be useful for analyzing problems with the setup of TCP connections.  
   
  Also note that the drop-down list on the **MESSAGES** pane contains all the commands specified in the previous two lists.  
   
 ## See Also  
 
-- [Understanding Message Pattern Matching](understanding-message-pattern-matching.md)   
-- [Using the Pattern Editor](using-the-pattern-editor.md)
+[Understanding Message Pattern Matching](understanding-message-pattern-matching.md)   
+[Using the Pattern Editor](using-the-pattern-editor.md)

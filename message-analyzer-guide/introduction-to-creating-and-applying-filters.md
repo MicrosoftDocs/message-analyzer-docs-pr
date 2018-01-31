@@ -52,5 +52,5 @@ If the built-in Filter Expressions in the centralized filter **Library** do not 
   
 ## See Also  
 
-- [Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)   
-- [Applying and Managing Filters](applying-and-managing-filters.md)
+[Procedures: Using the Data Filtering Features](procedures-using-the-data-filtering-features.md)   
+[Applying and Managing Filters](applying-and-managing-filters.md)

@@ -168,4 +168,4 @@ To obtain access to the configuration controls and features that you will need t
   
 ## See Also  
 
-- [Configuration Walkthrough of a Built-In Chart Viewer Layout](configuration-walkthrough-of-a-built-in-chart-viewer-layout.md)
+[Configuration Walkthrough of a Built-In Chart Viewer Layout](configuration-walkthrough-of-a-built-in-chart-viewer-layout.md)

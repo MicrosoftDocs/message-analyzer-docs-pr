@@ -21,15 +21,15 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
   
 ---  
   
-- [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)   
-- [Average Response Time for Operations](average-response-time-for-operations.md)   
-- [Cluster Levels](cluster-levels.md)   
-- [Event Log IDs](event-log-ids.md)   
-- [IP/Ethernet Conversations by Message Count](ip-ethernet-conversations-by-message-count.md)   
-- [IP Ethernet Conversations by Message Count Top 20](ip-ethernet-conversations-by-message-count-top-20.md)   
-- [TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)   
-- [TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)   
-- [Top Level Protocols Message Count](top-level-protocols-message-count.md)   
-- [Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)   
+[Average Elapsed Time for Operations](average-elapsed-time-for-operations.md)   
+[Average Response Time for Operations](average-response-time-for-operations.md)   
+[Cluster Levels](cluster-levels.md)   
+[Event Log IDs](event-log-ids.md)   
+[IP/Ethernet Conversations by Message Count](ip-ethernet-conversations-by-message-count.md)   
+[IP Ethernet Conversations by Message Count Top 20](ip-ethernet-conversations-by-message-count-top-20.md)   
+[TCP/UDP Conversations by Message Count](tcp-udp-conversations-by-message-count.md)   
+[TCP/UDP Conversations by Message Count Top 20](tcp-udp-conversations-by-message-count-top-20.md)   
+[Top Level Protocols Message Count](top-level-protocols-message-count.md)   
+[Top Level Protocols Message Count Over Time](top-level-protocols-message-count-over-time.md)   
 
 ---

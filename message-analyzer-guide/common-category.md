@@ -21,6 +21,6 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
   
 ---  
   
-- [Perfmon Log (.blg)](perfmon-log-blg.md)   
+[Perfmon Log (.blg)](perfmon-log-blg.md)   
 
 ---

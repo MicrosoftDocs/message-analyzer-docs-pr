@@ -33,9 +33,9 @@ This section describes several other **Tool Windows** that you will make regular
   
 ---  
   
-- [Field Chooser Tool Window](field-chooser-tool-window.md)   
-- [Output Tool Window](output-tool-window.md)   
-- [Session Explorer Tool Window](session-explorer-tool-window.md)   
-- [Map Tool Window](map-tool-window.md)   
+[Field Chooser Tool Window](field-chooser-tool-window.md)   
+[Output Tool Window](output-tool-window.md)   
+[Session Explorer Tool Window](session-explorer-tool-window.md)   
+[Map Tool Window](map-tool-window.md)   
 
 ---

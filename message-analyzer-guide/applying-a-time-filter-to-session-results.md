@@ -60,4 +60,4 @@ On the other hand, if you wait to apply a **Time Filter** to a set of messages t
   
 ## See Also  
 
-- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)
+[Using the Filtering Toolbar](using-the-filtering-toolbar.md)

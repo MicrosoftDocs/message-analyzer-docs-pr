@@ -103,4 +103,4 @@ The Filter IntelliSense service contains the interpretive intelligence to antici
   
 ## See Also  
 
-- [Using the Filtering Language](using-the-filtering-language.md)
+[Using the Filtering Language](using-the-filtering-language.md)

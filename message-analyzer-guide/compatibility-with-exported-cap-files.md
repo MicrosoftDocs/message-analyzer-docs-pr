@@ -32,4 +32,4 @@ As previously stated, Message Analyzer enables you to export trace data in the  
   
 ## See Also  
 
-- [Saving Files in Native Format](saving-files-in-native-format.md)
+[Saving Files in Native Format](saving-files-in-native-format.md)

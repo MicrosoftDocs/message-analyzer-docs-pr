@@ -21,6 +21,6 @@ The built-in **Layouts** for the **Chart** viewer that are provided with Message
   
 ---  
   
-- [NTP Time Offset](ntp-time-offset.md)   
+[NTP Time Offset](ntp-time-offset.md)   
 
 ---

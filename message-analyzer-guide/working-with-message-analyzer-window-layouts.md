@@ -37,12 +37,12 @@ By default, Message Analyzer provides several built-in **Window Layouts** that o
   
 ---  
   
-- [Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
-- [Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
-- [Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows)   
-- [Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
-- [Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
-- [Saving Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
+[Using the Message Analyzer Default Window Layout](working-with-message-analyzer-window-layouts.md#BKMK_UsingDefaultLayout)   
+[Using the Built-In Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_UsingWindowLayouts)   
+[Redocking Data Viewers and Tool Windows](working-with-message-analyzer-window-layouts.md#BKMK_RedockViewersToolWindows)   
+[Performing Docking Operations](working-with-message-analyzer-window-layouts.md#BKMK_PerformDockingOps)   
+[Using the Redocking Features](working-with-message-analyzer-window-layouts.md#BKMK_UsingRedockingFeatures)   
+[Saving Window Layouts](working-with-message-analyzer-window-layouts.md#BKMK_SaveWindowLayouts)   
 
 ---  
   
@@ -164,4 +164,4 @@ When you close the Message Analyzer application, the configuration file is updat
   
 ## See Also  
 
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

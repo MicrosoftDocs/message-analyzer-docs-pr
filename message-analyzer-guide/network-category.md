@@ -21,13 +21,13 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
   
 ---  
   
-- [IIS Log HTTP Traffic  Volumes](iis-log-http-traffic-volumes.md)   
-- [IIS Log Server Bytes by Host over Time](iis-log-server-bytes-by-host-over-time.md)   
-- [IIS Log Top URI Bytes](iis-log-top-uri-bytes.md)   
-- [IIS Log Top URIs by Time](iis-log-top-uris-by-time.md)   
-- [TCP Rate and Diagnosis](tcp-rate-and-diagnosis.md)   
-- [TCP Stevens Graph](tcp-stevens-graph.md)   
-- [Top Talkers](top-talkers.md)   
-- [Top Talkers Top 20](top-talkers-top-20.md)   
+[IIS Log HTTP Traffic  Volumes](iis-log-http-traffic-volumes.md)   
+[IIS Log Server Bytes by Host over Time](iis-log-server-bytes-by-host-over-time.md)   
+[IIS Log Top URI Bytes](iis-log-top-uri-bytes.md)   
+[IIS Log Top URIs by Time](iis-log-top-uris-by-time.md)   
+[TCP Rate and Diagnosis](tcp-rate-and-diagnosis.md)   
+[TCP Stevens Graph](tcp-stevens-graph.md)   
+[Top Talkers](top-talkers.md)   
+[Top Talkers Top 20](top-talkers-top-20.md)   
 
 ---

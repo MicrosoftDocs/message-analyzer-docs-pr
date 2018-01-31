@@ -33,9 +33,9 @@ This section describes various interactive **Tool Windows** that are provided wi
   
 ---  
   
-- [Message-Specific Windows](message-specific-windows.md)   
-- [Session-Specific Windows](session-specific-windows.md)   
-- [Annotation Windows](annotation-windows.md)   
-- [Other Windows](other-windows.md)   
+[Message-Specific Windows](message-specific-windows.md)   
+[Session-Specific Windows](session-specific-windows.md)   
+[Annotation Windows](annotation-windows.md)   
+[Other Windows](other-windows.md)   
 
 ---

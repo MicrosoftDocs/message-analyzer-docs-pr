@@ -21,6 +21,6 @@ The built-in viewer **Layouts** for **Charts** that are provided with Message An
   
 ---  
   
- - [Netlogon Message Types](netlogon-message-types.md)   
+ [Netlogon Message Types](netlogon-message-types.md)   
 
 ---

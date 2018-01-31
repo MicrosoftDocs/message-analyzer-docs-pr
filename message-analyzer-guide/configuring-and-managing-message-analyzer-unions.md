@@ -115,10 +115,10 @@ The Message Analyzer **Unions** feature provides a service that can help you ove
   
  **What You Will Learn**   
 In the following topics of this section, you will learn how to create, modify, manage, and share **Unions**, in addition to performing Message Analyzer operations with them:  
-- [Creating Unions](creating-unions.md)  
-- [Modifying Unions](modifying-unions.md)  
-- [Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)  
-- [Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md)  
-- [Managing Unions as Shared Items](managing-unions-as-shared-items.md)  
+[Creating Unions](creating-unions.md)  
+[Modifying Unions](modifying-unions.md)  
+[Refreshing Data Views Containing Unions](refreshing-data-views-containing-unions.md)  
+[Performing Message Analyzer Operations with Unions](performing-message-analyzer-operations-with-unions.md)  
+[Managing Unions as Shared Items](managing-unions-as-shared-items.md)  
 
 ---

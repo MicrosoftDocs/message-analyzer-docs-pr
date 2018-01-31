@@ -33,4 +33,4 @@ The **Top Level Protocols Message Count Over Time** viewer **Layout** for **Char
   
 ## See Also  
 
-- [Top Level Protocols Message Count](top-level-protocols-message-count.md)
+[Top Level Protocols Message Count](top-level-protocols-message-count.md)

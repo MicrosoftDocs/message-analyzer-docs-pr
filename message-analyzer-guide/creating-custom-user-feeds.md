@@ -35,4 +35,4 @@ Although Message Analyzer enables you to stay current with the latest asset coll
   
 ## See Also  
 
-- [Manual Item Update Synchronization](manual-item-update-synchronization.md)
+[Manual Item Update Synchronization](manual-item-update-synchronization.md)

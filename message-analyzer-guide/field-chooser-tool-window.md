@@ -114,11 +114,11 @@ You might notice that some fields in **Field Chooser** are denoted as arrays **[
   
  **More Information**   
  **To learn more** about using the **Field Chooser** with various Message Analyzer features, see the following topics:   
-- [Using the Field Chooser](using-the-field-chooser.md)  
-- [Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)  
-- [Using the Pattern Editor](using-the-pattern-editor.md)  
-- [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
-- [Grouping Viewer](grouping-viewer.md)  
-- [Creating Unions](creating-unions.md)  
+[Using the Field Chooser](using-the-field-chooser.md)  
+[Accessing Message Properties and Annotations](using-the-filtering-language.md#BKMK_AccessPropertiesAnnotations)  
+[Using the Pattern Editor](using-the-pattern-editor.md)  
+[Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md)  
+[Grouping Viewer](grouping-viewer.md)  
+[Creating Unions](creating-unions.md)  
 
 ---

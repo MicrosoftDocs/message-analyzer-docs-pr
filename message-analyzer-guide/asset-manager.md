@@ -65,4 +65,4 @@ Message Analyzer provides an **Asset Manager** dialog that enables you to manage
   
 ## See Also  
 
-- [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)
+[Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)

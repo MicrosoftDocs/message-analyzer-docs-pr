@@ -181,6 +181,6 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
 ## See Also  
 
-- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
-- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
-- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
+[Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
+[Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)   
+[Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)

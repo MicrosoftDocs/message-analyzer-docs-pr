@@ -213,4 +213,4 @@ For this **Layout** to display data in the **Duration** column, the fourth **Val
   
 ## See Also  
 
-- [Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)
+[Using the Edit Chart Layout Dialog](using-the-edit-chart-layout-dialog.md)

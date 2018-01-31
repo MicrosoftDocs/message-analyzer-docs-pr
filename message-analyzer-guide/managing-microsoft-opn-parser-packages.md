@@ -78,5 +78,5 @@ By default, every Message Analyzer installation is provided with a baseline set 
   
 ## See Also  
 
-- [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)   
-- [Asset Manager](asset-manager.md)
+[Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md)   
+[Asset Manager](asset-manager.md)

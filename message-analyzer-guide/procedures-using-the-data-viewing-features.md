@@ -587,4 +587,4 @@ The name of the trace and log files appear in the files list.
   
 ## See Also  
 
-- [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)
+[Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)

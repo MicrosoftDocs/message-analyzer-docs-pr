@@ -36,4 +36,4 @@ The **IP/Ethernet Conversations by Message Count Top 20** viewer **Layout** for 
   
 ## See Also  
 
-- [IP/Ethernet Conversations by Message Count](ip-ethernet-conversations-by-message-count.md)
+[IP/Ethernet Conversations by Message Count](ip-ethernet-conversations-by-message-count.md)

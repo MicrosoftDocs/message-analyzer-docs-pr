@@ -27,6 +27,6 @@ The **IIS Log Top URI Bytes** view **Layout** for **Charts** enables you to obta
   
 ## See Also  
 
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
-- [Grouping Viewer](grouping-viewer.md)   
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
+[Grouping Viewer](grouping-viewer.md)   
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

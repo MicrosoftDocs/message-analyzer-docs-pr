@@ -24,5 +24,5 @@ You and other team members can directly share the items that are contained in yo
   
 ## See Also  
 
-- [Creating Custom User Feeds](creating-custom-user-feeds.md)   
-- [Managing User Libraries](managing-user-libraries.md)
+[Creating Custom User Feeds](creating-custom-user-feeds.md)   
+[Managing User Libraries](managing-user-libraries.md)

@@ -23,7 +23,7 @@ The **HTTP Content Type Volumes** viewer **Layout** for **Charts** displays **HT
   
 -   A visual indication that shows the relative distribution of byte volume for each content type.  
   
- The labels to the left of the bar graph indicate the content type, the values to the right of the graph represent percentage values that are relative to the total volume in bytes for all payloads, and the bar elements of the graph provide a visual indication of such volumes for each content type. Note that the table in the **HTTP Content Type Payloads** viewer **Layout** repeats some of this data but also includes the total **MessageCount** for each content type.  
+The labels to the left of the bar graph indicate the content type, the values to the right of the graph represent percentage values that are relative to the total volume in bytes for all payloads, and the bar elements of the graph provide a visual indication of such volumes for each content type. Note that the table in the **HTTP Content Type Payloads** viewer **Layout** repeats some of this data but also includes the total **MessageCount** for each content type.  
   
 ## Analyzing Volume Data  
 
@@ -31,4 +31,4 @@ The **HTTP Content Type Volumes** viewer **Layout** for **Charts** displays **HT
   
 ## See Also  
 
-- [HTTP Content Type Payloads](http-content-type-payloads.md)
+[HTTP Content Type Payloads](http-content-type-payloads.md)

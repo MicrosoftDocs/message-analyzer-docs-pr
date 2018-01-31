@@ -27,6 +27,6 @@ The **IIS Log Top URIs by Time** view **Layout** for **Charts** enables you to o
   
 ## See Also  
 
-- [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
-- [Grouping Viewer](grouping-viewer.md)   
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)   
+[Grouping Viewer](grouping-viewer.md)   
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

@@ -90,6 +90,6 @@ Prior to loading data into Message Analyzer through a Data Retrieval Session, th
   
 ## See Also  
 
-- [Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
-- [Selecting Data to Capture](selecting-data-to-capture.md)   
-- [Writing Filter Expressions](writing-filter-expressions.md)
+[Selecting Data to Retrieve](selecting-data-to-retrieve.md)   
+[Selecting Data to Capture](selecting-data-to-capture.md)   
+[Writing Filter Expressions](writing-filter-expressions.md)

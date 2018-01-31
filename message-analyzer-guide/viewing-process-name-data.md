@@ -48,6 +48,6 @@ The **ProcessName** property is used in the following data viewer **Layouts**:
   
 ## See Also  
 
-- [Analysis Grid Viewer](analysis-grid-viewer.md)   
-- [Grouping Viewer](grouping-viewer.md)   
-- [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)
+[Analysis Grid Viewer](analysis-grid-viewer.md)   
+[Grouping Viewer](grouping-viewer.md)   
+[Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md)

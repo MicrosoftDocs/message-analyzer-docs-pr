@@ -23,11 +23,11 @@ This section describes message processing features that enable you to manipulate
   
 ---  
   
-- [Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
-- [Filtering Data Sources](filtering-data-sources.md)   
-- [Setting Time Shifts](setting-time-shifts.md)   
-- [Configuring Time Format Settings](configuring-time-format-settings.md)   
-- [Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)   
-- [Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)   
+[Using the Filtering Toolbar](using-the-filtering-toolbar.md)   
+[Filtering Data Sources](filtering-data-sources.md)   
+[Setting Time Shifts](setting-time-shifts.md)   
+[Configuring Time Format Settings](configuring-time-format-settings.md)   
+[Using and Managing Message Analyzer Aliases](using-and-managing-message-analyzer-aliases.md)   
+[Configuring and Managing Message Analyzer Unions](configuring-and-managing-message-analyzer-unions.md)   
 
 ---

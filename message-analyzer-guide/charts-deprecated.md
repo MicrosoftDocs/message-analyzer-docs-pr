@@ -21,6 +21,6 @@ The **Charts (Deprecated)** viewers consist of those **Charts** that were availa
   
 ---  
   
-- [Protocol Dashboard](protocol-dashboard.md)   
+[Protocol Dashboard](protocol-dashboard.md)   
 
 ---

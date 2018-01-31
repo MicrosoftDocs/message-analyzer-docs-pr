@@ -65,4 +65,4 @@ This **Layout** is intended to work with the **SMB Flat** view **Layout** of the
   
 ## See Also  
 
-- [SMB Top Commands](smb-top-commands.md)
+[SMB Top Commands](smb-top-commands.md)
