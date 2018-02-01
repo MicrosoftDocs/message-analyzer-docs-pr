@@ -38,7 +38,7 @@ After opting out of automatic updates, you can acquire the auto-sync state for a
   
     -   The **Message Analyzer** category of the local Library that corresponds to the asset collection is updated with the latest collection version and the cache that contains the parsers used by Message Analyzer is also updated. Thereafter, these items will continue to be periodically updated while they are set for auto-syncing.  
   
- **Downloading Asset Collections and Parser Packages After Opt-out**   
+**Downloading Asset Collections and Parser Packages After Opt-out**   
 If you opted out of automatic updates at first Message Analyzer startup, you can periodically download any asset collection or parser package by selecting the **Download once and don’t automatically update** option in the **Item Download Options** dialog that displays when you click the status icon of any asset collection or parser package that is in the un-synced state. The following then occurs for the indicated entities:  
   
 -   **Asset collections** — the **Select Items to Import** dialog displays, from where you can choose the items to import and the category in which to place them in the corresponding local asset collection Library. If you accept the default configuration, the asset collection items are placed in the **Examples** subcategory of the appropriate local Library. Thereafter, the chosen asset collection appears on the **Downloads** tab and the server download status icon continues to display to the right of that collection to indicate the un-synced state.  

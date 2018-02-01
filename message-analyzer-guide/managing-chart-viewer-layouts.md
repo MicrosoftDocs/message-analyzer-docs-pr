@@ -62,7 +62,7 @@ This section describes how to manage the items of your **Message Analyzer Chart 
   
     -   **Create a Copy** — enables you to create a copy of an existing **Layout** collection item, such as the **Average Response Times for Operations** layout, and place it in your **My Items** category. You can then launch this copied **Layout** in an Analysis Session and use the controls and features of the **Edit Chart Layout** and **Formula Editor** dialogs to edit and customize the **Layout** to your own design and then save it under a new name of your choice, as described in [Overview of Configuring a Custom Chart Viewer Layout](configuring-chart-viewer-layouts.md#BKMK_ChartConfigOverview).  
   
-     The following context menu commands are available by right-clicking any collection item in the **My Items** category of your local **Layouts** asset collection Library:  
+  The following context menu commands are available by right-clicking any collection item in the **My Items** category of your local **Layouts** asset collection Library:  
   
     -   **Edit** — enables you to save a **Layout** collection item with a new **Name**, **Description**, and **Category**.  
   

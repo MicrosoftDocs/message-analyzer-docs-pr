@@ -96,22 +96,22 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **IPv4.Address ==**  ***192.168.1.1***  — filters out all messages except those that contain a **Source** or **Destination** address that matches the specified IPv4 address value.  
   
-> [!NOTE]
->  Before applying any of these filters, you should substitute your actual search address for the *italic* values in these Filter Expressions. The same is true of any built-in Filter Expression that has placeholder values.  
+  > [!NOTE]
+  >  Before applying any of these filters, you should substitute your actual search address for the *italic* values in these Filter Expressions. The same is true of any built-in Filter Expression that has placeholder values.  
   
 -   **IPv4.Address ~=**  ***192.168.1.1***  — filters out all IPv4 messages that contain a **Source** or **Destination** address that matches the specified IPv4 address value. Use of the tilde (~) character ensures that you will only return IPv4 traffic. Otherwise, other traffic would not be blocked.  
   
      For example, if you specified the Filter Expression as `IPv4.Address != 192.168.1.1` or `!(IPv4.Address == 192.168.1.1)`, all protocol messages that do not meet this criteria are returned, which means you would get all messages that are not IPv4 messages in addition to the target IPv4 traffic. However, as an alternative, you could add “`&& IPv4`” to either  expression if you want to pass only IPv4 messages.  
   
-> [!NOTE]
->  The Filter Expression `!(IPv4.Address == 192.168.1.1)` is semantically equivalent to `IPv4.Address != 192.168.1.1`. For more details about the use of the “!” operator, see [Other Filtering Considerations](understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).  
+  > [!NOTE]
+  >  The Filter Expression `!(IPv4.Address == 192.168.1.1)` is semantically equivalent to `IPv4.Address != 192.168.1.1`. For more details about the use of the “!” operator, see [Other Filtering Considerations](understanding-the-filtering-language-basics.md#BKMK_OtherFilteringConsiderations).  
   
 -   **IPv6.Address ==**  ***2001:4898:0:FFF:200:5EFE:4135:4A7***  — filters out all messages except those that contain a **Source** or **Destination** address that matches the specified IPv6 address value.  
   
 -   **\*Address ==**  ***192.168.1.1***  **or \*Address ==**  ***2001:4898:0:FFF:200:5EFE:4135:4A7***  — filters out all messages except those that contain a **Source** or **Destination** address that matches either the specified IPv4 address or IPv6 address value. *Address can also specify an Ethernet address.  
   
-> [!NOTE]
->  By using the expression “*Address”, you can mix IPv4 and IPv6 addresses in this Filter Expression.  
+  > [!NOTE]
+  >  By using the expression “*Address”, you can mix IPv4 and IPv6 addresses in this Filter Expression.  
   
 <a name="BKMK_DiagnosisEnums"></a>   
 ## Diagnosis Category  
@@ -127,8 +127,8 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
 |#DiagnosisLevels==Standard.DiagnosisLevel.Warning|#DiagnosisLevels==2|Filters for messages that contain a Warning-diagnosis level.|  
 |#DiagnosisLevels==Standard.DiagnosisLevel.Information|#DiagnosisLevels==4|Filters for messages that contain an Information-diagnosis level.|  
   
-> [!NOTE]
->  In the Filtering Language, **DiagnosisLevels** is a global annotation, meaning that it is applicable to any OPN message. The character “#” provides access to an annotation, as differentiated from other filters that use a dot (.) operator to enable access to a field.  
+  > [!NOTE]
+  >  In the Filtering Language, **DiagnosisLevels** is a global annotation, meaning that it is applicable to any OPN message. The character “#” provides access to an annotation, as differentiated from other filters that use a dot (.) operator to enable access to a field.  
   
 -   **#DiagnosisTypes==2** — this filter passes any messages that contain validation type diagnosis errors that occurred during the OPN message ValidationCheck, as part of the parsing process. A validation error is a *soft* error, meaning that it is not severe enough to halt the parsing process. Validation errors typically occur when a message deviates from associated protocol specifications, which can include occurrences such as out-of-range values, invalid collection sizes, data element constraint violations, and so on.  
   
@@ -151,8 +151,8 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **TCP::Flags:SYN == true** — this filter uses an explicit path expression to pass TCP messages that have their SYN bit set (0x02). Note that the missing value between the double colons (::) is the **Segment** message-type specifier.  
   
-> [!TIP]
->  You could also specify the equivalent of this Filter Expression as: “`TCP:Segment::SYN==true`” or even “`TCP:::SYN==true`”, to obtain an identical filtering result. At a minimum, an explicit path expression should specify a protocol or module as the first entity in the left-side expression and the field for which you are searching in a particular message hierarchy as the last entity in the expression, separated by an appropriate number of colons to delimit any skipped hierarchical entities. However, for the best performance, you should specify all entities in an explicit path.  
+  > [!TIP]
+  >  You could also specify the equivalent of this Filter Expression as: “`TCP:Segment::SYN==true`” or even “`TCP:::SYN==true`”, to obtain an identical filtering result. At a minimum, an explicit path expression should specify a protocol or module as the first entity in the left-side expression and the field for which you are searching in a particular message hierarchy as the last entity in the expression, separated by an appropriate number of colons to delimit any skipped hierarchical entities. However, for the best performance, you should specify all entities in an explicit path.  
   
 <a name="BKMK_RegEx"></a>   
 ## RegEx  
@@ -202,15 +202,15 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
 -   **tcp.syn == true** — this filter passes TCP messages that have their SYN bit set (0x02). If you want to pass all TCP messages that specify the SYN field, you can drop the Boolean evaluation and apply the Filter Expression as: “`tcp.syn`”.  
   
-> [!NOTE]
->  Although there is a **Segment** message type and a **Flags** container in the upper hierarchy for the **SYN** flag, it is unnecessary to specify a fully qualified expression such as “`TCP.Segment.Flags.SYN`”. In the Filtering Language, the dot notation is commonly used to traverse the message type-hierarchy, which is shown in the **Field Chooser** **Tool Window**. A dot (.) in a Filter Expression means the filter should find any entity at any depth in the hierarchy, hence in this example: `tcp.syn==true`. However, to improve performance, you can create an explicit path that uses colons, as indicated in the text of the earlier Filter Expression `TCP::Flags:SYN == true`.  
+  > [!NOTE]
+  >  Although there is a **Segment** message type and a **Flags** container in the upper hierarchy for the **SYN** flag, it is unnecessary to specify a fully qualified expression such as “`TCP.Segment.Flags.SYN`”. In the Filtering Language, the dot notation is commonly used to traverse the message type-hierarchy, which is shown in the **Field Chooser** **Tool Window**. A dot (.) in a Filter Expression means the filter should find any entity at any depth in the hierarchy, hence in this example: `tcp.syn==true`. However, to improve performance, you can create an explicit path that uses colons, as indicated in the text of the earlier Filter Expression `TCP::Flags:SYN == true`.  
   
 -   **TCP.Windowscaled \<**  ***1000***  — this filter passes TCP messages having a receive window size that is less than 1000.  
   
      Note that TCP Window Scaling increases the TCP receive window size above its default maximum value of 65,535 bytes for better throughput, for example, in cases where a receiver is overwhelmed with high message volumes such as a web server might be.  
   
-> [!NOTE]
->  If you encounter a bottleneck, it might be caused by a small TCP receive window size that should be increased above the default setting by using a tool such as **netsh**. Windows 7, Windows 8, Windows 8.1, and Windows Server 2012 operating systems provide a Receive Window Auto-Tuning Level configuration that is set by default to “Normal”, which allows the TCP receive window size to grow automatically to accommodate most conditions. If TCP Auto-Tuning is disabled, the receive Window size is limited to the default size of 65,535 bytes (64 KB).  
+ > [!NOTE]
+ >  If you encounter a bottleneck, it might be caused by a small TCP receive window size that should be increased above the default setting by using a tool such as **netsh**. Windows 7, Windows 8, Windows 8.1, and Windows Server 2012 operating systems provide a Receive Window Auto-Tuning Level configuration that is set by default to “Normal”, which allows the TCP receive window size to grow automatically to accommodate most conditions. If TCP Auto-Tuning is disabled, the receive Window size is limited to the default size of 65,535 bytes (64 KB).  
   
 <a name="BKMK_LDAPFilters"></a>   
 ## LDAP Category  

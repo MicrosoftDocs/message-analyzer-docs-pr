@@ -33,7 +33,7 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
 -   Open the **Manage** ***\<AssetType>*** dialog to access additional management functions, such as the **Export** and **Import** commands.  
   
- You can use the **Manage** ***\<AssetType>*** dialog to import and export selected asset collection Library items from and to a user file share or other location, respectively, for mutually sharing Library items with others. In addition, the **Manage** ***\<AssetType>*** dialog also enables you to perform other operations, for example, modifying and deleting existing items in certain categories.  
+You can use the **Manage** ***\<AssetType>*** dialog to import and export selected asset collection Library items from and to a user file share or other location, respectively, for mutually sharing Library items with others. In addition, the **Manage** ***\<AssetType>*** dialog also enables you to perform other operations, for example, modifying and deleting existing items in certain categories.  
   
 ## Centrally Managing User Libraries  
 
@@ -43,13 +43,13 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
 -   **Manage**  ***\<AssetType>***  dialog — from this dialog, which is common to all asset collection Libraries, toolbar commands are available for importing and exporting items in any category from and to a file share or other location. Other commands that you can access from this dialog are described ahead.  
   
- An example of the management dialog is shown in the figure that follows, which in this case is the **Manage Column Layouts** dialog that provides various column **Layouts** that you can select for the **Analysis Grid** viewer. Note that the right-click context menu commands for the **File Sharing Perf SMB2/SMB** view **Layout** are displayed in the figure.  
+An example of the management dialog is shown in the figure that follows, which in this case is the **Manage Column Layouts** dialog that provides various column **Layouts** that you can select for the **Analysis Grid** viewer. Note that the right-click context menu commands for the **File Sharing Perf SMB2/SMB** view **Layout** are displayed in the figure.  
   
- ![Manage Column Layouts dialog](media/fig71-manage-column-layouts-dialog.png "Fig71-Manage Column Layouts dialog")  
+![Manage Column Layouts dialog](media/fig71-manage-column-layouts-dialog.png "Fig71-Manage Column Layouts dialog")  
   
- **Figure 71: Manage Column Layouts dialog**  
+**Figure 71: Manage Column Layouts dialog**  
   
- The management features and context menu commands that are available in the user Library drop-down lists for Message Analyzer asset collection Libraries are described in the table that follows. Note that the available context menu commands specified in this table are also accessible from the **Manage** ***\<AssetType>*** dialog for corresponding user Libraries, but in some cases with the exception of the **Favorites** command.  
+The management features and context menu commands that are available in the user Library drop-down lists for Message Analyzer asset collection Libraries are described in the table that follows. Note that the available context menu commands specified in this table are also accessible from the **Manage** ***\<AssetType>*** dialog for corresponding user Libraries, but in some cases with the exception of the **Favorites** command.  
   
 ### Table 27. Asset Collection Library Drop-Down Management Features  
   
@@ -83,7 +83,7 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
     -   **Organization** — optionally specify the name of your organization.  
   
-     When you finish specifying the **Save Library** dialog information, click **Save** to display the **Select Library Location** dialog from where you can save your export items as a *.asset file, with a file name of your choice, to a designated location such as a file share. Other team members can then access your saved collection and import it to the appropriate Library for use in their own Message Analyzer installations.  
+ When you finish specifying the **Save Library** dialog information, click **Save** to display the **Select Library Location** dialog from where you can save your export items as a *.asset file, with a file name of your choice, to a designated location such as a file share. Other team members can then access your saved collection and import it to the appropriate Library for use in their own Message Analyzer installations.  
   
 -   **Import Library items** — the **Manage** ***\<AssetType>*** dialog enables you to specify the items you want to import from a designated location by selecting the ones you want from the **Select Library to Open...** dialog. This dialog displays when you click the **Import** button in the **Manage** ***\<AssetType>*** dialog. The **Select Library to Open…** dialog enables you to navigate to the share or other location that contains a collection of items that you want to import to an appropriate asset collection Library in your Message Analyzer installation. After you select the \*.asset file you want to import and click **OK**, the **Select Items to Import** dialog displays from where you can specify the following:  
   
@@ -117,12 +117,12 @@ Message Analyzer enables you to manage any user Library by using a common and ce
   
 -   **Delete**  
   
- See the **Available Context Menu Commands** column in the previous table to review the commands that are available in the Library categories for each asset collection.  
+See the **Available Context Menu Commands** column in the previous table to review the commands that are available in the Library categories for each asset collection.  
   
 ---  
   
- **More Information**   
- **To learn more** about how to manage downloads and updates for asset collection Libraries, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
+**More Information**   
+**To learn more** about how to manage downloads and updates for asset collection Libraries, see [Managing Asset Collection Downloads and Updates](managing-asset-collection-downloads-and-updates.md).   
 
 ---  
   

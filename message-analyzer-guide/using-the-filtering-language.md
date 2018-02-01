@@ -115,7 +115,7 @@ The topics of this section as listed below describe how to use various features 
   
 -   **Origins tree traversing** — you can use the double backslash symbol ("\\\\") to look down the stack one or more levels.  
   
- The table that follows provides some examples of using these symbols in filter expressions to traverse the protocol stack.  
+The table that follows provides some examples of using these symbols in filter expressions to traverse the protocol stack.  
   
 ### Table 23. Traversing the Protocol Stack  
   
@@ -126,7 +126,7 @@ The topics of this section as listed below describe how to use various features 
 |`\HTTP\TCP\\Ethernet`|This filter returns top-level HTTP messages where a TCP message is directly below HTTP and somewhere below that is an Ethernet message in the origins tree.|  
 |`TCP\IPv4`|This filter returns all TCP messages from any level in the origins tree where an IPv4 message is one level below TCP. **Note:**  In this filter expression, note that the leading “\” character is missing. This means that an explicit level in the origins tree is not specified. As a result, a double backslash ("\\\\") is implied when the leading slash (“\”) is not written in the expression, which therefore makes "TCP" semantically equivalent to "\\\TCP".|  
   
- You can also combine traversing notation with various field values and operators, as indicated in the table that follows.  
+You can also combine traversing notation with various field values and operators, as indicated in the table that follows.  
   
 ### Table 24. Combining Traversing with Field Values and Operators  
   

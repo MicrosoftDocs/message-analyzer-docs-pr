@@ -38,12 +38,12 @@ A brief description of each procedure is included here for review, as follows.
   
 -   How to apply a **Time Filter** to data that is loaded into Message Analyzer through a Data Retrieval Session that targets input files that consolidate several message sources, so that you can view data in specific windows of time in which problems are suspected to have occurred.  
   
----  
+  ---  
   
-**More Information**   
-**To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
+  **More Information**   
+  **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
 
----  
+  ---  
   
  **[Filtering Live Trace Session Data](procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
   
@@ -57,7 +57,7 @@ A brief description of each procedure is included here for review, as follows.
   
 -   How to specify a **Hostname** and/or **Port** filter in a Live Trace Session that uses the **Pre-Encryption for HTTPS** **Trace Scenario** to reduce captured traffic volume and isolate client messages sent to a specified web server that is very busy and is causing users to experience connection issues. Applies the specified filters to gather sufficient data for the assessment of possible connection problems, without imposing a high-volume data capture on a client computer that is overwhelmed with traffic. Assesses possible causes by examining HTTP **StatusCode** indicators for connection issues and errors.  
   
- **[Filtering Live Trace Session Results](procedures-using-the-data-filtering-features.md#BKMK_FilterTraceResults)**  — provides examples of the following:  
+**[Filtering Live Trace Session Results](procedures-using-the-data-filtering-features.md#BKMK_FilterTraceResults)**  — provides examples of the following:  
   
 -   How to apply an Address and Port view **Filter** to the results of a Live Trace Session that used the **Local Network Interfaces** **Trace Scenario**, and to thereby remove unwanted lower-layer traffic and streamline the detection of virus signatures.  
   
@@ -67,7 +67,7 @@ A brief description of each procedure is included here for review, as follows.
   
 -   How to apply an HTTP filter to the results of a Live Trace Session that used the **Pre-Encryption for HTTPS** **Trace Scenario**, so you can isolate specific HTTP request/response messages and analyze HTTP **StatusCodes** and **Reason** phrases for evidence of a poorly performing web server.  
   
- **[Filtering with Color Rules and Exposing Diagnostics for TCP and SMB](procedures-using-the-data-filtering-features.md#BKMK_FilterWithColorRules)**  — how to apply **Color Rules** to the results of a Live Trace Session that used the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario** with a **Session Filter** to expose TCP and SMB diagnostic messages, in order to prompt further analysis of faulty or erratic file share access.  
+**[Filtering with Color Rules and Exposing Diagnostics for TCP and SMB](procedures-using-the-data-filtering-features.md#BKMK_FilterWithColorRules)**  — how to apply **Color Rules** to the results of a Live Trace Session that used the **Network Tunnel Traffic and Unencrypted IPSEC** **Trace Scenario** with a **Session Filter** to expose TCP and SMB diagnostic messages, in order to prompt further analysis of faulty or erratic file share access.  
   
 > [!NOTE]
 >  In the procedures of this section, placeholders within angle brackets (<>) refer to values that you enter that are specific to your system/s. However, do not include the angle brackets in your entries when testing these procedures.  
@@ -123,15 +123,15 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 12. Right-click the **StatusCode** column and select the **Group** command to isolate the status data into separate groups with identical status codes for ease of analysis.  
   
-> [!TIP]
->  You can right-click the **StatusCode** label and select the **Expand All Groups** menu item to expand all the nodes of grouped data.  
+  > [!TIP]
+  >  You can right-click the **StatusCode** label and select the **Expand All Groups** menu item to expand all the nodes of grouped data.  
   
 13. In the **Analysis Grid** viewer, examine the **StatusCode** and **Reason Phrase** values to determine any problem areas that might indicate a poorly performing web server, as described in the status code table in the [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) section of this documentation.  
   
-> [!NOTE]
->  You can also review the default **TimeElapsed** column in the **Analysis Grid** viewer to verify the elapsed time for HTTP “GET” methods, or for entire HTTP operations to complete. High values for elapsed time in the latter “operations” case may be an indication of network latency or TCP retransmit issues due to dropped packets.  
->   
->  You might also add a **ResponseTime** column (from the **Global Annotation** category in **Field Chooser**) to examine the server response times to request messages. This can provide an indication of whether or not a server is performing slowly, as it measures the time difference between the last time-stamped message in the request stack and the **Timestamp** of the first response message that is sent back to the requesting node. Note that you can create a similar configuration for any protocol that makes use of request/response pairs.  
+ > [!NOTE]
+ >  You can also review the default **TimeElapsed** column in the **Analysis Grid** viewer to verify the elapsed time for HTTP “GET” methods, or for entire HTTP operations to complete. High values for elapsed time in the latter “operations” case may be an indication of network latency or TCP retransmit issues due to dropped packets.  
+ >   
+ >  You might also add a **ResponseTime** column (from the **Global Annotation** category in **Field Chooser**) to examine the server response times to request messages. This can provide an indication of whether or not a server is performing slowly, as it measures the time difference between the last time-stamped message in the request stack and the **Timestamp** of the first response message that is sent back to the requesting node. Note that you can create a similar configuration for any protocol that makes use of request/response pairs.  
   
 14. Expand the top-level HTTP operations nodes and child nodes in the **Analysis Grid** viewer to expose the origins tree for HTTP messages to determine whether any TCP diagnosis errors are present. You can do this by clicking the **Diagnostics** icon in the **DiagnosisTypes** column in the **Analysis Grid** viewer for any message to display diagnosis error details inline. Alternatively, you can view diagnostic information more effectively by doing any of the following:  
   
@@ -141,13 +141,13 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
     -   Click the **Diagnosis** column in the **Analysis Grid** viewer until  you sort and bubble up any diagnosis errors that might have occurred.  
   
-> [!TIP]
->  For ease of analysis, you might also consider displaying only HTTP messages encapsulated in top-level operations with no layers above, by applying an **HTTP** **Viewpoint** from the **Viewpoints** drop-down list on the Filtering toolbar that appears above the **Analysis Grid** viewer.  
-
-> [!NOTE]
->  Diagnosis messages that specify lost TCP segments and retransmits might be an indication of packets being dropped by the network, or could indicate TCP performance issues related to TCP **Window** size and/or **WindowsScaleFactor** settings.  
+ > [!TIP]
+ >  For ease of analysis, you might also consider displaying only HTTP messages encapsulated in top-level operations with no layers above, by applying an  **HTTP** **Viewpoint** from the **Viewpoints** drop-down list on the Filtering toolbar that appears above the **Analysis Grid** viewer.  
+ 
+ > [!NOTE]
+ >  Diagnosis messages that specify lost TCP segments and retransmits might be an indication of packets being dropped by the network, or could indicate TCP performance issues related to TCP **Window** size and/or **WindowsScaleFactor** settings.  
   
- **Applying a Time Filter to Loaded Log Data**   
+**Applying a Time Filter to Loaded Log Data**   
 The hypothetical high-level issue in this example is that a Network Administrator has a large volume of data that was collected in one or more log files and he or she wants to view the data in a specific window of time where failures are suspected to have occurred. In this scenario, the administrator will consolidate one or more related log files as input to a Data Retrieval Session and will apply a **Time Filter** that defines a time window in which to view messages. By using the Message Analyzer **Time Filter**, the administrator will limit the amount of data being loaded, reduce the loading time, and as a result, realize better performance. Optionally, the administrator can apply a **Session Filter** to the input data to isolate messages to a specific client IP address, if the log file format supports IP addresses, thereby reducing message count and helping to streamline the message analysis process.  
   
 > [!NOTE]
@@ -175,8 +175,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      The **Start Time** and **End Time** values track the position of the slider controls and the **Filtered Messages** count changes to indicate the number of messages that the Data Retrieval Session will load from the selected log files, for example, one or more \*.etl files, based on the current **Time Filter** settings.  
   
-> [!NOTE]
->  If the **Start Time** and **End Time** values do not display in the **Time Filter** pane for your log, you can manually specify starting and ending date-times in a format that is appropriate for your log file/s. Thereafter, time window adjustments should track in accordance with the format that you specified. Also be aware that **Start Time** and **End Time** values will appear for \*.log files only after they are parsed, meaning that you can only apply a **Time Filter** to messages in these file types through the **Edit Session** dialog, unless the configuration file specifies the time stamp format.  
+ > [!NOTE]
+ >  If the **Start Time** and **End Time** values do not display in the **Time Filter** pane for your log, you can manually specify starting and ending date-times in a format that is appropriate for your log file/s. Thereafter, time window adjustments should track in accordance with the format that you specified. Also be aware that **Start Time** and **End Time** values will appear for \*.log files only after they are parsed, meaning that you can only apply a **Time Filter** to messages in these file types through the **Edit Session** dialog, unless the configuration file specifies the time stamp format.  
   
 8.  Optionally, enter the following Filter Expression in the **Session Filter** text box of the Data Retrieval Session configuration, while substituting appropriately for the value in italics, so that you can isolate messages from a particular client IP address — providing that this action is appropriate for the log files you are working with as indicated earlier:  
   
@@ -190,8 +190,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 11. To optionally load log data in different windows of time, click the **Edit Session** button on the global Message Analyzer toolbar to open the **Edit Session** dialog, from where you can readjust the slider controls to configure a different **Time Filter** window. Note that you will need to enter the **Full Edit** mode in the **Edit Session** dialog to enable the controls.  
   
-> [!NOTE]
->  If you alter the original Data Retrieval Session configuration after entering the **Full Edit** mode, by making changes other than adding or removing files, Message Analyzer will perform a required reload of all data.  
+ > [!NOTE]
+ >  If you alter the original Data Retrieval Session configuration after entering the **Full Edit** mode, by making changes other than adding or removing files, Message Analyzer will perform a required reload of all data.  
   
 12. When reconfiguration of the time window in your Data Retrieval Session is complete, click the **Apply** button to start loading data based on the new **Time Filter** or other session reconfiguration.  
   
@@ -212,9 +212,9 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 -   **Pre-Encryption for HTTPS**  
   
- The types of filters that are applied in these four  scenarios, in order, consist of an **Adapter** filter, **WFP Layer Set** filter, **Session Filter**, **Fast Filter**, and a **HostnameFilter** and **PortFilter**, as described in the sections that follow.  
+The types of filters that are applied in these four  scenarios, in order, consist of an **Adapter** filter, **WFP Layer Set** filter, **Session Filter**, **Fast Filter**, and a **HostnameFilter** and **PortFilter**, as described in the sections that follow.  
   
- **Selecting a Network Adapter to Filter a Local Network Interfaces Trace**   
+**Selecting a Network Adapter to Filter a Local Network Interfaces Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator has a computer that is acting as a firewall with two adapters on different networks, and he or she wants to look at traffic on one adapter only, possibly for evidence of packets dropped at the NDIS layers. Message Analyzer enables the administrator to specify a particular adapter on which to capture data in a **Local Network Interfaces** **Trace Scenario**, by selecting the adapter in the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog that is accessible from the **New Session** dialog during session configuration, while deselecting all other adapters. A trace at the Data Link Layer ensures that the administrator can capture relevant data for the selected adapter.  
   
 > [!IMPORTANT]
@@ -243,8 +243,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      The **Microsoft-PEF-NDIS-PacketCapture** provider is now set to capture traffic in both directions on the network interface that you specified.  
   
-> [!NOTE]
->  You have the option to select only the **In** or **Out** check boxes for any adapter in the **System Network** tree grid, so that you can monitor traffic in a specified direction only. However, in most cases, it is prudent to monitor traffic in both directions. Note that you also have the option to specify a **Fast Filter** for this Live Trace Session in the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, to focus on specific results and improve performance.  
+ > [!NOTE]
+ >  You have the option to select only the **In** or **Out** check boxes for any adapter in the **System Network** tree grid, so that you can monitor traffic in a specified direction only. However, in most cases, it is prudent to monitor traffic in both directions. Note that you also have the option to specify a **Fast Filter** for this Live Trace Session in the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, to focus on specific results and improve performance.  
   
 8.  Verify that the **Analysis Grid** is selected in the **Start With** drop-down list in the **New Session** dialog. If it is not, then select it.  
   
@@ -308,15 +308,17 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      Other measures you can take to expose connectivity or transmission issues include applying either of the following view **Filters** in the text box of the Filtering toolbar above the **Analysis Grid**:  `*TCPDiagnosis contains "Dup-Ack"` or `*TCPDiagnosis contains "retransmitted"`.  
   
-> [!TIP]
->  You can also specify these filters in separate Filter panels. The first Filter panel displays by default, where you can enter the first filter in the Filter Expression text box of that panel. To add the second filter to the text box of another Filter panel, select **Add Filter** from the **Add Filter** drop-down list on the Filtering toolbar to display the  second Filter panel with its Filter Expression text box and enter the text of the second filter into it. You can then apply and remove these filters independently by clicking the respective **Apply** and **Remove** buttons on the Filter panels.  
+ > [!TIP]
+ >  You can also specify these filters in separate Filter panels. The first Filter panel displays by default, where you can enter the first filter in the Filter Expression text box of that panel. To add the second filter to the text box of another Filter panel, select **Add Filter** from the **Add Filter** drop-down list on the Filtering toolbar to display the  second Filter panel with its Filter Expression text box and enter the text of the second filter into it. You can then apply and remove these filters independently by clicking the respective **Apply** and **Remove** buttons on the Filter panels.  
   
-You might also reconfigure the **WFP Layer Set** filtering  by clicking **Edit Session** on the global Message Analyzer toolbar,  clicking the  **Configure** link for the **Microsoft-PEF-WFP-MessageProvider** in the **ETW Providers** list to open the **Advanced Settings** dialog, and then selecting the **Outbound Transport V4** filter only on the **Provider** tab of the dialog. Thereafter in the trace results, apply the following view **Filter** so you can focus on outbound TCP synchronization traffic from the client:  `tcp.syn==true`.  
+ You might also reconfigure the **WFP Layer Set** filtering  by clicking **Edit Session** on the global Message Analyzer toolbar,  clicking the  **Configure** link for the **Microsoft-PEF-WFP-MessageProvider** in the **ETW Providers** list to open the **Advanced Settings** dialog, and then selecting the **Outbound Transport V4** filter only on the **Provider** tab of the dialog. Thereafter in the trace results, apply the following view **Filter** so you can focus on outbound TCP synchronization traffic from the client:  `tcp.syn==true`.  
 
-In any case, you can also look at diagnosis error messages in the default **DiagnosisTypes** column of the **Analysis Grid** viewer to see what TCP issues you might have. The goal in creating these **WFP Layer Set** filtering configurations is to capture the least amount of traffic to resolve TCP connectivity and/or transmission problems.  
+ In any case, you can also look at diagnosis error messages in the default **DiagnosisTypes** column of the **Analysis Grid** viewer to see what TCP issues you might have. The goal in creating these **WFP Layer Set** filtering configurations is to capture the least amount of traffic to resolve TCP connectivity and/or transmission problems.  
   
- **More Information**   
- **To learn more** about Advanced Settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
+---
+
+**More Information**   
+**To learn more** about Advanced Settings for the **Microsoft-PEF-WFP-MessageProvider**, see [Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog](using-the-advanced-settings-microsoft-pef-wfp-messageprovider-dialog.md).  
 
 ---  
   
@@ -388,12 +390,12 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      `TCP.Options ~= nothing`  
   
-> [!NOTE]
->  The above filter will return only TCP messages that contain TCP Options and all other messages will be filtered out of the display. Alternatively, if you want to view all TCP messages in relation to IP conversations, including those that have TCP **Options**, you can use the **Field Chooser** window to add a **Network** column (message hierarchy path is IPv4.Datagram.Network) and a **Transport** column (message hierarchy path is TCP.Segment.Transport) to the **Analysis Grid** viewer. You can then use the **Group** command on each of these columns to pivot the data into differently organized data displays that provide alternate contexts for viewing TCP **Options**, as further described by the procedure in [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).  
+ > [!NOTE]
+ >  The above filter will return only TCP messages that contain TCP Options and all other messages will be filtered out of the display. Alternatively, if you want to view all TCP messages in relation to IP conversations, including those that have TCP **Options**, you can use the **Field Chooser** window to add a **Network** column (message hierarchy path is IPv4.Datagram.Network) and a **Transport** column (message hierarchy path is TCP.Segment.Transport) to the **Analysis Grid** viewer. You can then use the **Group** command on each of these columns to pivot the data into differently organized data displays that provide alternate contexts for viewing TCP **Options**, as further described by the procedure in [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc).  
 
 14. Highlight TCP messages containing TCP **Options** as necessary and review the **WindowsScaleFactor** option settings, especially for messages that have a low **Window** size value, to determine that they are set to reasonable values. The TCP messages of interest should be those that comprised the SYN request and SYN/ACK response messages of three-way handshakes, as this is where the Option settings are negotiated. You might also consider executing the **TCP Three-Way Handshake** **Pattern Expression** to see the context in which these messages occur. This will also enable you to obtain further information that assists in TCP troubleshooting. See the [Pattern Match Viewer](pattern-match-viewer.md) section for more details  
   
- **Checking for Dropped Packets**   
+**Checking for Dropped Packets**   
 If you want to perform additional checks to determine whether dropped packets are causing TCP retransmits, perform the following steps:  
   
 1.  In the current Analysis Session, click the **Edit Session** button on the global Message Analyzer toolbar to open the **Edit Session** dialog.  
@@ -468,12 +470,12 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      For example, if you are working with message data from a protocol that uses request/response pairs (viewed as Operation nodes in the **Analysis Grid** viewer) such as HTTP, SMB, or DNS; ports 80, 445, and 53, respectively; you can add a **ResponseTime** column to the **Analysis Grid** viewer and then sort that column to view the messages that have the highest server response times. Note that high server response times can typically rule out network issues as the cause of delays, providing that operation **TimeElapsed** values are reasonable.  
   
----  
+  ---  
+    
+  **More Information**   
+  **To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md). 
   
-**More Information**   
-**To learn more** about the server **ResponseTime** field, see [Average Elapsed Time for Operations](average-elapsed-time-for-operations.md). 
-
----  
+  ---  
   
  **Applying Hostname and Port Filters to a Pre-Encryption for HTTPS Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator is dealing with a client browser that has difficulty connecting with one or more web sites. The client is already overwhelmed with network traffic, so the administrator wants to determine what might be causing the connection problems without imposing a high-volume data capture on the overwhelmed client computer.  
@@ -536,7 +538,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
 ## Filtering Live Trace Session Results  
  This section provides examples of possible ways to filter displayed data that was collected from live traces that utilized the **Local Network Interfaces**, **Loopback and Unencrypted IPSEC**, and **Pre-Encryption for HTTPS** **Trace Scenarios**. The types of filters that are applied consist of Address, Port, HTTP, and TCP view **Filters**.  
   
- **Applying a view Filter to Local Network Interfaces Trace Results**   
+**Applying a view Filter to Local Network Interfaces Trace Results**   
 The hypothetical high-level issue in this example is that a Network Administrator is trying to discover the signature of virus traffic that has been infecting client computers. The administrator takes a **Local Network Interfaces** trace for an adequate time period to ensure enough data is collected on a client computer that is potentially being infected. When viewing trace results, the administrator realizes that it contains significant lower-layer noise that should be filtered out. For example, there is a lot of traffic on the client coming from a busy SQL server that is of no interest to the administrator, so he or she decides to remove it with a view **Filter** based on the SQL server IP address. There is also considerable traffic coming from the Remote Desktop Protocol (RDP) that is servicing the client’s connection to a remote computer, which the administrator decides to remove with a view **Filter** based on a TCP port. In this example, the administrator can rule out SQL server and RDP messages when searching for virus signatures because these services are normally considered cleaned by antivirus software.  
   
 #### To apply a view Filter to Local Network Interfaces trace results that removes unwanted traffic  
@@ -563,7 +565,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 8.  Examine the remaining data in the **Analysis Grid** viewer by performing established procedures for isolating and detecting the algorithms or behaviors that expose unique virus signatures.  
   
- **Applying an HTTP view Filter to Loopback and Unencrypted IPSEC Trace Results**   
+**Applying an HTTP view Filter to Loopback and Unencrypted IPSEC Trace Results**   
 The hypothetical high-level issue in this example is that a Network Administrator needs to ensure that he or she can isolate *all* HTTP messages interchanged between a client computer and a web server. In this example, the administrator runs the **Loopback and Unencrypted IPSEC** **Trace Scenario** with the **Microsoft-PEF-WFP-MessageProvider** to ensure that all HTTP data is collected with a minimum of lower level noise, and then applies an HTTP view **Filter** to the trace results. To address this issue, the administrator uses the **Loopback and Unencrypted IPSEC** **Trace Scenario** to ensure capture of all HTTP traffic, rather than the **Pre-Encryption for HTTPS** **Trace Scenario** with the **Microsoft-PEF-WebProxy** provider, which captures browser traffic only. Therefore, the administrator can be confident that he or she has isolated all the HTTP traffic necessary to analyze whatever issues are occurring. In addition, Message Analyzer provides better functionality in these circumstances than Network Monitor, which returns only the HTTP headers rather than all message fragments as Message Analyzer does.  
   
 <a name="BKMK_ApplyHttpViewFilter"></a>   
@@ -591,8 +593,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 8.  Click the **Apply** button on the default Filter panel to isolate all HTTP Operations and other messages that contain HTTP in the message stack.  
   
-> [!NOTE]
->  Alternatively, select **HTTP** from the **Viewpoints** drop-down list on the Filtering toolbar to isolate all HTTP messages at top-level, so you can see the trace results from the perspective of the HTTP protocol. In addition, you can click the **Flat Message List** button the Filtering toolbar to break out all HTTP Operations (request and response messages) into their original chronological order, similar to the Network Monitor view, for a different analysis perspective.  
+ > [!NOTE]
+ >  Alternatively, select **HTTP** from the **Viewpoints** drop-down list on the Filtering toolbar to isolate all HTTP messages at top-level, so you can see the trace results from the perspective of the HTTP protocol. In addition, you can click the **Flat Message List** button the Filtering toolbar to break out all HTTP Operations (request and response messages) into their original chronological order, similar to the Network Monitor view, for a different analysis perspective.  
   
 9. In the **Analysis Grid** viewer, click the message expansion nodes to expose the HTTP message origins tree for HTTP messages of interest.  
   
@@ -600,7 +602,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 10. Examine the filtered data to determine possible causes of any issues experienced by the client or web server, as appropriate. See [Addendum 2: HTTP Status Codes](addendum-2-http-status-codes.md) for HTTP status code information.  
   
- **Applying TCP view Filters to Loopback and Unencrypted IPSEC Trace Results**   
+**Applying TCP view Filters to Loopback and Unencrypted IPSEC Trace Results**   
 The hypothetical high-level issue in this example is that a Network Administrator has one or more client computers that are believed to be experiencing TCP connection and/or data transmission problems such as the following:  
   
 -   Dropped packets or lost TCP segments.  
@@ -609,7 +611,7 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 -   Incomplete connection request handshakes.  
   
- In this scenario, the administrator identifies common TCP connection and data transmission issues by writing and applying various Filter Expressions to expose data that can reveal the potential causes of such problems. The procedure that follows provides examples of Filter Expressions that the administrator applies to isolate the values of various TCP fields, to determine whether any problems exist in these areas.  
+In this scenario, the administrator identifies common TCP connection and data transmission issues by writing and applying various Filter Expressions to expose data that can reveal the potential causes of such problems. The procedure that follows provides examples of Filter Expressions that the administrator applies to isolate the values of various TCP fields, to determine whether any problems exist in these areas.  
   
 > [!TIP]
 >  When troubleshooting TCP connection issues, Message Analyzer users should learn the meaning of all the TCP analysis flags so they can write filters to isolate and analyze the information they provide.  
@@ -639,8 +641,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
 9. In the **TCP** message hierarchy, expand the **Segment** node and then double-click the **TCPDiagnosis**, **SYN** flag, **ACK** flag, **Window**, and **Options** fields to add them as new data columns in the **Analysis Grid** viewer column layout.  
   
-> [!NOTE]
->  Adding these fields to the column layout enables you to view the corresponding values of these fields as you apply the filters throughout this procedure.  
+ > [!NOTE]
+ >  Adding these fields to the column layout enables you to view the corresponding values of these fields as you apply the filters throughout this procedure.  
   
 10. In the text box of the default Filter panel on the Filtering toolbar, enter the following Filter Expression:  
   
@@ -666,29 +668,29 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      `TCP::Options ~= nothing`  
   
-> [!NOTE]
->  If you are interested in examining the IP conversations where the TCP options were negotiated, along with the TCP ports that carried the traffic, add an IP **Network** column and a TCP **Transport** column to the **Analysis Grid** viewer column **Layout** and then perform the **Group** function on these columns to quickly reorganize the data into common groups. If you use this method, make sure to right-click the **Network** and **Transport** group labels and select the **Expand All Groups** menu command to expose all the data.  
-  
-When you are viewing the TCP **Option** configuration, you might want to do the following:  
+ > [!NOTE]
+ >  If you are interested in examining the IP conversations where the TCP options were negotiated, along with the TCP ports that carried the traffic, add an  IP **Network** column and a TCP **Transport** column to the **Analysis Grid** viewer column **Layout** and then perform the **Group** function on these  columns to quickly reorganize the data into common groups. If you use this method, make sure to right-click the **Network** and **Transport** group labels  and select the **Expand All Groups** menu command to expose all the data.  
+   
+ When you are viewing the TCP **Option** configuration, you might want to do the following:  
 
-- Ensure that **Selective Acknowledgement (SACK)** is enabled, to minimize TCP retransmits.  
-- Verify that the **Maximum Segment Size (MSS)** is set to a reasonable value to reduce fragmentation.  
-- Ensure that the **WindowsScaleFactor** function is operative and set to a reasonable value for the **Window** size setting, to enable automatic resize of the receive TCP **Window** as necessary.  
+ - Ensure that **Selective Acknowledgement (SACK)** is enabled, to minimize TCP retransmits.  
+ - Verify that the **Maximum Segment Size (MSS)** is set to a reasonable value to reduce fragmentation.  
+ - Ensure that the **WindowsScaleFactor** function is operative and set to a reasonable value for the **Window** size setting, to enable automatic resize of the receive TCP **Window** as necessary.  
   
 16. To display statistics associated with all the TCP three-way handshakes in a set of trace results, execute the **TCP Three-Way Handshake** pattern expression in the **Pattern Match** viewer, which is accessible from the **New Viewer** drop-down list on the global Message Analyzer toolbar. When the **Pattern Match** viewer is open, click the  **TCP Three-Way Handshake** pattern expression in the **AVAILABLE PATTERNS** list. If any matches are found, they appear in the Matched pattern selector in the **MATCHES** pane of the viewer. To review the discovered data, click the Matched pattern selector to display all instances of TCP three-way handshake patterns and the associated TCP data.  
   
----  
+  ---  
+    
+  **More Information**   
+  **To learn more** about the **TCP Three-Way Handshake** and other pattern expressions, see [Understanding Message Pattern Matching]  (understanding-message-pattern-matching.md).  
   
-**More Information**   
-**To learn more** about the **TCP Three-Way Handshake** and other pattern expressions, see [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).  
-
----  
+  ---  
+    
+  Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along   with surrounding messages potentially related to a failure:  
   
-Otherwise, you can perform manual filtering such as the following in an attempt to  locate  incomplete TCP three-way handshake patterns in a trace along with surrounding messages potentially related to a failure:  
-
-- Click the **Viewpoint** drop-down list on the Filtering toolbar and then select the **TCP** **Viewpoint** to display all TCP messages at top-level.  
-- Click the **Find Message** button on the **Analysis Grid** viewer toolbar.  
-- Enter any of the following Filter Expressions in the **Find Message** text box and then successively click the **Find** binoculars icon to locate messages that meet the specified filtering criteria:  
+  - Click the **Viewpoint** drop-down list on the Filtering toolbar and then select the **TCP** **Viewpoint** to display all TCP messages at top-level.  
+  - Click the **Find Message** button on the **Analysis Grid** viewer toolbar.  
+  - Enter any of the following Filter Expressions in the **Find Message** text box and then successively click the **Find** binoculars icon to locate messages that meet the specified filtering criteria:  
 
     TCP::TCPDiagnosis contains "Segment-Lost"   
     TCP::AcknowledgementNumber==0  
@@ -753,8 +755,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      Operations that meet the **ResponseTime** criteria of the applied filter would likely indicate excessive server response times, providing that the **TimeElapsed** for the entire operation is a reasonable value. Note that if the **TimeElapsed** is also taking a while, this could be an indication of network issues rather than a slowly responding server.  
   
-> [!NOTE]
->  The **ResponseTime** is the difference between the **Timestamp** value of the first response message from the server minus the last **Timestamped** value in the request message stack.  
+ > [!NOTE]
+ >  The **ResponseTime** is the difference between the **Timestamp** value of the first response message from the server minus the last **Timestamped** value in the request message stack.  
   
 14. Click the **Show Column Filter Row** icon in the upper-left corner of the **Analysis Grid** viewer to display the amber-colored **Column Filter** text box row.  
   
@@ -820,8 +822,8 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
      This **Color Rule** is also immediately applied to your trace results, in the previously indicated manner.  
   
-> [!NOTE]
->  You can leave these **Color Rules** in the applied state so that any messages with TCP diagnostics and SMB errors are automatically displayed whenever you run a trace. Unless you specifically disable **Color Rules**, they remain enabled for all Message Analyzer **Trace Scenarios** with which you  capture data.  
+ > [!NOTE]
+ >  You can leave these **Color Rules** in the applied state so that any messages with TCP diagnostics and SMB errors are automatically displayed whenever you run a trace. Unless you specifically disable **Color Rules**, they remain enabled for all Message Analyzer **Trace Scenarios** with which you  capture data.  
   
 11. In the **Field Chooser** window, navigate the SMB message hierarchy to the **SMB2.ErrorResponse.Header.Status** level and add the **Value** field as a new column to the **Analysis Grid** viewer, so you can examine the values of any SMB errors that might have occurred.  
   

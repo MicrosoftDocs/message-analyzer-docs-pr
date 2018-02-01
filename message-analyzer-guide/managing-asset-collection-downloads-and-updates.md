@@ -31,7 +31,7 @@ The features that are available to manage asset collection downloads and updates
   
 -   Searching and filtering asset collections.  
   
- These capabilities are described in the following topics:  
+These capabilities are described in the following topics:  
 
 [Syncing Items on First Startup](syncing-items-on-first-startup.md)  
 [Filtering and Searching For Items](filtering-and-searching-for-items.md)  

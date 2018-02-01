@@ -32,7 +32,7 @@ By default, every Message Analyzer installation is provided with a baseline set 
   
 -   **Download once and don’t automatically update** — by selecting this option for an **OPN Parser** package, you opt out of the update process for the package. When this occurs, the current version of the package is downloaded from the **Message Analyzer** feed, but the package is not configured to auto-sync with the latest versions and download updates automatically. The **OPN Parser** package remains on the **Downloads** and **Settings** tabs and continues to display the server download status icon. However, you still have the option to auto-sync the package by clicking the server download status icon for the package on the **Downloads** tab to display the **Item Download Options** dialog, from where you can select the auto-sync option, even if you already downloaded the package once.  
   
- Other capabilities that you can employ when managing **OPN Parser** packages include the following:  
+Other capabilities that you can employ when managing **OPN Parser** packages include the following:  
   
 -   **Auto-sync all items** — by clicking the **Sync All Displayed Items** button on the **Downloads** tab of the **Asset Manager**, all **OPN Parser** packages are removed from the **Downloads** tab and appear on the **Settings** tab under the **OPN Parsers** list in the auto-synced state.  
   

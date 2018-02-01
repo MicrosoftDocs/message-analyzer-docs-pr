@@ -43,12 +43,12 @@ Message Analyzer now conveniently integrates several high-profile filtering func
     > [!NOTE]
     >  The built-in view **Filters** of the centralized Filter Expression **Library** are available from the **Message Analyzer Filters** asset collection, which installs by default with Message Analyzer. You can **Manage** items in this collection from the **Library** drop-down list while other management features are available from the **Asset Manager** dialog that you can open from the global Message Analyzer **Tools** menu.  
   
----  
+    ---  
   
     **More Information**   
     **To learn more** about working with view **Filters**, see [Applying and Managing Filters](applying-and-managing-filters.md).  
 
----  
+    ---  
   
 -   **Add Time Filter** — click this list item to display the **Time Filter** panel that contains the time window slider controls along with an **Apply** and **Remove** button. After you configure a window of time in which you want to view data, click the **Apply** button to start the filtering action. Thereafter, you can click the **Remove** button to disable the **Time Filter** effects and return to the original set of trace results, or you can configure and apply another window of time in which to view data.  
   

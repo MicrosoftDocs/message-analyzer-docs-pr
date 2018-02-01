@@ -72,8 +72,8 @@ A brief description of each procedure is included here for review, as follows.
   
      The asset collections that you auto-synced are removed from the **Downloads** tab and reappear on the **Settings** tab with the auto-sync status icon displaying to the right of each collection.  
   
-> [!NOTE]
->  When you click the **Sync All Displayed Items** button on the **Downloads** tab to set all asset collections to the auto-sync state, this includes all **OPN Parser** packages.  
+  > [!NOTE]
+  >  When you click the **Sync All Displayed Items** button on the **Downloads** tab to set all asset collections to the auto-sync state, this includes all **OPN Parser** packages.  
   
 <a name="BKMK_ShareLibraryItems"></a>   
 ## Share Local Library Items on a File Share  
@@ -99,8 +99,8 @@ A brief description of each procedure is included here for review, as follows.
   
 9. After you specify a **File name** for the asset collection, click the **Save** button to exit the **Select Library Location...** dialog, at which time your asset collection is posted to the file share location.  
   
-> [!NOTE]
->  Ensure that users have your file share location information and appropriate permissions to access the share or other location.  
+ > [!NOTE]
+ >  Ensure that users have your file share location information and appropriate permissions to access the share or other location.  
   
 #### To import a Filter asset collection  
   

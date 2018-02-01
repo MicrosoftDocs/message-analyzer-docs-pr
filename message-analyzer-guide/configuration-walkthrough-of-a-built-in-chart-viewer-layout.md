@@ -31,7 +31,7 @@ This section provides a walkthrough of the configuration process for the built-i
   
 -   Conversations with the highest durations  
   
- The data that you evaluate to facilitate this analysis appears in the columns of the **TCP/UDP Conversations by Message Count** **Layout** in tabular format, with the use of the **Table** grid visualizer component. The data  consists of the following:  
+The data that you evaluate to facilitate this analysis appears in the columns of the **TCP/UDP Conversations by Message Count** **Layout** in tabular format, with the use of the **Table** grid visualizer component. The data  consists of the following:  
   
 -   **Network conversation** data — displays in the **Network** column  of the Table and exposes the IPv4, IPv6, and/or Ethernet addresses of the computers engaged in each conversation across a set of trace results.  
   
@@ -61,12 +61,12 @@ This section provides a walkthrough of the configuration process for the built-i
   
 3.  While the **TCP/UDP Conversations by Message Count** **Layout** has focus, click the global Message Analyzer **Session** menu, highlight **Chart**, and then click **Edit** in the drop-down list to display the **Edit Chart Layout** dialog.  
   
- **Chart Properties Configuration**   
+**Chart Properties Configuration**   
 In the **Chart Properties** pane of the **Edit Chart Layout** dialog, you will see that the **Chart type** is set to **Table**, the **Sort Order** is set to **Descending**, and **Sort By** is set to **Values**. This means that quantities in the first sortable **Value** column, in this case the **Count** column of this **Layout**, will be sorted in descending order by default, so that you can assess the network conversations from the highest message counts and payloads to the lowest, as you scroll down through the data.  
   
- The data that displays in the columns of the Table visualizer component for this **Layout** are described in the subsections that follow.  
+The data that displays in the columns of the Table visualizer component for this **Layout** are described in the subsections that follow.  
   
- **Network Conversations**   
+**Network Conversations**   
 For this **Layout** to display data in the **Network** column of the Table, a **Field** entry in the **Series Field** pane must be configured with the **Network** field from the IPv4 or IPv6 protocol that you can locate in the **Field Chooser**. Note that the **Network** field, like all other fields in **Field Chooser**, contains an *inherent value* that Message Analyzer can display in various data viewers where it is used, including in **Chart** viewer **Layouts**. This contrasts with a *calculated value* that is the result of a selected operation, such as **Cumulative addition**, upon one or more data fields that produces a statistic that is useful for analysis. Adding fields with inherent values is the only type of configuration that is allowed in the **Series Field** pane, given that the **Formula Editor** is unavailable in this context.  
   
 ##### To locate the Network field  
@@ -83,7 +83,7 @@ For this **Layout** to display data in the **Network** column of the Table, a **
   
      If this was an actual configuration task rather than a walkthrough, you would need to double-click the **Network** field that you located in **Field Chooser** to display  the "Network" value in the first **Field** text box of the **Series Fields** pane in the **Edit Chart Layout** dialog.  
   
- **TCP/UDP Transports**   
+**TCP/UDP Transports**   
 For this **Layout** to display data in the **Transport** column of the Table, a second **Field** entry in the **Series Fields** pane must be configured with the **Transport** field from the TCP or UDP protocol, which you can locate in the **Field Chooser** window.  
   
 ##### To locate the Transport field  
@@ -98,10 +98,10 @@ For this **Layout** to display data in the **Transport** column of the Table, a 
   
      If this was an actual configuration task rather than a walkthrough, you would need to double-click the **Transport** field that you located in **Field Chooser** to display  the "Transport" value in the second **Field** text box of the **Series Fields** pane in the **Edit Chart Layout** dialog.  
   
- **Message Count**   
+**Message Count**   
 For this **Layout** to display data in the **Count** column, the first **Value** field in the **Values** pane must be configured with a **Count of Occurrences** operation in the **Formula Editor**. The formula for this **Value** field sets the **Argument type** to the **Message Field** option and  sets the **Argument value** to **MessageNumber**, the latter of which you locate in **Field Chooser**. The desired outcome for this configuration is to provide the total message count that is associated with each TCP or UDP conversation.  
   
- Note that **MessageNumber** is a **Global Annotation** in **Field Chooser** that you can use to count messages, given that Message Analyzer assigns a **MessageNumber** to each message it parses. Therefore, in this **Layout**, the count of **MessageNumbers** is equivalent to the number of messages for a particular conversation.  
+Note that **MessageNumber** is a **Global Annotation** in **Field Chooser** that you can use to count messages, given that Message Analyzer assigns a **MessageNumber** to each message it parses. Therefore, in this **Layout**, the count of **MessageNumbers** is equivalent to the number of messages for a particular conversation.  
   
 ##### To compute message Count values  
   
@@ -117,10 +117,10 @@ For this **Layout** to display data in the **Count** column, the first **Value**
   
 2.  Observe that the **Formula Editor** dialog contains a label below the configuration controls that specifies the resulting operation that will be performed on a specified entity, for example, **Count(MessageNumber)** in the case of the above configuration. This formula also appears in the first **Value** text box in the **Values** pane after you click **OK** to exit the **Formula Editor** dialog.  
   
- **Payload Statistics**   
+**Payload Statistics**   
 For this **Layout** to display data in the **Bytes** column, the second **Value** field in the **Values** pane must be configured with a **Cumulative addition** operation in the **Formula Editor**. The formula for this **Value** field sets the **Argument type** to the **Message Field** option and  sets the **Argument value** to **PayloadLength**, which you locate in **Field Chooser**. The desired outcome for this configuration is to provide the cumulative sum of payload lengths in bytes for each TCP or UDP conversation, from all messages that define a **Payload** field.  
   
- Note that although there are protocols that do not have a **Payload** field, in which case **PayloadLength** could not be evaluated, the TCP and UDP protocols do have such a field.  
+Note that although there are protocols that do not have a **Payload** field, in which case **PayloadLength** could not be evaluated, the TCP and UDP protocols do have such a field.  
   
 ##### To compute the sum of message payloads in Bytes  
   
@@ -136,7 +136,7 @@ For this **Layout** to display data in the **Bytes** column, the second **Value*
   
 2.  Observe that a **Formula Editor** dialog label below the configuration controls specifies the resulting operation that will be performed on the specified field, for example, **Sum(PayloadLength)** in the case of the above configuration. This formula also appears in the second **Value** text box in the **Values** pane after you click **OK** to exit the **Formula Editor** dialog.  
   
- **Conversation Data Transmission Rate**   
+**Conversation Data Transmission Rate**   
 For this **Layout** to display data in the **KBs** column, the third **Value** field in the **Values** pane must be configured by several layers of operations with multiple instances of  the **Formula Editor**. The desired outcome for this configuration is to generate the rate in kilobytes, at which data was transmitted in a conversation. A word description of the  final formula that implements the calculations consists of the following parts:  
   
 -   A **Subtraction** operation that computes the difference between the conversation **StartTime** and **EndTime** time stamps.  
@@ -145,7 +145,7 @@ For this **Layout** to display data in the **KBs** column, the third **Value** f
   
 -   A final **Division** operation that factors the result of the previous **Division** operation by 1000, to obtain a kilobytes-per-second (KBS) value for display in the **KBs** column of this **Layout** for each conversation.  
   
- To obtain the results of these operations, multiple formulas are required, as described in the procedure that follows.  
+To obtain the results of these operations, multiple formulas are required, as described in the procedure that follows.  
   
 ##### To compute conversation data transmission rates in kilobytes (KBs)  
   
@@ -175,7 +175,7 @@ For this **Layout** to display data in the **KBs** column, the third **Value** f
   
 3.  Observe in the current **Formula Editor** dialog instance (from the last bullet point) that a **Subtraction** operation is set to subtract two **Computed Values** that are configured as **Max(Timestamp)** and **Min(Timestamp)**. You can view the configuration for these formulas that use either  a **Maximum** or **Minimum** operation, respectively, by clicking the ellipsis button next to the formula in each text box.  
   
- **Conversation duration**   
+**Conversation duration**   
 For this **Layout** to display data in the **Duration** column, the fourth **Value** field in the **Values** pane must be configured by several layers of operations with multiple instances of  the **Formula Editor**. The desired outcome for this configuration is to provide a statistic that exposes how long the message exchanges in each conversation took to complete. A word description of the  final formula that implements the calculations consists of the following parts:  
   
 -   A **Subtraction** operation that computes the difference between the maximum time stamp value and the minimum time stamp value in a specific conversation.  
@@ -184,7 +184,7 @@ For this **Layout** to display data in the **Duration** column, the fourth **Val
   
 -   A **Minimum** operation that computes a result that is equal to the minimum time stamp in the  conversation.  
   
- To obtain the results of these operations, multiple formulas are required, as described in the procedure that follows.  
+To obtain the results of these operations, multiple formulas are required, as described in the procedure that follows.  
   
 ##### To compute conversation Durations  
   

@@ -27,7 +27,7 @@ After you have loaded data through a Data Retrieval Session or captured data in 
   
 -   Set **Viewpoints** or changed a viewer **Layout**.  
   
- However, although you may have modified your data display in an Analysis Session, Message Analyzer will allow you to save only certain settings that you configured for a set of trace results. These settings include the following:  
+However, although you may have modified your data display in an Analysis Session, Message Analyzer will allow you to save only certain settings that you configured for a set of trace results. These settings include the following:  
   
 -   **Filtered data** — you can save the results of applying a view **Filter** to a set of messages. You can also save the results that display in a separate **Analysis Grid** viewer tab, for example, a set of messages that display in an **Analysis Grid** viewer tab after you have double-clicked a visualizer component in another data viewer such as the **Protocol Dashboard** or some **Chart** viewer **Layout**.  
   

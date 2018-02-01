@@ -31,7 +31,7 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
 -   **!** — represents the logical NOT function. Typically used for negation.  
   
- You can also apply the following relational operators to applicable Filter Expressions when you need to restrict fields to specific values:  
+You can also apply the following relational operators to applicable Filter Expressions when you need to restrict fields to specific values:  
   
 -   **==** — Equals. An operator that evaluates two filter expression operands for value equality.  
   
@@ -39,8 +39,8 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
 -   **~=** — Not equals. This operator negates the condition on a value only but does not evaluate nonexistence as a form of negation.  
   
-> [!NOTE]
->  The following examples further clarify the difference between the “!=” and “~=” operators. A filter expression such as `TCP.SourcePort != 443` returns all TCP messages that have a **SourcePort** value that is not equal to 443, together with all messages that are not TCP. By using the ~= operator in this expression, for example `TCP.SourcePort ~= 443`, the condition on the value is negated and the filter expression will return TCP messages with a **SourcePort** that is not equal to 443, but non-TCP messages will not also be included.  
+ > [!NOTE]
+ >  The following examples further clarify the difference between the “!=” and “~=” operators. A filter expression such as `TCP.SourcePort != 443` returns all TCP messages that have a **SourcePort** value that is not equal to 443, together with all messages that are not TCP. By using the ~= operator in this expression, for example `TCP.SourcePort ~= 443`, the condition on the value is negated and the filter expression will return TCP messages with a **SourcePort** that is not equal to 443, but non-TCP messages will not also be included.  
   
 -   **>** — Greater than. This operator is used to evaluate whether one filter expression operand is greater than the other.  
   
@@ -59,7 +59,7 @@ To assist you in understanding the Filtering Language, you should experiment wit
 
 ---  
   
- The Filtering Language also supports the following bitwise and arithmetic operators that you can apply to field expressions:  
+The Filtering Language also supports the following bitwise and arithmetic operators that you can apply to field expressions:  
   
 -   **Boolean and bitwise operators**:  &#124;, ^, &, ~, and !.  
   
@@ -67,7 +67,7 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
 -   **Arithmetic operators**:  +, -, *, /, and %.  
   
- For example, the following is a valid filter expression that uses arithmetic operators: `TCP.SourcePort + 1 == TCP.DestinationPort / 2`.  
+For example, the following is a valid filter expression that uses arithmetic operators: `TCP.SourcePort + 1 == TCP.DestinationPort / 2`.  
   
 ## Using Literals  
 

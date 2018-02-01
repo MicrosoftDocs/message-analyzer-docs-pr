@@ -56,18 +56,18 @@ manager: "ronstarr"
   
 -   Query Name Reference Resolver  
   
- The presentation of statement completion text in Message Analyzer Filter Expression text boxes occurs in response to the initiation actions specified in [Starting the Filter IntelliSense Service](filter-intellisense-service.md#BKMK_StartIntellisenseService). Note that the Filter IntelliSense service is available for view **Filter** configuration on the Filtering toolbar, even while Message Analyzer is still parsing messages.  
+The presentation of statement completion text in Message Analyzer Filter Expression text boxes occurs in response to the initiation actions specified in [Starting the Filter IntelliSense Service](filter-intellisense-service.md#BKMK_StartIntellisenseService). Note that the Filter IntelliSense service is available for view **Filter** configuration on the Filtering toolbar, even while Message Analyzer is still parsing messages.  
   
- **Interactive Intelligence**   
+**Interactive Intelligence**   
 The Filter IntelliSense service contains the interpretive intelligence to anticipate the elements for which you might be searching based on the characters you enter. For example, if you enter the text "Port" in a Filter Expression text box, the service matches the prefix and entities such as "PortName" display in the results list; however, element names such as "DestinationPort" do not display. In addition, the portion of the prefix text that matches the entered text is displayed in bold.  
   
- If you invoke Filter IntelliSense at the root level in an empty Filter Expression text box, the results are grouped separately and listed in the following order, with each group alphabetically sorted:  
+If you invoke Filter IntelliSense at the root level in an empty Filter Expression text box, the results are grouped separately and listed in the following order, with each group alphabetically sorted:  
   
 -   Protocol modules  
   
 -   Global annotations  
   
- If you invoke Filter IntelliSense at the root level in an empty Filter Expression text box and *then* enter text to activate the list filtering feature, the results are grouped separately and listed in the following order, with each group alphabetically sorted:  
+If you invoke Filter IntelliSense at the root level in an empty Filter Expression text box and *then* enter text to activate the list filtering feature, the results are grouped separately and listed in the following order, with each group alphabetically sorted:  
   
 -   Protocols  
   
@@ -77,7 +77,7 @@ The Filter IntelliSense service contains the interpretive intelligence to antici
   
 -   Messages, Structures, Fields, Properties  
   
- If you invoke Filter IntelliSense below a parent element at root level, for example by entering the text "TCP." in a Filter Expression text box, the following child entities are listed together in a single group that is alphabetically sorted:  
+If you invoke Filter IntelliSense below a parent element at root level, for example by entering the text "TCP." in a Filter Expression text box, the following child entities are listed together in a single group that is alphabetically sorted:  
   
 -   Messages  
   
@@ -87,7 +87,7 @@ The Filter IntelliSense service contains the interpretive intelligence to antici
   
 -   Properties  
   
- If you continue to invoke Filter IntelliSense at the child level, lists of fields display that are associated with the various child entities. From the lists, you can select the message elements you require for integration into your Filter Expression.  
+If you continue to invoke Filter IntelliSense at the child level, lists of fields display that are associated with the various child entities. From the lists, you can select the message elements you require for integration into your Filter Expression.  
   
 > [!NOTE]
 >  The Filter IntelliSense service does not respond to colon (:) characters that you might normally enter to create explicit paths in Filter Expressions. It also does not respond to other characters such as operators and backslashes, the latter of which you can use to traverse a protocol stack.  
