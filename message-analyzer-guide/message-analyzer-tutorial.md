@@ -157,31 +157,31 @@ The following message providers are included in Message Analyzer **Trace Scenari
   > [!IMPORTANT]
   > Some of the message providers described in this section may be different than what you find on your computer, because of an operating system version dependency. For example, on computers running the Windows 7, Windows 8, or Windows Server 2012 operating system, the **Microsoft-Windows-NDIS-PacketCapture** provider does not exist for the **Local Network Interfaces** **Trace Scenario**. Instead, the **Microsoft-PEF-NDIS-PacketCapture** provider is included in the **Local Network Interfaces** scenario on those computers. On computers running the Windows 8.1, Windows Server 2012 R2, and Windows 10 operating systems, the **Microsoft-Windows-NDIS-PacketCapture** provider is installed as part of the operating system and is used in the **Local Network Interfaces**, **Remote Network Interfaces**, and other **Trace Scenarios**.
 
-- **Microsoft-PEF-NDIS-PacketCapture** provider — an ETW-instrumented, Network Data Interface Specification (NDIS) light weight filter (LWF) driver that captures Ethernet frames at the Link Layer and delivers them to Message Analyzer through the ETW infrastructure. Also includes the capability to configure **Fast Filters** that operate efficiently at the driver-level to isolate specific message types, thereby passing less data and reducing system loads and resource consumption.
+  - **Microsoft-PEF-NDIS-PacketCapture** provider — an ETW-instrumented, Network Data Interface Specification (NDIS) light weight filter (LWF) driver that captures Ethernet frames at the Link Layer and delivers them to Message Analyzer through the ETW infrastructure. Also includes the capability to configure **Fast Filters** that operate efficiently at the driver-level to isolate specific message types, thereby passing less data and reducing system loads and resource consumption.
 
   ---
-  
+      
   **More Information**  
   **To learn more** about the **Microsoft-PEF-NDIS-PacketCapture** provider, see [Microsoft-PEF-NDIS-PacketCapture Provider]  microsoft-pef-ndis-packetcapture-provider.md).
-  
+      
   ---
 
-- **Microsoft-PEF-WFP-MessageProvider** — an ETW-instrumented driver that is based on the Windows Filtering Platform (WFP). It captures message traffic above the IP/Network Layer and delivers that traffic to Message Analyzer through the ETW infrastructure. This provider also enables you to configure **Fast Filters** to isolate specific messages of interest and improve trace performance. This provider is now enabled for remote capabilities when capturing data on remote Windows 10 computers only. In addition, you can set the **Select Discarded Packet Events** option when configuring this provider to log discarded packets.
+  - **Microsoft-PEF-WFP-MessageProvider** — an ETW-instrumented driver that is based on the Windows Filtering Platform (WFP). It captures message traffic above the IP/Network Layer and delivers that traffic to Message Analyzer through the ETW infrastructure. This provider also enables you to configure **Fast Filters** to isolate specific messages of interest and improve trace performance. This provider is now enabled for remote capabilities when capturing data on remote Windows 10 computers only. In addition, you can set the **Select Discarded Packet Events** option when configuring this provider to log discarded packets.
 
   ---
-  
+      
   **More Information**  
   **To learn more** about the **Microsoft-PEF-WFP-MessageProvider**, see [Microsoft-PEF-WFP-MessageProvider]  microsoft-pef-wfp-messageprovider.md).
-  
+      
   ---
 
-- **Microsoft-PEF-WebProxy** — an ETW-instrumented provider that uses the Fiddler API and acts as an HTTP proxy to intercept and capture all HTTP traffic to and from a client web browser in unencrypted format. Also provides the capability to configure driver-level **Hostname** and **Port** filters to isolate specific messages and improve performance.
+  - **Microsoft-PEF-WebProxy** — an ETW-instrumented provider that uses the Fiddler API and acts as an HTTP proxy to intercept and capture all HTTP traffic to and from a client web browser in unencrypted format. Also provides the capability to configure driver-level **Hostname** and **Port** filters to isolate specific messages and improve performance.
 
   ---
-  
+      
   **More Information**  
   **To learn more** about the **Microsoft-PEF-WebProxy** provider, see [Microsoft-PEF-WebProxy Provider](microsoft-pef-webproxy-provider.md).
-  
+      
   ---
 
 - **Microsoft-Windows-NDIS-PacketCapture** provider — an ETW-instrumented provider that has remote capabilities along with special NDIS stack and Hyper-V-Switch extension layer filtering, adapter configurations, packet traversal path directivity, and other filters and specifiers that you can configure.
@@ -934,22 +934,22 @@ The  built-in Message Analyzer **Profiles** are important tools for data correla
 
   The filters that are available for the **Microsoft-Windows-NDIS-PacketCapture** provider in these scenarios consist of advanced driver-level filters that include the following:
 
-- Host adapter filters
+  - Host adapter filters
 
   > [!NOTE]
   > If you want to isolate traffic to a particular virtual machine (VM) that is serviced by a Hyper-V-Switch, you should select the VM adapter in the Interface Selection (upper) section of the **Advanced Settings - Microsoft-Windows-NDIS-PacketCapture** dialog to select the adapter and then specify the MAC address of the VM adapter in the **MAC Addresses** box in the **Filters** section of the dialog, rather than simply selecting (enabling) the adapter. Otherwise, you could return all switch traffic rather than the traffic of a selected VM, given that a Hyper-V-Switch driver cannot distinguish between VMs.
 
-- NDIS stack and Hyper-V-Switch extension layer filters
+  - NDIS stack and Hyper-V-Switch extension layer filters
 
-- Truncation filters
+  - Truncation filters
 
-- Packet traversal direction filters
+  - Packet traversal direction filters
 
-- IP protocol number filters
+  - IP protocol number filters
 
-- MAC address filtering
+  - MAC address filtering
 
-- IP address filters
+  - IP address filters
 
 ---
 
@@ -1128,11 +1128,11 @@ Other techniques that you can use to analyze data consist of the following:
  **To learn more** about the details of working with filters and other data manipulation features for analysis, see the following topics:
 [Using the Filtering Toolbar](using-the-filtering-toolbar.md)  
 
-[Applying and Managing Filters](applying-and-managing-filters.md)
-[Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
-[Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)
-[Working With Operations](working-with-operations.md)
-[Creating a Flat Message List](creating-a-flat-message-list.md)
+- [Applying and Managing Filters](applying-and-managing-filters.md)
+- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)
+- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)
+- [Working With Operations](working-with-operations.md)
+- [Creating a Flat Message List](creating-a-flat-message-list.md)
 
 [Using the Find Message Feature](using-the-find-message-feature.md)  
 [Using the Go To Message Feature](using-the-go-to-message-feature.md)  
