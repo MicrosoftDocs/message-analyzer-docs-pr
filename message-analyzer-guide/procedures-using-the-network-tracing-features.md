@@ -392,11 +392,11 @@ A brief description of each procedure is included here for review, as follows.
   
 13. Click the **Save** button in the **Edit Trace Scenario** dialog to save the scenario in the **Message Analyzer Trace Scenarios** Library and exit the dialog.  
   
-The **Trace Scenario** template that you saved should now display in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog.  
+ The **Trace Scenario** template that you saved should now display in the **My Items** category of the **Select Scenario** drop-down list on the **ETW Providers** toolbar in the **New Session** dialog.  
   
 14. Display your **Trace Scenario** template configuration at any time by selecting it in the **Message Analyzer Trace Scenarios** Library that is accessible from the **Select Scenario** drop-down list.  
   
-When you do this, the **New Session** dialog will be populated with the custom settings that you specified when you created the **Trace Scenario** template. Note that you still have the option at this point to reconfigure your **Trace Scenario** prior to running a Live Trace Session; for example, you could specify a different **Session Filter**, provider line up, or **Keyword** bitmask configuration.  
+ When you do this, the **New Session** dialog will be populated with the custom settings that you specified when you created the **Trace Scenario** template. Note that you still have the option at this point to reconfigure your **Trace Scenario** prior to running a Live Trace Session; for example, you could specify a different **Session Filter**, provider line up, or **Keyword** bitmask configuration.  
   
  > [!TIP]
  >  If you make further modifications to your **Trace Scenario** template, you can resave it with the new configuration settings without ever running it.  

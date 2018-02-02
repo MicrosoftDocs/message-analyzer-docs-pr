@@ -39,7 +39,7 @@ This section describes how to perform these tasks by using the integrated featur
   
 **Figure 20:  Live Trace Session configuration**  
   
-## Live Trace Session Workflow Overview  
+## Live Trace Session Workflow Overview
 
  The following steps are an overview of the workflow that you can follow when configuring a Live Trace Session:  
   
