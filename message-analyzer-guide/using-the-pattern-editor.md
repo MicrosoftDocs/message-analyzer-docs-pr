@@ -29,10 +29,10 @@ You can generate a sequential pattern matching definition as an OPN behavior sce
   
 -   **Analysis Grid** viewer — the **Create Pattern** command appears as a context menu item that displays when you right-click one or more selected messages in the **Analysis Grid** viewer. When you open the **Pattern Editor** from this location, it is prepopulated with an initial configuration of message **Id**, **Type**, and **Summary**, for *each* selected input message. The initial configuration provides a starting point for **Pattern** expression building, where you can specify parameters associated with the selected messages to create your pattern definition components.  
   
-> [!TIP]
->  This method of starting **Pattern** expression configuration is very useful because it helps you learn how to write patterns, given that the initial OPN code is automatically created for you.  
+  > [!TIP]
+  >  This method of starting **Pattern** expression configuration is very useful because it helps you learn how to write patterns, given that the initial OPN code is automatically created for you.  
   
- After you open the **Pattern Editor** dialog from either of these locations, you can start to build pattern definition components for your **Pattern** expression, as described in the section that follows.  
+After you open the **Pattern Editor** dialog from either of these locations, you can start to build pattern definition components for your **Pattern** expression, as described in the section that follows.  
   
 ## Tools for Building a Pattern Expression  
  The **Pattern Editor** dialog enables you to build your own **Pattern** expressions based on pattern definition components that you configure for specific message types. For example, the dialog enables you to configure the patterning criteria for one or more messages, by specifying various fields, properties, methods, and flags from the **Field Chooser** **Tool Window** — and/or values to which any of these entities can be set for a particular message field, along with relational, logical, or numeric operators that qualify how such fields and properties are manipulated to create one or more criteria sets. Each criteria set will then function as a particular component of a pattern definition. After you launch the **Pattern Editor** as described in [Accessing the Pattern Editor](using-the-pattern-editor.md#BKMK_AccessSeqExEditor), you have the option to create a **Pattern** expression in two different ways, as follows:  
@@ -112,10 +112,10 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
   ---  
   
- **Populated Configuration Mode**   
+**Populated Configuration Mode**   
 If you launched the **Pattern Editor** by right-clicking two or more messages in the **Analysis Grid** viewer and then selecting the **Create Pattern** command from the context menu that appears, the editor opens to the **Quick** tab in the populated configuration mode with message types for each selected input message already inserted. Thereafter, the configuration options that you can use to create pattern definition components consist of all those specified immediately above. An example of creating a **Pattern** expression in this mode is described in [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  
   
- **Free Form Configuration Mode**   
+**Free Form Configuration Mode**   
 If you choose to create a **Pattern** expression without any UI automation support, you can click the **Free Form** tab of the **Pattern Editor** and enter OPN code that creates your pattern definitions. However, you should have some familiarity with OPN before you try this option, since OPN is a unique language with many different constructs, operators, specifiers, and semantic and syntactic representations. Also, once you select the **Free Form** tab and click **Edit**, you are prompted that you will be unable to return to the **Quick** tab again with the UI automation configuration capability for the current editing session.  
   
 <a name="BKMK_BuildingPatternExp"></a>   
@@ -146,8 +146,8 @@ If you choose to create a **Pattern** expression without any UI automation suppo
   
      These port values will be checked against port values in subsequent TCP messages that are evaluated by the second set of message criteria, to ensure that the **Pattern** expression processes only messages that are in the same conversation.  
   
-> [!NOTE]
->  Whenever you create a variable as the right-hand expression of a criteria set and assign the value of some field to it in the **Pattern Editor**, that variable will appear in **Field Chooser** under the **Sequence Variables** node, which displays in the context of the **Pattern Editor** only.  
+  > [!NOTE]
+  >  Whenever you create a variable as the right-hand expression of a criteria set and assign the value of some field to it in the **Pattern Editor**, that variable will appear in **Field Chooser** under the **Sequence Variables** node, which displays in the context of the **Pattern Editor** only.  
   
 8.  In the first row of criteria controls for the second TCP message, click the ellipsis (**…**) to display the **Field Chooser** and then double-click the **PayloadLength** field in the TCP message hierarchy to display this field name in the first criteria input box.  
   
@@ -175,13 +175,13 @@ If you choose to create a **Pattern** expression without any UI automation suppo
   
 17. Click the **Save pattern** button on the toolbar of the **Pattern Editor** dialog to save this **Pattern** expression.  
   
-> [!NOTE]
->  As soon as you save a new **Pattern** expression, Message Analyzer automatically executes the **Pattern** expression code against the current set of trace results.  
-
-If you want to view the **Pattern** expression code that Message Analyzer created in the background for the criteria control fields, operators, and values that you specified, you can hover over the **Pattern** expression in the **AVAILABLE PATTERNS** list of the **Pattern Match** viewer with your mouse, or you can right-click the **Pattern** expression and select the **Edit** or **Create a Copy** command in the context menu that appears, to display the code on the **Free Form** tab of the **Pattern Editor** dialog.  
-
-> [!TIP]
->  After you save a **Pattern** expression, you can leave the **Pattern Editor** dialog open so you can revisit the prepopulated view, should you need to alter the configuration with the automation controls. If you close the **Pattern Editor** for a newly created **Pattern** expression, you can then only view the **Pattern** expression in the **Free Form** configuration mode, which displays the OPN code rather than the automation controls that are accessible on the **Quick** tab .  
+  > [!NOTE]
+  >  As soon as you save a new **Pattern** expression, Message Analyzer   automatically executes the **Pattern** expression code against the current set   of trace results.  
+  
+  If you want to view the **Pattern** expression code that Message Analyzer   created in the background for the criteria control fields, operators, and   values that you specified, you can hover over the **Pattern** expression in the   **AVAILABLE PATTERNS** list of the **Pattern Match** viewer with your mouse, or   you can right-click the **Pattern** expression and select the **Edit** or   **Create a Copy** command in the context menu that appears, to display the code   on the **Free Form** tab of the **Pattern Editor** dialog.  
+  
+  > [!TIP]
+  >  After you save a **Pattern** expression, you can leave the **Pattern Editor** dialog open so you can revisit the prepopulated view, should you need to alter the configuration with the automation controls. If you close the **Pattern Editor** for a newly created **Pattern** expression, you can then only view the **Pattern** expression in the **Free Form** configuration mode, which displays the OPN code rather than the automation controls that are accessible on the **Quick** tab .  
   
 ## Editing Pattern Expressions  
  You can edit, delete, set as a favorite, or make a copy of any **Pattern** expression that appears in the **My Items** category of your local **Pattern** expression Library in the **AVAILABLE PATTERNS** pane of the **Pattern Match** viewer. However, for the predefined **Pattern** expressions that appear in the **Network** category, you can only make a copy of these since they cannot be modified or deleted. To edit a **Pattern** expression, you will use the same **Pattern Editor** already described herein.  
