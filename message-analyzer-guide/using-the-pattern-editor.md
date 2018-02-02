@@ -39,12 +39,12 @@ You can generate a sequential pattern matching definition as an OPN behavior sce
   
 -   **Quick** configuration — a tabbed space that enables you to take advantage of UI automation to configure simple pattern definition components. You will find the *quick* configuration space on the **Quick** tab of the **Pattern Editor**. Note that this tab is prepopulated with data that is derived from one or more messages, but only if you launched the dialog from the previously described **Analysis Grid** viewer context menu command.  
   
-> [!CAUTION]
->  If you are working with the UI automation feature on the **Quick** tab of the **Pattern Editor** and you click **Edit** on the toolbar of the **Free Form** tab, you will be unable to return to the **Quick** configuration tab.  
+  > [!CAUTION]
+  >  If you are working with the UI automation feature on the **Quick** tab of the **Pattern Editor** and you click **Edit** on the toolbar of the **Free Form** tab, you will be unable to return to the **Quick** configuration tab.  
   
 -   **Free Form** configuration — enables you to write OPN code by hand to configure pattern definition components. You will find the *free form* configuration space on the **Free Form** tab of the **Pattern Editor**. This option is mainly for users who are familiar with OPN coding and can create more complex **Pattern** expressions.  
   
- **Unpopulated Configuration Mode**   
+**Unpopulated Configuration Mode**   
 If you launched the **Pattern Editor** by clicking the **Create Pattern** button in the **Pattern Match** viewer, as indicated earlier, it opens to the **Quick** tab in unpopulated configuration mode. Thereafter, assuming that you elect to perform **Quick** configuration rather than **Free Form**, you can use the controls of the **Pattern Editor** to create pattern definition components by performing the following operations:  
   
 -   **Specify the expression name** — enter a descriptive name for the **Pattern** expression by typing it into the **Name** text box at the top of the editor.  
@@ -59,12 +59,12 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
 -   **Set backtracking** — select the **Backtrack to find each match** check box if you want the **Pattern** expression to backtrack to the next evaluation point following the previous one in a set of trace results, to continue applying the filtering criteria of your pattern definition to the remaining messages.  
   
----  
+  ---  
+    
+  **More Information**   
+  **To learn more** about backtracking, see the predefined **TCP Three-Way   Handshake** expression walkthrough in [Understanding Message Pattern Matching]  (understanding-message-pattern-matching.md).   
   
-**More Information**   
-**To learn more** about backtracking, see the predefined **TCP Three-Way Handshake** expression walkthrough in [Understanding Message Pattern Matching](understanding-message-pattern-matching.md).   
-
----  
+  ---  
   
 -   **Insert a message criteria clause** — click the **Insert Criteria** link to display a set of clause configuration controls that enable you to perform the following basic operations:  
   
@@ -76,7 +76,7 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
   
          **Note** The **contains** function enables you to determine whether a value exists in a particular field and the **assign** function enables you to assign a field (that you specified in either the first or second input box of a particular criteria set) to a variable name that you create (in the third input box of a criteria set). You can also assign a variable to the results of an arithmetic operation upon two fields specified in the first and second input boxes of a particular criteria set.  
   
-     The resulting configuration that you specify with these controls will construct an OPN clause that acts as a filter expression with left- and right-hand side components, which subsequently constitutes a pattern definition component that forms a part of your overall **Pattern** expression. As a simple example of a criteria set for an HTTP.Request message type, you could specify the **Method** field in the first criteria box, leave the second box empty, specify the “==” relational operator in the second drop-down list, and then type “GET” in the third criteria box.  
+  The resulting configuration that you specify with these controls will construct an OPN clause that acts as a filter expression with left- and right-hand side components, which subsequently constitutes a pattern definition component that forms a part of your overall **Pattern** expression. As a simple example of a criteria set for an HTTP.Request message type, you could specify the **Method** field in the first criteria box, leave the second box empty, specify the “==” relational operator in the second drop-down list, and then type “GET” in the third criteria box.  
   
 -   **Set a field name** — click the ellipsis (**…**) control to the right of the first criteria input box to display the **Field Chooser**, from where you can select message fields, properties, methods, flags, and so on.  
   
@@ -90,27 +90,27 @@ If you launched the **Pattern Editor** by clicking the **Create Pattern** button
 -   **Specify a value or field** — enter a value in the third criteria input box, against which the *fieldName* operand results are to be evaluated. The resulting filter expression for this criteria set would look similar to the following:  
     `field1Name – field2Name > someValue`  
   
-> [!TIP]
->  Note that Message Analyzer enables you to use **Timestamp** as a field in a Pattern Expression. **Timestamp** is a **Global Annotation** that is accessible from the **Field Chooser** window.  
+  > [!TIP]
+  >  Note that Message Analyzer enables you to use **Timestamp** as a field in a Pattern Expression. **Timestamp** is a **Global Annotation** that is accessible from the **Field Chooser** window.  
   
 -   **Create a Summary for matched instance display** — in the text box under the **SUMMARY** subtab, specify summary text that will appear under the **Summary** column in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer. This can include the use of variable values that are specified in the **Pattern** expression.  
   
-> [!NOTE]
->  You can include additional columns of data for variable values in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer, providing that you used the **assign** function in the **Pattern Editor** to assign the value of a field, or an operation on two fields, to a variable name that you create. To add columns of data based on one or more variables, you can select them under the **Column** heading that appears below the **SUMMARY** subtab text box. You also have the option to override the column (variable) names by specifying a different column name in the **Name Override** column beneath the **Summary** text box.  
-
-> [!TIP]
->  To review an example of how to use the **assign** function, see [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  
+  > [!NOTE]
+  >  You can include additional columns of data for variable values in the   **MATCHED INSTANCES** pane of the **Pattern Match** viewer, providing that you   used the **assign** function in the **Pattern Editor** to assign the value of a   field, or an operation on two fields, to a variable name that you create. To   add columns of data based on one or more variables, you can select them under   the **Column** heading that appears below the **SUMMARY** subtab text box. You   also have the option to override the column (variable) names by specifying a   different column name in the **Name Override** column beneath the **Summary**   text box.  
+  
+  > [!TIP]
+  >  To review an example of how to use the **assign** function, see [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  
   
 -   **Specify the message evaluation direction** — on the **ADVANCED** subtab of the **Quick** tab, optionally place a check mark in the **Evaluate sequential message patterns using the oldest to newest message** check box. This will begin the evaluation from the captured message that has the latest **Timestamp** value in a set of trace results; otherwise, the default (this check box unselected) is to start the evaluation from the message that contains the earliest **Timestamp** value in a set of trace results.  
   
 -   **Specify a Viewpoint** — on the **ADVANCED** subtab of the **Quick** tab, click the **Viewpoint** drop-down list to select a **Viewpoint** that will enable your **Pattern** expression to evaluate messages from the perspective of a particular protocol or other module, while filtering out all messages above the **Viewpoint**. This can ensure that your **Pattern** expression processes all the message types on which your pattern is focused.  
   
----  
+  ---  
+    
+  **More Information**   
+  **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints]  (applying-and-managing-viewpoints.md).   
   
-**More Information**   
-**To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).   
-
----  
+  ---  
   
  **Populated Configuration Mode**   
 If you launched the **Pattern Editor** by right-clicking two or more messages in the **Analysis Grid** viewer and then selecting the **Create Pattern** command from the context menu that appears, the editor opens to the **Quick** tab in the populated configuration mode with message types for each selected input message already inserted. Thereafter, the configuration options that you can use to create pattern definition components consist of all those specified immediately above. An example of creating a **Pattern** expression in this mode is described in [Example of Building a Simple Pattern Expression](using-the-pattern-editor.md#BKMK_BuildingPatternExp).  
