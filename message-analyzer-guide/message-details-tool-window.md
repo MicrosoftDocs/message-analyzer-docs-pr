@@ -67,8 +67,8 @@ You can also create Filter Expressions, add **Analysis Grid** viewer columns, an
   
 -   **Add ‘\<fieldName>’ as Column** — captures the name of the selected field within the associated message hierarchy and adds a new named column to the current **Analysis Grid** viewer column layout, based on the selected field name. Message Analyzer populates that new data column with information that derives from the current message collection.  
   
-> [!NOTE]
->  An **Analysis Grid** viewer session tab must have the active focus for this command to appear in the **Details** window context menu.  
+  > [!NOTE]
+  >  An **Analysis Grid** viewer session tab must have the active focus for this command to appear in the **Details** window context menu.  
   
 -   **Add ‘\<fieldName>’ as Grouping** — captures the name of the selected field within the associated message hierarchy and performs a data grouping operation based on the selected field name.  
   

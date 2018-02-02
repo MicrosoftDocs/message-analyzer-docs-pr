@@ -45,7 +45,7 @@ A brief description of each procedure is included here for review, as follows.
 
   ---  
   
- **[Filtering Live Trace Session Data](procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
+**[Filtering Live Trace Session Data](procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
   
 -   How to collect data from a specific network interface in a Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**, by selecting an **Adapter** from which to capture data. This can be useful to isolate data on a specific adapter when network adapters are on different networks or load balanced on the same subnet where traffic spans multiple adapters.  
   
@@ -477,10 +477,10 @@ The hypothetical high-level issue in this example is that a Network Administrato
   
   ---  
   
- **Applying Hostname and Port Filters to a Pre-Encryption for HTTPS Trace**   
+**Applying Hostname and Port Filters to a Pre-Encryption for HTTPS Trace**   
 The hypothetical high-level issue in this example is that a Network Administrator is dealing with a client browser that has difficulty connecting with one or more web sites. The client is already overwhelmed with network traffic, so the administrator wants to determine what might be causing the connection problems without imposing a high-volume data capture on the overwhelmed client computer.  
   
- In this example, the administrator uses the **Pre-Encryption for HTTPS** **Trace Scenario** with the **Microsoft-Pef-WebProxy** provider and a **Hostname Filter** to isolate messages sent to and from a particular web site, and a **Port Filter** to isolate messages on a particular port, such as 80. This scenario is useful for achieving better performance than using a comparable **Session Filter** that specifies a particular destination IP address and port number. The **Hostname Filter** and **Port Filter** act similarly to the way **Fast Filters** do in that they cause less data to be collected, allow for minimal parsing, and therefore have less impact on the computer where the trace is run. In this scenario, the administrator analyzes HTTP **StatusCode** and **ReasonPhrase** indicators that can reflect connection issues, request timeouts, elapsed time/delays, or other errors that occur when a client is attempting to connect to a specified HTTP web server that might also be very busy.  
+In this example, the administrator uses the **Pre-Encryption for HTTPS** **Trace Scenario** with the **Microsoft-Pef-WebProxy** provider and a **Hostname Filter** to isolate messages sent to and from a particular web site, and a **Port Filter** to isolate messages on a particular port, such as 80. This scenario is useful for achieving better performance than using a comparable **Session Filter** that specifies a particular destination IP address and port number. The **Hostname Filter** and **Port Filter** act similarly to the way **Fast Filters** do in that they cause less data to be collected, allow for minimal parsing, and therefore have less impact on the computer where the trace is run. In this scenario, the administrator analyzes HTTP **StatusCode** and **ReasonPhrase** indicators that can reflect connection issues, request timeouts, elapsed time/delays, or other errors that occur when a client is attempting to connect to a specified HTTP web server that might also be very busy.  
   
 > [!NOTE]
 >  In this scenario, you will be unable to analyze the message data for possible TCP issues because the **Microsoft-Pef-WebProxy** provider captures messages above the Transport Layer.  
@@ -696,20 +696,20 @@ In this scenario, the administrator identifies common TCP connection and data tr
     TCP::AcknowledgementNumber==0  
     TCP::Flags.Syn==true && TCP::Flags.Ack==true  
 
-You can use the method described immediately above to find TCP messages that participated in incomplete three-way handshake operations. By locating the TCP messages that contain TCP **Options** and broken or incomplete patterns of **SYN**, **ACK**, **SequenceNumber**, and **AcknowledgementNumber** field values, you may be able to determine where failures have occurred.  
-
-For reference, the following table specifies the pattern of **SYN** and **ACK** field values, with the relative **SequenceNumber** and **AcknowledgementNumber** value representations, that exposes the signature of a three-way handshake pattern that successfully opened a TCP connection:  
+  You can use the method described immediately above to find TCP messages that   participated in incomplete three-way handshake operations. By locating the TCP   messages that contain TCP **Options** and broken or incomplete patterns of   **SYN**, **ACK**, **SequenceNumber**, and **AcknowledgementNumber** field   values, you may be able to determine where failures have occurred.  
   
-### Table 25.  Three-way Handshake Signature  
-
-|Computer Node|Message Sent|SYN Flag Value|ACK Flag Value|SequenceNumber|AcknowledgementNumber|TCP Options|  
-|-------------------|------------------|--------------------|--------------------|--------------------|---------------------------|-----------------|  
-|Sending|Connection request|True|False|x|0|Yes|  
-|Receiving|Request acknowledgement|True|True|y|x+1|Yes|  
-|Sending|Sync acknowledgement|False|True|x+1|y+1|No|  
-
-> [!NOTE]
->  Keep in mind that incomplete handshakes can appear in a trace if the capture time frame did not synchronize with a TCP transmission or if the network dropped packets.  
+  For reference, the following table specifies the pattern of **SYN** and **ACK** field values, with the relative **SequenceNumber** and **AcknowledgementNumber** value representations, that exposes the signature of a three-way handshake pattern that successfully opened a TCP connection:  
+  
+  ### Table 25.  Three-way Handshake Signature  
+  
+  |Computer Node|Message Sent|SYN Flag Value|ACK Flag Value|SequenceNumber|  AcknowledgementNumber|TCP Options|  
+  |-------------------|------------------|--------------------|  --------------------|--------------------|---------------------------|  -----------------|  
+  |Sending|Connection request|True|False|x|0|Yes|  
+  |Receiving|Request acknowledgement|True|True|y|x+1|Yes|  
+  |Sending|Sync acknowledgement|False|True|x+1|y+1|No|  
+  
+  > [!NOTE]
+  >  Keep in mind that incomplete handshakes can appear in a trace if the capture time frame did not synchronize with a TCP transmission or if the network dropped packets.  
   
  **Applying a view Filter to Pre-Encryption for HTTPS Trace Results**   
 The hypothetical high-level issue in this example is that a Network Administrator of a site has web clients that complain about slow responses when attempting to connect with and retrieve data from one or more web servers. With the use of the Message Analyzer **Pre-Encryption for HTTPS** **Trace Scenario** running on a client computer that is having the most issues, the administrator can quickly determine which servers are having connection or performance problems. In the procedure that follows, the administrator applies HTTP view **Filters** against data that is displaying in the **Analysis Grid** viewer, to obtain a clear picture of which servers are experiencing performance issues. To this end, the view **Filters** help the administrator accomplish the following:  
