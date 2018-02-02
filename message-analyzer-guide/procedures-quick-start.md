@@ -314,17 +314,17 @@ For example, you might add a simple expression such as `*Port != IANA.Port.LDAP`
 
     -   In the **Fast Filters** pane of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, click the black arrow next to the **Filter 1** designator in **Group 1** and select the **IPv4Address** option from the drop-down menu that displays.
 
-    > [!NOTE]
-    >  With a low-level IPv4 address **Fast Filter**, the **Trace Scenario** will deliver messages to the PEF Runtime that transited to or from a specified IPv4 address only, as the **Trace Scenario** is running. This avoids the additional parsing that would normally be required if you specify a similar **Session Filter** instead, thereby improving Message Analyzer performance.
+      > [!NOTE]
+      >  With a low-level IPv4 address **Fast Filter**, the **Trace Scenario** will deliver messages to the PEF Runtime that transited to or from a specified IPv4 address only, as the **Trace Scenario** is running. This avoids the additional parsing that would normally be required if you specify a similar **Session Filter** instead, thereby improving Message Analyzer performance.
 
   -   Specify an IPv4 address value in the format *192.168.1.1* in the text box adjacent to the drop-down menu, to isolate traffic to the specified IPv4 address. Make sure to substitute appropriately for the IP address placeholder italics value specified in this example.
 
   -   Highlight the row in which the Ethernet adapter exists in the **System Network** tree grid of the **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog, and then click the **Apply to Highlighted** button in **Group 1**.
 
-    The name of the Ethernet adapter displays as the **Target** of the filter **Group**. Click **OK** to exit.
+      The name of the Ethernet adapter displays as the **Target** of the filter **Group**. Click **OK** to exit.
 
-    > [!NOTE]
-    >  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
+      > [!NOTE]
+      >  Instead of configuring a **Fast Filter**, you can optionally specify a **Session Filter** such as `IPv4.Address == 192.168.1.1` in the **Session Filter** text box of the **New Session** dialog. However, you should note that a **Session Filter** requires more processing time, as indicated earlier. If you choose to use a **Session Filter**, you can remove the previously set **Fast Filter** configuration.
 
   ---
 
