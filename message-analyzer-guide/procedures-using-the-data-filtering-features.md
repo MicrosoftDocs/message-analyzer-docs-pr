@@ -32,19 +32,19 @@ A brief description of each procedure is included here for review, as follows.
 
 ---  
   
- **[Filtering a Data Retrieval Session](procedures-using-the-data-filtering-features.md#BKMK_FilterImportedData)**  — provides examples of the following:  
+**[Filtering a Data Retrieval Session](procedures-using-the-data-filtering-features.md#BKMK_FilterImportedData)**  — provides examples of the following:  
   
 -   How to apply a **Session Filter** to data that is loaded into Message Analyzer through a Data Retrieval Session that targets a saved trace file as input, so you can isolate and analyze HTTP request messages sent from a specified client IP address to a poorly performing web server along with the response messages that were issued back to the client. Some HTTP analysis techniques are also provided in the procedure to help you discover possible reasons for the poor performance of a hypothetical web server.  
   
 -   How to apply a **Time Filter** to data that is loaded into Message Analyzer through a Data Retrieval Session that targets input files that consolidate several message sources, so that you can view data in specific windows of time in which problems are suspected to have occurred.  
-  
-  ---  
-  
+
+  ---
+
   **More Information**   
   **To learn more** about the types of input files to which you can apply a **Time Filter**, see [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).   
 
-  ---  
-  
+  ---
+
 **[Filtering Live Trace Session Data](procedures-using-the-data-filtering-features.md#BKMK_FilterLiveData)**  — provides examples of the following:  
   
 -   How to collect data from a specific network interface in a Live Trace Session that uses the **Local Network Interfaces** **Trace Scenario**, by selecting an **Adapter** from which to capture data. This can be useful to isolate data on a specific adapter when network adapters are on different networks or load balanced on the same subnet where traffic spans multiple adapters.  
