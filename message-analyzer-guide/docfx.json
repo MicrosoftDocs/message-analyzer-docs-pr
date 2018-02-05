@@ -31,6 +31,7 @@
         "globalMetadata": {
             "breadcrumb_path": "/message-analyzer/breadcrumb/toc.json",
             "extendBreadcrumb": true,
+            "titleSuffix": "Message Analyzer",
             "contributors_to_exclude": ["v-kents"]
         },
         "fileMetadata": {},
