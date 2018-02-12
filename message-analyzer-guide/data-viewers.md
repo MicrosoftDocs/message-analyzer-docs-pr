@@ -78,7 +78,7 @@ The **Chart** viewer **Layouts** that exist in these categories are described in
 **To learn more** about how to create **Chart** viewer **Layouts**, see [Extending Message Analyzer Data Viewing Capabilities](extending-message-analyzer-data-viewing-capabilities.md).  
 **To learn more** about Message Analyzer assets, see [Managing Message Analyzer Assets](managing-message-analyzer-assets.md).  
 
---  
+---  
   
 ## See Also  
 

@@ -66,12 +66,12 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
      This command  can be useful for filtering under an applied **Viewpoint**, when you can only use a **Viewpoint Filter** to isolate particular types of messages, for example,  an HTTP Request or Response message. Otherwise, without Operations disabled, you would be unable to isolate such messages from the default Operation node encapsulation.  
   
----  
+  ---  
+    
+   **More Information**   
+   **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
   
- **More Information**   
- **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
-
----  
+  ---  
   
 -   **Transport Layers UDP/TCP** — enables you to display messages at top-level from the TCP and UDP protocols only, including their origin stacks.  
   

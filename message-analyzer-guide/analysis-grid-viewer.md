@@ -133,7 +133,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
 ---
 
- **More Information**
+ **More Information**  
  **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
 
 ---
@@ -142,7 +142,7 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
 ---
 
- **More Information**
+ **More Information**  
  **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
 
 ---
@@ -197,8 +197,8 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 
 ---
 
- **More Information**
- **To learn more** about the data manipulation features that you can use when working with the **Analysis Grid** viewer, see the following topics:
+**More Information**  
+**To learn more** about the data manipulation features that you can use when working with the **Analysis Grid** viewer, see the following topics:  
 [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md)  
 [Applying and Managing Analysis Grid Viewer Layouts](applying-and-managing-analysis-grid-viewer-layouts.md)  
 [Using the Find Message Feature](using-the-find-message-feature.md)  

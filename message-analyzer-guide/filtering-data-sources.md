@@ -40,8 +40,8 @@ This section describes how to filter a collection of messages based on the assoc
   
      **Figure 61: Data Source Groups in the Analysis Grid**  
   
-> [!TIP]
->  The **Grouping** viewer does not currently have any **Layouts** that make use of the **DataSource** field by default. However, you can manually add this field to any **Grouping** viewer **Layout** as needed, as long as the **Grouping** viewer *has focus* when you are doing so. To add the **DataSource** field to a **Grouping** viewer **Layout**, use the **Field Chooser** as described immediately above.  
+  > [!TIP]
+  >  The **Grouping** viewer does not currently have any **Layouts** that make use of the **DataSource** field by default. However, you can   manually add this field to any **Grouping** viewer **Layout** as needed, as long as the **Grouping** viewer *has focus* when you are doing so. To   add the **DataSource** field to a **Grouping** viewer **Layout**, use the **Field Chooser** as described immediately above.  
   
 ## Using the Data Source Filter Dialog  
 

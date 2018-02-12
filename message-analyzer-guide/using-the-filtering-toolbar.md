@@ -55,44 +55,44 @@ Message Analyzer now conveniently integrates several high-profile filtering func
  > [!TIP]
  >  You have the option to manually specify time stamp values in the **Time Filter** panel **Start Time** and **End Time** text boxes.  
   
----  
+  ---  
+    
+   **More Information**   
+   **To learn more** about working with **Time Filters**, see [Applying a Time Filter to Session Results]  (applying-a-time-filter-to-session-results.md).  
   
- **More Information**   
- **To learn more** about working with **Time Filters**, see [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md).  
-
----  
+  ---  
   
 -   **Add Viewpoint Filter** — this drop-down item is enabled only after you have applied a **Viewpoint**, as described below, otherwise it is disabled. After you apply a **Viewpoint**, which removes all messages above the selected **Viewpoint** for focused analysis, you might want to drill down further into the data that is displayed at the chosen **Viewpoint**. To achieve this, click the enabled **Add Viewpoint Filter** list item to display the **Viewpoint Filter** panel, from where you can configure and apply a **Viewpoint Filter**.  
 
-Note that this panel has the same controls that exist on the **Filter** panel. The only difference between applying a **Viewpoint Filter** and a view **Filter** is that the action of the former works within the context of the current message set resulting from **Viewpoint** application, while the latter applies to all messages in the current set of overall trace results.  
+  Note that this panel has the same controls that exist on the **Filter** panel. The only difference between applying a **Viewpoint Filter** and a view **Filter** is that the action of the former works within the context of the current message set resulting from **Viewpoint** application, while the latter applies to all messages in the current set of overall trace results.  
   
----  
+  ---  
+    
+   **More Information**   
+   **To learn more** about **Viewpoint Filters**, see [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter)  .  
   
- **More Information**   
- **To learn more** about **Viewpoint Filters**, see [Applying Viewpoint Filters](applying-and-managing-viewpoints.md#BKMK_ApplyingViewpointFilter).  
-
----  
+  ---  
   
 -   **Viewpoints** — click this drop-down list to display the available **Viewpoints** that you can select and apply to a set of trace results. A **Viewpoint** enables you to look at your trace data temporarily from the perspective of the protocol, module, or layer represented by the selected **Viewpoint**,  with no messages above it. Moreover, a **Viewpoint** drives the messages of a particular protocol, module, or layer to top-level to create a focused view of the types of messages you want to analyze, for example, SMB, TCP,  Ethernet, and so on.  
   
      A special **Viewpoint** that you can apply is **Disable Operations**, which  changes the way top-level message nodes are organized and displayed in the **Analysis Grid**. When you apply this  **Viewpoint**,  Operations are broken apart and their constituent messages are placed in their original chronological sequence, to provide an alternate perspective for data analysis.  
   
----  
+  ---  
+    
+   **More Information**   
+   **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
+   **To learn more** about **Operations**, see [Working With Operations](working-with-operations.md).   
   
- **More Information**   
- **To learn more** about **Viewpoints**, see [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md).  
- **To learn more** about **Operations**, see [Working With Operations](working-with-operations.md).   
-
----  
+  ---  
   
 -   **Flat Message List** — click this button on the Filtering Toolbar to create a message display that is similar to the Network Monitor view, where Operations are removed and messages, including fragments, are reorganized into their original chronological sequence.  
   
----  
+  ---  
+    
+   **More Information**   
+   **To learn more** about flattening the message display, see [Creating a Flat Message List](creating-a-flat-message-list.md).   
   
- **More Information**   
- **To learn more** about flattening the message display, see [Creating a Flat Message List](creating-a-flat-message-list.md).   
-
----  
+  ---  
   
 The following topics in this section provide further details on how to use the different components of the Filtering Toolbar:  
   

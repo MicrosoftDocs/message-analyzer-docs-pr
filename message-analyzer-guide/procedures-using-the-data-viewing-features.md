@@ -551,7 +551,7 @@ A brief description of each procedure is included here for review, as follows.
  > [!TIP]
  >  You will need to know in advance the field names from the messages in your input files for which you will be creating a new **Union**. As an example, the  built-in **SMBTID** union that you can access from the global Message Analyzer **Tools** menu creates a **Union** of the following three fields that are  accessible in **Field Chooser** **Tool Window**  under the **SMB**, **SMB2**, and **SambaSysLog** nodes, respectively:  
  >   
- >  -   **SMB.SmbHeader.Tid**  
+ > -   **SMB.SmbHeader.Tid**  
  > -   **SMB2.SMB2Request.Header.TreeId**  
  > -   **SambaSysLog.smb_command.command.smb_tid** — note that the **SambaSysLog** node and this field will only exist in **Field Chooser** if a Samba \*.log  file is loaded into  Message Analyzer with a  **SambaSysLog** configuration file specified in the **New Session** dialog for a Data Retrieval Session. This  could apply if you are loading a *.log file into Message Analyzer.  
  >   

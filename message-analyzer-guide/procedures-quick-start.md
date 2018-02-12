@@ -26,12 +26,12 @@ This section contains simple procedures that you can run to start coming up to s
 
 ---
 
-[Displaying Data Quickly From a Saved Trace File](procedures-quick-start.md#BKMK_quickdisplaytracedata)
-[Starting a Live Trace Session with a Built-In Trace Scenario](procedures-quick-start.md#BKMK_startlivecapture)
-[Starting a Data Retrieval Session](procedures-quick-start.md#BKMK_browseSessionLoadData)
-[Modifying an Existing Data Retrieval Session](procedures-quick-start.md#BKMK_ModifyDRSession)
-[Displaying Different Data Viewers to Change Analysis Perspectives](procedures-quick-start.md#BKMK_displaySummaryViews)
-[Creating and Saving a Customized Trace Scenario](procedures-quick-start.md#BKMK_createSaveScenarioTemplate)
+[Displaying Data Quickly From a Saved Trace File](procedures-quick-start.md#BKMK_quickdisplaytracedata)  
+[Starting a Live Trace Session with a Built-In Trace Scenario](procedures-quick-start.md#BKMK_startlivecapture)  
+[Starting a Data Retrieval Session](procedures-quick-start.md#BKMK_browseSessionLoadData)  
+[Modifying an Existing Data Retrieval Session](procedures-quick-start.md#BKMK_ModifyDRSession)  
+[Displaying Different Data Viewers to Change Analysis Perspectives](procedures-quick-start.md#BKMK_displaySummaryViews)  
+[Creating and Saving a Customized Trace Scenario](procedures-quick-start.md#BKMK_createSaveScenarioTemplate)  
 
 > [!NOTE]
 >  Although these procedures demonstrate the use of Message Analyzer capabilities in some basic scenarios, they are only a sampling of what you can accomplish with Message Analyzer, given that you can also apply the methodologies described here to many other scenarios. This is also true of other procedural content in this Operating Guide.
@@ -106,16 +106,16 @@ This section contains simple procedures that you can run to start coming up to s
 
      Inspect your trace results in the data viewer that you chose and observe that Message Analyzer has captured a set of messages, including HTTP, as a result of the browser links that you clicked.
 
-  ---
+---
 
-  **More Information**  
-  **To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
-  [To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
-  [To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
+**More Information**  
+**To learn more** about how you might analyze HTTP and TCP message data, see the following topics for some examples of how to apply HTTP and TCP view **Filters** in an Analysis Session:  
+[To apply an HTTP view Filter to Loopback and Unencrypted IPSEC trace results and examine all HTTP-related messages](procedures-using-the-data-filtering-features.md#BKMK_ApplyHttpViewFilter)  
+[To apply TCP view Filters to Loopback and Unencrypted IPSEC trace results and expose TCP diagnostics](procedures-using-the-data-filtering-features.md#BKMK_ApplyTCPViewFiltersProc)  
 
-  **To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).
+**To learn more** about the configuration capabilities that are available for a Live Trace Session, see [Configuring a Live Trace Session](configuring-a-live-trace-session.md).
 
-  ---
+---
 
 > [!CAUTION]
 >  Be aware that if you let a trace session run for an extended period, it can consume a large amount of memory.
