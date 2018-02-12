@@ -553,7 +553,8 @@ A brief description of each procedure is included here for review, as follows.
  >   
  > - **SMB.SmbHeader.Tid**
  > - **SMB2.SMB2Request.Header.TreeId**
- > - **SambaSysLog.smb_command.command.smb_tid** \— note that the **SambaSysLog** node and this field will only exist in **Field Chooser** if a Samba \*.log  file is loaded into  Message Analyzer with a  **SambaSysLog** configuration file specified in the **New Session** dialog for a Data Retrieval Session. This  could apply if you are loading a *.log file into Message Analyzer.  
+ > - **SambaSysLog.smb_command.command.smb_tid** 
+ >   note that the **SambaSysLog** node and this field will only exist in **Field Chooser** if a Samba \*.log  file is loaded into  Message Analyzer with a  **SambaSysLog** configuration file specified in the **New Session** dialog for a Data Retrieval Session. This  could apply if you are loading a *.log file into Message Analyzer.  
  >   
  >  Whenever you create a new **Union**, you will need to use the **Field Chooser** to locate and add the fields that are to comprise the **Union**, as  indicated ahead in this procedure.  
    
