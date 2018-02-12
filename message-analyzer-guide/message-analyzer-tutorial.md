@@ -1127,11 +1127,11 @@ Other techniques that you can use to analyze data consist of the following:
  **More Information**  
  **To learn more** about the details of working with filters and other data manipulation features for analysis, see the following topics:
 [Using the Filtering Toolbar](using-the-filtering-toolbar.md)  
--- [Applying and Managing Filters](applying-and-managing-filters.md)  
--- [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)  
--- [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)  
--- [Working With Operations](working-with-operations.md)  
--- [Creating a Flat Message List](creating-a-flat-message-list.md)  
+— [Applying and Managing Filters](applying-and-managing-filters.md)  
+— [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)  
+— [Applying and Managing Viewpoints](applying-and-managing-viewpoints.md)  
+— [Working With Operations](working-with-operations.md)  
+— [Creating a Flat Message List](creating-a-flat-message-list.md)  
 [Using the Find Message Feature](using-the-find-message-feature.md)  
 [Using the Go To Message Feature](using-the-go-to-message-feature.md)  
 [Filtering Column Data](filtering-column-data.md)  

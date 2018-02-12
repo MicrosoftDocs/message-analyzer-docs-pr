@@ -34,11 +34,22 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 
     -   **Live Trace Message Buffer** pane — provides settings that determine the rate at which packets are dropped when exceeding the buffer limit.
 
+         ---
+         
+         **More Information**  
          For information about setting the buffer size and count for an ETW session, see [Specifying Advanced ETW Session Configuration Settings](specifying-advanced-etw-session-configuration-settings.md).
 
+         ---
+         
     -   **Text Log Files** pane — provides a **Default text log configuration** drop-down list that enables you to select a predefined default or custom configuration file for parsing text logs, as described in [Opening Text Log Files](opening-text-log-files.md). You can specify a chosen value that reflects a text log type that you regularly work with, as described in [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).
 
+         ---
+         
+         **More Information**  
          For more information about creating text log configuration files, see [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md).
+
+         ---
+
 
     -   **Updates** pane — enables you to configure Message Analyzer to **Automatically check for updates** and provide notification when an updated version of Message Analyzer is available for download. Also provides the option to override the automatic setting and check for updates at any time you wish, by clicking the **Check for Updates Now** button.
 
@@ -46,7 +57,12 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 
     -   **Time Display** pane — provides settings that enable you to specify the time format used by Message Analyzer. This includes options for **Date and time format**, in addition to a **Reference Time Zone** setting.
 
+         ---
+
+         **More Information**  
          For more information, see [Configuring Time Format Settings](configuring-time-format-settings.md).
+
+         ---
 
     -   **Binary Values** — by selecting one of the following options on the **Display** tab of the **Options** dialog, you determine the default format in which Message Analyzer displays binary values, for example, in the **Details** **Tool Window** and the **Analysis Grid** viewer:
 
@@ -60,7 +76,12 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 
 -   **Decryption** tab — provides the controls that allow you to import and select server certificates and to specify passwords that are required to enable Message Analyzer to decrypt traffic that is encrypted with the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) security protocols. For example, Message Analyzer can decrypt HTTPS and Remote Desktop Protocol (RDP) messages.
 
+     ---
+     
+     **More Information**  
      For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+
+     ---
 
 -   **Features** tab — provides for selection of preview features that you can enable in Message Analyzer. After you select a preview feature, you must restart Message Analyzer for the change to take effect, at which time the feature/s will be available in your asset libraries. A check mark in a preview feature check box will make it available on the next Message Analyzer restart.
 
@@ -92,8 +113,18 @@ Message Analyzer provides a global **Options** dialog that is accessible by clic
 
 -   **Profiles** pane — enables you to select from among multiple **Profiles** that each provide a preset data viewer and **Layout** configuration that creates a targeted analytical environment for an input file type for which each **Profile** is configured. Also enables you to create your own custom **Profiles**. You can also specify a chosen data viewer as the default **Profile** for all Live Trace Session and Data Retrieval Session results. For example, the **Analysis Grid** viewer is initially set as the Message Analyzer application default.
 
-     For more information, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).
+  ---
+  
+  **More Information**  
+  For more information, see [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md).
+  
+  ---
 
 -   **WPP** pane — enables you to specify symbol resolution information that defines the structure of WPP-generated events, so that Message Analyzer can parse and display such events.
 
-     For more information, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).
+  ---
+  
+  **More Information**  
+  For more information, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).
+  
+  ---
