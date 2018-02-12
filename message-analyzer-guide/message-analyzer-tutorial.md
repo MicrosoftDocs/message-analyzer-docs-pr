@@ -1125,7 +1125,7 @@ Other techniques that you can use to analyze data consist of the following:
 ---
 
  **More Information**  
- **To learn more** about the details of working with filters and other data manipulation features for analysis, see the following topics:
+ **To learn more** about the details of working with filters and other data manipulation features for analysis, see the following topics:  
 [Using the Filtering Toolbar](using-the-filtering-toolbar.md)  
 — [Applying and Managing Filters](applying-and-managing-filters.md)  
 — [Applying a Time Filter to Session Results](applying-a-time-filter-to-session-results.md)  
