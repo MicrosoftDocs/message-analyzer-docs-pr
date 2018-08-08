@@ -64,27 +64,27 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
 #### To create a tier of Filters that enhance the analysis process  
   
-1.  From the **Start** menu, **Start** page, or task bar of a target  computer running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, click the **Microsoft Message Analyzer** icon to launch Message Analyzer. If you have not logged off and back on after first installing Message Analyzer, then start Message Analyzer with the right-click **Run as Administrator** option.  
+1. From the **Start** menu, **Start** page, or task bar of a target  computer running the Windows 8.1, Windows Server 2012 R2, or Windows 10 operating system, click the **Microsoft Message Analyzer** icon to launch Message Analyzer. If you have not logged off and back on after first installing Message Analyzer, then start Message Analyzer with the right-click **Run as Administrator** option.  
   
-2.  On the Message Analyzer **Start Page**, click the **Start Local Trace** button to begin capturing data at the Link Layer with the **Microsoft-Windows-NDIS-PacketCapture** provider.  
+2. On the Message Analyzer **Start Page**, click the **Start Local Trace** button to begin capturing data at the Link Layer with the **Microsoft-Windows-NDIS-PacketCapture** provider.  
   
-     While Message Analyzer is accumulating messages in the default data viewer, typically the **Analysis Grid**, initiate any action that can invoke Kerberos authentication, such as file server resource access or some other site sign-in process. Note that this can occur automatically in Transport Layer Security (TLS) negotiations.  
+    While Message Analyzer is accumulating messages in the default data viewer, typically the **Analysis Grid**, initiate any action that can invoke Kerberos authentication, such as file server resource access or some other site sign-in process. Note that this can occur automatically in Transport Layer Security (TLS) negotiations.  
   
-3.  At a suitable point, stop the trace by clicking the **Stop** button on the global Message Analyzer toolbar.  
+3. At a suitable point, stop the trace by clicking the **Stop** button on the global Message Analyzer toolbar.  
   
-4.  Expand the **TCP** or **UDP** node in the **Field Chooser** **Tool Window** and navigate the message hierarchy until you find the **SourcePort** field; then double-click it to add it as a new column in the **Analysis Grid** viewer.  
+4. Expand the **TCP** or **UDP** node in the **Field Chooser** **Tool Window** and navigate the message hierarchy until you find the **SourcePort** field; then double-click it to add it as a new column in the **Analysis Grid** viewer.  
   
-     This column is immediately populated with the  port numbers used by the corresponding protocol or module messages  in your trace results. Note that the display of column values will change as you apply specific view **Filters** in this procedure.  
+    This column is immediately populated with the  port numbers used by the corresponding protocol or module messages  in your trace results. Note that the display of column values will change as you apply specific view **Filters** in this procedure.  
   
-5.  On the Message Analyzer Filtering Toolbar above the **Analysis Grid** viewer, click the **Add Filter** button three times to display an additional 3 sets of **Filter** panels and Filter Expression text boxes in which to create view **Filter** code. Note that a single **Filter** panel displays by default whenever Message Analyzer displays session results.  
+5. On the Message Analyzer Filtering Toolbar above the **Analysis Grid** viewer, click the **Add Filter** button three times to display an additional 3 sets of **Filter** panels and Filter Expression text boxes in which to create view **Filter** code. Note that a single **Filter** panel displays by default whenever Message Analyzer displays session results.  
   
-6.  In the first Filter Expression text box, type the code `AuthIP`, to create an atomic filter that returns messages from the AuthIP protocol while filtering out everything else, with exception of the AuthIP stacks.  
+6. In the first Filter Expression text box, type the code `AuthIP`, to create an atomic filter that returns messages from the AuthIP protocol while filtering out everything else, with exception of the AuthIP stacks.  
   
-     **Note** The meaning of an atomic filter is described in [Creating Filters from the Analysis Grid Context Menu](applying-and-managing-filters.md#BKMK_CreateFilterFromAG).  
+    **Note** The meaning of an atomic filter is described in [Creating Filters from the Analysis Grid Context Menu](applying-and-managing-filters.md#BKMK_CreateFilterFromAG).  
   
-7.  Click the **Apply** button on the Filter panel associated with the `AuthIP` filter to provide a concise set of AuthIP messages for analysis.  
+7. Click the **Apply** button on the Filter panel associated with the `AuthIP` filter to provide a concise set of AuthIP messages for analysis.  
   
-8.  In the second Filter Expression text box, type the code `IKE`, to create an atomic filter that returns messages from the IKE protocol while filtering out everything else, with exception of the IKE stacks.  
+8. In the second Filter Expression text box, type the code `IKE`, to create an atomic filter that returns messages from the IKE protocol while filtering out everything else, with exception of the IKE stacks.  
   
 9. Click the **Remove** button on the **Filter** panel associated with the `AuthIP` filter and then click the **Apply** button on the **Filter** panel associated with the `IKE` filter to provide a concise set of IKE messages for analysis.  
   
@@ -92,8 +92,8 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
      When applied, this filter will return only the messages that contain either a **Source** or **Destination** address that matches the specified IP address, thereby providing a concise set of IP conversations where IKE negotiations took place.  
   
- > [!NOTE]
- >  If you want to see only the AuthIP conversations, **Apply** the `AuthIP` filter and **Remove** the `IKE` filter.  
+    > [!NOTE]
+    >  If you want to see only the AuthIP conversations, **Apply** the `AuthIP` filter and **Remove** the `IKE` filter.  
   
 11. In the fourth Filter Expression text box, type the code `UDP.SourcePort==500`.  
   
@@ -103,8 +103,8 @@ An example of creating a tier of view **Filters** that you can apply and remove 
   
      For example, if you **Remove** the first two filters `AuthIP` and `IKE` and you **Apply** the second two filters `IPv4.Address==<192.168.1.1>` and `UDP.SourcePort==500`, Message Analyzer will show you all the AuthIP and IKE conversations that transited port 500.  
   
- > [!NOTE]
- >  You are advised to experiment with different combinations of these view **Filters** so you can learn how to use tiered filtering configurations to expose different filtered results sets in a single data viewer and thereby enhance your data analysis process.  
+    > [!NOTE]
+    >  You are advised to experiment with different combinations of these view **Filters** so you can learn how to use tiered filtering configurations to expose different filtered results sets in a single data viewer and thereby enhance your data analysis process.  
   
 ## Using the Filter Expression Library  
  Message Analyzer provides a default set of built-in Filter Expression items that are accessible from the **Library** drop-down list that appears whenever you click the **Add Filter** button on the Filtering Toolbar. These **Filters** are sourced from the **Message Analyzer Filters** asset collection that you can manage from the **Manage Filter** dialog, which displays when you click the **Manage** item in the indicated **Library** drop-down list. You can also share this collection or any part of it (including any **Filters** that you have created) with others, by using the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu.  

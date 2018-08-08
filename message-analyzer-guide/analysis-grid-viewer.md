@@ -127,37 +127,37 @@ The details of raw message data are presented in the Message Analyzer **Analysis
 ## Analysis Grid Viewer Column Commands
  Several commands appear in a context menu that displays when you click any column header in the **Analysis Grid** viewer. These commands enable you to do the following:
 
--   **Group** — enables you to transform the messages displayed in the **Analysis Grid** viewer into a group configuration that filters the data according to criteria that is set by the particular column you right-clicked. For example, if you right-click the **Destination** column and select the **Group** command, the data will be organized into top-level group nodes that are defined by a unique destination IP address where each group contains only those messages that have such a unique address. You might also do the same for the **Source** column to create Source groups nested under the **Destination** groups, in which case you can create a concise organization of the data that shows you the messages related to the IP conversations that took place between specific destination and source computers.
+- **Group** — enables you to transform the messages displayed in the **Analysis Grid** viewer into a group configuration that filters the data according to criteria that is set by the particular column you right-clicked. For example, if you right-click the **Destination** column and select the **Group** command, the data will be organized into top-level group nodes that are defined by a unique destination IP address where each group contains only those messages that have such a unique address. You might also do the same for the **Source** column to create Source groups nested under the **Destination** groups, in which case you can create a concise organization of the data that shows you the messages related to the IP conversations that took place between specific destination and source computers.
 
-     Note that the **Group** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
-
-  ---
-  
-  **More Information**  
-  **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature]  (using-the-analysis-grid-group-feature.md).
-  
-  ---
-
--   **Group by Multiple Values** — creates groups based on varying values in a particular field that might be different at various stack levels, for example, IP addresses and Ethernet addresses hidden in the stack. Note that the **Group by Multiple Values** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
+   Note that the **Group** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
 
   ---
   
   **More Information**  
-  **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature]  (using-the-analysis-grid-group-feature.md).
+  **To learn more** about the **Analysis Grid** viewer **Group** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
   
   ---
 
--   **Remove** — enables you to remove any column from the current column **Layout** that is displayed in the **Analysis Grid** viewer. Note that you can restore the default **Layout** for the **Analysis Grid** viewer at any time by selecting the **Restore Application Default Layout** command that displays when you click the **Manage Layouts** menu in the **Layouts** drop-down list on the **Analysis Grid** viewer toolbar.
+- **Group by Multiple Values** — creates groups based on varying values in a particular field that might be different at various stack levels, for example, IP addresses and Ethernet addresses hidden in the stack. Note that the **Group by Multiple Values** context menu command is not available for the **Summary** column header in the **Analysis Grid** viewer.
 
--   **Save as Default User View Layout** — enables you to save any column **Layout** configuration as the user default **Layout**.
+  ---
+  
+  **More Information**  
+  **To learn more** about the **Analysis Grid** viewer **Group by Multiple Values** column command, see [Using the Analysis Grid Group Feature](using-the-analysis-grid-group-feature.md).
+  
+  ---
 
--   **Load Default User View Layout** — enables you to load the column **Layout** configuration that you saved as the user default **Layout**.
+- **Remove** — enables you to remove any column from the current column **Layout** that is displayed in the **Analysis Grid** viewer. Note that you can restore the default **Layout** for the **Analysis Grid** viewer at any time by selecting the **Restore Application Default Layout** command that displays when you click the **Manage Layouts** menu in the **Layouts** drop-down list on the **Analysis Grid** viewer toolbar.
 
--   **Freeze Columns to Left** — enables you to freeze columns to the left of a particular column that you select, such that the horizontal scroll bar starts at the selected column. This feature is particularly useful when you have a column **Layout** that contains many fields, to make it easier to scroll to data. To undo the column freeze, simply apply the **Freeze Columns to Left** command to the **MessageNumber** column.
+- **Save as Default User View Layout** — enables you to save any column **Layout** configuration as the user default **Layout**.
 
--   **Save Current View Layout As…** — enables you to save the current column **Layout** configuration with a unique **Name**, **Description**, and **Category** specification from the **Edit Item** dialog.
+- **Load Default User View Layout** — enables you to load the column **Layout** configuration that you saved as the user default **Layout**.
 
--   **Add Columns** — enables you to display the **Field Chooser** window, or to set the focus on it if already displayed.
+- **Freeze Columns to Left** — enables you to freeze columns to the left of a particular column that you select, such that the horizontal scroll bar starts at the selected column. This feature is particularly useful when you have a column **Layout** that contains many fields, to make it easier to scroll to data. To undo the column freeze, simply apply the **Freeze Columns to Left** command to the **MessageNumber** column.
+
+- **Save Current View Layout As…** — enables you to save the current column **Layout** configuration with a unique **Name**, **Description**, and **Category** specification from the **Edit Item** dialog.
+
+- **Add Columns** — enables you to display the **Field Chooser** window, or to set the focus on it if already displayed.
 
 ## Other Data Manipulation Feature Locations
 

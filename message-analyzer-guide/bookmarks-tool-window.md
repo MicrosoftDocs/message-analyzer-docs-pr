@@ -83,22 +83,22 @@ The **Bookmarks** grid contains the following information columns:
 ## Adding Attachments and Comments  
  To attach a file or add a comment to a bookmark, you must first click the book icon in the **Name** column of the **Bookmarks** configuration grid for the **Selected message** or **Pattern Group** row where you want to attach a file or add a comment. When you click the book icon (or double-click any non-editable field), a drop-down displays with the following three tabs, from where you can perform the indicated tasks:  
   
--   **Messages** — the default tab that enables you to view all message rows where you added a bookmark, which includes a display of message numbers and a corresponding **Summary** description for each message in the selected **Bookmarks** message row. Whether you click the book icon for a **Selected messages** row or **Pattern Group** row, the **Messages** tab displays the same type of information.  
+- **Messages** — the default tab that enables you to view all message rows where you added a bookmark, which includes a display of message numbers and a corresponding **Summary** description for each message in the selected **Bookmarks** message row. Whether you click the book icon for a **Selected messages** row or **Pattern Group** row, the **Messages** tab displays the same type of information.  
   
--   **Links** — this tab enables you to add one or more file attachments to a bookmark. You can do this by clicking the open folder icon on the **Links** tab to launch the **Open** dialog and navigate to a file you want to attach; then click the **+** button (green icon with **Add Link** tooltip) to add the attachment to the attachment list. You can also delete any existing attachment by selecting it in the attachment list and clicking the delete (**X**) button.  
+- **Links** — this tab enables you to add one or more file attachments to a bookmark. You can do this by clicking the open folder icon on the **Links** tab to launch the **Open** dialog and navigate to a file you want to attach; then click the **+** button (green icon with **Add Link** tooltip) to add the attachment to the attachment list. You can also delete any existing attachment by selecting it in the attachment list and clicking the delete (**X**) button.  
   
--   **Comments** — this tab enables you to specify one or more comments for any **Bookmarks** message row by clicking the **+Add** button and entering an optional comment **Title**, descriptive text for the comment, and saving the comment by clicking the **Save Changes** icon. You can also delete any existing **Comment** for a selected **Bookmarks** message row by clicking the delete (**X**) button.  
+- **Comments** — this tab enables you to specify one or more comments for any **Bookmarks** message row by clicking the **+Add** button and entering an optional comment **Title**, descriptive text for the comment, and saving the comment by clicking the **Save Changes** icon. You can also delete any existing **Comment** for a selected **Bookmarks** message row by clicking the delete (**X**) button.  
   
- > [!TIP]
- >  You can also configure a comment from the **Comments** **Tool Window**, which contains the identical interface components for configuring comments that you use in the **Bookmarks** window. However, the **Comments** window enables you to create comments that are independent of bookmark configuration.  
+  > [!TIP]
+  >  You can also configure a comment from the **Comments** **Tool Window**, which contains the identical interface components for configuring comments that you use in the **Bookmarks** window. However, the **Comments** window enables you to create comments that are independent of bookmark configuration.  
   
--   **Patterns** — this tab enables you to view all the **Pattern Group** rows where you added bookmarks. This tab contains a header that specifies the following information for each row of data:  
+- **Patterns** — this tab enables you to view all the **Pattern Group** rows where you added bookmarks. This tab contains a header that specifies the following information for each row of data:  
   
-    -   **Pattern** — the name of the Pattern expression that you executed.  
+  -   **Pattern** — the name of the Pattern expression that you executed.  
   
-    -   **Instance** — the identifying number of the matched instance you selected for a bookmark.  
+  -   **Instance** — the identifying number of the matched instance you selected for a bookmark.  
   
-    -   **Messages** — the number of messages that exist in the selected **Pattern Group** that displays in a **Bookmarks** configuration row.  
+  -   **Messages** — the number of messages that exist in the selected **Pattern Group** that displays in a **Bookmarks** configuration row.  
   
 > [!NOTE]
 >  The book icon in each data row in the **Bookmarks** configuration grid is enhanced with certain glyphs whenever a configured bookmark has an attached file and/or a specified comment. These glyphs consist of the same icons that delineate the **Link** and **Comment** column headers in the **Bookmarks** configuration grid, respectively.  
@@ -107,26 +107,26 @@ The **Bookmarks** grid contains the following information columns:
 
 The **Bookmarks** **Tool Window** contains a right-click context menu where you can access several commands that perform the actions indicated below when selected:  
   
--   **View Message Range in ‘Analysis Grid’** — enables you to display the range of messages that a bookmark contains in a separate instance of the **Analysis Grid** viewer.  
+- **View Message Range in ‘Analysis Grid’** — enables you to display the range of messages that a bookmark contains in a separate instance of the **Analysis Grid** viewer.  
   
--   **Add Message Range to Filter** — enables you to automatically create the code for a view **Filter** based on the messages contained in a bookmark row. When applied, the filter will remove all messages from the current **Analysis Grid** viewer instance, except the messages that fall within the range of the selected bookmark. Note that for best results, the **Analysis Grid** viewer that is in the same session as the **Pattern Match** viewer must have the focus.  
+- **Add Message Range to Filter** — enables you to automatically create the code for a view **Filter** based on the messages contained in a bookmark row. When applied, the filter will remove all messages from the current **Analysis Grid** viewer instance, except the messages that fall within the range of the selected bookmark. Note that for best results, the **Analysis Grid** viewer that is in the same session as the **Pattern Match** viewer must have the focus.  
   
- > [!TIP]
- >  This makes it convenient to save only the messages that were bookmarked by clicking the **Save As** item in the Message Analyzer **File** menu to open the **Save/Export Session** dialog.  
+  > [!TIP]
+  >  This makes it convenient to save only the messages that were bookmarked by clicking the **Save As** item in the Message Analyzer **File** menu to open the **Save/Export Session** dialog.  
   
--   **Delete Bookmark** — enables you to delete any selected bookmark in the **Bookmarks** configuration grid.  
+- **Delete Bookmark** — enables you to delete any selected bookmark in the **Bookmarks** configuration grid.  
   
--   **Show Details** — enables you to expand the details of a selected message row as a drop-down in the **Bookmarks** window. This action also occurs when you click the book icon in a message row.  
+- **Show Details** — enables you to expand the details of a selected message row as a drop-down in the **Bookmarks** window. This action also occurs when you click the book icon in a message row.  
   
--   **Flags** — enables you to choose a flag color to define a critical issue or level of importance that a particular set of bookmarked messages represents.  
+- **Flags** — enables you to choose a flag color to define a critical issue or level of importance that a particular set of bookmarked messages represents.  
   
--   **Open Links** — enables you to open one or more files attached to a **Bookmarks** message row. For example, if an attachment is a trace file, the message contents of the file will display in a separate **Analysis Grid** viewer session tab. If an attachment is an image, it will open in the default image viewer on your system for the particular file type.  
+- **Open Links** — enables you to open one or more files attached to a **Bookmarks** message row. For example, if an attachment is a trace file, the message contents of the file will display in a separate **Analysis Grid** viewer session tab. If an attachment is an image, it will open in the default image viewer on your system for the particular file type.  
   
--   **Copy Selected Rows** — enables you to copy the text in the data columns of a selected **Bookmarks** data row.  
+- **Copy Selected Rows** — enables you to copy the text in the data columns of a selected **Bookmarks** data row.  
   
--   **Copy ‘columnName’** — enables you to copy the name of certain  bookmark columns, for example, the **Name** and **Category** columns. The single-quoted text in this command is a placeholder for the actual selected column.  
+- **Copy ‘columnName’** — enables you to copy the name of certain  bookmark columns, for example, the **Name** and **Category** columns. The single-quoted text in this command is a placeholder for the actual selected column.  
   
--   **Edit ‘columnName’** — enables you to specify and edit the name of certain bookmark columns, for example, the **Name** and **Category** columns. The single-quoted text in this command is a placeholder for the actual selected column.  
+- **Edit ‘columnName’** — enables you to specify and edit the name of certain bookmark columns, for example, the **Name** and **Category** columns. The single-quoted text in this command is a placeholder for the actual selected column.  
   
 ## Saving and Loading Trace Files Containing Bookmarks  
 

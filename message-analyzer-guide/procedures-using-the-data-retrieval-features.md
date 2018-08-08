@@ -238,34 +238,34 @@ A brief description of each procedure is included here for review, as follows.
   
 #### To apply a Time Filter to the data loading process and save the message collection  
   
-1.  From the **Start** menu, **Start** page, or task bar of your computer, click the **Microsoft Message Analyzer** icon to launch Message Analyzer.  
+1. From the **Start** menu, **Start** page, or task bar of your computer, click the **Microsoft Message Analyzer** icon to launch Message Analyzer.  
   
-2.  Click the global Message Analyzer **File** menu, point to **New Session**, and then select **Files** in the **New Session** submenu to display the **New Session** dialog for a Data Retrieval Session.  
+2. Click the global Message Analyzer **File** menu, point to **New Session**, and then select **Files** in the **New Session** submenu to display the **New Session** dialog for a Data Retrieval Session.  
   
-3.  On the toolbar of the **Files** tab, click **Add Files** to launch the **Open** dialog and then navigate to the file/s that contain the data you want to load into Message Analyzer.  
+3. On the toolbar of the **Files** tab, click **Add Files** to launch the **Open** dialog and then navigate to the file/s that contain the data you want to load into Message Analyzer.  
   
-4.  In the **Open** dialog, select the file/s containing the data you want to load and then click **Open** to exit the dialog.  
+4. In the **Open** dialog, select the file/s containing the data you want to load and then click **Open** to exit the dialog.  
   
-     This might consist of any combination of .matu, .matp, .cap, .log, .etl, or other files that contain message data that was captured or logged in a similar time frame. For example, this could be data from several large log files that you want to aggregate and load into Message Analyzer for analysis purposes.  
+    This might consist of any combination of .matu, .matp, .cap, .log, .etl, or other files that contain message data that was captured or logged in a similar time frame. For example, this could be data from several large log files that you want to aggregate and load into Message Analyzer for analysis purposes.  
   
-5.  In the files list that displays, ensure that you have a check mark in the check box next to the file/s that contain the data you want to load.  
+5. In the files list that displays, ensure that you have a check mark in the check box next to the file/s that contain the data you want to load.  
   
-6.  In the **Time Filter** pane on the **Files** tab of the **New Session** dialog, adjust the left and right time slider controls to define a window of time in which to view data.  
+6. In the **Time Filter** pane on the **Files** tab of the **New Session** dialog, adjust the left and right time slider controls to define a window of time in which to view data.  
   
-     For example, if you have one or more large input files with target data, you might want to focus on a particular time slot in which you suspect that a particular issue has occurred to minimize consumption of system resources, rather than load all the message data contained in the input files. You can do this with a **Time Filter**, which loads only the messages with timestamp values that fall within a specified window of time.  
+    For example, if you have one or more large input files with target data, you might want to focus on a particular time slot in which you suspect that a particular issue has occurred to minimize consumption of system resources, rather than load all the message data contained in the input files. You can do this with a **Time Filter**, which loads only the messages with timestamp values that fall within a specified window of time.  
   
- > [!NOTE]
- >  If you have a collection of target input files, the **Start Time** and **End Time** values that display in the **Time Filter** configuration are inclusive of the earliest and latest chronological time value, respectively, that is detected in any input file in the files list.  
+   > [!NOTE]
+   >  If you have a collection of target input files, the **Start Time** and **End Time** values that display in the **Time Filter** configuration are inclusive of the earliest and latest chronological time value, respectively, that is detected in any input file in the files list.  
   
-7.  Optionally, select or configure a **Session Filter** for your Data Retrieval Session to isolate specific information that you want to focus on, as follows.  
+7. Optionally, select or configure a **Session Filter** for your Data Retrieval Session to isolate specific information that you want to focus on, as follows.  
   
-     If you want to be even more specific about the data that you load from target input files into Message Analyzer, you can specify a Filter Expression in the **Session Filter** text box of the **New Session** dialog, either by selecting a built-in filter from the centralized Filter Expression **Library**, or by configuring one manually.  
+    If you want to be even more specific about the data that you load from target input files into Message Analyzer, you can specify a Filter Expression in the **Session Filter** text box of the **New Session** dialog, either by selecting a built-in filter from the centralized Filter Expression **Library**, or by configuring one manually.  
   
-     For example, for an input trace file, you might add a filter such as: `IPv4.DestinationAddress == 192.168.1.1`, to load the traffic that went to or from the specified address only; or for a log file, you might use a filter such as: `*Summary contains <“searchString”>`, to exclude all messages except those that contain a specified string in the **Summary** column of the **Analysis Grid** viewer.  
+    For example, for an input trace file, you might add a filter such as: `IPv4.DestinationAddress == 192.168.1.1`, to load the traffic that went to or from the specified address only; or for a log file, you might use a filter such as: `*Summary contains <“searchString”>`, to exclude all messages except those that contain a specified string in the **Summary** column of the **Analysis Grid** viewer.  
   
-8.  Click the **Start** button in the **New Session** dialog when you are ready to load the data.  
+8. Click the **Start** button in the **New Session** dialog when you are ready to load the data.  
   
-     The data from the target files that you specified in the Data Retrieval Session configuration is filtered and loaded into Message Analyzer; it then displays in the default data viewer, for example, the **Analysis Grid**.  
+    The data from the target files that you specified in the Data Retrieval Session configuration is filtered and loaded into Message Analyzer; it then displays in the default data viewer, for example, the **Analysis Grid**.  
   
 9. Create different data analysis perspectives by applying various Message Analyzer data assessment and analysis tools, as follows.  
   
@@ -299,7 +299,7 @@ A brief description of each procedure is included here for review, as follows.
   
     -   Choose the **Selected Messages** option after selecting/highlighting one or more messages with your mouse.  
   
- Note that you have the option to save a message collection in the Message Analyzer native .matp file format, or you can export to a .cap file for use in other applications. See [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md) for more information about .cap file interoperability with other network troubleshooting tools.  
+    Note that you have the option to save a message collection in the Message Analyzer native .matp file format, or you can export to a .cap file for use in other applications. See [Compatibility with Exported CAP Files](compatibility-with-exported-cap-files.md) for more information about .cap file interoperability with other network troubleshooting tools.  
   
 11. From the **Save As** dialog, navigate to the directory location where you want to save the selected message data.  
   

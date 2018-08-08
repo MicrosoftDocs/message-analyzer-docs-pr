@@ -127,45 +127,45 @@ The **Layout** list that you can access from the **Session** menu, as previously
   
  The list that follows provides a brief description of the four types of visualizer components and the elements they contain that can interact with the **Analysis Grid** viewer and other viewers by double-clicking them, or in some instances by using a single-click.  
   
--   **Bar** element — contains bar elements that each represent a group of captured messages that have a common field, property, message type, or other entity to which a data manipulation formula has been applied. Double-click any single bar element to view the associated messages in a new instance of the **Analysis Grid** viewer.  
+- **Bar** element — contains bar elements that each represent a group of captured messages that have a common field, property, message type, or other entity to which a data manipulation formula has been applied. Double-click any single bar element to view the associated messages in a new instance of the **Analysis Grid** viewer.  
   
--   **Pie** slice — divided into slices or section elements that each represent a group of captured messages that have a common field, property, message type, or other entity to which a data manipulation formula has been applied. Double-click any single slice to view the associated messages in a new instance of the  **Analysis Grid** viewer.  
+- **Pie** slice — divided into slices or section elements that each represent a group of captured messages that have a common field, property, message type, or other entity to which a data manipulation formula has been applied. Double-click any single slice to view the associated messages in a new instance of the  **Analysis Grid** viewer.  
   
--   **Timeline** graph — displays an interconnected timeline element across trace boundaries for common properties, fields, values, or other entities that are contained in captured messages, to expose the points in time on the X-axis where those entities were sent and/or received, versus other values on the Y-axis that might represent the application of a particular formula, such as the **Count** of identical values for a particular field. Double-click a single timeline element or node to view the associated messages in a new instance of the **Analysis Grid** viewer.  
+- **Timeline** graph — displays an interconnected timeline element across trace boundaries for common properties, fields, values, or other entities that are contained in captured messages, to expose the points in time on the X-axis where those entities were sent and/or received, versus other values on the Y-axis that might represent the application of a particular formula, such as the **Count** of identical values for a particular field. Double-click a single timeline element or node to view the associated messages in a new instance of the **Analysis Grid** viewer.  
   
- > [!NOTE]
- >  The **Timeline** visualizer is enabled for zooming into chosen windows of time.  
+  > [!NOTE]
+  >  The **Timeline** visualizer is enabled for zooming into chosen windows of time.  
   
--   **Table** grid — contains data row and column elements that you can organize to correlate values with entities such as message fields and properties, or formulas based on field and properties, for example the **Average** of a set of field values. Double-click a data row to view the associated messages in a new instance of the **Analysis Grid** viewer.  
+- **Table** grid — contains data row and column elements that you can organize to correlate values with entities such as message fields and properties, or formulas based on field and properties, for example the **Average** of a set of field values. Double-click a data row to view the associated messages in a new instance of the **Analysis Grid** viewer.  
   
 ## Choosing a Visualizer Component for a Custom Layout  
 
  When you are creating a custom **Chart** viewer **Layout** of your own design,  you should consider several factors before you select the visualizer component that you want to work with, as follows:  
   
--   **Troubleshooting context** — this refers to  the environment or circumstances in which you typically expect to experience issues, for example,  connectivity, performance, security, diagnostics, Internet, and so on.  
+- **Troubleshooting context** — this refers to  the environment or circumstances in which you typically expect to experience issues, for example,  connectivity, performance, security, diagnostics, Internet, and so on.  
   
-     For example, if you are having performance issues, a high-level view of summary data with a **Bar** element or **Pie** slice visualizer component might be the best choice to obtain a quick assessment of specific types of performance data. Alternatively, a **Table** grid visualizer component can also work when you want to display a combination of parsed field data and computed statistical values in tabular format.  
+   For example, if you are having performance issues, a high-level view of summary data with a **Bar** element or **Pie** slice visualizer component might be the best choice to obtain a quick assessment of specific types of performance data. Alternatively, a **Table** grid visualizer component can also work when you want to display a combination of parsed field data and computed statistical values in tabular format.  
   
--   **Message type** — this is the type of message data that you are working with. Generally, the messages that are issued by the particular protocol or module with which you are working point to the types of information that you can expose for analysis.  
+- **Message type** — this is the type of message data that you are working with. Generally, the messages that are issued by the particular protocol or module with which you are working point to the types of information that you can expose for analysis.  
   
-     For example, this could be the message packets that are issued by HTTP, TCP, or LDAP, and even ETW layer events.  
+   For example, this could be the message packets that are issued by HTTP, TCP, or LDAP, and even ETW layer events.  
   
--   **Information to expose** — consists of the aspects of message data that you want to expose to optimize the analysis perspective that you can obtain from the displayed results in your **Layout**.  
+- **Information to expose** — consists of the aspects of message data that you want to expose to optimize the analysis perspective that you can obtain from the displayed results in your **Layout**.  
   
-     For example, if you are interested in working with IPv4 messages, you might want to expose network conversations with the **IPv4.Datagram.Network** field in your **Layout** along with their associated message volumes across a set of trace results. If you are interested in working with SMB2 messages, you might want to expose the average response time for all messages associated with the SMB2 queries that occurred in a set of trace results. The average response time would be calculated by a **Layout** formula that is based on the **ResponseTime** Global Annotation; see  [SMB/SMB2 Service Performance](smb-smb2-service-performance.md) for further information.  
+   For example, if you are interested in working with IPv4 messages, you might want to expose network conversations with the **IPv4.Datagram.Network** field in your **Layout** along with their associated message volumes across a set of trace results. If you are interested in working with SMB2 messages, you might want to expose the average response time for all messages associated with the SMB2 queries that occurred in a set of trace results. The average response time would be calculated by a **Layout** formula that is based on the **ResponseTime** Global Annotation; see  [SMB/SMB2 Service Performance](smb-smb2-service-performance.md) for further information.  
   
- > [!TIP]
- >  You have the option to employ **Unions** in any **Layout** that you modify, which includes **Union** sets.  
+  > [!TIP]
+  >  You have the option to employ **Unions** in any **Layout** that you modify, which includes **Union** sets.  
   
--   **Data presentation format** — the format in which you present data should align with the level of detail that you want to see, for example, a high-level summary or low-level details that include message field data  and other computed values, or events occurring in the context of time, as follows:  
+- **Data presentation format** — the format in which you present data should align with the level of detail that you want to see, for example, a high-level summary or low-level details that include message field data  and other computed values, or events occurring in the context of time, as follows:  
   
-    -   **High-level summary data** — enables you to see top-level information that you can assess at-a-glance. A **Bar** element or **Pie** slice visualizer component would be a good choice for this type of data presentation because they provide a graphic format that displays the relative distribution of specified values that you can set in ascending or descending order, where each **Bar** element length or **Pie** slice size represents a particular volume of such values, for example message count or cumulative byte volume.  
+  -   **High-level summary data** — enables you to see top-level information that you can assess at-a-glance. A **Bar** element or **Pie** slice visualizer component would be a good choice for this type of data presentation because they provide a graphic format that displays the relative distribution of specified values that you can set in ascending or descending order, where each **Bar** element length or **Pie** slice size represents a particular volume of such values, for example message count or cumulative byte volume.  
   
-    -   **Low-level details data** — enables you to review significant message details and computed values that provide a set of statistics that can expose the cause of various issues and failures. A **Table** grid visualizer component would be a good choice for this type of data presentation to expose many different field values and calculated values that result in  a statistical view of your data.  
+  -   **Low-level details data** — enables you to review significant message details and computed values that provide a set of statistics that can expose the cause of various issues and failures. A **Table** grid visualizer component would be a good choice for this type of data presentation to expose many different field values and calculated values that result in  a statistical view of your data.  
   
-    -   **Event data** — enables you to assess events that occur in time. A **Timeline** visualizer component would be a good choice for this type of data presentation, given that you can visually identify the points in time where any particular message occurred in a set of trace results. The **Timeline** component also enables you to use presets or configured windows of time to drill down into any chosen time slot for detailed analysis.  
+  -   **Event data** — enables you to assess events that occur in time. A **Timeline** visualizer component would be a good choice for this type of data presentation, given that you can visually identify the points in time where any particular message occurred in a set of trace results. The **Timeline** component also enables you to use presets or configured windows of time to drill down into any chosen time slot for detailed analysis.  
   
- Note that you can link to some of the built-in **Chart** viewer **Layout** descriptions in the above section "Subcategories for the Built-In Chart Viewer Layouts" to understand chosen **Layouts**, and then display them  in an Analysis Session  to see the various types of graphic visualizer components in action. To locate the **Chart** viewer **Layouts** in Message Analyzer, see the previous [Built-In Chart Viewer Layouts](configuring-chart-viewer-layouts.md#BKMK_Charts) topic.  
+  Note that you can link to some of the built-in **Chart** viewer **Layout** descriptions in the above section "Subcategories for the Built-In Chart Viewer Layouts" to understand chosen **Layouts**, and then display them  in an Analysis Session  to see the various types of graphic visualizer components in action. To locate the **Chart** viewer **Layouts** in Message Analyzer, see the previous [Built-In Chart Viewer Layouts](configuring-chart-viewer-layouts.md#BKMK_Charts) topic.  
   
 <a name="BKMK_ChartConfigOverview"></a>   
 ## Overview of Configuring a Custom Chart Viewer Layout  

@@ -31,27 +31,27 @@ This section describes the typical tasks that you will perform when configuring 
 
  The following steps are an overview of the workflow that you can generally follow when configuring a Data Retrieval Session. Features for the following configuration tasks are accessible from the **Files** tab of the **New Session** dialog:  
   
-1.  Verify that the input data files from which you will be retrieving data are file types that are supported by Message Analyzer, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).  
+1. Verify that the input data files from which you will be retrieving data are file types that are supported by Message Analyzer, as described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md).  
   
-2.  Target the message data to be retrieved from one or more data sources such as saved trace files or logs, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
+2. Target the message data to be retrieved from one or more data sources such as saved trace files or logs, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
   
- > [!NOTE]
- >  You have the option to aggregate multiple data sources into a single session by making use of the **New Data Source** tab in a Data Retrieval Session. For additional details, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
+   > [!NOTE]
+   >  You have the option to aggregate multiple data sources into a single session by making use of the **New Data Source** tab in a Data Retrieval Session. For additional details, see [Configuring Session Scenarios with Selected Data Sources](configuring-session-scenarios-with-selected-data-sources.md).  
   
-3.  Select specific files that contain the data you want to work with, to create a subset of a larger targeted set of input files, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
+3. Select specific files that contain the data you want to work with, to create a subset of a larger targeted set of input files, as described in [Performing Data Retrieval](performing-data-retrieval.md).  
   
-4.  Optionally, if you have saved messages that are truncated, you can use the **Truncated Parsing** mode to handle trace files that contain such truncated messages, for example, a .cap file. This results in retrieving a smaller number of messages and improving performance, based on a pared-down message parser set, as described in [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md).  
+4. Optionally, if you have saved messages that are truncated, you can use the **Truncated Parsing** mode to handle trace files that contain such truncated messages, for example, a .cap file. This results in retrieving a smaller number of messages and improving performance, based on a pared-down message parser set, as described in [Detecting and Supporting Message Truncation](detecting-and-supporting-message-truncation.md).  
   
-5.  Specify a built-in or custom **Text Log Configuration** file that is required to parse a textual log file containing messages that you want to load and analyze with Message Analyzer, as described in [Opening Text Log Files](opening-text-log-files.md).  
+5. Specify a built-in or custom **Text Log Configuration** file that is required to parse a textual log file containing messages that you want to load and analyze with Message Analyzer, as described in [Opening Text Log Files](opening-text-log-files.md).  
   
-6.  Optionally, if you have a very large set of input messages, you can configure and apply a **Time Filter** to create a precisely focused view of data in a specified window of time, as described in [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
+6. Optionally, if you have a very large set of input messages, you can configure and apply a **Time Filter** to create a precisely focused view of data in a specified window of time, as described in [Applying an Input Time Filter to a Data Retrieval Session](applying-an-input-time-filter-to-a-data-retrieval-session.md).  
   
-    > [!NOTE]
-    >  Features for the configuration tasks that follow are accessible from outside the **Files** tab in the **New Session** dialog.  
+   > [!NOTE]
+   >  Features for the configuration tasks that follow are accessible from outside the **Files** tab in the **New Session** dialog.  
   
-7.  Optionally, configure and apply a **Session Filter** expression to the data being loaded to isolate specific data to be retrieved, as described in [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
+7. Optionally, configure and apply a **Session Filter** expression to the data being loaded to isolate specific data to be retrieved, as described in [Applying a Session Filter to a Data Retrieval Session](applying-a-session-filter-to-a-data-retrieval-session.md).  
   
-8.  Optionally, choose a built-in **Parsing Level** scenario that limits the stack level to which Message Analyzer parses and provides filtering that creates a focused set of messages for analysis purposes. In addition, applying a **Parsing Level** can also dramatically improve performance, as described in [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
+8. Optionally, choose a built-in **Parsing Level** scenario that limits the stack level to which Message Analyzer parses and provides filtering that creates a focused set of messages for analysis purposes. In addition, applying a **Parsing Level** can also dramatically improve performance, as described in [Setting the Session Parsing Level](setting-the-session-parsing-level.md).  
   
 9. Optionally, specify a data viewer in which to display the results of your Data Retrieval Session, other than the default viewer, as described in [Selecting a Data Retrieval Session Viewer](selecting-a-data-retrieval-session-viewer.md).  
   

@@ -1,41 +1,48 @@
 {
-    "build": {
-        "content": [{
-            "files": [
-                "**/*.md",
-                "**/*.yml"
-            ],
-            "exclude": [
-                "**/obj/**",
-                "**/includes/**",
-                "README.md",
-                "LICENSE",
-                "LICENSE-CODE",
-                "ThirdPartyNotices"
-            ]
-        }],
-        "resource": [{
-            "files": [
-                "**/*.png",
-                "**/*.jpg",
-                "**/*.svg",
-                "**/*.gif"
-            ],
-            "exclude": [
-                "**/obj/**",
-                "**/includes/**"
-            ]
-        }],
-        "overwrite": [],
-        "externalReference": [],
-        "globalMetadata": {
-            "breadcrumb_path": "/message-analyzer/breadcrumb/toc.json",
-            "extendBreadcrumb": true,
-            "titleSuffix": "Message Analyzer",
-            "contributors_to_exclude": ["v-kents"]
-        },
-        "fileMetadata": {},
-        "template": [],
-        "dest": "message-analyzer"
-    }
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/message-analyzer/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "titleSuffix": "Message Analyzer",
+      "contributors_to_exclude": [
+        "v-kents"
+      ]
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "message-analyzer",
+    "markdownEngineName": "markdig"
+  }
 }

@@ -58,22 +58,22 @@ A brief description of each procedure is included here for review, as follows.
   
 #### To auto-sync an asset collection  
   
-1.  From the **Start** menu, **Start** page, or taskbar of your computer, click the **Microsoft Message Analyzer** icon to start Message Analyzer.  
+1. From the **Start** menu, **Start** page, or taskbar of your computer, click the **Microsoft Message Analyzer** icon to start Message Analyzer.  
   
-2.  Click the **Downloads** tab in the **Asset Manager** dialog to display any asset collections that are not auto-synced, as indicated by the server download status icon to the right of a target asset collection.  
+2. Click the **Downloads** tab in the **Asset Manager** dialog to display any asset collections that are not auto-synced, as indicated by the server download status icon to the right of a target asset collection.  
   
-3.  Click the server download status icon for the asset collection that you want to auto-sync for updates, to display the **Item Download Options** dialog.  
+3. Click the server download status icon for the asset collection that you want to auto-sync for updates, to display the **Item Download Options** dialog.  
   
-4.  In the **Item Download Options** dialog, select the **Automatically sync item updates when available** option and then click **OK** to exit the dialog.  
+4. In the **Item Download Options** dialog, select the **Automatically sync item updates when available** option and then click **OK** to exit the dialog.  
   
-     The asset collection that you auto-synced is removed from the **Downloads** tab and reappears on the **Settings** tab with the auto-sync status icon displaying to the right of the collection. The auto-synced state indicates that the asset collection in your Message Analyzer installation will be periodically and automatically refreshed with updates as they become available.  
+    The asset collection that you auto-synced is removed from the **Downloads** tab and reappears on the **Settings** tab with the auto-sync status icon displaying to the right of the collection. The auto-synced state indicates that the asset collection in your Message Analyzer installation will be periodically and automatically refreshed with updates as they become available.  
   
-5.  To auto-sync all asset collections that are currently displayed on the **Downloads** tab in the **Asset Manager**, click the **Sync All Displayed Items** button.  
+5. To auto-sync all asset collections that are currently displayed on the **Downloads** tab in the **Asset Manager**, click the **Sync All Displayed Items** button.  
   
-     The asset collections that you auto-synced are removed from the **Downloads** tab and reappear on the **Settings** tab with the auto-sync status icon displaying to the right of each collection.  
+    The asset collections that you auto-synced are removed from the **Downloads** tab and reappear on the **Settings** tab with the auto-sync status icon displaying to the right of each collection.  
   
-  > [!NOTE]
-  >  When you click the **Sync All Displayed Items** button on the **Downloads** tab to set all asset collections to the auto-sync state, this includes all **OPN Parser** packages.  
+   > [!NOTE]
+   >  When you click the **Sync All Displayed Items** button on the **Downloads** tab to set all asset collections to the auto-sync state, this includes all **OPN Parser** packages.  
   
 <a name="BKMK_ShareLibraryItems"></a>   
 ## Share Local Library Items on a File Share  
@@ -81,26 +81,26 @@ A brief description of each procedure is included here for review, as follows.
   
 #### To export a Filter asset collection  
   
-1.  From the **Start** menu, **Start** page, or taskbar of your computer, click the **Microsoft Message Analyzer** icon to start Message Analyzer.  
+1. From the **Start** menu, **Start** page, or taskbar of your computer, click the **Microsoft Message Analyzer** icon to start Message Analyzer.  
   
-2.  Optionally, load a saved trace file into Message Analyzer through a Data Retrieval Session.  
+2. Optionally, load a saved trace file into Message Analyzer through a Data Retrieval Session.  
   
-3.  On the default Filter panel of the Filtering toolbar above the  main analysis surface of Message Analyzer, click the **Library** drop-down list to expose the asset collection Library items and management features.  
+3. On the default Filter panel of the Filtering toolbar above the  main analysis surface of Message Analyzer, click the **Library** drop-down list to expose the asset collection Library items and management features.  
   
-4.  In the **Library** drop-down list, click the **Manage Filters** item to open the **Manage Filter** dialog.  
+4. In the **Library** drop-down list, click the **Manage Filters** item to open the **Manage Filter** dialog.  
   
-5.  In the **Manage Filter** dialog, select the collection items and/or **Library** categories that contain the items you want to export for sharing by placing a check mark in the appropriate check boxes.  
+5. In the **Manage Filter** dialog, select the collection items and/or **Library** categories that contain the items you want to export for sharing by placing a check mark in the appropriate check boxes.  
   
-6.  Click the **Export** button on the toolbar of the **Manage Filter** dialog to open the **Save Library** dialog.  
+6. Click the **Export** button on the toolbar of the **Manage Filter** dialog to open the **Save Library** dialog.  
   
-7.  In the **Save Library** dialog, enter a name for the asset collection in the **Title** text box and the collection author in the **Author** text box. Optionally, add **Description** and **Organization** information.  
+7. In the **Save Library** dialog, enter a name for the asset collection in the **Title** text box and the collection author in the **Author** text box. Optionally, add **Description** and **Organization** information.  
   
-8.  Click the **Save** button to exit the **Save Library** dialog and to display the **Select Library Location...** dialog, from where you can navigate to the file share location where you intend to post the asset collection.  
+8. Click the **Save** button to exit the **Save Library** dialog and to display the **Select Library Location...** dialog, from where you can navigate to the file share location where you intend to post the asset collection.  
   
 9. After you specify a **File name** for the asset collection, click the **Save** button to exit the **Select Library Location...** dialog, at which time your asset collection is posted to the file share location.  
   
- > [!NOTE]
- >  Ensure that users have your file share location information and appropriate permissions to access the share or other location.  
+   > [!NOTE]
+   >  Ensure that users have your file share location information and appropriate permissions to access the share or other location.  
   
 #### To import a Filter asset collection  
   
@@ -128,21 +128,21 @@ A brief description of each procedure is included here for review, as follows.
   
 #### To perform manual asset update synchronization  
   
-1.  From the **Start** menu, **Start** page, or taskbar of your computer, click the **Microsoft Message Analyzer** icon to start Message Analyzer.  
+1. From the **Start** menu, **Start** page, or taskbar of your computer, click the **Microsoft Message Analyzer** icon to start Message Analyzer.  
   
-2.  In the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu, click the **Settings** tab to display the list of **Subscribed Feeds**.  
+2. In the **Asset Manager** dialog, which is accessible from the global Message Analyzer **Tools** menu, click the **Settings** tab to display the list of **Subscribed Feeds**.  
   
-3.  Click the link under the feed name containing the asset collection that you want to update, to display the *.asset and \*.metadata files for the collection that exists at the feed location.  
+3. Click the link under the feed name containing the asset collection that you want to update, to display the *.asset and \*.metadata files for the collection that exists at the feed location.  
   
-4.  For the asset collection that you intend to update, right-click the \*.metadata file and select the **Open With** context menu item so that you can specify an XML editor or the Visual Studio application to open the file.  
+4. For the asset collection that you intend to update, right-click the \*.metadata file and select the **Open With** context menu item so that you can specify an XML editor or the Visual Studio application to open the file.  
   
-5.  In the opened metadata file, copy the GUID in the \<UniqueId> or \<GroupId> tag and store it in a temporary location.  
+5. In the opened metadata file, copy the GUID in the \<UniqueId> or \<GroupId> tag and store it in a temporary location.  
   
-6.  Close the file and exit the editor application.  
+6. Close the file and exit the editor application.  
   
-7.  In the Message Analyzer user interface, locate the Library that contains the asset collection items you want to share with other users on your feed, click the Library drop-down list, and then select the **Manage** ***\<AssetType>*** item.  
+7. In the Message Analyzer user interface, locate the Library that contains the asset collection items you want to share with other users on your feed, click the Library drop-down list, and then select the **Manage** ***\<AssetType>*** item.  
   
-8.  In the **Manage** ***\<AssetType>*** dialog, select the asset collection items you want to include in the update and then click **Export** to display the **Save Library** dialog.  
+8. In the **Manage** ***\<AssetType>*** dialog, select the asset collection items you want to include in the update and then click **Export** to display the **Save Library** dialog.  
   
 9. In the **Save Library** dialog, specify values for **Title** and **Author**, and optionally provide a **Description** and **Organization** information.  
   
@@ -168,7 +168,7 @@ A brief description of each procedure is included here for review, as follows.
   
 16. Inform users that you have an update that they can download if they are subscribed to your feed, which should appear on the **Downloads** tab in the **Asset Manager** dialog of the user’s Message Analyzer installation.  
   
- Users should then be able to use the download or auto-sync option in the **Item Download Options** dialog to update their local Library with the latest version of your asset collection. After users update a Library, the collection items should appear in the Library under a category name that matches the feed name.  
+    Users should then be able to use the download or auto-sync option in the **Item Download Options** dialog to update their local Library with the latest version of your asset collection. After users update a Library, the collection items should appear in the Library under a category name that matches the feed name.  
   
 ## See Also  
 

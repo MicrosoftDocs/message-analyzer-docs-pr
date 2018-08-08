@@ -35,14 +35,14 @@ You can enable or disable any **Alias** by toggling (selecting/unselecting) the 
 
  Message Analyzer provides the following **Aliases** by default in the **My Items** category of your **Aliases** asset collection, which are accessible from the **Aliases** drop-down list in the previously specified locations. You can use these **Aliases** as is, for the convenience of friendly and quick identification of loopback traffic:  
   
--   **IPv4 Loopback** — provides a friendly name for the IPv4 address `127.0.0.1`, which is a special IP number that is designated for the software loopback interface on your machine.  
+- **IPv4 Loopback** — provides a friendly name for the IPv4 address `127.0.0.1`, which is a special IP number that is designated for the software loopback interface on your machine.  
   
--   **IPv6 Loopback** — provides a friendly name for the IPv6 address `::1`, which is a special IP number that is designated for the software loopback interface on your machine.  
+- **IPv6 Loopback** — provides a friendly name for the IPv6 address `::1`, which is a special IP number that is designated for the software loopback interface on your machine.  
   
- > [!NOTE]
- >  A loopback interface is not associated with any hardware, nor is it physically connected to a network. Rather, the interface is a conduit for local application traffic, for example, between a local web server and a SQL server.  
+  > [!NOTE]
+  >  A loopback interface is not associated with any hardware, nor is it physically connected to a network. Rather, the interface is a conduit for local application traffic, for example, between a local web server and a SQL server.  
   
- You can also modify and save any of the default **Alias** collection items as necessary, as described in [Modifying Message Analyzer Aliases](modifying-message-analyzer-aliases.md).  You can also share **Aliases** with others, including the default **Aliases**, by using the **Manage Aliases** dialog as described in [Managing Message Analyzer Aliases as Shared Items](managing-message-analyzer-aliases-as-shared-items.md).  
+  You can also modify and save any of the default **Alias** collection items as necessary, as described in [Modifying Message Analyzer Aliases](modifying-message-analyzer-aliases.md).  You can also share **Aliases** with others, including the default **Aliases**, by using the **Manage Aliases** dialog as described in [Managing Message Analyzer Aliases as Shared Items](managing-message-analyzer-aliases-as-shared-items.md).  
   
 ## Specifying a Default Alias List  
 

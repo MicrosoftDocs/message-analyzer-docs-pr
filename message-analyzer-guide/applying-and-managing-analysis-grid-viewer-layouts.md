@@ -27,121 +27,121 @@ Message Analyzer enables you to apply built-in and custom column layout configur
 
  Message Analyzer provides several built-in view **Layouts** that you can quickly apply to a message collection in the **Analysis Grid** viewer by simply selecting them from a drop-down list. These layouts consist of many different column configurations that expose data that can be useful for troubleshooting common problems, for example, when the TCP or HTTP protocol is the focus of analysis. In addition, the built-in **Layouts** provide various grouped message presentations that streamline analysis of data from Perfmon, WPP,  ProcMon, and other logs. The built-in **Layouts** are contained in the following subcategories of the top-level **Message Analyzer** category:  
   
--   **Azure Storage** category  
+- **Azure Storage** category  
   
-    -   **All .Net Client Columns** — displays all data columns from a .Net client log.  
+  -   **All .Net Client Columns** — displays all data columns from a .Net client log.  
   
-    -   **Grouped by ClientRequestId and Module** — provides a grouped **Layout** of **ClientRequestId** at top-level and **Module** as a nested group, for Client, Storage, and Network logs.  
+  -   **Grouped by ClientRequestId and Module** — provides a grouped **Layout** of **ClientRequestId** at top-level and **Module** as a nested group, for Client, Storage, and Network logs.  
   
-    -   **Storage Log** — provides a **Layout** that displays key data columns from Azure Storage logs such as **ClientRequestId**, **EndToEndLatencyMS**, **ServerLatencyMS**, **RequestStartTime**, **RequestStatus**, and **StatusCode**.  
+  -   **Storage Log** — provides a **Layout** that displays key data columns from Azure Storage logs such as **ClientRequestId**, **EndToEndLatencyMS**, **ServerLatencyMS**, **RequestStartTime**, **RequestStatus**, and **StatusCode**.  
   
--   **Cluster** category  
+- **Cluster** category  
   
-    -   **Cluster Log** — provides a **Layout** that is useful for analyzing Cluster logs with data columns such as **ProcessId**, **InfoLevel**, **Subcomponent**, and **RemainingText**. Enables you to correlate process IDs with various debug levels and Cluster Service components where errors and warnings may have occurred, respectively. This **Layout** is intended to work with the **Cluster Logs** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a Cluster.log file and the **Cluster Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+  -   **Cluster Log** — provides a **Layout** that is useful for analyzing Cluster logs with data columns such as **ProcessId**, **InfoLevel**, **Subcomponent**, and **RemainingText**. Enables you to correlate process IDs with various debug levels and Cluster Service components where errors and warnings may have occurred, respectively. This **Layout** is intended to work with the **Cluster Logs** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a Cluster.log file and the **Cluster Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **Cluster Logs** **Profile** in the table of the indicated topic for more information about  how to analyze these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which  are also described there.  
+       See the **Cluster Logs** **Profile** in the table of the indicated topic for more information about  how to analyze these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which  are also described there.  
   
--   **Windows Event Tracing** category  
+- **Windows Event Tracing** category  
   
-    -   **ETW** — provides a **Layout** that is useful for analyzing ETW messages that contain **ProcessId** and **ThreadId** data. The **ProcessId** is a number that is used by the operating system kernel to uniquely identify an active process for which an ETW provider or some other component is generating events. The **ThreadId** is a unique identifier of an execution thread that is running under a particular process. This **Layout** also includes a **TimeDelta** column that exposes the running time at which each message was captured, similar to the way **TimeOffset** does in the Network Monitor view.  
+  -   **ETW** — provides a **Layout** that is useful for analyzing ETW messages that contain **ProcessId** and **ThreadId** data. The **ProcessId** is a number that is used by the operating system kernel to uniquely identify an active process for which an ETW provider or some other component is generating events. The **ThreadId** is a unique identifier of an execution thread that is running under a particular process. This **Layout** also includes a **TimeDelta** column that exposes the running time at which each message was captured, similar to the way **TimeOffset** does in the Network Monitor view.  
   
-         This **Layout** is intended to work with the **ETW Guids and IDs** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this  **Analysis Grid** viewer **Layout** automatically displays if data from an event trace log (\*.etl) file is loaded into Message Analyzer while the **ETW Analysis** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+       This **Layout** is intended to work with the **ETW Guids and IDs** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this  **Analysis Grid** viewer **Layout** automatically displays if data from an event trace log (\*.etl) file is loaded into Message Analyzer while the **ETW Analysis** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **ETW Analysis** **Profile** in the table of the indicated topic for more information about  how to analyze these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is also described there.  
+       See the **ETW Analysis** **Profile** in the table of the indicated topic for more information about  how to analyze these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is also described there.  
   
--   **Examples** category  
+- **Examples** category  
   
-    -   **Event Log (.evtx)** — provides a **Layout** that is useful for analyzing ETW event data. This **Layout** is intended to work with the **Event Viewer** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a \*.evtx file and the **Event Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+  -   **Event Log (.evtx)** — provides a **Layout** that is useful for analyzing ETW event data. This **Layout** is intended to work with the **Event Viewer** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a \*.evtx file and the **Event Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **Event Logs** **Profile** in the table of the indicated topic for more information about  how to analyze these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is also described there.  
+       See the **Event Logs** **Profile** in the table of the indicated topic for more information about  how to analyze these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is also described there.  
   
--   **HTTP** category  
+- **HTTP** category  
   
-    -   **Fiddler SAZ** — provides a **Layout** that is useful for analyzing HTTP data in an environment that is similar to Fiddler, with data fields such as **StatusCode**, **Uri.Schema**, **Method**, **Uri.Host**, **Uri.AbsPath**, **PayloadLength**, **ContentType**, and **Payload**. This **Layout** is intended to work with the **Fiddler Grouping** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a \*.saz file and the **Fiddler Traces** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+  -   **Fiddler SAZ** — provides a **Layout** that is useful for analyzing HTTP data in an environment that is similar to Fiddler, with data fields such as **StatusCode**, **Uri.Schema**, **Method**, **Uri.Host**, **Uri.AbsPath**, **PayloadLength**, **ContentType**, and **Payload**. This **Layout** is intended to work with the **Fiddler Grouping** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a \*.saz file and the **Fiddler Traces** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **Fiddler Traces** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these files, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is also described there.  
+       See the **Fiddler Traces** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these files, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is also described there.  
   
--   **File Sharing** category  
+- **File Sharing** category  
   
-    -   **File Sharing Perf SMB2/SMB** — provides a **Layout** that enables you to analyze SMB/SMB2 performance in terms of **ResponseTime** and **TimeElapsed** values for SMB/SMB2 request and response messages. Also provides other data columns that are useful for SMB analysis such as **SessionIdName**, **TreeIdNameReference**, **FileNameReference**, and **MessageId**. This **Layout** is intended to work with the **File Sharing SMB/SMB2** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from files in any of the following formats and the **File Sharing Perf SMB2/SMB** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic:  
+  -   **File Sharing Perf SMB2/SMB** — provides a **Layout** that enables you to analyze SMB/SMB2 performance in terms of **ResponseTime** and **TimeElapsed** values for SMB/SMB2 request and response messages. Also provides other data columns that are useful for SMB analysis such as **SessionIdName**, **TreeIdNameReference**, **FileNameReference**, and **MessageId**. This **Layout** is intended to work with the **File Sharing SMB/SMB2** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from files in any of the following formats and the **File Sharing Perf SMB2/SMB** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic:  
   
-        -   *.etl  
+      -   *.etl  
   
-        -   *.cap  
+      -   *.cap  
   
-        -   *.pcapng  
+      -   *.pcapng  
   
-        -   *.pcap  
+      -   *.pcap  
   
-    See the **File Sharing Perf SMB2/SMB** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these files, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
+  See the **File Sharing Perf SMB2/SMB** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these files, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
   
-    -   **File Sharing SMB/SMB2** — provides a layout that groups by SMB **SessionId**, **TreeId**, and **FileName** to assist SMB troubleshooting.  
+  -   **File Sharing SMB/SMB2** — provides a layout that groups by SMB **SessionId**, **TreeId**, and **FileName** to assist SMB troubleshooting.  
   
-    -   **SMB Flat** — provides an SMB/SMB2 analysis environment that includes data columns such as **TimeDelta**,  **SessionIdName**, **TreeIdNameReference**, **FileNameReference**, and **Header.MessageId**. After your data displays, click the **Flat Message List** button in the Filtering toolbar to remove Operations and simulate the Network Monitor view.  
+  -   **SMB Flat** — provides an SMB/SMB2 analysis environment that includes data columns such as **TimeDelta**,  **SessionIdName**, **TreeIdNameReference**, **FileNameReference**, and **Header.MessageId**. After your data displays, click the **Flat Message List** button in the Filtering toolbar to remove Operations and simulate the Network Monitor view.  
   
-    -   **SysLog** — provides an environment for analyzing SambaSysLogs with data columns such as **level**, **source_file**, **file_line**, **function**, and **content**. This **Layout** is intended to work with the **SysLog** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a SambaSysLog.log file and the **Samba Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+  -   **SysLog** — provides an environment for analyzing SambaSysLogs with data columns such as **level**, **source_file**, **file_line**, **function**, and **content**. This **Layout** is intended to work with the **SysLog** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from a SambaSysLog.log file and the **Samba Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **Samba Logs** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
+       See the **Samba Logs** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
   
--   **Network** category  
+- **Network** category  
   
-    -   **HTTP** — provides a **Layout** that is useful for troubleshooting HTTP issues, which includes the **ResponseTime**, **ContentType**, **StatusCode**, and **Summary** information columns. **ResponseTime** data is particularly useful because it can provide an indication of server performance in terms of the time it takes for the first server response to HTTP requests. **StatusCode** can quickly expose client and server errors and **ContentType** can provide an indication of the loads that the server is handling.  
+  -   **HTTP** — provides a **Layout** that is useful for troubleshooting HTTP issues, which includes the **ResponseTime**, **ContentType**, **StatusCode**, and **Summary** information columns. **ResponseTime** data is particularly useful because it can provide an indication of server performance in terms of the time it takes for the first server response to HTTP requests. **StatusCode** can quickly expose client and server errors and **ContentType** can provide an indication of the loads that the server is handling.  
   
-    -   **Network Conversation Tree with Process ID** — provides a layout that groups by **DataSource**, **ProcessId**, **Network**, and **Transport**, to enable correlation of conversations with process IDs in *.etl files.  
+  -   **Network Conversation Tree with Process ID** — provides a layout that groups by **DataSource**, **ProcessId**, **Network**, and **Transport**, to enable correlation of conversations with process IDs in *.etl files.  
   
-    -   **Network Monitor** — displays the default Network Monitor view, with exception of several columns being named differently in Message Analyzer, but which are functionally equivalent to the corresponding columns in the default Network Monitor layout.  
+  -   **Network Monitor** — displays the default Network Monitor view, with exception of several columns being named differently in Message Analyzer, but which are functionally equivalent to the corresponding columns in the default Network Monitor layout.  
   
-    -   **Process Name and Conversations** — provides a nested group configuration, where each top-level group node is identified by a **ProcessName** and nested groupings consist of **Network** and **Tranport** groups. Enables you to view the IP conversations and the TCP ports that carried those conversations for each process that is identified in the **ProcessName** group. This **Layout** also adds a **ProcessName** column to the **Analysis Grid** viewer column configuration.  
+  -   **Process Name and Conversations** — provides a nested group configuration, where each top-level group node is identified by a **ProcessName** and nested groupings consist of **Network** and **Tranport** groups. Enables you to view the IP conversations and the TCP ports that carried those conversations for each process that is identified in the **ProcessName** group. This **Layout** also adds a **ProcessName** column to the **Analysis Grid** viewer column configuration.  
   
-        > [!NOTE]
-        >  Message Analyzer can identify process names from .etl files that are generated with the Netsh utility. Therefore, you might use the **Process Name and Conversations** view **Layout** when you are working with event logs (\*.etl), to expose data for the **ProcessName** group in the **Analysis Grid** viewer.  
+      > [!NOTE]
+      >  Message Analyzer can identify process names from .etl files that are generated with the Netsh utility. Therefore, you might use the **Process Name and Conversations** view **Layout** when you are working with event logs (\*.etl), to expose data for the **ProcessName** group in the **Analysis Grid** viewer.  
   
-    -   **TCP Deep Packet Analysis with ABSOLUTE Sequence Number Flat** — provides a **Layout** that adds several columns to the default **Analysis Grid** viewer column configuration to expose the values of fields that can help you troubleshoot TCP and network layer issues. Added columns consist of the **TimeDelta**, **Flags**, **SourcePort**, **DestinationPort**, **PayloadLength**, **SequenceNumber**, **NextSequenceNumber**, **AcknowledgementNumber**, **WindowScaled**, **TopModule**, **Options**, and so on. Absolute sequence numbers are the long version of such numbers, as in the original format that is transmitted on the wire.  
+  -   **TCP Deep Packet Analysis with ABSOLUTE Sequence Number Flat** — provides a **Layout** that adds several columns to the default **Analysis Grid** viewer column configuration to expose the values of fields that can help you troubleshoot TCP and network layer issues. Added columns consist of the **TimeDelta**, **Flags**, **SourcePort**, **DestinationPort**, **PayloadLength**, **SequenceNumber**, **NextSequenceNumber**, **AcknowledgementNumber**, **WindowScaled**, **TopModule**, **Options**, and so on. Absolute sequence numbers are the long version of such numbers, as in the original format that is transmitted on the wire.  
   
-    -   **TCP Deep Packet Analysis with ABSOLUTE Sequence Number with Grouping** — provides a **Layout** that creates a hierarchy of **Network**, **Transport**, and **Sourceport** groups that isolate network conversations at top-level, the transport that carried them in the first nested group, and the ports over which the conversations transited in the second nested group. The **Network** and **Transport** groups provide quick access to data that can assist you in troubleshooting the network layer and related communication ports, for example IP addresses,  conversation direction, and conversation ports. The columns in this **Layout** are identical to those of the **TCP Deep Packet Analysis with ABSOLUTE Sequence Number Flat**, as is the use of absolute sequence numbers.  
+  -   **TCP Deep Packet Analysis with ABSOLUTE Sequence Number with Grouping** — provides a **Layout** that creates a hierarchy of **Network**, **Transport**, and **Sourceport** groups that isolate network conversations at top-level, the transport that carried them in the first nested group, and the ports over which the conversations transited in the second nested group. The **Network** and **Transport** groups provide quick access to data that can assist you in troubleshooting the network layer and related communication ports, for example IP addresses,  conversation direction, and conversation ports. The columns in this **Layout** are identical to those of the **TCP Deep Packet Analysis with ABSOLUTE Sequence Number Flat**, as is the use of absolute sequence numbers.  
   
-    -   **TCP Deep Packet Analysis with RELATIVE Sequence Number Flat** — provides a **Layout** that  exposes the values of fields that can help you troubleshoot TCP and network layer issues. The columns in this **Layout** add relative sequence number and relative block (**RelBlock**) columns to the ones previously described in the **TCP Deep Packet Analysis with ABSOLUTE Sequence Number Flat** **Layout**. Relative sequence numbers are the short version of such numbers for easier reading, as modified from the original wire format.  
+  -   **TCP Deep Packet Analysis with RELATIVE Sequence Number Flat** — provides a **Layout** that  exposes the values of fields that can help you troubleshoot TCP and network layer issues. The columns in this **Layout** add relative sequence number and relative block (**RelBlock**) columns to the ones previously described in the **TCP Deep Packet Analysis with ABSOLUTE Sequence Number Flat** **Layout**. Relative sequence numbers are the short version of such numbers for easier reading, as modified from the original wire format.  
   
-    -   **TCP Deep Packet Analysis with RELATIVE Sequence Number with Grouping** — provides a **Layout** that creates a hierarchy of **Network**, **Transport**, and **Sourceport** groups that isolate network conversations at top-level, the transport that carried them in the first nested group, and the ports over which the conversations transited in the second nested group. The **Network** and **Transport** groups provide quick access to data that can assist you in troubleshooting the network layer and related communication ports, for example IP addresses,  conversation direction, and conversation ports. The columns in this **Layout** are identical to those of the **TCP Deep Packet Analysis with RELATIVE Sequence Number Flat** **Layout**, as is the use of relative sequence numbers.  
+  -   **TCP Deep Packet Analysis with RELATIVE Sequence Number with Grouping** — provides a **Layout** that creates a hierarchy of **Network**, **Transport**, and **Sourceport** groups that isolate network conversations at top-level, the transport that carried them in the first nested group, and the ports over which the conversations transited in the second nested group. The **Network** and **Transport** groups provide quick access to data that can assist you in troubleshooting the network layer and related communication ports, for example IP addresses,  conversation direction, and conversation ports. The columns in this **Layout** are identical to those of the **TCP Deep Packet Analysis with RELATIVE Sequence Number Flat** **Layout**, as is the use of relative sequence numbers.  
   
   > [!NOTE]
   >  If you also specify a **TCP** **Viewpoint** with the TCP **Layouts** described here, you can isolate all TCP traffic as top-level messages for ease of analysis.  
   
--   **IIS** category  
+- **IIS** category  
   
-    -   **IIS** — provides a **Layout** of data columns that is useful for troubleshooting Internet Information Server (IIS) logs. This **Layout** is intended to work with the **IIS** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from an IIS.log file and the **IIS Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+  -   **IIS** — provides a **Layout** of data columns that is useful for troubleshooting Internet Information Server (IIS) logs. This **Layout** is intended to work with the **IIS** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer **Layout** displays by default if you are loading data from an IIS.log file and the **IIS Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **IIS Logs** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
+       See the **IIS Logs** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
   
--   **Netlogon** category  
+- **Netlogon** category  
   
-    -   **Netlogon** category — provides a **Layout** of data columns that is a basic environment for  troubleshooting Netlogon logs. This **Layout** is intended to work with the **Netlogon Group by Message Type** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer  **Layout** displays by default if you are loading data from a Netlogon.log file and the **Netlogon Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
+  -   **Netlogon** category — provides a **Layout** of data columns that is a basic environment for  troubleshooting Netlogon logs. This **Layout** is intended to work with the **Netlogon Group by Message Type** **Layout** of the **Grouping** viewer to create an interactive analysis environment. In addition, this **Analysis Grid** viewer  **Layout** displays by default if you are loading data from a Netlogon.log file and the **Netlogon Logs** **Profile** is enabled in the **Options** dialog, as described in the [Working With Message Analyzer Profiles](working-with-message-analyzer-profiles.md) topic.  
   
-         See the **Netlogon Logs** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
+       See the **Netlogon Logs** **Profile** in the table of the indicated topic for more information about  how to analyze the data in these logs, where such analysis is enhanced by complementary **Layouts** for the **Grouping** and **Chart** viewers, which is described there.  
   
--   **Common** category  
+- **Common** category  
   
-    -   **Perfmon Log** — provides a **Layout** with grouping for Perfmon logs that are saved as comma-separated value (CSV) files.  
+  -   **Perfmon Log** — provides a **Layout** with grouping for Perfmon logs that are saved as comma-separated value (CSV) files.  
   
-    -   **Performance Top Down** — provides a **Layout** that is useful for analyzing performance issues associated with **TimeElapsed** and **ResponseTime** field values. In this **Layout**, the **TimeElapsed** data column is sorted in descending order (top-down) to expose Operations that are taking a long time to complete, for example with protocols that use request/response messages such as  DNS, HTTP, and SMB. This may be an indication of a network issue if the corresponding server first response (**ResponseTime**) is a relatively low value. On the other hand, if the **ResponseTime** is a high value and the **TimeElapsed** is only slightly higher, this might indicate a slowly responding server rather than a network issue.  
+  -   **Performance Top Down** — provides a **Layout** that is useful for analyzing performance issues associated with **TimeElapsed** and **ResponseTime** field values. In this **Layout**, the **TimeElapsed** data column is sorted in descending order (top-down) to expose Operations that are taking a long time to complete, for example with protocols that use request/response messages such as  DNS, HTTP, and SMB. This may be an indication of a network issue if the corresponding server first response (**ResponseTime**) is a relatively low value. On the other hand, if the **ResponseTime** is a high value and the **TimeElapsed** is only slightly higher, this might indicate a slowly responding server rather than a network issue.  
   
-    -   **Process View** — provides a **Layout** that enables top-down performance analysis, similar to the **Performance Top Down** **Layout**. However, this **Layout** also adds a **ProcessName** column for traces that contain process name information, so that you can correlate processes with **TimeElapsed** and **ResponseTime** data.  
+  -   **Process View** — provides a **Layout** that enables top-down performance analysis, similar to the **Performance Top Down** **Layout**. However, this **Layout** also adds a **ProcessName** column for traces that contain process name information, so that you can correlate processes with **TimeElapsed** and **ResponseTime** data.  
   
-    -   **ProcMon Logs** — provides a grouped **Layout** by process name and includes other data columns such as **Time Delta**, **PID**, **Operation**, and so on, for ProcMon logs.  
+  -   **ProcMon Logs** — provides a grouped **Layout** by process name and includes other data columns such as **Time Delta**, **PID**, **Operation**, and so on, for ProcMon logs.  
   
-    -   **Protocol/Module Summary** — provides a grouped **Layout** by Module with nested message Types for a high-level overview of such data.  
+  -   **Protocol/Module Summary** — provides a grouped **Layout** by Module with nested message Types for a high-level overview of such data.  
   
-    -   **WPP ETL** — provides a **Layout** with grouping and special data columns for WPP-generated events that are logged in a *.etl file.  
+  -   **WPP ETL** — provides a **Layout** with grouping and special data columns for WPP-generated events that are logged in a *.etl file.  
   
--   **My Column Layouts** category  
+- **My Column Layouts** category  
   
-    -   **Raw Text Log** — provides a **Layout** that contains  **MessageNumber** and **Summary** columns only. You can apply this **Layout** to the data that you load into Message Analyzer from any log file to obtain a high-level view of the log data.  Note that none of the log fields that exist in the **Summary** column are provided a separate column for displaying their data in the **Analysis Grid** viewer.  
+  -   **Raw Text Log** — provides a **Layout** that contains  **MessageNumber** and **Summary** columns only. You can apply this **Layout** to the data that you load into Message Analyzer from any log file to obtain a high-level view of the log data.  Note that none of the log fields that exist in the **Summary** column are provided a separate column for displaying their data in the **Analysis Grid** viewer.  
   
-         However, you may be able to parse the summary data into individual fields/columns, if a configuration file exists for the log type with which you are working.  You can select different built-in configuration files from the **Text Log Configuration** drop-down list in the **New Session** dialog for a Data Retrieval Session after you add a log file to the files list. If it is a log type for which a configuration file already exists, the drop-down list is enabled for selection. For more information about working with text logs, see [Opening Text Log Files](opening-text-log-files.md).  
+       However, you may be able to parse the summary data into individual fields/columns, if a configuration file exists for the log type with which you are working.  You can select different built-in configuration files from the **Text Log Configuration** drop-down list in the **New Session** dialog for a Data Retrieval Session after you add a log file to the files list. If it is a log type for which a configuration file already exists, the drop-down list is enabled for selection. For more information about working with text logs, see [Opening Text Log Files](opening-text-log-files.md).  
   
--   **My Items** category  
+- **My Items** category  
   
-    -   **Example View Layout** — provides a sample **Layout** based on TCP fields that you can modify as you wish. You can save your changes with a new **Layout** name that is appropriate for the type of analysis it supports.  
+  -   **Example View Layout** — provides a sample **Layout** based on TCP fields that you can modify as you wish. You can save your changes with a new **Layout** name that is appropriate for the type of analysis it supports.  
   
 ## Managing View Layouts  
 

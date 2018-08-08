@@ -48,14 +48,14 @@ The Message Analyzer **Analysis Grid** viewer has a default view **Layout** that
 ## Adding Data Columns to the Analysis Grid with Field Chooser  
  The **Field Chooser** window contains a top-level tree view of all the message modules and protocols for which Message Analyzer provides parsing based on OPN descriptions. If you expand the nodes of any particular module, you will see the message hierarchy containing the message types, properties, structures, methods, flags, events, or other data fields that are defined for that module or protocol. If you want to view the data for other fields that are relevant to the trace data you captured, you can add a data column for specified fields to the **Analysis Grid** viewer column layout by locating the appropriate module or protocol and the required field names in the **Field Chooser** window, and then doing any of the following while the **Analysis Grid** viewer is in focus:  
   
--   Double-click the field name.  
+- Double-click the field name.  
   
--   Select the field or other entity that you want to add as a column and then click the **Add** icon in the upper-left corner of the **Field Chooser** window.  
+- Select the field or other entity that you want to add as a column and then click the **Add** icon in the upper-left corner of the **Field Chooser** window.  
   
--   Right-click a field name and select the **Add as Column** item in the context menu.  
+- Right-click a field name and select the **Add as Column** item in the context menu.  
   
- > [!TIP]
- >  You can also select the **Go to Definition** item in this context menu to open the OPN viewer and highlight the definition of the field you chose.  
+  > [!TIP]
+  >  You can also select the **Go to Definition** item in this context menu to open the OPN viewer and highlight the definition of the field you chose.  
   
 For example, if you wanted to view the ID of processes for which Message Analyzer captured events, you could add  **ProcessId** as a column — found under the **Etw** node or under the **Global Properties** node in the **Field Chooser** — to the **Analysis Grid** viewer. Note that you also have the capability to display a **ProcessName** column from **Global Properties** as well. You are advised that viewing process ID and process names works best when you are displaying data from a *.etl file.  
   

@@ -74,33 +74,33 @@ The **Analysis Grid** viewer works in tandem with the message **Details**, **Mes
   
 #### To visualize message layer de-encapsulation  
   
-1.  Perform a **Local Network Interfaces** trace and let Message Analyzer run long enough to capture some top-level TCP messages.  
+1. Perform a **Local Network Interfaces** trace and let Message Analyzer run long enough to capture some top-level TCP messages.  
   
-2.  Expand a parent TCP operation node and then expand the message nodes in the origins tree to expose the message stack.  
+2. Expand a parent TCP operation node and then expand the message nodes in the origins tree to expose the message stack.  
   
-3.  Select the **Etw** node in the **Analysis Grid** viewer and then select the **Payload** field in the **Details** window.  
+3. Select the **Etw** node in the **Analysis Grid** viewer and then select the **Payload** field in the **Details** window.  
   
-     The hexadecimal values for the **Payload** field are highlighted in the **Message Data** window.  
+    The hexadecimal values for the **Payload** field are highlighted in the **Message Data** window.  
   
-4.  Select the **NdisProvider** node in the **Analysis Grid** viewer and then select the **FrameData** field in the **Details** window.  
+4. Select the **NdisProvider** node in the **Analysis Grid** viewer and then select the **FrameData** field in the **Details** window.  
   
-     The hexadecimal values for the **FrameData** field are highlighted in the **Message Data** window.  
+    The hexadecimal values for the **FrameData** field are highlighted in the **Message Data** window.  
   
-5.  Select the **Ethernet** node and then select the **MacClientData** field in the **Details** window.  
+5. Select the **Ethernet** node and then select the **MacClientData** field in the **Details** window.  
   
-     The hexadecimal values for the **MacClientData** field are highlighted in the **Message Data** window.  
+    The hexadecimal values for the **MacClientData** field are highlighted in the **Message Data** window.  
   
-6.  Select the **IPv4** node and then select the **Payload** field in the **Details** window.  
+6. Select the **IPv4** node and then select the **Payload** field in the **Details** window.  
   
-     The hexadecimal values for the **Payload** field are highlighted in the **Message Data** window.  
+    The hexadecimal values for the **Payload** field are highlighted in the **Message Data** window.  
   
-7.  Select the **TCP** node and then select the **Payload** field in the **Details** window.  
+7. Select the **TCP** node and then select the **Payload** field in the **Details** window.  
   
-     Only the TCP header data (the IPv4 payload) remains, with no hexadecimal data highlighted, while the **Payload** field is selected. To see this more clearly, go back and select the **Etw** message in the **Analysis Grid** viewer, and then in succession, select the **NdisProvider**, **Ethernet**, **IPv4**, and **TCP** messages. As you do, you can observe the header data being stripped out at each layer, which reflects the PEF Runtime decoding process that de-encapsulates captured messages, as illustrated in the figure that follows.  
+    Only the TCP header data (the IPv4 payload) remains, with no hexadecimal data highlighted, while the **Payload** field is selected. To see this more clearly, go back and select the **Etw** message in the **Analysis Grid** viewer, and then in succession, select the **NdisProvider**, **Ethernet**, **IPv4**, and **TCP** messages. As you do, you can observe the header data being stripped out at each layer, which reflects the PEF Runtime decoding process that de-encapsulates captured messages, as illustrated in the figure that follows.  
   
- ![Message Analyzer Layer De&#45;encapsulation example](media/fig66-message-analyzer-layer-de-encapsulation-example.gif "Fig66-Message Analyzer Layer De-encapsulation example")  
+   ![Message Analyzer Layer De&#45;encapsulation example](media/fig66-message-analyzer-layer-de-encapsulation-example.gif "Fig66-Message Analyzer Layer De-encapsulation example")  
   
- **Figure 66:  Message Analyzer Layer De-encapsulation example**  
+   **Figure 66:  Message Analyzer Layer De-encapsulation example**  
   
 ## Displaying the Message Data Tool Window  
 

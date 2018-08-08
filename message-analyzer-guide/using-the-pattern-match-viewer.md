@@ -28,42 +28,42 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
   
  Currently, the built-in **Pattern** expressions that are available by default in every Message Analyzer installation are contained in the following category:  
   
--   **Network** category — the built-in **Pattern** expressions that are available in this category consist of the following:  
+- **Network** category — the built-in **Pattern** expressions that are available in this category consist of the following:  
   
-    -   **FTP Port Negotiate Failure** — locates negotiated FTP ports that are blocked with a Reset or fail to respond to a TCP SYN.  
+  -   **FTP Port Negotiate Failure** — locates negotiated FTP ports that are blocked with a Reset or fail to respond to a TCP SYN.  
   
-    -   **FTP Port Negotiate Success** — searches for occurrences of FTP ports that are negotiated and then successfully set up as a TCP session.  
+  -   **FTP Port Negotiate Success** — searches for occurrences of FTP ports that are negotiated and then successfully set up as a TCP session.  
   
-    -   **RPC Endpoint Mapper Failure** — searches for RPC ports that are negotiated through the RPC endpoint mapper, but blocked by the firewall or are ignored.  
+  -   **RPC Endpoint Mapper Failure** — searches for RPC ports that are negotiated through the RPC endpoint mapper, but blocked by the firewall or are ignored.  
   
-    -   **RPC Endpoint Mapper Success** — locates occurrences of RPC port negotiation and of subsequent successful negotiation of a TCP session.  
+  -   **RPC Endpoint Mapper Success** — locates occurrences of RPC port negotiation and of subsequent successful negotiation of a TCP session.  
   
-    -   **Sack Detection** — searches for all selective acknowledgement (SACK) messages, which indirectly indicate the same network issues that cause TCP retransmits to occur, providing that SACK is enabled.  
+  -   **Sack Detection** — searches for all selective acknowledgement (SACK) messages, which indirectly indicate the same network issues that cause TCP retransmits to occur, providing that SACK is enabled.  
   
-    -   **TCP Connect Scan** — returns TCP sessions that are actively reset by the destination. Can be useful to find malware scans on the network.  
+  -   **TCP Connect Scan** — returns TCP sessions that are actively reset by the destination. Can be useful to find malware scans on the network.  
   
-    -   **TCP FIN Stealth Scan** — searches for matches to TCP three-way handshakes that have no response, as an indication that a port is blocked or not listening. A significant number of matches could indicate network scanning is taking place.  
+  -   **TCP FIN Stealth Scan** — searches for matches to TCP three-way handshakes that have no response, as an indication that a port is blocked or not listening. A significant number of matches could indicate network scanning is taking place.  
   
-    -   **TCP Inactive Session Scan** — searches for TCP sessions where connection attempts have no response from an inactive port, which could be an indication of a security attack.  
+  -   **TCP Inactive Session Scan** — searches for TCP sessions where connection attempts have no response from an inactive port, which could be an indication of a security attack.  
   
-    -   **TCP Retransmit Pairs** — enables you to identify pairs of retransmitted TCP messages with the same sequence and acknowledgement numbers and an identical payload size, that occurred in the current set of messages.  
+  -   **TCP Retransmit Pairs** — enables you to identify pairs of retransmitted TCP messages with the same sequence and acknowledgement numbers and an identical payload size, that occurred in the current set of messages.  
   
-    -   **TCP Syn Half Open Connections** — searches for TCP Syn/half open connections, such as a session that had a response where a port was opened but then Reset. Could indicate a port attack, for example, a denial of service (DoS) attack.  
+  -   **TCP Syn Half Open Connections** — searches for TCP Syn/half open connections, such as a session that had a response where a port was opened but then Reset. Could indicate a port attack, for example, a denial of service (DoS) attack.  
   
-    -   **Three-Way Handshake** — enables you to isolate all three-way handshakes that occurred when setting up TCP connections, for both IPv4 and IPv6 transports, in the current set of messages. Also displays the approximate round trip time as the time delta between Syn messages and Syn Acknowledgement messages.  
+  -   **Three-Way Handshake** — enables you to isolate all three-way handshakes that occurred when setting up TCP connections, for both IPv4 and IPv6 transports, in the current set of messages. Also displays the approximate round trip time as the time delta between Syn messages and Syn Acknowledgement messages.  
   
- > [!NOTE]
- >  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
+  > [!NOTE]
+  >  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
   
--   **TLS** category — the built-in **Pattern** expressions that are available in this category are described below.  
+- **TLS** category — the built-in **Pattern** expressions that are available in this category are described below.  
   
-    -   **TLS Negotiation** — detects TLS sessions in which connection requests were initiated by a TLS client where the Session ID = 0, in other words, a cached Session ID was not used.  
+  -   **TLS Negotiation** — detects TLS sessions in which connection requests were initiated by a TLS client where the Session ID = 0, in other words, a cached Session ID was not used.  
   
-         The server then issues a Session ID to the client, which the client may or may not cache for use in subsequent connection requests. By caching the Session ID, the client can reuse the existing ID as a shortcut to facilitate subsequent connection requests, as required.  
+       The server then issues a Session ID to the client, which the client may or may not cache for use in subsequent connection requests. By caching the Session ID, the client can reuse the existing ID as a shortcut to facilitate subsequent connection requests, as required.  
   
-    -   **TLS Renegotiate** —           detects TLS sessions in which connection requests were initiated by a TLS client and the Session ID > 0, in other words, a cached Session ID was used.  
+  -   **TLS Renegotiate** —           detects TLS sessions in which connection requests were initiated by a TLS client and the Session ID > 0, in other words, a cached Session ID was used.  
   
-         When a connection request for a TLS session is initiated by a TLS client and it reuses an existing Session ID, the client request is renegotiated to the TLS server with the use of a cached Session ID. However, during renegotiation, not all the TLS session information is represented on the wire.  When this occurs, Message Analyzer’s decryption expert is unable to decrypt these renegotiated          sessions.  
+       When a connection request for a TLS session is initiated by a TLS client and it reuses an existing Session ID, the client request is renegotiated to the TLS server with the use of a cached Session ID. However, during renegotiation, not all the TLS session information is represented on the wire.  When this occurs, Message Analyzer’s decryption expert is unable to decrypt these renegotiated          sessions.  
   
 Therefore, the primary scenario in which you might execute these TLS **Pattern** expressions is when you run decryption against a set of trace results and you discover that decryption did not successfully occur, or a  connection in which you were interested was not decrypted. By executing these **Pattern** expressions, you might  learn that one or more connections in question were renegotiated. For example, you could determine this by examining which session connection requests were negotiated with an existing/cached Session ID and which ones were not.  
   
@@ -71,24 +71,24 @@ Therefore, the primary scenario in which you might execute these TLS **Pattern**
 
  When you execute a **Pattern** expression, the results first display in the **MATCHES** pane of the **Pattern Match** viewer in a Matched pattern selector. To display the matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer for the results of an executed **Pattern** expression, you can simply click the corresponding Matched pattern selector check box. This selector also has labels and controls that provide the following information or functions, respectively:  
   
--   **Matched instance count** — a label that indicates the number of matched instances that were returned by an executed **Pattern** expression.  
+- **Matched instance count** — a label that indicates the number of matched instances that were returned by an executed **Pattern** expression.  
   
--   **Message count** — a label that indicates the total number of messages associated with all matched instances that were returned by an executed **Pattern** expression.  
+- **Message count** — a label that indicates the total number of messages associated with all matched instances that were returned by an executed **Pattern** expression.  
   
--   **Information icon** — can link to a site that contains support information for the type of **Pattern** expression that Message Analyzer executed. For example, the Information icon in the Matched pattern selector for the built-in **TCP Three-Way Handshake** pattern takes you to a site that provides more information about three-way handshake patterns. Note that you can specify a custom site to link to with the use of the **Remediation** feature when you are configuring a **Pattern** expression of your own.  
+- **Information icon** — can link to a site that contains support information for the type of **Pattern** expression that Message Analyzer executed. For example, the Information icon in the Matched pattern selector for the built-in **TCP Three-Way Handshake** pattern takes you to a site that provides more information about three-way handshake patterns. Note that you can specify a custom site to link to with the use of the **Remediation** feature when you are configuring a **Pattern** expression of your own.  
   
--   **Pattern expression name** — a label that indicates the name of the executed **Pattern** expression. Hover over this label with your mouse to display a tooltip with summary information for a particular results set, which can include a **Description** of the **Pattern** expression.  
+- **Pattern expression name** — a label that indicates the name of the executed **Pattern** expression. Hover over this label with your mouse to display a tooltip with summary information for a particular results set, which can include a **Description** of the **Pattern** expression.  
   
--   **Check to include matches in the Instance list** check box — by placing a check mark in this check box or by removing it, you can alternately show or hide the results of an executed **Pattern** expression in the **MATCHED INSTANCES** list, respectively. This is useful when you are displaying multiple Matched pattern selectors that result from executing multiple **Pattern** expressions that returned data. By selecting and deselecting different Matched pattern selectors in the **MATCHES** pane, you can alternately display or hide the matched instances of any results set.  
+- **Check to include matches in the Instance list** check box — by placing a check mark in this check box or by removing it, you can alternately show or hide the results of an executed **Pattern** expression in the **MATCHED INSTANCES** list, respectively. This is useful when you are displaying multiple Matched pattern selectors that result from executing multiple **Pattern** expressions that returned data. By selecting and deselecting different Matched pattern selectors in the **MATCHES** pane, you can alternately display or hide the matched instances of any results set.  
   
- > [!NOTE]
- >  If you are already displaying matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer that result from executing a particular **Pattern** expression, you should unselect the corresponding Matched pattern selector for such  **Pattern** expression results before you attempt to display the results of another **Pattern** expression execution by clicking a different Matched pattern selector. Otherwise, it could be more difficult to locate the latter data in the **MATCHED INSTANCES** pane, given that it is chronologically ordered and could be buried amidst other data.  
+  > [!NOTE]
+  >  If you are already displaying matched instances in the **MATCHED INSTANCES** pane of the **Pattern Match** viewer that result from executing a particular **Pattern** expression, you should unselect the corresponding Matched pattern selector for such  **Pattern** expression results before you attempt to display the results of another **Pattern** expression execution by clicking a different Matched pattern selector. Otherwise, it could be more difficult to locate the latter data in the **MATCHED INSTANCES** pane, given that it is chronologically ordered and could be buried amidst other data.  
   
--   **Additional Options** drop-down menu — by clicking the black drop-down arrow on any Matched pattern selector, a menu appears with the following commands:  
+- **Additional Options** drop-down menu — by clicking the black drop-down arrow on any Matched pattern selector, a menu appears with the following commands:  
   
-    -   **Open Messages in Analysis Grid** — enables you to display the messages associated with a particular Matched pattern selector in the **Analysis Grid** viewer, for example, to examine message details or the message stack.  
+  -   **Open Messages in Analysis Grid** — enables you to display the messages associated with a particular Matched pattern selector in the **Analysis Grid** viewer, for example, to examine message details or the message stack.  
   
-    -   **Open Pattern Messages in Gantt** — enables you to display the messages associated with a particular Matched pattern selector in the **Gantt** viewer, for example, to examine the time window in which the matched instance messages occurred, along with source and destination IP address information.  
+  -   **Open Pattern Messages in Gantt** — enables you to display the messages associated with a particular Matched pattern selector in the **Gantt** viewer, for example, to examine the time window in which the matched instance messages occurred, along with source and destination IP address information.  
   
 ## Removing Pattern Match Data  
 

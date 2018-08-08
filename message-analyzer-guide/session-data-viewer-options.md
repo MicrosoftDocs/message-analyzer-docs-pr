@@ -30,19 +30,19 @@ After you use the **New Session** dialog to configure either a Data Retrieval Se
 ## Locating Data Viewers for Selection  
  You can specify any of the available Message Analyzer data viewers from the common data viewer Library that is accessible in each of the following locations:  
   
--   **Data Retrieval Session** configuration — provides data viewer selections from the common **Start With** drop-down list in the **New Session** dialog during session configuration.  
+- **Data Retrieval Session** configuration — provides data viewer selections from the common **Start With** drop-down list in the **New Session** dialog during session configuration.  
   
--   **Live Trace Session** configuration — provides data viewer selections from the common **Start With** drop-down list in the **New Session** dialog during session configuration.  
+- **Live Trace Session** configuration — provides data viewer selections from the common **Start With** drop-down list in the **New Session** dialog during session configuration.  
   
--   **New Viewer** — a drop-down list that is accessible from the following locations during an Analysis Session:  
+- **New Viewer** — a drop-down list that is accessible from the following locations during an Analysis Session:  
   
-    -   Global Message Analyzer **Session** menu, but only when a **Chart** is currently being displayed.  
+  -   Global Message Analyzer **Session** menu, but only when a **Chart** is currently being displayed.  
   
-    -   Global Message Analyzer toolbar.  
+  -   Global Message Analyzer toolbar.  
   
-    -   The **Session Explorer** **Tool Window** context menu that is accessible by right-clicking any session node or viewer node in the **Session Explorer** window. The context menu provides access to the **New Viewer** drop-down list, from where you can choose either a data viewer or a **Chart** viewer **Layout**.  
+  -   The **Session Explorer** **Tool Window** context menu that is accessible by right-clicking any session node or viewer node in the **Session Explorer** window. The context menu provides access to the **New Viewer** drop-down list, from where you can choose either a data viewer or a **Chart** viewer **Layout**.  
   
- The **New Viewer** drop-down list provides the same data viewer selections that are accessible from all the previously described locations. The different data viewers that you specify from the **New Viewer** drop-down list work with Live Trace Session or Data Retrieval Session *results* only, as previously indicated.  
+  The **New Viewer** drop-down list provides the same data viewer selections that are accessible from all the previously described locations. The different data viewers that you specify from the **New Viewer** drop-down list work with Live Trace Session or Data Retrieval Session *results* only, as previously indicated.  
   
 Specifying a different data viewer typically adds a separate viewer tab that contains an alternate data presentation format for the specific session that you choose, while retaining all other data viewers already in place for the chosen session. Note that the different data viewers that you specify for the *results* of a Live Trace Session or Data Retrieval Session create various data presentations, but do not modify the original contents of the trace or loaded message collection.  
   

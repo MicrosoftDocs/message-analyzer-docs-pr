@@ -35,7 +35,7 @@ Message Analyzer has a default **Message Analyzer** subscriber feed that connect
   
 ## Restoring the Default Message Analyzer Feed  
 
- To restore the **Message Analyzer** subscriber feed, click the **Add New Feed** button to display the **Add Feed Location** dialog. In the **Feed Name** text box, enter the text “Message Analyzer”. In the **Location** text box, enter the URL of the default **Message Analyzer** feed as “http://go.microsoft.com/fwlink/?LinkID=401500”. After you click **Add** to exit the dialog, all of the default asset collections and **OPN Parser** packages display on the **Downloads** tab under the default **Message Analyzer** feed with the server download status icon displaying to the right of each asset collection and parser package.  
+ To restore the **Message Analyzer** subscriber feed, click the **Add New Feed** button to display the **Add Feed Location** dialog. In the **Feed Name** text box, enter the text “Message Analyzer”. In the **Location** text box, enter the URL of the default **Message Analyzer** feed as “<http://go.microsoft.com/fwlink/?LinkID=401500”>. After you click **Add** to exit the dialog, all of the default asset collections and **OPN Parser** packages display on the **Downloads** tab under the default **Message Analyzer** feed with the server download status icon displaying to the right of each asset collection and parser package.  
   
  To restore all collections at once to the **Message Analyzer** category of your local user Libraries, click the **Sync All Displayed Items** on the **Downloads** tab.  
   

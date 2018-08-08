@@ -38,18 +38,18 @@ The message **Details** **Tool Window** is one of the primary windows that is dr
   
 The grid configuration for inline message details that are displayed in the **Fields** tab consist of the following columns of information:  
   
--   **Name** — describes the names of the fields contained in the message you selected in the **Analysis Grid** viewer.  
+- **Name** — describes the names of the fields contained in the message you selected in the **Analysis Grid** viewer.  
   
--   **Value** — specifies the value of each field name that is contained in the message you selected in the **Analysis Grid** viewer.  
+- **Value** — specifies the value of each field name that is contained in the message you selected in the **Analysis Grid** viewer.  
   
- > [!NOTE]
- >  The inline **Details** now include a  Bit Field display for **Flag** fields. For example, if you expand the **Flags** field in a TCP message, you will see a visual representation of each flag value in an 8-bit field that appears in parentheses in the **Value** field, for example:  (. . .0. . . .) for ACK and (. . . . . .1.) for SYN. Note that the same visual representation appears in the **Details** **Tool Window**.  
+  > [!NOTE]
+  >  The inline **Details** now include a  Bit Field display for **Flag** fields. For example, if you expand the **Flags** field in a TCP message, you will see a visual representation of each flag value in an 8-bit field that appears in parentheses in the **Value** field, for example:  (. . .0. . . .) for ACK and (. . . . . .1.) for SYN. Note that the same visual representation appears in the **Details** **Tool Window**.  
   
--   **Type** — specifies the data type for the fields contained in the selected message.  
+- **Type** — specifies the data type for the fields contained in the selected message.  
   
--   **Bit Offset** — specifies the offset value in bits for each data field, as measured from the beginning of message data to the beginning of a particular data field.  
+- **Bit Offset** — specifies the offset value in bits for each data field, as measured from the beginning of message data to the beginning of a particular data field.  
   
--   **Bit Length** — specifies the value in bits for the length of each data field.  
+- **Bit Length** — specifies the value in bits for the length of each data field.  
   
 > [!NOTE]
 >  The *inline* message details do not interact with the **Message Data** **Tool Window**. Only if you select a particular field in the **Details** window will you see a corresponding hexadecimal value highlighted in the **Message Data** window.  
@@ -63,47 +63,47 @@ The grid configuration for inline message details that are displayed in the **Fi
  **Using the Context Menu Commands**   
 You can also create Filter Expressions, add **Analysis Grid** viewer columns, and perform **Group** operations based on data fields in the **Details** window. In addition, you can display the OPN definition for most data fields that you select. Commands for these operations and others are located on a context menu that displays when you right-click any row of field data in the **Details** window. These commands and the actions that result when you select them are described in the list that follows. In this list, the single-quoted *fieldname* values are placeholders for the actual field names that display in the **Name** column of the **Details** window:  
   
--   **Add ‘\<fieldName>’ to  Filter** — captures the name of the selected field within the associated message hierarchy, together with any value that applies, and constructs a Filter Expression that displays in a **Filter** panel text box on the Filtering Toolbar. This action does not apply the filter, as you must manually do that by clicking the **Apply** button, on a **Filter** panel of the Filtering Toolbar. This action filters the data displayed in any session viewer tab that has focus, for example, an **Analysis Grid** or **Gantt** viewer instance.  
+- **Add ‘\<fieldName>’ to  Filter** — captures the name of the selected field within the associated message hierarchy, together with any value that applies, and constructs a Filter Expression that displays in a **Filter** panel text box on the Filtering Toolbar. This action does not apply the filter, as you must manually do that by clicking the **Apply** button, on a **Filter** panel of the Filtering Toolbar. This action filters the data displayed in any session viewer tab that has focus, for example, an **Analysis Grid** or **Gantt** viewer instance.  
   
--   **Add ‘\<fieldName>’ as Column** — captures the name of the selected field within the associated message hierarchy and adds a new named column to the current **Analysis Grid** viewer column layout, based on the selected field name. Message Analyzer populates that new data column with information that derives from the current message collection.  
+- **Add ‘\<fieldName>’ as Column** — captures the name of the selected field within the associated message hierarchy and adds a new named column to the current **Analysis Grid** viewer column layout, based on the selected field name. Message Analyzer populates that new data column with information that derives from the current message collection.  
   
   > [!NOTE]
   >  An **Analysis Grid** viewer session tab must have the active focus for this command to appear in the **Details** window context menu.  
   
--   **Add ‘\<fieldName>’ as Grouping** — captures the name of the selected field within the associated message hierarchy and performs a data grouping operation based on the selected field name.  
+- **Add ‘\<fieldName>’ as Grouping** — captures the name of the selected field within the associated message hierarchy and performs a data grouping operation based on the selected field name.  
   
- > [!NOTE]
- >  When an **Analysis Grid** viewer session tab is in focus, this command creates a Grouped view of data based on the selected field name. If a Grouped view already exists in the **Analysis Grid** viewer, the new Group that you add will be configured at the lowest level of the nested group configuration. If the single-instance **Grouping** viewer has focus, this command causes a new Group to be added to the current **Grouping** viewer **Layout** at the lowest level of the nested group configuration.  
+  > [!NOTE]
+  >  When an **Analysis Grid** viewer session tab is in focus, this command creates a Grouped view of data based on the selected field name. If a Grouped view already exists in the **Analysis Grid** viewer, the new Group that you add will be configured at the lowest level of the nested group configuration. If the single-instance **Grouping** viewer has focus, this command causes a new Group to be added to the current **Grouping** viewer **Layout** at the lowest level of the nested group configuration.  
   
--   **Go To ‘\<fieldName>’ Definition** — captures the name of the selected field within the associated message hierarchy and causes Message Analyzer to display the **OPN Viewer**. The selected field is highlighted in yellow within the OPN definition code that displays.  
+- **Go To ‘\<fieldName>’ Definition** — captures the name of the selected field within the associated message hierarchy and causes Message Analyzer to display the **OPN Viewer**. The selected field is highlighted in yellow within the OPN definition code that displays.  
   
--   **Include Hex for Numerical Values** — when selected, this option displays hexadecimal values in parentheses next to the numerical values in the **Value** column of the **Details** window. Unselecting this option removes the hexadecimal values.  
+- **Include Hex for Numerical Values** — when selected, this option displays hexadecimal values in parentheses next to the numerical values in the **Value** column of the **Details** window. Unselecting this option removes the hexadecimal values.  
   
--   **Display Binary Values as** — provides three options that determine the default format in which Message Analyzer displays binary values, for example, in the **Details** window and the **Analysis Grid** viewer. Options include **ASCII**, **Hex**, and **Decimal**.  
+- **Display Binary Values as** — provides three options that determine the default format in which Message Analyzer displays binary values, for example, in the **Details** window and the **Analysis Grid** viewer. Options include **ASCII**, **Hex**, and **Decimal**.  
   
-     You can set one of these as the default value in the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu; however, you can also override the default setting from the **Display Binary Values as** context menu. Message Analyzer installs with **ASCII** as the default setting, which can be useful in exposing additional information, for example, in **Payload** fields that otherwise display values as array elements only when the **Hex** or **Decimal** option is active.  
+   You can set one of these as the default value in the **Options** dialog, which is accessible from the global Message Analyzer **Tools** menu; however, you can also override the default setting from the **Display Binary Values as** context menu. Message Analyzer installs with **ASCII** as the default setting, which can be useful in exposing additional information, for example, in **Payload** fields that otherwise display values as array elements only when the **Hex** or **Decimal** option is active.  
   
--   **Track ‘\<entityName>’** — enables you to track the value of a particular field or property in the **Details** window, depending on which of the following **Details** toolbar buttons is selected. Note that you can hover over the **Details** toolbar buttons with your mouse to display a tooltip that identifies them:  
+- **Track ‘\<entityName>’** — enables you to track the value of a particular field or property in the **Details** window, depending on which of the following **Details** toolbar buttons is selected. Note that you can hover over the **Details** toolbar buttons with your mouse to display a tooltip that identifies them:  
   
-    -   **Show all fields for the selected message** — displays all message field **Names** and **Values** in the **Details** window. From here, you can right-click any field and select the **Track ‘<entityName’** context menu command to cause Message Analyzer to track the field value across multiple message selections.  
+  - **Show all fields for the selected message** — displays all message field **Names** and **Values** in the **Details** window. From here, you can right-click any field and select the **Track ‘<entityName’** context menu command to cause Message Analyzer to track the field value across multiple message selections.  
   
-    -   **Show all properties for the selected message**— displays all message property **Names** and **Values** in the **Details** window. From here, you can right-click any property and select the **Track ‘\<entityName’** context menu command to cause Message Analyzer to track the property value across multiple message selections. The properties that appear after you click the properties button on the **Details** window toolbar exist in two categories:  
+  - **Show all properties for the selected message**— displays all message property **Names** and **Values** in the **Details** window. From here, you can right-click any property and select the **Track ‘\<entityName’** context menu command to cause Message Analyzer to track the property value across multiple message selections. The properties that appear after you click the properties button on the **Details** window toolbar exist in two categories:  
   
-        -   **Global** — this category contains annotations and properties that exist under the **Global Annotations** and **Global Properties** nodes in the **Field Chooser**  **Tool Window**. These properties apply to all messages.  
+    -   **Global** — this category contains annotations and properties that exist under the **Global Annotations** and **Global Properties** nodes in the **Field Chooser**  **Tool Window**. These properties apply to all messages.  
   
-        -   **Message** — this category is named according to a selected message type, for example, SMB, TCP, HTTP, and so on. It contains properties that are specific to the currently selected message only.  
+    -   **Message** — this category is named according to a selected message type, for example, SMB, TCP, HTTP, and so on. It contains properties that are specific to the currently selected message only.  
   
-     Note that the **Global** properties are additional resources that you can use when creating filters, column configurations, and grouping configurations through the  context menu that displays when you right-click a property.  
+    Note that the **Global** properties are additional resources that you can use when creating filters, column configurations, and grouping configurations through the  context menu that displays when you right-click a property.  
   
-     **Comparing Field Values**   
+    **Comparing Field Values**   
     Any fields and properties that you have set for tracking values appear in the **Details** window when you click the **Show tracked fields and properties for the selected message** button. You can set a field or property for tracking in the previously specified manner. Once Message Analyzer is tracking a field or property, click the **Details** toolbar button with the footprint icon to display the value/s. Thereafter, you can select different messages in the **Analysis Grid** viewer and observe how values vary across your trace results, for enhanced analysis.  
   
   > [!TIP]
   >  If you have the [Selection Tool Window](selection-tool-window.md) set for tracking messages, you can conveniently backtrack to previous message selections to view tracked field and property values.  
   
--   **Copy Selected Rows** — enables you to copy one or more selected rows of data in the **Details** window to the clipboard.  
+- **Copy Selected Rows** — enables you to copy one or more selected rows of data in the **Details** window to the clipboard.  
   
--   **Copy ‘\<fieldname>’** — enables you to copy a specific field name to the clipboard.  
+- **Copy ‘\<fieldname>’** — enables you to copy a specific field name to the clipboard.  
   
   > [!TIP]
   >  You can also use the keyboard shortcuts **Ctrl+C** and **Ctrl+Alt+C** to initiate the **Copy Selected Rows** and **Copy ‘\<fieldname>’** commands, respectively.  

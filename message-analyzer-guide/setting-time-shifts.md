@@ -45,17 +45,17 @@ After you open the **Shift Time** dialog shown in the figure below, you can appl
 
  There are two different contexts in which you can open the **Shift Time** dialog, as follows:  
   
--   **Without message context** — if you open the **Shift Time** dialog with no messages selected in the **Analysis Grid** viewer, the dialog is entered *without message context*, where the **Time Stamp** option and related controls are disabled and contain no prepopulated values. This context automatically selects the **Time Shift** option when the **Shift Time** dialog opens, which provides the controls to configure an explicit time shift.  
+- **Without message context** — if you open the **Shift Time** dialog with no messages selected in the **Analysis Grid** viewer, the dialog is entered *without message context*, where the **Time Stamp** option and related controls are disabled and contain no prepopulated values. This context automatically selects the **Time Shift** option when the **Shift Time** dialog opens, which provides the controls to configure an explicit time shift.  
   
-     You can set an explicit time shift to compensate for **Timestamp** differences, by incrementing or decrementing all message **Timestamps** for selected data sources, to adjust for hour, minute, and second value displacements with up to 7 decimal digits resolution. You might use this context because you know that the messages from a particular data source need a time shift and you know what that value is.  
+   You can set an explicit time shift to compensate for **Timestamp** differences, by incrementing or decrementing all message **Timestamps** for selected data sources, to adjust for hour, minute, and second value displacements with up to 7 decimal digits resolution. You might use this context because you know that the messages from a particular data source need a time shift and you know what that value is.  
   
--   **With message context** — if you open the dialog while a message is selected in the **Analysis Grid** viewer, the dialog is entered *with message context*, where the **Time Stamp** option controls are enabled and contain prepopulated values associated with the selected message. This context provides options to configure a time shift based on the **Timestamp** value of a selected message, where you can accommodate for message **Timestamp** differences between data sources by specifying settings that calculate the following:  
+- **With message context** — if you open the dialog while a message is selected in the **Analysis Grid** viewer, the dialog is entered *with message context*, where the **Time Stamp** option controls are enabled and contain prepopulated values associated with the selected message. This context provides options to configure a time shift based on the **Timestamp** value of a selected message, where you can accommodate for message **Timestamp** differences between data sources by specifying settings that calculate the following:  
   
-    -   A change to the date of all message **Timestamps** in selected data sources.  
+  -   A change to the date of all message **Timestamps** in selected data sources.  
   
-    -   An incremental or decremental **Timestamp** change to all messages in selected data sources, by making adjustments to hour, minute, and second value displacements with up to 7 decimal digits resolution.  
+  -   An incremental or decremental **Timestamp** change to all messages in selected data sources, by making adjustments to hour, minute, and second value displacements with up to 7 decimal digits resolution.  
   
- You might be using this context because you discovered during analysis that messages from a particular data source need a time shift and you want to calculate the shift based on a known/selected message **Timestamp** value.  
+  You might be using this context because you discovered during analysis that messages from a particular data source need a time shift and you want to calculate the shift based on a known/selected message **Timestamp** value.  
   
 ## Context-Enabled Dialog Controls  
 
@@ -73,24 +73,24 @@ When you open the **Shift Time** dialog *with message context*, that is, while a
 
  The controls in the **Shift Time** dialog provide time shift functionality as follows:  
   
--   **Time Shift** option — enables the following controls that allow you to set an incremental time shift value — in hours, minutes, and seconds, with up to 7 decimal digits resolution — that alters all message **Timestamps** in selected data sources:  
+- **Time Shift** option — enables the following controls that allow you to set an incremental time shift value — in hours, minutes, and seconds, with up to 7 decimal digits resolution — that alters all message **Timestamps** in selected data sources:  
   
-    -   **Time Shift** drop-down — sets the arithmetic operator for the time shift, by specifying either the **Add** or **Subtract** menu item.  
+  -   **Time Shift** drop-down — sets the arithmetic operator for the time shift, by specifying either the **Add** or **Subtract** menu item.  
   
-    -   **Time Shift** up-down — sets the actual incremental time shift value that you apply to selected data sources.  
+  -   **Time Shift** up-down — sets the actual incremental time shift value that you apply to selected data sources.  
   
-    -   **Time Shift** spin — works interactively with the **Time Shift** up-down control by enabling you to place your mouse cursor in any of the spin control fields, consisting of hh:mm:ss.ddddddd, and click the up or down arrows to add or subtract a specified increment of time, respectively.  
+  -   **Time Shift** spin — works interactively with the **Time Shift** up-down control by enabling you to place your mouse cursor in any of the spin control fields, consisting of hh:mm:ss.ddddddd, and click the up or down arrows to add or subtract a specified increment of time, respectively.  
   
--   **Time Stamp** option — enables the following controls to allow you to set an incremental time shift value and/or change the calendar date for all messages in selected data sources:  
+- **Time Stamp** option — enables the following controls to allow you to set an incremental time shift value and/or change the calendar date for all messages in selected data sources:  
   
- > [!NOTE]
- >  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
+  > [!NOTE]
+  >  If you enter the **Shift Time** dialog *with message context*, the **Time Stamp** controls reflect the date-time stamp values of the message that is currently selected in the **Analysis Grid** viewer.  
   
   -   **Date** — consists of a date control that drops down when you click it. Enables you to specify a date that shifts the **Timestamp** values of all messages in selected data sources in 24-hour increments.  
 
   -   **Time Stamp** up-down and spin — works interactively to enable you to add or subtract a specified increment of time, as previously described.  
   
--   **Apply Time Shift to Data Sources** pane — specifies time shift statistics that include **Current Shift**, **Updated Shift**, and **Shift Difference** values. Also specifies the data sources for the current session in the **Data Source** column.  
+- **Apply Time Shift to Data Sources** pane — specifies time shift statistics that include **Current Shift**, **Updated Shift**, and **Shift Difference** values. Also specifies the data sources for the current session in the **Data Source** column.  
   
 ## Time Shift Example  
 

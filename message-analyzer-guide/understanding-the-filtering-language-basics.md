@@ -33,24 +33,24 @@ To assist you in understanding the Filtering Language, you should experiment wit
   
 You can also apply the following relational operators to applicable Filter Expressions when you need to restrict fields to specific values:  
   
--   **==** — Equals. An operator that evaluates two filter expression operands for value equality.  
+- **==** — Equals. An operator that evaluates two filter expression operands for value equality.  
   
--   **!=** — Not equals. An operator that evaluates two filter expression operands for value inequality. Note that this operator also evaluates nonexistence as a form of negation.  
+- **!=** — Not equals. An operator that evaluates two filter expression operands for value inequality. Note that this operator also evaluates nonexistence as a form of negation.  
   
--   **~=** — Not equals. This operator negates the condition on a value only but does not evaluate nonexistence as a form of negation.  
+- **~=** — Not equals. This operator negates the condition on a value only but does not evaluate nonexistence as a form of negation.  
   
- > [!NOTE]
- >  The following examples further clarify the difference between the “!=” and “~=” operators. A filter expression such as `TCP.SourcePort != 443` returns all TCP messages that have a **SourcePort** value that is not equal to 443, together with all messages that are not TCP. By using the ~= operator in this expression, for example `TCP.SourcePort ~= 443`, the condition on the value is negated and the filter expression will return TCP messages with a **SourcePort** that is not equal to 443, but non-TCP messages will not also be included.  
+  > [!NOTE]
+  >  The following examples further clarify the difference between the “!=” and “~=” operators. A filter expression such as `TCP.SourcePort != 443` returns all TCP messages that have a **SourcePort** value that is not equal to 443, together with all messages that are not TCP. By using the ~= operator in this expression, for example `TCP.SourcePort ~= 443`, the condition on the value is negated and the filter expression will return TCP messages with a **SourcePort** that is not equal to 443, but non-TCP messages will not also be included.  
   
--   **>** — Greater than. This operator is used to evaluate whether one filter expression operand is greater than the other.  
+- **>** — Greater than. This operator is used to evaluate whether one filter expression operand is greater than the other.  
   
--   **>=** — Greater than or equal to. This operator is used to evaluate whether one filter expression operand is greater than or equal to the other.  
+- **>=** — Greater than or equal to. This operator is used to evaluate whether one filter expression operand is greater than or equal to the other.  
   
--   **<** — Less than. This operator is used to evaluate whether one filter expression operand is less than the other.  
+- **<** — Less than. This operator is used to evaluate whether one filter expression operand is less than the other.  
   
--   **<=** — Less than or equal to. This operator is used to evaluate whether one filter expression operand is less than or equal to the other.  
+- **<=** — Less than or equal to. This operator is used to evaluate whether one filter expression operand is less than or equal to the other.  
   
--   **in** — Membership in an array, set, or map. This operator is used in a filter expression to determine whether a particular left-side field or literal value exists in a user-specified right-side collection of values, such as an array. For example: `IPv4.Address in [192.0.1.1, 192.0.0.0, 192.0.0.2]` or `TCP.SourcePort in [6608, 6609, 6610]`.  
+- **in** — Membership in an array, set, or map. This operator is used in a filter expression to determine whether a particular left-side field or literal value exists in a user-specified right-side collection of values, such as an array. For example: `IPv4.Address in [192.0.1.1, 192.0.0.0, 192.0.0.2]` or `TCP.SourcePort in [6608, 6609, 6610]`.  
   
 ---  
   

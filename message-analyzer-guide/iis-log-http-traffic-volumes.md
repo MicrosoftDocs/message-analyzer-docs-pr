@@ -21,9 +21,9 @@ The **IIS Log HTTP Traffic Volumes** view **Layout** for **Charts** enables you 
   
 > [!NOTE]
 >  An IIS.log file will be parsed only if you select the **IIS** configuration file in the **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **IIS Log HTTP Traffic Volumes** view **Layout**.  
->   
-  
->   
+> 
+> 
+> 
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
 

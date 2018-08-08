@@ -35,37 +35,37 @@ Message Analyzer enables you to create new **Color Rules** of your own design or
 ## Creating New Color Rules  
  To create a new **Color Rule** with the **Edit Color Rule** and to specify a **Category** in which to place it, you will need to do the following:  
   
--   Open the **Edit Color Rule** dialog by selecting the **New Color Rule** item from the **Color Rules** drop-down list on the **Analysis Grid** viewer toolbar.  
+- Open the **Edit Color Rule** dialog by selecting the **New Color Rule** item from the **Color Rules** drop-down list on the **Analysis Grid** viewer toolbar.  
   
--   Enter a name for the new **Color Rule** in the **Name** text box.  
+- Enter a name for the new **Color Rule** in the **Name** text box.  
   
--   Optionally describe the purpose of the **Color Rule** in the **Description** text box.  
+- Optionally describe the purpose of the **Color Rule** in the **Description** text box.  
   
--   Specify the **Category** that you want to contain the new rule, either by selecting an existing item from the drop-down menu of the **Category** combo box, or by typing a new category name in the **Category** combo box.  
+- Specify the **Category** that you want to contain the new rule, either by selecting an existing item from the drop-down menu of the **Category** combo box, or by typing a new category name in the **Category** combo box.  
   
--   Specify a Filter Expression for the new **Color Rule**.  
+- Specify a Filter Expression for the new **Color Rule**.  
   
-     To do this, you can manually configure a filter by entering the Filter Expression text directly in the filter text box below the **Edit Color Rule** dialog toolbar, or you can select a built-in Filter Expression from the centralized **Message Analyzer Filters** asset collection **Library**. If you want to manually configure a Filter Expression, the Filter IntelliSense service is available to provide statement completion assistance.  
+   To do this, you can manually configure a filter by entering the Filter Expression text directly in the filter text box below the **Edit Color Rule** dialog toolbar, or you can select a built-in Filter Expression from the centralized **Message Analyzer Filters** asset collection **Library**. If you want to manually configure a Filter Expression, the Filter IntelliSense service is available to provide statement completion assistance.  
   
- > [!NOTE]
- >  Whether you specify a manually configured Filter Expression or you modify one of the predefined expressions from the centralized **Library**, Message Analyzer automatically validates that the expression properly compiles when you attempt to **Save** the **Color Rule**. If the filter expression does not compile, you will be unable to save the new **Color Rule**.  
+  > [!NOTE]
+  >  Whether you specify a manually configured Filter Expression or you modify one of the predefined expressions from the centralized **Library**, Message Analyzer automatically validates that the expression properly compiles when you attempt to **Save** the **Color Rule**. If the filter expression does not compile, you will be unable to save the new **Color Rule**.  
   
--   Configure the decoration scheme for the new **Color Rule** by using the controls in the **Style**, **Weight**, **Lines**, and **Colors** panes of the **Edit Color Rule** dialog. As you modify the **Color Rule** decoration scheme, the configuration is displayed in the **Preview** pane at the bottom of the **Edit Color Rule** dialog.  
+- Configure the decoration scheme for the new **Color Rule** by using the controls in the **Style**, **Weight**, **Lines**, and **Colors** panes of the **Edit Color Rule** dialog. As you modify the **Color Rule** decoration scheme, the configuration is displayed in the **Preview** pane at the bottom of the **Edit Color Rule** dialog.  
   
-     For each **Color Rule** you create, be sure to specify a unique decoration and text scheme that will readily convey its status to you as a warning, reminder, or diagnostic alert. **Color Rule** decoration schemes consist of a combination of the following visual components:  
+   For each **Color Rule** you create, be sure to specify a unique decoration and text scheme that will readily convey its status to you as a warning, reminder, or diagnostic alert. **Color Rule** decoration schemes consist of a combination of the following visual components:  
   
-    -   **Foreground** (text), **Gradient Background**, and **Background** colors.  
+  -   **Foreground** (text), **Gradient Background**, and **Background** colors.  
   
-    -   **Normal**, **Italic**, and **Oblique** text styles.  
+  -   **Normal**, **Italic**, and **Oblique** text styles.  
   
-    -   **Normal** and **Bold** font styles.  
+  -   **Normal** and **Bold** font styles.  
   
-    -   **Normal**, **Underline**, **Strikethrough**, and **Overline** line text decorations.  
+  -   **Normal**, **Underline**, **Strikethrough**, and **Overline** line text decorations.  
   
--   Create the new **Color Rule** and **Category** (if you specified one) by clicking the **Save** button in the **Edit Color Rule** dialog.  
+- Create the new **Color Rule** and **Category** (if you specified one) by clicking the **Save** button in the **Edit Color Rule** dialog.  
   
- > [!NOTE]
- >  After you save a new **Color Rule** or an edited one, it is automatically applied to the current message collection displaying in the **Analysis Grid** viewer.  
+  > [!NOTE]
+  >  After you save a new **Color Rule** or an edited one, it is automatically applied to the current message collection displaying in the **Analysis Grid** viewer.  
   
 ## Modifying Color Rules  
 

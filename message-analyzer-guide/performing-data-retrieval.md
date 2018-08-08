@@ -23,24 +23,24 @@ This section describes the methods that you can use to retrieve input data to  l
 
  There are several methods that you can use to get data into Message Analyzer quickly. You can use these methods to find, load, and immediately display the contents of traces, logs, and other data file types that are described in [Locating Supported Input Data File Types](locating-supported-input-data-file-types.md). These methods consist of the following:  
   
--   **Open** feature — the fastest way to retrieve saved data with Message Analyzer is to use the **Open** feature that is located on the global Message Analyzer toolbar as a folder icon that contains a drop-down list, or you can use the **Open** command that is accessible from the Message Analyzer **File** menu. From either of these locations, you can select the **From File Explorer** command from the **Open** drop-down list to display the **Open** dialog, from where you can navigate to and select the files that contain the data of interest.  
+- **Open** feature — the fastest way to retrieve saved data with Message Analyzer is to use the **Open** feature that is located on the global Message Analyzer toolbar as a folder icon that contains a drop-down list, or you can use the **Open** command that is accessible from the Message Analyzer **File** menu. From either of these locations, you can select the **From File Explorer** command from the **Open** drop-down list to display the **Open** dialog, from where you can navigate to and select the files that contain the data of interest.  
   
- > [!NOTE]
- >  If you use the **Open** feature, you can load data from multiple files simultaneously.  
+  > [!NOTE]
+  >  If you use the **Open** feature, you can load data from multiple files simultaneously.  
 
- > [!TIP]
- >  You can also select the **From Other File Sources** command from the **Open** drop-down list, to display the **File Selector** dialog, from where you can target Azure logs as input to Message Analyzer.  
+  > [!TIP]
+  >  You can also select the **From Other File Sources** command from the **Open** drop-down list, to display the **File Selector** dialog, from where you can target Azure logs as input to Message Analyzer.  
   
--   **Drag-and-drop** method — you can retrieve saved data quickly by dragging-and-dropping one or more saved trace or log files onto various Message Analyzer locations, for example, the **Files** tab of a Data Retrieval Session, the **Session Explorer** **Tool Window**, or the **Start Page**.  
+- **Drag-and-drop** method — you can retrieve saved data quickly by dragging-and-dropping one or more saved trace or log files onto various Message Analyzer locations, for example, the **Files** tab of a Data Retrieval Session, the **Session Explorer** **Tool Window**, or the **Start Page**.  
   
- > [!IMPORTANT]
- >  If you elect to run Message Analyzer in Administrator mode, it can result in varying security contexts between applications. This means that you will be unable to use the drag-and-drop feature to open saved trace and log files in this mode.  
+  > [!IMPORTANT]
+  >  If you elect to run Message Analyzer in Administrator mode, it can result in varying security contexts between applications. This means that you will be unable to use the drag-and-drop feature to open saved trace and log files in this mode.  
   
--   **Windows Explorer** method — you can use **Windows Explorer** application to navigate to and select the saved files from which you want to retrieve data.  
+- **Windows Explorer** method — you can use **Windows Explorer** application to navigate to and select the saved files from which you want to retrieve data.  
   
--   **Recent Files** feature — the global Message Analyzer **File** menu contains a **Recent Files** list that enables you to quickly display data and resume your work from earlier sessions that you saved. You can quickly open one of the files in the list by clicking it and Message Analyzer will then display its data in the current default viewer.  
+- **Recent Files** feature — the global Message Analyzer **File** menu contains a **Recent Files** list that enables you to quickly display data and resume your work from earlier sessions that you saved. You can quickly open one of the files in the list by clicking it and Message Analyzer will then display its data in the current default viewer.  
   
--   **Ctrl+O** keyboard shortcut — you can use the keyboard shortcut `Ctrl+O` to display the **Open** dialog.  
+- **Ctrl+O** keyboard shortcut — you can use the keyboard shortcut `Ctrl+O` to display the **Open** dialog.  
   
 When you use these features to load data into Message Analyzer, the data loading process is immediately invoked in the background and the results quickly begin to display in the default data viewer, for example, the **Analysis Grid**. For this to occur, Message Analyzer automatically creates a new Data Retrieval Session that is implicitly named based on a default session name, which you can edit to customize as you wish. However, when using the previously described input methods, you can only edit the session name if you click the **Edit Session** icon on the global Message Analyzer toolbar *after* the data has loaded into Message Analyzer. The only exception to the automatic startup of a Data Retrieval Session using the previously described input methods is if you have selected a .log file for input to Message Analyzer. In this case, you will need to provide some additional configuration, as described in the next section.  
   

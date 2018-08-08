@@ -31,57 +31,57 @@ Each of the default tiles contain lines of data that are labeled according to pr
 ## Understanding the Default Summary Tiles  
  The functions of the default summary tiles are described as follows:  
   
--   **Stats** — provides an indication below the tile name, of the overall number of messages that were evaluated according to predefined criteria; below that is an overview of the following general data for the current set of trace results:  
+- **Stats** — provides an indication below the tile name, of the overall number of messages that were evaluated according to predefined criteria; below that is an overview of the following general data for the current set of trace results:  
   
-    -   **First->Last** — indicates the duration in milliseconds (ms) of the current trace.  
+  -   **First->Last** — indicates the duration in milliseconds (ms) of the current trace.  
   
-    -   **Last Time** — provides the timestamp of the last message in the current trace.  
+  -   **Last Time** — provides the timestamp of the last message in the current trace.  
   
-    -   **Last Module** — provides the name of the last module in the last message of the current trace.  
+  -   **Last Module** — provides the name of the last module in the last message of the current trace.  
   
-    -   **Last Source** — specifies the source IP address associated with the last message in the current trace.  
+  -   **Last Source** — specifies the source IP address associated with the last message in the current trace.  
   
-    -   **Last Destination** — specifies the destination IP address associated with the last message in the current trace.  
+  -   **Last Destination** — specifies the destination IP address associated with the last message in the current trace.  
   
-    > [!NOTE]
-    >  Double-clicking anywhere on this tile displays all trace messages in a new **Analysis Grid** viewer instance.  
+  > [!NOTE]
+  >  Double-clicking anywhere on this tile displays all trace messages in a new **Analysis Grid** viewer instance.  
   
--   **Diagnostics** — provides an indication below the tile name, of the overall number of messages that were evaluated according to predefined criteria; below that is an overview of the following diagnostic message data for the current set of trace results:  
+- **Diagnostics** — provides an indication below the tile name, of the overall number of messages that were evaluated according to predefined criteria; below that is an overview of the following diagnostic message data for the current set of trace results:  
   
-    -   **Application** — specifies the number of messages in the current trace that contain **Application** type diagnostic errors.  
+  -   **Application** — specifies the number of messages in the current trace that contain **Application** type diagnostic errors.  
   
-    -   **Custom** — an alternate type of diagnostic message. Currently a placeholder.  
+  -   **Custom** — an alternate type of diagnostic message. Currently a placeholder.  
   
-    -   **Insufficient Data** — specifies the number of messages in the current trace that contain **Insufficient Data** type diagnostic errors.  
+  -   **Insufficient Data** — specifies the number of messages in the current trace that contain **Insufficient Data** type diagnostic errors.  
   
-    -   **Parsing** — specifies the number of messages in the current trace that contain **Parsing** type diagnostic errors.  
+  -   **Parsing** — specifies the number of messages in the current trace that contain **Parsing** type diagnostic errors.  
   
-    -   **Validation** — specifies the number of messages in the current trace that contain **Validation** type diagnostic errors.  
+  -   **Validation** — specifies the number of messages in the current trace that contain **Validation** type diagnostic errors.  
   
   ---  
     
-   **More Information**   
-   **To learn more** about the meaning of diagnostic messages, see the [Diagnosis   Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.     
+  **More Information**   
+  **To learn more** about the meaning of diagnostic messages, see the [Diagnosis   Category](filtering-live-trace-session-results.md#BKMK_DiagnosisEnums) topic.     
   
   ---  
   
--   **Source** — provides an indication below the tile name, of the total number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count of the specific sender IP addresses with the top 5 highest message volumes for the current set of trace results.  
+- **Source** — provides an indication below the tile name, of the total number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count of the specific sender IP addresses with the top 5 highest message volumes for the current set of trace results.  
   
--   **Destination** — provides an indication below the tile name, of the overall number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count of the specific recipient IP addresses with the top 5 highest message volumes for the current set of trace results.  
+- **Destination** — provides an indication below the tile name, of the overall number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count of the specific recipient IP addresses with the top 5 highest message volumes for the current set of trace results.  
   
--   **Module** — provides an indication below the tile name, of the overall number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count for the specific protocols or modules with the top 5 highest message volumes for the current set of trace results.  
+- **Module** — provides an indication below the tile name, of the overall number of values that were evaluated in the top 5 according to predefined criteria; below that is the message count for the specific protocols or modules with the top 5 highest message volumes for the current set of trace results.  
   
--   **ResponseTime** — provides an indication below the tile name, of the overall value count for the evaluations performed according to predefined criteria. Below that are the following **ResponseTime** statistics for operations in the current set of trace results that specify the difference in milliseconds between the time a client request message is sent to a server and the time at which the first server response message is received by the client:  
+- **ResponseTime** — provides an indication below the tile name, of the overall value count for the evaluations performed according to predefined criteria. Below that are the following **ResponseTime** statistics for operations in the current set of trace results that specify the difference in milliseconds between the time a client request message is sent to a server and the time at which the first server response message is received by the client:  
   
-    -   **First Value** — specifies the **ResponseTime** for the *first* operation that was detected in the current set of trace results.  
+  -   **First Value** — specifies the **ResponseTime** for the *first* operation that was detected in the current set of trace results.  
   
-    -   **Last Value** — specifies the **ResponseTime** for the *last* operation that was detected in the current set of trace results.  
+  -   **Last Value** — specifies the **ResponseTime** for the *last* operation that was detected in the current set of trace results.  
   
-    -   **Minimum Value** — specifies the minimum **ResponseTime** value that was detected in the current set of trace results.  
+  -   **Minimum Value** — specifies the minimum **ResponseTime** value that was detected in the current set of trace results.  
   
-    -   **Maximum Value** — specifies the maximum **ResponseTime** value detected in the current set of trace results.  
+  -   **Maximum Value** — specifies the maximum **ResponseTime** value detected in the current set of trace results.  
   
- **Note** These statistics can quickly alert you when there is a problem with poorly performing servers, in terms of responses to client requests.  
+  **Note** These statistics can quickly alert you when there is a problem with poorly performing servers, in terms of responses to client requests.  
   
 > [!TIP]
 >  For additional summary information about any of the default summary tiles, hover over the number just below the tile name with your mouse to display a popup window that specifies related evaluation data.  

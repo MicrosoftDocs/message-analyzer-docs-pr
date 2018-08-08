@@ -64,17 +64,17 @@ An adapter is considered selected only when you select at least one of the **In*
 
  The **Advanced Settings - Microsoft-PEF-NDIS-PacketCapture** dialog provides a flexibility that enables you to selectively assign filter **Groups** to adapters in the **System Network** tree grid. After you create a **Fast Filter** configuration for a particular **Group**, you can assign it to any of the following elements in the tree grid by first highlighting the element and then clicking the appropriate **Apply to Highlighted** button:  
   
--   **One adapter element row** — when you assign a filter **Group** containing one or more **Fast Filters** to a single adapter that is both selected and highlighted, the filtering configuration applies to the highlighted adapter only.  
+- **One adapter element row** — when you assign a filter **Group** containing one or more **Fast Filters** to a single adapter that is both selected and highlighted, the filtering configuration applies to the highlighted adapter only.  
   
- > [!NOTE]
- >  You can highlight an adapter by clicking any column in the element row in which the target adapter is listed, at which time the row is highlighted in blue. After you assign a filter **Group** to a highlighted adapter by clicking the **Apply to Highlighted** button, the color of the highlighted row changes to gray.  
+  > [!NOTE]
+  >  You can highlight an adapter by clicking any column in the element row in which the target adapter is listed, at which time the row is highlighted in blue. After you assign a filter **Group** to a highlighted adapter by clicking the **Apply to Highlighted** button, the color of the highlighted row changes to gray.  
   
--   **Multiple adapter element rows** — when you assign a filter **Group** of one or more **Fast Filters** to multiple selected and highlighted adapters, the filtering configuration applies to the highlighted adapters.  
+- **Multiple adapter element rows** — when you assign a filter **Group** of one or more **Fast Filters** to multiple selected and highlighted adapters, the filtering configuration applies to the highlighted adapters.  
   
--   **All adapters** — when you assign a filter **Group** of one or more **Fast Filters** to all selected and highlighted adapters, the filtering configuration applies to all adapters in the **System Network** tree grid.  
+- **All adapters** — when you assign a filter **Group** of one or more **Fast Filters** to all selected and highlighted adapters, the filtering configuration applies to all adapters in the **System Network** tree grid.  
 
- > [!NOTE]
- >  You can select and highlight all adapters by selecting one or both traffic direction check boxes in the **Machine** element row.  
+  > [!NOTE]
+  >  You can select and highlight all adapters by selecting one or both traffic direction check boxes in the **Machine** element row.  
   
 Also, when you successfully assign a filter **Group** to a particular adapter, the name of the adapter to which the filter configuration is assigned displays next to the **Target** label for the assigned **Group**.  
   

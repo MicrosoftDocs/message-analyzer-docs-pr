@@ -192,7 +192,7 @@ The following message providers are included in Message Analyzer **Trace Scenari
   ---
   
   **More Information**  
-  **To learn more** about the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Microsoft-Windows-NDIS-PacketCapture Provider]  (microsoft-windows-ndis-packetcapture-provider.md).  
+  **To learn more** about the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Microsoft-Windows-NDIS-PacketCapture Provider](microsoft-windows-ndis-packetcapture-provider.md).  
   **To learn more** about capturing messages from one or more remote hosts and configuring the **Microsoft-Windows-NDIS-PacketCapture**   provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).
   
   ---
@@ -420,7 +420,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   ---
   
   **More Information**  
-  **To learn more** about working with system event data in Message Analyzer, see [Loading System Event Log Data]  (loading-system-event-log-data.md).
+  **To learn more** about working with system event data in Message Analyzer, see [Loading System Event Log Data](loading-system-event-log-data.md).
   
   ---
 
@@ -429,7 +429,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   ---
   
   **More Information**  
-  **To learn more** about working with PowerShell as an input source to Message Analyzer, see [Deriving Input Data with PowerShell Scripts]  (deriving-input-data-with-powershell-scripts.md).
+  **To learn more** about working with PowerShell as an input source to Message Analyzer, see [Deriving Input Data with PowerShell Scripts](deriving-input-data-with-powershell-scripts.md).
   
   ---
 
@@ -456,7 +456,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
   ---
   
   **More Information**  
-  **To learn more** about the configuration required for Message Analyzer to parse  WPP-generated events, see [Loading WPP-Generated Events]  (loading-wpp-generated-events.md).
+  **To learn more** about the configuration required for Message Analyzer to parse  WPP-generated events, see [Loading WPP-Generated Events](loading-wpp-generated-events.md).
   
   ---
 

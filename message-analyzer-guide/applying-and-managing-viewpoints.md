@@ -58,48 +58,48 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
   
  The built-in **Viewpoints** that are contained in the **Message Analyzer Viewpoints** asset collection consist of the following:  
   
--   **No Viewpoint** — enables you to return to the original set of trace results where no **Viewpoint** is applied.  
+- **No Viewpoint** — enables you to return to the original set of trace results where no **Viewpoint** is applied.  
   
--   **Data Link** layer — enables you to display messages at top-level from protocols related to the Data Link layer, such as the Ethernet, PPP, ARP, and WiFi protocols, and their origins.  
+- **Data Link** layer — enables you to display messages at top-level from protocols related to the Data Link layer, such as the Ethernet, PPP, ARP, and WiFi protocols, and their origins.  
   
--   **Disable Operations** — enables you to disable Operations by initiating a reparse of your trace results that disables the Message Analyzer Runtime's default encapsulation of request and response message pairs in Operation nodes. This feature currently supports de-encapsulation of Operations for the HTTP protocol only.  
+- **Disable Operations** — enables you to disable Operations by initiating a reparse of your trace results that disables the Message Analyzer Runtime's default encapsulation of request and response message pairs in Operation nodes. This feature currently supports de-encapsulation of Operations for the HTTP protocol only.  
   
-     This command  can be useful for filtering under an applied **Viewpoint**, when you can only use a **Viewpoint Filter** to isolate particular types of messages, for example,  an HTTP Request or Response message. Otherwise, without Operations disabled, you would be unable to isolate such messages from the default Operation node encapsulation.  
+   This command  can be useful for filtering under an applied **Viewpoint**, when you can only use a **Viewpoint Filter** to isolate particular types of messages, for example,  an HTTP Request or Response message. Otherwise, without Operations disabled, you would be unable to isolate such messages from the default Operation node encapsulation.  
   
   ---  
     
-   **More Information**   
-   **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
+  **More Information**   
+  **To learn more** about Operations, see [Working With Operations](working-with-operations.md).  
   
   ---  
   
--   **Transport Layers UDP/TCP** — enables you to display messages at top-level from the TCP and UDP protocols only, including their origin stacks.  
+- **Transport Layers UDP/TCP** — enables you to display messages at top-level from the TCP and UDP protocols only, including their origin stacks.  
   
--   **TCP** — this **Viewpoint** reorganizes your data to enable easier diagnosis of the TCP layer. It places TCP messages on top, which can facilitate diagnosis of TCP performance issues that include the analysis of TCP SequenceNumber and AcknowledgementNumber values, TCP flags such as SYNs, SACKS, and ACKs, retransmits, broken three-way handshakes, window size, TCP options, and so on. Note that if you apply this **Viewpoint**, Operations will no longer be visible, as they typically exist at a layer above this **Viewpoint**.  
+- **TCP** — this **Viewpoint** reorganizes your data to enable easier diagnosis of the TCP layer. It places TCP messages on top, which can facilitate diagnosis of TCP performance issues that include the analysis of TCP SequenceNumber and AcknowledgementNumber values, TCP flags such as SYNs, SACKS, and ACKs, retransmits, broken three-way handshakes, window size, TCP options, and so on. Note that if you apply this **Viewpoint**, Operations will no longer be visible, as they typically exist at a layer above this **Viewpoint**.  
   
- > [!TIP]
- >  To enhance your analytical perspective with the **TCP** **Viewpoint**, you can use the **TCP Deep Packet Analysis with Relative Sequence Number with Grouping** view **Layout** for the **Analysis Grid** viewer to display the relevant field data in a predefined Grouped configuration with **Network**, **Transport**, and **SourcePort** groups.  
+  > [!TIP]
+  >  To enhance your analytical perspective with the **TCP** **Viewpoint**, you can use the **TCP Deep Packet Analysis with Relative Sequence Number with Grouping** view **Layout** for the **Analysis Grid** viewer to display the relevant field data in a predefined Grouped configuration with **Network**, **Transport**, and **SourcePort** groups.  
   
--   **UDP** — provides perspective from the **Viewpoint** of the UDP transport protocol.  
+- **UDP** — provides perspective from the **Viewpoint** of the UDP transport protocol.  
   
--   **Network** layer — enables you to display messages at top-level from the IPv4, IPv6, DHCPv4, DHCPv6, and DNS protocols only, including their origins messages.  
+- **Network** layer — enables you to display messages at top-level from the IPv4, IPv6, DHCPv4, DHCPv6, and DNS protocols only, including their origins messages.  
   
--   **Ethernet** layer — enables you to display Ethernet messages at top-level with no further parsing.  
+- **Ethernet** layer — enables you to display Ethernet messages at top-level with no further parsing.  
   
--   **ETW** — enables you to remove all messages above the ETW layer to expose and simplify event diagnostics. This **Viewpoint** can also make event analysis easier when you are developing message providers or other components that write ETW events.  
+- **ETW** — enables you to remove all messages above the ETW layer to expose and simplify event diagnostics. This **Viewpoint** can also make event analysis easier when you are developing message providers or other components that write ETW events.  
   
--   **HTTP** — an application-layer **Viewpoint** that places HTTP messages at top-level in the **Analysis Grid** viewer. Provides a convenient way to analyze the request/response pairs of HTTP Operations without having to search for the response messages. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
+- **HTTP** — an application-layer **Viewpoint** that places HTTP messages at top-level in the **Analysis Grid** viewer. Provides a convenient way to analyze the request/response pairs of HTTP Operations without having to search for the response messages. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
   
- > [!NOTE]
- >  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
+  > [!NOTE]
+  >  It is possible that HTTP messages can be hidden within SOAP message stacks. If you apply the **HTTP** **Viewpoint** when this is the case, SOAP messages should disappear and HTTP messages will display at top-level. However, the HTTP messages may not display as Operations in this case.  
   
--   **SMB/SMB2** — an application-layer **Viewpoint** that places SMB and SMB2 messages at top-level in the **Analysis Grid** viewer by removing RPC and any other message layers on top, for example, GSSAPI and Kerberos messages.  
+- **SMB/SMB2** — an application-layer **Viewpoint** that places SMB and SMB2 messages at top-level in the **Analysis Grid** viewer by removing RPC and any other message layers on top, for example, GSSAPI and Kerberos messages.  
   
--   **SMB/SMB2 No Operations** — an application-layer **Viewpoint** that is identical to the **SMB/SMB2** **Viewpoint**,  except that Message Analyzer does not  display any SMB/SMB2 Operation nodes in this context. Enables you to view SMB/SMB2 request and response messages in their original chronological order. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
+- **SMB/SMB2 No Operations** — an application-layer **Viewpoint** that is identical to the **SMB/SMB2** **Viewpoint**,  except that Message Analyzer does not  display any SMB/SMB2 Operation nodes in this context. Enables you to view SMB/SMB2 request and response messages in their original chronological order. Also facilitates improved filtering for request and response messages, as described in [Disabling Operations](working-with-operations.md#BKMK_TogglingOperations).  
   
--   **WinInet (HTTP/s)** event layer — enables you to display and diagnose HTTP and unencrypted HTTPS events.  
+- **WinInet (HTTP/s)** event layer — enables you to display and diagnose HTTP and unencrypted HTTPS events.  
   
--   **SOAP** — enables you to display messages at top-level from the SOAP protocol only, plus the origins messages.  
+- **SOAP** — enables you to display messages at top-level from the SOAP protocol only, plus the origins messages.  
   
 <a name="BKMK_ApplyingViewpointFilter"></a>   
 ### Applying Viewpoint Filters  
@@ -112,7 +112,7 @@ When messages are parsed by Message Analyzer, they are indexed. When you apply a
 From the **Viewpoint Filter** panel, you can **Apply** such filters to a set of messages that is already filtered by the criteria of an applied **Viewpoint**. The advantage of using a **Viewpoint Filter** is that it enables you to drill down further to expose messages of interest based on the additionally applied filtering. Obviously, the filtering you apply should be relevant to the **Viewpoint** context in which you are working. In a typical usage scenario, you might have already applied a view **Filter** to a set of trace results when you realize that you should set the **Viewpoint** to a particular layer so you can focus on a condensed and more relevant message set for your current analysis.  After you select a chosen  **Viewpoint**, all messages above the **Viewpoint** level disappear. Once the **Viewpoint** is set, you can drill down even further to isolate a message or messages that meet the criteria of a **Viewpoint Filter** that you specify. Whether you select a built-in or custom-designed **Viewpoint Filter**, you must click the **Apply** button on the **Viewpoint Filter** panel to initiate the filtering action. To undo such filtering action, click the **Remove** button on the same panel.  
   
  **Filtering Behaviors**   
-The behavior of view **Filters** and **Viewpoint Filters** is similar within the different contexts in which they are applied. More specifically, view **Filter** behavior with respect to an entire set of trace results is similar to the way a **Viewpoint Filter** behaves when applied to a **Viewpoint** results set. The difference in the **Viewpoint** filtering scenario is that you are able to generate a more precise focus on specific messages of interest *within the context of the applied **Viewpoint***. In general, **Viewpoints** enable you to create focus by removing all messages above the **Viewpoint** protocol/s. However, by also applying a **Viewpoint Filter**, you can be even more selective of the messages you are exposing in the **Analysis Grid** or other viewer for analytical purposes. The scenario described below may help explain the difference between using view **Filters** and **Viewpoint Filters**.  
+The behavior of view **Filters** and **Viewpoint Filters** is similar within the different contexts in which they are applied. More specifically, view **Filter** behavior with respect to an entire set of trace results is similar to the way a **Viewpoint Filter** behaves when applied to a **Viewpoint** results set. The difference in the **Viewpoint** filtering scenario is that you are able to generate a more precise focus on specific messages of interest <em>within the context of the applied **Viewpoint</em><strong>. In general, **Viewpoints</strong> enable you to create focus by removing all messages above the **Viewpoint** protocol/s. However, by also applying a **Viewpoint Filter**, you can be even more selective of the messages you are exposing in the **Analysis Grid** or other viewer for analytical purposes. The scenario described below may help explain the difference between using view **Filters** and **Viewpoint Filters**.  
   
  **Viewpoint Filtering Example**   
 If any top-level message or one of its origins messages in a set of trace results matches the criteria of a view  **Filter**, Message Analyzer returns that top-level message and its origins (stack) when the **Filter** is applied. If you then apply a **Viewpoint** while the same view **Filter** is applied, the **Viewpoint** will cause any of the filtered messages that match the **Viewpoint** criteria to appear at top-level in accordance with the applied **Viewpoint's** functionality. The following example illustrates the results that occur when you apply a view **Filter**, a **Viewpoint**, and a **Viewpoint Filter** to a set of trace results.  

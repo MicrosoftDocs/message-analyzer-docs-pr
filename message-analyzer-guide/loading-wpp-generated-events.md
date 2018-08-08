@@ -58,28 +58,28 @@ Message Analyzer supports parsing and display of Windows software trace preproce
   
  The list that follows describes the indicated features.  
   
--   **Configuration** section  
+- **Configuration** section  
   
-    -   **TMF path** — in this text box, specify the path to one or more existing TMF files, with each entry separated by a colon. Message Analyzer will create an OPN description from the information in each file that you specify so that the WPP-generated ETL file/s can be parsed.  
+  -   **TMF path** — in this text box, specify the path to one or more existing TMF files, with each entry separated by a colon. Message Analyzer will create an OPN description from the information in each file that you specify so that the WPP-generated ETL file/s can be parsed.  
   
--   **PDB symbol resolution** section  
+- **PDB symbol resolution** section  
   
-     You must select the **Enable symbol resolution using Tracepdb** check box to enable the following text boxes for data entry. Use this option if you have only a PDB file generated from the  trace provider compilation or build process, in which case, Message Analyzer will convert the PDB file to TMF and  create an OPN description for parsing WPP-generated ETLs.  
+   You must select the **Enable symbol resolution using Tracepdb** check box to enable the following text boxes for data entry. Use this option if you have only a PDB file generated from the  trace provider compilation or build process, in which case, Message Analyzer will convert the PDB file to TMF and  create an OPN description for parsing WPP-generated ETLs.  
   
-    -   **Tracepdb path** — in this text box, specify the path to the command-line tool *Tracepdb* to convert an existing PDB file to TMF. If you have a 64-bit installation of Windows Driver Kit 8.1 or Visual Studio, the path to Tracepbd is as follows: `C:\Program Files (x86)\Windows Kits\8.1\bin\x64\tracepdb.exe`  
+  -   **Tracepdb path** — in this text box, specify the path to the command-line tool *Tracepdb* to convert an existing PDB file to TMF. If you have a 64-bit installation of Windows Driver Kit 8.1 or Visual Studio, the path to Tracepbd is as follows: `C:\Program Files (x86)\Windows Kits\8.1\bin\x64\tracepdb.exe`  
   
-    ---  
+  ---  
   
-    **More Information**   
-    **To learn more** about *Tracepdb*, the commands that it provides, and download information, see [Tracepdb](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553034(v=vs.85).aspx).  
+  **More Information**   
+  **To learn more** about *Tracepdb*, the commands that it provides, and download information, see [Tracepdb](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553034(v=vs.85).aspx).  
 
-    ---  
+  ---  
   
-    -   **PDB path** — in this text box, specify the path to the PDB file that contains the event structure you want to convert to TMF for parsing a WPP-generated ETL file. Note that you can add multiple PDB paths in this text box if you have multiple ETL files to parse, but you must separate each path with a colon.  
+  -   **PDB path** — in this text box, specify the path to the PDB file that contains the event structure you want to convert to TMF for parsing a WPP-generated ETL file. Note that you can add multiple PDB paths in this text box if you have multiple ETL files to parse, but you must separate each path with a colon.  
   
-    For each PDB file that you specify, Message Analyzer generates and compiles an OPN description for parsing associated WPP-generated ETL files when loaded through a Data Retrieval Session.  
+  For each PDB file that you specify, Message Analyzer generates and compiles an OPN description for parsing associated WPP-generated ETL files when loaded through a Data Retrieval Session.  
   
- When you click the **OK** button to exit the **Options** dialog, the WPP configuration immediately takes effect; however, OPN descriptions are created dynamically as described in [Generating an OPN Description for PDB and TMF Files](loading-wpp-generated-events.md#BKMK_GenerateOPNs).  
+  When you click the **OK** button to exit the **Options** dialog, the WPP configuration immediately takes effect; however, OPN descriptions are created dynamically as described in [Generating an OPN Description for PDB and TMF Files](loading-wpp-generated-events.md#BKMK_GenerateOPNs).  
   
 <a name="BKMK_ManuallyLocateDirectory"></a>   
 ### Manually Locating a Directory  

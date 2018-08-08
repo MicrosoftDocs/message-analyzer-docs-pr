@@ -55,10 +55,10 @@ The specific data columns that you will add to the **Analysis Grid** viewer duri
   
 > [!TIP]
 >  You can remove any data column from the **Analysis Grid** by right-clicking the column you want to delete and then selecting the **Remove** item from the context menu that appears. From this context menu, you can also select the following commands to perform related operations after adding new fields to the **Analysis Grid** viewer with **Field Chooser**:  
->   
->  -   **Save as Default User View Layout** — enables you to save any column **Layout** configuration as the user default **Layout**.  
-> -   **Load Default User View Layout** — enables you to load the column **Layout** configuration that you saved as the user default **Layout**.  
-> -   **Save Current View Layout As…** — enables you to save the current column **Layout** configuration with a unique **Name**, **Description**, and **Category** specification from the **Edit Item** dialog.  
+> 
+> - **Save as Default User View Layout** — enables you to save any column **Layout** configuration as the user default **Layout**.  
+>   -   **Load Default User View Layout** — enables you to load the column **Layout** configuration that you saved as the user default **Layout**.  
+>   -   **Save Current View Layout As…** — enables you to save the current column **Layout** configuration with a unique **Name**, **Description**, and **Category** specification from the **Edit Item** dialog.  
   
  **Working with Array Fields**   
 You might notice that some fields in **Field Chooser** are denoted as arrays **[]**, which require you to specify an array element or **Key** value in order to see the data in a new column that you are adding to the **Analysis Grid** or **Grouping** viewer. For example, if you wanted to look at the data for a **Uri.Query**, first expand the **Uri** node in the **HTTP** message hierarchy in **Field Chooser** then expand the **Query** node. Immediately under the **Query** node, you will see an array [] designator. If you right-click this designator and select **Add as Column**, the **Collection Key Selector** dialog displays to enable you to specify a **Key** such as "ocid" or some other string (you can correlate these in the **Details** **Tool Window** for the selected message). After you click **OK** to exit the dialog, the data for the **Key** you specified will display in the **Analysis Grid** under a new column entitled **Uri.Query["ocid"]** in this example.  

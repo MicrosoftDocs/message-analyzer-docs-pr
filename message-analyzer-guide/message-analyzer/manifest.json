@@ -1,0 +1,1673 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/target_repo/message-analyzer-guide",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "media/03bd68cc-4bec-4ece-8aae-5f40a6d1be93.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/03bd68cc-4bec-4ece-8aae-5f40a6d1be93.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/1838047e-7fed-4b12-a078-ad80b0835a5b.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/1838047e-7fed-4b12-a078-ad80b0835a5b.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/66f15fc4-17cc-4ab9-96ee-4df461bd2220.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/66f15fc4-17cc-4ab9-96ee-4df461bd2220.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/916cc6b6-b192-4b5e-8fe1-07c6d483fa2a.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/916cc6b6-b192-4b5e-8fe1-07c6d483fa2a.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/c5fcfa84-16ca-45e1-a43d-412444691910.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/c5fcfa84-16ca-45e1-a43d-412444691910.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fe10636c-a8b1-4aa4-940d-89bfbe7ec685.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fe10636c-a8b1-4aa4-940d-89bfbe7ec685.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/ff1f4f33-f020-4172-9d61-7f8dc04e6c50.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/ff1f4f33-f020-4172-9d61-7f8dc04e6c50.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig-x-messageanalyzericon.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig-x-messageanalyzericon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig01-message-analyzer-start-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig01-message-analyzer-start-page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig02-message-analyzer-live-trace-session-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig02-message-analyzer-live-trace-session-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig03-message-analyzer-analysis-grid-etw-event.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig03-message-analyzer-analysis-grid-etw-event.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig04-message-analyzer-data-retrieval-session-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig04-message-analyzer-data-retrieval-session-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig05-message-analyzer-textlog-parsers.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig05-message-analyzer-textlog-parsers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig08-message-analyzer-smb-and-smb2-viewpoint-applied.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig08-message-analyzer-smb-and-smb2-viewpoint-applied.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig09-message-analyzer-inline-message-details.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig09-message-analyzer-inline-message-details.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig10-message-analyzer-smb-top-commands-chart-viewer-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig10-message-analyzer-smb-top-commands-chart-viewer-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig11-message-analyzer-profiles-tab-of-options-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig11-message-analyzer-profiles-tab-of-options-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig12-message-analyzer-network-monitor-profile-components.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig12-message-analyzer-network-monitor-profile-components.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig13-session-filter-for-a-live-trace-session.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig13-session-filter-for-a-live-trace-session.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig15-message-analyzer-save-as-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig15-message-analyzer-save-as-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig16-pef-component-architecture.gif",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig16-pef-component-architecture.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig17-etw-session-architecture.gif",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig17-etw-session-architecture.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig18-message-analyzer-options-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig18-message-analyzer-options-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig20-live-trace-session-configuration.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig20-live-trace-session-configuration.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig21-specifying-etw-providers-for-live-trace-session-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig21-specifying-etw-providers-for-live-trace-session-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig22-advanced-settings-pef-ndis-packetcapture-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig22-advanced-settings-pef-ndis-packetcapture-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig24-advanced-settings-dialog-etw-keyword-and-level-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig24-advanced-settings-dialog-etw-keyword-and-level-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig25-edit-filter-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig25-edit-filter-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig26-manage-filter-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig26-manage-filter-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig27-asset-manager-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig27-asset-manager-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig28-etw-session-advanced-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig28-etw-session-advanced-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig29-decrypted-data-and-message-stack.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig29-decrypted-data-and-message-stack.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig30-advanced-settings-for-the-windows-ndis-packetcapture-provider.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig30-advanced-settings-for-the-windows-ndis-packetcapture-provider.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig31-data-retrieval-session-configuration.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig31-data-retrieval-session-configuration.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig32-azure-blob-file-selector-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig32-azure-blob-file-selector-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig33-azure-table-input-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig33-azure-table-input-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig34-event-logs-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig34-event-logs-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig35-powershell-query-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig35-powershell-query-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig36-sql-table-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig36-sql-table-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig37-wpp-tracing-symbol-resolution-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig37-wpp-tracing-symbol-resolution-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig38-oms-log-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig38-oms-log-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig39-session-configuration-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig39-session-configuration-options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig40-edit-session-dialog-in-restricted-edit-mode.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig40-edit-session-dialog-in-restricted-edit-mode.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig41-analysis-grid-viewer-default-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig41-analysis-grid-viewer-default-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig43-pattern-match-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig43-pattern-match-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig44-example-of-building-a-pattern-expression.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig44-example-of-building-a-pattern-expression.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig45-gantt-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig45-gantt-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig46-top-level-protocols-message-count-chart-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig46-top-level-protocols-message-count-chart-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig47-interaction-viewer-with-swimlane-diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig47-interaction-viewer-with-swimlane-diagram.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig48-message-summary-tiles-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig48-message-summary-tiles-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig49-message-summary-lists-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig49-message-summary-lists-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig50-message-analyzer-filtering-toolbar.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig50-message-analyzer-filtering-toolbar.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig51-tiered-filter-configuration-with-authip-filter-applied.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig51-tiered-filter-configuration-with-authip-filter-applied.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig52-message-analyzer-tcp-filter-applied-only-png.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig52-message-analyzer-tcp-filter-applied-only-png.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig53-message-analyzer-tcp-filter-and-tcp-viewpoint-applied-png.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig53-message-analyzer-tcp-filter-and-tcp-viewpoint-applied-png.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig56-operations-disabled-and-showing-original-message-sequence-png.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig56-operations-disabled-and-showing-original-message-sequence-png.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig57-view-filter-fails-to-isolate-smb2-request-messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig57-view-filter-fails-to-isolate-smb2-request-messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig58-disable-operations-fails-to-isolate-smb2-request-messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig58-disable-operations-fails-to-isolate-smb2-request-messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig59-viewpoint-filter-succeeds-in-isolating-smb2-request-messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig59-viewpoint-filter-succeeds-in-isolating-smb2-request-messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig60-data-source-filter-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig60-data-source-filter-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig61-data-source-groups-in-the-analysis-grid.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig61-data-source-groups-in-the-analysis-grid.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig62-message-analyzer-shift-time-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig62-message-analyzer-shift-time-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig63-smb-fields-union-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig63-smb-fields-union-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig64-grouping-viewer-processname-node-driving-the-analysis-grid-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig64-grouping-viewer-processname-node-driving-the-analysis-grid-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig65-analysis-grid-viewer-and-common-tool-windows.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig65-analysis-grid-viewer-and-common-tool-windows.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig66-message-analyzer-layer-de-encapsulation-example.gif",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig66-message-analyzer-layer-de-encapsulation-example.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig67-field-chooser-tool-window-message-hierarchy.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig67-field-chooser-tool-window-message-hierarchy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig68-save-as-or-export-session-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig68-save-as-or-export-session-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig69-asset-manager-dialog-downloads-tab.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig69-asset-manager-dialog-downloads-tab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig70-asset-manager-dialog-settings-tab.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig70-asset-manager-dialog-settings-tab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig71-manage-column-layouts-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig71-manage-column-layouts-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig72-edit-chart-layout-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig72-edit-chart-layout-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/fig73-formula-editor-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/fig73-formula-editor-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png",
+      "output": {
+        "resource": {
+          "relative_path": "media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/03bd68cc-4bec-4ece-8aae-5f40a6d1be93.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/03bd68cc-4bec-4ece-8aae-5f40a6d1be93.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/1838047e-7fed-4b12-a078-ad80b0835a5b.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/1838047e-7fed-4b12-a078-ad80b0835a5b.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/66f15fc4-17cc-4ab9-96ee-4df461bd2220.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/66f15fc4-17cc-4ab9-96ee-4df461bd2220.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/916cc6b6-b192-4b5e-8fe1-07c6d483fa2a.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/916cc6b6-b192-4b5e-8fe1-07c6d483fa2a.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/c5fcfa84-16ca-45e1-a43d-412444691910.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/c5fcfa84-16ca-45e1-a43d-412444691910.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fe10636c-a8b1-4aa4-940d-89bfbe7ec685.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fe10636c-a8b1-4aa4-940d-89bfbe7ec685.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/ff1f4f33-f020-4172-9d61-7f8dc04e6c50.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/ff1f4f33-f020-4172-9d61-7f8dc04e6c50.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig-x-messageanalyzericon.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig-x-messageanalyzericon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig01-message-analyzer-start-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig01-message-analyzer-start-page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig02-message-analyzer-live-trace-session-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig02-message-analyzer-live-trace-session-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig03-message-analyzer-analysis-grid-etw-event.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig03-message-analyzer-analysis-grid-etw-event.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig04-message-analyzer-data-retrieval-session-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig04-message-analyzer-data-retrieval-session-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig05-message-analyzer-textlog-parsers.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig05-message-analyzer-textlog-parsers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig08-message-analyzer-smb-and-smb2-viewpoint-applied.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig08-message-analyzer-smb-and-smb2-viewpoint-applied.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig09-message-analyzer-inline-message-details.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig09-message-analyzer-inline-message-details.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig10-message-analyzer-smb-top-commands-chart-viewer-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig10-message-analyzer-smb-top-commands-chart-viewer-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig11-message-analyzer-profiles-tab-of-options-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig11-message-analyzer-profiles-tab-of-options-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig12-message-analyzer-network-monitor-profile-components.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig12-message-analyzer-network-monitor-profile-components.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig13-session-filter-for-a-live-trace-session.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig13-session-filter-for-a-live-trace-session.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig15-message-analyzer-save-as-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig15-message-analyzer-save-as-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig16-pef-component-architecture.gif",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig16-pef-component-architecture.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig17-etw-session-architecture.gif",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig17-etw-session-architecture.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig18-message-analyzer-options-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig18-message-analyzer-options-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig20-live-trace-session-configuration.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig20-live-trace-session-configuration.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig21-specifying-etw-providers-for-live-trace-session-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig21-specifying-etw-providers-for-live-trace-session-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig22-advanced-settings-pef-ndis-packetcapture-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig22-advanced-settings-pef-ndis-packetcapture-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig23-advanced-settings-for-the-microsoft-pef-wfp-messageprovider.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig24-advanced-settings-dialog-etw-keyword-and-level-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig24-advanced-settings-dialog-etw-keyword-and-level-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig25-edit-filter-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig25-edit-filter-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig26-manage-filter-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig26-manage-filter-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig27-asset-manager-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig27-asset-manager-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig28-etw-session-advanced-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig28-etw-session-advanced-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig29-decrypted-data-and-message-stack.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig29-decrypted-data-and-message-stack.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig30-advanced-settings-for-the-windows-ndis-packetcapture-provider.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig30-advanced-settings-for-the-windows-ndis-packetcapture-provider.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig31-data-retrieval-session-configuration.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig31-data-retrieval-session-configuration.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig32-azure-blob-file-selector-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig32-azure-blob-file-selector-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig33-azure-table-input-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig33-azure-table-input-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig34-event-logs-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig34-event-logs-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig35-powershell-query-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig35-powershell-query-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig36-sql-table-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig36-sql-table-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig37-wpp-tracing-symbol-resolution-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig37-wpp-tracing-symbol-resolution-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig38-oms-log-data-retrieval-interface.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig38-oms-log-data-retrieval-interface.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig39-session-configuration-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig39-session-configuration-options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig40-edit-session-dialog-in-restricted-edit-mode.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig40-edit-session-dialog-in-restricted-edit-mode.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig41-analysis-grid-viewer-default-configuration.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig41-analysis-grid-viewer-default-configuration.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig43-pattern-match-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig43-pattern-match-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig44-example-of-building-a-pattern-expression.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig44-example-of-building-a-pattern-expression.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig45-gantt-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig45-gantt-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig46-top-level-protocols-message-count-chart-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig46-top-level-protocols-message-count-chart-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig47-interaction-viewer-with-swimlane-diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig47-interaction-viewer-with-swimlane-diagram.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig48-message-summary-tiles-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig48-message-summary-tiles-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig49-message-summary-lists-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig49-message-summary-lists-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig50-message-analyzer-filtering-toolbar.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig50-message-analyzer-filtering-toolbar.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig51-tiered-filter-configuration-with-authip-filter-applied.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig51-tiered-filter-configuration-with-authip-filter-applied.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig52-message-analyzer-tcp-filter-applied-only-png.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig52-message-analyzer-tcp-filter-applied-only-png.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig53-message-analyzer-tcp-filter-and-tcp-viewpoint-applied-png.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig53-message-analyzer-tcp-filter-and-tcp-viewpoint-applied-png.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig56-operations-disabled-and-showing-original-message-sequence-png.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig56-operations-disabled-and-showing-original-message-sequence-png.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig57-view-filter-fails-to-isolate-smb2-request-messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig57-view-filter-fails-to-isolate-smb2-request-messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig58-disable-operations-fails-to-isolate-smb2-request-messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig58-disable-operations-fails-to-isolate-smb2-request-messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig59-viewpoint-filter-succeeds-in-isolating-smb2-request-messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig59-viewpoint-filter-succeeds-in-isolating-smb2-request-messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig60-data-source-filter-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig60-data-source-filter-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig61-data-source-groups-in-the-analysis-grid.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig61-data-source-groups-in-the-analysis-grid.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig62-message-analyzer-shift-time-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig62-message-analyzer-shift-time-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig63-smb-fields-union-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig63-smb-fields-union-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig64-grouping-viewer-processname-node-driving-the-analysis-grid-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig64-grouping-viewer-processname-node-driving-the-analysis-grid-viewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig65-analysis-grid-viewer-and-common-tool-windows.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig65-analysis-grid-viewer-and-common-tool-windows.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig66-message-analyzer-layer-de-encapsulation-example.gif",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig66-message-analyzer-layer-de-encapsulation-example.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig67-field-chooser-tool-window-message-hierarchy.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig67-field-chooser-tool-window-message-hierarchy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig68-save-as-or-export-session-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig68-save-as-or-export-session-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig69-asset-manager-dialog-downloads-tab.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig69-asset-manager-dialog-downloads-tab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig70-asset-manager-dialog-settings-tab.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig70-asset-manager-dialog-settings-tab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig71-manage-column-layouts-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig71-manage-column-layouts-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig72-edit-chart-layout-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig72-edit-chart-layout-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/fig73-formula-editor-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/fig73-formula-editor-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "message-analyzer/media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png",
+      "output": {
+        "resource": {
+          "relative_path": "message-analyzer/media/old-fig10-message-analyzer-analysis-grid-grouping-operation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

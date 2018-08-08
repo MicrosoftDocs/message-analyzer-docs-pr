@@ -115,9 +115,8 @@ Under the `<configuration/>` node in the MessageAnalyzer.exe.config XML file con
 
 ```Configuration
 <appSettings>
-<add key="TempFolderPath" value="<driveLocation>\temp\matemp" />
+<add key="TempFolderPath" value="<driveLocation>\temp\matemp" />
 </appSettings>
-
 ```
 
 ## See Also

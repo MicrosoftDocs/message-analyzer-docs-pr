@@ -24,7 +24,7 @@ Beyond  live captures and saved files, Message Analyzer enables you to utilize  
 
 - **Azure data** — provides access to data from an Azure table. You can create the input configuration by clicking the **Azure Table** button under **Add Data Source** in the **New Session** dialog.
 
- You an also acquire input data from Azure storage binary large object (BLOB) logs with the use of the **File Selector**, which is accessible from the global Message Analyzer **File** menu, by selecting **Open** and then clicking the **From Other File Sources** command.
+  You an also acquire input data from Azure storage binary large object (BLOB) logs with the use of the **File Selector**, which is accessible from the global Message Analyzer **File** menu, by selecting **Open** and then clicking the **From Other File Sources** command.
 
 - **Event logs** — a preview feature that provides access to data from **Microsoft Event Viewer** logs, such as **Applications and Services**, **Windows**, and others. You can create the input configuration by clicking the **Event Logs** button under **Add Data Source** in the **New Session** dialog.
 

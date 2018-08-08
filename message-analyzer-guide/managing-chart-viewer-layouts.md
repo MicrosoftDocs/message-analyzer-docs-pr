@@ -56,23 +56,23 @@ This section describes how to manage the items of your **Message Analyzer Chart 
 ## Managing Chart Viewer Layout Library Items  
  You can manage **Layout** items in both categories of your local **Message Analyzer Chart View Layouts** Library. The following features are available to do so:  
   
--   **Item selection** — you can select **Layout** collection items to include in an export configuration by selecting all items in the **Message Analyzer** category, the **My Items** category, or both. You can also select any combination of individual collection items in these categories to include in the export.  
+- **Item selection** — you can select **Layout** collection items to include in an export configuration by selecting all items in the **Message Analyzer** category, the **My Items** category, or both. You can also select any combination of individual collection items in these categories to include in the export.  
   
--   **Context menu commands** — the following context menu command is available by right-clicking any collection item in the **Message Analyzer** category of your local **Layouts** asset collection Library:  
+- **Context menu commands** — the following context menu command is available by right-clicking any collection item in the **Message Analyzer** category of your local **Layouts** asset collection Library:  
   
-    -   **Create a Copy** — enables you to create a copy of an existing **Layout** collection item, such as the **Average Response Times for Operations** layout, and place it in your **My Items** category. You can then launch this copied **Layout** in an Analysis Session and use the controls and features of the **Edit Chart Layout** and **Formula Editor** dialogs to edit and customize the **Layout** to your own design and then save it under a new name of your choice, as described in [Overview of Configuring a Custom Chart Viewer Layout](configuring-chart-viewer-layouts.md#BKMK_ChartConfigOverview).  
+  -   **Create a Copy** — enables you to create a copy of an existing **Layout** collection item, such as the **Average Response Times for Operations** layout, and place it in your **My Items** category. You can then launch this copied **Layout** in an Analysis Session and use the controls and features of the **Edit Chart Layout** and **Formula Editor** dialogs to edit and customize the **Layout** to your own design and then save it under a new name of your choice, as described in [Overview of Configuring a Custom Chart Viewer Layout](configuring-chart-viewer-layouts.md#BKMK_ChartConfigOverview).  
   
   The following context menu commands are available by right-clicking any collection item in the **My Items** category of your local **Layouts** asset collection Library:  
   
-    -   **Edit** — enables you to save a **Layout** collection item with a new **Name**, **Description**, and **Category**.  
+  -   **Edit** — enables you to save a **Layout** collection item with a new **Name**, **Description**, and **Category**.  
   
-    -   **Create a Copy** — enables you to create a copy of a **Layout** collection item and use it as  a functionality template for creating a new **Layout** that will have similar components in the configuration.  
+  -   **Create a Copy** — enables you to create a copy of a **Layout** collection item and use it as  a functionality template for creating a new **Layout** that will have similar components in the configuration.  
   
-    -   **Delete** — enables you to delete any **Layout** collection item in the **My Items** category. When you select this command, all selected **Layout** collection items are immediately deleted without any prompt. Note that you cannot delete any Library collection items in the **Message Analyzer** category.  
+  -   **Delete** — enables you to delete any **Layout** collection item in the **My Items** category. When you select this command, all selected **Layout** collection items are immediately deleted without any prompt. Note that you cannot delete any Library collection items in the **Message Analyzer** category.  
   
--   **Import** — enables you to open the **Select Library to Open** dialog from where you can navigate to a **Layout** asset collection. When you exit this dialog by clicking the **Open** button, the **Select Items to Import** dialog opens, from where you can choose the **Layout** items you want to import and the category into which they will be placed. Note that you can navigate to a user-designated file share or other location from the **Select Library to Open** dialog, to import a **Layout** asset collection that another user has posted in that location.  
+- **Import** — enables you to open the **Select Library to Open** dialog from where you can navigate to a **Layout** asset collection. When you exit this dialog by clicking the **Open** button, the **Select Items to Import** dialog opens, from where you can choose the **Layout** items you want to import and the category into which they will be placed. Note that you can navigate to a user-designated file share or other location from the **Select Library to Open** dialog, to import a **Layout** asset collection that another user has posted in that location.  
   
--   **Export** — enables you to open the **Save Library** dialog, from where you can specify a library **Title** along with optional **Description**, **Author**, and **Organization** information. When you exit this dialog by clicking the **Save** button, the **Select Library Location** dialog opens, from where you can navigate to a user-designated file share or other location to post your **Layout** asset collection files.  
+- **Export** — enables you to open the **Save Library** dialog, from where you can specify a library **Title** along with optional **Description**, **Author**, and **Organization** information. When you exit this dialog by clicking the **Save** button, the **Select Library Location** dialog opens, from where you can navigate to a user-designated file share or other location to post your **Layout** asset collection files.  
   
 ---  
   

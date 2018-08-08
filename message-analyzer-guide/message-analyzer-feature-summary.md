@@ -27,13 +27,13 @@ Microsoft Message Analyzer contains a broad and versatile range of features that
  **File Menu**
 The global Message Analyzer **File** menu provides access to the features described in the list that follows.
 
--   **[New Session](starting-a-message-analyzer-session.md)**  — click this item to open the **New Session** dialog, from where you can choose a source from which to acquire data; for example a **Live Trace** or saved **Files**. Clicking the **New Session** item also displays a submenu that contains various items that determine what type of session you will start. With the exception of the first two bullet items immediately below, the remaining submenu items also appear in the **New Session** dialog as **Data Source** buttons that you can click to begin the configuration of a new session, based on the type of input message data you want to acquire:
+- **[New Session](starting-a-message-analyzer-session.md)**  — click this item to open the **New Session** dialog, from where you can choose a source from which to acquire data; for example a **Live Trace** or saved **Files**. Clicking the **New Session** item also displays a submenu that contains various items that determine what type of session you will start. With the exception of the first two bullet items immediately below, the remaining submenu items also appear in the **New Session** dialog as **Data Source** buttons that you can click to begin the configuration of a new session, based on the type of input message data you want to acquire:
 
-    -   **Blank Session** — opens the **New Session** dialog from where you can select a data source under **Add Data Source** to use as input to Message Analyzer.
+  -   **Blank Session** — opens the **New Session** dialog from where you can select a data source under **Add Data Source** to use as input to Message Analyzer.
 
-    -   **From Current Session** — opens the **New Session** dialog to a new session configuration that derives configuration settings from the current in-focus session.
+  -   **From Current Session** — opens the **New Session** dialog to a new session configuration that derives configuration settings from the current in-focus session.
 
-    -   **[Live Trace](configuring-a-live-trace-session.md)**  — opens the **New Session** dialog with the **Live Trace** tab selected, from where you can specify one or more target computers on which to capture data; select a built-in **Trace Scenario** from the scenario Library; and configure various provider settings and filters to customize your trace configuration before starting a live trace. The **New Session** dialog also enables you to specify global session settings such as a **Session Filter**, **Start With** data viewer selection, and **Parsing Level**.<br />You also have the capability to run multiple concurrent Live Trace Sessions with different message providers on different target computers by adding one or more **Live Trace** input sources by clicking the **New Data Source** tab and specifying the hosts from which to capture the data. You can also use a single session with a specified message provider to collect data from multiple specified host machines.
+  -   **[Live Trace](configuring-a-live-trace-session.md)**  — opens the **New Session** dialog with the **Live Trace** tab selected, from where you can specify one or more target computers on which to capture data; select a built-in **Trace Scenario** from the scenario Library; and configure various provider settings and filters to customize your trace configuration before starting a live trace. The **New Session** dialog also enables you to specify global session settings such as a **Session Filter**, **Start With** data viewer selection, and **Parsing Level**.<br />You also have the capability to run multiple concurrent Live Trace Sessions with different message providers on different target computers by adding one or more **Live Trace** input sources by clicking the **New Data Source** tab and specifying the hosts from which to capture the data. You can also use a single session with a specified message provider to collect data from multiple specified host machines.
 
   ---
 
@@ -47,19 +47,19 @@ The global Message Analyzer **File** menu provides access to the features descri
 
   - **[Files](configuring-a-data-retrieval-session.md)**  — opens the **New Session** dialog with the **Files** tab selected, from where you can configure a Data Retrieval Session to acquire data that exists in one or more saved files. You can also select specific data to retrieve from such sources by using filters, for example a **Time Filter** and/or **Session Filter**.
 
-    A **Truncated Parsing** check box is also included in the **Files** tab configuration to indicate when truncated messages exist in files from which you are retrieving data, at which time Message Analyzer switches to a pared-down truncation parser set. You have the option to unselect this check box or to select it manually if Message Analyzer did not automatically detect truncated messages.
+  A **Truncated Parsing** check box is also included in the **Files** tab configuration to indicate when truncated messages exist in files from which you are retrieving data, at which time Message Analyzer switches to a pared-down truncation parser set. You have the option to unselect this check box or to select it manually if Message Analyzer did not automatically detect truncated messages.
 
-    ---
+  ---
   
-    **More Information**  
-    **To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session]  starting-a-message-analyzer-session.md).
+  **More Information**  
+  **To learn more** about starting a new Data Retrieval Session, see [Starting a Message Analyzer Session]  starting-a-message-analyzer-session.md).
   
-    ---
+  ---
   
-    > [!NOTE]
-    >  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
+  > [!NOTE]
+  >  If you intend to *retrieve* messages that are encrypted with the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) security protocols, for example, HTTPS and Remote Desktop Protocol (RDP) messages, you have the option to enable the Data Retrieval Session for **Decryption** so that you can view the decrypted data along with decryption session statistics. For more information, see [Decrypting TLS and SSL Encrypted Data](decrypting-tls-and-ssl-encrypted-data.md).
 
-    In addition, the **Files** tab configuration provides you with the capability to retrieve data from textual log files and to select from a list of configuration files that support log file parsing. The **Truncated Parsing**, **Decryption**, and text log parsing features are described in [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).
+  In addition, the **Files** tab configuration provides you with the capability to retrieve data from textual log files and to select from a list of configuration files that support log file parsing. The **Truncated Parsing**, **Decryption**, and text log parsing features are described in [Configuring a Data Retrieval Session](configuring-a-data-retrieval-session.md).
 
   - **[Azure Table](retrieving-azure-storage-table-data.md)**  — opens the **New Session** dialog to a configuration interface that enables you to specify an **Account Name**, **Account Key**, and **Table Name**, from which you can load Azure event log data into Message Analyzer.
   - **[Event Logs](loading-system-event-log-data.md)**  — opens the **New Session** dialog to the **Event Logs** tab, which contains a large list of event logs that were generated on your computer. You can select one or more of the event log check boxes and click **Start** to retrieve the data from the selected logs.
@@ -73,17 +73,17 @@ The global Message Analyzer **File** menu provides access to the features descri
 
   - **From Other File Sources** — click this item to display the **File Selector** dialog, from where you can specify input file sources that have a unique format. Currently, the **File Selector** is limited to working with Azure storage binary large objects (BLOBs) only. For more information, see [Handling Azure Data](handling-azure-data.md).
 
--   **Recent Files** — click this item to see a list of up to 10 recent files from which you loaded data into Message Analyzer. Data from a file in the **Recent Files** list is immediately loaded into Message Analyzer, as no further configuration is required.
+- **Recent Files** — click this item to see a list of up to 10 recent files from which you loaded data into Message Analyzer. Data from a file in the **Recent Files** list is immediately loaded into Message Analyzer, as no further configuration is required.
 
--   **[Favorite Scenarios](performing-a-live-capture.md)**  — click this item to quickly start a Live Trace session with a single click on a **Trace Scenario** item in the list, for example, the **Local Network Interfaces**, **Loopback and Unencrypted IPSEC**, or **Pre-Encryption for HTTPS** scenario.
+- **[Favorite Scenarios](performing-a-live-capture.md)**  — click this item to quickly start a Live Trace session with a single click on a **Trace Scenario** item in the list, for example, the **Local Network Interfaces**, **Loopback and Unencrypted IPSEC**, or **Pre-Encryption for HTTPS** scenario.
 
--   **Save** — saves changes to a Data Retrieval Session such as bookmarks, comments, and time shifts. If you click this item after capturing data from a Live Trace Session that is not yet saved, the **Save/Export Session** dialog displays with several options for saving data.
+- **Save** — saves changes to a Data Retrieval Session such as bookmarks, comments, and time shifts. If you click this item after capturing data from a Live Trace Session that is not yet saved, the **Save/Export Session** dialog displays with several options for saving data.
 
--   **[Save As](saving-session-data.md)**  — opens the **Save/Export Session** dialog that provides several save configuration options for the current set of trace results, which includes saving filtered, selected, or all messages in the data set.
+- **[Save As](saving-session-data.md)**  — opens the **Save/Export Session** dialog that provides several save configuration options for the current set of trace results, which includes saving filtered, selected, or all messages in the data set.
 
--   **[Start Page](quick-session-startup.md)**  — click this item in the **File** menu to display the Message Analyzer **Start Page**.
+- **[Start Page](quick-session-startup.md)**  — click this item in the **File** menu to display the Message Analyzer **Start Page**.
 
--   **Exit** — click this item to close Message Analyzer. If you have any unsaved changes, you will be prompted with the option to save them.
+- **Exit** — click this item to close Message Analyzer. If you have any unsaved changes, you will be prompted with the option to save them.
 
 **Session Menu**  
 The global Message Analyzer **Session** menu provides access to the features described in the list that follows.

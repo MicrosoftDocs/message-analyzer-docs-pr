@@ -23,9 +23,9 @@ The **Cluster Levels** viewer **Layout** for **Charts** provides a horizontal **
   
 > [!NOTE]
 >  A Cluster.log file will be parsed only if you select the **Cluster** configuration file in **Text Log Configuration** drop-down list of the **New Session** dialog for a Data Retrieval Session prior to loading the data into Message Analyzer. Otherwise, no data will display in the **Cluster Levels** view **Layout**.  
->   
-  
->   
+> 
+> 
+> 
 >  **More Information**   
 >  **To learn more** about working with text-based .log files, see [Opening Text Log Files](opening-text-log-files.md).  
 

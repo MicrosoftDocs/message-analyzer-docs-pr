@@ -25,18 +25,18 @@ Instead of using a built-in **Trace Scenario** to start a Live Trace Session, yo
 
  Message Analyzer provides you with some flexibility when running and handling **Trace Scenario** templates. For example, after you select a trace template during Live Trace Session configuration, you can do any of the following:  
   
--   Run the template as-is to capture the specific type of message data that the template is configured to retrieve in your Live Trace Session.  You can then save the results in one of the Message Analyzer native trace file formats, as described in [Saving Session Data](saving-session-data.md).  
+- Run the template as-is to capture the specific type of message data that the template is configured to retrieve in your Live Trace Session.  You can then save the results in one of the Message Analyzer native trace file formats, as described in [Saving Session Data](saving-session-data.md).  
   
--   Modify the template and then run it in a Live Trace Session to capture message data.  
+- Modify the template and then run it in a Live Trace Session to capture message data.  
   
--   Update the template and then save it without running it.  
+- Update the template and then save it without running it.  
   
--   Export the template in a specified asset collection, which can contain built-in **Trace Scenarios** and any scenario templates that you create, so that you can share them with others; either on a user-designated file share or through a user-configured feed in the Message Analyzer Sharing Infrastructure.  
+- Export the template in a specified asset collection, which can contain built-in **Trace Scenarios** and any scenario templates that you create, so that you can share them with others; either on a user-designated file share or through a user-configured feed in the Message Analyzer Sharing Infrastructure.  
 
- > [!TIP]
- >  You can also import a **Trace Scenario** asset collection that others have shared to a designated location through the Message Analyzer Sharing Infrastructure.  
+  > [!TIP]
+  >  You can also import a **Trace Scenario** asset collection that others have shared to a designated location through the Message Analyzer Sharing Infrastructure.  
   
--   Set a custom **Trace Scenario** template to Favorite  status in the **Trace Scenario** user Library, so that you can instantly start a Live Trace Session that uses such a scenario. All **Favorite Scenarios** are available from the Message Analyzer **Start Page**,  the global Message Analyzer **File** menu, and the global Message Analyzer tool bar. Note that if you set a custom **Trace Scenario** template to Favorite status, it will be highly accessible from numerous locations in the Message Analyzer user interface (UI). For information on setting favorites, see [Selecting a Trace Scenario](selecting-a-trace-scenario.md).  
+- Set a custom **Trace Scenario** template to Favorite  status in the **Trace Scenario** user Library, so that you can instantly start a Live Trace Session that uses such a scenario. All **Favorite Scenarios** are available from the Message Analyzer **Start Page**,  the global Message Analyzer **File** menu, and the global Message Analyzer tool bar. Note that if you set a custom **Trace Scenario** template to Favorite status, it will be highly accessible from numerous locations in the Message Analyzer user interface (UI). For information on setting favorites, see [Selecting a Trace Scenario](selecting-a-trace-scenario.md).  
   
 The distinction between a built-in **Trace Scenario** and a **Trace Scenario** template is minor. All **Trace Scenarios** that are accessible from the **Select Scenario** drop-down list on the **ETW Providers** toolbar of the **New Session** dialog are essentially trace configuration templates, because a template does not yet contain data.  
   
