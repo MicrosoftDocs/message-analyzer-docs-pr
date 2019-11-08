@@ -42,7 +42,7 @@ A brief description of each procedure is included here for review, as follows.
   
 1.  Launch Microsoft Message Analyzer, in the **Tools** menu, select **Asset Manager**.
 
-2.  In the **Asset Manager* window, click on the ‘Online’ button to switch to ‘Offline’ state.
+2.  In the **Asset Manager** window, click on the ‘Online’ button to switch to ‘Offline’ state.
 
 3.  Close and restart Microsoft Message Analyzer. You will notice the error message disappears.
   
