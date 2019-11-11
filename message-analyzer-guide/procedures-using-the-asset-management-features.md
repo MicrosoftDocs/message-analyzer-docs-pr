@@ -26,13 +26,16 @@ A brief description of each procedure is included here for review, as follows.
 
 ---  
   
+
  **[Dismiss Error Message](procedures-using-the-asset-management-features.md#BKMK_DismissError)** - see below.
  
+
  **[Download and Auto-Sync Asset Collections](procedures-using-the-asset-management-features.md#BKMK_DownloadAutoSync)**  — provides an example of how to download an asset collection once without synchronizing it for updates; how to set a selected asset collection for auto-syncing updates; and how to synchronize all asset collections for updates.  
   
  **[Share Local Library Items on a File Share](procedures-using-the-asset-management-features.md#BKMK_ShareLibraryItems)**  — provides an example of how to export and import user asset collection Library items for mutual sharing and collaboration with others.  
   
  **[Manually Configure Asset Collection Update Synchronization on a User Feed](procedures-using-the-asset-management-features.md#BKMK_ManualUpdateSyncing)**  — shows how to manually configure an asset collection for update synchronization on a user-configured feed.  
+
 
 <a name="BKMK_DismissError"></a>   
 ## Dismiss Error message due to removal of the Microsoft Message Analyzer Feed service  
@@ -45,6 +48,7 @@ A brief description of each procedure is included here for review, as follows.
 2.  In the **Asset Manager** window, click on the ‘Online’ button to switch to ‘Offline’ state.
 
 3.  Close and restart Microsoft Message Analyzer. You will notice the error message disappears.
+
   
 <a name="BKMK_DownloadAutoSync"></a>   
 ## Download and Auto-Sync Asset Collections  
