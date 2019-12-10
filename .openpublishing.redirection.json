@@ -1,0 +1,9 @@
+{
+  "redirections": [
+    {
+      "source_path": "message-analyzer-guide/index.md",
+      "redirect_url": "/message-analyzer/microsoft-message-analyzer-operating-guide",
+      "redirect_document_id": false
+    }
+  ]
+}
