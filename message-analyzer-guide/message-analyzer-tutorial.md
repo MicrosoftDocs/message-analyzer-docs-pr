@@ -115,7 +115,7 @@ Furthermore, Message Analyzer enables you to decrypt data that is encrypted with
 These capabilities solve many inherent capture, data display, and analysis problems, such as the visibility of encrypted data, assessment of loopback traffic that is enabled by the **Local Loopback Network** scenario, and seeing traffic from the **Viewpoint** of a protocol. The underlying technologies that support Message Analyzer also machine-validate message structure and values, behavior, and architecture based on protocol specifications; and if errors occur, they are surfaced very quickly to top-level as Diagnosis messages. To this end, Message Analyzer also provides a **Diagnostics** **Tool Window** that summarizes all the Diagnostic messages in a trace, which interactively drives selection of corresponding messages in the **Analysis Grid** viewer to facilitate further review of message **Details**, **Message Stack** information, and **Message Data**.
 
 > [!NOTE]
-> Message Analyzer is also an effective tool for testing and verifying protocol implementations. See the [Open Specifications](http://go.microsoft.com/fwlink/?LinkId=246356) documentation library for more information about protocol technical specifications.
+> Message Analyzer is also an effective tool for testing and verifying protocol implementations. See the [Open Specifications](https://go.microsoft.com/fwlink/?LinkId=246356) documentation library for more information about protocol technical specifications.
 
 <a name="BKMK_Primers"></a>
 ## Getting Started Primers
@@ -278,7 +278,7 @@ The following message providers are included in Message Analyzer **Trace Scenari
 <a name="BKMK_protoModules"></a>
 ### Protocol Modules and Specifications
 
- Message Analyzer can display message traffic that is captured from specific protocol modules only if the protocol object model (POM) repository within the PEF architecture contains compiled OPN descriptions representing the architecture, behavior, and data for those protocols. Message Analyzer ships with OPN descriptions for a large number of protocols, such as Microsoft Windows and other common public protocols, in addition to Office, Exchange, SharePoint, and SQL protocols. This enables you to capture a wide array of network protocol and application messages. In addition, to support your data analysis process, Microsoft makes [Protocol Technical Specifications](http://go.microsoft.com/fwlink/?LinkId=523812) available on the Microsoft Developer Network (MSDN) web site, while you can find other standard RFC specifications for public protocols on the Internet.
+ Message Analyzer can display message traffic that is captured from specific protocol modules only if the protocol object model (POM) repository within the PEF architecture contains compiled OPN descriptions representing the architecture, behavior, and data for those protocols. Message Analyzer ships with OPN descriptions for a large number of protocols, such as Microsoft Windows and other common public protocols, in addition to Office, Exchange, SharePoint, and SQL protocols. This enables you to capture a wide array of network protocol and application messages. In addition, to support your data analysis process, Microsoft makes [Protocol Technical Specifications](https://go.microsoft.com/fwlink/?LinkId=523812) available on the Microsoft Developer Network (MSDN) web site, while you can find other standard RFC specifications for public protocols on the Internet.
 
  You can use the technical documents (TDs) provided by Microsoft as references that depict protocol architecture, behavior, and data, as it was designed, to facilitate analysis of the messages you capture with Message Analyzer. For example, you could verify the value of a particular field or confirm the presence of required parameters for a particular method of a specific protocol that is failing to perform properly, although Message Analyzer has a built-in message validation feature that does this automatically.
 
@@ -364,7 +364,7 @@ If you have a custom MOF-based provider that you want to deploy on your local sy
 ---
 
  **More Information**  
- **To learn more** using the *mofcomp.exe* tool, see [mofcomp](http://go.microsoft.com/fwlink/?LinkId=523813) in the *WMI Command Line Tools* topic on MSDN.
+ **To learn more** using the *mofcomp.exe* tool, see [mofcomp](https://go.microsoft.com/fwlink/?LinkId=523813) in the *WMI Command Line Tools* topic on MSDN.
 
 ---
 
@@ -496,7 +496,7 @@ The built-in OPN configuration file types that are currently available for selec
 
 - **Cluster** — provides the OPN configuration that parses Cluster text logs.
 
-- **Dcdiag** — provides the OPN configuration that parses the output of the [Domain Controller Diagnostics Tool (Dcdiag)](http://www.microsoft.com/en-us/download/details.aspx?id=31063).
+- **Dcdiag** — provides the OPN configuration that parses the output of the [Domain Controller Diagnostics Tool (Dcdiag)](https://www.microsoft.com/download/details.aspx?id=31063).
 
 - **DPMRegistry** — provides the OPN configuration that parses special registry output text logs for the Data Protection Manager (DPM) component.
 
@@ -506,7 +506,7 @@ The built-in OPN configuration file types that are currently available for selec
 
 - **LSP** — provides the OPN configuration that parses text logs generated by the Local Security Authority (LSA) component, which applications can use to authenticate and log users on to the local system. The log files provide access to some data in clear text that is otherwise encrypted by messages on the wire. Administrative privileges are required to view these logs.
 
-- **LYNC** — provides the OPN configuration that parses [UCCAPI logs](http://blogs.technet.com/b/rischwen/archive/2013/11/18/lync-2013-uccapi-logging-configuration.aspx) from the Lync client application.
+- **LYNC** — provides the OPN configuration that parses [UCCAPI logs](https://blogs.technet.com/b/rischwen/archive/2013/11/18/lync-2013-uccapi-logging-configuration.aspx) from the Lync client application.
 
 - **Netlogon** — provides the OPN configuration that parses Netlogon logs for diagnosing logon issues on domain controllers.
 
@@ -514,13 +514,13 @@ The built-in OPN configuration file types that are currently available for selec
 
 - **SCCM** — provides the OPN configuration that parses System Center logs.
 
-- **SQLServerError** — provides the OPN configuration that parses [SQL Server error logs](http://technet.microsoft.com/library/ms187885\(v=SQL.105\).aspx).
+- **SQLServerError** — provides the OPN configuration that parses [SQL Server error logs](https://technet.microsoft.com/library/ms187885\(v=SQL.105\).aspx).
 
-- **SQLServerSetup** — provides the OPN configuration that parses [SQL Server setup logs](http://msdn.microsoft.com/library/ms143702.aspx).
+- **SQLServerSetup** — provides the OPN configuration that parses [SQL Server setup logs](https://msdn.microsoft.com/library/ms143702.aspx).
 
 - **ULS** — provides the OPN configuration that parses SharePoint logs.
 
-- **VMM** — provides the OPN configuration that parses [System Center Virtual Machine Manager logs](http://support.microsoft.com/kb/2913445/en-us).
+- **VMM** — provides the OPN configuration that parses [System Center Virtual Machine Manager logs](https://support.microsoft.com/kb/2913445/en-us).
 
 - **DefaultSimpleLogFileReaderConfig** — a generic configuration file that can parse most text logs, for example those from a domain controller.
 
@@ -550,7 +550,7 @@ A configuration file contains a description of the log's messages in OPN and Reg
 ---
 
  **More Information**  
- **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.  com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.  
+ **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](https://download.microsoft.  com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.  
 **To learn more** about other OPN configuration file requirements, see the [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md) topic.  
 
 ---

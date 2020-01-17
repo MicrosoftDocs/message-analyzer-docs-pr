@@ -35,7 +35,7 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
 -   **Pre-Encryption for HTTPS** scenario — uses the **Microsoft-Pef-WebProxy** provider, which is based on Fiddler, to capture local HTTP client browser traffic at the Application Layer prior to HTTPS encryption. Note that the **Microsoft-Pef-WebProxy** provider has an **Advanced Settings** dialog that enables you to configure **Hostname** and **Port** filters.  
   
   > [!NOTE]
-  >  To enable this scenario, you must have Fiddler installed on your computer. If you do not, then go  [here](http://fiddler2.com/fiddlercore) to download and install the Fiddler Library from Telerik.  
+  >  To enable this scenario, you must have Fiddler installed on your computer. If you do not, then go  [here](https://fiddler2.com/fiddlercore) to download and install the Fiddler Library from Telerik.  
   
 -   **USB2** scenario — uses the **Microsoft-Windows-USB-USBPORT** and **Microsoft-Windows-USB-USBHUB** providers to capture events related to USB2 devices plugged into a USB port, for troubleshooting such devices.  
   
@@ -77,7 +77,7 @@ Message Analyzer enables you to capture live traffic from network protocols, ETW
   
 -   **Provider manifest files** — these are typically cached on your machine. The manifests typically include **Keywords** that define the events that a provider captures and can also contain event descriptions that can be useful when assessing ETW Provider functionality. To see an example of a simple manifest, see the [Event Manifest](etw-framework-conceptual-tutorial.md#BKMK_EventManifest) topic in the [ETW Framework Conceptual Tutorial](etw-framework-conceptual-tutorial.md).  
   
--   **Windows Events Provider Explorer (WEPExplorer)** — a graphic utility that enables you to display metadata from the manifest of each system ETW Provider that is installed and registered on your system. The metadata includes event **Keywords**, error **Levels**, **Opcodes**, **Channels**, and so on. For further details, see [Windows Events Provider Explorer](http://lallouslab.net/2016/01/25/windows-events-providers-explorer/) on the web.  
+-   **Windows Events Provider Explorer (WEPExplorer)** — a graphic utility that enables you to display metadata from the manifest of each system ETW Provider that is installed and registered on your system. The metadata includes event **Keywords**, error **Levels**, **Opcodes**, **Channels**, and so on. For further details, see [Windows Events Provider Explorer](https://lallouslab.net/2016/01/25/windows-events-providers-explorer/) on the web.  
   
 -   **Event Trace Sessions** — view **Keyword** configurations for various ETW Providers in live sessions that you can view with Performance Monitor, as described in [Finding System ETW Provider Metadata](system-etw-provider-event-keyword-level-settings.md#BKMK_FindingKeywords). If you select an ETW Provider in the **Providers** list in the **Properties** dialog for a particular session and then click the **Edit** button, you can display the list of **Keywords** that were originally specified in the manifest as the selected provider was developed. This can give you an indication of the type of messages that the selected ETW Provider will capture. In most cases, you can also locate such providers in the previously mentioned **Add System Providers** dialog when you are configuring a Live Trace Session in Message Analyzer.  
   

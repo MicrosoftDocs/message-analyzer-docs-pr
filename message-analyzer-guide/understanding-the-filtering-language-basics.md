@@ -87,7 +87,7 @@ For example, the following is a valid filter expression that uses arithmetic ope
 |Arrays|“[80, 339, 993]”|  
   
 > [!NOTE]
->  When a field is declared as optional in OPN, the special value “nothing” is used to represent when the field is not present in an incoming message. You can include this special value in a filtering expression to represent such a case. For additional details about optional declarations and the use of the “nothing” value, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) on the Microsoft downloads site.  
+>  When a field is declared as optional in OPN, the special value “nothing” is used to represent when the field is not present in an incoming message. You can include this special value in a filtering expression to represent such a case. For additional details about optional declarations and the use of the “nothing” value, see the [OPN Programming Guide](https://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) on the Microsoft downloads site.  
   
 <a name="BKMK_traverseMessageHierarchy"></a>   
 ## Traversing the Message Hierarchy  
@@ -138,6 +138,6 @@ For example, the following is a valid filter expression that uses arithmetic ope
 ---  
   
  **More Information**   
- **To learn more** about OPN concepts that may help you write Filter Expressions, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) document.   
+ **To learn more** about OPN concepts that may help you write Filter Expressions, see the [OPN Programming Guide](https://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) document.   
  
 ---

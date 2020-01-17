@@ -81,8 +81,8 @@ After you capture data in a Live Trace Session, load data through a Data Retriev
   
  **More Information**   
  **To learn more** about troubleshooting Azure storage logs, see the following documentation:   
-[End-to-End Troubleshooting Using Azure Storage Metrics and Logging, AzCopy, and Message Analyzer](https://azure.microsoft.com/en-us/documentation/articles/storage-e2e-troubleshooting/)  
-[Monitor, Diagnose, and Troubleshoot Microsoft Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)  
+[End-to-End Troubleshooting Using Azure Storage Metrics and Logging, AzCopy, and Message Analyzer](https://azure.microsoft.com/documentation/articles/storage-e2e-troubleshooting/)  
+[Monitor, Diagnose, and Troubleshoot Microsoft Azure Storage](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)  
 
 ---  
   

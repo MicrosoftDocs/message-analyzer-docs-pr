@@ -20,7 +20,7 @@ manager: "ronstarr"
 The **Microsoft-PEF-WebProxy** provider enables you to focus on capturing traffic at the Application layer of the network stack.  It is based on Fiddler and enables you to capture unencrypted HTTP traffic  to and from a client web browser on computers running the Windows 7 and later operating systems. However, the **PEF-WebProxy** provider will not capture unencrypted HTTP browser traffic unless you configure **Internet options** to use a proxy server for the LAN.  
   
 > [!IMPORTANT]
->  To use the **PEF-WebProxy** provider, you must have the Fiddler library from Telerik installed. If you have not already installed this library, you can download it [here](http://fiddler2.com/fiddlercore). Note that if you select the **WebProxy** provider without having this library installed when you are configuring a Live Trace Session, or when specifying it in a PowerShell script, you will receive an error message that asks you to download the Fiddler library.  
+>  To use the **PEF-WebProxy** provider, you must have the Fiddler library from Telerik installed. If you have not already installed this library, you can download it [here](https://fiddler2.com/fiddlercore). Note that if you select the **WebProxy** provider without having this library installed when you are configuring a Live Trace Session, or when specifying it in a PowerShell script, you will receive an error message that asks you to download the Fiddler library.  
   
 ## Provider Functions  
 

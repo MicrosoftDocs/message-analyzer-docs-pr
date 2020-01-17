@@ -31,13 +31,13 @@ Message Analyzer provides a definition viewer that displays Open Protocol Notati
   
 -   **Search on Web** — enables you to search on the web for a highlighted string of characters that you selected.  
   
--   **Search in Microsoft Protocol Documentation** — enables you to search for protocol-related information in the [Windows Protocols](http://go.microsoft.com/fwlink/?LinkId=233157) documentation in the MSDN Library or other locations on the web.  
+-   **Search in Microsoft Protocol Documentation** — enables you to search for protocol-related information in the [Windows Protocols](https://go.microsoft.com/fwlink/?LinkId=233157) documentation in the MSDN Library or other locations on the web.  
   
      For example, you might search for the specification of a particular protocol such as AIPS.  
   
 ---  
   
  **More Information**   
- **To learn more** about OPN, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).  
+ **To learn more** about OPN, see the [OPN Programming Guide](https://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).  
  
 ---

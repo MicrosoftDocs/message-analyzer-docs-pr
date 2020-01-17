@@ -21,7 +21,7 @@ Periodically, members of the Microsoft PEF engineering team post interesting art
   
 ---  
   
- **[Go To the Message Analyzer Team Blog](http://go.microsoft.com/fwlink/?LinkId=523825)**    
+ **[Go To the Message Analyzer Team Blog](https://go.microsoft.com/fwlink/?LinkId=523825)**    
 
 ---  
   
@@ -51,11 +51,11 @@ Periodically, members of the Microsoft PEF engineering team post interesting art
 
  A few sample blog postings describing Message Analyzer features are included here so you can get started:  
   
-[Diagnosing Network Issues with the New Pattern Match Viewer](http://blogs.technet.com/b/messageanalyzer/archive/2015/08/11/diagnosing-network-issues-with-the-new-pattern-match-viewer.aspx)  
-[Message Analyzer v1.3 vs Network Monitor v3.4](http://blogs.technet.com/b/messageanalyzer/archive/2015/07/23/microsoft-message-analyzer-v1-3-versus-network-monitor-v3-4.aspx)  
-[Relating and Correlating Data Sources](http://blogs.technet.com/b/messageanalyzer/archive/2015/07/15/relating-and-correlating-data-sources.aspx)  
-[Process Tracking with Message Analyzer](http://blogs.technet.com/b/messageanalyzer/archive/2015/06/08/process-tracking-with-message-analyzer.aspx)  
-[Parsing Text Logs with Message Analyzer](http://blogs.technet.com/b/messageanalyzer/archive/2015/02/23/parsing-text-logs-with-message-analyzer.aspx) [Grouping Viewer - AKA Conversation Tree](http://blogs.technet.com/b/messageanalyzer/archive/2015/01/27/grouping-viewer-aka-conversation-tree-in-message-analyzer-1-2.aspx)  
+[Diagnosing Network Issues with the New Pattern Match Viewer](https://blogs.technet.com/b/messageanalyzer/archive/2015/08/11/diagnosing-network-issues-with-the-new-pattern-match-viewer.aspx)  
+[Message Analyzer v1.3 vs Network Monitor v3.4](https://blogs.technet.com/b/messageanalyzer/archive/2015/07/23/microsoft-message-analyzer-v1-3-versus-network-monitor-v3-4.aspx)  
+[Relating and Correlating Data Sources](https://blogs.technet.com/b/messageanalyzer/archive/2015/07/15/relating-and-correlating-data-sources.aspx)  
+[Process Tracking with Message Analyzer](https://blogs.technet.com/b/messageanalyzer/archive/2015/06/08/process-tracking-with-message-analyzer.aspx)  
+[Parsing Text Logs with Message Analyzer](https://blogs.technet.com/b/messageanalyzer/archive/2015/02/23/parsing-text-logs-with-message-analyzer.aspx) [Grouping Viewer - AKA Conversation Tree](https://blogs.technet.com/b/messageanalyzer/archive/2015/01/27/grouping-viewer-aka-conversation-tree-in-message-analyzer-1-2.aspx)  
   
 > [!NOTE]
 >  Many more blog posts will be forthcoming as the community of Message Analyzer users continues to ramp up.

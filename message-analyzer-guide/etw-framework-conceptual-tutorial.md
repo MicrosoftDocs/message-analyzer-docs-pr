@@ -218,7 +218,7 @@ Session statistics include the number of buffers used, the number of buffers del
 ---
 
  **More Information**  
- **To learn more** about ETW providers, including how to create and register ETW providers and instrumentation manifests, see [Creating an ETW Provider](http://go.microsoft.com/fwlink/?LinkId=523814) on MSDN.  
+ **To learn more** about ETW providers, including how to create and register ETW providers and instrumentation manifests, see [Creating an ETW Provider](https://go.microsoft.com/fwlink/?LinkId=523814) on MSDN.  
 **To learn more** about generating ETW manifests with various tools, see [Generating a Provider Manifest](generating-a-provider-manifest.md).  
 **To learn more** about configuring system ETW Providers, including how to specify event **Keyword** and **Level** settings, see [System ETW Provider Event Keyword/Level Settings](system-etw-provider-event-keyword-level-settings.md).
 
