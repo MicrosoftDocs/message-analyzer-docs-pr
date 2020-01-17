@@ -21,7 +21,7 @@ This section provides a brief description of the ongoing new and updated feature
 
 ## New in Message Analyzer Version 1.4
 
- The new and updated features that are provided in the Microsoft Message Analyzer version 1.4 release, first made available in March 2016 as a [public download](http://www.microsoft.com/en-us/download/details.aspx?id=44226), are described in this section.
+ The new and updated features that are provided in the Microsoft Message Analyzer version 1.4 release, are described in this section.
 
 - **Filtering Toolbar** — consists of  a new Filtering Toolbar that consolidates the major filtering functions of Message Analyzer into a common user interface (UI) that is accessible to all data viewers, including the **Grouping** viewer. Integrates the following filtering capabilities into the new toolbar:
 
