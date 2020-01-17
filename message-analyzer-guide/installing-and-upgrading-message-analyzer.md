@@ -17,8 +17,11 @@ manager: "ronstarr"
 
 # Installing and Upgrading Message Analyzer
 
+> [!IMPORTANT]
+> The Microsoft Message Analyzer tool [has been retired](https://social.technet.microsoft.com/Forums/en-US/6fd13e3a-88e1-4d71-b150-0941772eea6c/microsoft-message-analyzer-final-deprecation-notice?forum=messageanalyzer). We are leaving this page available for those who have downloaded the tool previously.
+
 **Installing Message Analyzer for the First Time**  
-If you have not already installed Microsoft Message Analyzer, go to the [Microsoft Message Analyzer](http://www.microsoft.com/en-us/download/details.aspx?id=44226) page on the **Microsoft Download Center** for a free download and installation of the latest version of Microsoft Message Analyzer. On this site, you will find details, new system requirements, brief installation instructions, and related resources such as **Known Issues** documentation and the Microsoft **Message Analyzer Operating Guide** in .pdf and .docx format. The Microsoft Message Analyzer release is available for installation in 32-bit and 64-bit versions. Installation requirements are listed in the table below for convenience.
+On this site, you will find details, new system requirements, brief installation instructions, and related resources such as **Known Issues** documentation and the Microsoft **Message Analyzer Operating Guide** in .pdf and .docx format. The Microsoft Message Analyzer release is available for installation in 32-bit and 64-bit versions. Installation requirements are listed in the table below for convenience.
 
 ### Table 1. Message Analyzer Installation Requirements
 
@@ -49,7 +52,7 @@ If you already have a Message Analyzer installation in place and you want to upg
 <a name="BKMK_UpgradeMessageAnalyzer"></a>
 ## Upgrading Message Analyzer  
 
- You may need to reinstall Message Analyzer, or you might simply want to upgrade to the latest Message Analyzer version  to take advantage of recent changes and improvements. When you perform the Message Analyzer upgrade, you have the option to allow the Message Analyzer installer to detect your existing Message Analyzer v1.0 or later installation and offer the **Upgrade** option. However, you also have the option to perform a clean installation by manually uninstalling your existing version from **Programs and Features** in **Control Panel** before you run the Microsoft installer from the [Microsoft Message Analyzer](http://www.microsoft.com/en-us/download/details.aspx?id=44226) page on the **Microsoft Download Center**. Also, you will definitely need to perform a clean installation if your existing Message Analyzer installation is a beta version, in which case the Microsoft Message Analyzer installer does not provide the **Upgrade** option. For this reason, you must be sure to manually uninstall your Message Analyzer beta version in the previously indicated manner prior to reinstalling from the **Download Center**.
+ You may need to reinstall Message Analyzer, or you might simply want to upgrade to the latest Message Analyzer version  to take advantage of recent changes and improvements. When you perform the Message Analyzer upgrade, you have the option to allow the Message Analyzer installer to detect your existing Message Analyzer v1.0 or later installation and offer the **Upgrade** option. However, you also have the option to perform a clean installation by manually uninstalling your existing version from **Programs and Features** in **Control Panel** before you run the Microsoft installer.. Also, you will definitely need to perform a clean installation if your existing Message Analyzer installation is a beta version, in which case the Microsoft Message Analyzer installer does not provide the **Upgrade** option. For this reason, you must be sure to manually uninstall your Message Analyzer beta version in the previously indicated manner prior to reinstalling.
 
 > [!IMPORTANT]
 > Whether you manually uninstall Message Analyzer prior to reinstallation or if you perform an upgrade, ***all binaries and data are removed***, which might include some user-created assets, depending on where they are located, as described in [Preserving User Created Assets Prior to Message Analyzer Installation](installing-and-upgrading-message-analyzer.md#BKMK_PreservingUserAssets)
