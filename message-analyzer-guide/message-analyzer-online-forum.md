@@ -23,7 +23,7 @@ If you have comments or questions about Message Analyzer issues that you encount
   
 ---  
   
- **[Go To the Message Analyzer Online Forum](http://go.microsoft.com/fwlink/?LinkId=523826)**    
+ **[Go To the Message Analyzer Online Forum](https://go.microsoft.com/fwlink/?LinkId=523826)**    
 
 ---  
   

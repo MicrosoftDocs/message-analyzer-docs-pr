@@ -132,7 +132,7 @@ trace.
   
     Your new **Chart** appears in all of the locations described in
     [Built-In Chart Data
-    Viewers](https://technet.microsoft.com/en-us/library/dn281863.aspx#BKMK_Charts),
+    Viewers](https://technet.microsoft.com/library/dn281863.aspx#BKMK_Charts),
     from where you can select the **Chart** as required for simple HTTP
     analysis.
 1. To edit your new **Chart** at any time, select it from the **New

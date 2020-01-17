@@ -53,7 +53,7 @@ This topic describes how to execute built-in **Pattern** expressions, how to vie
     -   **Three-Way Handshake** — enables you to isolate all three-way handshakes that occurred when setting up TCP connections, for both IPv4 and IPv6 transports, in the current set of messages. Also displays the approximate round trip time as the time delta between Syn messages and Syn Acknowledgement messages.  
   
  > [!NOTE]
- >  In the latest Message Analyzer build on the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=44226), all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
+ >  In the latest Message Analyzer build, all of the TCP Pattern expressions are enabled to work  with the **Microsoft-PEF-WFP-MessageProvider**, which has no IP/Network Layer.  
   
 -   **TLS** category — the built-in **Pattern** expressions that are available in this category are described below.  
   

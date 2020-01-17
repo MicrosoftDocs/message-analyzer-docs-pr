@@ -63,7 +63,7 @@ To obtain access to the configuration controls and features that you will need t
   
             -   **Value Number Format** — enables you to specify the number format for the Y-axis in a **Timeline** visualizer component. The default value is “N”, for the Number format.  
   
-                 For more information about possible settings for this property, see [Standard Numeric Format Strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx) in the MSDN Library.  
+                 For more information about possible settings for this property, see [Standard Numeric Format Strings](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx) in the MSDN Library.  
   
     -   **Sort Order** drop-down selector — enables you to specify the order in which a data field value (Series) or formula result (Value) is sorted in a visualizer component. You can select from the following three options.  
   

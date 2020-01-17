@@ -190,11 +190,11 @@ Start-PefTraceSession -PEFSession $TraceSession01 –Trigger $Trigger02
   
 <a name="BKMK_AccessingPSFunctionality"></a>   
 ## Accessing PowerShell Cmdlets and Help  
- To take advantage of the functionality provided in the previously described [Using PowerShell Cmdlets](automating-tracing-functions-with-powershell.md#BKMK_pshellcmdlets) for Message Analyzer, you must have PowerShell v3.0 installed. PowerShell v3.0 installs automatically with Windows 8 and later operating systems; however, if you are running Windows 7, you will need to install the [Windows Management Framework 3.0](http://go.microsoft.com/fwlink/?LinkId=523822) to obtain a PowerShell v3.0 installation. After you have a PowerShell v3.0 installation in place on your Windows 7 machine, you will need to run the following command to import the PEF PowerShell module into your PowerShell session:   
+ To take advantage of the functionality provided in the previously described [Using PowerShell Cmdlets](automating-tracing-functions-with-powershell.md#BKMK_pshellcmdlets) for Message Analyzer, you must have PowerShell v3.0 installed. PowerShell v3.0 installs automatically with Windows 8 and later operating systems; however, if you are running Windows 7, you will need to install the [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/?LinkId=523822) to obtain a PowerShell v3.0 installation. After you have a PowerShell v3.0 installation in place on your Windows 7 machine, you will need to run the following command to import the PEF PowerShell module into your PowerShell session:   
 `Import-Module PEF`  
 Then, to update the help, run the following command to download the latest cmdlet Help content from TechNet:   
 `Update-Help -Module PEF -Force –Verbose`  
   
 > [!NOTE]
->  PowerShell cmdlet help documentation is available at the PowerShell command line and also in the TechNet Library on the [Message Analyzer Cmdlets](http://go.microsoft.com/fwlink/?LinkId=523823) site. For complete command-line syntax, parameter specifications, and usage examples, see these locations. If you want to view help at the PowerShell command line for a particular cmdlet, specify the following command string:   
+>  PowerShell cmdlet help documentation is available at the PowerShell command line and also in the TechNet Library on the [Message Analyzer Cmdlets](https://go.microsoft.com/fwlink/?LinkId=523823) site. For complete command-line syntax, parameter specifications, and usage examples, see these locations. If you want to view help at the PowerShell command line for a particular cmdlet, specify the following command string:   
 > `get-help <cmdletname>`
