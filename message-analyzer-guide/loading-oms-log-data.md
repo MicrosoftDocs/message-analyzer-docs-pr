@@ -28,7 +28,7 @@ Message Analyzer now enables you to load data from Operations Management Suite (
 ---  
   
  **More Information**   
- **To learn more** about Log Analytics search syntax, see the [Log Analytics Documentation](https://technet.microsoft.com/en-us/library/mt484087.aspx) topic on  TechNet.  
+ **To learn more** about Log Analytics search syntax, see the [Log Analytics Documentation](https://technet.microsoft.com/library/mt484087.aspx) topic on  TechNet.  
 
 ---  
   

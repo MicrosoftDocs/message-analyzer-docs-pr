@@ -33,7 +33,7 @@ You might need to generate a provider manifest to ensure that Message Analyzer c
      `Tracerpt /?`  
   
     > [!TIP]
-    >  You might be able to obtain a manifest from [InsightWeb](http://go.microsoft.com/fwlink/?LinkId=523819) as well, if you have access to internal Microsoft sites.  
+    >  You might be able to obtain a manifest from [InsightWeb](https://go.microsoft.com/fwlink/?LinkId=523819) as well, if you have access to internal Microsoft sites.  
   
 > [!IMPORTANT]
 >  As an alternative to the previous methods, you may be able to use the following tool to create a manifest:  

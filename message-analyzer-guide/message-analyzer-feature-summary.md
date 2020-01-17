@@ -228,11 +228,11 @@ The global Message Analyzer **Help** menu provides access to the features descri
 
     -   **Request a Feature**— request a feature that you think would improve your experiences with Message Analyzer.
 
--   **View Help** — click this item to access the  [Message Analyzer Operating Guide](https://technet.microsoft.com/en-us/library/jj649776.aspx) on TechNet.
+-   **View Help** — click this item to access the  [Message Analyzer Operating Guide](https://technet.microsoft.com/library/jj649776.aspx) on TechNet.
 
--   **Message Analyzer Team Blog** — click this item to open the [Message Analyzer Team Blog](https://technet.microsoft.com/en-us/library/dn281804.aspx) site to review regularly posted blog articles on various Message Analyzer subjects. Also enables you to provide comments, ask questions, and receive feedback directly from Microsoft.
+-   **Message Analyzer Team Blog** — click this item to open the [Message Analyzer Team Blog](https://technet.microsoft.com/library/dn281804.aspx) site to review regularly posted blog articles on various Message Analyzer subjects. Also enables you to provide comments, ask questions, and receive feedback directly from Microsoft.
 
--   **Discussion Forum** — click this item to open the [Message Analyzer Forum](https://technet.microsoft.com/en-us/library/dn386831.aspx) site, where you can start a discussion thread and view responses from the Message Analyzer community of users and Microsoft.
+-   **Discussion Forum** — click this item to open the [Message Analyzer Forum](https://technet.microsoft.com/library/dn386831.aspx) site, where you can start a discussion thread and view responses from the Message Analyzer community of users and Microsoft.
 
 -   **Check for Updates** — enables you to manually initiate a check for updates to your Message Analyzer installation.
 
@@ -343,5 +343,5 @@ From the **Start Page**, you can also view **Recent Files**, **Favorite Scenario
 
 For a high-level comparison of  Message Analyzer and Network Monitor features and why new approaches have been taken for capturing, displaying, and analyzing message traffic, see the following Message Analyzer Blog articles.
 
-[Message Analyzer v1.3 vs Network Monitor v3.4](http://blogs.technet.com/b/messageanalyzer/archive/2015/07/23/microsoft-message-analyzer-v1-3-versus-network-monitor-v3-4.aspx)
-[Message Analyzer: Why so different from Network Monitor?](http://blogs.technet.com/b/messageanalyzer/archive/2013/09/25/message-analyzer-why-so-different-from-network-monitor.aspx)
+[Message Analyzer v1.3 vs Network Monitor v3.4](https://blogs.technet.com/b/messageanalyzer/archive/2015/07/23/microsoft-message-analyzer-v1-3-versus-network-monitor-v3-4.aspx)
+[Message Analyzer: Why so different from Network Monitor?](https://blogs.technet.com/b/messageanalyzer/archive/2013/09/25/message-analyzer-why-so-different-from-network-monitor.aspx)

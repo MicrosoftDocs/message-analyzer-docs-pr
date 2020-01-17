@@ -31,7 +31,7 @@ This section describes two different methods that you can use to acquire data fo
   
          This file will contain the name of a single remote host from which to return data, using the format:  `host=<hostname>`. Optionally, you can specify credentials in the following format:  `user=<domain\username>` and `password=<Password>`. Specify each entry on separate lines in the .config file *without the angle brackets*. The default authentication method is Windows Integrated authentication.  
   
-    -   Enable PowerShell remoting on the specified remote host by running the [Enable-PSRemoting](http://technet.microsoft.com/en-us/library/hh849694.aspx) cmdlet.  
+    -   Enable PowerShell remoting on the specified remote host by running the [Enable-PSRemoting](http://technet.microsoft.com/library/hh849694.aspx) cmdlet.  
   
     -   Open the .ps1 file by using either of the methods specified in the “Local hosts” bullet point above.  
   

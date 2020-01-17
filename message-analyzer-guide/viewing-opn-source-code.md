@@ -31,7 +31,7 @@ Message Analyzer provides a definition viewer that displays Open Protocol Notati
   
 -   **Search on Web** — enables you to search on the web for a highlighted string of characters that you selected.  
   
--   **Search in Microsoft Protocol Documentation** — enables you to search for protocol-related information in the [Windows Protocols](http://go.microsoft.com/fwlink/?LinkId=233157) documentation in the MSDN Library or other locations on the web.  
+-   **Search in Microsoft Protocol Documentation** — enables you to search for protocol-related information in the [Windows Protocols](https://go.microsoft.com/fwlink/?LinkId=233157) documentation in the MSDN Library or other locations on the web.  
   
      For example, you might search for the specification of a particular protocol such as AIPS.  
   

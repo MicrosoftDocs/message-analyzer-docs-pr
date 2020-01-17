@@ -40,7 +40,7 @@ To locate saved data that you want to load into Message Analyzer from supported 
 |.json|Javascript object notation log files|Non-native|Standard input file support.|  
 |.log|Textual log file|Non-native|Requires either selecting or creating an OPN Configuration file; see [Opening Text Log Files](opening-text-log-files.md). Note that the OPN configuration file selection requirement also applies to Azure storage logs. Message Analyzer **Profiles** are available for this input file type.|  
 |.matp|Compressed trace parsed file|Native|Open files saved in Message Analyzer native file format.|  
-|.matu|Compressed trace unparsed file|Native|Open Message Analyzer unparsed (.matu) files or PowerShell initiated traces that are saved in the same unparsed file format; see the [Save-PefMessageCollection](http://technet.microsoft.com/en-us/library/dn456523.aspx) cmdlet documentation.|  
+|.matu|Compressed trace unparsed file|Native|Open Message Analyzer unparsed (.matu) files or PowerShell initiated traces that are saved in the same unparsed file format; see the [Save-PefMessageCollection](http://technet.microsoft.com/library/dn456523.aspx) cmdlet documentation.|  
 |.oms|Operations Management Suite (OMS) logs|Non-native|Requires an Azure Subscription and credentials to log in to Azure, as described in [Loading OMS Log Data](loading-oms-log-data.md).|  
 |.opn|Open Protocol Notation files|Native|Display the source code for any OPN message parser.|  
 |.pcap|Packet capture trace file|Non-native|Standard input file support. Message Analyzer **Profiles** are available for this input file type.|  

@@ -384,7 +384,7 @@ The **TCP Three-Way Handshake** **Pattern** expression identifies this pattern a
   
  **More Information**   
  **To learn more** about the **Pattern Editor**, see [Using the Pattern Editor](using-the-pattern-editor.md).   
-**To learn more** about executing sequential **Pattern** expressions, see the TechNet Blog article [Sequence Match View: Identifying Interesting Network Patterns](http://blogs.technet.com/b/messageanalyzer/archive/2013/08/23/sequence-match-view-identifying-interesting-network-patterns.aspx).  
+**To learn more** about executing sequential **Pattern** expressions, see the TechNet Blog article [Sequence Match View: Identifying Interesting Network Patterns](https://blogs.technet.com/b/messageanalyzer/archive/2013/08/23/sequence-match-view-identifying-interesting-network-patterns.aspx).  
 **To learn more** about OPN, see the [OPN Programming Guide](http://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx).   
 
 ---
