@@ -23,7 +23,7 @@ Message Analyzer automatically determines the Open Protocol Notation (OPN) confi
 
  An OPN configuration file consists of message definitions that describe how text log data entries are to be parsed for display in Message Analyzer. You can create the message definitions for a text log by using OPN and Regular Expression (Regex) notation to identify each unique type of log entry and map it to a message structure, as indicated in [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles). The message definitions contained in a configuration file are also subject to OPN compilation to ensure the integrity of the OPN description that Message Analyzer will use to parse the text log. If an OPN configuration file does not properly compile, you will receive a compilation error during Message Analyzer startup when OPN definitions are loaded into the system.
 
- You can review the details and requirements for creating an OPN configuration file by downloading the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.
+ You can review the details and requirements for creating an OPN configuration file by downloading the [OPN Configuration Guide for Text Log Adapter](https://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.
 
 ## Saving the Configuration File
 
