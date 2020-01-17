@@ -87,6 +87,6 @@ Message Analyzer now enables you to load data from Operations Management Suite (
 ---  
   
  **More Information**   
- **To learn more** about JSON, see the [JSON Official Site](http://json.org/).  
+ **To learn more** about JSON, see the [JSON Official Site](https://json.org/).  
  
 ---

@@ -336,7 +336,7 @@ A brief description of each procedure is included here for review, as follows.
 ---  
   
  **More Information**   
- **To learn more** about the extension filtering stack on a Hyper-V-Switch, see [Overview of the Hyper-V Extensible Switch](http://msdn.microsoft.com/library/windows/hardware/hh582268\(v=vs.85\).aspx) on MSDN.  
+ **To learn more** about the extension filtering stack on a Hyper-V-Switch, see [Overview of the Hyper-V Extensible Switch](https://msdn.microsoft.com/library/windows/hardware/hh582268\(v=vs.85\).aspx) on MSDN.  
 **To learn more** about capturing traffic on a remote host and specifying adapter and filter configurations for the **Microsoft-Windows-NDIS-PacketCapture** provider, see [Configuring a Remote Capture](configuring-a-remote-capture.md).   
 **To learn more** about the **Field Chooser**, see [Using the Field Chooser](using-the-field-chooser.md).   
 

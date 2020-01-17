@@ -323,7 +323,7 @@ A brief description of each procedure is included here for review, as follows.
   
  **More Information**   
  **To learn more** about OPN configuration files, see the latter sections of [Parsing Input Text Log Files](message-analyzer-tutorial.md#BKMK_ParsingLogFiles).  
-**To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) and use it as a development reference to walk through the process of creating a configuration file for your log.  
+**To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](https://download.microsoft.com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) and use it as a development reference to walk through the process of creating a configuration file for your log.  
 
 ---  
   

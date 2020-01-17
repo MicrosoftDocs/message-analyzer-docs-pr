@@ -496,7 +496,7 @@ The built-in OPN configuration file types that are currently available for selec
 
 - **Cluster** — provides the OPN configuration that parses Cluster text logs.
 
-- **Dcdiag** — provides the OPN configuration that parses the output of the [Domain Controller Diagnostics Tool (Dcdiag)](http://www.microsoft.com/download/details.aspx?id=31063).
+- **Dcdiag** — provides the OPN configuration that parses the output of the [Domain Controller Diagnostics Tool (Dcdiag)](https://www.microsoft.com/download/details.aspx?id=31063).
 
 - **DPMRegistry** — provides the OPN configuration that parses special registry output text logs for the Data Protection Manager (DPM) component.
 
@@ -514,13 +514,13 @@ The built-in OPN configuration file types that are currently available for selec
 
 - **SCCM** — provides the OPN configuration that parses System Center logs.
 
-- **SQLServerError** — provides the OPN configuration that parses [SQL Server error logs](http://technet.microsoft.com/library/ms187885\(v=SQL.105\).aspx).
+- **SQLServerError** — provides the OPN configuration that parses [SQL Server error logs](https://technet.microsoft.com/library/ms187885\(v=SQL.105\).aspx).
 
-- **SQLServerSetup** — provides the OPN configuration that parses [SQL Server setup logs](http://msdn.microsoft.com/library/ms143702.aspx).
+- **SQLServerSetup** — provides the OPN configuration that parses [SQL Server setup logs](https://msdn.microsoft.com/library/ms143702.aspx).
 
 - **ULS** — provides the OPN configuration that parses SharePoint logs.
 
-- **VMM** — provides the OPN configuration that parses [System Center Virtual Machine Manager logs](http://support.microsoft.com/kb/2913445/en-us).
+- **VMM** — provides the OPN configuration that parses [System Center Virtual Machine Manager logs](https://support.microsoft.com/kb/2913445/en-us).
 
 - **DefaultSimpleLogFileReaderConfig** — a generic configuration file that can parse most text logs, for example those from a domain controller.
 
@@ -550,7 +550,7 @@ A configuration file contains a description of the log's messages in OPN and Reg
 ---
 
  **More Information**  
- **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](http://download.microsoft.  com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.  
+ **To learn more** about how to create an OPN configuration file, download the [OPN Configuration Guide for Text Log Adapter](https://download.microsoft.  com/download/C/D/E/CDED67DB-2C74-4FE4-B184-123CEE0E273F/OPN%20Configuration%20Guide%20for%20Text%20Log%20Adapter%20V2.docx) document.  
 **To learn more** about other OPN configuration file requirements, see the [Addendum 1: Configuration Requirements for Parsing Custom Text Logs](addendum-1-configuration-requirements-for-parsing-customtext-logs.md) topic.  
 
 ---
