@@ -18,7 +18,7 @@ manager: "ronstarr"
 # Installing and Upgrading Message Analyzer
 
 > [!IMPORTANT]
-> The Microsoft Message Analyzer tool [has been retired](https://docs.microsoft.com/en-us/openspecs/blog/ms-winintbloglp/dd98b93c-0a75-4eb0-b92e-e760c502394f). We are leaving this page available for those who have downloaded the tool previously.
+> The Microsoft Message Analyzer tool [has been retired](/openspecs/blog/ms-winintbloglp/dd98b93c-0a75-4eb0-b92e-e760c502394f). We are leaving this page available for those who have downloaded the tool previously.
 
 **Installing Message Analyzer for the First Time**  
 On this site, you will find details, new system requirements, brief installation instructions, and related resources such as **Known Issues** documentation and the Microsoft **Message Analyzer Operating Guide** in .pdf and .docx format. The Microsoft Message Analyzer release is available for installation in 32-bit and 64-bit versions. Installation requirements are listed in the table below for convenience.
