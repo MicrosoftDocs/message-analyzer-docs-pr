@@ -496,7 +496,7 @@ The built-in OPN configuration file types that are currently available for selec
 
 - **Cluster** — provides the OPN configuration that parses Cluster text logs.
 
-- **Dcdiag** — provides the OPN configuration that parses the output of the [Domain Controller Diagnostics Tool (Dcdiag)](https://www.microsoft.com/download/details.aspx?id=31063).
+- **Dcdiag** — provides the OPN configuration that parses the output of the Domain Controller Diagnostics Tool (Dcdiag).
 
 - **DPMRegistry** — provides the OPN configuration that parses special registry output text logs for the Data Protection Manager (DPM) component.
 
