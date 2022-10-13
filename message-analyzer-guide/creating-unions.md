@@ -83,7 +83,7 @@ To go directly to a procedure that creates a **Union**, see [Create a Union of T
   ---  
     
    **More Information**   
-   The [OPN Programming Guide]  (https://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD4614  0B7/OPN%20Programming%20Guide%20v4.4.docx) contains a type conversion table in   section 2.1.7 that enables you to map the conversion path taken by Message   Analyzer in the previously mentioned type conversion. For example, the type   `byte` can implicitly convert to type `short`, and a `short` can implicitly   convert to an `int`, therefore, type `byte` can convert directly to type   `int`.   
+   The [OPN Programming Guide](https://download.microsoft.com/download/3/E/8/3E845130-349C-4EFC-B634-C7DBD46140B7/OPN%20Programming%20Guide%20v4.4.docx) contains a type conversion table in   section 2.1.7 that enables you to map the conversion path taken by Message   Analyzer in the previously mentioned type conversion. For example, the type   `byte` can implicitly convert to type `short`, and a `short` can implicitly   convert to an `int`, therefore, type `byte` can convert directly to type   `int`.   
   
   ---  
   
