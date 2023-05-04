@@ -29,6 +29,7 @@
         "overwrite": [],
         "externalReference": [],
         "globalMetadata": {
+            "feedback_system": "Standard",
             "breadcrumb_path": "/message-analyzer/breadcrumb/toc.json",
             "extendBreadcrumb": true,
             "titleSuffix": "Message Analyzer",
