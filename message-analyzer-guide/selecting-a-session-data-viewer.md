@@ -13,6 +13,7 @@ caps.latest.revision: 42
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn to Select a Session Data Viewer in Microsoft Message Analyzer with easy selection criteria & viewer options. Maximize analysis efficiency.
 ---
 
 # Selecting a Session Data Viewer
