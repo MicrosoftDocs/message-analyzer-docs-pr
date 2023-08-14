@@ -13,6 +13,7 @@ caps.latest.revision: 14
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Discover IIS Log Top URIs by Time: Analyze server response times, identify potential overload & network latency issues. Improve your IIS server performance.
 ---
 
 # IIS Log Top URIs by Time
