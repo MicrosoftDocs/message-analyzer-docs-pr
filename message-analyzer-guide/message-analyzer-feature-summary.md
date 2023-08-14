@@ -13,6 +13,7 @@ caps.latest.revision: 118
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Discover Microsoft Message Analyzer's powerful features for capturing, analyzing, and troubleshooting message traffic. Improve usability and expand capabilities.
 ---
 
 # Message Analyzer Feature Summary

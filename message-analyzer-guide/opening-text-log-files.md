@@ -13,6 +13,7 @@ caps.latest.revision: 18
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn to Open & Parse Text Log Files with Microsoft Message Analyzer. Improve Data Retrieval & Analysis. Start Now.
 ---
 
 # Opening Text Log Files
