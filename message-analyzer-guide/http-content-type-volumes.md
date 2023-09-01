@@ -13,7 +13,7 @@ caps.latest.revision: 14
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
-description: Learn Microsoft's Message Analyzer: Discover HTTP Content Type Volumes, analyze data, and improve web server performance.
+description: "Learn Microsoft's Message Analyzer: Discover HTTP Content Type Volumes, analyze data, and improve web server performance."
 ---
 
 # HTTP Content Type Volumes
