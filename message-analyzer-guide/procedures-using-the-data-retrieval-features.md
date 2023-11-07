@@ -13,6 +13,7 @@ caps.latest.revision: 76
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn how to use Microsoft Message Analyzer's data retrieval features to efficiently retrieve saved logs and files. This guide provides step-by-step procedures for various scenarios.
 ---
 
 # Procedures: Using the Data Retrieval Features

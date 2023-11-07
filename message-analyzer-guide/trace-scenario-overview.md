@@ -13,6 +13,7 @@ caps.latest.revision: 24
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn to design, save, and access trace templates with specific providers and filters using Microsoft's Message Analyzer. Enhance your tracing functionality.
 ---
 
 # Trace Scenario Overview

@@ -13,6 +13,7 @@ caps.latest.revision: 15
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Manage your asset collections efficiently with Microsoft's Asset Manager. Download, auto-sync, and share assets seamlessly. Stay updated with the latest versions.
 ---
 
 # Asset Manager

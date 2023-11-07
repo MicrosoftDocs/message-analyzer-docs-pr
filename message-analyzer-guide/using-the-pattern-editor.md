@@ -13,6 +13,7 @@ caps.latest.revision: 39
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Master the use of Microsoft's Pattern Editor for sequential pattern matching definitions. Learn to create custom Pattern expressions and enhance your data analysis skills.
 ---
 
 # Using the Pattern Editor

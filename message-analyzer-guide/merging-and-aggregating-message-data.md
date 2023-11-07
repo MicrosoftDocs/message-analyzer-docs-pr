@@ -13,6 +13,7 @@ caps.latest.revision: 31
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn how to merge and aggregate data from multiple files and locations using Microsoft's Message Analyzer. Ideal for analyzing log and trace files.
 ---
 
 # Merging and Aggregating Message Data
