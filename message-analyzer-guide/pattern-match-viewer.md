@@ -13,6 +13,7 @@ caps.latest.revision: 48
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Discover how to isolate and evaluate sequential patterns in your data with Microsoft's Message Analyzer's pattern matching tool. Learn to identify virus patterns and more.
 ---
 
 # Pattern Match Viewer
