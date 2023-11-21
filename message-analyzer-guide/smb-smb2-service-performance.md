@@ -13,6 +13,7 @@ caps.latest.revision: 17
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Improve your SMB/SMB2 service performance with our detailed guide. Learn to analyze command types, response times, and detect network latency issues.
 ---
 # SMB-SMB2 Service Performance
 The **SMB/SMB2 Service Performance** view **Layout** for **Charts** provides a summary of the top SMB command types in a set of trace results, the number of calls made by each command, along with the minimum, average, and maximum values for the service response time and elapsed time for each command. The summary information is provided as tabular data in the grid visualizer format  and contains the following columns of information:  

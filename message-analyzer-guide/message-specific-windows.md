@@ -13,6 +13,7 @@ caps.latest.revision: 26
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Explore message-specific, redockable Tool Windows on Microsoft. Learn to display additional details for selected messages. Start now.
 ---
 
 # Message-Specific Windows

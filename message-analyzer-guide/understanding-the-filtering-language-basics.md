@@ -13,6 +13,7 @@ caps.latest.revision: 60
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Master the basics of Microsoft's Filtering Language with this comprehensive guide. Learn to create custom Filter Expressions, use operators, and more.
 ---
 
 # Understanding the Filtering Language Basics
