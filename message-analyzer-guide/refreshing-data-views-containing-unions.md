@@ -13,6 +13,7 @@ caps.latest.revision: 21
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn how to refresh Message Analyzer data and operations in response to Union modifications. Understand automatic and manual refresh scenarios.
 ---
 
 # Refreshing Data Views Containing Unions

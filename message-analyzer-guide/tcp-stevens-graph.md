@@ -13,6 +13,7 @@ caps.latest.revision: 17
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn to analyze TCP traffic issues with Microsoft's TCP Stevens Graph. Understand IP conversations, diagnose errors, and optimize your network performance.
 ---
 
 # TCP Stevens Graph
