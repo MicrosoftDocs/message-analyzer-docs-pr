@@ -13,6 +13,7 @@ caps.latest.revision: 35
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Learn how to select and configure a Data Retrieval Session Viewer in Message Analyzer on Microsoft's official site. Discover different data viewers and analysis tools.
 ---
 
 # Selecting a Data Retrieval Session Viewer
