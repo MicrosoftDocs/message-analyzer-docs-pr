@@ -13,6 +13,7 @@ caps.latest.revision: 48
 author: "greggigwg"
 ms.author: "greggill"
 manager: "ronstarr"
+description: Master the configuration and management of Message Analyzer Unions with this comprehensive guide. Learn to analyze data from multiple sources effectively.
 ---
 
 # Configuring and Managing Message Analyzer Unions
