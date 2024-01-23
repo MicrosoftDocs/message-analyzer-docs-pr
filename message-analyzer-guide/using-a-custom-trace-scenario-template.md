@@ -2,10 +2,10 @@
 title: "Using a Custom Trace Scenario Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cfee9387-dfd7-4846-b77a-e54f612112c7

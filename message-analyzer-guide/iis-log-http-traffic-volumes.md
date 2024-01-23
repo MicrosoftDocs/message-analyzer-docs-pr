@@ -2,10 +2,10 @@
 title: "IIS Log HTTP Traffic  Volumes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1518790e-4a0c-4965-bd94-45c92c4b8978

@@ -2,10 +2,10 @@
 title: "Session-Specific Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fdb23b8d-e2e1-4dc3-87ee-fd7d25537a1e

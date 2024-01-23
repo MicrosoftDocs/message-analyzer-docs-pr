@@ -2,10 +2,10 @@
 title: "Procedures: Using the Data Viewing Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bb6551ca-8692-4611-a0eb-4eea5d5cf5ef

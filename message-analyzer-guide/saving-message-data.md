@@ -2,10 +2,10 @@
 title: "Saving Message Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 282be3f1-97ae-48ea-9bb1-99d2fe5b60c6

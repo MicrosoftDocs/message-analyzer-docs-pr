@@ -2,10 +2,10 @@
 title: "TCP-UDP Conversations by Message Count Top 20 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 44f06567-4d6a-4889-933c-f669f64c417d

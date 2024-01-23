@@ -2,10 +2,10 @@
 title: "Procedures: Using the Data Retrieval Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8b4ad6ef-3c14-4ee1-8df2-0656b990e065
