@@ -2,10 +2,10 @@
 title: "Understanding Event Parsing with a Provider Manifest | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 470b0640-4a15-409d-aa62-8202465b7f4b

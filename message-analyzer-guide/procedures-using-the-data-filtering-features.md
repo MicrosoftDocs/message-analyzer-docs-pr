@@ -2,10 +2,10 @@
 title: "Procedures: Using the Data Filtering Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a6d0f1e0-24a7-47bb-b3d4-a049d81ef84a

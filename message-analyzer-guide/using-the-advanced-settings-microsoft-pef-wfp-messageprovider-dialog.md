@@ -2,10 +2,10 @@
 title: "Using the Advanced Settings- Microsoft-PEF-WFP-MessageProvider Dialog | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f2386c9c-6fe5-4ed9-af46-c66377e4f5f3

@@ -2,10 +2,10 @@
 title: "Configuring and Managing Message Analyzer Unions | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0a642063-24b3-4524-81f9-31f90c7cad0e

@@ -2,10 +2,10 @@
 title: "Managing Microsoft OPN Parser Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 667ae82e-ea7f-4916-84cb-38e2bdd48231

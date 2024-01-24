@@ -2,10 +2,10 @@
 title: "IP-Ethernet Conversations by Message Count | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1cb7ad39-95fc-40e8-a135-350e15e938c3

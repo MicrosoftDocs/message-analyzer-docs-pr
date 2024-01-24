@@ -2,10 +2,10 @@
 title: "Filtering Live Trace Session Results | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 37fdb0f4-05a4-4d48-a449-7a8ea9d5da9e
