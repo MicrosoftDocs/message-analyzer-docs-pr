@@ -2,10 +2,10 @@
 title: "Addendum 1: Configuration Requirements for Parsing CustomText Logs | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec1e4efd-4eaf-41ad-9fff-f4c17c602153

@@ -2,10 +2,10 @@
 title: "Specifying Advanced ETW Session Configuration Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f8a075ff-628f-49b7-8165-3d9eb76b0544

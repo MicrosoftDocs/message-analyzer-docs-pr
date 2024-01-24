@@ -2,10 +2,10 @@
 title: "IIS Log Server Bytes by Host over Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61f7a23d-b0a6-41e0-85c0-5302fa7c8084

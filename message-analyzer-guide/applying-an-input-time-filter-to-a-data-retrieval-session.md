@@ -2,10 +2,10 @@
 title: "Applying an Input Time Filter to a Data Retrieval Session | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2016"
-ms.prod: "windows-server-threshold"
+ms.service: windows-server-threshold
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: "networking"
+ms.subservice: networking
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4ac8a4e9-bc8f-4db1-aba2-9d80b9f7f316
